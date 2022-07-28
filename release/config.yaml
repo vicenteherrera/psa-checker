@@ -1,0 +1,6 @@
+# App configurations
+filename: "in.yaml"
+type: "yaml"
+test: "privileged"
+break: false
+

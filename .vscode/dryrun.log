@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vicente/code/_vh/psa-checker'
+go build -o ./release/starter-go cmd/starter-go/main.go
+if groups $USER | grep -q '\bdocker\b'; then RUNSUDO="" ; else RUNSUDO="sudo" ; fi && \
+    $RUNSUDO docker build -f build/Containerfile -t vicenteherrera/starter-go .
+if groups $USER | grep -q '\bdocker\b'; then RUNSUDO="" ; else RUNSUDO="sudo" ; fi && \
+    $RUNSUDO docker run --rm -it \
+	-v "$(pwd)"/test/in.yaml:/bin/in.yaml \
+	-u $(id -u ${USER}):$(id -g ${USER}) \
+	vicenteherrera/starter-go
+make: Leaving directory '/home/vicente/code/_vh/psa-checker'
+ 

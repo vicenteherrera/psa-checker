@@ -1,0 +1,13 @@
+FROM golang:1.18 as builder
+WORKDIR /source
+COPY . .
+RUN make build-release && \
+    chmod -R a+rx /source/release
+
+FROM gcr.io/distroless/base
+WORKDIR /data
+WORKDIR /app
+COPY --from=builder /source/release/ .
+
+ENTRYPOINT [ "/app/psa-checker"]
+CMD ["--filename","in.yaml"]

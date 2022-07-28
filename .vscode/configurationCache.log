@@ -1,0 +1,1 @@
+{"buildTargets":["all","build","build-release","container-build","container-build-run","container-run","dependecies","install_ginkgo","run","test","update"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

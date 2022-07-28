@@ -1,0 +1,488 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jul 28 19:13:54 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+HOMEBREW_PREFIX = /home/linuxbrew/.linuxbrew
+# environment
+STARSHIP_SESSION_KEY = 9035168240528206
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+MANDATORY_PATH = /usr/share/gconf/gnome-xorg.mandatory.path
+# environment
+OP_AWS = 
+# environment
+LC_NAME = en_GB.UTF-8
+# environment
+LC_NUMERIC = en_GB.UTF-8
+# environment
+VSCODE_CWD = /home/vicente/code/_vh/psa-checker
+# environment
+GPG_TTY = /dev/pts/0
+# environment
+WINDOWID = 159383587
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = en_GB.UTF-8
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+GOPATH = /home/vicente/.go/
+# environment
+rvm_bin_path = /home/vicente/.rvm/bin
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/vicente/code/_vh/psa-checker
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/gnome-xorg:/usr/share/gnome:/home/vicente/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/vicente/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# environment
+HOMEBREW_REPOSITORY = /home/linuxbrew/.linuxbrew/Homebrew
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GEM_PATH = /home/vicente/.gem/bin
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'makefile', line 3)
+TARGET_BIN = starter-go
+# makefile
+CURDIR := /home/vicente/code/_vh/psa-checker
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/gnupg/S.gpg-agent.ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-gnome-xorg:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome-xorg
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 36348
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/terminology_terminology.desktop
+# environment
+SESSION_MANAGER = local/ywing:@/tmp/.ICE-unix/4928,unix/ywing:/tmp/.ICE-unix/4928
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man:
+# environment
+AWS_PROFILE = vicen
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# environment
+INFOPATH = /home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# environment
+rvm_path = /home/vicente/.rvm
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = 5VNJ37hVyZ_vQpY8tyg51NmupfGxJTD7wYW8ob5EixNeGI_5TO0e
+# environment
+PATH = /home/vicente/code/_vh/scripts:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/vicente/.yarn/bin/markmap:/home/vicente/node_modules/.bin:/home/vicente/.gem/bin:/home/vicente/.go//bin:/usr/local/go/bin:/home/vicente/.local/bin:/home/vicente/.poetry/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/vicente/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vicente/.rvm/bin:/home/vicente/.krew/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_GB.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/vicente/snap/code/common
+# environment
+LC_TIME = en_GB.UTF-8
+# environment
+SNAP = /snap/code/102
+# environment
+INVOCATION_ID = 87e2c411d5c3454189c10e197f8688e5
+# environment
+SNAP_REVISION = 102
+# environment
+SNAP_REAL_HOME = /home/vicente
+# makefile (from 'makefile', line 5)
+CONTAINER_IMAGE = vicenteherrera/starter-go
+# environment
+USERNAME = vicente
+# environment
+TERM_PROGRAM = terminology
+# environment
+LC_TELEPHONE = en_GB.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=34;41:ca=30;41:tw=30;42:ow=30;43:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome-xorg
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XTERM_256_COLORS = 1
+# environment
+LOGNAME = vicente
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/terminology_terminology.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 4947
+# environment
+rvm_version = 1.29.12 (latest)
+# environment
+DISPLAY = :0
+# environment
+USER = vicente
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# environment
+TERMINOLOGY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/gnome-xorg.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/102
+# environment
+SNAP_CONTEXT = 5VNJ37hVyZ_vQpY8tyg51NmupfGxJTD7wYW8ob5EixNeGI_5TO0e
+# environment
+MANAGERPID = 3012
+# environment
+HOMEBREW_CELLAR = /home/linuxbrew/.linuxbrew/Cellar
+# environment
+LC_MEASUREMENT = en_GB.UTF-8
+# environment
+STARSHIP_SHELL = fish
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 11000
+# environment
+KEYS = /home/vicente/.keys
+# environment
+LC_PAPER = en_GB.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GEM_HOME = /home/vicente/.gem
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/vicente/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:59557
+# environment
+GOMODCACHE = /home/vicente/.go/pkg/mod
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/vicente
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6f8960c0-1.69.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+PAPERSIZE = a4
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 3b889b09
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'makefile', line 4)
+MAIN_DIR = cmd/starter-go
+# environment
+rvm_prefix = /home/vicente
+# environment
+SNAP_USER_DATA = /home/vicente/snap/code/102
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+TERM_PROGRAM_VERSION = 1.9.0
+# environment
+GDMSESSION = gnome-xorg
+# environment
+LC_IDENTIFICATION = en_GB.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+ 
+# Load=154/1024=15%, Rehash=0, Collisions=18/189=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64770, inode 4332329): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+update:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 23):
+	go mod tidy
+
+container-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 38):
+	@if groups $$USER | grep -q '\bdocker\b'; then RUNSUDO="" ; else RUNSUDO="sudo" ; fi && \
+	    $$RUNSUDO docker build -f build/Containerfile -t ${CONTAINER_IMAGE} .
+
+container-run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 42):
+	@if groups $$USER | grep -q '\bdocker\b'; then RUNSUDO="" ; else RUNSUDO="sudo" ; fi && \
+	    $$RUNSUDO docker run --rm -it \
+		-v "$$(pwd)"/test/in.yaml:/bin/in.yaml \
+		-u $$(id -u $${USER}):$$(id -g $${USER}) \
+		${CONTAINER_IMAGE}
+
+build-release:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 13):
+	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
+	strip ./release/${TARGET_BIN}
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build container-build-run
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 17):
+	cd ./release && ./${TARGET_BIN}
+
+install_ginkgo:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 32):
+	go install -mod=mod github.com/onsi/ginkgo/v2/ginkgo
+	go get github.com/onsi/gomega/...
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
+#  recipe to execute (from 'makefile', line 10):
+	go build -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
+
+container-build-run: container-build container-run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dependecies:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 28):
+	go version
+	ginkgo version
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 20):
+	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -progress -cover -r
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 09:32:35.380899
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: build test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/36=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 247 B / avg = 8 B
+# current buf: size = 8162 B / used = 247 B / count = 28 / avg = 8 B
+
+# strcache performance: lookups = 54 / hit rate = 48%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=0/54=0%
+# Finished Make data base on Thu Jul 28 19:13:54 2022
+
+ 
