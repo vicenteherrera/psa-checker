@@ -6,9 +6,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"
+	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/scheme"
 	api "k8s.io/pod-security-admission/api"
 	policy "k8s.io/pod-security-admission/policy"
+
+	appsv1 "k8s.io/api/apps/v1"
 )
 
 // First declare all public methods of the class
@@ -32,6 +35,8 @@ type client struct { //lowercase first letter = private
 func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first letter = public
 
 	var response AnalyzerResponse
+	var podMetadata v1.ObjectMeta
+	var podSpec corev1.PodSpec
 
 	// Processing
 	log.Info("Analyzing " + s.filepath)
@@ -40,14 +45,21 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 	decode := scheme.Codecs.UniversalDeserializer().Decode
 	stream, _ := ioutils.ReadFile(s.filepath)
 	obj, gKV, _ := decode(stream, nil, nil)
-	if gKV.Kind != "Pod" {
+	if gKV.Kind == "Pod" {
+
+		pod := obj.(*corev1.Pod)
+		podMetadata = pod.ObjectMeta
+		podSpec = pod.Spec
+		fmt.Printf("Pod %v\n", podMetadata.Name)
+	} else if gKV.Kind == "Deployment" {
+		deployment := obj.(*appsv1.Deployment)
+		podMetadata = deployment.ObjectMeta
+		podSpec = deployment.Spec.Template.Spec
+		fmt.Printf("Deployment %v\n", podMetadata.Name)
+	} else {
 		response.AnalysisStatus = "error"
 		return response, nil
 	}
-	pod := obj.(*corev1.Pod)
-	podMetadata := pod.ObjectMeta
-	podSpec := pod.Spec
-	//podMetadata, podSpec, err := api.PodSpecExtractor.ExtractPodSpec(pod)
 
 	// Set up evaluator
 
@@ -61,13 +73,11 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 
 	// Evaluate
 	results := evaluator.EvaluatePod(lv, &podMetadata, &podSpec)
-	fmt.Printf("PSS level %v\n", lv.Level)
+	fmt.Printf("  PSS level %v\n", lv.Level)
 	for i := range results {
 		if !results[i].Allowed {
-			fmt.Printf("Check: %v\n", i)
-			fmt.Printf("  Allowed: %v\n", results[i].Allowed)
-			fmt.Printf("  ForbiddenReason: %v\n", results[i].ForbiddenReason)
-			fmt.Printf("  ForbiddenDetail: %v\n", results[i].ForbiddenDetail)
+			fmt.Printf("    Check %v failed: %v\n", i, results[i].ForbiddenReason)
+			fmt.Printf("      %v\n", results[i].ForbiddenDetail)
 		}
 	}
 

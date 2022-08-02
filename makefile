@@ -14,7 +14,7 @@ build-release:
 	strip ./release/${TARGET_BIN}
 
 run:
-	cd ./release && ./${TARGET_BIN} --filename ../test/pod.yaml
+	cd ./release && ./${TARGET_BIN} --filename ../test/deployment.yaml
 
 test:
 	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -progress -cover -r
