@@ -4,7 +4,7 @@ TARGET_BIN=psa-checker
 MAIN_DIR=cmd/psa-checker
 CONTAINER_IMAGE=vicenteherrera/psa-checker
 
-all: build container-build-run
+all: build run
 
 build:
 	go build -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
@@ -14,7 +14,7 @@ build-release:
 	strip ./release/${TARGET_BIN}
 
 run:
-	cd ./release && ./${TARGET_BIN}
+	cd ./release && ./${TARGET_BIN} --filename ../test/pod.yaml
 
 test:
 	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -progress -cover -r
