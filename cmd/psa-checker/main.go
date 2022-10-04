@@ -5,9 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	log "github.com/sirupsen/logrus"
 	analyzer "github.com/vicenteherrera/psa-checker/pkg/analyzer/containerfile"
-	"github.com/vicenteherrera/psa-checker/pkg/sample"
 
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
@@ -22,13 +20,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	// Start log
-	log.SetOutput(os.Stdout)
-	log.SetLevel(log.TraceLevel)
-	log.Info("starter-go example program running")
-
 	// Main processing
-	sample.ShowParams()
 	client := analyzer.NewClient(viper.GetString("filename"))
 	client.AnalyzeFile()
 

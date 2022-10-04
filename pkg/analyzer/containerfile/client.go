@@ -4,7 +4,6 @@ import (
 	"fmt"
 	ioutils "io/ioutil"
 
-	log "github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/scheme"
@@ -39,7 +38,6 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 	var podSpec corev1.PodSpec
 
 	// Processing
-	log.Info("Analyzing " + s.filepath)
 
 	// Read pod
 	decode := scheme.Codecs.UniversalDeserializer().Decode
@@ -82,7 +80,6 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 	}
 
 	response.AnalysisStatus = "analyzed"
-	log.Info(s.filepath + " : " + response.AnalysisStatus)
 
 	return response, nil
 }
