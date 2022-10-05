@@ -45,9 +45,12 @@ func configure() error {
 	viper.SetConfigType("yaml")              // REQUIRED if the config file does not have the extension in the name
 	viper.AddConfigPath("$HOME/.starter-go") // call multiple times to add many search paths
 	viper.AddConfigPath(".")                 // optionally look for config in the working directory
-	err := viper.ReadInConfig()              // Find and read the config file
-	if err != nil {                          // Handle errors reading the config file
-		panic(fmt.Errorf("fatal error config file: %w", err))
+	if err := viper.ReadInConfig(); err != nil {
+		if _, ok := err.(viper.ConfigFileNotFoundError); ok {
+			// Config file not found; ignored error
+		} else {
+			panic(fmt.Errorf("fatal error config file: %w", err))
+		}
 	}
 
 	// Command line parameter setup (precedence over config file)
