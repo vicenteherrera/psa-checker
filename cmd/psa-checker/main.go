@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-
+	var exitCode int
 	// Check for errors in configuration
 	if err := configure(); err != nil {
 		fmt.Printf("%s \n\n", err)
@@ -21,9 +21,18 @@ func main() {
 	}
 
 	// Main processing
-	client := analyzer.NewClient(viper.GetString("filename"))
-	client.AnalyzeFile()
-
+	client := analyzer.NewClient(viper.GetString("filename"), viper.GetString("level"))
+	response, _ := client.AnalyzeFile()
+	// response, err := client.AnalyzeFile()
+	// if err != nil {
+	// 	log.Error(err)
+	// }
+	if response.Allowed {
+		exitCode = 0
+	} else {
+		exitCode = 1
+	}
+	os.Exit(exitCode)
 }
 
 func configure() error {
@@ -44,7 +53,7 @@ func configure() error {
 	// Command line parameter setup (precedence over config file)
 	pflag.StringP("filename", "f", "", "Name of the file to test")
 	pflag.StringP("type", "t", "yaml", "File type")
-	pflag.String("test", "privileged", "Test to perform on file")
+	pflag.String("level", "baseline", "Pod Security Standard level to test")
 	pflag.BoolP("break", "b", false, "Break on first error")
 
 	// Bind all flags for viper.Get
