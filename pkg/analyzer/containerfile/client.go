@@ -16,6 +16,7 @@ import (
 	policy "k8s.io/pod-security-admission/policy"
 
 	appsv1 "k8s.io/api/apps/v1"
+	batchv1 "k8s.io/api/batch/v1"
 
 	yaml "gopkg.in/yaml.v3"
 )
@@ -127,6 +128,16 @@ func (s *client) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind, leve
 		name = replicaset.ObjectMeta.Name
 		podMetadata = replicaset.ObjectMeta
 		podSpec = replicaset.Spec.Template.Spec
+	case "Job":
+		job := obj.(*batchv1.Job)
+		name = job.ObjectMeta.Name
+		podMetadata = job.ObjectMeta
+		podSpec = job.Spec.Template.Spec
+	case "CronJob":
+		cronJob := obj.(*batchv1.CronJob)
+		name = cronJob.ObjectMeta.Name
+		podMetadata = cronJob.ObjectMeta
+		podSpec = cronJob.Spec.JobTemplate.Spec.Template.Spec
 	default:
 		fmt.Printf("Kind not evaluable: %v\n", gKV.Kind)
 		return true, nil
