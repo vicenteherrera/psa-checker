@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	analyzer "github.com/vicenteherrera/psa-checker/pkg/analyzer/containerfile"
+	analyzer "github.com/vicenteherrera/psa-checker/pkg/analyzer"
 
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
