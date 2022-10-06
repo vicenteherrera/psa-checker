@@ -11,7 +11,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/kubernetes/scheme"
+	"k8s.io/kubectl/pkg/scheme"
 	api "k8s.io/pod-security-admission/api"
 	policy "k8s.io/pod-security-admission/policy"
 
@@ -40,38 +40,40 @@ type client struct { //lowercase first letter = private
 	level    string
 }
 
-// Last public methods implementation
 func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first letter = public
 
 	var response AnalyzerResponse
-	var obj runtime.Object
-	var gKV *schema.GroupVersionKind
-	var err2 error
-	var allowed bool
 
 	// Read file
-
 	stream, err := ioutils.ReadFile(s.filepath)
 	if err != nil {
 		response.AnalysisStatus = "error"
 		return response, err
 	}
 
-	// Set up evaluator
+	response.Allowed = true
 
-	evaluator, _ := policy.NewEvaluator(policy.DefaultChecks())
+	// iterate yaml documents
+	response, err = s.iterate(stream, s.level)
 
+	return response, err
+}
+
+func (s *client) iterate(stream []byte, level string) (AnalyzerResponse, error) {
+	var allowed bool
+	var obj runtime.Object
+	var gKV *schema.GroupVersionKind
+	var err, err2 error
+	var response AnalyzerResponse
+	dec := yaml.NewDecoder(bytes.NewReader(stream))
+	decode := scheme.Codecs.UniversalDeserializer().Decode
 	latest, _ := api.ParseVersion("latest")
-	olevel, _ := api.ParseLevel(s.level)
+	olevel, _ := api.ParseLevel(level)
 	levelVersion := api.LevelVersion{
 		Level:   olevel,
 		Version: latest,
 	}
-	decode := scheme.Codecs.UniversalDeserializer().Decode
-	response.Allowed = true
 
-	// iterate yaml documents
-	dec := yaml.NewDecoder(bytes.NewReader(stream))
 	for {
 		var node yaml.Node
 		err := dec.Decode(&node)
@@ -95,17 +97,17 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 		}
 
 		//process response
-		allowed, err = s.evaluate(obj, gKV, levelVersion, evaluator)
+		allowed, err = s.evaluate(obj, gKV, levelVersion)
 		response.Allowed = response.Allowed && allowed
 	}
-
 	return response, err
 }
 
-func (s *client) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind, levelVersion api.LevelVersion, evaluator policy.Evaluator) (bool, error) {
+func (s *client) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind, levelVersion api.LevelVersion) (bool, error) {
 	var podMetadata v1.ObjectMeta
 	var podSpec corev1.PodSpec
 	var name string
+	evaluator, _ := policy.NewEvaluator(policy.DefaultChecks())
 
 	switch gKV.Kind {
 	case "Pod":
