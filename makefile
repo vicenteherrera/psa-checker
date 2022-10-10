@@ -17,7 +17,10 @@ run:
 	cd ./release && ./${TARGET_BIN} --level restricted --filename ../test/multi.yaml ||:
 
 test:
-	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -progress -cover -r
+	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -progress -cover -r -v
+
+test-noginkgo:
+	go test -v ./... -args -ginkgo.v
 
 update:
 	go mod tidy

@@ -31,24 +31,36 @@ func NewPsaEvaluator() PsaEvaluator {
 type psaEvaluator struct {
 }
 
-func (e *psaEvaluator) Evaluate(stream []byte, level string) (AnalyzerResponse, error) {
+func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResponse, error) {
 	var allowed bool
 	var obj runtime.Object
 	var gKV *schema.GroupVersionKind
 	var err, err2 error
 	var response AnalyzerResponse
-	dec := yaml.NewDecoder(bytes.NewReader(stream))
-	decode := scheme.Codecs.UniversalDeserializer().Decode
-	latest, _ := api.ParseVersion("latest")
-	olevel, _ := api.ParseLevel(level)
+	var latest api.Version
+	var level api.Level
+
+	yamlDecoder := yaml.NewDecoder(bytes.NewReader(stream))
+	k8sDecode := scheme.Codecs.UniversalDeserializer().Decode
+
+	//TODO: Accept PSS version as a parameter
+	latest, err = api.ParseVersion("latest")
+	if err != nil {
+		panic(err)
+	}
+	level, err = api.ParseLevel(levelString)
+	if err != nil {
+		panic(err)
+	}
+
 	levelVersion := api.LevelVersion{
-		Level:   olevel,
+		Level:   level,
 		Version: latest,
 	}
 
 	for {
 		var node yaml.Node
-		err := dec.Decode(&node)
+		err = yamlDecoder.Decode(&node)
 		if errors.Is(err, io.EOF) {
 			break
 		}
@@ -62,7 +74,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, level string) (AnalyzerResponse, 
 		}
 
 		// prepare yaml document for evaluation
-		obj, gKV, err2 = decode(content, nil, nil)
+		obj, gKV, err2 = k8sDecode(content, nil, nil)
 		if err2 != nil {
 			response.AnalysisStatus = "error"
 			continue
@@ -72,7 +84,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, level string) (AnalyzerResponse, 
 		allowed, err = e.evaluate(obj, gKV, levelVersion)
 		response.Allowed = response.Allowed && allowed
 	}
-	return response, err
+	return response, nil
 }
 
 func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind, levelVersion api.LevelVersion) (bool, error) {
