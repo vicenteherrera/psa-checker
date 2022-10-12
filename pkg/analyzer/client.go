@@ -1,7 +1,11 @@
 package analyzer
 
 import (
+	"bufio"
+	"errors"
+	"fmt"
 	ioutils "io/ioutil"
+	"os"
 )
 
 // First declare all public methods of the class
@@ -26,12 +30,31 @@ type client struct { //lowercase first letter = private
 func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first letter = public
 
 	var response AnalyzerResponse
+	var stream []byte
+	var input string
+	var err error
 
 	// Read file
-	stream, err := ioutils.ReadFile(s.filepath)
-	if err != nil {
-		response.AnalysisStatus = "error"
-		return response, err
+	if s.filepath != "" {
+		stream, err = ioutils.ReadFile(s.filepath)
+		if err != nil {
+			response.AnalysisStatus = "error"
+			return response, err
+		}
+	} else {
+		fmt.Printf("Reading from stdinv\n")
+		scanner := bufio.NewScanner(os.Stdin)
+		for scanner.Scan() {
+			input += scanner.Text() + "\n"
+		}
+		if scanner.Err() != nil {
+			return response, scanner.Err()
+		}
+		stream = []byte(input)
+
+		if len(stream) == 0 {
+			return response, errors.New("Empty imput stream")
+		}
 	}
 
 	response.Allowed = true

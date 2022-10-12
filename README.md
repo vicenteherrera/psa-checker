@@ -31,15 +31,15 @@ Deployment nginx-deployment
 
 ```bash
 # Check if a kubernetes file is compliant with PSS level "restricted"
-psa-check deployment.yaml --test restricted
+psa-check -f deployment.yaml --level restricted
 
 # Check if a kubernetes file is compliant with PSS level "baseline"
-psa-check deployment.yaml --test baseline
+psa-check -f deployment.yaml --level baseline
 
-# Break on first error encountered
-psa-check deployment.yaml --test baseline --break
+# You can process from stdin
+helm template . | psa-check --level restricted
 
-# Help al see all parameters
+# See all parameters
 psa-check --help
 ```
 

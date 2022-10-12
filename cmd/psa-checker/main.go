@@ -1,7 +1,6 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"os"
 
@@ -68,9 +67,9 @@ func configure() error {
 	pflag.Parse()
 
 	// Validation of parameters
-	if viper.GetString("filename") == "" {
-		return errors.New("filename is required")
-	}
+	// if viper.GetString("filename") == "" {
+	// 	return errors.New("filename is required")
+	// }
 
 	return nil
 }

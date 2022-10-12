@@ -20,6 +20,7 @@ var unrelatedYaml []byte
 var podYamlBaseline, podYamlRestricted, podYamlPrivileged []byte
 
 func loadTestFiles() {
+	//TODO: feal pod level manifests
 	podYamlBaseline, err = os.ReadFile("../../test/pod-baseline.yaml")
 	if err != nil {
 		panic(err)

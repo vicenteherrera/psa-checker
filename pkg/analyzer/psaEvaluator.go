@@ -77,6 +77,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 		obj, gKV, err2 = k8sDecode(content, nil, nil)
 		if err2 != nil {
 			response.AnalysisStatus = "error"
+			//TODO: Take into consideration break parameter flag
 			continue
 		}
 
@@ -84,6 +85,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 		allowed, err = e.evaluate(obj, gKV, levelVersion)
 		response.Allowed = response.Allowed && allowed
 	}
+	//TODO: Return error in case of... error
 	return response, nil
 }
 
@@ -125,6 +127,7 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 		podMetadata = cronJob.ObjectMeta
 		podSpec = cronJob.Spec.JobTemplate.Spec.Template.Spec
 	default:
+		//TODO: optional log message on verbose output
 		fmt.Printf("Kind not evaluable: %v\n", gKV.Kind)
 		return true, nil
 	}
@@ -134,6 +137,7 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 	// Evaluate
 	allowed := true
 	results := evaluator.EvaluatePod(levelVersion, &podMetadata, &podSpec)
+	//TODO: optional log message on verbose output
 	fmt.Printf("  PSS level %v %v\n", levelVersion.Level, levelVersion.Version)
 	for i := range results {
 		if !results[i].Allowed {
@@ -143,5 +147,6 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 		}
 	}
 
+	//TODO: make error return error
 	return allowed, nil
 }
