@@ -59,6 +59,8 @@ func configure() error {
 	pflag.String("level", "baseline", "Pod Security Standard level to test")
 	pflag.BoolP("break", "b", false, "Break on first error")
 
+	// TODO: Make filename required, or admit pipe strings, error on empty one, and on extra parameters
+
 	// Bind all flags for viper.Get
 	pflag.VisitAll(func(flag *pflag.Flag) { viper.BindPFlag(flag.Name, flag) })
 
@@ -66,7 +68,7 @@ func configure() error {
 	pflag.Parse()
 
 	// Validation of parameters
-	if viper.Get("filename") == "" {
+	if viper.GetString("filename") == "" {
 		return errors.New("filename is required")
 	}
 
