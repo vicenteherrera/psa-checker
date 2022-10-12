@@ -57,7 +57,7 @@ func configure() error {
 	pflag.StringP("filename", "f", "", "Name of the file to test")
 	pflag.StringP("type", "t", "yaml", "File type")
 	pflag.String("level", "baseline", "Pod Security Standard level to test")
-	pflag.BoolP("break", "b", false, "Break on first error")
+	// pflag.BoolP("break", "b", false, "Break on first error")
 
 	// TODO: Make filename required, or admit pipe strings, error on empty one, and on extra parameters
 
