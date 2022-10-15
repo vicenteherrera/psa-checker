@@ -1,0 +1,26 @@
+name: Go build
+run-name: ${{ github.actor }} is executing GitHub actions for go build 🚀
+on: 
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+  release:
+    types:
+      - published
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: '>=1.18.0'
+      - run: make build
+      - run: make run
+      - run: make test
