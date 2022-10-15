@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"errors"
 	"fmt"
 	"os"
 
@@ -28,8 +29,12 @@ psa-checker help`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		var exitCode int
 
-		filename, _ := cmd.Flags().GetString("filename")
-		level, _ := cmd.Flags().GetString("level")
+		filename := viper.GetViper().GetString("filename")
+		level := viper.GetViper().GetString("level")
+
+		if filename == "" {
+			return errors.New("filename parameter is required")
+		}
 
 		fmt.Fprintln(os.Stderr, "filename:", filename)
 
@@ -71,7 +76,10 @@ func init() {
 	rootCmd.Flags().StringP("level", "l", "baseline", "Pod Security Standard level to test")
 	// rootCmd.Flags().BoolP("break", "b", false, "Break on first error")
 
-	//rootCmd.MarkFlagRequired("filename")
+	viper.BindPFlag("filename", rootCmd.Flags().Lookup("filename"))
+	viper.BindPFlag("level", rootCmd.Flags().Lookup("level"))
+
+	// rootCmd.MarkFlagRequired("filename")
 
 }
 
