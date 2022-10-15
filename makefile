@@ -1,7 +1,7 @@
 .PHONY: build test
 
 TARGET_BIN=psa-checker
-MAIN_DIR=cmd/psa-checker
+MAIN_DIR=./
 CONTAINER_IMAGE=vicenteherrera/psa-checker
 
 all: build run
