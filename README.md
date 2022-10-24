@@ -37,7 +37,9 @@ psa-check -f deployment.yaml --level restricted
 psa-check -f deployment.yaml --level baseline
 
 # You can process from stdin
-helm template . | psa-check --level restricted
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+helm template prometheus-community/kube-prometheus-stack | psa-checker --level restricted -f -
 
 # See all parameters
 psa-check --help

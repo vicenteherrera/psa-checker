@@ -35,7 +35,7 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 	var err error
 
 	// Read file
-	if s.filepath != "" {
+	if s.filepath != "" && s.filepath != "-" {
 		stream, err = ioutils.ReadFile(s.filepath)
 		if err != nil {
 			response.AnalysisStatus = "error"
