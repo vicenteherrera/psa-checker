@@ -1,5 +1,5 @@
-name: Go build
-run-name: ${{ github.actor }} is executing GitHub actions for go build 🚀
+name: Go build, test and run
+run-name: ${{ github.actor }} go build, test and run 🚀
 on: 
   push:
     branches:
@@ -21,6 +21,8 @@ jobs:
       - uses: actions/setup-go@v3
         with:
           go-version: '>=1.18.0'
+      - run: go version
+      - run: make install_ginkgo
       - run: make build
-      - run: make run
       - run: make test
+      - run: make run
