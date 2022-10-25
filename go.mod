@@ -6,7 +6,6 @@ require (
 	github.com/onsi/ginkgo/v2 v2.2.0
 	github.com/onsi/gomega v1.21.1
 	github.com/spf13/cobra v1.4.0
-	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.13.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/kubectl v0.25.2
@@ -17,6 +16,7 @@ require (
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 

@@ -57,8 +57,6 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 		}
 	}
 
-	response.Allowed = true
-
 	// iterate yaml documents
 	evaluator := NewPsaEvaluator()
 	response, err = evaluator.Evaluate(stream, s.level)

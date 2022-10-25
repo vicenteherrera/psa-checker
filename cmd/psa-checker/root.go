@@ -42,8 +42,10 @@ psa-checker help`,
 		client := analyzer.NewClient(filename, level)
 		response, _ := client.AnalyzeFile()
 		if response.Allowed {
+			fmt.Fprintln(os.Stderr, "Manifest(s) comply with PSS level")
 			exitCode = 0
 		} else {
+			fmt.Fprintln(os.Stderr, "Manifest(s) do not comply with PSS level")
 			exitCode = 1
 		}
 		os.Exit(exitCode)

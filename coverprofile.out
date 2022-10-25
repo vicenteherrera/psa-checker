@@ -1,8 +1,8 @@
 mode: atomic
 github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:17.54,22.2 1 0
-github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:30.58,38.22 5 0
+github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:30.58,38.43 5 0
 github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:60.2,66.22 4 0
-github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:38.22,40.17 2 0
+github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:38.43,40.17 2 0
 github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:40.17,43.4 2 0
 github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:44.8,47.22 3 0
 github.com/vicenteherrera/psa-checker/pkg/analyzer/client.go:50.3,50.27 1 0

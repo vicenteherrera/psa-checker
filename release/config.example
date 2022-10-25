@@ -1,0 +1,6 @@
+# rename to config.yaml and put in on current directory to use it
+
+# App configurations
+filename: "in.yaml"
+test: "privileged"
+

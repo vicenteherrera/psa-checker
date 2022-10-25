@@ -42,6 +42,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 
 	yamlDecoder := yaml.NewDecoder(bytes.NewReader(stream))
 	k8sDecode := scheme.Codecs.UniversalDeserializer().Decode
+	response.Allowed = true
 
 	//TODO: Accept PSS version as a parameter
 	latest, err = api.ParseVersion("latest")

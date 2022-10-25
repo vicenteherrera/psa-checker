@@ -4,7 +4,10 @@ TARGET_BIN=psa-checker
 MAIN_DIR=./
 CONTAINER_IMAGE=vicenteherrera/psa-checker
 
-all: build run
+all: update build run test-e2e
+
+update:
+	go mod tidy
 
 build:
 	go build -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
@@ -16,14 +19,17 @@ build-release:
 run:
 	cd ./release && ./${TARGET_BIN} --level restricted --filename ../test/multi.yaml ||:
 
+# Tests
+
 test:
 	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -progress -cover -r -v
 
 test-noginkgo:
 	go test -v ./... -args -ginkgo.v
 
-update:
-	go mod tidy
+test-e2e:
+	@cd ./test && ./test-success.sh || ( echo "[  error  ] Compliant manifests test error" && exit 1 )
+	@cd ./test && ./test-fail.sh || ( echo "[  error  ] Non compliant manifests test error" && exit 1 )
 
 # dependencies
 
