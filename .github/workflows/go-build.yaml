@@ -25,4 +25,4 @@ jobs:
       - run: make install_ginkgo
       - run: make build
       - run: make test
-      - run: make run
+      - run: make test-e2e
