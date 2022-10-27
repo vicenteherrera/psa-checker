@@ -82,18 +82,25 @@ for dic_chart in charts:
     log = ""
     if ( gen_template >0 ):
         level = "error"
+        log = temp_filename
     else:
         log_baseline = logs_dir + "/" + repo + "_" + chart + "_baseline.log"
         log_restricted = logs_dir + "/" + repo + "_" + chart + "_restricted.log"
 
         baseline   = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level baseline   -f - >" + log_baseline)
         restricted = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level restricted -f - >" + log_restricted)
+        
         if ( restricted == 0 and baseline == 0):
-            level = "restricted"
             log = log_restricted
+            with open(log_restricted, "r") as file: 
+                data = file.read().replace("\n", "")
+                if data != "Reading from stdinv":
+                    level = "restricted"
+                else:
+                    level = "empty"
         elif (baseline==0):
+            log = log_baseline
             level = "baseline"
-            log = log_restricted
         else:
             level = "privileged"
             log = log_baseline
@@ -109,7 +116,7 @@ for dic_chart in charts:
     }
     dic_chart["pss"] = psa_dict
 
-    if i % 10 == 0 or True:
+    if i % 10 == 0:
         print ("# Saving whole yaml")
         with open(charts_pss_filename, 'w') as file:
             yaml.dump(charts, file)
