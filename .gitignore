@@ -1,4 +1,3 @@
 .vscode/**
 release/psa-checker
-util/logs/**
-util/temp.yaml
+util/hub_eval/result/*
