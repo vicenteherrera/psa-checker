@@ -48,6 +48,7 @@ else:
 
 
 print("# Iterating charts")
+i=0
 for dic_chart in charts:
     repo        = dic_chart["repository"]["name"]
     url         = dic_chart["repository"]["url"]
@@ -55,12 +56,12 @@ for dic_chart in charts:
     app_version = dic_chart["app_version"]
     parts       = dic_chart["url"].split("/")
     chart        = get_chart_name( dic_chart["url"] )
-
+    i+=1
     if ( repo + " " +  chart <= latest ):
-        print("Skipping " + repo + " " +  chart)
+        print("Skipping " + i + " " + repo + " " +  chart)
         continue
 
-    print( "# " + repo + " " + chart + " " + url)
+    print( "# ["+ str(i) + "/" + str(len(charts))+ "] " + repo + " " + chart + " " + url)
     os.system("helm repo add " + repo + " " + url)
     os.system("helm repo update " + repo)
     gen_template = os.system("helm template " + repo + "/" + chart + " --version " + version + " > temp.yaml")
