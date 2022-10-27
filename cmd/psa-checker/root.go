@@ -36,16 +36,16 @@ psa-checker help`,
 			return errors.New("filename parameter is required")
 		}
 
-		fmt.Fprintln(os.Stderr, "filename:", filename)
+		// fmt.Fprintln(os.Stderr, "filename:", filename)
 
 		// Main processing
 		client := analyzer.NewClient(filename, level)
 		response, _ := client.AnalyzeFile()
 		if response.Allowed {
-			fmt.Fprintln(os.Stderr, "Manifest(s) comply with PSS level")
+			fmt.Fprintln(os.Stderr, "Manifest(s) comply with PSS level "+level)
 			exitCode = 0
 		} else {
-			fmt.Fprintln(os.Stderr, "Manifest(s) do not comply with PSS level")
+			fmt.Fprintln(os.Stderr, "Manifest(s) do not comply with PSS level "+level)
 			exitCode = 1
 		}
 		os.Exit(exitCode)
