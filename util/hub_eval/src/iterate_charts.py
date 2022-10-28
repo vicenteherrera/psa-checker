@@ -58,6 +58,7 @@ charts.sort(key=lambda x: x["repository"]["name"] + " " + get_chart_name( x["url
 
 print("# Iterating charts")
 i=0
+j=0
 now = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
 for dic_chart in charts:
     repo        = dic_chart["repository"]["name"]
@@ -74,36 +75,39 @@ for dic_chart in charts:
             print("Skipping " + str(i) + " " + repo + " " +  chart + " " + version)
             continue
 
-    print( "# ["+ str(i) + "/" + str(len(charts))+ "] " + repo + " " + chart + " " + url)
-    os.system("helm repo add " + repo + " " + url)
-    os.system("helm repo update " + repo)
-    gen_template = os.system("helm template " + repo + "/" + chart + " --version " + version + " >" + temp_filename)
-
     log = ""
-    if ( gen_template >0 ):
-        level = "error"
-        log = temp_filename
-    else:
-        log_baseline = logs_dir + "/" + repo + "_" + chart + "_baseline.log"
-        log_restricted = logs_dir + "/" + repo + "_" + chart + "_restricted.log"
+    print( "# ["+ str(i) + "/" + str(len(charts))+ "] " + repo + " " + chart + " " + url)
 
-        baseline   = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level baseline   -f - >" + log_baseline)
-        restricted = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level restricted -f - >" + log_restricted)
-        
-        if ( restricted == 0 and baseline == 0):
-            log = log_restricted
-            with open(log_restricted, "r") as file: 
-                data = file.read().replace("\n", "")
-                if data != "Reading from stdinv":
-                    level = "restricted"
-                else:
-                    level = "empty"
-        elif (baseline==0):
-            log = log_baseline
-            level = "baseline"
+    os.system("helm repo add " + repo + " " + url)
+    repo_update = os.system("helm repo update " + repo)
+    if repo_update >0:
+        level = "error_download"
+    else:
+        gen_template = os.system("helm template " + repo + "/" + chart + " --version " + version + " >" + temp_filename)
+        if ( gen_template >0 ):
+            level = "error_template"
+            log = temp_filename
         else:
-            level = "privileged"
-            log = log_baseline
+            log_baseline = logs_dir + "/" + repo + "_" + chart + "_baseline.log"
+            log_restricted = logs_dir + "/" + repo + "_" + chart + "_restricted.log"
+
+            baseline   = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level baseline   -f - >" + log_baseline)
+            restricted = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level restricted -f - >" + log_restricted)
+            
+            if ( restricted == 0 and baseline == 0):
+                log = log_restricted
+                with open(log_restricted, "r") as file: 
+                    data = file.read().replace("\n", "")
+                    if data != "Reading from stdinv":
+                        level = "restricted"
+                    else:
+                        level = "empty"
+            elif (baseline==0):
+                log = log_baseline
+                level = "baseline"
+            else:
+                level = "privileged"
+                log = log_baseline
 
     print("Level: " + level)
 
@@ -116,7 +120,8 @@ for dic_chart in charts:
     }
     dic_chart["pss"] = psa_dict
 
-    if i % 10 == 0:
+    j+=1
+    if j % 10 == 0:
         print ("# Saving whole yaml")
         with open(charts_pss_filename, 'w') as file:
             yaml.dump(charts, file)

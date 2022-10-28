@@ -24,13 +24,42 @@ charts_source.sort(key=lambda x: x["repository"]["name"] + " " + get_chart_name(
 
 with open(doc_filename, "w") as list_md:
 
-    print("# Writing header")
-    list_md.write("| repo | chart | level | url | version | app version |\n")
-    list_md.write("|------|------|------|------|------|------|\n")
 
     print("# Iterating charts")
     i=0
     now = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
+    count = {
+        "total":0,
+        "privileged":0,
+        "baseline":0,
+        "restricted":0
+    }
+
+    print("# Counting")
+    for dic_chart in charts_source:
+        level = "unknown"
+        i += 1
+        if "pss" in dic_chart:
+            level = dic_chart["pss"]["level"]
+        count["total"] +=1
+        if level not in count:
+            count [level] = 1
+        else:
+            count[level] +=1
+    
+        print( "# ["+ str(i) + "/" + str(len(charts_source))+ "] " + dic_chart["repository"]["name"] + level)
+
+    for key in count.keys():
+        list_md.write(key.capitalize() + ": " + str(count[key]) + " ")
+        list_md.write( "(" + str(round(100*count[key]/count["total"],2))+"%)\n" )
+
+
+    print("# Writing header")
+    list_md.write("\n| repo | chart | level | url | version | app version |\n")
+    list_md.write("|------|------|------|------|------|------|\n")
+
+    print("# Iterating all charts")
+    i=0
     for dic_chart in charts_source:
         repo        = dic_chart["repository"]["name"]
         url         = dic_chart["repository"]["url"]
