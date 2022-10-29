@@ -43,6 +43,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 	yamlDecoder := yaml.NewDecoder(bytes.NewReader(stream))
 	k8sDecode := scheme.Codecs.UniversalDeserializer().Decode
 	response.Allowed = true
+	err = nil
 
 	//TODO: Accept PSS version as a parameter
 	latest, err = api.ParseVersion("latest")
@@ -84,10 +85,13 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 
 		//process response
 		allowed, err = e.evaluate(obj, gKV, levelVersion)
+		if err != nil {
+			panic(err)
+		}
 		response.Allowed = response.Allowed && allowed
 	}
-	//TODO: Return error in case of... error
-	return response, nil
+
+	return response, err
 }
 
 func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind, levelVersion api.LevelVersion) (bool, error) {
@@ -96,7 +100,9 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 	var name string
 	evaluator, _ := policy.NewEvaluator(policy.DefaultChecks())
 
-	// TODO: Check the version of the object matches, and evaluate different versions
+	// TODO: Defer return true or false after whole document evaluation depending on configuration
+	// f.e.: You may want to consider that including non evaluable versions should render the level as privileged
+	// or you may just skip them depending on command line parameters
 
 	switch gKV.Kind {
 	case "Pod":
@@ -105,31 +111,55 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 		podMetadata = pod.ObjectMeta
 		podSpec = pod.Spec
 	case "Deployment":
+		if gKV.Group+gKV.Version != "appsv1" {
+			fmt.Printf(gKV.Group+"."+gKV.Version+" not evaluable for kind: %v\n", gKV.Kind)
+			return true, nil
+		}
 		deployment := obj.(*appsv1.Deployment)
 		name = deployment.ObjectMeta.Name
 		podMetadata = deployment.ObjectMeta
 		podSpec = deployment.Spec.Template.Spec
 	case "DaemonSet":
+		if gKV.Group+gKV.Version != "appsv1" {
+			fmt.Printf("Version "+gKV.Version+" not evaluable for kind: %v\n", gKV.Kind)
+			return true, nil
+		}
 		daemonset := obj.(*appsv1.DaemonSet)
 		name = daemonset.ObjectMeta.Name
 		podMetadata = daemonset.ObjectMeta
 		podSpec = daemonset.Spec.Template.Spec
 	case "ReplicaSet":
+		if gKV.Group+gKV.Version != "appsv1" {
+			fmt.Printf("Version "+gKV.Version+" not evaluable for kind: %v\n", gKV.Kind)
+			return true, nil
+		}
 		replicaset := obj.(*appsv1.ReplicaSet)
 		name = replicaset.ObjectMeta.Name
 		podMetadata = replicaset.ObjectMeta
 		podSpec = replicaset.Spec.Template.Spec
 	case "StatefulSet":
+		if gKV.Group+gKV.Version != "appsv1" {
+			fmt.Printf("Version "+gKV.Version+" not evaluable for kind: %v\n", gKV.Kind)
+			return true, nil
+		}
 		statefulset := obj.(*appsv1.StatefulSet)
 		name = statefulset.ObjectMeta.Name
 		podMetadata = statefulset.ObjectMeta
 		podSpec = statefulset.Spec.Template.Spec
 	case "Job":
+		if gKV.Group+gKV.Version != "batchv1" {
+			fmt.Printf("Version "+gKV.Version+" not evaluable for kind: %v\n", gKV.Kind)
+			return true, nil
+		}
 		job := obj.(*batchv1.Job)
 		name = job.ObjectMeta.Name
 		podMetadata = job.ObjectMeta
 		podSpec = job.Spec.Template.Spec
 	case "CronJob":
+		if gKV.Group+gKV.Version != "batchv1" {
+			fmt.Printf("Version "+gKV.Version+" not evaluable for kind: %v\n", gKV.Kind)
+			return true, nil
+		}
 		cronJob := obj.(*batchv1.CronJob)
 		name = cronJob.ObjectMeta.Name
 		podMetadata = cronJob.ObjectMeta

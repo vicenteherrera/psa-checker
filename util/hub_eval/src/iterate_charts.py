@@ -78,8 +78,8 @@ for dic_chart in charts:
     log = ""
     print( "# ["+ str(i) + "/" + str(len(charts))+ "] " + repo + " " + chart + " " + url)
 
-    os.system("helm repo add " + repo + " " + url)
-    repo_update = os.system("helm repo update " + repo)
+    os.system("helm repo add " + repo + " " + url + " 1>/dev/null")
+    repo_update = os.system("helm repo update " + repo + " 1>/dev/null")
     if repo_update >0:
         level = "error_download"
     else:
@@ -94,14 +94,21 @@ for dic_chart in charts:
             baseline   = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level baseline   -f - >" + log_baseline)
             restricted = os.system("cat " + temp_filename + " | " + psa_checker_path + " --level restricted -f - >" + log_restricted)
             
-            if ( restricted == 0 and baseline == 0):
+            file = open(log_restricted, "r")
+            log_data = file.read().replace("\n", "")
+            file.close()
+            if "not evaluable for kind:" in log_data:
                 log = log_restricted
-                with open(log_restricted, "r") as file: 
-                    data = file.read().replace("\n", "")
-                    if data != "Reading from stdinv":
-                        level = "restricted"
-                    else:
-                        level = "empty"
+                level = "not_evaluable"
+            if "cat: write error: Broken pipe" in log_data:
+                log = log_restricted
+                level = "empty_no_template"               
+            elif ( restricted == 0 and baseline == 0):
+                log = log_restricted    
+                if log_data != "Reading from stdinv":
+                    level = "restricted"
+                else:
+                    level = "empty_no_object"
             elif (baseline==0):
                 log = log_baseline
                 level = "baseline"
