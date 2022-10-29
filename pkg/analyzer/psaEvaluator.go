@@ -117,6 +117,11 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 		name = replicaset.ObjectMeta.Name
 		podMetadata = replicaset.ObjectMeta
 		podSpec = replicaset.Spec.Template.Spec
+	case "StatefulSet":
+		statefulset := obj.(*appsv1.StatefulSet)
+		name = statefulset.ObjectMeta.Name
+		podMetadata = statefulset.ObjectMeta
+		podSpec = statefulset.Spec.Template.Spec
 	case "Job":
 		job := obj.(*batchv1.Job)
 		name = job.ObjectMeta.Name

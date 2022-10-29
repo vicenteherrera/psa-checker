@@ -56,26 +56,62 @@ var _ = Describe("PsaEvaluator", func() {
 	Context("When I analize an pod manifest", func() {
 		Context("for baseline pod", func() {
 			It("It doesn't return an error", func() {
-				// _, _ = fmt.Fprintf(GinkgoWriter, "manifest:\n%s", podYamlBaseline)
 				_, err := psaEvaluator.Evaluate(podYamlBaseline, "baseline")
 				Expect(err).ShouldNot(HaveOccurred())
 			})
 		})
 		Context("for privielged pod", func() {
 			It("It doesn't return an error", func() {
-				// _, _ = fmt.Fprintf(GinkgoWriter, "manifest:\n%s", podYamlPrivileged)
 				_, err := psaEvaluator.Evaluate(podYamlPrivileged, "baseline")
 				Expect(err).ShouldNot(HaveOccurred())
 			})
 		})
 		Context("for restricted pod", func() {
 			It("It doesn't return an error", func() {
-				// _, _ = fmt.Fprintf(GinkgoWriter, "manifest:\n%s", podYamlRestricted)
 				_, err := psaEvaluator.Evaluate(podYamlRestricted, "baseline")
 				Expect(err).ShouldNot(HaveOccurred())
 			})
 		})
 
 	})
-
+	Context("When I analize an statefulset manifest", func() {
+		It("It doesn't return an error", func() {
+			yaml, err := os.ReadFile("../../test/statefulset.yaml")
+			if err != nil {
+				panic(err)
+			}
+			_, err = psaEvaluator.Evaluate(yaml, "baseline")
+			Expect(err).ShouldNot(HaveOccurred())
+		})
+	})
+	Context("When I analize an replicaset manifest", func() {
+		It("It doesn't return an error", func() {
+			yaml, err := os.ReadFile("../../test/replicaset.yaml")
+			if err != nil {
+				panic(err)
+			}
+			_, err = psaEvaluator.Evaluate(yaml, "baseline")
+			Expect(err).ShouldNot(HaveOccurred())
+		})
+	})
+	Context("When I analize an daemonset manifest", func() {
+		It("It doesn't return an error", func() {
+			yaml, err := os.ReadFile("../../test/daemonset.yaml")
+			if err != nil {
+				panic(err)
+			}
+			_, err = psaEvaluator.Evaluate(yaml, "baseline")
+			Expect(err).ShouldNot(HaveOccurred())
+		})
+	})
+	Context("When I analize an deployment manifest", func() {
+		It("It doesn't return an error", func() {
+			yaml, err := os.ReadFile("../../test/deployment.yaml")
+			if err != nil {
+				panic(err)
+			}
+			_, err = psaEvaluator.Evaluate(yaml, "baseline")
+			Expect(err).ShouldNot(HaveOccurred())
+		})
+	})
 })

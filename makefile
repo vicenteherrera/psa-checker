@@ -4,7 +4,7 @@ TARGET_BIN=psa-checker
 MAIN_DIR=./
 CONTAINER_IMAGE=vicenteherrera/psa-checker
 
-all: update build run test-e2e
+all: update build run test test-e2e
 
 update:
 	go mod tidy
@@ -28,6 +28,7 @@ test-noginkgo:
 	go test -v ./... -args -ginkgo.v
 
 test-e2e:
+	@echo "" ; echo "End to end tests"
 	@cd ./test && ./test-success.sh || ( echo "[  error  ] Compliant manifests test error" && exit 1 )
 	@cd ./test && ./test-fail.sh || ( echo "[  error  ] Non compliant manifests test error" && exit 1 )
 
