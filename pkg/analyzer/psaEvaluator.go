@@ -96,6 +96,8 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 	var name string
 	evaluator, _ := policy.NewEvaluator(policy.DefaultChecks())
 
+	// TODO: Check the version of the object matches, and evaluate different versions
+
 	switch gKV.Kind {
 	case "Pod":
 		pod := obj.(*corev1.Pod)

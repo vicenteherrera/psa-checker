@@ -2,11 +2,15 @@
 
 This projects uses the Pod Security Admission library to build a command line CLI you can use to check Kubernetes YAML manifests locally or in a pipeline.
 
+## Warning
+
+This project is in _alpha_ stage, how it handles input and output can change in several ways in the near future.
+
 ## How it works
 
 The official Pod Security Admission on the Kubernetes project will only evaluate Pod manifests, so a Deployment, Daemonset, Replicaset, Job or Cronjob can be admitted, while in fact its pod will never be allowed to run by the admission.
 
-This checker does look into **Deployment, Daemonset, Replicaset, Job or Cronjob** specification, so you can check if there is any problem on your files beforehand.
+This checker does look into **Deployment, Daemonset, Replicaset, StatefulSet, Job or Cronjob** specification, so you can check if there is any problem on your files beforehand.
 
 The input manifest file can have any number of Kubernetes objects, all will be evaluated, and those that the check doesn't apply will be skipped.
 
@@ -45,12 +49,18 @@ helm template prometheus-community/kube-prometheus-stack | psa-checker --level r
 psa-check --help
 ```
 
-## Build the binary
-
-To build the binary on `release/psa-checker` use:
+## Installation
 
 ```bash
-make build
+go install github.com/vicenteherrera/psa-checker@latest
+```
+
+## Build the binary
+
+To build and test the binary on `release/psa-checker` use:
+
+```bash
+make 
 ```
 
 
