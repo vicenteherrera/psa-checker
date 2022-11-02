@@ -8,10 +8,12 @@ download_charts_info:
 evaluate:
 	python3 src/iterate_charts.py
 
-reset-evaluate:
+reset:
+	rm result/helm_charts_pss.yaml ||:
+
+full-reset: download_charts_info
 	rm result/helm_charts_pss.yaml ||:
 	rm result/logs/* ||:
-	$(MAKE) evaluate
 
 generate_table:
 	python3 src/write_table.py

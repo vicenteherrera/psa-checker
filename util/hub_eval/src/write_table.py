@@ -32,7 +32,10 @@ with open(doc_filename, "w") as list_md:
         "total":0,
         "privileged":0,
         "baseline":0,
-        "restricted":0
+        "restricted":0,
+        "error_download":0,
+        "error_template":0,
+
     }
 
     print("# Counting")
