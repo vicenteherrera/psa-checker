@@ -35,7 +35,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 	var allowed bool
 	var obj runtime.Object
 	var gKV *schema.GroupVersionKind
-	var err, err2 error
+	var err error
 	var response AnalyzerResponse
 	var latest api.Version
 	var level api.Level
@@ -64,8 +64,7 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 		var node yaml.Node
 		err = yamlDecoder.Decode(&node)
 		if errors.Is(err, io.EOF) {
-			//fmt.Printf("Error decoding YAML manifest node\n")
-			response.AnalysisStatus = "error"
+			response.AnalysisStatus = "eof"
 			break
 		}
 		if err != nil {
@@ -80,8 +79,8 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 		}
 
 		// prepare yaml document for evaluation
-		obj, gKV, err2 = k8sDecode(content, nil, nil)
-		if err2 != nil {
+		obj, gKV, err = k8sDecode(content, nil, nil)
+		if err != nil {
 			fmt.Printf("Non standard k8s node found\n")
 			response.AnalysisStatus = "error"
 			//TODO: Take into consideration break parameter flag
@@ -97,7 +96,11 @@ func (e *psaEvaluator) Evaluate(stream []byte, levelString string) (AnalyzerResp
 		response.Allowed = response.Allowed && allowed
 	}
 
-	return response, err
+	if response.AnalysisStatus == "error" {
+		return response, err
+	}
+
+	return response, nil
 }
 
 func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind, levelVersion api.LevelVersion) (bool, error) {
