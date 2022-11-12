@@ -2,6 +2,8 @@
 
 This command line tool statically checks for _Pod Security Standards_ levels on local YAML manifests or helm templates.
 
+GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)
+
 ## Motivation
 
 The Pod Security Admission included in Kubernetes 1.23 as beta enabled by default, checks pod's specs against [Pod Security Standards (PSS)](https://kubernetes.io/docs/concepts/security/pod-security-standards/) of _privileged_, _baseline_ or _restricted_. It works perfectly fine doing its job to prevent pods non compliant with a namespace's PSS to run.
@@ -104,3 +106,5 @@ Legend:
 * No_pod_object_no_crd: The chart didn't render any object that can create pods nor CRDs
 * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can't be evaluated by the library
 
+Check the latest evaluation and the list of all charts and their PSS level here:
+* [PSS charts evaluation](https://vicenteherrera.com/psa-checker/charts_levels)
