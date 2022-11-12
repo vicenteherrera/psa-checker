@@ -4,21 +4,6 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-def read_n_to_last_line(filename, n = 1):
-    """Returns the nth before last line of a file (n=1 gives last line)"""
-    num_newlines = 0
-    with open(filename, 'rb') as f:
-        try:
-            f.seek(-2, os.SEEK_END)    
-            while num_newlines < n:
-                f.seek(-2, os.SEEK_CUR)
-                if f.read(1) == b'\n':
-                    num_newlines += 1
-        except OSError:
-            f.seek(0)
-        last_line = f.readline().decode()
-    return last_line
-
 def get_chart_name(url):
     parts = url.split("/")
     user  = parts[ len(parts) - 1 ]
@@ -46,51 +31,50 @@ charts_pss_filename = r'./result/helm_charts_pss.yaml'
 temp_filename = r'./result/temp.yaml'
 logs_dir = r'./result/logs'
 psa_checker_path = "../../release/psa-checker"
-check_source = True
 
-print("# Reading all charts")
-if os.path.exists(charts_pss_filename):
-    filename = charts_pss_filename
-else:
-    filename = charts_source_filename
+print("# Reading charts list files")
 
-print("  1. reading "+filename)
-file = open(filename, 'r')
-charts = yaml.safe_load(file)
+print("  1. reading AH source file ")
+file = open(charts_source_filename, 'r')
+charts_source = yaml.safe_load(file)
 file.close()
 
-if filename == charts_source_filename:
-    check_source = False
-else:
-    print("  2. reading "+charts_source_filename)
-    file = open(charts_source_filename, 'r')
-    charts_source = yaml.safe_load(file)
+if os.path.exists(charts_pss_filename):
+    print("  2. reading existing charts PSS")
+    
+    file = open(charts_pss_filename, 'r')
+    charts_pss = yaml.safe_load(file)
     file.close()
+else:
+    print("  2. charts PSS not found, creating new one")
+    charts_pss = {}
 
-# TODO: Loop to insert new items from chart:source in charts
-
-print("# Ordering charts alphabetically")
-charts.sort(key=lambda x: x["repository"]["name"] + " " + get_chart_name( x["url"] ) )
+# TODO: Remove evaluated charts that no longer appear in Artifact Hub
 
 print("# Iterating charts")
 i=0
 j=0
 now = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
-for dic_chart in charts:
+keys_pss = charts_pss.keys()
+
+for dic_chart in charts_source:
     repo        = dic_chart["repository"]["name"]
     url         = dic_chart["repository"]["url"]
     version     = dic_chart["version"]
     app_version = dic_chart["app_version"]
     parts       = dic_chart["url"].split("/")
     chart       = get_chart_name( dic_chart["url"] )
+    key         = repo + "__" + chart
 
     i+=1
-    print( "# ["+ str(i) + "/" + str(len(charts))+ "] " + repo + "/" + chart + " "+ version)
+    print( "# ["+ str(i) + "/" + str(len(charts_source))+ "] " + repo + "/" + chart + " "+ version)
 
-    if "pss" in dic_chart:
-        print("PSS info present")
-        if dic_chart["pss"]["chart_version"] == psa_version:
-            print("Skipping " + str(i) + " " + repo + " " +  chart + " " + version)
+    if key in keys_pss:
+        print("chart+repo exists on charts PSS file")
+        # print(charts_pss[key]["pss"]["chart_version"])
+        if charts_pss[key]["pss"]["chart_version"] == version and \
+            charts_pss[key]["pss"]["psa-checker_version"] == psa_version:
+            print("Skipping version already evaluated")
             continue
 
     log_helm       = logs_dir + "/" + repo + "_" + chart + "_" + version + "_helm.log"
@@ -171,14 +155,17 @@ for dic_chart in charts:
         "n_crd": n_crd,
         "n_wrong_version":n_wrong_version
     }
+
     dic_chart["pss"] = psa_dict
+    charts_pss[key] = dic_chart
 
     j+=1
-    # if j % 100 == 0 or i==len(charts):
-
+    if j % 100 == 0 or i==len(dic_chart):
+        print ("# Saving whole yaml")
+        with open(charts_pss_filename, 'w') as file:
+            yaml.dump(charts_pss, file)
+    # sys.exit()
 
 print ("# Saving whole yaml")
 with open(charts_pss_filename, 'w') as file:
-    yaml.dump(charts, file)
-
-    # sys.exit()
+    yaml.dump(charts_pss, file)
