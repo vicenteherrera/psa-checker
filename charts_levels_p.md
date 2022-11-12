@@ -1,6 +1,12 @@
-[main](./charts_level.md) [a(1400)](./charts_level_a.md) [b(472)](./charts_level_b.md) [c(1001)](./charts_level_c.md) [d(417)](./charts_level_d.md) [e(221)](./charts_level_e.md) [f(269)](./charts_level_f.md) [g(328)](./charts_level_g.md) [h(236)](./charts_level_h.md) [i(206)](./charts_level_i.md) [j(178)](./charts_level_j.md) [k(632)](./charts_level_k.md) [l(221)](./charts_level_l.md) [m(399)](./charts_level_m.md) [n(201)](./charts_level_n.md) [o(476)](./charts_level_o.md) [p(467)](./charts_level_p.md) [q(13)](./charts_level_q.md) [r(355)](./charts_level_r.md) [s(826)](./charts_level_s.md) [t(961)](./charts_level_t.md) [u(37)](./charts_level_u.md) [v(98)](./charts_level_v.md) [w(385)](./charts_level_w.md) [x(1)](./charts_level_x.md) [y(56)](./charts_level_y.md) [z(29)](./charts_level_z.md) 
+[Go to root documentation](https://vicenteherrera.com/psa-checker)
 
-| repo | chart | level | version | app version | url | 
+## Artifact Hub's Helm charts PSS analysis
+
+Evaluation date 2022-11-12, 17:49:25
+
+[main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(355)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
+
+| repo | chart | level | chart version | app version | url | 
 |------|------|------|------|------|------|
 | p4-helm | myapp | baseline | 0.1.0 | 1.16.0 | https://raw.githubusercontent.com/zuldare/helm/main/helm/charts/ |
 | pachyderm | pachyderm | error_template | 2.5.0-nightly.20221111-d128cfe70c782db661740255ead09d9e435e45df | 2.5.0-nightly.20221111 | https://helm.pachyderm.com |

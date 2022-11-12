@@ -107,4 +107,4 @@ Legend:
 * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can't be evaluated by the library
 
 Check the latest evaluation and the list of all charts and their PSS level here:
-* [PSS charts evaluation](https://vicenteherrera.com/psa-check/chart_levels.md)
+* [PSS charts evaluation](https://vicenteherrera.com/psa-check/chart_levels)
