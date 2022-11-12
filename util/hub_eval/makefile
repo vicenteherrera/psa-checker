@@ -18,3 +18,7 @@ full-reset: download_charts_info
 generate_table:
 	python3 src/write_table.py
 
+prepare_docs:
+	cp ../../README.md ../../../psa-docs/
+	cp ../../LICENSE.txt ../../../psa-docs/
+	cp ./result/*.md ../../../psa-docs/
