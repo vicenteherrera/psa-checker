@@ -6,966 +6,966 @@ Evaluation date 2022-11-12, 17:49:25
 
 [main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(355)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
 
-| repo | chart | level | chart version | app version | url | 
-|------|------|------|------|------|------|
-| t3n | cloudsql-proxy | no_pod_object | 2.0.2 | 1.16 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | cronjob | version_not_evaluable | 0.1.0 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | dashkiosk | baseline | 2.0.0 | 2.7.8 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | elasticsearch | version_not_evaluable | 1.0.0 | 6.2.3 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | external-service | empty_no_object | 1.1.0 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | flow | version_not_evaluable | 0.1.0 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | fop | baseline | 1.0.0 | 2.1 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | graylog | version_not_evaluable | 1.0.0 | 2.4.3 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | gtmetrix-bq | version_not_evaluable | 1.0.0 | 0.2.0 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | loki | baseline | 1.0.0 | 1.5.0 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | matomo | baseline | 1.3.1 | 4.3.1 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | mongodb | version_not_evaluable | 1.0.0 | 3.6.3 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | mosquitto | baseline | 2.4.1 | 1.6.12 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | mysql | baseline | 1.0.0 | 5.7.32 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | mysql-backup | no_pod_object | 2.0.0 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | nginx | baseline | 0.1.1 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | pi-hole | baseline | 1.0.0 | 4.4 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | postgresql-backup | no_pod_object | 0.0.1 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | promtail | privileged | 1.0.0 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | sftp-gcs | baseline | 1.0.0 | 0.0.1 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | snipeit | baseline | 3.3.0 | 5.3.0 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | snowplow | baseline | 0.0.1 | 2.2.0 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | ssh-bastion | baseline | 1.0.0 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | stackdriver-prometheus | baseline | 0.1.0 | 0.4.3 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | tideways | baseline | 2.0.1 | 1.5.74 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | unifi-video | empty_no_object | 1.0.0 | 3.10.10 | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | web | baseline | 2.0.0 |  | https://storage.googleapis.com/t3n-helm-charts |
-| t3n | zipkin-gcp | baseline | 1.0.0 | 0.15.2 | https://storage.googleapis.com/t3n-helm-charts |
-| taalhuisen-frontend | bisc-taalhuizen | baseline | 0.1.2 | 1.16.0 | https://raw.githubusercontent.com/ConductionNL/bisc-frontend/master/helm/ |
-| taalhuizen-logic | taalhuizen-logic | version_not_evaluable | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/taalhuizen-logic/master/api/helm/ |
-| taalhuizen-service | postgresql | baseline | 10.1.1 | 11.10.0 | https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/ |
-| taalhuizen-service | redis | baseline | 12.7.7 | 6.0.11 | https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/ |
-| taalhuizen-service | taalhuizen-service | baseline | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/ |
-| taduynghia | chartapp | empty_no_object | 0.1.0 | 1.1.0 | https://taduynghia.github.io/helm-chart-chat-app/ |
-| tailing-sidecar-operator | tailing-sidecar-operator | baseline | 0.5.5 | 0.5.5 | https://sumologic.github.io/tailing-sidecar |
-| take-the-helm | take-the-helm | baseline | 0.1.0 | 0.1.0 | https://dsaidgovsg.github.io/take-the-helm/ |
-| taken-component | taken-component | error_template | 0.1.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/taken-component/master/api/helm/ |
-| talend | vault-sidecar-injector | error_template | 4.3.2 | 7.2.1 | https://talend.github.io/helm-charts-public/stable |
-| task-manager | task-manager | error_download | 0.1.0 | 6.5.0 | oci://registry.gitlab.com/radiology/infrastructure/task-manager/helm-charts/task-manager |
-| taskmedia | ipsec-vpn-server | privileged | 1.1.4 | latest | https://helm.task.media |
-| taskmedia | vpn-ios-profile | privileged | 0.2.3 | latest | https://helm.task.media |
-| teamcity-server | teamcity-server | baseline | 1.2.1 | 2022.04 | https://nefelim4ag.github.io/teamcity-charts/ |
-| tejaswita-hadoop-helmchart | hadoop-deployment | baseline | 1.0.0 |  | https://tejaswita1203.github.io/hadoop-helmchart/ |
-| tekton | tekton-pipeline | baseline | 0.29.0 | 0.29.0 | https://cdfoundation.github.io/tekton-helm-chart/ |
-| telegraf-ds-k3s | telegraf-ds-k3s | privileged | 1.0.0 | 1.19 | https://xe-nvdk.github.io/awesome-helm-charts/ |
-| telegraf | telegraf | baseline | 1.0.1 | 1.23.3 | https://muhlba91.github.io/telegraf-chart |
-| telegram-sender | k8s-telegram-sender | baseline | 0.0.1 | 1.16.0 | https://danuk.github.io/k8s-telegram-sender/ |
-| teleivo-dhis2-core-helm | core | baseline | 0.10.1-beta | 1.16.0 | https://teleivo.github.io/dhis2-core-helm |
-| teleport-agent-kube | teleport-cluster | error_template | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-kube-agent | error_template | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-email | baseline | 11.0.1 | 11.0.1 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-event-handler | baseline | 11.0.1 | 11.0.1 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-jira | baseline | 11.0.1 | 11.0.1 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-mattermost | baseline | 11.0.1 | 11.0.1 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-ms-teams | baseline | 11.0.0-hugoteams | 11.0.0-hugoteams | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-msteams | baseline | 11.0.1 | 11.0.1 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-pagerduty | baseline | 11.0.1 | 11.0.1 | https://charts.releases.teleport.dev |
-| teleport-agent-kube | teleport-plugin-slack | baseline | 11.0.1 | 11.0.1 | https://charts.releases.teleport.dev |
-| tellery | tellery | error_template | 0.0.17 | 0.8.4 | https://tellery.github.io/charts/ |
-| tensor-app | tensor_app | baseline | 0.2.2 | 0.16.0 | https://xeladock.github.io/helm/ |
-| teochenglim | dummy-nginx | baseline | 1.0.2 | 1.0.0 | https://teochenglim.github.io/helm-charts/ |
-| teochenglim | dummy-nginx-html | baseline | 1.0.1 | 1.0.0 | https://teochenglim.github.io/helm-charts/ |
-| teochenglim | echoserver | baseline | 0.1.0 | 1.16.0 | https://teochenglim.github.io/helm-charts/ |
-| teochenglim | kroki | baseline | 1.0.1 | 0.17.0 | https://teochenglim.github.io/helm-charts/ |
-| terraform-controller | terraform-controller | baseline | 0.0.20 | v0.0.20 | https://absaoss.github.io/terraform-controller |
-| teshub | testhub | baseline | 0.1.4 | 1.16.0 | https://testhub-io.github.io/testhub-helm |
-| test-helm | shenyu | baseline | 2.4.21 | 1.16.0 | https://erdengk.github.io/chart-test |
-| test-nginx-charts | nginx-charts | baseline | 0.1.0 | 1.16.0 | https://yedukondalurd.github.io/nginx-charts/ |
-| test-nginx | nginx | baseline | 0.1.0 | 1.16.0 | https://vizarg.github.io/helm-chart-nginx/nginx |
-| test1 | examples | error_download | 0.1.2 | 1.16.0 | oci://registry.gitlab.com/kubelink/examples |
-| test4322 | pages | privileged | 1.0.0 | 1.0 | https://anaghapirangute.github.io/ |
-| testappchart | testappchart | baseline | 0.1.0 | 1.16.0 | https://syahmi001.github.io/helm_chart/ |
-| testrepo | testchart | empty_no_object | 0.2.7 |  | https://300481.github.io/artifacthub2github |
-| testtt | services-kafka | error_download | 0.1.0 | 1.16.0 | oci://kahyt.azurecr.io/test-repo/services-kafka |
-| teuto-net | base-cluster | privileged | 0.3.0 |  | https://teutonet.github.io/teutonet-helm-charts |
-| tfservingcache | tfservingcache | privileged | 0.1.1 | 1.0 | https://mkaloer.github.io/TFServingCache/ |
-| thanos | thanos | baseline | 2.5.2 | 0.15.0 | https://prasadrajesh.github.io/thanos/charts |
-| the-ambassador | ambassador | error_template | 0.2.3 | 0.0.1 | https://roche.github.io/the-ambassador/ |
-| thebitgram | application-secrets | no_pod_object_but_crd | 0.1.2 | 1.16.0 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thebitgram | external-secrets | no_pod_object_but_crd | 0.1.0 | 1.16.0 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thebitgram | idsvr | error_template | 0.0.5 | 6.7.3 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thebitgram | idsvr-config-params | no_pod_object | 0.1.0 | 1.16.0 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thebitgram | introspection-proxy | no_pod_object | 0.1.1 | 1.16.0 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thebitgram | node-local-dns | privileged | 0.1.0 | 1.16.0 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thebitgram | standard-application | baseline | 1.0.12 | 1.0 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thebitgram | unauthenticated-ingress | empty_no_object | 0.0.5 | 1.0 | https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages |
-| thecampagnards | postgrest | baseline | 0.1.6 | v9.0.0.20220211 | https://thecampagnards.github.io/helm-charts/ |
-| thecampagnards | trafficlight-api | privileged | 0.1.1 | 0.1.0 | https://thecampagnards.github.io/helm-charts/ |
-| thingsboard | thingsboard | baseline | 0.1.3-rc.1 | 3.4.1 | https://midokura.github.io/thingsboard-ce-k8s |
-| thiru-pages | pages | privileged | 1.0.0 | 1.0 | https://tbirgi.github.io/ |
-| thl-charts | game-server | error_template | 1.0.0 | 1.0.0 | http://charts.thunderal.net/ |
-| thl-charts | mc-router | baseline | 0.1.0 | 1.16.1 | http://charts.thunderal.net/ |
-| thl-charts | monitoring | privileged | 0.1.1 | 1.16.0 | http://charts.thunderal.net/ |
-| threatmapper | deepfence-agent | error_template | 1.4.7 | 1.4.1 | https://deepfence-helm-charts.s3.amazonaws.com/threatmapper |
-| threatmapper | deepfence-console | privileged | 1.4.7 | 1.4.1 | https://deepfence-helm-charts.s3.amazonaws.com/threatmapper |
-| threatmapper | deepfence-router | no_pod_object_but_crd | 1.4.5 | 1.4.1 | https://deepfence-helm-charts.s3.amazonaws.com/threatmapper |
-| thuy-pages | pages | privileged | 1.0.0 | 1.0 | https://bthuy42.github.io/ |
-| tibber-exporter | tibber-exporter | error_template | 1.4.4 | 17 | https://terjesannum.github.io/tibber-exporter/ |
-| tikimim | common | error_download | 0.0.1 | 0.0.1 | https://tikimim.github.io/helm |
-| tinote-chart | pock-helm-chart | baseline | 0.1.0 | 1.16.0 | https://denisshav.github.io/helm-chart/ |
-| tiny-api | tiny-api-chart | baseline | 1.0.0 | 1.16.0 | https://2beens.github.io/tiny-api-k8s/ |
-| tnh | grafana | baseline | 5.3.0 | 7.0.3 | https://tnh7575.github.io/helm-charts |
-| tnh | jenkins | baseline | 2.7.1 | lts | https://tnh7575.github.io/helm-charts |
-| tnh | metallb | privileged | 0.1.1 | 0.8.2 | https://tnh7575.github.io/helm-charts |
-| tnh | prometheus | privileged | 11.6.0 | 2.19.0 | https://tnh7575.github.io/helm-charts |
-| todoapi-app | todoapi | baseline | 0.1.0 | 1.5.0 | https://sonusathyadas.github.io/todoapi-helm-repo/helm/charts |
-| token-registration-component | token-registration-component | error_template | 0.1.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/token-registration-component/master/api/helm/ |
-| tor-snowflake-proxy | tor-snowflake-proxy | privileged | 0.2.1 | v2.3.0 | https://lukm.codeberg.page/helm-tor-snowflake-proxy/ |
-| toshi | toshi-bitcoin-parser | error_download | 0.1.32 |  | https://toshi-qcri.github.io/toshi-helm-charts |
-| toucan | spa-reloader | baseline | 0.1.0 | 0.0.16 | https://toucansoft.io/charts |
-| touk | apicurio-registry | error_template | 0.1.5 | 2.2.5.Final | https://helm-charts.touk.pl/public/ |
-| touk | hermes | baseline | 0.5.14-SNAPSHOT.3172372307 | 1.12.3 | https://helm-charts.touk.pl/public/ |
-| touk | nussknacker | error_template | 1.6.0 | 1.6.0 | https://helm-charts.touk.pl/public/ |
-| tpt | ebpf-exporter | privileged | 0.2.0 | 0.2.0 | https://teacherspayteachers.github.io/helm-charts |
-| tpt | linux-audit-exporter | privileged | 0.2.2 | 0.2.2 | https://teacherspayteachers.github.io/helm-charts |
-| traefik-jwt-decode | traefik-jwt-decode | baseline | 0.1.0 |  | https://athics-team.github.io/traefik-jwt-decode/ |
-| traefik | maesh | baseline | 2.1.2 | v1.3.2 | https://traefik.github.io/charts |
-| traefik | traefik | baseline | 20.1.0 | 2.9.4 | https://traefik.github.io/charts |
-| traefik | traefik-mesh | baseline | 4.1.0 | v1.4.8 | https://traefik.github.io/charts |
-| trafficserver-ingress-controller | ats-ingress | baseline | 0.1.0 | 0.1.0 | https://apache.github.io/trafficserver-ingress-controller |
-| tremolo | openunison-k8s-activedirectory | no_pod_object_but_crd | 1.0.5 | 1.0.20 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-add-cluster | no_pod_object_but_crd | 1.0.5 | 1.0.20 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-cluster-management | empty_no_object | 3.0.10 | 1.0.30 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-cluster-management-by-group | empty_no_object | 0.1.0 | 1.16.0 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-login-activedirectory | no_pod_object_but_crd | 1.0.24 | 1.0.24 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-login-github | no_pod_object_but_crd | 1.0.24 | 1.0.24 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-login-oidc | no_pod_object_but_crd | 1.0.24 | 1.0.24 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-login-saml2 | no_pod_object_but_crd | 1.0.24 | 1.0.24 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-managementproxy | error_template | 1.0.3 | 1.0.21 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-oidc | no_pod_object_but_crd | 1.0.5 | 1.0.20 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-k8s-saml2 | no_pod_object_but_crd | 1.0.2 | 1.0.20 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-kiali | no_pod_object_but_crd | 0.2.0 | 1.0.30 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-operator | baseline | 2.2.6 | 1.0.23 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | openunison-vcluster-admins | empty_no_object | 0.1.0 | 1.16.0 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | orchestra | version_not_evaluable | 2.10.14 | 1.0.29 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | orchestra-login-azuread | empty_no_object | 1.0.3 | 1.0.30 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | orchestra-login-portal | baseline | 2.3.10 | 1.0.29 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | orchestra-login-portal-argocd | version_not_evaluable | 0.0.14 | 1.0.31 | https://nexus.tremolo.io/repository/helm/ |
-| tremolo | vcluster-onboard | baseline | 0.4.0 | 1.31.0 | https://nexus.tremolo.io/repository/helm/ |
-| trickster | trickster | baseline | 1.5.4 | 1.1 | https://helm.tricksterproxy.io/ |
-| trieb-work | gtm-server-container-cluster | baseline | 0.1.2 | 1.16.0 | https://trieb-work.github.io/helm-charts/ |
-| trieb-work | saleor | privileged | 0.2.23 |  | https://trieb-work.github.io/helm-charts/ |
-| trieb-work | saleor-helm | baseline | 0.1.25 |  | https://trieb-work.github.io/helm-charts/ |
-| trieb-work | strapi | baseline | 0.1.47 | 1.16.0 | https://trieb-work.github.io/helm-charts/ |
-| trino | trino | baseline | 0.8.0 | 375 | https://trinodb.github.io/charts/ |
-| trouw-service | trouw-service | baseline | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/trouw-service/master/api/helm/ |
-| trozz | atlantis | baseline | 3.12.11 | v0.16.1 | https://charts.trozzy.net/ |
-| trozz | homer | baseline | 0.0.1 | 20.07.2 | https://charts.trozzy.net/ |
-| trozz | karma | baseline | 0.0.7 | 1.0 | https://charts.trozzy.net/ |
-| trozz | kubernetes-external-secrets | baseline | 6.3.0 | 6.3.0 | https://charts.trozzy.net/ |
-| trozz | monitoror | baseline | 0.0.1 | 4 | https://charts.trozzy.net/ |
-| trozz | nessus | baseline | 0.1.0 | 1.16.0 | https://charts.trozzy.net/ |
-| trozz | securenote | empty_no_object | 0.0.1 | 1.0.0 | https://charts.trozzy.net/ |
-| truecharts-library-charts | common | empty_no_object | 10.9.6 | latest | https://library-charts.truecharts.org |
-| truecharts-library-charts | dep-common | empty_no_object | 9.3.20 | latest | https://library-charts.truecharts.org |
-| truecharts | acestream | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | actualserver | empty_no_object | 2.0.2 | 22.10.25 | https://charts.truecharts.org/ |
-| truecharts | adguard-home | baseline | 3.0.2 | 0.107.18 | https://charts.truecharts.org/ |
-| truecharts | adguardhome-sync | baseline | 0.0.42 | latest | https://charts.truecharts.org/ |
-| truecharts | adminer | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | agent-dvr | privileged | 0.0.11 | latest | https://charts.truecharts.org/ |
-| truecharts | airdcpp-webclient | baseline | 4.0.2 | 2.11.2 | https://charts.truecharts.org/ |
-| truecharts | airsonic | baseline | 7.0.2 | 10.6.2 | https://charts.truecharts.org/ |
-| truecharts | airsonic-advanced | baseline | 5.0.2 | 11.0.0 | https://charts.truecharts.org/ |
-| truecharts | alienswarm | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | alienswarm-reactivedrop | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | alist | baseline | 3.0.2 | 3.3.0 | https://charts.truecharts.org/ |
-| truecharts | altitude | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | ama | privileged | 0.0.11 | latest | https://charts.truecharts.org/ |
-| truecharts | ambd | privileged | 0.0.11 | latest | https://charts.truecharts.org/ |
-| truecharts | amcrest2mqtt | baseline | 5.0.2 | 1.0.16 | https://charts.truecharts.org/ |
-| truecharts | amd-gpu-plugin | privileged | 0.0.3 | upstream | https://charts.truecharts.org/ |
-| truecharts | americasarmy-pg | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | amtd | baseline | 0.0.39 | latest | https://charts.truecharts.org/ |
-| truecharts | amule | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | amvd | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | android-8-0 | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | androiddebugbridge | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | anki-sync-server | baseline | 0.0.21 | 20220516 | https://charts.truecharts.org/ |
-| truecharts | anonaddy | baseline | 10.0.2 | 0.13.11 | https://charts.truecharts.org/ |
-| truecharts | anope | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | apache-musicindex | baseline | 5.0.2 | 1.4.1 | https://charts.truecharts.org/ |
-| truecharts | apache-webdav | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | appdaemon | baseline | 10.0.2 | 4.2.1 | https://charts.truecharts.org/ |
-| truecharts | apprise-api | baseline | 0.0.44 | latest | https://charts.truecharts.org/ |
-| truecharts | appsmith | baseline | 2.0.66 | 1.8.7 | https://charts.truecharts.org/ |
-| truecharts | apt-cacher-ng | baseline | 2.0.2 | 3.7.4 | https://charts.truecharts.org/ |
-| truecharts | archiveteam-warrior | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | aria2 | baseline | 6.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | ariang | baseline | 2.0.2 | 1.2.4 | https://charts.truecharts.org/ |
-| truecharts | arksurvivalevolved | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | arma3 | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | arma3exilemod | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | artifactory-oss | baseline | 0.0.42 | 7.46.11 | https://charts.truecharts.org/ |
-| truecharts | assettocorsa | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | atd | privileged | 0.0.11 | latest | https://charts.truecharts.org/ |
-| truecharts | audacity | baseline | 5.0.2 | 3.0.2 | https://charts.truecharts.org/ |
-| truecharts | audiobookshelf | baseline | 3.0.2 | 2.2.1 | https://charts.truecharts.org/ |
-| truecharts | aurora-files | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | authelia | baseline | 12.0.2 | 4.37.2 | https://charts.truecharts.org/ |
-| truecharts | authentik | baseline | 8.0.2 | 2022.10.1 | https://charts.truecharts.org/ |
-| truecharts | auto-yt-dl | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | autobrr | baseline | 2.0.2 | 1.9.0 | https://charts.truecharts.org/ |
-| truecharts | automatic-music-downloader | baseline | 3.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | autoscan | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | avidemux | baseline | 2.0.2 | 1.4.0 | https://charts.truecharts.org/ |
-| truecharts | avorion | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | awesome-ttrss | baseline | 0.0.55 | 2022 | https://charts.truecharts.org/ |
-| truecharts | babybuddy | baseline | 9.0.2 | 1.13.2 | https://charts.truecharts.org/ |
-| truecharts | backuppc | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | baikal | baseline | 0.0.34 | 0.9.2 | https://charts.truecharts.org/ |
-| truecharts | barcodebuddy | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | barotrauma | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | baserow | baseline | 4.0.2 | 1.13.0 | https://charts.truecharts.org/ |
-| truecharts | batnoter | baseline | 0.0.12 | latest | https://charts.truecharts.org/ |
-| truecharts | bazarr | baseline | 12.0.2 | 1.1.2 | https://charts.truecharts.org/ |
-| truecharts | beets | baseline | 5.0.2 | 1.6.0 | https://charts.truecharts.org/ |
-| truecharts | bender | baseline | 0.0.11 | 1.0.3 | https://charts.truecharts.org/ |
-| truecharts | bitcoin-node | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | bitcoind | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | bitcoinunlimited | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | bitcoinwalletgui | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | blender | baseline | 0.0.45 | latest | https://charts.truecharts.org/ |
-| truecharts | blender-desktop-g3 | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | blocky | baseline | 1.1.10 | 0.19 | https://charts.truecharts.org/ |
-| truecharts | blog | baseline | 4.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | boinc | baseline | 3.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | booksonic-air | baseline | 7.0.2 | 2201.1.0 | https://charts.truecharts.org/ |
-| truecharts | bookstack | baseline | 4.0.2 | 22.10.2022 | https://charts.truecharts.org/ |
-| truecharts | breitbandmessung-de | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | browserless-chrome | baseline | 3.0.2 | 1.54.0 | https://charts.truecharts.org/ |
-| truecharts | btdex | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | budge | baseline | 3.0.2 | 0.0.9 | https://charts.truecharts.org/ |
-| truecharts | bwapp | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | cadquery-jupyter | baseline | 0.0.38 | 3.4.0 | https://charts.truecharts.org/ |
-| truecharts | cadquery-server | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | calibre | baseline | 8.0.2 | 6.8.0 | https://charts.truecharts.org/ |
-| truecharts | calibre-web | baseline | 12.0.2 | 0.6.19 | https://charts.truecharts.org/ |
-| truecharts | cherry | baseline | 0.0.10 | 0.0.6 | https://charts.truecharts.org/ |
-| truecharts | chevereto | baseline | 4.0.2 | 1.6.2 | https://charts.truecharts.org/ |
-| truecharts | chivalry-medievalwarfare | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | chowdown | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | chromium | baseline | 0.0.45 | latest | https://charts.truecharts.org/ |
-| truecharts | chromium-desktop-g3 | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | chronograf | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | chronos | baseline | 2.0.2 | 0.2 | https://charts.truecharts.org/ |
-| truecharts | ciao | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | citadel-forgedwithfire | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | clamav | baseline | 4.0.2 | 0.105.1 | https://charts.truecharts.org/ |
-| truecharts | clarkson | baseline | 4.0.2 | 1.1.2 | https://charts.truecharts.org/ |
-| truecharts | cleanarr | baseline | 0.0.35 | 2.1.3 | https://charts.truecharts.org/ |
-| truecharts | clickhouse | baseline | 2.0.4 | 22.10.2.11 | https://charts.truecharts.org/ |
-| truecharts | cloud9 | baseline | 5.0.2 | 1.29.2 | https://charts.truecharts.org/ |
-| truecharts | cloudbeaver | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | cloudcommander | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | cloudflared | baseline | 2.0.2 | 2022.10.3 | https://charts.truecharts.org/ |
-| truecharts | cloudflareddns | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | cloudreve | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | code-server | baseline | 5.0.2 | 4.8.3 | https://charts.truecharts.org/ |
-| truecharts | collabora-online | baseline | 13.0.4 | 22.05.8.2 | https://charts.truecharts.org/ |
-| truecharts | colonysurvival | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | commento-plusplus | baseline | 4.0.2 | 1.8.7 | https://charts.truecharts.org/ |
-| truecharts | common-test | privileged | 3.3.8 | 1.8.0 | https://charts.truecharts.org/ |
-| truecharts | conanexiles | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | conreq | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | convos | baseline | 0.0.38 | stable | https://charts.truecharts.org/ |
-| truecharts | cops | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | core-keeper-dedicated-server | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | corekeeper | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | couchpotato | baseline | 3.0.2 | 2021.11.22 | https://charts.truecharts.org/ |
-| truecharts | counterstrike2d | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | coupon-store | baseline | 0.0.9 | 1.2.0 | https://charts.truecharts.org/ |
-| truecharts | cowyo | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | craftopia | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | crafty-3 | baseline | 0.0.31 | latest | https://charts.truecharts.org/ |
-| truecharts | crafty-4 | baseline | 0.0.44 | 4.0.16 | https://charts.truecharts.org/ |
-| truecharts | crypto-exchanges-gateway | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | cryptofolio | baseline | 5.0.2 | 2.2.0 | https://charts.truecharts.org/ |
-| truecharts | cryptpad | baseline | 0.0.95 | latest | https://charts.truecharts.org/ |
-| truecharts | csgo | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | cssource | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | cstrike1-6 | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | cstrikeconditionzero | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | cups-server | privileged | 1.0.61 | latest | https://charts.truecharts.org/ |
-| truecharts | cura-novnc | baseline | 0.0.41 | latest | https://charts.truecharts.org/ |
-| truecharts | custom-app | baseline | 6.0.2 | 0.20.2225 | https://charts.truecharts.org/ |
-| truecharts | cyberchef | baseline | 3.0.2 | 9.48.0 | https://charts.truecharts.org/ |
-| truecharts | czkawka | baseline | 2.0.2 | 1.7.0 | https://charts.truecharts.org/ |
-| truecharts | dailynotes | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | damselfly | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | darktable | baseline | 4.0.2 | 3.8.1 | https://charts.truecharts.org/ |
-| truecharts | dashdot | privileged | 2.0.2 | 4.5.3 | https://charts.truecharts.org/ |
-| truecharts | dashmachine | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | dashy | baseline | 0.0.10 | 2.1.1 | https://charts.truecharts.org/ |
-| truecharts | davos | baseline | 5.0.2 | 2.2.1 | https://charts.truecharts.org/ |
-| truecharts | dayofdefeatsource | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | daysofwar | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | dayz | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | ddclient | baseline | 3.0.2 | 3.10.0 | https://charts.truecharts.org/ |
-| truecharts | ddns-go | baseline | 3.0.2 | 4.2.0 | https://charts.truecharts.org/ |
-| truecharts | ddns-route53 | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | ddns-updater | baseline | 3.0.2 | 2.4.1 | https://charts.truecharts.org/ |
-| truecharts | debian-apt-mirror | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | debian-bullseye | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | deconz | baseline | 9.0.2 | 2.19.01 | https://charts.truecharts.org/ |
-| truecharts | deemix | baseline | 4.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | deepstack | baseline | 5.0.2 | 2022.01.1 | https://charts.truecharts.org/ |
-| truecharts | deepstack-cpu | baseline | 8.0.7 | 2021.09.1 | https://charts.truecharts.org/ |
-| truecharts | deepstack-gpu | baseline | 3.0.7 | 2021.09.1 | https://charts.truecharts.org/ |
-| truecharts | deluge | baseline | 12.0.2 | 2.0.5 | https://charts.truecharts.org/ |
-| truecharts | digikam | baseline | 5.0.2 | 7.8.0 | https://charts.truecharts.org/ |
-| truecharts | dillinger | baseline | 3.0.2 | 3.39.1 | https://charts.truecharts.org/ |
-| truecharts | dispatch | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | dizquetv | baseline | 8.0.2 | 1.5.0 | https://charts.truecharts.org/ |
-| truecharts | dns-doh-companion | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | docker-compose | privileged | 4.0.2 | 20.10.21 | https://charts.truecharts.org/ |
-| truecharts | docker-hub-rss | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | dockerregistry | baseline | 0.0.33 | 2 | https://charts.truecharts.org/ |
-| truecharts | docspell | baseline | 0.0.13 | 0.38.0 | https://charts.truecharts.org/ |
-| truecharts | docusaurus | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | dokuwiki | baseline | 4.0.2 | 20220731.1 | https://charts.truecharts.org/ |
-| truecharts | domoticz | baseline | 3.0.2 | 2022.1.202 | https://charts.truecharts.org/ |
-| truecharts | dontstarvetogether | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | doplarr | baseline | 3.0.2 | 3.6.1 | https://charts.truecharts.org/ |
-| truecharts | double-take | baseline | 3.0.2 | 1.13.1 | https://charts.truecharts.org/ |
-| truecharts | doublecommander | baseline | 5.0.2 | 0.8.2 | https://charts.truecharts.org/ |
-| truecharts | drawio | baseline | 3.0.2 | 20.5.3 | https://charts.truecharts.org/ |
-| truecharts | drone-runner | baseline | 2.0.2 | 1.0.0 | https://charts.truecharts.org/ |
-| truecharts | dropbox-by-otherguy | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | dsmr-reader | baseline | 9.0.2 | 2021.09.02 | https://charts.truecharts.org/ |
-| truecharts | duckdns | baseline | 3.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | dupeguru | baseline | 2.0.2 | 22.10.2 | https://charts.truecharts.org/ |
-| truecharts | duplicacy | baseline | 0.0.41 | latest | https://charts.truecharts.org/ |
-| truecharts | duplicati | baseline | 7.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | dvblink | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | eco | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | ecodms | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | electrum | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | emby | baseline | 12.0.2 | 4.7.8.0 | https://charts.truecharts.org/ |
-| truecharts | emby-sync | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | embystat | baseline | 3.0.2 | 0.2.0 | https://charts.truecharts.org/ |
-| truecharts | emulatorjs | baseline | 3.0.2 | 1.7.2 | https://charts.truecharts.org/ |
-| truecharts | endlessh | baseline | 3.0.2 | 2021.11.21 | https://charts.truecharts.org/ |
-| truecharts | esphome | privileged | 12.0.2 | 2022.10.2 | https://charts.truecharts.org/ |
-| truecharts | etesync | baseline | 0.0.50 | 0.10.0 | https://charts.truecharts.org/ |
-| truecharts | ethercalc | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | etherpad | baseline | 9.0.2 | 1.8.14 | https://charts.truecharts.org/ |
-| truecharts | euterpe | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | explainshell | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | external-ip | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | external-service | baseline | 7.0.3 | latest | https://charts.truecharts.org/ |
-| truecharts | factorio | baseline | 0.0.46 | stable | https://charts.truecharts.org/ |
-| truecharts | factorioservermanager | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | facturascripts | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | fancyindex | baseline | 1.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | farmos | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | fastcom-mqtt | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | fenrus | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | ferdi-client | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | ferdi-server | baseline | 4.0.2 | 1.3.2 | https://charts.truecharts.org/ |
-| truecharts | ffmpeg-mkvdts2ac3 | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | filebot | baseline | 2.0.2 | 1.14.1 | https://charts.truecharts.org/ |
-| truecharts | filebrowser | baseline | 3.0.2 | 2.22.4 | https://charts.truecharts.org/ |
-| truecharts | fileflows | baseline | 3.0.2 | 1.0.6 | https://charts.truecharts.org/ |
-| truecharts | fileflows-node | baseline | 0.0.24 | latest | https://charts.truecharts.org/ |
-| truecharts | filegator | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | filerun | baseline | 4.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | fileshelter | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | filestash | baseline | 0.0.53 | latest | https://charts.truecharts.org/ |
-| truecharts | filezilla | baseline | 5.0.2 | 3.59.0 | https://charts.truecharts.org/ |
-| truecharts | fireflyiii | baseline | 17.0.2 | 5.7.15 | https://charts.truecharts.org/ |
-| truecharts | fireflyiii-data-importer | baseline | 0.0.7 | 0.9.16 | https://charts.truecharts.org/ |
-| truecharts | firefox | baseline | 3.0.2 | 101.0.1 | https://charts.truecharts.org/ |
-| truecharts | firefox-desktop-g3 | baseline | 0.0.40 | latest | https://charts.truecharts.org/ |
-| truecharts | firefox-syncserver | baseline | 10.0.2 | 1.8.0 | https://charts.truecharts.org/ |
-| truecharts | fireshare | baseline | 0.0.41 | 1.2.5 | https://charts.truecharts.org/ |
-| truecharts | fistfuloffrags | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | fivem | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | flame | baseline | 0.0.38 | 2.3.0 | https://charts.truecharts.org/ |
-| truecharts | flaresolverr | baseline | 7.0.2 | 2.2.10 | https://charts.truecharts.org/ |
-| truecharts | flashpaper | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | flatnotes | baseline | 0.0.14 | 2.1.0 | https://charts.truecharts.org/ |
-| truecharts | fleet | baseline | 4.0.2 | 2.3.3 | https://charts.truecharts.org/ |
-| truecharts | flemarr | error_template | 0.0.11 | latest | https://charts.truecharts.org/ |
-| truecharts | flexget | baseline | 3.0.2 | 3.5.2 | https://charts.truecharts.org/ |
-| truecharts | flextv | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | flood | baseline | 7.0.2 | 4.7.0 | https://charts.truecharts.org/ |
-| truecharts | fluidd | baseline | 3.0.2 | 1.21.1 | https://charts.truecharts.org/ |
-| truecharts | fluttercoin-wallet | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | fmd2-wine | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | focalboard | baseline | 10.0.2 | 7.4.4 | https://charts.truecharts.org/ |
-| truecharts | fogproject | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | foldingathome | baseline | 3.0.2 | 7.6.21 | https://charts.truecharts.org/ |
-| truecharts | fossil | baseline | 5.0.2 | 2.15.1 | https://charts.truecharts.org/ |
-| truecharts | fotosho | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | freecad-desktop-g3 | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | freeradius | baseline | 7.0.2 | 3.2.0 | https://charts.truecharts.org/ |
-| truecharts | freshrss | baseline | 12.0.2 | 1.20.0 | https://charts.truecharts.org/ |
-| truecharts | friendica | baseline | 5.0.2 | 2022.06 | https://charts.truecharts.org/ |
-| truecharts | frigate | baseline | 2.0.44 | latest | https://charts.truecharts.org/ |
-| truecharts | fsm | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | funkwhale | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | funkwhale-all-in-one | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | gaps | baseline | 12.0.2 | 0.10.4 | https://charts.truecharts.org/ |
-| truecharts | garrysmod | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | genea | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | ghost | baseline | 3.0.83 | 5.22.4 | https://charts.truecharts.org/ |
-| truecharts | gitea | baseline | 10.0.2 | 1.17.3 | https://charts.truecharts.org/ |
-| truecharts | github-backup | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | glauth | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | go-auto-yt | baseline | 0.0.34 | stable | https://charts.truecharts.org/ |
-| truecharts | go-playground | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | goaccess | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | goaccess-npm-logs | baseline | 0.0.40 | latest | https://charts.truecharts.org/ |
-| truecharts | godaddy-ddns | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | gokapi | baseline | 0.0.40 | 1.6.1 | https://charts.truecharts.org/ |
-| truecharts | golinks | baseline | 5.0.2 | 154c581 | https://charts.truecharts.org/ |
-| truecharts | gonic | baseline | 7.0.2 | 0.14.0 | https://charts.truecharts.org/ |
-| truecharts | google-cloud-storage-backup | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | googlephotossync | baseline | 0.0.48 | latest | https://charts.truecharts.org/ |
-| truecharts | gotify | baseline | 9.0.2 | 2.1.7 | https://charts.truecharts.org/ |
-| truecharts | gpodder | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | grafana | baseline | 5.0.2 | 9.2.4 | https://charts.truecharts.org/ |
-| truecharts | grafana-image-renderer | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | grav | baseline | 5.0.2 | 1.7.18 | https://charts.truecharts.org/ |
-| truecharts | gridcoinwalletgui | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | grist | baseline | 5.0.2 | 1.0.4 | https://charts.truecharts.org/ |
-| truecharts | grocy | baseline | 12.0.2 | 3.3.1 | https://charts.truecharts.org/ |
-| truecharts | guacamole-client | baseline | 5.0.2 | 1.4.0 | https://charts.truecharts.org/ |
-| truecharts | guacd | baseline | 3.0.2 | 1.4.0 | https://charts.truecharts.org/ |
-| truecharts | guide2go | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | h5ai | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | habridge | baseline | 3.0.2 | 5.4.1 | https://charts.truecharts.org/ |
-| truecharts | halflife2deathmatch | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | hammond | baseline | 3.0.2 | 1.0.0 | https://charts.truecharts.org/ |
-| truecharts | handbrake | baseline | 14.0.2 | 1.25.1 | https://charts.truecharts.org/ |
-| truecharts | hassconfigurator | baseline | 0.0.33 | x86_64 | https://charts.truecharts.org/ |
-| truecharts | haste-server | baseline | 7.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | hastebin | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | headphones | baseline | 5.0.2 | 58edc604 | https://charts.truecharts.org/ |
-| truecharts | healthchecks | baseline | 8.0.2 | 1.22.0 | https://charts.truecharts.org/ |
-| truecharts | healthchecksdashboard | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | hedgedoc | baseline | 5.0.2 | 1.9.6 | https://charts.truecharts.org/ |
-| truecharts | heimdall | baseline | 12.0.2 | 2.4.13 | https://charts.truecharts.org/ |
-| truecharts | hetzner-ddns | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | hexchat | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | hexo-blog | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | homarr | baseline | 3.0.2 | 0.10.3 | https://charts.truecharts.org/ |
-| truecharts | home-assistant | baseline | 16.0.2 | 2022.11.1 | https://charts.truecharts.org/ |
-| truecharts | homebridge | baseline | 1.0.45 | 2022 | https://charts.truecharts.org/ |
-| truecharts | homelablabelmaker | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | homepage | baseline | 1.0.2 | 0.4.18 | https://charts.truecharts.org/ |
-| truecharts | homer | baseline | 3.0.2 | 22.11.1 | https://charts.truecharts.org/ |
-| truecharts | hoobs | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | htpcmanager | baseline | 3.0.2 | 2021.11.17 | https://charts.truecharts.org/ |
-| truecharts | humhub | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | hurtworld | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | hyperion-ng | baseline | 7.0.2 | 2.0.13 | https://charts.truecharts.org/ |
-| truecharts | icantbelieveitsnotvaletudo | baseline | 5.0.2 | 2021.2.1 | https://charts.truecharts.org/ |
-| truecharts | icinga2 | baseline | 4.0.2 | 2.13.5 | https://charts.truecharts.org/ |
-| truecharts | icloudpd | baseline | 0.0.46 | latest | https://charts.truecharts.org/ |
-| truecharts | imgpush | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | immich | baseline | 2.0.2 | 1.29.5_44 | https://charts.truecharts.org/ |
-| truecharts | import-ics | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | imposter-server | baseline | 0.0.2 | 1.6.0 | https://charts.truecharts.org/ |
-| truecharts | impostor-server | baseline | 2.0.2 | 1.7.2 | https://charts.truecharts.org/ |
-| truecharts | inkscape-desktop-g3 | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | insurgencysandstorm | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | inventree | baseline | 5.0.2 | 0.8.4 | https://charts.truecharts.org/ |
-| truecharts | invitarr | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | ipfs | baseline | 4.0.2 | 0.16.0 | https://charts.truecharts.org/ |
-| truecharts | ipmi-tools | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | ispy-agent-dvr | baseline | 3.0.2 | 4.3.8.0 | https://charts.truecharts.org/ |
-| truecharts | iyuuplus | baseline | 3.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | jackett | baseline | 12.0.5 | 0.20.2225 | https://charts.truecharts.org/ |
-| truecharts | jdownloader2 | baseline | 9.0.2 | 1.7.2 | https://charts.truecharts.org/ |
-| truecharts | jellyfin | baseline | 12.0.2 | 10.8.7 | https://charts.truecharts.org/ |
-| truecharts | jellyseerr | baseline | 3.0.2 | 1.2.1 | https://charts.truecharts.org/ |
-| truecharts | jelu | baseline | 0.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | jenkins | baseline | 0.1.19 | 2.362 | https://charts.truecharts.org/ |
-| truecharts | jitsi | baseline | 0.0.44 | 7648 | https://charts.truecharts.org/ |
-| truecharts | jmzhomeproxy | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | joplin-server | baseline | 9.0.2 | 2.9.5 | https://charts.truecharts.org/ |
-| truecharts | jump | baseline | 0.0.46 | 1.3.0 | https://charts.truecharts.org/ |
-| truecharts | jupyter | baseline | 0.0.22 | 2022 | https://charts.truecharts.org/ |
-| truecharts | k8s-gateway | baseline | 7.0.2 | 0.3.2 | https://charts.truecharts.org/ |
-| truecharts | kanboard | baseline | 9.0.2 | 1.2.24 | https://charts.truecharts.org/ |
-| truecharts | kasm | privileged | 1.0.4 | 1.11.0 | https://charts.truecharts.org/ |
-| truecharts | kavita | baseline | 3.0.2 | 0.6.1 | https://charts.truecharts.org/ |
-| truecharts | kavitaemail | baseline | 0.0.11 | 0.1.10 | https://charts.truecharts.org/ |
-| truecharts | kdenlive | baseline | 0.0.47 | latest | https://charts.truecharts.org/ |
-| truecharts | kdenlive-vnc | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | keeweb | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | kerbalspaceprogram-lmp | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | kerio-connect | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | kimai | baseline | 4.0.2 | 1.20 | https://charts.truecharts.org/ |
-| truecharts | kitana | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | kitchenowl | baseline | 2.0.2 | beta | https://charts.truecharts.org/ |
-| truecharts | kiwix-serve | baseline | 2.0.2 | 3.3.0 | https://charts.truecharts.org/ |
-| truecharts | kms | baseline | 12.0.2 | minimal | https://charts.truecharts.org/ |
-| truecharts | kodi-headless | baseline | 3.0.2 | 190 | https://charts.truecharts.org/ |
-| truecharts | koel | baseline | 4.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | komga | baseline | 7.0.2 | 0.157.4 | https://charts.truecharts.org/ |
-| truecharts | kopia | baseline | 3.0.2 | 0.12.1 | https://charts.truecharts.org/ |
-| truecharts | krusader | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | kutt | baseline | 4.0.2 | 2.7.4 | https://charts.truecharts.org/ |
-| truecharts | lancache-dns | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | lancache-monolithic | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | lanraragi | privileged | 5.0.1 | .0.8.4 | https://charts.truecharts.org/ |
-| truecharts | lastoasis | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | lazylibrarian | baseline | 12.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | leaf2mqtt | baseline | 5.0.2 | 0.6 | https://charts.truecharts.org/ |
-| truecharts | leantime | baseline | 5.0.2 | 2.2.10 | https://charts.truecharts.org/ |
-| truecharts | left4dead | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | lemur-cfssl | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | lenpaste | baseline | 0.0.13 | 1.1.1 | https://charts.truecharts.org/ |
-| truecharts | libreddit | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | libreoffice | baseline | 3.0.2 | 7.2.7 | https://charts.truecharts.org/ |
-| truecharts | librephotos | baseline | 5.0.2 | 2022w6 | https://charts.truecharts.org/ |
-| truecharts | librespeed | baseline | 7.0.2 | 5.2.4 | https://charts.truecharts.org/ |
-| truecharts | lidarr | baseline | 12.0.2 | 1.1.0.2649 | https://charts.truecharts.org/ |
-| truecharts | lingva | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | linkace | baseline | 5.0.2 | 1.10.4 | https://charts.truecharts.org/ |
-| truecharts | linkding | baseline | 3.0.2 | 1.15.1 | https://charts.truecharts.org/ |
-| truecharts | linkwallet | baseline | 0.0.12 | 0.0.34 | https://charts.truecharts.org/ |
-| truecharts | liquid-dl | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | littlelink | baseline | 7.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | livebook | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | livestreamdvr | baseline | 0.0.33 | master | https://charts.truecharts.org/ |
-| truecharts | llalon-github-backup | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | logitech-media-server | baseline | 5.0.2 | 8.4.0 | https://charts.truecharts.org/ |
-| truecharts | loki | privileged | 6.0.2 | 2.6.1 | https://charts.truecharts.org/ |
-| truecharts | longvinter | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | lychee | baseline | 14.0.2 | 4.6.1 | https://charts.truecharts.org/ |
-| truecharts | magicmirror2 | baseline | 0.0.1 | latest | https://charts.truecharts.org/ |
-| truecharts | magnetico-environment | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | mailpile | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | makemkv | baseline | 3.0.2 | 1.22.2 | https://charts.truecharts.org/ |
-| truecharts | maloja | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | mango | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | mariadb | baseline | 4.0.4 | 10.9.4 | https://charts.truecharts.org/ |
-| truecharts | matomo | baseline | 4.0.2 | 4.12.3 | https://charts.truecharts.org/ |
-| truecharts | mattermost | baseline | 4.0.2 | 7.3 | https://charts.truecharts.org/ |
-| truecharts | mealie | baseline | 12.0.2 | 1.0.0beta | https://charts.truecharts.org/ |
-| truecharts | media-roller | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | mediaelch | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | mediagoblin | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | mediainfo | baseline | 2.0.2 | 22.10.2 | https://charts.truecharts.org/ |
-| truecharts | medusa | baseline | 4.0.2 | 1.0.9 | https://charts.truecharts.org/ |
-| truecharts | megasync | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | memcached | baseline | 4.0.4 | 1.6.17 | https://charts.truecharts.org/ |
-| truecharts | memories-of-mars | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | meshcentral | baseline | 7.0.2 | 1.0.97 | https://charts.truecharts.org/ |
-| truecharts | meshroom | baseline | 3.0.2 | 2.4.0 | https://charts.truecharts.org/ |
-| truecharts | metallb | empty_no_object | 4.0.21 | upstream | https://charts.truecharts.org/ |
-| truecharts | metatube | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | metube | baseline | 3.0.2 | 2022 | https://charts.truecharts.org/ |
-| truecharts | microbin | baseline | 0.0.9 | 1.1.1 | https://charts.truecharts.org/ |
-| truecharts | midarr | baseline | 0.0.14 | 1.16.1 | https://charts.truecharts.org/ |
-| truecharts | mindustry | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | minecraft-bedrock | baseline | 2.0.2 | 2022.1.0 | https://charts.truecharts.org/ |
-| truecharts | minecraft-bungeecord | baseline | 2.0.2 | 2022.4.1 | https://charts.truecharts.org/ |
-| truecharts | minecraft-java | baseline | 2.0.2 | 2022.13.0 | https://charts.truecharts.org/ |
-| truecharts | mineos | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | minetest | baseline | 2.0.2 | 5.6.1 | https://charts.truecharts.org/ |
-| truecharts | miniflux | baseline | 8.0.2 | 2.0.39 | https://charts.truecharts.org/ |
-| truecharts | minimal-ics-hoster | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | mininote | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | minio | baseline | 4.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | minio-console | baseline | 4.0.2 | 0.21.2 | https://charts.truecharts.org/ |
-| truecharts | minisatip | baseline | 3.0.2 | 2021.12.01 | https://charts.truecharts.org/ |
-| truecharts | mkvcleaver | baseline | 2.0.2 | 1.3.0 | https://charts.truecharts.org/ |
-| truecharts | mkvtoolnix | baseline | 3.0.2 | 22.10.2 | https://charts.truecharts.org/ |
-| truecharts | ml-workspace | baseline | 3.0.2 | 0.13.2 | https://charts.truecharts.org/ |
-| truecharts | mocodo-mcd | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | mojopaste | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | monero-node | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | money-balancer | baseline | 0.0.9 | 1.2.0 | https://charts.truecharts.org/ |
-| truecharts | mongodb | baseline | 3.0.4 | 6.0.2 | https://charts.truecharts.org/ |
-| truecharts | monica | baseline | 4.0.2 | 3.7.0 | https://charts.truecharts.org/ |
-| truecharts | mordhau | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | mosdns | baseline | 3.0.2 | 4.5.2 | https://charts.truecharts.org/ |
-| truecharts | mosquitto | baseline | 7.0.2 | 2.0.15 | https://charts.truecharts.org/ |
-| truecharts | moviegrabber | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | mstream | baseline | 4.0.2 | 5.2.5 | https://charts.truecharts.org/ |
-| truecharts | multi-scrobbler | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | muximux | baseline | 4.0.2 | 057352e8 | https://charts.truecharts.org/ |
-| truecharts | mylar | baseline | 7.0.2 | 0.6.9 | https://charts.truecharts.org/ |
-| truecharts | mymediaforalexa | baseline | 2.0.2 | 1.3.147.99 | https://charts.truecharts.org/ |
-| truecharts | mysql-workbench | privileged | 3.0.2 | 8.0.31 | https://charts.truecharts.org/ |
-| truecharts | n8n | baseline | 5.0.2 | 0.201.0 | https://charts.truecharts.org/ |
-| truecharts | namecheap-ddns | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | nano-wallet | baseline | 3.0.2 | 2021.12.16 | https://charts.truecharts.org/ |
-| truecharts | navidrome | baseline | 12.0.2 | 0.48.0 | https://charts.truecharts.org/ |
-| truecharts | necesse | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | neko | baseline | 0.0.54 | latest | https://charts.truecharts.org/ |
-| truecharts | netbox | baseline | 0.0.1 | 3.3.6 | https://charts.truecharts.org/ |
-| truecharts | netdata | privileged | 3.0.2 | 1.36.1 | https://charts.truecharts.org/ |
-| truecharts | neverwinternights-ee | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | newyearcountdownclock | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | nextcloud | privileged | 17.0.2 | 25.0.1 | https://charts.truecharts.org/ |
-| truecharts | nextpvr | baseline | 3.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | nexus-oss | baseline | 0.0.22 | 3.42.0 | https://charts.truecharts.org/ |
-| truecharts | nginx-proxy-manager | baseline | 0.0.7 | 2.9.18 | https://charts.truecharts.org/ |
-| truecharts | ngircd | baseline | 3.0.2 | 2021.11.21 | https://charts.truecharts.org/ |
-| truecharts | nightscout | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | nntp2nntp | baseline | 3.0.2 | 0.3.202210 | https://charts.truecharts.org/ |
-| truecharts | nocodb | baseline | 4.0.2 | 0.98.4 | https://charts.truecharts.org/ |
-| truecharts | node-red | baseline | 12.0.2 | 3.0.2 | https://charts.truecharts.org/ |
-| truecharts | noisedash | baseline | 0.0.10 | 0.6.5 | https://charts.truecharts.org/ |
-| truecharts | nosqlclient | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | notarius | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | notea | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | novnc | baseline | 4.0.2 | 1.2.0 | https://charts.truecharts.org/ |
-| truecharts | ntfy | baseline | 3.0.2 | 1.28.0 | https://charts.truecharts.org/ |
-| truecharts | nullserv | baseline | 7.0.2 | 1.3.0 | https://charts.truecharts.org/ |
-| truecharts | nzbget | baseline | 12.0.2 | 21.1 | https://charts.truecharts.org/ |
-| truecharts | obs-ndi | baseline | 0.0.40 | latest | https://charts.truecharts.org/ |
-| truecharts | observium | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | obsidian | baseline | 0.0.37 | 0.1.1 | https://charts.truecharts.org/ |
-| truecharts | octoprint | baseline | 7.0.2 | 1.8.6 | https://charts.truecharts.org/ |
-| truecharts | odoo | baseline | 9.0.2 | 15.0 | https://charts.truecharts.org/ |
-| truecharts | omada-controller | baseline | 7.0.2 | 5.5 | https://charts.truecharts.org/ |
-| truecharts | ombi | baseline | 12.0.2 | 4.29.2 | https://charts.truecharts.org/ |
-| truecharts | onlinecheckyourserver | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | onlyoffice-document-server | baseline | 7.0.2 | 7.2.1 | https://charts.truecharts.org/ |
-| truecharts | openaudible | baseline | 0.0.11 | latest | https://charts.truecharts.org/ |
-| truecharts | opengl-desktop-g3 | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | openhab | baseline | 3.0.2 | 3.3.0 | https://charts.truecharts.org/ |
-| truecharts | openkm | baseline | 8.0.2 | 6.3.12 | https://charts.truecharts.org/ |
-| truecharts | openldap | baseline | 8.0.2 | 1.5.0 | https://charts.truecharts.org/ |
-| truecharts | openproject | baseline | 0.0.44 | 12 | https://charts.truecharts.org/ |
-| truecharts | openra | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | openspeedtest | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | openttd | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | openvscode-server | baseline | 3.0.2 | 1.72.3 | https://charts.truecharts.org/ |
-| truecharts | orbital-sync | baseline | 0.0.18 | 1.3.0 | https://charts.truecharts.org/ |
-| truecharts | organizr | baseline | 12.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | oscam | baseline | 7.0.2 | 11693 | https://charts.truecharts.org/ |
-| truecharts | outline | baseline | 4.0.2 | 0.66.3 | https://charts.truecharts.org/ |
-| truecharts | overseerr | baseline | 7.0.2 | 1.30.1 | https://charts.truecharts.org/ |
-| truecharts | owi2plex | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | owncast | baseline | 7.0.2 | 0.0.12 | https://charts.truecharts.org/ |
-| truecharts | owncloud-ocis | baseline | 9.0.2 | 2.0.0 | https://charts.truecharts.org/ |
-| truecharts | paperless-ng | baseline | 5.0.2 | 1.9.2 | https://charts.truecharts.org/ |
-| truecharts | papermerge | baseline | 4.0.2 | 2.0.1 | https://charts.truecharts.org/ |
-| truecharts | passwordpusherephemeral | baseline | 0.0.81 | latest | https://charts.truecharts.org/ |
-| truecharts | pasta | baseline | 2.0.2 | 1.6.2 | https://charts.truecharts.org/ |
-| truecharts | pastey | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | pavlovvr | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | pgadmin | baseline | 8.0.2 | 6.13 | https://charts.truecharts.org/ |
-| truecharts | phoronix-test-suite | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | photo-stream | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | photoprism | baseline | 11.0.2 | 221105 | https://charts.truecharts.org/ |
-| truecharts | photoshow | baseline | 4.0.2 | 48aabb98 | https://charts.truecharts.org/ |
-| truecharts | photostructure | baseline | 0.0.34 | stable | https://charts.truecharts.org/ |
-| truecharts | photoview | baseline | 5.0.2 | 2.3.13 | https://charts.truecharts.org/ |
-| truecharts | phpldapadmin | baseline | 7.0.2 | 0.9.0 | https://charts.truecharts.org/ |
-| truecharts | phpmyadmin | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | piaware | baseline | 7.0.2 | 7.2 | https://charts.truecharts.org/ |
-| truecharts | picoshare | baseline | 3.0.2 | 1.2.1 | https://charts.truecharts.org/ |
-| truecharts | pidgin | baseline | 3.0.2 | 2.14.9 | https://charts.truecharts.org/ |
-| truecharts | pigallery2 | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | pihole | baseline | 7.0.2 | 2022.09.4 | https://charts.truecharts.org/ |
-| truecharts | pinry | baseline | 3.0.2 | 2.1.12 | https://charts.truecharts.org/ |
-| truecharts | piwigo | baseline | 3.1.5 | 11.5.0 | https://charts.truecharts.org/ |
-| truecharts | pixapop | baseline | 4.0.2 | 1.2 | https://charts.truecharts.org/ |
-| truecharts | pixark | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | pixelserv-tls | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | plausible | baseline | 1.0.32 | 1.4.4 | https://charts.truecharts.org/ |
-| truecharts | plaxt | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | plex | baseline | 11.0.2 | 1.29.2.636 | https://charts.truecharts.org/ |
-| truecharts | plex-auto-languages | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | plex-meta-manager | baseline | 0.0.34 | 1.17.3 | https://charts.truecharts.org/ |
-| truecharts | plex-utills | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | plexripper | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | plextraktsync | baseline | 1.0.20 | latest | https://charts.truecharts.org/ |
-| truecharts | podgrab | baseline | 11.0.2 | 1.0.0 | https://charts.truecharts.org/ |
-| truecharts | portainer-ce | baseline | 2.0.2 | 2.16.1 | https://charts.truecharts.org/ |
-| truecharts | post-recording | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | poste | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | posterr | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | postgresql | baseline | 9.0.4 | 14.5.0 | https://charts.truecharts.org/ |
-| truecharts | postscriptum | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | preclear | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | pretend-youre-xyzzy | baseline | 7.0.2 | 4 | https://charts.truecharts.org/ |
-| truecharts | pritunl | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | privatebin | baseline | 0.0.50 | 1.4.0 | https://charts.truecharts.org/ |
-| truecharts | projectsend | baseline | 4.0.2 | 2021.12.10 | https://charts.truecharts.org/ |
-| truecharts | projectzomboidreporter-frontend | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | promcord | baseline | 5.0.3 | latest | https://charts.truecharts.org/ |
-| truecharts | prometheus | privileged | 5.0.2 | 0.60.1 | https://charts.truecharts.org/ |
-| truecharts | promtail | privileged | 4.0.4 | 2.7.0 | https://charts.truecharts.org/ |
-| truecharts | protonmail-bridge | baseline | 8.0.2 | 2.3.0 | https://charts.truecharts.org/ |
-| truecharts | prowlarr | baseline | 7.0.2 | 0.4.8.2072 | https://charts.truecharts.org/ |
-| truecharts | prpdf | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | prusaslicer-novnc | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | ps3netsrv | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | pt-helper | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | pure-ftpd | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | putty | baseline | 2.0.2 | 1.4.0 | https://charts.truecharts.org/ |
-| truecharts | pvk-ii | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | pwm | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | pwndrop | baseline | 3.0.2 | 1.0.1 | https://charts.truecharts.org/ |
-| truecharts | pydio-cells | baseline | 5.0.2 | 3.0.9 | https://charts.truecharts.org/ |
-| truecharts | pyload | baseline | 7.0.2 | 5de90278 | https://charts.truecharts.org/ |
-| truecharts | pyload-ng | baseline | 0.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | pylon | baseline | 3.0.2 | 2.8.0 | https://charts.truecharts.org/ |
-| truecharts | qbitmanage | baseline | 2.0.2 | 3.3.1 | https://charts.truecharts.org/ |
-| truecharts | qbittorrent | baseline | 12.0.2 | 4.4.5 | https://charts.truecharts.org/ |
-| truecharts | qdirstat | baseline | 2.0.2 | 22.10.1 | https://charts.truecharts.org/ |
-| truecharts | qflood | baseline | 0.0.46 | latest | https://charts.truecharts.org/ |
-| truecharts | qinglong | baseline | 3.0.2 | 2.14.12 | https://charts.truecharts.org/ |
-| truecharts | quake3 | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | quassel-core | baseline | 4.0.2 | 0.14.0 | https://charts.truecharts.org/ |
-| truecharts | quassel-web | baseline | 3.0.2 | 2021.12.16 | https://charts.truecharts.org/ |
-| truecharts | quickshare | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | quiz-game | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | ra-rom-processor | baseline | 0.0.50 | latest | https://charts.truecharts.org/ |
-| truecharts | radarr | baseline | 12.0.2 | 4.2.4.6635 | https://charts.truecharts.org/ |
-| truecharts | radarrsync | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | radicale | baseline | 0.0.42 | 3.1.8.0 | https://charts.truecharts.org/ |
-| truecharts | raneto | baseline | 0.0.41 | latest | https://charts.truecharts.org/ |
-| truecharts | rapidphotodownloader | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | raspberrymatic | privileged | 0.0.4 | latest | https://charts.truecharts.org/ |
-| truecharts | rcon-webadmin | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | rdesktop | baseline | 0.0.47 | latest | https://charts.truecharts.org/ |
-| truecharts | reactive-resume | baseline | 0.0.33 | 1 | https://charts.truecharts.org/ |
-| truecharts | readarr | baseline | 12.0.2 | 0.1.1.1352 | https://charts.truecharts.org/ |
-| truecharts | recipes | baseline | 9.0.2 | 1.4.5 | https://charts.truecharts.org/ |
-| truecharts | recyclarr | baseline | 2.0.2 | 2.6.1 | https://charts.truecharts.org/ |
-| truecharts | red-discordbot | baseline | 0.0.33 | full | https://charts.truecharts.org/ |
-| truecharts | redis | baseline | 4.0.4 | 7.0.5 | https://charts.truecharts.org/ |
-| truecharts | redisinsight | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | redm | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | redmine | baseline | 4.0.2 | 5.0.3 | https://charts.truecharts.org/ |
-| truecharts | reg | baseline | 7.0.2 | 0.16.1 | https://charts.truecharts.org/ |
-| truecharts | remmina | baseline | 4.0.2 | 1.2.0-rcgi | https://charts.truecharts.org/ |
-| truecharts | remotely | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | requestrr | baseline | 3.0.2 | 2.1.2 | https://charts.truecharts.org/ |
-| truecharts | resilio-sync | baseline | 7.0.2 | 2.7.2.1375 | https://charts.truecharts.org/ |
-| truecharts | restic-rest-server | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | restreamer | baseline | 0.1.13 | 2.3.0 | https://charts.truecharts.org/ |
-| truecharts | retrobot | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | rflood | baseline | 0.0.42 | latest | https://charts.truecharts.org/ |
-| truecharts | rickroll | baseline | 0.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | rimgo | baseline | 0.0.108 | latest | https://charts.truecharts.org/ |
-| truecharts | ring-mqtt | baseline | 2.0.2 | 5.0.5 | https://charts.truecharts.org/ |
-| truecharts | rmlint | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | rollarr | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | root | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | rsnapshot | baseline | 3.0.2 | 1.4.4 | https://charts.truecharts.org/ |
-| truecharts | rss-bridge | baseline | 3.0.2 | 2022 | https://charts.truecharts.org/ |
-| truecharts | rss-proxy | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | rss-to-telegram | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | rsshub | baseline | 4.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | rstudio | baseline | 0.0.41 | latest | https://charts.truecharts.org/ |
-| truecharts | rtmpserver | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | rust | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | rustpad | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | s3backup | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | s3sync | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | sabnzbd | baseline | 12.0.2 | 3.7.0 | https://charts.truecharts.org/ |
-| truecharts | satisfactory | baseline | 3.0.2 | 1.3.3 | https://charts.truecharts.org/ |
-| truecharts | satisfactory-server | baseline | 0.0.23 | latest | https://charts.truecharts.org/ |
-| truecharts | scprime | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | scrutiny | privileged | 4.0.2 | 0.5.0 | https://charts.truecharts.org/ |
-| truecharts | sdtd | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | searx | baseline | 0.0.49 | latest | https://charts.truecharts.org/ |
-| truecharts | searxng | baseline | 0.0.71 | latest | https://charts.truecharts.org/ |
-| truecharts | seedsync | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | self-service-password | baseline | 1.0.49 | 5.3.1 | https://charts.truecharts.org/ |
-| truecharts | send | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | senseai-server | baseline | 0.0.42 | 1.4.0 | https://charts.truecharts.org/ |
-| truecharts | ser2sock | error_template | 7.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | server-7daystodie | baseline | 0.0.16 | latest | https://charts.truecharts.org/ |
-| truecharts | serviio | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | sftpgo | baseline | 0.0.40 | latest | https://charts.truecharts.org/ |
-| truecharts | shaarli | baseline | 0.0.33 | master | https://charts.truecharts.org/ |
-| truecharts | shadowsocks | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | shapeshifter-obfuscator | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | sheetable | baseline | 0.0.28 | 0.8 | https://charts.truecharts.org/ |
-| truecharts | shiori | baseline | 8.0.2 | 1.5.0 | https://charts.truecharts.org/ |
-| truecharts | shlink | baseline | 5.0.2 | 3.3.2 | https://charts.truecharts.org/ |
-| truecharts | shlink-web-client | baseline | 4.0.2 | 3.7.3 | https://charts.truecharts.org/ |
-| truecharts | shoko-server | baseline | 0.0.33 | daily | https://charts.truecharts.org/ |
-| truecharts | shortipy | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | shorturl | baseline | 4.0.2 | 0.1.0 | https://charts.truecharts.org/ |
-| truecharts | sia-daemon | baseline | 0.0.33 | master | https://charts.truecharts.org/ |
-| truecharts | sickchill | baseline | 4.0.2 | 2022.10.13 | https://charts.truecharts.org/ |
-| truecharts | sickgear | baseline | 4.0.2 | 0.25.4 | https://charts.truecharts.org/ |
-| truecharts | simply-shorten | baseline | 2.0.2 | 1.1 | https://charts.truecharts.org/ |
-| truecharts | sinusbot | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | skyrimtogetherrebornserver | baseline | 0.0.22 | latest | https://charts.truecharts.org/ |
-| truecharts | slack-invite | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | smokeping | baseline | 4.0.2 | 2.7.3 | https://charts.truecharts.org/ |
-| truecharts | snapdrop | baseline | 3.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | snipe-it | baseline | 5.0.2 | 6.0.13 | https://charts.truecharts.org/ |
-| truecharts | snippet-box | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | socials | baseline | 0.0.33 | main | https://charts.truecharts.org/ |
-| truecharts | solr | baseline | 1.0.4 | 9.0.0 | https://charts.truecharts.org/ |
-| truecharts | sonarqube | baseline | 0.0.39 | latest | https://charts.truecharts.org/ |
-| truecharts | sonarr | baseline | 12.0.2 | 3.0.9.1549 | https://charts.truecharts.org/ |
-| truecharts | songkong | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | sourcegraph | baseline | 0.0.45 | 4.1.3 | https://charts.truecharts.org/ |
-| truecharts | spaceengineers | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | speedtest-exporter | baseline | 4.0.3 | 3.5.3 | https://charts.truecharts.org/ |
-| truecharts | speedtest-tracker | baseline | 0.1.10 | latest | https://charts.truecharts.org/ |
-| truecharts | splunk | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | spotweb | baseline | 5.0.2 | 1.5.1 | https://charts.truecharts.org/ |
-| truecharts | sqlite-web | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | sqlitebrowser | baseline | 4.0.2 | 3.12.2 | https://charts.truecharts.org/ |
-| truecharts | st-reborn-server | baseline | 0.0.28 | 1.2.0 | https://charts.truecharts.org/ |
-| truecharts | stackedit | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | standardnotes-web | baseline | 0.0.36 | stable | https://charts.truecharts.org/ |
-| truecharts | starmade | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | stash | baseline | 8.0.2 | 0.17.2 | https://charts.truecharts.org/ |
-| truecharts | static | baseline | 4.0.2 | ee8a20c | https://charts.truecharts.org/ |
-| truecharts | stationeers | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | statisfactory | privileged | 0.0.27 | 1.2.4 | https://charts.truecharts.org/ |
-| truecharts | statping | baseline | 8.0.2 | 0.90.78 | https://charts.truecharts.org/ |
-| truecharts | statping-ng | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | storj-node | baseline | 3.0.2 | 1.66.4 | https://charts.truecharts.org/ |
-| truecharts | storm | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | strapi | baseline | 6.0.2 | 4.4.7 | https://charts.truecharts.org/ |
-| truecharts | stun-turn-server | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | subchart | baseline | 2.0.4 | jammy | https://charts.truecharts.org/ |
-| truecharts | suistartpage | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | survivethenights | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | synapse | error_template | 5.0.2 | 1.70.1 | https://charts.truecharts.org/ |
-| truecharts | synclounge | baseline | 3.0.2 | 5.2.5 | https://charts.truecharts.org/ |
-| truecharts | syncthing | baseline | 12.0.2 | 1.22.1 | https://charts.truecharts.org/ |
-| truecharts | synctube | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | syslog-ng | baseline | 3.0.2 | 3.38.1 | https://charts.truecharts.org/ |
-| truecharts | tachidesk-docker | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | tailscale | privileged | 2.0.2 | 1.33.158 | https://charts.truecharts.org/ |
-| truecharts | tanoshi | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | tar1090 | baseline | 0.0.40 | latest | https://charts.truecharts.org/ |
-| truecharts | tasmoadmin | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | tasmobackup | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | tasmocompiler | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | tautulli | baseline | 12.0.2 | 2.10.5 | https://charts.truecharts.org/ |
-| truecharts | tdarr | baseline | 3.0.2 | 2.00.18.2 | https://charts.truecharts.org/ |
-| truecharts | tdarr-node | baseline | 3.0.2 | 2.00.18.2 | https://charts.truecharts.org/ |
-| truecharts | teamspeak3 | baseline | 5.0.2 | 3.13.7 | https://charts.truecharts.org/ |
-| truecharts | technitium | baseline | 1.0.45 | 8.1 | https://charts.truecharts.org/ |
-| truecharts | teedy | baseline | 8.0.2 | 1.10 | https://charts.truecharts.org/ |
-| truecharts | teedy-docs | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | telethon-downloader | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | terraria-tshock | baseline | 0.0.33 | tshock | https://charts.truecharts.org/ |
-| truecharts | theforest | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | thelounge | baseline | 7.0.2 | 4.3.1 | https://charts.truecharts.org/ |
-| truecharts | theme-park | baseline | 3.0.2 | 1.13.0 | https://charts.truecharts.org/ |
-| truecharts | thunderbird | baseline | 0.0.42 | latest | https://charts.truecharts.org/ |
-| truecharts | timetagger | baseline | 0.0.25 | 22.10.1 | https://charts.truecharts.org/ |
-| truecharts | tinymediamanager | baseline | 3.0.2 | 4.3.5 | https://charts.truecharts.org/ |
-| truecharts | tonido | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | traccar | baseline | 8.0.2 | 5.3 | https://charts.truecharts.org/ |
-| truecharts | tracks | baseline | 0.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | traefik | baseline | 14.1.1 | 2.9.4 | https://charts.truecharts.org/ |
-| truecharts | traktarr | baseline | 0.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | trango | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | transmission | baseline | 13.0.2 | 3.00 | https://charts.truecharts.org/ |
-| truecharts | trilium | baseline | 0.0.28 | latest | https://charts.truecharts.org/ |
-| truecharts | trilium-notes | baseline | 6.0.2 | 0.56.2 | https://charts.truecharts.org/ |
-| truecharts | troddit | baseline | 0.0.40 | latest | https://charts.truecharts.org/ |
-| truecharts | truecommand | baseline | 12.0.2 | 2.2 | https://charts.truecharts.org/ |
-| truecharts | ts-dnsserver | baseline | 0.0.48 | latest | https://charts.truecharts.org/ |
-| truecharts | ts3-manager | baseline | 0.0.23 | 2.2.0 | https://charts.truecharts.org/ |
-| truecharts | tsmuxer | baseline | 2.0.2 | 22.11.1 | https://charts.truecharts.org/ |
-| truecharts | tt-rss | baseline | 8.0.2 | 2.0.9113 | https://charts.truecharts.org/ |
-| truecharts | tubearchivist-es | baseline | 0.0.37 | latest | https://charts.truecharts.org/ |
-| truecharts | tubearchivist-redisjson | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | tubesync | baseline | 0.0.39 | latest | https://charts.truecharts.org/ |
-| truecharts | tvheadend | baseline | 13.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | tvhproxy | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | twonky-server | baseline | 0.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | twtxt | baseline | 4.0.2 | 0.1.1 | https://charts.truecharts.org/ |
-| truecharts | typecho | baseline | 5.0.2 | 1.2.0 | https://charts.truecharts.org/ |
-| truecharts | ubooquity | baseline | 4.0.2 | 2.1.2 | https://charts.truecharts.org/ |
-| truecharts | ubuntu-xrdp | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | umami | baseline | 0.0.16 | 1.39.4 | https://charts.truecharts.org/ |
-| truecharts | ungoogled-chromium | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | unifi | baseline | 12.0.2 | 7.2.95 | https://charts.truecharts.org/ |
-| truecharts | universal-media-server | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | unmanic | baseline | 4.0.2 | 0.2.3 | https://charts.truecharts.org/ |
-| truecharts | unpackerr | baseline | 7.0.2 | 0.10.1 | https://charts.truecharts.org/ |
-| truecharts | unpoller | baseline | 4.0.3 | 2.1.3 | https://charts.truecharts.org/ |
-| truecharts | unturned | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | uptime-kuma | baseline | 4.0.2 | 1.18.5 | https://charts.truecharts.org/ |
-| truecharts | uptimerobot-prometheus | baseline | 5.0.3 | 0.0.1 | https://charts.truecharts.org/ |
-| truecharts | urban-terror | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | v-rising | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | valetudo-mapper | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | valheim | baseline | 4.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | vaulthunters | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | vaultwarden | baseline | 17.0.2 | 1.26.0 | https://charts.truecharts.org/ |
-| truecharts | venstar2mqtt | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | vertex | baseline | 0.0.84 | stable | https://charts.truecharts.org/ |
-| truecharts | verysync | baseline | 3.0.2 | 2.14.0 | https://charts.truecharts.org/ |
-| truecharts | vikunja | baseline | 4.0.2 | 0.20.0 | https://charts.truecharts.org/ |
-| truecharts | vintage-story | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | virt-manager | baseline | 0.0.100 | latest | https://charts.truecharts.org/ |
-| truecharts | vlmcsd-kms-server | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | vorta | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | watchyourlan | privileged | 0.0.10 | 0.7.5 | https://charts.truecharts.org/ |
-| truecharts | wbo | baseline | 0.0.12 | 1.19.1 | https://charts.truecharts.org/ |
-| truecharts | webgrabplus | baseline | 3.0.2 | 5.0.1 | https://charts.truecharts.org/ |
-| truecharts | weblate | baseline | 5.0.2 | 4.14.2 | https://charts.truecharts.org/ |
-| truecharts | webnut | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | webp-server | baseline | 0.0.43 | latest | https://charts.truecharts.org/ |
-| truecharts | website-shot | baseline | 3.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | webtop | baseline | 0.0.45 | latest | https://charts.truecharts.org/ |
-| truecharts | wekan | baseline | 6.0.2 | 6.46 | https://charts.truecharts.org/ |
-| truecharts | wg-easy | privileged | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | wger | baseline | 2.0.2 | latest | https://charts.truecharts.org/ |
-| truecharts | whisparr | baseline | 2.0.2 | 0.1.0.53 | https://charts.truecharts.org/ |
-| truecharts | whoogle | baseline | 4.0.2 | 0.7.4 | https://charts.truecharts.org/ |
-| truecharts | wifi-card | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | wikijs | baseline | 8.0.2 | 2.5.291 | https://charts.truecharts.org/ |
-| truecharts | wireguard | privileged | 2.0.2 | 1.0.202109 | https://charts.truecharts.org/ |
-| truecharts | wireshark | privileged | 3.0.2 | 3.6.5 | https://charts.truecharts.org/ |
-| truecharts | wordle | baseline | 0.0.38 | latest | https://charts.truecharts.org/ |
-| truecharts | xbackbone | baseline | 4.0.2 | 3.3.3 | https://charts.truecharts.org/ |
-| truecharts | xen-orchestra | privileged | 0.0.12 | 5.104.0 | https://charts.truecharts.org/ |
-| truecharts | xmrig | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | xonotic | baseline | 0.0.36 | latest | https://charts.truecharts.org/ |
-| truecharts | xteve | baseline | 7.0.2 | 2.2.0.200 | https://charts.truecharts.org/ |
-| truecharts | xware | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | xwiki | baseline | 4.0.2 | 14.9.0 | https://charts.truecharts.org/ |
-| truecharts | yacht | baseline | 0.0.26 | latest | https://charts.truecharts.org/ |
-| truecharts | yacreaderlibraryserver | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | yacy | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | yourls | baseline | 0.0.45 | latest | https://charts.truecharts.org/ |
-| truecharts | youtransfer | baseline | 0.0.34 | latest | https://charts.truecharts.org/ |
-| truecharts | youtubedl-material | baseline | 2.0.2 | 4.3 | https://charts.truecharts.org/ |
-| truecharts | z80pack | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | zabbix | privileged | 1.0.7 | 6.2.4 | https://charts.truecharts.org/ |
-| truecharts | zabbix-server | baseline | 2.0.49 | 6.2.3 | https://charts.truecharts.org/ |
-| truecharts | zerotier | privileged | 3.0.2 | 1.10.1 | https://charts.truecharts.org/ |
-| truecharts | zigbee2mqtt | baseline | 5.0.2 | 1.28.2 | https://charts.truecharts.org/ |
-| truecharts | znc | baseline | 3.0.2 | 1.8.2 | https://charts.truecharts.org/ |
-| truecharts | zoneminder | baseline | 0.0.35 | latest | https://charts.truecharts.org/ |
-| truecharts | ztcuui-aio | baseline | 2.0.2 | 1.2.11 | https://charts.truecharts.org/ |
-| truecharts | zusam | baseline | 2.0.2 | 0.5.3 | https://charts.truecharts.org/ |
-| truecharts | zwavejs2mqtt | baseline | 13.0.2 | 8.3.0 | https://charts.truecharts.org/ |
-| truenas-csp | truenas-csp | privileged | 1.1.2 | 2.2.0 | https://hpe-storage.github.io/truenas-csp |
-| tsg | tsg-connector | empty_no_object | 3.1.1-master | 1.0 | https://nexus.dataspac.es/repository/tsg-helm |
-| tungntt | learning-fluentd | error_download | 0.1.0 | 1.16.0 | https://tungntt.github.io/devopt-helm-charts |
-| twin | aws-eks-asg-rolling-update-handler | baseline | 1.2.6 |  | https://twin.github.io/helm-charts |
-| twin | gatus | baseline | 0.1.1 |  | https://twin.github.io/helm-charts |
-| twin | k8s-ttl-controller | baseline | 0.1.2 |  | https://twin.github.io/helm-charts |
-| twitter-helm | twitter-app | baseline | 0.1.12 |  | https://github.com/stakkato95/twitter-helm/raw/gh-pages |
-| twuni | docker-registry | baseline | 2.2.2 | 2.8.1 | https://helm.twun.io |
-| twuni | web-service | empty_no_object | 0.0.5 | 0.0.5 | https://helm.twun.io |
-| tyk-helm | simple-mongodb | privileged | 0.1.1 |  | https://helm.tyk.io/public/helm/charts/ |
-| tyk-helm | simple-redis | baseline | 0.1.1 |  | https://helm.tyk.io/public/helm/charts/ |
-| tyk-helm | tyk-headless | baseline | 0.12.0 |  | https://helm.tyk.io/public/helm/charts/ |
-| tyk-helm | tyk-hybrid | baseline | 0.12.0 |  | https://helm.tyk.io/public/helm/charts/ |
-| tyk-helm | tyk-operator | baseline | 0.12.0 |  | https://helm.tyk.io/public/helm/charts/ |
-| tyk-helm | tyk-pro | baseline | 0.12.0 |  | https://helm.tyk.io/public/helm/charts/ |
+| repo | chart | level | chart version | app version |
+|------|------|------|------|------|
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | cloudsql-proxy | no_pod_object | 2.0.2 | 1.16 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | cronjob | version_not_evaluable | 0.1.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | dashkiosk | baseline | 2.0.0 | 2.7.8 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | elasticsearch | version_not_evaluable | 1.0.0 | 6.2.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | external-service | empty_no_object | 1.1.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | flow | version_not_evaluable | 0.1.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | fop | baseline | 1.0.0 | 2.1 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | graylog | version_not_evaluable | 1.0.0 | 2.4.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | gtmetrix-bq | version_not_evaluable | 1.0.0 | 0.2.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | loki | baseline | 1.0.0 | 1.5.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | matomo | baseline | 1.3.1 | 4.3.1 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mongodb | version_not_evaluable | 1.0.0 | 3.6.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mosquitto | baseline | 2.4.1 | 1.6.12 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mysql | baseline | 1.0.0 | 5.7.32 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mysql-backup | no_pod_object | 2.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | nginx | baseline | 0.1.1 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | pi-hole | baseline | 1.0.0 | 4.4 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | postgresql-backup | no_pod_object | 0.0.1 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | promtail | privileged | 1.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | sftp-gcs | baseline | 1.0.0 | 0.0.1 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | snipeit | baseline | 3.3.0 | 5.3.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | snowplow | baseline | 0.0.1 | 2.2.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | ssh-bastion | baseline | 1.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | stackdriver-prometheus | baseline | 0.1.0 | 0.4.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | tideways | baseline | 2.0.1 | 1.5.74 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | unifi-video | empty_no_object | 1.0.0 | 3.10.10 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | web | baseline | 2.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | zipkin-gcp | baseline | 1.0.0 | 0.15.2 |
+| [taalhuisen-frontend](https://raw.githubusercontent.com/ConductionNL/bisc-frontend/master/helm/) | bisc-taalhuizen | baseline | 0.1.2 | 1.16.0 |
+| [taalhuizen-logic](https://raw.githubusercontent.com/ConductionNL/taalhuizen-logic/master/api/helm/) | taalhuizen-logic | version_not_evaluable | 1.0.0 | V1.0 |
+| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | postgresql | baseline | 10.1.1 | 11.10.0 |
+| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | redis | baseline | 12.7.7 | 6.0.11 |
+| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | taalhuizen-service | baseline | 1.0.0 | V1.0 |
+| [taduynghia](https://taduynghia.github.io/helm-chart-chat-app/) | chartapp | empty_no_object | 0.1.0 | 1.1.0 |
+| [tailing-sidecar-operator](https://sumologic.github.io/tailing-sidecar) | tailing-sidecar-operator | baseline | 0.5.5 | 0.5.5 |
+| [take-the-helm](https://dsaidgovsg.github.io/take-the-helm/) | take-the-helm | baseline | 0.1.0 | 0.1.0 |
+| [taken-component](https://raw.githubusercontent.com/ConductionNL/taken-component/master/api/helm/) | taken-component | error_template | 0.1.0 | V1.0 |
+| [talend](https://talend.github.io/helm-charts-public/stable) | vault-sidecar-injector | error_template | 4.3.2 | 7.2.1 |
+| [task-manager](oci://registry.gitlab.com/radiology/infrastructure/task-manager/helm-charts/task-manager) | task-manager | error_download | 0.1.0 | 6.5.0 |
+| [taskmedia](https://helm.task.media) | ipsec-vpn-server | privileged | 1.1.4 | latest |
+| [taskmedia](https://helm.task.media) | vpn-ios-profile | privileged | 0.2.3 | latest |
+| [teamcity-server](https://nefelim4ag.github.io/teamcity-charts/) | teamcity-server | baseline | 1.2.1 | 2022.04 |
+| [tejaswita-hadoop-helmchart](https://tejaswita1203.github.io/hadoop-helmchart/) | hadoop-deployment | baseline | 1.0.0 |  |
+| [tekton](https://cdfoundation.github.io/tekton-helm-chart/) | tekton-pipeline | baseline | 0.29.0 | 0.29.0 |
+| [telegraf-ds-k3s](https://xe-nvdk.github.io/awesome-helm-charts/) | telegraf-ds-k3s | privileged | 1.0.0 | 1.19 |
+| [telegraf](https://muhlba91.github.io/telegraf-chart) | telegraf | baseline | 1.0.1 | 1.23.3 |
+| [telegram-sender](https://danuk.github.io/k8s-telegram-sender/) | k8s-telegram-sender | baseline | 0.0.1 | 1.16.0 |
+| [teleivo-dhis2-core-helm](https://teleivo.github.io/dhis2-core-helm) | core | baseline | 0.10.1-beta | 1.16.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-cluster | error_template | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-kube-agent | error_template | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-email | baseline | 11.0.1 | 11.0.1 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-event-handler | baseline | 11.0.1 | 11.0.1 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-jira | baseline | 11.0.1 | 11.0.1 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-mattermost | baseline | 11.0.1 | 11.0.1 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-ms-teams | baseline | 11.0.0-hugoteams | 11.0.0-hugoteams |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-msteams | baseline | 11.0.1 | 11.0.1 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-pagerduty | baseline | 11.0.1 | 11.0.1 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-slack | baseline | 11.0.1 | 11.0.1 |
+| [tellery](https://tellery.github.io/charts/) | tellery | error_template | 0.0.17 | 0.8.4 |
+| [tensor-app](https://xeladock.github.io/helm/) | tensor_app | baseline | 0.2.2 | 0.16.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | dummy-nginx | baseline | 1.0.2 | 1.0.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | dummy-nginx-html | baseline | 1.0.1 | 1.0.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | echoserver | baseline | 0.1.0 | 1.16.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | kroki | baseline | 1.0.1 | 0.17.0 |
+| [terraform-controller](https://absaoss.github.io/terraform-controller) | terraform-controller | baseline | 0.0.20 | v0.0.20 |
+| [teshub](https://testhub-io.github.io/testhub-helm) | testhub | baseline | 0.1.4 | 1.16.0 |
+| [test-helm](https://erdengk.github.io/chart-test) | shenyu | baseline | 2.4.21 | 1.16.0 |
+| [test-nginx-charts](https://yedukondalurd.github.io/nginx-charts/) | nginx-charts | baseline | 0.1.0 | 1.16.0 |
+| [test-nginx](https://vizarg.github.io/helm-chart-nginx/nginx) | nginx | baseline | 0.1.0 | 1.16.0 |
+| [test1](oci://registry.gitlab.com/kubelink/examples) | examples | error_download | 0.1.2 | 1.16.0 |
+| [test4322](https://anaghapirangute.github.io/) | pages | privileged | 1.0.0 | 1.0 |
+| [testappchart](https://syahmi001.github.io/helm_chart/) | testappchart | baseline | 0.1.0 | 1.16.0 |
+| [testrepo](https://300481.github.io/artifacthub2github) | testchart | empty_no_object | 0.2.7 |  |
+| [testtt](oci://kahyt.azurecr.io/test-repo/services-kafka) | services-kafka | error_download | 0.1.0 | 1.16.0 |
+| [teuto-net](https://teutonet.github.io/teutonet-helm-charts) | base-cluster | privileged | 0.3.0 |  |
+| [tfservingcache](https://mkaloer.github.io/TFServingCache/) | tfservingcache | privileged | 0.1.1 | 1.0 |
+| [thanos](https://prasadrajesh.github.io/thanos/charts) | thanos | baseline | 2.5.2 | 0.15.0 |
+| [the-ambassador](https://roche.github.io/the-ambassador/) | ambassador | error_template | 0.2.3 | 0.0.1 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | application-secrets | no_pod_object_but_crd | 0.1.2 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | external-secrets | no_pod_object_but_crd | 0.1.0 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | idsvr | error_template | 0.0.5 | 6.7.3 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | idsvr-config-params | no_pod_object | 0.1.0 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | introspection-proxy | no_pod_object | 0.1.1 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | node-local-dns | privileged | 0.1.0 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | standard-application | baseline | 1.0.12 | 1.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | unauthenticated-ingress | empty_no_object | 0.0.5 | 1.0 |
+| [thecampagnards](https://thecampagnards.github.io/helm-charts/) | postgrest | baseline | 0.1.6 | v9.0.0.20220211 |
+| [thecampagnards](https://thecampagnards.github.io/helm-charts/) | trafficlight-api | privileged | 0.1.1 | 0.1.0 |
+| [thingsboard](https://midokura.github.io/thingsboard-ce-k8s) | thingsboard | baseline | 0.1.3-rc.1 | 3.4.1 |
+| [thiru-pages](https://tbirgi.github.io/) | pages | privileged | 1.0.0 | 1.0 |
+| [thl-charts](http://charts.thunderal.net/) | game-server | error_template | 1.0.0 | 1.0.0 |
+| [thl-charts](http://charts.thunderal.net/) | mc-router | baseline | 0.1.0 | 1.16.1 |
+| [thl-charts](http://charts.thunderal.net/) | monitoring | privileged | 0.1.1 | 1.16.0 |
+| [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-agent | error_template | 1.4.7 | 1.4.1 |
+| [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-console | privileged | 1.4.7 | 1.4.1 |
+| [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-router | no_pod_object_but_crd | 1.4.5 | 1.4.1 |
+| [thuy-pages](https://bthuy42.github.io/) | pages | privileged | 1.0.0 | 1.0 |
+| [tibber-exporter](https://terjesannum.github.io/tibber-exporter/) | tibber-exporter | error_template | 1.4.4 | 17 |
+| [tikimim](https://tikimim.github.io/helm) | common | error_download | 0.0.1 | 0.0.1 |
+| [tinote-chart](https://denisshav.github.io/helm-chart/) | pock-helm-chart | baseline | 0.1.0 | 1.16.0 |
+| [tiny-api](https://2beens.github.io/tiny-api-k8s/) | tiny-api-chart | baseline | 1.0.0 | 1.16.0 |
+| [tnh](https://tnh7575.github.io/helm-charts) | grafana | baseline | 5.3.0 | 7.0.3 |
+| [tnh](https://tnh7575.github.io/helm-charts) | jenkins | baseline | 2.7.1 | lts |
+| [tnh](https://tnh7575.github.io/helm-charts) | metallb | privileged | 0.1.1 | 0.8.2 |
+| [tnh](https://tnh7575.github.io/helm-charts) | prometheus | privileged | 11.6.0 | 2.19.0 |
+| [todoapi-app](https://sonusathyadas.github.io/todoapi-helm-repo/helm/charts) | todoapi | baseline | 0.1.0 | 1.5.0 |
+| [token-registration-component](https://raw.githubusercontent.com/ConductionNL/token-registration-component/master/api/helm/) | token-registration-component | error_template | 0.1.0 | V1.0 |
+| [tor-snowflake-proxy](https://lukm.codeberg.page/helm-tor-snowflake-proxy/) | tor-snowflake-proxy | privileged | 0.2.1 | v2.3.0 |
+| [toshi](https://toshi-qcri.github.io/toshi-helm-charts) | toshi-bitcoin-parser | error_download | 0.1.32 |  |
+| [toucan](https://toucansoft.io/charts) | spa-reloader | baseline | 0.1.0 | 0.0.16 |
+| [touk](https://helm-charts.touk.pl/public/) | apicurio-registry | error_template | 0.1.5 | 2.2.5.Final |
+| [touk](https://helm-charts.touk.pl/public/) | hermes | baseline | 0.5.14-SNAPSHOT.3172372307 | 1.12.3 |
+| [touk](https://helm-charts.touk.pl/public/) | nussknacker | error_template | 1.6.0 | 1.6.0 |
+| [tpt](https://teacherspayteachers.github.io/helm-charts) | ebpf-exporter | privileged | 0.2.0 | 0.2.0 |
+| [tpt](https://teacherspayteachers.github.io/helm-charts) | linux-audit-exporter | privileged | 0.2.2 | 0.2.2 |
+| [traefik-jwt-decode](https://athics-team.github.io/traefik-jwt-decode/) | traefik-jwt-decode | baseline | 0.1.0 |  |
+| [traefik](https://traefik.github.io/charts) | maesh | baseline | 2.1.2 | v1.3.2 |
+| [traefik](https://traefik.github.io/charts) | traefik | baseline | 20.1.0 | 2.9.4 |
+| [traefik](https://traefik.github.io/charts) | traefik-mesh | baseline | 4.1.0 | v1.4.8 |
+| [trafficserver-ingress-controller](https://apache.github.io/trafficserver-ingress-controller) | ats-ingress | baseline | 0.1.0 | 0.1.0 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-activedirectory | no_pod_object_but_crd | 1.0.5 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-add-cluster | no_pod_object_but_crd | 1.0.5 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-cluster-management | empty_no_object | 3.0.10 | 1.0.30 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-cluster-management-by-group | empty_no_object | 0.1.0 | 1.16.0 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-activedirectory | no_pod_object_but_crd | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-github | no_pod_object_but_crd | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-oidc | no_pod_object_but_crd | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-saml2 | no_pod_object_but_crd | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-managementproxy | error_template | 1.0.3 | 1.0.21 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-oidc | no_pod_object_but_crd | 1.0.5 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-saml2 | no_pod_object_but_crd | 1.0.2 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-kiali | no_pod_object_but_crd | 0.2.0 | 1.0.30 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-operator | baseline | 2.2.6 | 1.0.23 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-vcluster-admins | empty_no_object | 0.1.0 | 1.16.0 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra | version_not_evaluable | 2.10.14 | 1.0.29 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-azuread | empty_no_object | 1.0.3 | 1.0.30 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-portal | baseline | 2.3.10 | 1.0.29 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-portal-argocd | version_not_evaluable | 0.0.14 | 1.0.31 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | vcluster-onboard | baseline | 0.4.0 | 1.31.0 |
+| [trickster](https://helm.tricksterproxy.io/) | trickster | baseline | 1.5.4 | 1.1 |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | gtm-server-container-cluster | baseline | 0.1.2 | 1.16.0 |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | saleor | privileged | 0.2.23 |  |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | saleor-helm | baseline | 0.1.25 |  |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | strapi | baseline | 0.1.47 | 1.16.0 |
+| [trino](https://trinodb.github.io/charts/) | trino | baseline | 0.8.0 | 375 |
+| [trouw-service](https://raw.githubusercontent.com/ConductionNL/trouw-service/master/api/helm/) | trouw-service | baseline | 1.0.0 | V1.0 |
+| [trozz](https://charts.trozzy.net/) | atlantis | baseline | 3.12.11 | v0.16.1 |
+| [trozz](https://charts.trozzy.net/) | homer | baseline | 0.0.1 | 20.07.2 |
+| [trozz](https://charts.trozzy.net/) | karma | baseline | 0.0.7 | 1.0 |
+| [trozz](https://charts.trozzy.net/) | kubernetes-external-secrets | baseline | 6.3.0 | 6.3.0 |
+| [trozz](https://charts.trozzy.net/) | monitoror | baseline | 0.0.1 | 4 |
+| [trozz](https://charts.trozzy.net/) | nessus | baseline | 0.1.0 | 1.16.0 |
+| [trozz](https://charts.trozzy.net/) | securenote | empty_no_object | 0.0.1 | 1.0.0 |
+| [truecharts-library-charts](https://library-charts.truecharts.org) | common | empty_no_object | 10.9.6 | latest |
+| [truecharts-library-charts](https://library-charts.truecharts.org) | dep-common | empty_no_object | 9.3.20 | latest |
+| [truecharts](https://charts.truecharts.org/) | acestream | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | actualserver | empty_no_object | 2.0.2 | 22.10.25 |
+| [truecharts](https://charts.truecharts.org/) | adguard-home | baseline | 3.0.2 | 0.107.18 |
+| [truecharts](https://charts.truecharts.org/) | adguardhome-sync | baseline | 0.0.42 | latest |
+| [truecharts](https://charts.truecharts.org/) | adminer | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | agent-dvr | privileged | 0.0.11 | latest |
+| [truecharts](https://charts.truecharts.org/) | airdcpp-webclient | baseline | 4.0.2 | 2.11.2 |
+| [truecharts](https://charts.truecharts.org/) | airsonic | baseline | 7.0.2 | 10.6.2 |
+| [truecharts](https://charts.truecharts.org/) | airsonic-advanced | baseline | 5.0.2 | 11.0.0 |
+| [truecharts](https://charts.truecharts.org/) | alienswarm | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | alienswarm-reactivedrop | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | alist | baseline | 3.0.2 | 3.3.0 |
+| [truecharts](https://charts.truecharts.org/) | altitude | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | ama | privileged | 0.0.11 | latest |
+| [truecharts](https://charts.truecharts.org/) | ambd | privileged | 0.0.11 | latest |
+| [truecharts](https://charts.truecharts.org/) | amcrest2mqtt | baseline | 5.0.2 | 1.0.16 |
+| [truecharts](https://charts.truecharts.org/) | amd-gpu-plugin | privileged | 0.0.3 | upstream |
+| [truecharts](https://charts.truecharts.org/) | americasarmy-pg | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | amtd | baseline | 0.0.39 | latest |
+| [truecharts](https://charts.truecharts.org/) | amule | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | amvd | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | android-8-0 | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | androiddebugbridge | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | anki-sync-server | baseline | 0.0.21 | 20220516 |
+| [truecharts](https://charts.truecharts.org/) | anonaddy | baseline | 10.0.2 | 0.13.11 |
+| [truecharts](https://charts.truecharts.org/) | anope | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | apache-musicindex | baseline | 5.0.2 | 1.4.1 |
+| [truecharts](https://charts.truecharts.org/) | apache-webdav | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | appdaemon | baseline | 10.0.2 | 4.2.1 |
+| [truecharts](https://charts.truecharts.org/) | apprise-api | baseline | 0.0.44 | latest |
+| [truecharts](https://charts.truecharts.org/) | appsmith | baseline | 2.0.66 | 1.8.7 |
+| [truecharts](https://charts.truecharts.org/) | apt-cacher-ng | baseline | 2.0.2 | 3.7.4 |
+| [truecharts](https://charts.truecharts.org/) | archiveteam-warrior | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | aria2 | baseline | 6.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | ariang | baseline | 2.0.2 | 1.2.4 |
+| [truecharts](https://charts.truecharts.org/) | arksurvivalevolved | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | arma3 | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | arma3exilemod | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | artifactory-oss | baseline | 0.0.42 | 7.46.11 |
+| [truecharts](https://charts.truecharts.org/) | assettocorsa | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | atd | privileged | 0.0.11 | latest |
+| [truecharts](https://charts.truecharts.org/) | audacity | baseline | 5.0.2 | 3.0.2 |
+| [truecharts](https://charts.truecharts.org/) | audiobookshelf | baseline | 3.0.2 | 2.2.1 |
+| [truecharts](https://charts.truecharts.org/) | aurora-files | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | authelia | baseline | 12.0.2 | 4.37.2 |
+| [truecharts](https://charts.truecharts.org/) | authentik | baseline | 8.0.2 | 2022.10.1 |
+| [truecharts](https://charts.truecharts.org/) | auto-yt-dl | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | autobrr | baseline | 2.0.2 | 1.9.0 |
+| [truecharts](https://charts.truecharts.org/) | automatic-music-downloader | baseline | 3.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | autoscan | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | avidemux | baseline | 2.0.2 | 1.4.0 |
+| [truecharts](https://charts.truecharts.org/) | avorion | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | awesome-ttrss | baseline | 0.0.55 | 2022 |
+| [truecharts](https://charts.truecharts.org/) | babybuddy | baseline | 9.0.2 | 1.13.2 |
+| [truecharts](https://charts.truecharts.org/) | backuppc | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | baikal | baseline | 0.0.34 | 0.9.2 |
+| [truecharts](https://charts.truecharts.org/) | barcodebuddy | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | barotrauma | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | baserow | baseline | 4.0.2 | 1.13.0 |
+| [truecharts](https://charts.truecharts.org/) | batnoter | baseline | 0.0.12 | latest |
+| [truecharts](https://charts.truecharts.org/) | bazarr | baseline | 12.0.2 | 1.1.2 |
+| [truecharts](https://charts.truecharts.org/) | beets | baseline | 5.0.2 | 1.6.0 |
+| [truecharts](https://charts.truecharts.org/) | bender | baseline | 0.0.11 | 1.0.3 |
+| [truecharts](https://charts.truecharts.org/) | bitcoin-node | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | bitcoind | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | bitcoinunlimited | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | bitcoinwalletgui | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | blender | baseline | 0.0.45 | latest |
+| [truecharts](https://charts.truecharts.org/) | blender-desktop-g3 | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | blocky | baseline | 1.1.10 | 0.19 |
+| [truecharts](https://charts.truecharts.org/) | blog | baseline | 4.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | boinc | baseline | 3.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | booksonic-air | baseline | 7.0.2 | 2201.1.0 |
+| [truecharts](https://charts.truecharts.org/) | bookstack | baseline | 4.0.2 | 22.10.2022 |
+| [truecharts](https://charts.truecharts.org/) | breitbandmessung-de | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | browserless-chrome | baseline | 3.0.2 | 1.54.0 |
+| [truecharts](https://charts.truecharts.org/) | btdex | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | budge | baseline | 3.0.2 | 0.0.9 |
+| [truecharts](https://charts.truecharts.org/) | bwapp | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | cadquery-jupyter | baseline | 0.0.38 | 3.4.0 |
+| [truecharts](https://charts.truecharts.org/) | cadquery-server | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | calibre | baseline | 8.0.2 | 6.8.0 |
+| [truecharts](https://charts.truecharts.org/) | calibre-web | baseline | 12.0.2 | 0.6.19 |
+| [truecharts](https://charts.truecharts.org/) | cherry | baseline | 0.0.10 | 0.0.6 |
+| [truecharts](https://charts.truecharts.org/) | chevereto | baseline | 4.0.2 | 1.6.2 |
+| [truecharts](https://charts.truecharts.org/) | chivalry-medievalwarfare | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | chowdown | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | chromium | baseline | 0.0.45 | latest |
+| [truecharts](https://charts.truecharts.org/) | chromium-desktop-g3 | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | chronograf | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | chronos | baseline | 2.0.2 | 0.2 |
+| [truecharts](https://charts.truecharts.org/) | ciao | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | citadel-forgedwithfire | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | clamav | baseline | 4.0.2 | 0.105.1 |
+| [truecharts](https://charts.truecharts.org/) | clarkson | baseline | 4.0.2 | 1.1.2 |
+| [truecharts](https://charts.truecharts.org/) | cleanarr | baseline | 0.0.35 | 2.1.3 |
+| [truecharts](https://charts.truecharts.org/) | clickhouse | baseline | 2.0.4 | 22.10.2.11 |
+| [truecharts](https://charts.truecharts.org/) | cloud9 | baseline | 5.0.2 | 1.29.2 |
+| [truecharts](https://charts.truecharts.org/) | cloudbeaver | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | cloudcommander | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | cloudflared | baseline | 2.0.2 | 2022.10.3 |
+| [truecharts](https://charts.truecharts.org/) | cloudflareddns | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | cloudreve | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | code-server | baseline | 5.0.2 | 4.8.3 |
+| [truecharts](https://charts.truecharts.org/) | collabora-online | baseline | 13.0.4 | 22.05.8.2 |
+| [truecharts](https://charts.truecharts.org/) | colonysurvival | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | commento-plusplus | baseline | 4.0.2 | 1.8.7 |
+| [truecharts](https://charts.truecharts.org/) | common-test | privileged | 3.3.8 | 1.8.0 |
+| [truecharts](https://charts.truecharts.org/) | conanexiles | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | conreq | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | convos | baseline | 0.0.38 | stable |
+| [truecharts](https://charts.truecharts.org/) | cops | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | core-keeper-dedicated-server | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | corekeeper | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | couchpotato | baseline | 3.0.2 | 2021.11.22 |
+| [truecharts](https://charts.truecharts.org/) | counterstrike2d | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | coupon-store | baseline | 0.0.9 | 1.2.0 |
+| [truecharts](https://charts.truecharts.org/) | cowyo | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | craftopia | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | crafty-3 | baseline | 0.0.31 | latest |
+| [truecharts](https://charts.truecharts.org/) | crafty-4 | baseline | 0.0.44 | 4.0.16 |
+| [truecharts](https://charts.truecharts.org/) | crypto-exchanges-gateway | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | cryptofolio | baseline | 5.0.2 | 2.2.0 |
+| [truecharts](https://charts.truecharts.org/) | cryptpad | baseline | 0.0.95 | latest |
+| [truecharts](https://charts.truecharts.org/) | csgo | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | cssource | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | cstrike1-6 | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | cstrikeconditionzero | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | cups-server | privileged | 1.0.61 | latest |
+| [truecharts](https://charts.truecharts.org/) | cura-novnc | baseline | 0.0.41 | latest |
+| [truecharts](https://charts.truecharts.org/) | custom-app | baseline | 6.0.2 | 0.20.2225 |
+| [truecharts](https://charts.truecharts.org/) | cyberchef | baseline | 3.0.2 | 9.48.0 |
+| [truecharts](https://charts.truecharts.org/) | czkawka | baseline | 2.0.2 | 1.7.0 |
+| [truecharts](https://charts.truecharts.org/) | dailynotes | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | damselfly | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | darktable | baseline | 4.0.2 | 3.8.1 |
+| [truecharts](https://charts.truecharts.org/) | dashdot | privileged | 2.0.2 | 4.5.3 |
+| [truecharts](https://charts.truecharts.org/) | dashmachine | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | dashy | baseline | 0.0.10 | 2.1.1 |
+| [truecharts](https://charts.truecharts.org/) | davos | baseline | 5.0.2 | 2.2.1 |
+| [truecharts](https://charts.truecharts.org/) | dayofdefeatsource | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | daysofwar | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | dayz | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | ddclient | baseline | 3.0.2 | 3.10.0 |
+| [truecharts](https://charts.truecharts.org/) | ddns-go | baseline | 3.0.2 | 4.2.0 |
+| [truecharts](https://charts.truecharts.org/) | ddns-route53 | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | ddns-updater | baseline | 3.0.2 | 2.4.1 |
+| [truecharts](https://charts.truecharts.org/) | debian-apt-mirror | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | debian-bullseye | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | deconz | baseline | 9.0.2 | 2.19.01 |
+| [truecharts](https://charts.truecharts.org/) | deemix | baseline | 4.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | deepstack | baseline | 5.0.2 | 2022.01.1 |
+| [truecharts](https://charts.truecharts.org/) | deepstack-cpu | baseline | 8.0.7 | 2021.09.1 |
+| [truecharts](https://charts.truecharts.org/) | deepstack-gpu | baseline | 3.0.7 | 2021.09.1 |
+| [truecharts](https://charts.truecharts.org/) | deluge | baseline | 12.0.2 | 2.0.5 |
+| [truecharts](https://charts.truecharts.org/) | digikam | baseline | 5.0.2 | 7.8.0 |
+| [truecharts](https://charts.truecharts.org/) | dillinger | baseline | 3.0.2 | 3.39.1 |
+| [truecharts](https://charts.truecharts.org/) | dispatch | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | dizquetv | baseline | 8.0.2 | 1.5.0 |
+| [truecharts](https://charts.truecharts.org/) | dns-doh-companion | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | docker-compose | privileged | 4.0.2 | 20.10.21 |
+| [truecharts](https://charts.truecharts.org/) | docker-hub-rss | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | dockerregistry | baseline | 0.0.33 | 2 |
+| [truecharts](https://charts.truecharts.org/) | docspell | baseline | 0.0.13 | 0.38.0 |
+| [truecharts](https://charts.truecharts.org/) | docusaurus | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | dokuwiki | baseline | 4.0.2 | 20220731.1 |
+| [truecharts](https://charts.truecharts.org/) | domoticz | baseline | 3.0.2 | 2022.1.202 |
+| [truecharts](https://charts.truecharts.org/) | dontstarvetogether | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | doplarr | baseline | 3.0.2 | 3.6.1 |
+| [truecharts](https://charts.truecharts.org/) | double-take | baseline | 3.0.2 | 1.13.1 |
+| [truecharts](https://charts.truecharts.org/) | doublecommander | baseline | 5.0.2 | 0.8.2 |
+| [truecharts](https://charts.truecharts.org/) | drawio | baseline | 3.0.2 | 20.5.3 |
+| [truecharts](https://charts.truecharts.org/) | drone-runner | baseline | 2.0.2 | 1.0.0 |
+| [truecharts](https://charts.truecharts.org/) | dropbox-by-otherguy | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | dsmr-reader | baseline | 9.0.2 | 2021.09.02 |
+| [truecharts](https://charts.truecharts.org/) | duckdns | baseline | 3.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | dupeguru | baseline | 2.0.2 | 22.10.2 |
+| [truecharts](https://charts.truecharts.org/) | duplicacy | baseline | 0.0.41 | latest |
+| [truecharts](https://charts.truecharts.org/) | duplicati | baseline | 7.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | dvblink | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | eco | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | ecodms | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | electrum | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | emby | baseline | 12.0.2 | 4.7.8.0 |
+| [truecharts](https://charts.truecharts.org/) | emby-sync | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | embystat | baseline | 3.0.2 | 0.2.0 |
+| [truecharts](https://charts.truecharts.org/) | emulatorjs | baseline | 3.0.2 | 1.7.2 |
+| [truecharts](https://charts.truecharts.org/) | endlessh | baseline | 3.0.2 | 2021.11.21 |
+| [truecharts](https://charts.truecharts.org/) | esphome | privileged | 12.0.2 | 2022.10.2 |
+| [truecharts](https://charts.truecharts.org/) | etesync | baseline | 0.0.50 | 0.10.0 |
+| [truecharts](https://charts.truecharts.org/) | ethercalc | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | etherpad | baseline | 9.0.2 | 1.8.14 |
+| [truecharts](https://charts.truecharts.org/) | euterpe | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | explainshell | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | external-ip | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | external-service | baseline | 7.0.3 | latest |
+| [truecharts](https://charts.truecharts.org/) | factorio | baseline | 0.0.46 | stable |
+| [truecharts](https://charts.truecharts.org/) | factorioservermanager | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | facturascripts | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | fancyindex | baseline | 1.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | farmos | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | fastcom-mqtt | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | fenrus | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | ferdi-client | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | ferdi-server | baseline | 4.0.2 | 1.3.2 |
+| [truecharts](https://charts.truecharts.org/) | ffmpeg-mkvdts2ac3 | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | filebot | baseline | 2.0.2 | 1.14.1 |
+| [truecharts](https://charts.truecharts.org/) | filebrowser | baseline | 3.0.2 | 2.22.4 |
+| [truecharts](https://charts.truecharts.org/) | fileflows | baseline | 3.0.2 | 1.0.6 |
+| [truecharts](https://charts.truecharts.org/) | fileflows-node | baseline | 0.0.24 | latest |
+| [truecharts](https://charts.truecharts.org/) | filegator | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | filerun | baseline | 4.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | fileshelter | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | filestash | baseline | 0.0.53 | latest |
+| [truecharts](https://charts.truecharts.org/) | filezilla | baseline | 5.0.2 | 3.59.0 |
+| [truecharts](https://charts.truecharts.org/) | fireflyiii | baseline | 17.0.2 | 5.7.15 |
+| [truecharts](https://charts.truecharts.org/) | fireflyiii-data-importer | baseline | 0.0.7 | 0.9.16 |
+| [truecharts](https://charts.truecharts.org/) | firefox | baseline | 3.0.2 | 101.0.1 |
+| [truecharts](https://charts.truecharts.org/) | firefox-desktop-g3 | baseline | 0.0.40 | latest |
+| [truecharts](https://charts.truecharts.org/) | firefox-syncserver | baseline | 10.0.2 | 1.8.0 |
+| [truecharts](https://charts.truecharts.org/) | fireshare | baseline | 0.0.41 | 1.2.5 |
+| [truecharts](https://charts.truecharts.org/) | fistfuloffrags | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | fivem | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | flame | baseline | 0.0.38 | 2.3.0 |
+| [truecharts](https://charts.truecharts.org/) | flaresolverr | baseline | 7.0.2 | 2.2.10 |
+| [truecharts](https://charts.truecharts.org/) | flashpaper | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | flatnotes | baseline | 0.0.14 | 2.1.0 |
+| [truecharts](https://charts.truecharts.org/) | fleet | baseline | 4.0.2 | 2.3.3 |
+| [truecharts](https://charts.truecharts.org/) | flemarr | error_template | 0.0.11 | latest |
+| [truecharts](https://charts.truecharts.org/) | flexget | baseline | 3.0.2 | 3.5.2 |
+| [truecharts](https://charts.truecharts.org/) | flextv | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | flood | baseline | 7.0.2 | 4.7.0 |
+| [truecharts](https://charts.truecharts.org/) | fluidd | baseline | 3.0.2 | 1.21.1 |
+| [truecharts](https://charts.truecharts.org/) | fluttercoin-wallet | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | fmd2-wine | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | focalboard | baseline | 10.0.2 | 7.4.4 |
+| [truecharts](https://charts.truecharts.org/) | fogproject | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | foldingathome | baseline | 3.0.2 | 7.6.21 |
+| [truecharts](https://charts.truecharts.org/) | fossil | baseline | 5.0.2 | 2.15.1 |
+| [truecharts](https://charts.truecharts.org/) | fotosho | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | freecad-desktop-g3 | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | freeradius | baseline | 7.0.2 | 3.2.0 |
+| [truecharts](https://charts.truecharts.org/) | freshrss | baseline | 12.0.2 | 1.20.0 |
+| [truecharts](https://charts.truecharts.org/) | friendica | baseline | 5.0.2 | 2022.06 |
+| [truecharts](https://charts.truecharts.org/) | frigate | baseline | 2.0.44 | latest |
+| [truecharts](https://charts.truecharts.org/) | fsm | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | funkwhale | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | funkwhale-all-in-one | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | gaps | baseline | 12.0.2 | 0.10.4 |
+| [truecharts](https://charts.truecharts.org/) | garrysmod | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | genea | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | ghost | baseline | 3.0.83 | 5.22.4 |
+| [truecharts](https://charts.truecharts.org/) | gitea | baseline | 10.0.2 | 1.17.3 |
+| [truecharts](https://charts.truecharts.org/) | github-backup | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | glauth | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | go-auto-yt | baseline | 0.0.34 | stable |
+| [truecharts](https://charts.truecharts.org/) | go-playground | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | goaccess | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | goaccess-npm-logs | baseline | 0.0.40 | latest |
+| [truecharts](https://charts.truecharts.org/) | godaddy-ddns | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | gokapi | baseline | 0.0.40 | 1.6.1 |
+| [truecharts](https://charts.truecharts.org/) | golinks | baseline | 5.0.2 | 154c581 |
+| [truecharts](https://charts.truecharts.org/) | gonic | baseline | 7.0.2 | 0.14.0 |
+| [truecharts](https://charts.truecharts.org/) | google-cloud-storage-backup | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | googlephotossync | baseline | 0.0.48 | latest |
+| [truecharts](https://charts.truecharts.org/) | gotify | baseline | 9.0.2 | 2.1.7 |
+| [truecharts](https://charts.truecharts.org/) | gpodder | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | grafana | baseline | 5.0.2 | 9.2.4 |
+| [truecharts](https://charts.truecharts.org/) | grafana-image-renderer | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | grav | baseline | 5.0.2 | 1.7.18 |
+| [truecharts](https://charts.truecharts.org/) | gridcoinwalletgui | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | grist | baseline | 5.0.2 | 1.0.4 |
+| [truecharts](https://charts.truecharts.org/) | grocy | baseline | 12.0.2 | 3.3.1 |
+| [truecharts](https://charts.truecharts.org/) | guacamole-client | baseline | 5.0.2 | 1.4.0 |
+| [truecharts](https://charts.truecharts.org/) | guacd | baseline | 3.0.2 | 1.4.0 |
+| [truecharts](https://charts.truecharts.org/) | guide2go | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | h5ai | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | habridge | baseline | 3.0.2 | 5.4.1 |
+| [truecharts](https://charts.truecharts.org/) | halflife2deathmatch | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | hammond | baseline | 3.0.2 | 1.0.0 |
+| [truecharts](https://charts.truecharts.org/) | handbrake | baseline | 14.0.2 | 1.25.1 |
+| [truecharts](https://charts.truecharts.org/) | hassconfigurator | baseline | 0.0.33 | x86_64 |
+| [truecharts](https://charts.truecharts.org/) | haste-server | baseline | 7.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | hastebin | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | headphones | baseline | 5.0.2 | 58edc604 |
+| [truecharts](https://charts.truecharts.org/) | healthchecks | baseline | 8.0.2 | 1.22.0 |
+| [truecharts](https://charts.truecharts.org/) | healthchecksdashboard | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | hedgedoc | baseline | 5.0.2 | 1.9.6 |
+| [truecharts](https://charts.truecharts.org/) | heimdall | baseline | 12.0.2 | 2.4.13 |
+| [truecharts](https://charts.truecharts.org/) | hetzner-ddns | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | hexchat | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | hexo-blog | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | homarr | baseline | 3.0.2 | 0.10.3 |
+| [truecharts](https://charts.truecharts.org/) | home-assistant | baseline | 16.0.2 | 2022.11.1 |
+| [truecharts](https://charts.truecharts.org/) | homebridge | baseline | 1.0.45 | 2022 |
+| [truecharts](https://charts.truecharts.org/) | homelablabelmaker | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | homepage | baseline | 1.0.2 | 0.4.18 |
+| [truecharts](https://charts.truecharts.org/) | homer | baseline | 3.0.2 | 22.11.1 |
+| [truecharts](https://charts.truecharts.org/) | hoobs | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | htpcmanager | baseline | 3.0.2 | 2021.11.17 |
+| [truecharts](https://charts.truecharts.org/) | humhub | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | hurtworld | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | hyperion-ng | baseline | 7.0.2 | 2.0.13 |
+| [truecharts](https://charts.truecharts.org/) | icantbelieveitsnotvaletudo | baseline | 5.0.2 | 2021.2.1 |
+| [truecharts](https://charts.truecharts.org/) | icinga2 | baseline | 4.0.2 | 2.13.5 |
+| [truecharts](https://charts.truecharts.org/) | icloudpd | baseline | 0.0.46 | latest |
+| [truecharts](https://charts.truecharts.org/) | imgpush | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | immich | baseline | 2.0.2 | 1.29.5_44 |
+| [truecharts](https://charts.truecharts.org/) | import-ics | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | imposter-server | baseline | 0.0.2 | 1.6.0 |
+| [truecharts](https://charts.truecharts.org/) | impostor-server | baseline | 2.0.2 | 1.7.2 |
+| [truecharts](https://charts.truecharts.org/) | inkscape-desktop-g3 | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | insurgencysandstorm | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | inventree | baseline | 5.0.2 | 0.8.4 |
+| [truecharts](https://charts.truecharts.org/) | invitarr | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | ipfs | baseline | 4.0.2 | 0.16.0 |
+| [truecharts](https://charts.truecharts.org/) | ipmi-tools | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | ispy-agent-dvr | baseline | 3.0.2 | 4.3.8.0 |
+| [truecharts](https://charts.truecharts.org/) | iyuuplus | baseline | 3.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | jackett | baseline | 12.0.5 | 0.20.2225 |
+| [truecharts](https://charts.truecharts.org/) | jdownloader2 | baseline | 9.0.2 | 1.7.2 |
+| [truecharts](https://charts.truecharts.org/) | jellyfin | baseline | 12.0.2 | 10.8.7 |
+| [truecharts](https://charts.truecharts.org/) | jellyseerr | baseline | 3.0.2 | 1.2.1 |
+| [truecharts](https://charts.truecharts.org/) | jelu | baseline | 0.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | jenkins | baseline | 0.1.19 | 2.362 |
+| [truecharts](https://charts.truecharts.org/) | jitsi | baseline | 0.0.44 | 7648 |
+| [truecharts](https://charts.truecharts.org/) | jmzhomeproxy | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | joplin-server | baseline | 9.0.2 | 2.9.5 |
+| [truecharts](https://charts.truecharts.org/) | jump | baseline | 0.0.46 | 1.3.0 |
+| [truecharts](https://charts.truecharts.org/) | jupyter | baseline | 0.0.22 | 2022 |
+| [truecharts](https://charts.truecharts.org/) | k8s-gateway | baseline | 7.0.2 | 0.3.2 |
+| [truecharts](https://charts.truecharts.org/) | kanboard | baseline | 9.0.2 | 1.2.24 |
+| [truecharts](https://charts.truecharts.org/) | kasm | privileged | 1.0.4 | 1.11.0 |
+| [truecharts](https://charts.truecharts.org/) | kavita | baseline | 3.0.2 | 0.6.1 |
+| [truecharts](https://charts.truecharts.org/) | kavitaemail | baseline | 0.0.11 | 0.1.10 |
+| [truecharts](https://charts.truecharts.org/) | kdenlive | baseline | 0.0.47 | latest |
+| [truecharts](https://charts.truecharts.org/) | kdenlive-vnc | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | keeweb | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | kerbalspaceprogram-lmp | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | kerio-connect | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | kimai | baseline | 4.0.2 | 1.20 |
+| [truecharts](https://charts.truecharts.org/) | kitana | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | kitchenowl | baseline | 2.0.2 | beta |
+| [truecharts](https://charts.truecharts.org/) | kiwix-serve | baseline | 2.0.2 | 3.3.0 |
+| [truecharts](https://charts.truecharts.org/) | kms | baseline | 12.0.2 | minimal |
+| [truecharts](https://charts.truecharts.org/) | kodi-headless | baseline | 3.0.2 | 190 |
+| [truecharts](https://charts.truecharts.org/) | koel | baseline | 4.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | komga | baseline | 7.0.2 | 0.157.4 |
+| [truecharts](https://charts.truecharts.org/) | kopia | baseline | 3.0.2 | 0.12.1 |
+| [truecharts](https://charts.truecharts.org/) | krusader | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | kutt | baseline | 4.0.2 | 2.7.4 |
+| [truecharts](https://charts.truecharts.org/) | lancache-dns | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | lancache-monolithic | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | lanraragi | privileged | 5.0.1 | .0.8.4 |
+| [truecharts](https://charts.truecharts.org/) | lastoasis | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | lazylibrarian | baseline | 12.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | leaf2mqtt | baseline | 5.0.2 | 0.6 |
+| [truecharts](https://charts.truecharts.org/) | leantime | baseline | 5.0.2 | 2.2.10 |
+| [truecharts](https://charts.truecharts.org/) | left4dead | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | lemur-cfssl | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | lenpaste | baseline | 0.0.13 | 1.1.1 |
+| [truecharts](https://charts.truecharts.org/) | libreddit | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | libreoffice | baseline | 3.0.2 | 7.2.7 |
+| [truecharts](https://charts.truecharts.org/) | librephotos | baseline | 5.0.2 | 2022w6 |
+| [truecharts](https://charts.truecharts.org/) | librespeed | baseline | 7.0.2 | 5.2.4 |
+| [truecharts](https://charts.truecharts.org/) | lidarr | baseline | 12.0.2 | 1.1.0.2649 |
+| [truecharts](https://charts.truecharts.org/) | lingva | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | linkace | baseline | 5.0.2 | 1.10.4 |
+| [truecharts](https://charts.truecharts.org/) | linkding | baseline | 3.0.2 | 1.15.1 |
+| [truecharts](https://charts.truecharts.org/) | linkwallet | baseline | 0.0.12 | 0.0.34 |
+| [truecharts](https://charts.truecharts.org/) | liquid-dl | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | littlelink | baseline | 7.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | livebook | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | livestreamdvr | baseline | 0.0.33 | master |
+| [truecharts](https://charts.truecharts.org/) | llalon-github-backup | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | logitech-media-server | baseline | 5.0.2 | 8.4.0 |
+| [truecharts](https://charts.truecharts.org/) | loki | privileged | 6.0.2 | 2.6.1 |
+| [truecharts](https://charts.truecharts.org/) | longvinter | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | lychee | baseline | 14.0.2 | 4.6.1 |
+| [truecharts](https://charts.truecharts.org/) | magicmirror2 | baseline | 0.0.1 | latest |
+| [truecharts](https://charts.truecharts.org/) | magnetico-environment | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | mailpile | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | makemkv | baseline | 3.0.2 | 1.22.2 |
+| [truecharts](https://charts.truecharts.org/) | maloja | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | mango | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | mariadb | baseline | 4.0.4 | 10.9.4 |
+| [truecharts](https://charts.truecharts.org/) | matomo | baseline | 4.0.2 | 4.12.3 |
+| [truecharts](https://charts.truecharts.org/) | mattermost | baseline | 4.0.2 | 7.3 |
+| [truecharts](https://charts.truecharts.org/) | mealie | baseline | 12.0.2 | 1.0.0beta |
+| [truecharts](https://charts.truecharts.org/) | media-roller | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | mediaelch | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | mediagoblin | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | mediainfo | baseline | 2.0.2 | 22.10.2 |
+| [truecharts](https://charts.truecharts.org/) | medusa | baseline | 4.0.2 | 1.0.9 |
+| [truecharts](https://charts.truecharts.org/) | megasync | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | memcached | baseline | 4.0.4 | 1.6.17 |
+| [truecharts](https://charts.truecharts.org/) | memories-of-mars | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | meshcentral | baseline | 7.0.2 | 1.0.97 |
+| [truecharts](https://charts.truecharts.org/) | meshroom | baseline | 3.0.2 | 2.4.0 |
+| [truecharts](https://charts.truecharts.org/) | metallb | empty_no_object | 4.0.21 | upstream |
+| [truecharts](https://charts.truecharts.org/) | metatube | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | metube | baseline | 3.0.2 | 2022 |
+| [truecharts](https://charts.truecharts.org/) | microbin | baseline | 0.0.9 | 1.1.1 |
+| [truecharts](https://charts.truecharts.org/) | midarr | baseline | 0.0.14 | 1.16.1 |
+| [truecharts](https://charts.truecharts.org/) | mindustry | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | minecraft-bedrock | baseline | 2.0.2 | 2022.1.0 |
+| [truecharts](https://charts.truecharts.org/) | minecraft-bungeecord | baseline | 2.0.2 | 2022.4.1 |
+| [truecharts](https://charts.truecharts.org/) | minecraft-java | baseline | 2.0.2 | 2022.13.0 |
+| [truecharts](https://charts.truecharts.org/) | mineos | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | minetest | baseline | 2.0.2 | 5.6.1 |
+| [truecharts](https://charts.truecharts.org/) | miniflux | baseline | 8.0.2 | 2.0.39 |
+| [truecharts](https://charts.truecharts.org/) | minimal-ics-hoster | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | mininote | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | minio | baseline | 4.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | minio-console | baseline | 4.0.2 | 0.21.2 |
+| [truecharts](https://charts.truecharts.org/) | minisatip | baseline | 3.0.2 | 2021.12.01 |
+| [truecharts](https://charts.truecharts.org/) | mkvcleaver | baseline | 2.0.2 | 1.3.0 |
+| [truecharts](https://charts.truecharts.org/) | mkvtoolnix | baseline | 3.0.2 | 22.10.2 |
+| [truecharts](https://charts.truecharts.org/) | ml-workspace | baseline | 3.0.2 | 0.13.2 |
+| [truecharts](https://charts.truecharts.org/) | mocodo-mcd | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | mojopaste | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | monero-node | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | money-balancer | baseline | 0.0.9 | 1.2.0 |
+| [truecharts](https://charts.truecharts.org/) | mongodb | baseline | 3.0.4 | 6.0.2 |
+| [truecharts](https://charts.truecharts.org/) | monica | baseline | 4.0.2 | 3.7.0 |
+| [truecharts](https://charts.truecharts.org/) | mordhau | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | mosdns | baseline | 3.0.2 | 4.5.2 |
+| [truecharts](https://charts.truecharts.org/) | mosquitto | baseline | 7.0.2 | 2.0.15 |
+| [truecharts](https://charts.truecharts.org/) | moviegrabber | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | mstream | baseline | 4.0.2 | 5.2.5 |
+| [truecharts](https://charts.truecharts.org/) | multi-scrobbler | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | muximux | baseline | 4.0.2 | 057352e8 |
+| [truecharts](https://charts.truecharts.org/) | mylar | baseline | 7.0.2 | 0.6.9 |
+| [truecharts](https://charts.truecharts.org/) | mymediaforalexa | baseline | 2.0.2 | 1.3.147.99 |
+| [truecharts](https://charts.truecharts.org/) | mysql-workbench | privileged | 3.0.2 | 8.0.31 |
+| [truecharts](https://charts.truecharts.org/) | n8n | baseline | 5.0.2 | 0.201.0 |
+| [truecharts](https://charts.truecharts.org/) | namecheap-ddns | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | nano-wallet | baseline | 3.0.2 | 2021.12.16 |
+| [truecharts](https://charts.truecharts.org/) | navidrome | baseline | 12.0.2 | 0.48.0 |
+| [truecharts](https://charts.truecharts.org/) | necesse | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | neko | baseline | 0.0.54 | latest |
+| [truecharts](https://charts.truecharts.org/) | netbox | baseline | 0.0.1 | 3.3.6 |
+| [truecharts](https://charts.truecharts.org/) | netdata | privileged | 3.0.2 | 1.36.1 |
+| [truecharts](https://charts.truecharts.org/) | neverwinternights-ee | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | newyearcountdownclock | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | nextcloud | privileged | 17.0.2 | 25.0.1 |
+| [truecharts](https://charts.truecharts.org/) | nextpvr | baseline | 3.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | nexus-oss | baseline | 0.0.22 | 3.42.0 |
+| [truecharts](https://charts.truecharts.org/) | nginx-proxy-manager | baseline | 0.0.7 | 2.9.18 |
+| [truecharts](https://charts.truecharts.org/) | ngircd | baseline | 3.0.2 | 2021.11.21 |
+| [truecharts](https://charts.truecharts.org/) | nightscout | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | nntp2nntp | baseline | 3.0.2 | 0.3.202210 |
+| [truecharts](https://charts.truecharts.org/) | nocodb | baseline | 4.0.2 | 0.98.4 |
+| [truecharts](https://charts.truecharts.org/) | node-red | baseline | 12.0.2 | 3.0.2 |
+| [truecharts](https://charts.truecharts.org/) | noisedash | baseline | 0.0.10 | 0.6.5 |
+| [truecharts](https://charts.truecharts.org/) | nosqlclient | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | notarius | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | notea | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | novnc | baseline | 4.0.2 | 1.2.0 |
+| [truecharts](https://charts.truecharts.org/) | ntfy | baseline | 3.0.2 | 1.28.0 |
+| [truecharts](https://charts.truecharts.org/) | nullserv | baseline | 7.0.2 | 1.3.0 |
+| [truecharts](https://charts.truecharts.org/) | nzbget | baseline | 12.0.2 | 21.1 |
+| [truecharts](https://charts.truecharts.org/) | obs-ndi | baseline | 0.0.40 | latest |
+| [truecharts](https://charts.truecharts.org/) | observium | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | obsidian | baseline | 0.0.37 | 0.1.1 |
+| [truecharts](https://charts.truecharts.org/) | octoprint | baseline | 7.0.2 | 1.8.6 |
+| [truecharts](https://charts.truecharts.org/) | odoo | baseline | 9.0.2 | 15.0 |
+| [truecharts](https://charts.truecharts.org/) | omada-controller | baseline | 7.0.2 | 5.5 |
+| [truecharts](https://charts.truecharts.org/) | ombi | baseline | 12.0.2 | 4.29.2 |
+| [truecharts](https://charts.truecharts.org/) | onlinecheckyourserver | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | onlyoffice-document-server | baseline | 7.0.2 | 7.2.1 |
+| [truecharts](https://charts.truecharts.org/) | openaudible | baseline | 0.0.11 | latest |
+| [truecharts](https://charts.truecharts.org/) | opengl-desktop-g3 | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | openhab | baseline | 3.0.2 | 3.3.0 |
+| [truecharts](https://charts.truecharts.org/) | openkm | baseline | 8.0.2 | 6.3.12 |
+| [truecharts](https://charts.truecharts.org/) | openldap | baseline | 8.0.2 | 1.5.0 |
+| [truecharts](https://charts.truecharts.org/) | openproject | baseline | 0.0.44 | 12 |
+| [truecharts](https://charts.truecharts.org/) | openra | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | openspeedtest | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | openttd | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | openvscode-server | baseline | 3.0.2 | 1.72.3 |
+| [truecharts](https://charts.truecharts.org/) | orbital-sync | baseline | 0.0.18 | 1.3.0 |
+| [truecharts](https://charts.truecharts.org/) | organizr | baseline | 12.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | oscam | baseline | 7.0.2 | 11693 |
+| [truecharts](https://charts.truecharts.org/) | outline | baseline | 4.0.2 | 0.66.3 |
+| [truecharts](https://charts.truecharts.org/) | overseerr | baseline | 7.0.2 | 1.30.1 |
+| [truecharts](https://charts.truecharts.org/) | owi2plex | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | owncast | baseline | 7.0.2 | 0.0.12 |
+| [truecharts](https://charts.truecharts.org/) | owncloud-ocis | baseline | 9.0.2 | 2.0.0 |
+| [truecharts](https://charts.truecharts.org/) | paperless-ng | baseline | 5.0.2 | 1.9.2 |
+| [truecharts](https://charts.truecharts.org/) | papermerge | baseline | 4.0.2 | 2.0.1 |
+| [truecharts](https://charts.truecharts.org/) | passwordpusherephemeral | baseline | 0.0.81 | latest |
+| [truecharts](https://charts.truecharts.org/) | pasta | baseline | 2.0.2 | 1.6.2 |
+| [truecharts](https://charts.truecharts.org/) | pastey | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | pavlovvr | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | pgadmin | baseline | 8.0.2 | 6.13 |
+| [truecharts](https://charts.truecharts.org/) | phoronix-test-suite | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | photo-stream | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | photoprism | baseline | 11.0.2 | 221105 |
+| [truecharts](https://charts.truecharts.org/) | photoshow | baseline | 4.0.2 | 48aabb98 |
+| [truecharts](https://charts.truecharts.org/) | photostructure | baseline | 0.0.34 | stable |
+| [truecharts](https://charts.truecharts.org/) | photoview | baseline | 5.0.2 | 2.3.13 |
+| [truecharts](https://charts.truecharts.org/) | phpldapadmin | baseline | 7.0.2 | 0.9.0 |
+| [truecharts](https://charts.truecharts.org/) | phpmyadmin | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | piaware | baseline | 7.0.2 | 7.2 |
+| [truecharts](https://charts.truecharts.org/) | picoshare | baseline | 3.0.2 | 1.2.1 |
+| [truecharts](https://charts.truecharts.org/) | pidgin | baseline | 3.0.2 | 2.14.9 |
+| [truecharts](https://charts.truecharts.org/) | pigallery2 | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | pihole | baseline | 7.0.2 | 2022.09.4 |
+| [truecharts](https://charts.truecharts.org/) | pinry | baseline | 3.0.2 | 2.1.12 |
+| [truecharts](https://charts.truecharts.org/) | piwigo | baseline | 3.1.5 | 11.5.0 |
+| [truecharts](https://charts.truecharts.org/) | pixapop | baseline | 4.0.2 | 1.2 |
+| [truecharts](https://charts.truecharts.org/) | pixark | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | pixelserv-tls | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | plausible | baseline | 1.0.32 | 1.4.4 |
+| [truecharts](https://charts.truecharts.org/) | plaxt | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | plex | baseline | 11.0.2 | 1.29.2.636 |
+| [truecharts](https://charts.truecharts.org/) | plex-auto-languages | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | plex-meta-manager | baseline | 0.0.34 | 1.17.3 |
+| [truecharts](https://charts.truecharts.org/) | plex-utills | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | plexripper | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | plextraktsync | baseline | 1.0.20 | latest |
+| [truecharts](https://charts.truecharts.org/) | podgrab | baseline | 11.0.2 | 1.0.0 |
+| [truecharts](https://charts.truecharts.org/) | portainer-ce | baseline | 2.0.2 | 2.16.1 |
+| [truecharts](https://charts.truecharts.org/) | post-recording | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | poste | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | posterr | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | postgresql | baseline | 9.0.4 | 14.5.0 |
+| [truecharts](https://charts.truecharts.org/) | postscriptum | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | preclear | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | pretend-youre-xyzzy | baseline | 7.0.2 | 4 |
+| [truecharts](https://charts.truecharts.org/) | pritunl | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | privatebin | baseline | 0.0.50 | 1.4.0 |
+| [truecharts](https://charts.truecharts.org/) | projectsend | baseline | 4.0.2 | 2021.12.10 |
+| [truecharts](https://charts.truecharts.org/) | projectzomboidreporter-frontend | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | promcord | baseline | 5.0.3 | latest |
+| [truecharts](https://charts.truecharts.org/) | prometheus | privileged | 5.0.2 | 0.60.1 |
+| [truecharts](https://charts.truecharts.org/) | promtail | privileged | 4.0.4 | 2.7.0 |
+| [truecharts](https://charts.truecharts.org/) | protonmail-bridge | baseline | 8.0.2 | 2.3.0 |
+| [truecharts](https://charts.truecharts.org/) | prowlarr | baseline | 7.0.2 | 0.4.8.2072 |
+| [truecharts](https://charts.truecharts.org/) | prpdf | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | prusaslicer-novnc | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | ps3netsrv | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | pt-helper | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | pure-ftpd | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | putty | baseline | 2.0.2 | 1.4.0 |
+| [truecharts](https://charts.truecharts.org/) | pvk-ii | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | pwm | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | pwndrop | baseline | 3.0.2 | 1.0.1 |
+| [truecharts](https://charts.truecharts.org/) | pydio-cells | baseline | 5.0.2 | 3.0.9 |
+| [truecharts](https://charts.truecharts.org/) | pyload | baseline | 7.0.2 | 5de90278 |
+| [truecharts](https://charts.truecharts.org/) | pyload-ng | baseline | 0.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | pylon | baseline | 3.0.2 | 2.8.0 |
+| [truecharts](https://charts.truecharts.org/) | qbitmanage | baseline | 2.0.2 | 3.3.1 |
+| [truecharts](https://charts.truecharts.org/) | qbittorrent | baseline | 12.0.2 | 4.4.5 |
+| [truecharts](https://charts.truecharts.org/) | qdirstat | baseline | 2.0.2 | 22.10.1 |
+| [truecharts](https://charts.truecharts.org/) | qflood | baseline | 0.0.46 | latest |
+| [truecharts](https://charts.truecharts.org/) | qinglong | baseline | 3.0.2 | 2.14.12 |
+| [truecharts](https://charts.truecharts.org/) | quake3 | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | quassel-core | baseline | 4.0.2 | 0.14.0 |
+| [truecharts](https://charts.truecharts.org/) | quassel-web | baseline | 3.0.2 | 2021.12.16 |
+| [truecharts](https://charts.truecharts.org/) | quickshare | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | quiz-game | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | ra-rom-processor | baseline | 0.0.50 | latest |
+| [truecharts](https://charts.truecharts.org/) | radarr | baseline | 12.0.2 | 4.2.4.6635 |
+| [truecharts](https://charts.truecharts.org/) | radarrsync | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | radicale | baseline | 0.0.42 | 3.1.8.0 |
+| [truecharts](https://charts.truecharts.org/) | raneto | baseline | 0.0.41 | latest |
+| [truecharts](https://charts.truecharts.org/) | rapidphotodownloader | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | raspberrymatic | privileged | 0.0.4 | latest |
+| [truecharts](https://charts.truecharts.org/) | rcon-webadmin | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | rdesktop | baseline | 0.0.47 | latest |
+| [truecharts](https://charts.truecharts.org/) | reactive-resume | baseline | 0.0.33 | 1 |
+| [truecharts](https://charts.truecharts.org/) | readarr | baseline | 12.0.2 | 0.1.1.1352 |
+| [truecharts](https://charts.truecharts.org/) | recipes | baseline | 9.0.2 | 1.4.5 |
+| [truecharts](https://charts.truecharts.org/) | recyclarr | baseline | 2.0.2 | 2.6.1 |
+| [truecharts](https://charts.truecharts.org/) | red-discordbot | baseline | 0.0.33 | full |
+| [truecharts](https://charts.truecharts.org/) | redis | baseline | 4.0.4 | 7.0.5 |
+| [truecharts](https://charts.truecharts.org/) | redisinsight | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | redm | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | redmine | baseline | 4.0.2 | 5.0.3 |
+| [truecharts](https://charts.truecharts.org/) | reg | baseline | 7.0.2 | 0.16.1 |
+| [truecharts](https://charts.truecharts.org/) | remmina | baseline | 4.0.2 | 1.2.0-rcgi |
+| [truecharts](https://charts.truecharts.org/) | remotely | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | requestrr | baseline | 3.0.2 | 2.1.2 |
+| [truecharts](https://charts.truecharts.org/) | resilio-sync | baseline | 7.0.2 | 2.7.2.1375 |
+| [truecharts](https://charts.truecharts.org/) | restic-rest-server | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | restreamer | baseline | 0.1.13 | 2.3.0 |
+| [truecharts](https://charts.truecharts.org/) | retrobot | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | rflood | baseline | 0.0.42 | latest |
+| [truecharts](https://charts.truecharts.org/) | rickroll | baseline | 0.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | rimgo | baseline | 0.0.108 | latest |
+| [truecharts](https://charts.truecharts.org/) | ring-mqtt | baseline | 2.0.2 | 5.0.5 |
+| [truecharts](https://charts.truecharts.org/) | rmlint | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | rollarr | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | root | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | rsnapshot | baseline | 3.0.2 | 1.4.4 |
+| [truecharts](https://charts.truecharts.org/) | rss-bridge | baseline | 3.0.2 | 2022 |
+| [truecharts](https://charts.truecharts.org/) | rss-proxy | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | rss-to-telegram | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | rsshub | baseline | 4.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | rstudio | baseline | 0.0.41 | latest |
+| [truecharts](https://charts.truecharts.org/) | rtmpserver | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | rust | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | rustpad | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | s3backup | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | s3sync | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | sabnzbd | baseline | 12.0.2 | 3.7.0 |
+| [truecharts](https://charts.truecharts.org/) | satisfactory | baseline | 3.0.2 | 1.3.3 |
+| [truecharts](https://charts.truecharts.org/) | satisfactory-server | baseline | 0.0.23 | latest |
+| [truecharts](https://charts.truecharts.org/) | scprime | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | scrutiny | privileged | 4.0.2 | 0.5.0 |
+| [truecharts](https://charts.truecharts.org/) | sdtd | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | searx | baseline | 0.0.49 | latest |
+| [truecharts](https://charts.truecharts.org/) | searxng | baseline | 0.0.71 | latest |
+| [truecharts](https://charts.truecharts.org/) | seedsync | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | self-service-password | baseline | 1.0.49 | 5.3.1 |
+| [truecharts](https://charts.truecharts.org/) | send | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | senseai-server | baseline | 0.0.42 | 1.4.0 |
+| [truecharts](https://charts.truecharts.org/) | ser2sock | error_template | 7.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | server-7daystodie | baseline | 0.0.16 | latest |
+| [truecharts](https://charts.truecharts.org/) | serviio | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | sftpgo | baseline | 0.0.40 | latest |
+| [truecharts](https://charts.truecharts.org/) | shaarli | baseline | 0.0.33 | master |
+| [truecharts](https://charts.truecharts.org/) | shadowsocks | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | shapeshifter-obfuscator | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | sheetable | baseline | 0.0.28 | 0.8 |
+| [truecharts](https://charts.truecharts.org/) | shiori | baseline | 8.0.2 | 1.5.0 |
+| [truecharts](https://charts.truecharts.org/) | shlink | baseline | 5.0.2 | 3.3.2 |
+| [truecharts](https://charts.truecharts.org/) | shlink-web-client | baseline | 4.0.2 | 3.7.3 |
+| [truecharts](https://charts.truecharts.org/) | shoko-server | baseline | 0.0.33 | daily |
+| [truecharts](https://charts.truecharts.org/) | shortipy | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | shorturl | baseline | 4.0.2 | 0.1.0 |
+| [truecharts](https://charts.truecharts.org/) | sia-daemon | baseline | 0.0.33 | master |
+| [truecharts](https://charts.truecharts.org/) | sickchill | baseline | 4.0.2 | 2022.10.13 |
+| [truecharts](https://charts.truecharts.org/) | sickgear | baseline | 4.0.2 | 0.25.4 |
+| [truecharts](https://charts.truecharts.org/) | simply-shorten | baseline | 2.0.2 | 1.1 |
+| [truecharts](https://charts.truecharts.org/) | sinusbot | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | skyrimtogetherrebornserver | baseline | 0.0.22 | latest |
+| [truecharts](https://charts.truecharts.org/) | slack-invite | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | smokeping | baseline | 4.0.2 | 2.7.3 |
+| [truecharts](https://charts.truecharts.org/) | snapdrop | baseline | 3.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | snipe-it | baseline | 5.0.2 | 6.0.13 |
+| [truecharts](https://charts.truecharts.org/) | snippet-box | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | socials | baseline | 0.0.33 | main |
+| [truecharts](https://charts.truecharts.org/) | solr | baseline | 1.0.4 | 9.0.0 |
+| [truecharts](https://charts.truecharts.org/) | sonarqube | baseline | 0.0.39 | latest |
+| [truecharts](https://charts.truecharts.org/) | sonarr | baseline | 12.0.2 | 3.0.9.1549 |
+| [truecharts](https://charts.truecharts.org/) | songkong | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | sourcegraph | baseline | 0.0.45 | 4.1.3 |
+| [truecharts](https://charts.truecharts.org/) | spaceengineers | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | speedtest-exporter | baseline | 4.0.3 | 3.5.3 |
+| [truecharts](https://charts.truecharts.org/) | speedtest-tracker | baseline | 0.1.10 | latest |
+| [truecharts](https://charts.truecharts.org/) | splunk | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | spotweb | baseline | 5.0.2 | 1.5.1 |
+| [truecharts](https://charts.truecharts.org/) | sqlite-web | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | sqlitebrowser | baseline | 4.0.2 | 3.12.2 |
+| [truecharts](https://charts.truecharts.org/) | st-reborn-server | baseline | 0.0.28 | 1.2.0 |
+| [truecharts](https://charts.truecharts.org/) | stackedit | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | standardnotes-web | baseline | 0.0.36 | stable |
+| [truecharts](https://charts.truecharts.org/) | starmade | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | stash | baseline | 8.0.2 | 0.17.2 |
+| [truecharts](https://charts.truecharts.org/) | static | baseline | 4.0.2 | ee8a20c |
+| [truecharts](https://charts.truecharts.org/) | stationeers | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | statisfactory | privileged | 0.0.27 | 1.2.4 |
+| [truecharts](https://charts.truecharts.org/) | statping | baseline | 8.0.2 | 0.90.78 |
+| [truecharts](https://charts.truecharts.org/) | statping-ng | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | storj-node | baseline | 3.0.2 | 1.66.4 |
+| [truecharts](https://charts.truecharts.org/) | storm | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | strapi | baseline | 6.0.2 | 4.4.7 |
+| [truecharts](https://charts.truecharts.org/) | stun-turn-server | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | subchart | baseline | 2.0.4 | jammy |
+| [truecharts](https://charts.truecharts.org/) | suistartpage | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | survivethenights | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | synapse | error_template | 5.0.2 | 1.70.1 |
+| [truecharts](https://charts.truecharts.org/) | synclounge | baseline | 3.0.2 | 5.2.5 |
+| [truecharts](https://charts.truecharts.org/) | syncthing | baseline | 12.0.2 | 1.22.1 |
+| [truecharts](https://charts.truecharts.org/) | synctube | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | syslog-ng | baseline | 3.0.2 | 3.38.1 |
+| [truecharts](https://charts.truecharts.org/) | tachidesk-docker | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | tailscale | privileged | 2.0.2 | 1.33.158 |
+| [truecharts](https://charts.truecharts.org/) | tanoshi | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | tar1090 | baseline | 0.0.40 | latest |
+| [truecharts](https://charts.truecharts.org/) | tasmoadmin | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | tasmobackup | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | tasmocompiler | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | tautulli | baseline | 12.0.2 | 2.10.5 |
+| [truecharts](https://charts.truecharts.org/) | tdarr | baseline | 3.0.2 | 2.00.18.2 |
+| [truecharts](https://charts.truecharts.org/) | tdarr-node | baseline | 3.0.2 | 2.00.18.2 |
+| [truecharts](https://charts.truecharts.org/) | teamspeak3 | baseline | 5.0.2 | 3.13.7 |
+| [truecharts](https://charts.truecharts.org/) | technitium | baseline | 1.0.45 | 8.1 |
+| [truecharts](https://charts.truecharts.org/) | teedy | baseline | 8.0.2 | 1.10 |
+| [truecharts](https://charts.truecharts.org/) | teedy-docs | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | telethon-downloader | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | terraria-tshock | baseline | 0.0.33 | tshock |
+| [truecharts](https://charts.truecharts.org/) | theforest | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | thelounge | baseline | 7.0.2 | 4.3.1 |
+| [truecharts](https://charts.truecharts.org/) | theme-park | baseline | 3.0.2 | 1.13.0 |
+| [truecharts](https://charts.truecharts.org/) | thunderbird | baseline | 0.0.42 | latest |
+| [truecharts](https://charts.truecharts.org/) | timetagger | baseline | 0.0.25 | 22.10.1 |
+| [truecharts](https://charts.truecharts.org/) | tinymediamanager | baseline | 3.0.2 | 4.3.5 |
+| [truecharts](https://charts.truecharts.org/) | tonido | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | traccar | baseline | 8.0.2 | 5.3 |
+| [truecharts](https://charts.truecharts.org/) | tracks | baseline | 0.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | traefik | baseline | 14.1.1 | 2.9.4 |
+| [truecharts](https://charts.truecharts.org/) | traktarr | baseline | 0.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | trango | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | transmission | baseline | 13.0.2 | 3.00 |
+| [truecharts](https://charts.truecharts.org/) | trilium | baseline | 0.0.28 | latest |
+| [truecharts](https://charts.truecharts.org/) | trilium-notes | baseline | 6.0.2 | 0.56.2 |
+| [truecharts](https://charts.truecharts.org/) | troddit | baseline | 0.0.40 | latest |
+| [truecharts](https://charts.truecharts.org/) | truecommand | baseline | 12.0.2 | 2.2 |
+| [truecharts](https://charts.truecharts.org/) | ts-dnsserver | baseline | 0.0.48 | latest |
+| [truecharts](https://charts.truecharts.org/) | ts3-manager | baseline | 0.0.23 | 2.2.0 |
+| [truecharts](https://charts.truecharts.org/) | tsmuxer | baseline | 2.0.2 | 22.11.1 |
+| [truecharts](https://charts.truecharts.org/) | tt-rss | baseline | 8.0.2 | 2.0.9113 |
+| [truecharts](https://charts.truecharts.org/) | tubearchivist-es | baseline | 0.0.37 | latest |
+| [truecharts](https://charts.truecharts.org/) | tubearchivist-redisjson | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | tubesync | baseline | 0.0.39 | latest |
+| [truecharts](https://charts.truecharts.org/) | tvheadend | baseline | 13.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | tvhproxy | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | twonky-server | baseline | 0.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | twtxt | baseline | 4.0.2 | 0.1.1 |
+| [truecharts](https://charts.truecharts.org/) | typecho | baseline | 5.0.2 | 1.2.0 |
+| [truecharts](https://charts.truecharts.org/) | ubooquity | baseline | 4.0.2 | 2.1.2 |
+| [truecharts](https://charts.truecharts.org/) | ubuntu-xrdp | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | umami | baseline | 0.0.16 | 1.39.4 |
+| [truecharts](https://charts.truecharts.org/) | ungoogled-chromium | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | unifi | baseline | 12.0.2 | 7.2.95 |
+| [truecharts](https://charts.truecharts.org/) | universal-media-server | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | unmanic | baseline | 4.0.2 | 0.2.3 |
+| [truecharts](https://charts.truecharts.org/) | unpackerr | baseline | 7.0.2 | 0.10.1 |
+| [truecharts](https://charts.truecharts.org/) | unpoller | baseline | 4.0.3 | 2.1.3 |
+| [truecharts](https://charts.truecharts.org/) | unturned | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | uptime-kuma | baseline | 4.0.2 | 1.18.5 |
+| [truecharts](https://charts.truecharts.org/) | uptimerobot-prometheus | baseline | 5.0.3 | 0.0.1 |
+| [truecharts](https://charts.truecharts.org/) | urban-terror | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | v-rising | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | valetudo-mapper | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | valheim | baseline | 4.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | vaulthunters | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | vaultwarden | baseline | 17.0.2 | 1.26.0 |
+| [truecharts](https://charts.truecharts.org/) | venstar2mqtt | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | vertex | baseline | 0.0.84 | stable |
+| [truecharts](https://charts.truecharts.org/) | verysync | baseline | 3.0.2 | 2.14.0 |
+| [truecharts](https://charts.truecharts.org/) | vikunja | baseline | 4.0.2 | 0.20.0 |
+| [truecharts](https://charts.truecharts.org/) | vintage-story | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | virt-manager | baseline | 0.0.100 | latest |
+| [truecharts](https://charts.truecharts.org/) | vlmcsd-kms-server | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | vorta | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | watchyourlan | privileged | 0.0.10 | 0.7.5 |
+| [truecharts](https://charts.truecharts.org/) | wbo | baseline | 0.0.12 | 1.19.1 |
+| [truecharts](https://charts.truecharts.org/) | webgrabplus | baseline | 3.0.2 | 5.0.1 |
+| [truecharts](https://charts.truecharts.org/) | weblate | baseline | 5.0.2 | 4.14.2 |
+| [truecharts](https://charts.truecharts.org/) | webnut | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | webp-server | baseline | 0.0.43 | latest |
+| [truecharts](https://charts.truecharts.org/) | website-shot | baseline | 3.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | webtop | baseline | 0.0.45 | latest |
+| [truecharts](https://charts.truecharts.org/) | wekan | baseline | 6.0.2 | 6.46 |
+| [truecharts](https://charts.truecharts.org/) | wg-easy | privileged | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | wger | baseline | 2.0.2 | latest |
+| [truecharts](https://charts.truecharts.org/) | whisparr | baseline | 2.0.2 | 0.1.0.53 |
+| [truecharts](https://charts.truecharts.org/) | whoogle | baseline | 4.0.2 | 0.7.4 |
+| [truecharts](https://charts.truecharts.org/) | wifi-card | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | wikijs | baseline | 8.0.2 | 2.5.291 |
+| [truecharts](https://charts.truecharts.org/) | wireguard | privileged | 2.0.2 | 1.0.202109 |
+| [truecharts](https://charts.truecharts.org/) | wireshark | privileged | 3.0.2 | 3.6.5 |
+| [truecharts](https://charts.truecharts.org/) | wordle | baseline | 0.0.38 | latest |
+| [truecharts](https://charts.truecharts.org/) | xbackbone | baseline | 4.0.2 | 3.3.3 |
+| [truecharts](https://charts.truecharts.org/) | xen-orchestra | privileged | 0.0.12 | 5.104.0 |
+| [truecharts](https://charts.truecharts.org/) | xmrig | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | xonotic | baseline | 0.0.36 | latest |
+| [truecharts](https://charts.truecharts.org/) | xteve | baseline | 7.0.2 | 2.2.0.200 |
+| [truecharts](https://charts.truecharts.org/) | xware | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | xwiki | baseline | 4.0.2 | 14.9.0 |
+| [truecharts](https://charts.truecharts.org/) | yacht | baseline | 0.0.26 | latest |
+| [truecharts](https://charts.truecharts.org/) | yacreaderlibraryserver | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | yacy | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | yourls | baseline | 0.0.45 | latest |
+| [truecharts](https://charts.truecharts.org/) | youtransfer | baseline | 0.0.34 | latest |
+| [truecharts](https://charts.truecharts.org/) | youtubedl-material | baseline | 2.0.2 | 4.3 |
+| [truecharts](https://charts.truecharts.org/) | z80pack | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | zabbix | privileged | 1.0.7 | 6.2.4 |
+| [truecharts](https://charts.truecharts.org/) | zabbix-server | baseline | 2.0.49 | 6.2.3 |
+| [truecharts](https://charts.truecharts.org/) | zerotier | privileged | 3.0.2 | 1.10.1 |
+| [truecharts](https://charts.truecharts.org/) | zigbee2mqtt | baseline | 5.0.2 | 1.28.2 |
+| [truecharts](https://charts.truecharts.org/) | znc | baseline | 3.0.2 | 1.8.2 |
+| [truecharts](https://charts.truecharts.org/) | zoneminder | baseline | 0.0.35 | latest |
+| [truecharts](https://charts.truecharts.org/) | ztcuui-aio | baseline | 2.0.2 | 1.2.11 |
+| [truecharts](https://charts.truecharts.org/) | zusam | baseline | 2.0.2 | 0.5.3 |
+| [truecharts](https://charts.truecharts.org/) | zwavejs2mqtt | baseline | 13.0.2 | 8.3.0 |
+| [truenas-csp](https://hpe-storage.github.io/truenas-csp) | truenas-csp | privileged | 1.1.2 | 2.2.0 |
+| [tsg](https://nexus.dataspac.es/repository/tsg-helm) | tsg-connector | empty_no_object | 3.1.1-master | 1.0 |
+| [tungntt](https://tungntt.github.io/devopt-helm-charts) | learning-fluentd | error_download | 0.1.0 | 1.16.0 |
+| [twin](https://twin.github.io/helm-charts) | aws-eks-asg-rolling-update-handler | baseline | 1.2.6 |  |
+| [twin](https://twin.github.io/helm-charts) | gatus | baseline | 0.1.1 |  |
+| [twin](https://twin.github.io/helm-charts) | k8s-ttl-controller | baseline | 0.1.2 |  |
+| [twitter-helm](https://github.com/stakkato95/twitter-helm/raw/gh-pages) | twitter-app | baseline | 0.1.12 |  |
+| [twuni](https://helm.twun.io) | docker-registry | baseline | 2.2.2 | 2.8.1 |
+| [twuni](https://helm.twun.io) | web-service | empty_no_object | 0.0.5 | 0.0.5 |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-mongodb | privileged | 0.1.1 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-redis | baseline | 0.1.1 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-headless | baseline | 0.12.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-hybrid | baseline | 0.12.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-operator | baseline | 0.12.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-pro | baseline | 0.12.0 |  |

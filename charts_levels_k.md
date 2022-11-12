@@ -6,637 +6,637 @@ Evaluation date 2022-11-12, 17:49:25
 
 [main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(355)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
 
-| repo | chart | level | chart version | app version | url | 
-|------|------|------|------|------|------|
-| k0s-homelab | k0s-homelab | empty_no_object | 0.1.0 | v1.23.1+k0s.0 | https://gitlab.com/api/v4/projects/32758508/packages/helm/testing |
-| k0s-homelab | minio | empty_no_object | 0.1.0 | RELEASE.2022-01-08T03-11-54Z | https://gitlab.com/api/v4/projects/32758508/packages/helm/testing |
-| k1 | k1 | error_download | 1.0.3 | v1.0.1 | oci://ghcr.io/cybercryptio/helm-charts/k1 |
-| k2hdkc | k2hdkc | empty_no_object | 1.0.1 | 1.0.1 | https://helm.k2hdkc.antpick.ax/ |
-| k2hr3 | k2hr3 | empty_no_object | 1.0.2 | 1.0.2 | https://helm.k2hr3.antpick.ax/ |
-| k8gb | k8gb | baseline | 0.10.0 | v0.10.0 | https://www.k8gb.io |
-| k8s-as-helm | clusterrole | no_pod_object | 1.0.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | clusterrolebinding | no_pod_object | 1.0.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | configmap | no_pod_object | 1.0.3 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | cronjob | version_not_evaluable | 1.0.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | ingress | no_pod_object | 1.0.3 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | job | restricted | 1.1.1 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | lib-k8s-as-helm | empty_no_object | 1.3.0 | 1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | namespace | no_pod_object | 1.1.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | networkpolicy | no_pod_object | 1.0.1 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | pdb | no_pod_object | 1.0.5 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | pod | restricted | 1.0.1 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | pvc | no_pod_object_but_crd | 1.0.5 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | role | no_pod_object | 1.0.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | rolebinding | no_pod_object | 1.0.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | secret | no_pod_object | 1.0.4 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | serviceaccount | no_pod_object | 1.0.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | storageclass | error_template | 1.0.0 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-as-helm | svc | no_pod_object | 1.0.4 | v1.0.0 | https://ameijer.github.io/k8s-as-helm |
-| k8s-at-home | adguard-home | baseline | 5.5.2 | v0.107.7 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | airsonic | baseline | 6.4.2 | 10.6.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | alertmanager-bot | baseline | 6.4.2 | 0.4.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | alertmanager-discord | baseline | 1.3.2 | 1.0.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | amcrest2mqtt | baseline | 2.4.2 | 1.0.5 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | anonaddy | baseline | 5.1.2 | 0.12.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | apache-musicindex | privileged | 2.4.2 | v1.4.1-2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | appdaemon | baseline | 8.4.2 | 4.0.8 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | aria2 | baseline | 1.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | audiobookshelf | baseline | 1.2.2 | 2.0.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | autobrr | baseline | 1.1.2 | v0.23.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | babybuddy | baseline | 1.2.2 | 1.10.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | baikal | baseline | 5.1.2 | 0.8.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | bazarr | baseline | 10.6.2 | v1.0.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | beets | baseline | 1.4.2 | 1.5.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | blocky | baseline | 10.5.2 | v0.18 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | booksonic-air | baseline | 6.4.2 | v2009.1.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | bookstack | baseline | 5.1.2 | v21.12 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | calibre | baseline | 5.4.2 | version-v5.21.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | calibre-web | baseline | 8.4.2 | 0.6.12 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | changedetection-io | baseline | 1.5.2 | 0.39.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | comcast | baseline | 6.4.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | cryptofolio | baseline | 1.4.2 | V.2.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | cryptpad | baseline | 0.4.2 | v4.14.1-nginx | https://k8s-at-home.com/charts/ |
-| k8s-at-home | deconz | baseline | 6.5.2 | 2.12.06 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | deemix | baseline | 1.1.2 | 2022.5.28-r206.a752a63e0e | https://k8s-at-home.com/charts/ |
-| k8s-at-home | deepstack | baseline | 1.5.2 | cpu-2021.09.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | deluge | baseline | 5.4.2 | v2.0.3-2201906121747 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | dendrite | baseline | 6.3.1 | v0.9.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | dizquetv | baseline | 4.4.2 | 1.4.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | dnsmadeeasy-webhook | baseline | 4.7.2 | 1.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | dokuwiki | baseline | 1.2.2 | 20200729.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | double-take | baseline | 2.3.2 | 1.6.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | dsmr-reader | baseline | 6.3.2 | 2021.06.01 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | duplicati | baseline | 5.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | emby | baseline | 3.4.2 | 4.6.1.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | error-pages | baseline | 1.2.2 | 2.6.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | esphome | baseline | 8.4.2 | 1.18.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | facebox | baseline | 1.2.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | factorio | baseline | 1.2.2 | stable | https://k8s-at-home.com/charts/ |
-| k8s-at-home | filebrowser | baseline | 1.4.2 | 2.18.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | firefly-iii | baseline | 0.2.2 | version-5.6.14 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | flaresolverr | baseline | 5.4.2 | v1.2.8 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | flood | baseline | 6.4.2 | 4.6.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | focalboard | baseline | 4.4.2 | 0.9.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | foundryvtt | baseline | 3.4.2 | 0.8.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | freshrss | baseline | 6.4.2 | 1.18.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | frigate | baseline | 8.2.2 | 0.10.0-amd64 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | games-on-whales | privileged | 1.8.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | gaps | baseline | 5.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | gatus | baseline | 1.1.2 | v3.8.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | ghost | baseline | 2.1.2 | 4.37.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | gollum | baseline | 3.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | gonic | baseline | 6.4.2 | v0.13.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | gotify | baseline | 1.2.2 | 2.1.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | grocy | baseline | 8.5.2 | version-v3.1.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | handbrake | baseline | 0.1.2 | v1.24.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | haste-server | baseline | 3.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | healthchecks | baseline | 4.4.2 | version-v1.20.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | heimdall | baseline | 8.4.2 | 2.2.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | home-assistant | baseline | 13.4.2 | 2022.5.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | homebridge | baseline | 5.3.2 | 2022-07-08 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | homer | baseline | 8.0.2 | v22.07.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | hyperion-ng | baseline | 5.4.2 | 2.0.0-alpha9 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | icantbelieveitsnotvaletudo | baseline | 5.4.2 | 2021.2.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | icinga2 | baseline | 4.1.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | ihatemoney | baseline | 1.1.2 | 5.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | influxdb-exporter | baseline | 1.2.2 | v0.9.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | intel-gpu-plugin | privileged | 4.4.2 | 0.20.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | jackett | baseline | 11.7.2 | v0.20.1316 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | jellyfin | baseline | 9.5.3 | 10.8.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | joplin-server | baseline | 5.3.2 | 2.1.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | kanboard | baseline | 5.1.2 | v1.2.20 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | komga | baseline | 2.4.2 | 0.99.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | kube-ops-view | baseline | 1.2.2 | 20.4.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | lancache | baseline | 0.6.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | lazylibrarian | baseline | 7.4.2 | version-1152df82 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | leaf2mqtt | baseline | 3.4.2 | 0.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | librespeed | baseline | 5.4.2 | version-5.2.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | lidarr | baseline | 14.2.2 | v1.0.0.2255 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | littlelink-server | baseline | 1.4.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | lychee | baseline | 6.4.2 | v4.3.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | maddy | baseline | 3.1.2 | v0.5.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | magic-mirror | baseline | 4.4.2 | v2.15.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | mealie | baseline | 5.1.2 | v1.0.0beta-2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | media-common | baseline | 1.3.1 |  | https://k8s-at-home.com/charts/ |
-| k8s-at-home | media-common-openvpn | empty_no_object | 1.0.1 |  | https://k8s-at-home.com/charts/ |
-| k8s-at-home | miniflux | baseline | 5.1.2 | 2.0.36 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | minio-console | baseline | 2.4.2 | v0.7.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | modem-stats | baseline | 6.4.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | monica | baseline | 8.1.2 | 3.7.0-apache | https://k8s-at-home.com/charts/ |
-| k8s-at-home | mopidy | baseline | 0.1.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | mosquitto | baseline | 4.8.2 | 2.0.14 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | mqtt-exporter | baseline | 1.1.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | multus | privileged | 3.5.2 | v3.7.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | mylar | baseline | 4.4.2 | version-v0.5.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | navidrome | baseline | 6.4.2 | 0.43.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | neolink | baseline | 5.4.2 | 0.3.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | network-ups-tools | baseline | 6.4.2 | v2.7.4-2479-g86a32237 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | nginx-php | baseline | 1.2.2 | 2.4.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | nightscout | baseline | 1.2.2 | 14.2.5 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | node-red | baseline | 10.3.2 | 2.2.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | ntfy | baseline | 1.1.2 | v1.27.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | nullserv | baseline | 2.4.2 | 1.3.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | nzbget | baseline | 12.4.2 | v21.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | nzbhydra2 | baseline | 10.4.2 | v3.14.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | octoprint | privileged | 6.4.2 | 1.6.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | omada-controller | baseline | 4.4.2 | 4.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | ombi | baseline | 11.5.2 | 4.16.12 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | onedrive | baseline | 2.4.3 | 2.4.20 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | openemr | baseline | 5.1.2 | 6.1.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | openhab | baseline | 1.5.2 | 3.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | openkm | baseline | 4.1.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | organizr | baseline | 7.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | otel-collector | baseline | 1.2.2 | 0.46.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | overleaf | baseline | 3.1.2 | 2.7.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | overseerr | baseline | 5.4.2 | 1.26.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | owncast | baseline | 3.4.2 | 0.0.7 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | owncloud-ocis | baseline | 2.4.2 | 1.7.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | paperless | baseline | 9.1.3 | 1.8.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | photoprism | baseline | 7.1.2 | 220629-jammy | https://k8s-at-home.com/charts/ |
-| k8s-at-home | plex | baseline | 6.4.3 | v1.28.0.5999-97678ded3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | pod-gateway | privileged | 5.6.2 | v1.6.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | pod-gateway-setter | baseline | 1.0.0 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | powerdns-admin | baseline | 1.2.2 | v0.2.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | pretend-youre-xyzzy | baseline | 3.4.2 | 4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | privatebin | baseline | 2.1.2 | 1.3.5 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | promcord | baseline | 5.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | prometheus-nut-exporter | baseline | 5.4.2 | 1.1.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | protonmail-bridge | baseline | 5.4.2 | 1.8.7-1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | prowlarr | baseline | 4.5.2 | v0.3.0.1710 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | puppeteer | baseline | 1.2.2 | v13.3.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | pyload | baseline | 6.4.2 | 0.4.20 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | qbittorrent | baseline | 13.5.2 | v4.4.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | radarr | baseline | 16.3.2 | v4.1.0.6175 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | radicale | baseline | 1.2.2 | 3.1.1.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | readarr | baseline | 6.4.2 | v0.1.0.715 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | recipes | baseline | 6.6.2 | 1.0.5.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | resilio-sync | baseline | 5.4.2 | 2.7.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | reverse-proxy | empty_no_object | 2.4.2 | 1.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | rhasspy | baseline | 1.1.2 | 2.5.11 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | rtorrent-flood | baseline | 9.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | rtorrent-rutorrent | baseline | 1.1.2 | 3.10-0.9.8-0.13.8 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | rtsp-to-web | baseline | 2.2.2 | v2.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | sabnzbd | baseline | 9.4.2 | v3.3.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | samba | baseline | 6.2.2 | 4.15.5 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | satisfactory | baseline | 1.2.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | scrypted | baseline | 0.3.2 | 0.0.138 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | sdtd | baseline | 0.3.2 | main | https://k8s-at-home.com/charts/ |
-| k8s-at-home | seafile | baseline | 3.1.2 | 8.0.7 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | searx | baseline | 5.6.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | send | baseline | 1.2.2 | v3.4.20 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | ser2sock | baseline | 5.4.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | sharry | baseline | 5.4.2 | 1.8.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | shinobi | baseline | 1.2.2 | dev | https://k8s-at-home.com/charts/ |
-| k8s-at-home | shlink | baseline | 5.1.2 | 2.7.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | signal-cli-rest-api | baseline | 1.2.2 | 0.57 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | sinusbot | baseline | 0.5.2 | 1.0.0-beta.14 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | smarter-device-manager | privileged | 6.5.2 | 1.20.7 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | snapcast | baseline | 0.1.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | sonarr | baseline | 16.3.2 | v3.0.8.1507 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | speedtest-exporter | baseline | 5.4.2 | v3.2.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | stash | baseline | 3.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | statping | baseline | 6.1.2 | v0.90.74 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | strongswan | privileged | 0.3.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | syncthing | baseline | 3.5.2 | 1.18.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | syslog-ng | baseline | 1.1.2 | 3.30.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | tautulli | baseline | 11.4.2 | v2.7.7 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | tdarr | baseline | 4.6.2 | 2.00.18 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | teamspeak | baseline | 0.7.2 | 3.13.6 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | teedy | baseline | 6.1.2 | v1.10 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | teslamate | baseline | 7.1.2 | v1.23.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | thelounge | baseline | 3.4.2 | 4.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | theme-park | baseline | 1.2.2 | v1.7.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | torrserver | baseline | 1.2.2 | 1.0.111 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | traefik-forward-auth | baseline | 2.2.2 | 2.2.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | transmission | baseline | 8.4.3 | v3.00 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | tt-rss | baseline | 5.1.2 | v1.8723.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | tvheadend | baseline | 5.4.2 | version-eb59284b | https://k8s-at-home.com/charts/ |
-| k8s-at-home | unifi | baseline | 5.1.2 | v7.1.68 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | unifi-poller | baseline | 11.1.2 | 2.1.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | unpackerr | baseline | 5.4.2 | 0.9.7 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | uptime-kuma | baseline | 1.4.2 | 1.17.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | uptimerobot | baseline | 3.0.4 | 1.1.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | uptimerobot-prometheus | baseline | 6.4.2 | 0.0.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | valheim | baseline | 4.4.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | vaultwarden | baseline | 5.3.2 | 1.25.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | vikunja | baseline | 6.1.2 | 0.17.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | wallabag | baseline | 7.1.2 | 2.4.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | warrior | baseline | 1.2.2 | latest | https://k8s-at-home.com/charts/ |
-| k8s-at-home | webtrees | baseline | 2.1.2 | 2.0.19 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | whoogle | baseline | 3.4.2 | 0.5.4 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | wikijs | baseline | 6.4.2 | version-2.5.201 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | wireguard | privileged | 1.4.2 | 1.0.20210424 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | wmbusmeters | privileged | 1.4.2 | 1.4.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | xbackbone | baseline | 5.4.2 | 3.3.3 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | xbvr | baseline | 1.4.2 | 0.3.17 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | xteve | baseline | 8.4.2 | v2.2.0.200 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | youtubedl-material | baseline | 4.4.2 | 4.2 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | zalando-postgres-cluster | baseline | 3.4.2 | 1.0.0 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | zigbee2mqtt | baseline | 9.4.2 | 1.19.1 | https://k8s-at-home.com/charts/ |
-| k8s-at-home | zwavejs2mqtt | privileged | 5.4.2 | 5.0.2 | https://k8s-at-home.com/charts/ |
-| k8s-aws-ebs-tagger | k8s-aws-ebs-tagger | baseline | 1.2.5 | v0.0.8 | https://mtougeron.github.io/helm-charts/ |
-| k8s-aws-ebs-tagger | k8s-pvc-tagger | baseline | 2.0.1 | v1.0.1 | https://mtougeron.github.io/helm-charts/ |
-| k8s-aws-iam-controller | k8s-aws-iam-controller | baseline | 0.1.5 | 0.1.5 | https://rustrial.github.io/k8s-aws-iam-controller |
-| k8s-cloudwatch-adapter | k8s-cloudwatch-adapter | error_download | 0.2.1 | 0.10.0 | https://awslabs.github.io/k8s-cloudwatch-adapter/charts/k8s-cloudwatch-adapter/ |
-| k8s-dashboard | kubernetes-dashboard | baseline | 5.11.0 | 2.7.0 | https://kubernetes.github.io/dashboard |
-| k8s-dev-pod | k8s-dev-pod | baseline | 0.1.10 | 0.1.0 | https://bryopsida.github.io/k8s-dev-pod |
-| k8s-edu | metallb | privileged | 0.10.2 | v0.10.2 | https://k8s-edu.github.io/helm-charts/ |
-| k8s-edu | nfs-subdir-external-provisioner | baseline | 4.0.12 | 4.0.2 | https://k8s-edu.github.io/helm-charts/ |
-| k8s-edu | prometheus | privileged | 15.8.5 | 2.34.0 | https://k8s-edu.github.io/helm-charts/ |
-| k8s-envoy-sidecar | k8s-envoy-sidecar | baseline | 0.8.0 | 0.0.1 | https://nefelim4ag.github.io/k8s-envoy-sidecar/ |
-| k8s-event-grid-bridge | k8s-event-grid-bridge | empty_no_object | 0.2.0 | 0.2.0 | https://k8s-event-grid-bridge.tomkerkhove.be/chart-registry |
-| k8s-gitops-secrets | rustrial-k8s-gitops-secrets-controller | baseline | 0.0.6 | 0.0.6 | https://rustrial.github.io/k8s-gitops-secrets |
-| k8s-jacoco-operator | k8s-jacoco-operator | baseline | 0.4.0 | 0.1.0 | https://curium-rocks.github.io/k8s-jacoco-operator/ |
-| k8s-land | gitea | error_download | 1.3.3 | 1.11.5 | https://charts.k8s.land |
-| k8s-mutating-webhook | k8s-mutating-webhook | baseline | 0.3.0 | 0.1.0 | https://curium-rocks.github.io/k8s-mutating-webhook/ |
-| k8s-object-syncer | k8s-object-syncer | baseline | 0.1.7 | 0.1.7 | https://rustrial.github.io/k8s-object-syncer |
-| k8s-pause | k8s-pause | baseline | 0.1.4 | v0.1.1 | https://doodlescheduling.github.io/k8s-pause |
-| k8s-pvc | k8s-configmap | empty_no_object | 0.1.2 |  | https://codiway-com.github.io/k8s-helm/ |
-| k8s-pvc | k8s-pvc | empty_no_object | 0.1.3 |  | https://codiway-com.github.io/k8s-helm/ |
-| k8s-pvc | k8s-secret | empty_no_object | 0.1.3 |  | https://codiway-com.github.io/k8s-helm/ |
-| k8s-pvc | secret | empty_no_object | 0.1.0 | 1.16.0 | https://codiway-com.github.io/k8s-helm/ |
-| k8s-sftp-gcs | k8s-sftp-gcs | privileged | 0.1.3 | 1.16.0 | https://danuk.github.io/k8s-sftp-gcs/ |
-| k8s-ssh-bastion | k8s-ssh-bastion | baseline | 0.3.5 | 0.3.0 | https://nefelim4ag.github.io/k8s-ssh-bastion/ |
-| k8s-validating-webhook | k8s-validating-webhook | baseline | 0.4.0 | 0.1.0 | https://curium-rocks.github.io/k8s-validating-webhook/ |
-| k8s-validating-webhook | kube-admission-controller-starter | baseline | 0.2.0 | 0.1.0 | https://curium-rocks.github.io/k8s-validating-webhook/ |
-| k8s-webdav | webdav | privileged | 0.0.3 |  | https://danuk.github.io/k8s-webdav/ |
-| k8satthehome | common | empty_no_object | 4.5.2 |  | https://library-charts.k8s-at-home.com |
-| k8sdb-controller | k8sdb-controller | baseline | 0.1.2 | v0.0.1 | https://doodlescheduling.github.io/k8sdb-controller |
-| k8skeycloak-controller | k8skeycloak-controller | baseline | 0.1.2 | v0.0.1 | https://doodlescheduling.github.io/k8skeycloak-controller |
-| k8soauth2-proxy-controller | k8soauth2-proxy-controller | baseline | 0.1.5 | v0.1.2 | https://doodlescheduling.github.io/k8soauth2-proxy-controller |
-| k8sonlab | librephotos | baseline | 0.202241.2 | 2022w39 | https://charts.billias.cc |
-| k8sprom-patch-controller | k8sprom-patch-controller | baseline | 0.1.4 | v0.1.2 | https://doodlescheduling.github.io/k8sprom-patch-controller |
-| k8ssandra-lightweight | dokc-k8ssandra-lightweight | error_download | 0.1.0 |  | https://abhijithganesh.tech/dokc-helm-chart/ |
-| k8ssandra | backup | no_pod_object_but_crd | 0.26.0 |  | https://helm.k8ssandra.io/ |
-| k8ssandra | cass-operator | baseline | 0.37.2 | 1.13.0 | https://helm.k8ssandra.io/ |
-| k8ssandra | k8ssandra | baseline | 1.6.0-20221012160637-2c11d549 |  | https://helm.k8ssandra.io/ |
-| k8ssandra | k8ssandra-common | empty_no_object | 0.28.6 |  | https://helm.k8ssandra.io/ |
-| k8ssandra | k8ssandra-operator | baseline | 0.38.2 | 1.2.1 | https://helm.k8ssandra.io/ |
-| k8ssandra | medusa-operator | baseline | 0.32.0 | 0.1.0 | https://helm.k8ssandra.io/ |
-| k8ssandra | reaper-operator | baseline | 0.32.3 | 0.1.0 | https://helm.k8ssandra.io/ |
-| k8ssandra | restore | no_pod_object_but_crd | 0.27.1 |  | https://helm.k8ssandra.io/ |
-| k8status | k8status | baseline | 0.12.2 | 0.12.2 | https://stenic.github.io/k8status/ |
-| k8stcpmap-controller | k8stcpmap-controller | baseline | 0.1.2 | v0.0.1 | https://doodlescheduling.github.io/k8stcpmap-controller |
-| k8svault-controller | k8svault-controller | baseline | 0.1.2 | v0.2.0 | https://doodlescheduling.github.io/k8svault-controller |
-| k8tz | k8tz | baseline | 0.9.0 | 0.9.0 | https://k8tz.github.io/k8tz/ |
-| kadeck | kadeck-web | baseline | 0.5.0 | 3.2.3 | https://dl.cloudsmith.io/public/xeotek-gmbh/kadeck/helm/charts/ |
-| kafka-ui | kafka-ui | baseline | 0.4.5 | v0.4.0 | https://provectus.github.io/kafka-ui |
-| kaiso | kom-operator | baseline | 1.2.0 | v2.1.3 | https://kaiso.github.io/helm-charts/ |
-| kallakruparaju-jenkins | jenkins | baseline | 1.0.0 |  | https://kallakruparaju.github.io/Jenkins-helmchart/ |
-| kanbanapp-demo | kanbanapp-demo | baseline | 0.3.0 | 1.16.0 | https://sdandey.github.io/kanbanapp-helmcharts |
-| kangal | kangal | baseline | 2.2.2 |  | https://hellofresh.github.io/kangal |
-| kanister | kanister-elasticsearch | privileged | 0.32.0 | 6.3.1 | https://charts.kanister.io/ |
-| kanister | kanister-mongodb-replicaset | baseline | 0.32.0 | 3.6 | https://charts.kanister.io/ |
-| kanister | kanister-mysql | baseline | 0.32.0 | 5.7.14 | https://charts.kanister.io/ |
-| kanister | kanister-operator | baseline | 0.84.0 | 0.84.0 | https://charts.kanister.io/ |
-| kanister | kanister-postgresql | version_not_evaluable | 0.32.0 | 9.6.2 | https://charts.kanister.io/ |
-| kanister | profile | no_pod_object_but_crd | 0.84.0 | 0.1.0 | https://charts.kanister.io/ |
-| karpenter | karpenter | baseline | 0.16.3 | 0.16.3 | https://charts.karpenter.sh |
-| kasten | k10 | baseline | 5.5.0 | 5.5.0 | https://charts.kasten.io/ |
-| kasten | k10restore | baseline | 5.5.0 | 5.5.0 | https://charts.kasten.io/ |
-| katafygio | katafygio | baseline | 0.5.1 | 0.8.3 | https://bpineau.github.io/katafygio |
-| kazarma | kazarma | baseline | 1.3.0 | 0.1.0 | https://kazarma.gitlab.io/kazarma_helm |
-| kcd-website | kcd-ui | empty_no_object | 0.1.0 | 0.0.1 | https://kcd-australia.github.io/kcd-website |
-| kea | kea | privileged | 1.1.4 | @sha256:f770605566c507c1cc92eb93edc42e0a9b14cef0fe6d37618db5d6e7122395fc | https://muhlba91.github.io/kea-container |
-| kedacore | external-scaler-azure-cosmos-db | baseline | 0.1.0 | 0.1.0 | https://kedacore.github.io/charts |
-| kedacore | keda | restricted | 2.8.2 | 2.8.1 | https://kedacore.github.io/charts |
-| kedacore | keda-add-ons-http | baseline | 0.3.0 | 0.3.0 | https://kedacore.github.io/charts |
-| keel | keel | baseline | 0.9.11 | 0.16.1 | https://charts.keel.sh |
-| kellnr | kellnr | error_template | 0.8.0 | 2.2.0 | https://bitfalter.github.io/helm/ |
-| kelvins | mlflow | baseline | 0.4.0 | 1.26.1 | https://kelvins.github.io/helm-charts/ |
-| keptn-ortelius-service | keptn-ortelius-service | baseline | 0.0.1 | 0.0.1 | https://ortelius.github.io/keptn-ortelius-service |
-| keptn | common | empty_no_object | 0.19.2 |  | https://charts.keptn.sh |
-| keptn | helm-service | baseline | 0.18.2 | 0.18.2 | https://charts.keptn.sh |
-| keptn | jmeter-service | baseline | 0.18.2 | 0.18.2 | https://charts.keptn.sh |
-| keptn | keptn | baseline | 0.19.2 | 0.19.2 | https://charts.keptn.sh |
-| keras-ready-env | keras-env | empty_no_object | 0.0.1 | 1.1.0 | https://yanuragaj.github.io/Task_28/charts/ |
-| kestra | kestra | privileged | 0.5.1 | 0.5.1 | https://helm.kestra.io/ |
-| keyporttech | csi-driver-nfs | privileged | 0.1.4 | 2.0.0 | https://keyporttech.github.io/helm-charts |
-| keyporttech | dynamodb | baseline | 0.1.27 | 1.12.0 | https://keyporttech.github.io/helm-charts |
-| keyporttech | gitea | baseline | 0.2.10 | 1.12.4 | https://keyporttech.github.io/helm-charts |
-| keyporttech | gogs | baseline | 0.1.3 | 0.12.3 | https://keyporttech.github.io/helm-charts |
-| keyporttech | helm-csi-driver-nfs | privileged | 0.1.0 | 2.0.0 | https://keyporttech.github.io/helm-charts |
-| keyporttech | helm-mongodb-operator | baseline | 0.1.0 | 1.8.2 | https://keyporttech.github.io/helm-charts |
-| keyporttech | k8sci | version_not_evaluable | 0.1.13 | 0.15.0 | https://keyporttech.github.io/helm-charts |
-| keyporttech | statsd | baseline | 0.1.19 | v0.8.6 | https://keyporttech.github.io/helm-charts |
-| keyporttech | xwiki | baseline | 0.2.0 | 12.9.0 | https://keyporttech.github.io/helm-charts |
-| kfirfer | elastalert2 | baseline | 2.2.4 | 2.2.3 | https://kfirfer.github.io/helm/ |
-| kfirfer | elasticsearch | privileged | 7.17.3 | 7.17.3 | https://kfirfer.github.io/helm/ |
-| kfirfer | elasticsearch-curator | baseline | 2.2.2 | 5.8.4 | https://kfirfer.github.io/helm/ |
-| kfirfer | event-exporter | baseline | 0.0.4 | 0.9 | https://kfirfer.github.io/helm/ |
-| kfirfer | haproxy | baseline | 0.1.2 | 2.2.14 | https://kfirfer.github.io/helm/ |
-| kfirfer | heartbeat | privileged | 7.17.3 | 7.17.3 | https://kfirfer.github.io/helm/ |
-| kfirfer | jellyfin | baseline | 2.0.2 | 10.7.5 | https://kfirfer.github.io/helm/ |
-| kfirfer | kibana-index-pattern-updater | baseline | 0.0.1 | 1.0.12 | https://kfirfer.github.io/helm/ |
-| kfirfer | kube-hunter | baseline | 1.0.4 | 0.6.8 | https://kfirfer.github.io/helm/ |
-| kfirfer | mysql-check | baseline | 0.1.4 | 10.5.8 | https://kfirfer.github.io/helm/ |
-| kfirfer | mysql-cluster | baseline | 0.0.3 | 8.0.20 | https://kfirfer.github.io/helm/ |
-| kfirfer | mysqldump | baseline | 2.7.2 | 2.4.1 | https://kfirfer.github.io/helm/ |
-| kfirfer | oauth2-proxy | baseline | 3.3.1 | v6.1.1 | https://kfirfer.github.io/helm/ |
-| kfirfer | onlyoffice | baseline | 1.2.3 | 7.0.1.37 | https://kfirfer.github.io/helm/ |
-| kfirfer | percona-toolkit | baseline | 0.0.5 | 3.2.1 | https://kfirfer.github.io/helm/ |
-| kfirfer | percona-xtradb-cluster | version_not_evaluable | 1.5.4 | 8.0.27-18.1 | https://kfirfer.github.io/helm/ |
-| kfirfer | permission-manager | baseline | 1.0.6 | v1.7.1-rc1 | https://kfirfer.github.io/helm/ |
-| kfirfer | phpmemcachedadmin | baseline | 0.1.3 | latest | https://kfirfer.github.io/helm/ |
-| kfirfer | phpmyadmin | baseline | 0.0.3 | 5.0.2 | https://kfirfer.github.io/helm/ |
-| kfirfer | pmm-server | baseline | 0.2.4 | 2.27.0 | https://kfirfer.github.io/helm/ |
-| kfirfer | proxysql | baseline | 0.0.2 | 2.0.15 | https://kfirfer.github.io/helm/ |
-| kfirfer | redis-commander | empty_no_object | 0.1.3 | latest | https://kfirfer.github.io/helm/ |
-| kfirfer | redis-ha | baseline | 4.12.9 | 6.0.11 | https://kfirfer.github.io/helm/ |
-| kfirfer | skooner | baseline | 0.0.3 | 0.0.1 | https://kfirfer.github.io/helm/ |
-| kiali | kiali-operator | baseline | 1.59.0 | v1.59.0 | https://kiali.org/helm-charts |
-| kiali | kiali-server | baseline | 1.59.0 | v1.59.0 | https://kiali.org/helm-charts |
-| kimai2tet | kimai-helmchart | baseline | 0.1.0 | 1.16.0 | https://gresci.github.io/kimai2-helmchart/ |
-| kir4h | registry-creds | baseline | 1.3.0 | 1.10 | https://kir4h.github.io/charts |
-| kit-infra | analytickit | error_template | 0.0.1 | 0.0.1 | https://kitadmin01.github.io/kit-infra/pack |
-| kiwigrid | any-resource | no_pod_object | 0.1.0 | 0.1.0 | https://kiwigrid.github.io |
-| kiwigrid | enmasse | baseline | 0.1.0 | 0.30.1 | https://kiwigrid.github.io |
-| kiwigrid | enmasse-crd | no_pod_object_but_crd | 0.1.0 | 0.30.1 | https://kiwigrid.github.io |
-| kiwigrid | error-pages | baseline | 1.0.0 | 1.0 | https://kiwigrid.github.io |
-| kiwigrid | gcp-serviceaccount-controller | baseline | 0.3.2 | 0.3.0 | https://kiwigrid.github.io |
-| kiwigrid | grafana-dashboards | no_pod_object | 0.2.0 |  | https://kiwigrid.github.io |
-| kiwigrid | graphite | baseline | 1.0.0 | 1.1.10-3 | https://kiwigrid.github.io |
-| kiwigrid | influxdb-backup | version_not_evaluable | 0.2.0 | 1.7.10 | https://kiwigrid.github.io |
-| kiwigrid | ingress-annotator | baseline | 0.2.0 | 0.1.0 | https://kiwigrid.github.io |
-| kiwigrid | keycloak-client-controller | baseline | 0.1.0 | 0.1.0 | https://kiwigrid.github.io |
-| kiwigrid | keycloak-controller | baseline | 0.6.1 | 2.0.0 | https://kiwigrid.github.io |
-| kiwigrid | kubernetes-policy-controller | baseline | 0.1.2 | 1.2 | https://kiwigrid.github.io |
-| kiwigrid | prometheus-thanos | baseline | 4.9.4 | 0.27.0 | https://kiwigrid.github.io |
-| kiwigrid | secret-replicator | baseline | 0.6.0 | 0.2.0 | https://kiwigrid.github.io |
-| kiwigrid | spring-cloud-config-server | baseline | 0.1.3 | 2.1.3.RELEASE | https://kiwigrid.github.io |
-| kiwigrid | stackdriver-exporter | baseline | 0.2.0 | 0.6.0 | https://kiwigrid.github.io |
-| kiwigrid | zipkin-stackdriver-proxy | baseline | 0.1.0 | v0.6.0 | https://kiwigrid.github.io |
-| kjournal | kjournal | error_download | 1.0.0 | 1.0.0 | oci://ghcr.io/raffis/charts/kjournal |
-| klustair | klustair | baseline | 0.8.1 | 0.8.1 | https://klustair.github.io/klustair-helm |
-| koala | koala | empty_no_object | 1.1.1 | 1.1.1 | https://watri.github.io/helm-repo/ |
-| koala | sample-nodejs-app | baseline | 5.5.7 | 3.0.6 | https://watri.github.io/helm-repo/ |
-| kodelib | code-server | baseline | 0.3.11 | 3.9.3-r1-ubuntu | https://helm.kodelib.com |
-| kokuwa | fluentd-elasticsearch | privileged | 13.7.1 | v4.2.3 | https://kokuwaio.github.io/helm-charts |
-| kokuwa | mysqldump | baseline | 6.0.0 | v3.0.16 | https://kokuwaio.github.io/helm-charts |
-| kokuwa | visual-regression-tracker | baseline | 0.4.2 | 4.20.5 | https://kokuwaio.github.io/helm-charts |
-| komodor | k8s-watcher | error_template | 1.0.8 | 0.1.140 | https://helm-charts.komodor.io |
-| kong-mesh | kong-mesh | baseline | 2.0.0 | 2.0.0 | https://kong.github.io/kong-mesh-charts |
-| kong-z | graylog | privileged | 2.1.8 | 4.2.7 | https://charts.kong-z.com/ |
-| kong | kong | baseline | 2.13.1 | 3.0 | https://charts.konghq.com |
-| koordinator | koordinator | privileged | 1.0.0 | 1.0.0 | https://koordinator-sh.github.io/charts |
-| kpow | kpow | baseline | 1.0.41 | 90.2 | https://charts.kpow.io |
-| krakazyabra | cadvisor | baseline | 1.0.1 | v0.40.0 | https://krakazyabra.github.io/microservices |
-| krakazyabra | common | empty_no_object | 0.1.13 |  | https://krakazyabra.github.io/microservices |
-| krakazyabra | mariadb | error_template | 1.0.5 | 110.4.20 | https://krakazyabra.github.io/microservices |
-| krakazyabra | nginx | empty_no_object | 1.0.0 | 1.19.0 | https://krakazyabra.github.io/microservices |
-| krakazyabra | postgres | error_template | 0.1.0 | 13.3 | https://krakazyabra.github.io/microservices |
-| kraken-ci | kraken-ci | baseline | 0.1079.0 | 0.1079 | https://kraken.ci/helm-repo/charts |
-| kraken | kraken | baseline | 0.2.0 |  | https://clustellar.github.io/kraken |
-| kremers | postgresql-ha | baseline | 7.5.1 | 11.12.0 | https://kremers.github.io |
-| kremers | vmware-exporter | baseline | 2.3.0 | v0.18.4 | https://kremers.github.io |
-| kronco-aapm-agent | kron-aapm-agent | baseline | 1.1.0 | 1.1.0 | https://bugraaktug.github.io/kronco-aapm-agent |
-| kronco-aapm-sidecar | kron-aapm-sidecar | baseline | 1.1.0 | 1.1.0 | https://bugraaktug.github.io/kronco-aapm-sidecar/ |
-| krzwiatrzyk | argo-app-manager | no_pod_object_but_crd | 0.0.11 |  | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | argus | privileged | 0.0.2 | 0.4.1 | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | dashy | baseline | 1.0.0 | 2.1.1 | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | kube-ns-suspender | baseline | 0.0.3 | v2.1.0 | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | namespace-management | empty_no_object | 0.0.2 |  | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | ohmyform | baseline | 0.0.1 | 1.0.3 | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | pav | privileged | 0.0.1 | 0.0.2 | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | postgresql-backup-to-minio | baseline | 0.0.1 |  | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | tooljet | empty_no_object | 0.0.2 |  | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | user-management | no_pod_object | 0.0.1 |  | https://krzwiatrzyk.github.io/charts/ |
-| krzwiatrzyk | zitadel | error_template | 3.0.1 | v2.1.1-amd64 | https://krzwiatrzyk.github.io/charts/ |
-| ktech-org | bandstand-cron-job | empty_no_object | 1.8.4 |  | https://ktech-org.github.io/bandstand-charts/ |
-| ktech-org | bandstand-test-runner | empty_no_object | 1.2.2 |  | https://ktech-org.github.io/bandstand-charts/ |
-| ktech-org | bandstand-web-service | empty_no_object | 1.9.2 |  | https://ktech-org.github.io/bandstand-charts/ |
-| ktech-org | service-library | empty_no_object | 0.3.10 |  | https://ktech-org.github.io/bandstand-charts/ |
-| kube-auto-puller | kube-auto-puller | baseline | 1.1.2 | 1.0 | https://explorium-ai.github.io/kube-auto-puller/ |
-| kube-ecr-secrets-operator | kube-ecr-secrets-operator | baseline | 0.1.0 | 0.0.0 | https://zak905.github.io/kube-ecr-secrets-operator/chart |
-| kube-ops | apm-server | error_download | 0.1.2 | 7.17.6 | https://charts.kube-ops.io |
-| kube-ops | cassandra | error_download | 0.1.4 | 3.11.9 | https://charts.kube-ops.io |
-| kube-ops | generate | error_download | 0.2.3 | 0.2.3 | https://charts.kube-ops.io |
-| kube-ops | grafana | error_download | 1.0.2 | 7.3.6 | https://charts.kube-ops.io |
-| kube-ops | kleanr | error_download | 0.1.3 | 0.2.0 | https://charts.kube-ops.io |
-| kube-ops | loki | error_download | 1.7.3 | 2.2.1 | https://charts.kube-ops.io |
-| kube-ops | promtail | error_download | 1.5.1 | 2.2.1 | https://charts.kube-ops.io |
-| kube-ops | traefik | error_download | 1.4.0 | 2.5.1 | https://charts.kube-ops.io |
-| kube-vault-controller | kube-vault-controller | error_download | 1.1.0 | 1.1.0 | oci://ghcr.io/kupnu4x/helm/kube-vault-controller |
-| kube-wordpress-mysql | kube-wordpress-mysql | baseline | 0.1.0 | 0.0.1-alpha | https://anselming.github.io/kube-wordpress-mysql |
-| kube-wordpress | wordpress | baseline | 0.1.0 | 1.1 | https://harsh-del.github.io/wordpress-charts/charts/ |
-| kube2iam | kube2iam | privileged | 2.6.0 | 0.10.9 | https://jtblin.github.io/kube2iam |
-| kubecost | cost-analyzer | privileged | 1.98.0 | 1.98.0 | https://kubecost.github.io/cost-analyzer |
-| kubedex | helm-controller | baseline | 0.4.0 | 1.0 | https://kubedex.github.io/charts |
-| kubefed | kubefed | baseline | 0.10.0 |  | https://raw.githubusercontent.com/kubernetes-sigs/kubefed/master/charts |
-| kubeflow | certmanager | baseline | 1.0.0 | 1.3.1 | https://alauda.github.io/kubeflow-chart |
-| kubeflow | istio | baseline | 1.0.0 | 1.9 | https://alauda.github.io/kubeflow-chart |
-| kubeflow | kubeflow | baseline | 1.5.1 | 1.5.0 | https://alauda.github.io/kubeflow-chart |
-| kubegems | argo-cd | baseline | 3.3.5 | 2.3.4 | https://charts.kubegems.io/kubegems |
-| kubegems | argo-rollouts | no_pod_object_but_crd | 1.0.0 | 2.14.0 | https://charts.kubegems.io/kubegems |
-| kubegems | bundle-controller | baseline | 1.0.0-alpha1 | 1.0.0-alpha1 | https://charts.kubegems.io/kubegems |
-| kubegems | cert-manager | no_pod_object_but_crd | 1.0.0 | 1.8.0 | https://charts.kubegems.io/kubegems |
-| kubegems | common | empty_no_object | 1.0.0 |  | https://charts.kubegems.io/kubegems |
-| kubegems | dcgm-exporter | privileged | 2.4.5 | 2.4.5 | https://charts.kubegems.io/kubegems |
-| kubegems | eventer | no_pod_object_but_crd | 1.0.0 | 1.4.12 | https://charts.kubegems.io/kubegems |
-| kubegems | gateway | baseline | 1.0.0 | 0.3.2 | https://charts.kubegems.io/kubegems |
-| kubegems | global | no_pod_object | 1.0.0 | 1.0.0 | https://charts.kubegems.io/kubegems |
-| kubegems | grafana | no_pod_object_but_crd | 1.0.0 | 6.29.5 | https://charts.kubegems.io/kubegems |
-| kubegems | istio | no_pod_object_but_crd | 1.0.0 | 1.11.7 | https://charts.kubegems.io/kubegems |
-| kubegems | knative | no_pod_object_but_crd | 1.0.0 | 1.0.0 | https://charts.kubegems.io/kubegems |
-| kubegems | knative-serving | baseline | 1.0.1 | 1.6.0 | https://charts.kubegems.io/kubegems |
-| kubegems | kubegems | baseline | 1.22.1-dev | 1.22.1-dev | https://charts.kubegems.io/kubegems |
-| kubegems | kubegems-installer | baseline | 1.22.1-dev | 1.22.1-dev | https://charts.kubegems.io/kubegems |
-| kubegems | kubegems-local | error_template | 1.22.0 | 1.22.0 | https://charts.kubegems.io/kubegems |
-| kubegems | kubegems-models | baseline | 1.22.0 | 1.22.0 | https://charts.kubegems.io/kubegems |
-| kubegems | kubevela | no_pod_object_but_crd | 1.0.0 | 1.3.5 | https://charts.kubegems.io/kubegems |
-| kubegems | local-path | no_pod_object_but_crd | 1.0.0 | 0.0.22 | https://charts.kubegems.io/kubegems |
-| kubegems | logging | no_pod_object_but_crd | 1.0.0 | 3.17.6 | https://charts.kubegems.io/kubegems |
-| kubegems | metallb | no_pod_object_but_crd | 1.0.0 | 0.12.1 | https://charts.kubegems.io/kubegems |
-| kubegems | metrics-server | no_pod_object_but_crd | 1.0.0 | 3.8.2 | https://charts.kubegems.io/kubegems |
-| kubegems | model-deployment | baseline | 1.0.0 | 1.0.0 | https://charts.kubegems.io/kubegems |
-| kubegems | modelx | baseline | 0.1.2 | 0.1.2 | https://charts.kubegems.io/kubegems |
-| kubegems | monitoring | baseline | 1.0.0 | 41.3.2 | https://charts.kubegems.io/kubegems |
-| kubegems | nacos | no_pod_object_but_crd | 1.0.0 | 2.1.1 | https://charts.kubegems.io/kubegems |
-| kubegems | node-local-dns | no_pod_object_but_crd | 1.0.0 | 0.1.1 | https://charts.kubegems.io/kubegems |
-| kubegems | node-problem-detector | no_pod_object_but_crd | 1.0.0 | 2.2.2 | https://charts.kubegems.io/kubegems |
-| kubegems | openkruise | no_pod_object_but_crd | 1.0.0 | 1.2.0 | https://charts.kubegems.io/kubegems |
-| kubegems | opentelemetry | no_pod_object_but_crd | 1.0.0 | 0.28.0 | https://charts.kubegems.io/kubegems |
-| kubegems | prometheus-node-exporter | no_pod_object_but_crd | 1.0.0 | 3.3.0 | https://charts.kubegems.io/kubegems |
-| kubegems | seldon | no_pod_object_but_crd | 1.0.0 | 1.15.0-dev | https://charts.kubegems.io/kubegems |
-| kubegems | seldon-core-operator | baseline | 1.15.0-dev | 1.15.0-dev | https://charts.kubegems.io/kubegems |
-| kubegems | tracing | no_pod_object_but_crd | 1.0.0 | 1.30.0 | https://charts.kubegems.io/kubegems |
-| kubegems | volume-snapshoter | no_pod_object_but_crd | 1.0.0 | 5.0.1 | https://charts.kubegems.io/kubegems |
-| kubegemsapp | apisix | baseline | 0.10.0 | 2.14.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | apm-server | baseline | 7.13.2 | 7.13.2 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | cassandra | baseline | 7.6.2 | 3.11.10 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | cmak | baseline | 1.7.0 | 3.0.0.5-7e7a22e | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | consul | baseline | 9.2.14 | 1.10.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | elasticsearch | privileged | 8.1.0 | 8.1.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | etcd | baseline | 6.2.10 | 3.5.5 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | influxdb | baseline | 2.2.11 | 2.0.7 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | istio-bookinfo | baseline | 1.2.2 | 1.3 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | jenkins | baseline | 8.0.1 | 2.289.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | kafka | baseline | 7.1.0 | 2.4.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | kibana | baseline | 7.13.2 | 7.13.2 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | logstash | baseline | 3.5.5 | 7.13.2 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | memcached | baseline | 2.0.0 | 1.5.22 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | minio | baseline | 7.1.1 | 2021.6.17 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | mongodb | baseline | 10.20.5 | 4.4.6 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | mysql | baseline | 4.5.2 | 5.7.26 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | nacos | baseline | 0.1.5 | 2.0.2 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | nats | baseline | 6.3.10 | 2.3.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | neo4j | baseline | 4.4.1 | 4.4.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | nginx | baseline | 9.3.4 | 1.21.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | postgresql | baseline | 10.5.1 | 11.12.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-cassandra-exporter | baseline | 2.4.0 | 2.3.4 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-consul-exporter | baseline | 0.5.0 | 0.4.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-elasticsearch-exporter | baseline | 4.12.1 | 1.3.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-jmx-exporter | baseline | 2.4.0 | 2.3.4 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-kafka-exporter | baseline | 1.6.0 | v1.4.2 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-memcached-exporter | baseline | 0.7.1 | 0.6.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-mongodb-exporter | baseline | 2.10.0 | v0.10.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-mysql-exporter | baseline | 1.8.1 | v0.12.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-postgres-exporter | baseline | 3.0.3 | 0.10.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-rabbitmq-exporter | baseline | 1.3.0 | v0.29.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | prometheus-redis-exporter | baseline | 4.7.4 | 1.27.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | rabbitmq | baseline | 3.7.17 | 3.7.17 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | redis | baseline | 12.8.3 | 6.0.12 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | skywalking | baseline | 8.9.1 | 8.9.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | sonarqube | baseline | 1.3.1 | 8.7.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | tdengine | baseline | 0.3.0 | 2.4.0.18 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | tempo | baseline | 0.7.3 | v1.0.1 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | tomcat | baseline | 9.2.15 | 10.0.8 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | vault | baseline | 0.13.0 | 1.7.3 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | vmware-exporter | baseline | 2.2.0 | 0.13.2 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | vscode | baseline | 1.0.5 | 3.12.0 | https://charts.kubegems.io/kubegemsapp |
-| kubegemsapp | zookeeper | baseline | 5.2.0 | 3.5.6 | https://charts.kubegems.io/kubegemsapp |
-| kubeinvaders | kubeinvaders | error_template | 1.9.5 | 1.9.5 | https://lucky-sideburn.github.io/helm-charts/ |
-| kubemonkey | kube-monkey | baseline | 1.5.0 | 0.5.0 | https://asobti.github.io/kube-monkey/charts/repo |
-| kubenav | kubenav | baseline | 1.2.0 | 3.7.0 | https://kubenav.github.io/helm-repository |
-| kuberhealthy | kuberhealthy | error_download | 64.0.0 | v2.4.1 | https://comcast.github.io/kuberhealthy/helm-repos |
-| kubernetes-dbaas | kubernetes-dbaas | error_download | 1.0.0 | 1.0.0 | https://bedag.github.io/kubernetes-dbaas/charts |
-| kubernetes-helm-chart-pgbouncer | pgbouncer | baseline | 1.0.15 | 1.0 | https://raw.githubusercontent.com/cradlepoint/kubernetes-helm-chart-pgbouncer/master/repos/stable |
-| kubernetes-logging | kubernetes-logging | privileged | 4.4.0 |  | https://nickytd.github.io/kubernetes-logging-helm |
-| kubernetesweekly | kubernetesweekly | version_not_evaluable | 2.1.0 | 2.1.0 | https://zufardhiyaulhaq.com/kubernetesweekly/charts/releases/ |
-| kubes | kubes-ttl | baseline | 0.1.2 | 1.0.0 | https://kubes.io/kubes-ttl-chart |
-| kubeshop | api-server | baseline | 0.11.16 | 0.11.16 | https://kubeshop.github.io/helm-charts |
-| kubeshop | kusk-gateway | baseline | 0.0.59 | v1.3.19 | https://kubeshop.github.io/helm-charts |
-| kubeshop | kusk-gateway-api | baseline | 0.1.22 | v1.1.10 | https://kubeshop.github.io/helm-charts |
-| kubeshop | kusk-gateway-dashboard | baseline | 0.1.17 | v1.2.5 | https://kubeshop.github.io/helm-charts |
-| kubeshop | kusk-gateway-envoyfleet | no_pod_object_but_crd | 0.0.7 | v0.0.0 | https://kubeshop.github.io/helm-charts |
-| kubeshop | testkube | baseline | 1.6.102 |  | https://kubeshop.github.io/helm-charts |
-| kubeshop | testkube-api | baseline | 1.6.35 | 1.6.35 | https://kubeshop.github.io/helm-charts |
-| kubeshop | testkube-dashboard | baseline | 1.8.1 | 1.8.1 | https://kubeshop.github.io/helm-charts |
-| kubeshop | testkube-operator | baseline | 1.6.5 |  | https://kubeshop.github.io/helm-charts |
-| kubeshop | tracetest | baseline | 0.2.22 | v0.7.6 | https://kubeshop.github.io/helm-charts |
-| kubesphere-test | apisix | baseline | 0.1.7 | 1.15.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | aws-ebs-csi-driver | privileged | 0.3.0 | 0.5.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | aws-efs-csi-driver | privileged | 0.1.0 | 0.3.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | aws-fsx-csi-driver | privileged | 0.1.0 | 0.1.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | biz-engine | version_not_evaluable | 0.1.0 | 1.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | ccm-qingcloud | baseline | 0.1.0 | 1.4.12 | https://charts.kubesphere.io/test |
-| kubesphere-test | clickhouse | baseline | 0.1.1 | 21.1 | https://charts.kubesphere.io/test |
-| kubesphere-test | cni-hostnic | privileged | 0.1.0 | v1.0.3 | https://charts.kubesphere.io/test |
-| kubesphere-test | csi-neonsan | privileged | 1.2.7 | 1.2.2 | https://charts.kubesphere.io/test |
-| kubesphere-test | csi-qingcloud | privileged | 1.3.6 | 1.3.6 | https://charts.kubesphere.io/test |
-| kubesphere-test | curvefs-csi | privileged | 0.1.0 | 1.0.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | etcd | baseline | 0.1.3 | 3.3.12 | https://charts.kubesphere.io/test |
-| kubesphere-test | ks-core | privileged | 0.2.0 | v4.0.0-alpha.1 | https://charts.kubesphere.io/test |
-| kubesphere-test | ks-installer | privileged | 0.3.1 | 3.2.1 | https://charts.kubesphere.io/test |
-| kubesphere-test | metersphere | baseline | 1.0.0 | 1.6.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | metersphere-chart | baseline | 1.0.0 | 1.6.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | minio-gateway | baseline | 0.1.0 | 0.1.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | mongodb | baseline | 0.3.2 | 4.2.1 | https://charts.kubesphere.io/test |
-| kubesphere-test | mysql | baseline | 1.0.2 | 5.7.33 | https://charts.kubesphere.io/test |
-| kubesphere-test | nacos | baseline | 0.1.1 | 1.4.1 | https://charts.kubesphere.io/test |
-| kubesphere-test | online-boutique | baseline | 0.1.0 | 1.16.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | openelb | privileged | 0.2.4 | 0.4.4 | https://charts.kubesphere.io/test |
-| kubesphere-test | porter | privileged | 0.2.2 | 0.4.3 | https://charts.kubesphere.io/test |
-| kubesphere-test | postgresql | baseline | 1.0.3 | 11.11.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | rabbitmq | baseline | 0.3.2 | 3.8.1 | https://charts.kubesphere.io/test |
-| kubesphere-test | radondb-mysql | baseline | 1.0.1 | 5.7.33 | https://charts.kubesphere.io/test |
-| kubesphere-test | radondb-postgresql | baseline | 1.0.2 | 11.11.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | rbd-provisioner | baseline | 0.1.1 | 0.1.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | redis | baseline | 0.3.5 | 6.0.9 | https://charts.kubesphere.io/test |
-| kubesphere-test | sample-bookinfo | baseline | 1.0.0 | 1.16.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | skywalking | privileged | 3.1.0 | 8.1.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | snapshot-controller | baseline | 0.2.0 | 4.0.0 | https://charts.kubesphere.io/test |
-| kubesphere-test | xenondb | baseline | 1.0.0 | 5.7.33 | https://charts.kubesphere.io/test |
-| kubesphere | apisix | baseline | 0.7.2 | 2.10.0 | https://charts.kubesphere.io/main |
-| kubesphere | apisix-dashboard | baseline | 0.3.0 | 2.9.0 | https://charts.kubesphere.io/main |
-| kubesphere | apisix-ingress-controller | baseline | 0.8.0 | 1.3.0 | https://charts.kubesphere.io/main |
-| kubesphere | elasticsearch-exporter | baseline | 3.4.0 | 1.1.0 | https://charts.kubesphere.io/main |
-| kubesphere | fluentbit-operator | privileged | 0.1.0 | 0.9.0 | https://charts.kubesphere.io/main |
-| kubesphere | gitlab | baseline | 4.2.3 | 13.2.2 | https://charts.kubesphere.io/main |
-| kubesphere | harbor | baseline | 1.9.3 | 2.5.3 | https://charts.kubesphere.io/main |
-| kubesphere | ks-installer | privileged | 0.3.1 | 3.2.1 | https://charts.kubesphere.io/main |
-| kubesphere | memcached | baseline | 3.2.5 | 1.5.20 | https://charts.kubesphere.io/main |
-| kubesphere | minio | baseline | 6.0.5 | RELEASE.2020-08-08T04-50-06Z | https://charts.kubesphere.io/main |
-| kubesphere | mysql | baseline | 1.6.8 | 5.7.31 | https://charts.kubesphere.io/main |
-| kubesphere | mysql-exporter | baseline | 0.5.6 | v0.11.0 | https://charts.kubesphere.io/main |
-| kubesphere | nfs-client-provisioner | baseline | 4.0.11 | 4.0.2 | https://charts.kubesphere.io/main |
-| kubesphere | nginx | baseline | 1.3.5 | 1.18.0 | https://charts.kubesphere.io/main |
-| kubesphere | pvc-autoresizer | baseline | 0.1.0 | v0.1 | https://charts.kubesphere.io/main |
-| kubesphere | redis-exporter | baseline | 3.4.6 | 1.3.4 | https://charts.kubesphere.io/main |
-| kubesphere | sonarqube | privileged | 6.7.0 | 8.9-community | https://charts.kubesphere.io/main |
-| kubesphere | storageclass-accessor | baseline | 0.1.0 | v0.1.1 | https://charts.kubesphere.io/main |
-| kubesphere | tomcat | baseline | 0.4.3 | 8.5.41 | https://charts.kubesphere.io/main |
-| kubevela | oam-runtime | baseline | 1.5.0-beta.4 | 1.5.0-beta.4 | https://charts.kubevela.net/core |
-| kubevela | vela-core | baseline | 1.6.1 | 1.6.1 | https://charts.kubevela.net/core |
-| kubevela | vela-core-legacy | baseline | 1.6.1 | 1.6.1 | https://charts.kubevela.net/core |
-| kubevela | vela-minimal | baseline | 1.6.1 | 1.6.1 | https://charts.kubevela.net/core |
-| kubevela | vela-rollout | baseline | 1.6.1 | 1.6.1 | https://charts.kubevela.net/core |
-| kubevela | vela-workflow | baseline | 0.3.4 | 0.3.4 | https://charts.kubevela.net/core |
-| kubeview | kubeview | baseline | 0.1.31 | 0.1.31 | https://benc-uk.github.io/kubeview/charts |
-| kubevious | kubevious | baseline | 1.1.2 | 1.1.2 | https://helm.kubevious.io |
-| kubevious | kubevious-agent | baseline | 1.0.4 | 1.0.4 | https://helm.kubevious.io |
-| kubewarden | kubewarden-controller | baseline | 1.2.4 | v1.3.0 | https://charts.kubewarden.io |
-| kubewarden | kubewarden-crds | no_pod_object_but_crd | 1.2.2 |  | https://charts.kubewarden.io |
-| kubewarden | kubewarden-defaults | no_pod_object_but_crd | 1.2.4 |  | https://charts.kubewarden.io |
-| kubitodev | cloudflared | error_template | 1.0.1 | 2022.7.1 | https://charts.kubito.dev |
-| kubitodev | kubernetes-cloudflare-ddns | error_template | 1.0.6 | 1.0.1 | https://charts.kubito.dev |
-| kubitodev | traefik-cloudflared-source-ip | error_template | 1.0.4 | 2.8.0 | https://charts.kubito.dev |
-| kubitodev | traefik-whitelist-ddns | baseline | 1.0.4 | 2.8.0 | https://charts.kubito.dev |
-| kubmod | kubemod | baseline | 0.3.0 | 0.13.0 | https://kubemod.github.io/kubemod-helm/ |
-| kubservice-charts | prometheus-pingmesh-exporter | baseline | 1.0.1 | 1.0.1 | https://kubeservice-stack.github.io/kubservice-charts/ |
-| kuma | kuma | baseline | 2.0.0 | 2.0.0 | https://kumahq.github.io/charts |
-| kumardeb | pages | error_download | 1.0.0 | 1.0 | https://kumardeb.github.io/kumerdeb.github.io/ |
-| kured | kured | privileged | 4.1.0 | 1.11.0 | https://kubereboot.github.io/charts |
-| kurt108 | gotenberg | baseline | 5.0.0 | 7.0.3 | https://kurt108.github.io/helm-charts/ |
-| kurt108 | statping | baseline | 0.0.3 | v.0.90.74 | https://kurt108.github.io/helm-charts/ |
-| kurt108 | thumbor | baseline | 1.1.31 | 6.7.5 | https://kurt108.github.io/helm-charts/ |
-| kvalitetsit | argoapps | empty_no_object | 1.2.3 | 1.2.3 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | k8s-rke-backup | privileged | 0.0.1 | 0.0.1 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | kitcaddy | baseline | 1.3.18 | 1.3.18 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | krakend | baseline | 0.0.3 | 0.0.3 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | longhorn | privileged | 1.1.1-2 | 1.1.1-2 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | metadoc | baseline | 0.0.6 | 0.0.6 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | multitenant | version_not_evaluable | 1.6.6 | 1.6.6 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | nsp-prometheus-exporter | baseline | 1.0.19 | 1.0.19 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | openid | baseline | 1.3.1 | 1.3.1 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | service | baseline | 1.29.2 | 1.29.2 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | statefulset | baseline | 1.0.2 | 1.0.2 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | strongswan | empty_no_object | 0.2.1 | 0.2.1 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvalitetsit | sts | empty_no_object | 1.0.26 | 1.0.26 | https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/ |
-| kvaps | kube-fencing | privileged | 2.3.0 | 2.3.0 | https://kvaps.github.io/charts |
-| kvaps | kubefarm | version_not_evaluable | 0.13.4 | 1.22.3 | https://kvaps.github.io/charts |
-| kvaps | kubernetes | baseline | 0.13.4 | 1.22.4 | https://kvaps.github.io/charts |
-| kvaps | linstor | privileged | 1.14.0 | 1.14.0 | https://kvaps.github.io/charts |
-| kvaps | nfs-server-provisioner | privileged | 1.4.0 | 3.0.0 | https://kvaps.github.io/charts |
-| kvaps | opennebula | privileged | 2.1.1 | 5.12.0.4-1 | https://kvaps.github.io/charts |
-| kvaps | pv-hostpath | error_template | 1.0.0 |  | https://kvaps.github.io/charts |
-| kvaps | stolon | error_template | 1.7.0 | 0.16.0 | https://kvaps.github.io/charts |
-| kvdi2 | kvdi | baseline | 0.3.6 | v0.3.6 | https://kvdi.github.io/helm-charts/charts |
-| kvdi | kvdi | baseline | 0.3.5 | v0.3.5 | https://kvdi.github.io/kvdi/deploy/charts |
-| kvkservice | kvk | baseline | 0.1.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/kvkservice/master/api/helm/ |
-| kvkservice | kvkservice | baseline | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/kvkservice/master/api/helm/ |
-| kwatch | kwatch | empty_no_object | 0.5.0 | v0.5.0 | https://kwatch.dev/charts |
-| kylesferrazza | cloudflared | error_template | 2022.9.2 | 2022.9.1-amd64 | https://charts.kylesferrazza.com |
-| kylesferrazza | node-red | baseline | 2022.9.25 | 2.2.3-12 | https://charts.kylesferrazza.com |
-| kylesferrazza | ohif | baseline | 0.1.0 |  | https://charts.kylesferrazza.com |
-| kyuubi | kyuubi | baseline | 0.1.0 | 1.5.2 | https://hddong.github.io/kyuubi/kyuubi-helm/ |
-| kyverno-nirmata | kube-bench-adapter | baseline | 1.1.6 | 1.0.0 | https://nirmata.github.io/kyverno-charts/ |
-| kyverno-nirmata | kyverno | baseline | 1.5.2 | v1.8.1-n4kbuild.1 | https://nirmata.github.io/kyverno-charts/ |
-| kyverno-nirmata | kyverno-monitor | baseline | 0.1.2 | 0.1.0 | https://nirmata.github.io/kyverno-charts/ |
-| kyverno-nirmata | kyverno-operator | restricted | 0.1.5 | 0.1.0 | https://nirmata.github.io/kyverno-charts/ |
-| kyverno-nirmata | nirmata-aws-adapter | restricted | 0.1.0 | 0.1.0 | https://nirmata.github.io/kyverno-charts/ |
-| kyverno-nirmata | nirmata-venafi-adapter | baseline | 0.1.1 | v0.1.0 | https://nirmata.github.io/kyverno-charts/ |
-| kyverno-nirmata | venafi-adapter | restricted | 0.1.10 | v0.1.0 | https://nirmata.github.io/kyverno-charts/ |
-| kyverno | kyverno | restricted | 2.6.1 | v1.8.1 | https://kyverno.github.io/kyverno/ |
-| kyverno | kyverno-crds | no_pod_object_but_crd | 2.0.3 | v1.4.3 | https://kyverno.github.io/kyverno/ |
-| kyverno | kyverno-policies | no_pod_object_but_crd | 2.6.1 | v1.8.1 | https://kyverno.github.io/kyverno/ |
+| repo | chart | level | chart version | app version |
+|------|------|------|------|------|
+| [k0s-homelab](https://gitlab.com/api/v4/projects/32758508/packages/helm/testing) | k0s-homelab | empty_no_object | 0.1.0 | v1.23.1+k0s.0 |
+| [k0s-homelab](https://gitlab.com/api/v4/projects/32758508/packages/helm/testing) | minio | empty_no_object | 0.1.0 | RELEASE.2022-01-08T03-11-54Z |
+| [k1](oci://ghcr.io/cybercryptio/helm-charts/k1) | k1 | error_download | 1.0.3 | v1.0.1 |
+| [k2hdkc](https://helm.k2hdkc.antpick.ax/) | k2hdkc | empty_no_object | 1.0.1 | 1.0.1 |
+| [k2hr3](https://helm.k2hr3.antpick.ax/) | k2hr3 | empty_no_object | 1.0.2 | 1.0.2 |
+| [k8gb](https://www.k8gb.io) | k8gb | baseline | 0.10.0 | v0.10.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | clusterrole | no_pod_object | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | clusterrolebinding | no_pod_object | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | configmap | no_pod_object | 1.0.3 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | cronjob | version_not_evaluable | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | ingress | no_pod_object | 1.0.3 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | job | restricted | 1.1.1 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | lib-k8s-as-helm | empty_no_object | 1.3.0 | 1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | namespace | no_pod_object | 1.1.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | networkpolicy | no_pod_object | 1.0.1 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pdb | no_pod_object | 1.0.5 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pod | restricted | 1.0.1 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pvc | no_pod_object_but_crd | 1.0.5 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | role | no_pod_object | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | rolebinding | no_pod_object | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | secret | no_pod_object | 1.0.4 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | serviceaccount | no_pod_object | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | storageclass | error_template | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | svc | no_pod_object | 1.0.4 | v1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | adguard-home | baseline | 5.5.2 | v0.107.7 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | airsonic | baseline | 6.4.2 | 10.6.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | alertmanager-bot | baseline | 6.4.2 | 0.4.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | alertmanager-discord | baseline | 1.3.2 | 1.0.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | amcrest2mqtt | baseline | 2.4.2 | 1.0.5 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | anonaddy | baseline | 5.1.2 | 0.12.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | apache-musicindex | privileged | 2.4.2 | v1.4.1-2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | appdaemon | baseline | 8.4.2 | 4.0.8 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | aria2 | baseline | 1.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | audiobookshelf | baseline | 1.2.2 | 2.0.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | autobrr | baseline | 1.1.2 | v0.23.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | babybuddy | baseline | 1.2.2 | 1.10.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | baikal | baseline | 5.1.2 | 0.8.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | bazarr | baseline | 10.6.2 | v1.0.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | beets | baseline | 1.4.2 | 1.5.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | blocky | baseline | 10.5.2 | v0.18 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | booksonic-air | baseline | 6.4.2 | v2009.1.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | bookstack | baseline | 5.1.2 | v21.12 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | calibre | baseline | 5.4.2 | version-v5.21.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | calibre-web | baseline | 8.4.2 | 0.6.12 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | changedetection-io | baseline | 1.5.2 | 0.39.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | comcast | baseline | 6.4.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | cryptofolio | baseline | 1.4.2 | V.2.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | cryptpad | baseline | 0.4.2 | v4.14.1-nginx |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | deconz | baseline | 6.5.2 | 2.12.06 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | deemix | baseline | 1.1.2 | 2022.5.28-r206.a752a63e0e |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | deepstack | baseline | 1.5.2 | cpu-2021.09.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | deluge | baseline | 5.4.2 | v2.0.3-2201906121747 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | dendrite | baseline | 6.3.1 | v0.9.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | dizquetv | baseline | 4.4.2 | 1.4.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | dnsmadeeasy-webhook | baseline | 4.7.2 | 1.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | dokuwiki | baseline | 1.2.2 | 20200729.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | double-take | baseline | 2.3.2 | 1.6.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | dsmr-reader | baseline | 6.3.2 | 2021.06.01 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | duplicati | baseline | 5.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | emby | baseline | 3.4.2 | 4.6.1.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | error-pages | baseline | 1.2.2 | 2.6.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | esphome | baseline | 8.4.2 | 1.18.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | facebox | baseline | 1.2.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | factorio | baseline | 1.2.2 | stable |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | filebrowser | baseline | 1.4.2 | 2.18.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | firefly-iii | baseline | 0.2.2 | version-5.6.14 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | flaresolverr | baseline | 5.4.2 | v1.2.8 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | flood | baseline | 6.4.2 | 4.6.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | focalboard | baseline | 4.4.2 | 0.9.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | foundryvtt | baseline | 3.4.2 | 0.8.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | freshrss | baseline | 6.4.2 | 1.18.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | frigate | baseline | 8.2.2 | 0.10.0-amd64 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | games-on-whales | privileged | 1.8.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | gaps | baseline | 5.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | gatus | baseline | 1.1.2 | v3.8.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | ghost | baseline | 2.1.2 | 4.37.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | gollum | baseline | 3.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | gonic | baseline | 6.4.2 | v0.13.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | gotify | baseline | 1.2.2 | 2.1.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | grocy | baseline | 8.5.2 | version-v3.1.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | handbrake | baseline | 0.1.2 | v1.24.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | haste-server | baseline | 3.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | healthchecks | baseline | 4.4.2 | version-v1.20.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | heimdall | baseline | 8.4.2 | 2.2.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | home-assistant | baseline | 13.4.2 | 2022.5.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | homebridge | baseline | 5.3.2 | 2022-07-08 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | homer | baseline | 8.0.2 | v22.07.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | hyperion-ng | baseline | 5.4.2 | 2.0.0-alpha9 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | icantbelieveitsnotvaletudo | baseline | 5.4.2 | 2021.2.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | icinga2 | baseline | 4.1.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | ihatemoney | baseline | 1.1.2 | 5.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | influxdb-exporter | baseline | 1.2.2 | v0.9.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | intel-gpu-plugin | privileged | 4.4.2 | 0.20.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | jackett | baseline | 11.7.2 | v0.20.1316 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | jellyfin | baseline | 9.5.3 | 10.8.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | joplin-server | baseline | 5.3.2 | 2.1.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | kanboard | baseline | 5.1.2 | v1.2.20 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | komga | baseline | 2.4.2 | 0.99.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | kube-ops-view | baseline | 1.2.2 | 20.4.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | lancache | baseline | 0.6.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | lazylibrarian | baseline | 7.4.2 | version-1152df82 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | leaf2mqtt | baseline | 3.4.2 | 0.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | librespeed | baseline | 5.4.2 | version-5.2.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | lidarr | baseline | 14.2.2 | v1.0.0.2255 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | littlelink-server | baseline | 1.4.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | lychee | baseline | 6.4.2 | v4.3.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | maddy | baseline | 3.1.2 | v0.5.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | magic-mirror | baseline | 4.4.2 | v2.15.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | mealie | baseline | 5.1.2 | v1.0.0beta-2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | media-common | baseline | 1.3.1 |  |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | media-common-openvpn | empty_no_object | 1.0.1 |  |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | miniflux | baseline | 5.1.2 | 2.0.36 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | minio-console | baseline | 2.4.2 | v0.7.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | modem-stats | baseline | 6.4.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | monica | baseline | 8.1.2 | 3.7.0-apache |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | mopidy | baseline | 0.1.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | mosquitto | baseline | 4.8.2 | 2.0.14 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | mqtt-exporter | baseline | 1.1.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | multus | privileged | 3.5.2 | v3.7.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | mylar | baseline | 4.4.2 | version-v0.5.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | navidrome | baseline | 6.4.2 | 0.43.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | neolink | baseline | 5.4.2 | 0.3.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | network-ups-tools | baseline | 6.4.2 | v2.7.4-2479-g86a32237 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | nginx-php | baseline | 1.2.2 | 2.4.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | nightscout | baseline | 1.2.2 | 14.2.5 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | node-red | baseline | 10.3.2 | 2.2.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | ntfy | baseline | 1.1.2 | v1.27.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | nullserv | baseline | 2.4.2 | 1.3.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | nzbget | baseline | 12.4.2 | v21.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | nzbhydra2 | baseline | 10.4.2 | v3.14.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | octoprint | privileged | 6.4.2 | 1.6.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | omada-controller | baseline | 4.4.2 | 4.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | ombi | baseline | 11.5.2 | 4.16.12 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | onedrive | baseline | 2.4.3 | 2.4.20 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | openemr | baseline | 5.1.2 | 6.1.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | openhab | baseline | 1.5.2 | 3.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | openkm | baseline | 4.1.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | organizr | baseline | 7.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | otel-collector | baseline | 1.2.2 | 0.46.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | overleaf | baseline | 3.1.2 | 2.7.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | overseerr | baseline | 5.4.2 | 1.26.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | owncast | baseline | 3.4.2 | 0.0.7 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | owncloud-ocis | baseline | 2.4.2 | 1.7.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | paperless | baseline | 9.1.3 | 1.8.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | photoprism | baseline | 7.1.2 | 220629-jammy |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | plex | baseline | 6.4.3 | v1.28.0.5999-97678ded3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | pod-gateway | privileged | 5.6.2 | v1.6.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | pod-gateway-setter | baseline | 1.0.0 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | powerdns-admin | baseline | 1.2.2 | v0.2.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | pretend-youre-xyzzy | baseline | 3.4.2 | 4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | privatebin | baseline | 2.1.2 | 1.3.5 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | promcord | baseline | 5.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | prometheus-nut-exporter | baseline | 5.4.2 | 1.1.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | protonmail-bridge | baseline | 5.4.2 | 1.8.7-1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | prowlarr | baseline | 4.5.2 | v0.3.0.1710 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | puppeteer | baseline | 1.2.2 | v13.3.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | pyload | baseline | 6.4.2 | 0.4.20 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | qbittorrent | baseline | 13.5.2 | v4.4.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | radarr | baseline | 16.3.2 | v4.1.0.6175 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | radicale | baseline | 1.2.2 | 3.1.1.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | readarr | baseline | 6.4.2 | v0.1.0.715 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | recipes | baseline | 6.6.2 | 1.0.5.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | resilio-sync | baseline | 5.4.2 | 2.7.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | reverse-proxy | empty_no_object | 2.4.2 | 1.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | rhasspy | baseline | 1.1.2 | 2.5.11 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | rtorrent-flood | baseline | 9.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | rtorrent-rutorrent | baseline | 1.1.2 | 3.10-0.9.8-0.13.8 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | rtsp-to-web | baseline | 2.2.2 | v2.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | sabnzbd | baseline | 9.4.2 | v3.3.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | samba | baseline | 6.2.2 | 4.15.5 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | satisfactory | baseline | 1.2.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | scrypted | baseline | 0.3.2 | 0.0.138 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | sdtd | baseline | 0.3.2 | main |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | seafile | baseline | 3.1.2 | 8.0.7 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | searx | baseline | 5.6.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | send | baseline | 1.2.2 | v3.4.20 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | ser2sock | baseline | 5.4.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | sharry | baseline | 5.4.2 | 1.8.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | shinobi | baseline | 1.2.2 | dev |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | shlink | baseline | 5.1.2 | 2.7.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | signal-cli-rest-api | baseline | 1.2.2 | 0.57 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | sinusbot | baseline | 0.5.2 | 1.0.0-beta.14 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | smarter-device-manager | privileged | 6.5.2 | 1.20.7 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | snapcast | baseline | 0.1.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | sonarr | baseline | 16.3.2 | v3.0.8.1507 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | speedtest-exporter | baseline | 5.4.2 | v3.2.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | stash | baseline | 3.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | statping | baseline | 6.1.2 | v0.90.74 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | strongswan | privileged | 0.3.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | syncthing | baseline | 3.5.2 | 1.18.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | syslog-ng | baseline | 1.1.2 | 3.30.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | tautulli | baseline | 11.4.2 | v2.7.7 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | tdarr | baseline | 4.6.2 | 2.00.18 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | teamspeak | baseline | 0.7.2 | 3.13.6 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | teedy | baseline | 6.1.2 | v1.10 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | teslamate | baseline | 7.1.2 | v1.23.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | thelounge | baseline | 3.4.2 | 4.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | theme-park | baseline | 1.2.2 | v1.7.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | torrserver | baseline | 1.2.2 | 1.0.111 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | traefik-forward-auth | baseline | 2.2.2 | 2.2.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | transmission | baseline | 8.4.3 | v3.00 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | tt-rss | baseline | 5.1.2 | v1.8723.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | tvheadend | baseline | 5.4.2 | version-eb59284b |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | unifi | baseline | 5.1.2 | v7.1.68 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | unifi-poller | baseline | 11.1.2 | 2.1.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | unpackerr | baseline | 5.4.2 | 0.9.7 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | uptime-kuma | baseline | 1.4.2 | 1.17.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | uptimerobot | baseline | 3.0.4 | 1.1.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | uptimerobot-prometheus | baseline | 6.4.2 | 0.0.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | valheim | baseline | 4.4.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | vaultwarden | baseline | 5.3.2 | 1.25.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | vikunja | baseline | 6.1.2 | 0.17.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | wallabag | baseline | 7.1.2 | 2.4.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | warrior | baseline | 1.2.2 | latest |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | webtrees | baseline | 2.1.2 | 2.0.19 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | whoogle | baseline | 3.4.2 | 0.5.4 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | wikijs | baseline | 6.4.2 | version-2.5.201 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | wireguard | privileged | 1.4.2 | 1.0.20210424 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | wmbusmeters | privileged | 1.4.2 | 1.4.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | xbackbone | baseline | 5.4.2 | 3.3.3 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | xbvr | baseline | 1.4.2 | 0.3.17 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | xteve | baseline | 8.4.2 | v2.2.0.200 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | youtubedl-material | baseline | 4.4.2 | 4.2 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | zalando-postgres-cluster | baseline | 3.4.2 | 1.0.0 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | zigbee2mqtt | baseline | 9.4.2 | 1.19.1 |
+| [k8s-at-home](https://k8s-at-home.com/charts/) | zwavejs2mqtt | privileged | 5.4.2 | 5.0.2 |
+| [k8s-aws-ebs-tagger](https://mtougeron.github.io/helm-charts/) | k8s-aws-ebs-tagger | baseline | 1.2.5 | v0.0.8 |
+| [k8s-aws-ebs-tagger](https://mtougeron.github.io/helm-charts/) | k8s-pvc-tagger | baseline | 2.0.1 | v1.0.1 |
+| [k8s-aws-iam-controller](https://rustrial.github.io/k8s-aws-iam-controller) | k8s-aws-iam-controller | baseline | 0.1.5 | 0.1.5 |
+| [k8s-cloudwatch-adapter](https://awslabs.github.io/k8s-cloudwatch-adapter/charts/k8s-cloudwatch-adapter/) | k8s-cloudwatch-adapter | error_download | 0.2.1 | 0.10.0 |
+| [k8s-dashboard](https://kubernetes.github.io/dashboard) | kubernetes-dashboard | baseline | 5.11.0 | 2.7.0 |
+| [k8s-dev-pod](https://bryopsida.github.io/k8s-dev-pod) | k8s-dev-pod | baseline | 0.1.10 | 0.1.0 |
+| [k8s-edu](https://k8s-edu.github.io/helm-charts/) | metallb | privileged | 0.10.2 | v0.10.2 |
+| [k8s-edu](https://k8s-edu.github.io/helm-charts/) | nfs-subdir-external-provisioner | baseline | 4.0.12 | 4.0.2 |
+| [k8s-edu](https://k8s-edu.github.io/helm-charts/) | prometheus | privileged | 15.8.5 | 2.34.0 |
+| [k8s-envoy-sidecar](https://nefelim4ag.github.io/k8s-envoy-sidecar/) | k8s-envoy-sidecar | baseline | 0.8.0 | 0.0.1 |
+| [k8s-event-grid-bridge](https://k8s-event-grid-bridge.tomkerkhove.be/chart-registry) | k8s-event-grid-bridge | empty_no_object | 0.2.0 | 0.2.0 |
+| [k8s-gitops-secrets](https://rustrial.github.io/k8s-gitops-secrets) | rustrial-k8s-gitops-secrets-controller | baseline | 0.0.6 | 0.0.6 |
+| [k8s-jacoco-operator](https://curium-rocks.github.io/k8s-jacoco-operator/) | k8s-jacoco-operator | baseline | 0.4.0 | 0.1.0 |
+| [k8s-land](https://charts.k8s.land) | gitea | error_download | 1.3.3 | 1.11.5 |
+| [k8s-mutating-webhook](https://curium-rocks.github.io/k8s-mutating-webhook/) | k8s-mutating-webhook | baseline | 0.3.0 | 0.1.0 |
+| [k8s-object-syncer](https://rustrial.github.io/k8s-object-syncer) | k8s-object-syncer | baseline | 0.1.7 | 0.1.7 |
+| [k8s-pause](https://doodlescheduling.github.io/k8s-pause) | k8s-pause | baseline | 0.1.4 | v0.1.1 |
+| [k8s-pvc](https://codiway-com.github.io/k8s-helm/) | k8s-configmap | empty_no_object | 0.1.2 |  |
+| [k8s-pvc](https://codiway-com.github.io/k8s-helm/) | k8s-pvc | empty_no_object | 0.1.3 |  |
+| [k8s-pvc](https://codiway-com.github.io/k8s-helm/) | k8s-secret | empty_no_object | 0.1.3 |  |
+| [k8s-pvc](https://codiway-com.github.io/k8s-helm/) | secret | empty_no_object | 0.1.0 | 1.16.0 |
+| [k8s-sftp-gcs](https://danuk.github.io/k8s-sftp-gcs/) | k8s-sftp-gcs | privileged | 0.1.3 | 1.16.0 |
+| [k8s-ssh-bastion](https://nefelim4ag.github.io/k8s-ssh-bastion/) | k8s-ssh-bastion | baseline | 0.3.5 | 0.3.0 |
+| [k8s-validating-webhook](https://curium-rocks.github.io/k8s-validating-webhook/) | k8s-validating-webhook | baseline | 0.4.0 | 0.1.0 |
+| [k8s-validating-webhook](https://curium-rocks.github.io/k8s-validating-webhook/) | kube-admission-controller-starter | baseline | 0.2.0 | 0.1.0 |
+| [k8s-webdav](https://danuk.github.io/k8s-webdav/) | webdav | privileged | 0.0.3 |  |
+| [k8satthehome](https://library-charts.k8s-at-home.com) | common | empty_no_object | 4.5.2 |  |
+| [k8sdb-controller](https://doodlescheduling.github.io/k8sdb-controller) | k8sdb-controller | baseline | 0.1.2 | v0.0.1 |
+| [k8skeycloak-controller](https://doodlescheduling.github.io/k8skeycloak-controller) | k8skeycloak-controller | baseline | 0.1.2 | v0.0.1 |
+| [k8soauth2-proxy-controller](https://doodlescheduling.github.io/k8soauth2-proxy-controller) | k8soauth2-proxy-controller | baseline | 0.1.5 | v0.1.2 |
+| [k8sonlab](https://charts.billias.cc) | librephotos | baseline | 0.202241.2 | 2022w39 |
+| [k8sprom-patch-controller](https://doodlescheduling.github.io/k8sprom-patch-controller) | k8sprom-patch-controller | baseline | 0.1.4 | v0.1.2 |
+| [k8ssandra-lightweight](https://abhijithganesh.tech/dokc-helm-chart/) | dokc-k8ssandra-lightweight | error_download | 0.1.0 |  |
+| [k8ssandra](https://helm.k8ssandra.io/) | backup | no_pod_object_but_crd | 0.26.0 |  |
+| [k8ssandra](https://helm.k8ssandra.io/) | cass-operator | baseline | 0.37.2 | 1.13.0 |
+| [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra | baseline | 1.6.0-20221012160637-2c11d549 |  |
+| [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra-common | empty_no_object | 0.28.6 |  |
+| [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra-operator | baseline | 0.38.2 | 1.2.1 |
+| [k8ssandra](https://helm.k8ssandra.io/) | medusa-operator | baseline | 0.32.0 | 0.1.0 |
+| [k8ssandra](https://helm.k8ssandra.io/) | reaper-operator | baseline | 0.32.3 | 0.1.0 |
+| [k8ssandra](https://helm.k8ssandra.io/) | restore | no_pod_object_but_crd | 0.27.1 |  |
+| [k8status](https://stenic.github.io/k8status/) | k8status | baseline | 0.12.2 | 0.12.2 |
+| [k8stcpmap-controller](https://doodlescheduling.github.io/k8stcpmap-controller) | k8stcpmap-controller | baseline | 0.1.2 | v0.0.1 |
+| [k8svault-controller](https://doodlescheduling.github.io/k8svault-controller) | k8svault-controller | baseline | 0.1.2 | v0.2.0 |
+| [k8tz](https://k8tz.github.io/k8tz/) | k8tz | baseline | 0.9.0 | 0.9.0 |
+| [kadeck](https://dl.cloudsmith.io/public/xeotek-gmbh/kadeck/helm/charts/) | kadeck-web | baseline | 0.5.0 | 3.2.3 |
+| [kafka-ui](https://provectus.github.io/kafka-ui) | kafka-ui | baseline | 0.4.5 | v0.4.0 |
+| [kaiso](https://kaiso.github.io/helm-charts/) | kom-operator | baseline | 1.2.0 | v2.1.3 |
+| [kallakruparaju-jenkins](https://kallakruparaju.github.io/Jenkins-helmchart/) | jenkins | baseline | 1.0.0 |  |
+| [kanbanapp-demo](https://sdandey.github.io/kanbanapp-helmcharts) | kanbanapp-demo | baseline | 0.3.0 | 1.16.0 |
+| [kangal](https://hellofresh.github.io/kangal) | kangal | baseline | 2.2.2 |  |
+| [kanister](https://charts.kanister.io/) | kanister-elasticsearch | privileged | 0.32.0 | 6.3.1 |
+| [kanister](https://charts.kanister.io/) | kanister-mongodb-replicaset | baseline | 0.32.0 | 3.6 |
+| [kanister](https://charts.kanister.io/) | kanister-mysql | baseline | 0.32.0 | 5.7.14 |
+| [kanister](https://charts.kanister.io/) | kanister-operator | baseline | 0.84.0 | 0.84.0 |
+| [kanister](https://charts.kanister.io/) | kanister-postgresql | version_not_evaluable | 0.32.0 | 9.6.2 |
+| [kanister](https://charts.kanister.io/) | profile | no_pod_object_but_crd | 0.84.0 | 0.1.0 |
+| [karpenter](https://charts.karpenter.sh) | karpenter | baseline | 0.16.3 | 0.16.3 |
+| [kasten](https://charts.kasten.io/) | k10 | baseline | 5.5.0 | 5.5.0 |
+| [kasten](https://charts.kasten.io/) | k10restore | baseline | 5.5.0 | 5.5.0 |
+| [katafygio](https://bpineau.github.io/katafygio) | katafygio | baseline | 0.5.1 | 0.8.3 |
+| [kazarma](https://kazarma.gitlab.io/kazarma_helm) | kazarma | baseline | 1.3.0 | 0.1.0 |
+| [kcd-website](https://kcd-australia.github.io/kcd-website) | kcd-ui | empty_no_object | 0.1.0 | 0.0.1 |
+| [kea](https://muhlba91.github.io/kea-container) | kea | privileged | 1.1.4 | @sha256:f770605566c507c1cc92eb93edc42e0a9b14cef0fe6d37618db5d6e7122395fc |
+| [kedacore](https://kedacore.github.io/charts) | external-scaler-azure-cosmos-db | baseline | 0.1.0 | 0.1.0 |
+| [kedacore](https://kedacore.github.io/charts) | keda | restricted | 2.8.2 | 2.8.1 |
+| [kedacore](https://kedacore.github.io/charts) | keda-add-ons-http | baseline | 0.3.0 | 0.3.0 |
+| [keel](https://charts.keel.sh) | keel | baseline | 0.9.11 | 0.16.1 |
+| [kellnr](https://bitfalter.github.io/helm/) | kellnr | error_template | 0.8.0 | 2.2.0 |
+| [kelvins](https://kelvins.github.io/helm-charts/) | mlflow | baseline | 0.4.0 | 1.26.1 |
+| [keptn-ortelius-service](https://ortelius.github.io/keptn-ortelius-service) | keptn-ortelius-service | baseline | 0.0.1 | 0.0.1 |
+| [keptn](https://charts.keptn.sh) | common | empty_no_object | 0.19.2 |  |
+| [keptn](https://charts.keptn.sh) | helm-service | baseline | 0.18.2 | 0.18.2 |
+| [keptn](https://charts.keptn.sh) | jmeter-service | baseline | 0.18.2 | 0.18.2 |
+| [keptn](https://charts.keptn.sh) | keptn | baseline | 0.19.2 | 0.19.2 |
+| [keras-ready-env](https://yanuragaj.github.io/Task_28/charts/) | keras-env | empty_no_object | 0.0.1 | 1.1.0 |
+| [kestra](https://helm.kestra.io/) | kestra | privileged | 0.5.1 | 0.5.1 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | csi-driver-nfs | privileged | 0.1.4 | 2.0.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | dynamodb | baseline | 0.1.27 | 1.12.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | gitea | baseline | 0.2.10 | 1.12.4 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | gogs | baseline | 0.1.3 | 0.12.3 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | helm-csi-driver-nfs | privileged | 0.1.0 | 2.0.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | helm-mongodb-operator | baseline | 0.1.0 | 1.8.2 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | k8sci | version_not_evaluable | 0.1.13 | 0.15.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | statsd | baseline | 0.1.19 | v0.8.6 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | xwiki | baseline | 0.2.0 | 12.9.0 |
+| [kfirfer](https://kfirfer.github.io/helm/) | elastalert2 | baseline | 2.2.4 | 2.2.3 |
+| [kfirfer](https://kfirfer.github.io/helm/) | elasticsearch | privileged | 7.17.3 | 7.17.3 |
+| [kfirfer](https://kfirfer.github.io/helm/) | elasticsearch-curator | baseline | 2.2.2 | 5.8.4 |
+| [kfirfer](https://kfirfer.github.io/helm/) | event-exporter | baseline | 0.0.4 | 0.9 |
+| [kfirfer](https://kfirfer.github.io/helm/) | haproxy | baseline | 0.1.2 | 2.2.14 |
+| [kfirfer](https://kfirfer.github.io/helm/) | heartbeat | privileged | 7.17.3 | 7.17.3 |
+| [kfirfer](https://kfirfer.github.io/helm/) | jellyfin | baseline | 2.0.2 | 10.7.5 |
+| [kfirfer](https://kfirfer.github.io/helm/) | kibana-index-pattern-updater | baseline | 0.0.1 | 1.0.12 |
+| [kfirfer](https://kfirfer.github.io/helm/) | kube-hunter | baseline | 1.0.4 | 0.6.8 |
+| [kfirfer](https://kfirfer.github.io/helm/) | mysql-check | baseline | 0.1.4 | 10.5.8 |
+| [kfirfer](https://kfirfer.github.io/helm/) | mysql-cluster | baseline | 0.0.3 | 8.0.20 |
+| [kfirfer](https://kfirfer.github.io/helm/) | mysqldump | baseline | 2.7.2 | 2.4.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | oauth2-proxy | baseline | 3.3.1 | v6.1.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | onlyoffice | baseline | 1.2.3 | 7.0.1.37 |
+| [kfirfer](https://kfirfer.github.io/helm/) | percona-toolkit | baseline | 0.0.5 | 3.2.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | percona-xtradb-cluster | version_not_evaluable | 1.5.4 | 8.0.27-18.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | permission-manager | baseline | 1.0.6 | v1.7.1-rc1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | phpmemcachedadmin | baseline | 0.1.3 | latest |
+| [kfirfer](https://kfirfer.github.io/helm/) | phpmyadmin | baseline | 0.0.3 | 5.0.2 |
+| [kfirfer](https://kfirfer.github.io/helm/) | pmm-server | baseline | 0.2.4 | 2.27.0 |
+| [kfirfer](https://kfirfer.github.io/helm/) | proxysql | baseline | 0.0.2 | 2.0.15 |
+| [kfirfer](https://kfirfer.github.io/helm/) | redis-commander | empty_no_object | 0.1.3 | latest |
+| [kfirfer](https://kfirfer.github.io/helm/) | redis-ha | baseline | 4.12.9 | 6.0.11 |
+| [kfirfer](https://kfirfer.github.io/helm/) | skooner | baseline | 0.0.3 | 0.0.1 |
+| [kiali](https://kiali.org/helm-charts) | kiali-operator | baseline | 1.59.0 | v1.59.0 |
+| [kiali](https://kiali.org/helm-charts) | kiali-server | baseline | 1.59.0 | v1.59.0 |
+| [kimai2tet](https://gresci.github.io/kimai2-helmchart/) | kimai-helmchart | baseline | 0.1.0 | 1.16.0 |
+| [kir4h](https://kir4h.github.io/charts) | registry-creds | baseline | 1.3.0 | 1.10 |
+| [kit-infra](https://kitadmin01.github.io/kit-infra/pack) | analytickit | error_template | 0.0.1 | 0.0.1 |
+| [kiwigrid](https://kiwigrid.github.io) | any-resource | no_pod_object | 0.1.0 | 0.1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | enmasse | baseline | 0.1.0 | 0.30.1 |
+| [kiwigrid](https://kiwigrid.github.io) | enmasse-crd | no_pod_object_but_crd | 0.1.0 | 0.30.1 |
+| [kiwigrid](https://kiwigrid.github.io) | error-pages | baseline | 1.0.0 | 1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | gcp-serviceaccount-controller | baseline | 0.3.2 | 0.3.0 |
+| [kiwigrid](https://kiwigrid.github.io) | grafana-dashboards | no_pod_object | 0.2.0 |  |
+| [kiwigrid](https://kiwigrid.github.io) | graphite | baseline | 1.0.0 | 1.1.10-3 |
+| [kiwigrid](https://kiwigrid.github.io) | influxdb-backup | version_not_evaluable | 0.2.0 | 1.7.10 |
+| [kiwigrid](https://kiwigrid.github.io) | ingress-annotator | baseline | 0.2.0 | 0.1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | keycloak-client-controller | baseline | 0.1.0 | 0.1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | keycloak-controller | baseline | 0.6.1 | 2.0.0 |
+| [kiwigrid](https://kiwigrid.github.io) | kubernetes-policy-controller | baseline | 0.1.2 | 1.2 |
+| [kiwigrid](https://kiwigrid.github.io) | prometheus-thanos | baseline | 4.9.4 | 0.27.0 |
+| [kiwigrid](https://kiwigrid.github.io) | secret-replicator | baseline | 0.6.0 | 0.2.0 |
+| [kiwigrid](https://kiwigrid.github.io) | spring-cloud-config-server | baseline | 0.1.3 | 2.1.3.RELEASE |
+| [kiwigrid](https://kiwigrid.github.io) | stackdriver-exporter | baseline | 0.2.0 | 0.6.0 |
+| [kiwigrid](https://kiwigrid.github.io) | zipkin-stackdriver-proxy | baseline | 0.1.0 | v0.6.0 |
+| [kjournal](oci://ghcr.io/raffis/charts/kjournal) | kjournal | error_download | 1.0.0 | 1.0.0 |
+| [klustair](https://klustair.github.io/klustair-helm) | klustair | baseline | 0.8.1 | 0.8.1 |
+| [koala](https://watri.github.io/helm-repo/) | koala | empty_no_object | 1.1.1 | 1.1.1 |
+| [koala](https://watri.github.io/helm-repo/) | sample-nodejs-app | baseline | 5.5.7 | 3.0.6 |
+| [kodelib](https://helm.kodelib.com) | code-server | baseline | 0.3.11 | 3.9.3-r1-ubuntu |
+| [kokuwa](https://kokuwaio.github.io/helm-charts) | fluentd-elasticsearch | privileged | 13.7.1 | v4.2.3 |
+| [kokuwa](https://kokuwaio.github.io/helm-charts) | mysqldump | baseline | 6.0.0 | v3.0.16 |
+| [kokuwa](https://kokuwaio.github.io/helm-charts) | visual-regression-tracker | baseline | 0.4.2 | 4.20.5 |
+| [komodor](https://helm-charts.komodor.io) | k8s-watcher | error_template | 1.0.8 | 0.1.140 |
+| [kong-mesh](https://kong.github.io/kong-mesh-charts) | kong-mesh | baseline | 2.0.0 | 2.0.0 |
+| [kong-z](https://charts.kong-z.com/) | graylog | privileged | 2.1.8 | 4.2.7 |
+| [kong](https://charts.konghq.com) | kong | baseline | 2.13.1 | 3.0 |
+| [koordinator](https://koordinator-sh.github.io/charts) | koordinator | privileged | 1.0.0 | 1.0.0 |
+| [kpow](https://charts.kpow.io) | kpow | baseline | 1.0.41 | 90.2 |
+| [krakazyabra](https://krakazyabra.github.io/microservices) | cadvisor | baseline | 1.0.1 | v0.40.0 |
+| [krakazyabra](https://krakazyabra.github.io/microservices) | common | empty_no_object | 0.1.13 |  |
+| [krakazyabra](https://krakazyabra.github.io/microservices) | mariadb | error_template | 1.0.5 | 110.4.20 |
+| [krakazyabra](https://krakazyabra.github.io/microservices) | nginx | empty_no_object | 1.0.0 | 1.19.0 |
+| [krakazyabra](https://krakazyabra.github.io/microservices) | postgres | error_template | 0.1.0 | 13.3 |
+| [kraken-ci](https://kraken.ci/helm-repo/charts) | kraken-ci | baseline | 0.1079.0 | 0.1079 |
+| [kraken](https://clustellar.github.io/kraken) | kraken | baseline | 0.2.0 |  |
+| [kremers](https://kremers.github.io) | postgresql-ha | baseline | 7.5.1 | 11.12.0 |
+| [kremers](https://kremers.github.io) | vmware-exporter | baseline | 2.3.0 | v0.18.4 |
+| [kronco-aapm-agent](https://bugraaktug.github.io/kronco-aapm-agent) | kron-aapm-agent | baseline | 1.1.0 | 1.1.0 |
+| [kronco-aapm-sidecar](https://bugraaktug.github.io/kronco-aapm-sidecar/) | kron-aapm-sidecar | baseline | 1.1.0 | 1.1.0 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | argo-app-manager | no_pod_object_but_crd | 0.0.11 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | argus | privileged | 0.0.2 | 0.4.1 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | dashy | baseline | 1.0.0 | 2.1.1 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | kube-ns-suspender | baseline | 0.0.3 | v2.1.0 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | namespace-management | empty_no_object | 0.0.2 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | ohmyform | baseline | 0.0.1 | 1.0.3 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | pav | privileged | 0.0.1 | 0.0.2 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | postgresql-backup-to-minio | baseline | 0.0.1 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | tooljet | empty_no_object | 0.0.2 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | user-management | no_pod_object | 0.0.1 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | zitadel | error_template | 3.0.1 | v2.1.1-amd64 |
+| [ktech-org](https://ktech-org.github.io/bandstand-charts/) | bandstand-cron-job | empty_no_object | 1.8.4 |  |
+| [ktech-org](https://ktech-org.github.io/bandstand-charts/) | bandstand-test-runner | empty_no_object | 1.2.2 |  |
+| [ktech-org](https://ktech-org.github.io/bandstand-charts/) | bandstand-web-service | empty_no_object | 1.9.2 |  |
+| [ktech-org](https://ktech-org.github.io/bandstand-charts/) | service-library | empty_no_object | 0.3.10 |  |
+| [kube-auto-puller](https://explorium-ai.github.io/kube-auto-puller/) | kube-auto-puller | baseline | 1.1.2 | 1.0 |
+| [kube-ecr-secrets-operator](https://zak905.github.io/kube-ecr-secrets-operator/chart) | kube-ecr-secrets-operator | baseline | 0.1.0 | 0.0.0 |
+| [kube-ops](https://charts.kube-ops.io) | apm-server | error_download | 0.1.2 | 7.17.6 |
+| [kube-ops](https://charts.kube-ops.io) | cassandra | error_download | 0.1.4 | 3.11.9 |
+| [kube-ops](https://charts.kube-ops.io) | generate | error_download | 0.2.3 | 0.2.3 |
+| [kube-ops](https://charts.kube-ops.io) | grafana | error_download | 1.0.2 | 7.3.6 |
+| [kube-ops](https://charts.kube-ops.io) | kleanr | error_download | 0.1.3 | 0.2.0 |
+| [kube-ops](https://charts.kube-ops.io) | loki | error_download | 1.7.3 | 2.2.1 |
+| [kube-ops](https://charts.kube-ops.io) | promtail | error_download | 1.5.1 | 2.2.1 |
+| [kube-ops](https://charts.kube-ops.io) | traefik | error_download | 1.4.0 | 2.5.1 |
+| [kube-vault-controller](oci://ghcr.io/kupnu4x/helm/kube-vault-controller) | kube-vault-controller | error_download | 1.1.0 | 1.1.0 |
+| [kube-wordpress-mysql](https://anselming.github.io/kube-wordpress-mysql) | kube-wordpress-mysql | baseline | 0.1.0 | 0.0.1-alpha |
+| [kube-wordpress](https://harsh-del.github.io/wordpress-charts/charts/) | wordpress | baseline | 0.1.0 | 1.1 |
+| [kube2iam](https://jtblin.github.io/kube2iam) | kube2iam | privileged | 2.6.0 | 0.10.9 |
+| [kubecost](https://kubecost.github.io/cost-analyzer) | cost-analyzer | privileged | 1.98.0 | 1.98.0 |
+| [kubedex](https://kubedex.github.io/charts) | helm-controller | baseline | 0.4.0 | 1.0 |
+| [kubefed](https://raw.githubusercontent.com/kubernetes-sigs/kubefed/master/charts) | kubefed | baseline | 0.10.0 |  |
+| [kubeflow](https://alauda.github.io/kubeflow-chart) | certmanager | baseline | 1.0.0 | 1.3.1 |
+| [kubeflow](https://alauda.github.io/kubeflow-chart) | istio | baseline | 1.0.0 | 1.9 |
+| [kubeflow](https://alauda.github.io/kubeflow-chart) | kubeflow | baseline | 1.5.1 | 1.5.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | argo-cd | baseline | 3.3.5 | 2.3.4 |
+| [kubegems](https://charts.kubegems.io/kubegems) | argo-rollouts | no_pod_object_but_crd | 1.0.0 | 2.14.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | bundle-controller | baseline | 1.0.0-alpha1 | 1.0.0-alpha1 |
+| [kubegems](https://charts.kubegems.io/kubegems) | cert-manager | no_pod_object_but_crd | 1.0.0 | 1.8.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | common | empty_no_object | 1.0.0 |  |
+| [kubegems](https://charts.kubegems.io/kubegems) | dcgm-exporter | privileged | 2.4.5 | 2.4.5 |
+| [kubegems](https://charts.kubegems.io/kubegems) | eventer | no_pod_object_but_crd | 1.0.0 | 1.4.12 |
+| [kubegems](https://charts.kubegems.io/kubegems) | gateway | baseline | 1.0.0 | 0.3.2 |
+| [kubegems](https://charts.kubegems.io/kubegems) | global | no_pod_object | 1.0.0 | 1.0.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | grafana | no_pod_object_but_crd | 1.0.0 | 6.29.5 |
+| [kubegems](https://charts.kubegems.io/kubegems) | istio | no_pod_object_but_crd | 1.0.0 | 1.11.7 |
+| [kubegems](https://charts.kubegems.io/kubegems) | knative | no_pod_object_but_crd | 1.0.0 | 1.0.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | knative-serving | baseline | 1.0.1 | 1.6.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | kubegems | baseline | 1.22.1-dev | 1.22.1-dev |
+| [kubegems](https://charts.kubegems.io/kubegems) | kubegems-installer | baseline | 1.22.1-dev | 1.22.1-dev |
+| [kubegems](https://charts.kubegems.io/kubegems) | kubegems-local | error_template | 1.22.0 | 1.22.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | kubegems-models | baseline | 1.22.0 | 1.22.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | kubevela | no_pod_object_but_crd | 1.0.0 | 1.3.5 |
+| [kubegems](https://charts.kubegems.io/kubegems) | local-path | no_pod_object_but_crd | 1.0.0 | 0.0.22 |
+| [kubegems](https://charts.kubegems.io/kubegems) | logging | no_pod_object_but_crd | 1.0.0 | 3.17.6 |
+| [kubegems](https://charts.kubegems.io/kubegems) | metallb | no_pod_object_but_crd | 1.0.0 | 0.12.1 |
+| [kubegems](https://charts.kubegems.io/kubegems) | metrics-server | no_pod_object_but_crd | 1.0.0 | 3.8.2 |
+| [kubegems](https://charts.kubegems.io/kubegems) | model-deployment | baseline | 1.0.0 | 1.0.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | modelx | baseline | 0.1.2 | 0.1.2 |
+| [kubegems](https://charts.kubegems.io/kubegems) | monitoring | baseline | 1.0.0 | 41.3.2 |
+| [kubegems](https://charts.kubegems.io/kubegems) | nacos | no_pod_object_but_crd | 1.0.0 | 2.1.1 |
+| [kubegems](https://charts.kubegems.io/kubegems) | node-local-dns | no_pod_object_but_crd | 1.0.0 | 0.1.1 |
+| [kubegems](https://charts.kubegems.io/kubegems) | node-problem-detector | no_pod_object_but_crd | 1.0.0 | 2.2.2 |
+| [kubegems](https://charts.kubegems.io/kubegems) | openkruise | no_pod_object_but_crd | 1.0.0 | 1.2.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | opentelemetry | no_pod_object_but_crd | 1.0.0 | 0.28.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | prometheus-node-exporter | no_pod_object_but_crd | 1.0.0 | 3.3.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | seldon | no_pod_object_but_crd | 1.0.0 | 1.15.0-dev |
+| [kubegems](https://charts.kubegems.io/kubegems) | seldon-core-operator | baseline | 1.15.0-dev | 1.15.0-dev |
+| [kubegems](https://charts.kubegems.io/kubegems) | tracing | no_pod_object_but_crd | 1.0.0 | 1.30.0 |
+| [kubegems](https://charts.kubegems.io/kubegems) | volume-snapshoter | no_pod_object_but_crd | 1.0.0 | 5.0.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | apisix | baseline | 0.10.0 | 2.14.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | apm-server | baseline | 7.13.2 | 7.13.2 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | cassandra | baseline | 7.6.2 | 3.11.10 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | cmak | baseline | 1.7.0 | 3.0.0.5-7e7a22e |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | consul | baseline | 9.2.14 | 1.10.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | elasticsearch | privileged | 8.1.0 | 8.1.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | etcd | baseline | 6.2.10 | 3.5.5 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | influxdb | baseline | 2.2.11 | 2.0.7 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | istio-bookinfo | baseline | 1.2.2 | 1.3 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | jenkins | baseline | 8.0.1 | 2.289.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | kafka | baseline | 7.1.0 | 2.4.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | kibana | baseline | 7.13.2 | 7.13.2 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | logstash | baseline | 3.5.5 | 7.13.2 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | memcached | baseline | 2.0.0 | 1.5.22 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | minio | baseline | 7.1.1 | 2021.6.17 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | mongodb | baseline | 10.20.5 | 4.4.6 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | mysql | baseline | 4.5.2 | 5.7.26 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | nacos | baseline | 0.1.5 | 2.0.2 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | nats | baseline | 6.3.10 | 2.3.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | neo4j | baseline | 4.4.1 | 4.4.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | nginx | baseline | 9.3.4 | 1.21.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | postgresql | baseline | 10.5.1 | 11.12.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-cassandra-exporter | baseline | 2.4.0 | 2.3.4 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-consul-exporter | baseline | 0.5.0 | 0.4.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-elasticsearch-exporter | baseline | 4.12.1 | 1.3.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-jmx-exporter | baseline | 2.4.0 | 2.3.4 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-kafka-exporter | baseline | 1.6.0 | v1.4.2 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-memcached-exporter | baseline | 0.7.1 | 0.6.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-mongodb-exporter | baseline | 2.10.0 | v0.10.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-mysql-exporter | baseline | 1.8.1 | v0.12.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-postgres-exporter | baseline | 3.0.3 | 0.10.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-rabbitmq-exporter | baseline | 1.3.0 | v0.29.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | prometheus-redis-exporter | baseline | 4.7.4 | 1.27.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | rabbitmq | baseline | 3.7.17 | 3.7.17 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | redis | baseline | 12.8.3 | 6.0.12 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | skywalking | baseline | 8.9.1 | 8.9.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | sonarqube | baseline | 1.3.1 | 8.7.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | tdengine | baseline | 0.3.0 | 2.4.0.18 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | tempo | baseline | 0.7.3 | v1.0.1 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | tomcat | baseline | 9.2.15 | 10.0.8 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | vault | baseline | 0.13.0 | 1.7.3 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | vmware-exporter | baseline | 2.2.0 | 0.13.2 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | vscode | baseline | 1.0.5 | 3.12.0 |
+| [kubegemsapp](https://charts.kubegems.io/kubegemsapp) | zookeeper | baseline | 5.2.0 | 3.5.6 |
+| [kubeinvaders](https://lucky-sideburn.github.io/helm-charts/) | kubeinvaders | error_template | 1.9.5 | 1.9.5 |
+| [kubemonkey](https://asobti.github.io/kube-monkey/charts/repo) | kube-monkey | baseline | 1.5.0 | 0.5.0 |
+| [kubenav](https://kubenav.github.io/helm-repository) | kubenav | baseline | 1.2.0 | 3.7.0 |
+| [kuberhealthy](https://comcast.github.io/kuberhealthy/helm-repos) | kuberhealthy | error_download | 64.0.0 | v2.4.1 |
+| [kubernetes-dbaas](https://bedag.github.io/kubernetes-dbaas/charts) | kubernetes-dbaas | error_download | 1.0.0 | 1.0.0 |
+| [kubernetes-helm-chart-pgbouncer](https://raw.githubusercontent.com/cradlepoint/kubernetes-helm-chart-pgbouncer/master/repos/stable) | pgbouncer | baseline | 1.0.15 | 1.0 |
+| [kubernetes-logging](https://nickytd.github.io/kubernetes-logging-helm) | kubernetes-logging | privileged | 4.4.0 |  |
+| [kubernetesweekly](https://zufardhiyaulhaq.com/kubernetesweekly/charts/releases/) | kubernetesweekly | version_not_evaluable | 2.1.0 | 2.1.0 |
+| [kubes](https://kubes.io/kubes-ttl-chart) | kubes-ttl | baseline | 0.1.2 | 1.0.0 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | api-server | baseline | 0.11.16 | 0.11.16 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway | baseline | 0.0.59 | v1.3.19 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-api | baseline | 0.1.22 | v1.1.10 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-dashboard | baseline | 0.1.17 | v1.2.5 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-envoyfleet | no_pod_object_but_crd | 0.0.7 | v0.0.0 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube | baseline | 1.6.102 |  |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-api | baseline | 1.6.35 | 1.6.35 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-dashboard | baseline | 1.8.1 | 1.8.1 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-operator | baseline | 1.6.5 |  |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | tracetest | baseline | 0.2.22 | v0.7.6 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | apisix | baseline | 0.1.7 | 1.15.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | aws-ebs-csi-driver | privileged | 0.3.0 | 0.5.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | aws-efs-csi-driver | privileged | 0.1.0 | 0.3.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | aws-fsx-csi-driver | privileged | 0.1.0 | 0.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | biz-engine | version_not_evaluable | 0.1.0 | 1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | ccm-qingcloud | baseline | 0.1.0 | 1.4.12 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | clickhouse | baseline | 0.1.1 | 21.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | cni-hostnic | privileged | 0.1.0 | v1.0.3 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | csi-neonsan | privileged | 1.2.7 | 1.2.2 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | csi-qingcloud | privileged | 1.3.6 | 1.3.6 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | curvefs-csi | privileged | 0.1.0 | 1.0.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | etcd | baseline | 0.1.3 | 3.3.12 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | ks-core | privileged | 0.2.0 | v4.0.0-alpha.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | ks-installer | privileged | 0.3.1 | 3.2.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | metersphere | baseline | 1.0.0 | 1.6.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | metersphere-chart | baseline | 1.0.0 | 1.6.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | minio-gateway | baseline | 0.1.0 | 0.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | mongodb | baseline | 0.3.2 | 4.2.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | mysql | baseline | 1.0.2 | 5.7.33 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | nacos | baseline | 0.1.1 | 1.4.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | online-boutique | baseline | 0.1.0 | 1.16.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | openelb | privileged | 0.2.4 | 0.4.4 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | porter | privileged | 0.2.2 | 0.4.3 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | postgresql | baseline | 1.0.3 | 11.11.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | rabbitmq | baseline | 0.3.2 | 3.8.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | radondb-mysql | baseline | 1.0.1 | 5.7.33 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | radondb-postgresql | baseline | 1.0.2 | 11.11.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | rbd-provisioner | baseline | 0.1.1 | 0.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | redis | baseline | 0.3.5 | 6.0.9 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | sample-bookinfo | baseline | 1.0.0 | 1.16.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | skywalking | privileged | 3.1.0 | 8.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | snapshot-controller | baseline | 0.2.0 | 4.0.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | xenondb | baseline | 1.0.0 | 5.7.33 |
+| [kubesphere](https://charts.kubesphere.io/main) | apisix | baseline | 0.7.2 | 2.10.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | apisix-dashboard | baseline | 0.3.0 | 2.9.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | apisix-ingress-controller | baseline | 0.8.0 | 1.3.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | elasticsearch-exporter | baseline | 3.4.0 | 1.1.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | fluentbit-operator | privileged | 0.1.0 | 0.9.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | gitlab | baseline | 4.2.3 | 13.2.2 |
+| [kubesphere](https://charts.kubesphere.io/main) | harbor | baseline | 1.9.3 | 2.5.3 |
+| [kubesphere](https://charts.kubesphere.io/main) | ks-installer | privileged | 0.3.1 | 3.2.1 |
+| [kubesphere](https://charts.kubesphere.io/main) | memcached | baseline | 3.2.5 | 1.5.20 |
+| [kubesphere](https://charts.kubesphere.io/main) | minio | baseline | 6.0.5 | RELEASE.2020-08-08T04-50-06Z |
+| [kubesphere](https://charts.kubesphere.io/main) | mysql | baseline | 1.6.8 | 5.7.31 |
+| [kubesphere](https://charts.kubesphere.io/main) | mysql-exporter | baseline | 0.5.6 | v0.11.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | nfs-client-provisioner | baseline | 4.0.11 | 4.0.2 |
+| [kubesphere](https://charts.kubesphere.io/main) | nginx | baseline | 1.3.5 | 1.18.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | pvc-autoresizer | baseline | 0.1.0 | v0.1 |
+| [kubesphere](https://charts.kubesphere.io/main) | redis-exporter | baseline | 3.4.6 | 1.3.4 |
+| [kubesphere](https://charts.kubesphere.io/main) | sonarqube | privileged | 6.7.0 | 8.9-community |
+| [kubesphere](https://charts.kubesphere.io/main) | storageclass-accessor | baseline | 0.1.0 | v0.1.1 |
+| [kubesphere](https://charts.kubesphere.io/main) | tomcat | baseline | 0.4.3 | 8.5.41 |
+| [kubevela](https://charts.kubevela.net/core) | oam-runtime | baseline | 1.5.0-beta.4 | 1.5.0-beta.4 |
+| [kubevela](https://charts.kubevela.net/core) | vela-core | baseline | 1.6.1 | 1.6.1 |
+| [kubevela](https://charts.kubevela.net/core) | vela-core-legacy | baseline | 1.6.1 | 1.6.1 |
+| [kubevela](https://charts.kubevela.net/core) | vela-minimal | baseline | 1.6.1 | 1.6.1 |
+| [kubevela](https://charts.kubevela.net/core) | vela-rollout | baseline | 1.6.1 | 1.6.1 |
+| [kubevela](https://charts.kubevela.net/core) | vela-workflow | baseline | 0.3.4 | 0.3.4 |
+| [kubeview](https://benc-uk.github.io/kubeview/charts) | kubeview | baseline | 0.1.31 | 0.1.31 |
+| [kubevious](https://helm.kubevious.io) | kubevious | baseline | 1.1.2 | 1.1.2 |
+| [kubevious](https://helm.kubevious.io) | kubevious-agent | baseline | 1.0.4 | 1.0.4 |
+| [kubewarden](https://charts.kubewarden.io) | kubewarden-controller | baseline | 1.2.4 | v1.3.0 |
+| [kubewarden](https://charts.kubewarden.io) | kubewarden-crds | no_pod_object_but_crd | 1.2.2 |  |
+| [kubewarden](https://charts.kubewarden.io) | kubewarden-defaults | no_pod_object_but_crd | 1.2.4 |  |
+| [kubitodev](https://charts.kubito.dev) | cloudflared | error_template | 1.0.1 | 2022.7.1 |
+| [kubitodev](https://charts.kubito.dev) | kubernetes-cloudflare-ddns | error_template | 1.0.6 | 1.0.1 |
+| [kubitodev](https://charts.kubito.dev) | traefik-cloudflared-source-ip | error_template | 1.0.4 | 2.8.0 |
+| [kubitodev](https://charts.kubito.dev) | traefik-whitelist-ddns | baseline | 1.0.4 | 2.8.0 |
+| [kubmod](https://kubemod.github.io/kubemod-helm/) | kubemod | baseline | 0.3.0 | 0.13.0 |
+| [kubservice-charts](https://kubeservice-stack.github.io/kubservice-charts/) | prometheus-pingmesh-exporter | baseline | 1.0.1 | 1.0.1 |
+| [kuma](https://kumahq.github.io/charts) | kuma | baseline | 2.0.0 | 2.0.0 |
+| [kumardeb](https://kumardeb.github.io/kumerdeb.github.io/) | pages | error_download | 1.0.0 | 1.0 |
+| [kured](https://kubereboot.github.io/charts) | kured | privileged | 4.1.0 | 1.11.0 |
+| [kurt108](https://kurt108.github.io/helm-charts/) | gotenberg | baseline | 5.0.0 | 7.0.3 |
+| [kurt108](https://kurt108.github.io/helm-charts/) | statping | baseline | 0.0.3 | v.0.90.74 |
+| [kurt108](https://kurt108.github.io/helm-charts/) | thumbor | baseline | 1.1.31 | 6.7.5 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | argoapps | empty_no_object | 1.2.3 | 1.2.3 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | k8s-rke-backup | privileged | 0.0.1 | 0.0.1 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | kitcaddy | baseline | 1.3.18 | 1.3.18 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | krakend | baseline | 0.0.3 | 0.0.3 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | longhorn | privileged | 1.1.1-2 | 1.1.1-2 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | metadoc | baseline | 0.0.6 | 0.0.6 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | multitenant | version_not_evaluable | 1.6.6 | 1.6.6 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | nsp-prometheus-exporter | baseline | 1.0.19 | 1.0.19 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | openid | baseline | 1.3.1 | 1.3.1 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | service | baseline | 1.29.2 | 1.29.2 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | statefulset | baseline | 1.0.2 | 1.0.2 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | strongswan | empty_no_object | 0.2.1 | 0.2.1 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | sts | empty_no_object | 1.0.26 | 1.0.26 |
+| [kvaps](https://kvaps.github.io/charts) | kube-fencing | privileged | 2.3.0 | 2.3.0 |
+| [kvaps](https://kvaps.github.io/charts) | kubefarm | version_not_evaluable | 0.13.4 | 1.22.3 |
+| [kvaps](https://kvaps.github.io/charts) | kubernetes | baseline | 0.13.4 | 1.22.4 |
+| [kvaps](https://kvaps.github.io/charts) | linstor | privileged | 1.14.0 | 1.14.0 |
+| [kvaps](https://kvaps.github.io/charts) | nfs-server-provisioner | privileged | 1.4.0 | 3.0.0 |
+| [kvaps](https://kvaps.github.io/charts) | opennebula | privileged | 2.1.1 | 5.12.0.4-1 |
+| [kvaps](https://kvaps.github.io/charts) | pv-hostpath | error_template | 1.0.0 |  |
+| [kvaps](https://kvaps.github.io/charts) | stolon | error_template | 1.7.0 | 0.16.0 |
+| [kvdi2](https://kvdi.github.io/helm-charts/charts) | kvdi | baseline | 0.3.6 | v0.3.6 |
+| [kvdi](https://kvdi.github.io/kvdi/deploy/charts) | kvdi | baseline | 0.3.5 | v0.3.5 |
+| [kvkservice](https://raw.githubusercontent.com/ConductionNL/kvkservice/master/api/helm/) | kvk | baseline | 0.1.0 | V1.0 |
+| [kvkservice](https://raw.githubusercontent.com/ConductionNL/kvkservice/master/api/helm/) | kvkservice | baseline | 1.0.0 | V1.0 |
+| [kwatch](https://kwatch.dev/charts) | kwatch | empty_no_object | 0.5.0 | v0.5.0 |
+| [kylesferrazza](https://charts.kylesferrazza.com) | cloudflared | error_template | 2022.9.2 | 2022.9.1-amd64 |
+| [kylesferrazza](https://charts.kylesferrazza.com) | node-red | baseline | 2022.9.25 | 2.2.3-12 |
+| [kylesferrazza](https://charts.kylesferrazza.com) | ohif | baseline | 0.1.0 |  |
+| [kyuubi](https://hddong.github.io/kyuubi/kyuubi-helm/) | kyuubi | baseline | 0.1.0 | 1.5.2 |
+| [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | kube-bench-adapter | baseline | 1.1.6 | 1.0.0 |
+| [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | kyverno | baseline | 1.5.2 | v1.8.1-n4kbuild.1 |
+| [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | kyverno-monitor | baseline | 0.1.2 | 0.1.0 |
+| [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | kyverno-operator | restricted | 0.1.5 | 0.1.0 |
+| [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | nirmata-aws-adapter | restricted | 0.1.0 | 0.1.0 |
+| [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | nirmata-venafi-adapter | baseline | 0.1.1 | v0.1.0 |
+| [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | venafi-adapter | restricted | 0.1.10 | v0.1.0 |
+| [kyverno](https://kyverno.github.io/kyverno/) | kyverno | restricted | 2.6.1 | v1.8.1 |
+| [kyverno](https://kyverno.github.io/kyverno/) | kyverno-crds | no_pod_object_but_crd | 2.0.3 | v1.4.3 |
+| [kyverno](https://kyverno.github.io/kyverno/) | kyverno-policies | no_pod_object_but_crd | 2.6.1 | v1.8.1 |

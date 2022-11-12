@@ -6,477 +6,477 @@ Evaluation date 2022-11-12, 17:49:25
 
 [main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(355)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
 
-| repo | chart | level | chart version | app version | url | 
-|------|------|------|------|------|------|
-| b3o | generic-app | error_download | 0.1.6 |  | https://helm.b3o.io |
-| backube-helm-charts | scribe | baseline | 0.2.0 | 0.2.0 | https://backube.github.io/helm-charts/ |
-| backube-helm-charts | snapscheduler | baseline | 3.2.0 | 3.2.0 | https://backube.github.io/helm-charts/ |
-| backube-helm-charts | volsync | baseline | 0.5.0 | 0.5.0 | https://backube.github.io/helm-charts/ |
-| bakito | batch-job-controller | error_template | 1.4.4 | v1.4.4 | https://charts.bakito.net |
-| bakito | java-truststore-injection-webhook | baseline | 0.0.7 | v0.0.7 | https://charts.bakito.net |
-| bakito | k8s-event-logger-operator | baseline | 1.10.2 | v1.10.2 | https://charts.bakito.net |
-| bakito | sealed-secrets-web | baseline | 2.8.3 | v2.8.3 | https://charts.bakito.net |
-| bakito | vault-unsealer | baseline | 0.1.1 | v0.1.1 | https://charts.bakito.net |
-| bala-test-publish-helm | bala-test-publish | no_pod_object | 1.1.0 | 1.16.0 | https://bsalunke.github.io/bala-test-publish-helm/ |
-| bala-test-publish-helm | qualys-container-security | error_template | 1.0.0 | 1.18.0 | https://bsalunke.github.io/bala-test-publish-helm/ |
-| balance-registration | balance-registration | baseline | 0.1.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/balance-registration/master/api/helm/ |
-| balihb-pvc-exporter | pvc-exporter | privileged | 0.2.4 | 0.2.4 | https://balihb.github.io/pvc-exporter/ |
-| balle-petersen | db-backup | version_not_evaluable | 0.1.4 | 0.0.3 | https://charts.balle-petersen.org/ |
-| balle-petersen | digitalocean-exporter | error_template | 0.1.1 | 0.5 | https://charts.balle-petersen.org/ |
-| balle-petersen | float-exporter | error_template | 0.1.3 | v0.0.4 | https://charts.balle-petersen.org/ |
-| banzaicloud-stable | anchore-policy-validator | baseline | 0.8.3 | 0.5.6 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | argo | version_not_evaluable | 0.2.2 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | ark | no_pod_object_but_crd | 1.2.3 | 0.9.4 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | aws-autoscaling-exporter | baseline | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | aws-spot-price-history-poller | baseline | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | backyards | error_template | 1.3.3 | 1.3.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | backyards-demo | error_template | 1.0.2 | 0.1.2 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | backyards-operator | baseline | 1.5.5 | v1.5.5 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | backyards-sre | baseline | 0.1.0 | 1.3.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | backyards-sre-alert-exporter | baseline | 0.1.0 | 1.3.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | banzaicloud-docs | baseline | 0.1.2 | 1.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | cadence | baseline | 0.23.1 | 0.23.2 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | canary-operator | baseline | 0.1.16 | 0.1.14 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | cicd | version_not_evaluable | 2.0.5 | 0.8.8 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | clair | baseline | 0.1.5 | v2.0.9 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | cloudinfo | error_template | 0.8.5 | 0.17.2 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | cluster-autoscaler | no_pod_object | 0.12.4 | 1.13.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | crd-updater | empty_no_object | 0.0.3 | 0.0.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | dast-operator | baseline | 0.3.2 | 0.4.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | dex | baseline | 0.4.2 | 0.7.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | echo-server | baseline | 0.0.1 | 0.0.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | efs-provisioner | empty_no_object | 0.0.2 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | etcd | version_not_evaluable | 0.1.3 | 3.2.9 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | etcd-operator | version_not_evaluable | 0.1.1 | 0.6.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | fn | version_not_evaluable | 0.1.0 | 0.0.161 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | grafana-operator | baseline | 0.3.16 | master | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | hollowtrees | version_not_evaluable | 0.0.6 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | hollowtrees-with-ps | error_template | 0.2.1 | 0.1.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | ht-aws-asg-action-plugin | version_not_evaluable | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | ht-k8s-action-plugin | version_not_evaluable | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | imagepullsecrets | baseline | 0.3.7 | 0.3.7 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | ingressauthgenerator | baseline | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | instance-termination-handler | baseline | 0.1.3 | 0.1.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | integrated-service-operator | baseline | 0.5.0 | v0.5.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | istio | empty_no_object | 1.0.5 | 1.0.5 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | istio-operator | baseline | 2.0.19 | v2.15.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | istio-release-operator | baseline | 0.1.1 | 0.1.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | jwt-to-rbac | baseline | 0.6.7 | 0.6.6 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | kafka | version_not_evaluable | 0.3.3 | 2.0.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | kafka-operator | baseline | 0.22.0-rc.1 | v0.22.0-rc.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | keel | version_not_evaluable | 0.7.2 | 0.12.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | kube-metrics-adapter | baseline | 0.1.3 | 0.1.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | kubefed | baseline | 0.3.1-banzai.1 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | kubeless | version_not_evaluable | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | kubernetes-dashboard | baseline | 0.9.2 | 1.10.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | log-generator | baseline | 0.1.20 | 0.3.21 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | log-socket | baseline | 0.1.2 | 0.0.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | logging-demo | baseline | 3.17.9 | 3.17.9 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | logging-operator | baseline | 3.17.9 | 3.17.9 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | logging-operator-fluent | no_pod_object_but_crd | 1.0.1 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | logging-operator-logging | no_pod_object_but_crd | 3.17.9 | 3.17.9 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | loki | baseline | 0.17.4 | v1.3.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | metrics-server | baseline | 0.0.8 | 0.3.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | mysql-operator | version_not_evaluable | 0.1.0 | 0.2.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | nginx-logging-cw-demo | baseline | 2.5.0 | 2.5.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | nginx-logging-demo | empty_no_object | 2.5.0 | 2.5.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | nginx-logging-es-demo | baseline | 2.5.0 | 2.5.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | nginx-logging-kafka-demo | baseline | 2.5.0 | 2.5.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | nginx-logging-loki-demo | baseline | 2.5.0 | 2.5.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | nodejs | baseline | 0.1.1 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | nodepool-labels-operator | baseline | 0.2.7 | v0.2.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | one-eye | baseline | 0.1.8 | 0.3.4 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pipeline | baseline | 1.4.5 | 0.81.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pipeline-cluster-ingress | baseline | 0.0.10 | 1.7.20 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pipeline-cp-monitor | version_not_evaluable | 0.0.3 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pipeline-enterprise | baseline | 0.22.1 | 0.22.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pipeline-logs | no_pod_object_but_crd | 0.1.0 | 1.16.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pipeline-ui | baseline | 1.2.0 | 0.28.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pomerium | baseline | 1.0.6 | 0.0.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | prometheus | version_not_evaluable | 7.3.4-thanos.4 | 2.4.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | prometheus-mysql-exporter | version_not_evaluable | 0.2.4 | v0.11.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | prometheus-operator-standalone | baseline | 13.3.1 | 0.60.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | pvc-operator | baseline | 0.0.11 | 0.0.6 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | satellite | baseline | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | slackin | version_not_evaluable | 0.1.0 | 0.13.2 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | sonarqube | baseline | 0.8.1 | 6.7.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spark | no_pod_object | 0.0.20 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spark-hs | version_not_evaluable | 0.2.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spark-rss | baseline | 0.0.6 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spark-shuffle | privileged | 0.0.5 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spot-config-webhook | baseline | 0.1.6 | 0.1.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spot-price-exporter | baseline | 0.1.1 | 0.0.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spot-recommender | baseline | 0.0.4 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spot-scheduler | baseline | 0.1.2 | 1.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spot-termination-exporter | privileged | 0.0.11 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spot-termination-handler | baseline | 0.0.5 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | spring-boot | baseline | 0.0.5 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | supertubes | baseline | 1.2.0-dev.6 | v1.2.0-dev.6 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | supertubes-control-plane | baseline | 1.1.0 | v1.1.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | telescopes | baseline | 0.2.1 | 0.5.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | thanos | baseline | 0.4.6 | 0.17.1 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | thanos-operator | baseline | 0.3.7 | 0.3.7 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | tidb | version_not_evaluable | 0.0.2 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | traefik | baseline | 1.75.1 | 1.7.12 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | turbonomic-importer | baseline | 0.1.8 | 0.1.7 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | uistio | baseline | 0.0.12 | 0.3.10 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | vault | privileged | 1.16.0 | 1.16.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | vault-operator | baseline | 1.16.1 | 1.16.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | vault-secrets-webhook | baseline | 1.16.0 | 1.16.0 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | velero | baseline | 2.23.6-bc.2 | 1.6.3 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | zeppelin | baseline | 0.0.20 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | zeppelin-spark | version_not_evaluable | 0.0.25 |  | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | zetcd | version_not_evaluable | 0.1.2 | 0.0.4 | https://kubernetes-charts.banzaicloud.com |
-| banzaicloud-stable | zookeeper-operator | baseline | 0.3.0 | 0.2.8-rc0 | https://kubernetes-charts.banzaicloud.com |
-| barracuda-cga-helm-charts | cga-directory-connector | baseline | 1.0.1 | 1.3.23 | https://barracuda-cloudgen-access.github.io/helm-charts/ |
-| barracuda-cga-helm-charts | cga-proxy | baseline | 0.2.9 |  | https://barracuda-cloudgen-access.github.io/helm-charts/ |
-| base-charts | demo-spring | baseline | 0.1.0 | 1.1.0 | https://ofornes-basecat.github.io/charts/ |
-| basictechno | kubeslice-controller | empty_no_object | 0.2.0 | 0.1.0 | https://basic-techno.github.io/helm-charts/ |
-| batnoter | batnoter | empty_no_object | 0.1.2 | 1.0.0 | https://batnoter.github.io/batnoter-charts |
-| bbb-charts | bbb | error_download | 0.1.0 | 2.9.0 | https://bbb-charts.storage.googleapis.com |
-| bbriggs | bitbot | baseline | 0.1.2 | 1.3.0 | https://bbriggs.github.io/charts |
-| bbriggs | flexo | baseline | 0.1.0 | v0.1.6 | https://bbriggs.github.io/charts |
-| bbriggs | flexo-web | baseline | 0.1.0 | v0.1.0 | https://bbriggs.github.io/charts |
-| bbriggs | fusionauth | error_template | 0.4.2 | 1.16.1 | https://bbriggs.github.io/charts |
-| bbriggs | jupyterhub | error_template | 0.0.3 | 1.2.0b1 | https://bbriggs.github.io/charts |
-| bbriggs | oragono | baseline | 0.1.3 | v2.5.1 | https://bbriggs.github.io/charts |
-| bbriggs | postgres-operator | baseline | 1.7.1 | 1.7.1 | https://bbriggs.github.io/charts |
-| bbriggs | quotes | baseline | 0.1.1 | latest | https://bbriggs.github.io/charts |
-| bbriggs | splashpage | baseline | 0.1.0 | v0.1.3 | https://bbriggs.github.io/charts |
-| bbriggs | static-site | baseline | 0.3.1 | latest | https://bbriggs.github.io/charts |
-| beastob | foldingathome | baseline | 0.1.0 | 7.6.21 | https://beastob.github.io/helm-charts |
-| beastob | url-shortener | baseline | 1.0.2 | 1.0.2 | https://beastob.github.io/helm-charts |
-| beeinventor | chirpstack | baseline | 0.1.7 | 3 | https://beeinventor.github.io/charts |
-| beeinventor | livekit-server | privileged | 1.0.0 | v1.0.0 | https://beeinventor.github.io/charts |
-| beeinventor | nsq | baseline | 1.2.2 | 1.2.1 | https://beeinventor.github.io/charts |
-| beeinventor | opendistro-es | privileged | 1.15.1 | 1.13.3 | https://beeinventor.github.io/charts |
-| beezlabs | cloudflare-tunnel-operator | baseline | 0.1.0 | 0.1.0 | https://charts.beezlabs.app/ |
-| begrafenisplanner | begrafenisplanner | empty_no_object | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/begrafenisplanner/master/api/helm/ |
-| begrafenisservice | begrafenisservice | baseline | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/begrafenisservice/master/api/helm/ |
-| benc-uk | webapp | baseline | 1.4.3 | 1.0.0 | https://benc-uk.github.io/helm-charts |
-| benjlevesque | fider | error_template | 0.1.0 | 0.19.1 | https://blevesque-helm-charts.s3.fr-par.scw.cloud |
-| bentoml | yatai | baseline | 1.0.0 | 1.0.0 | https://bentoml.github.io/helm-charts |
-| bentoml | yatai-deployment | baseline | 1.0.0 | 1.0.0 | https://bentoml.github.io/helm-charts |
-| berichtservice | berichtservice | baseline | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/berichtservice/master/api/helm/ |
-| berrutig-pages | pages | privileged | 1.0.0 | 1.0 | https://berrutig.github.io |
-| beryju-org | guacamole | baseline | 1.3.3 | 1.4.0 | https://charts.beryju.org |
-| beryju-org | trident-operator | baseline | 21.10.0 | 21.10.0 | https://charts.beryju.org |
-| bigdata-charts | dolphinscheduler | baseline | 2.0.0 | 3.0.0 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | hadoop | baseline | 1.0.1 | 3.2.3 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | hdfs | empty_no_object | 1.0.1 | 3.2.2 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | hive | baseline | 0.1.8 | 3.1.3 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | hive-metastore | empty_no_object | 0.1.4 | 3.1.3 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | hue | baseline | 1.0.4 | 4.10.0 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | openldap | empty_no_object | 2.0.4 | 2.4.47 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | spark | empty_no_object | 6.1.10 | 3.2.1 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| bigdata-charts | superset | empty_no_object | 0.6.3 | 1.0 | https://yutianaiqingtian.github.io/bigdata-platfrom-charts |
-| biodatageeks | pysequila | baseline | 0.1.3 | 0.1.6 | https://biodatageeks.github.io/charts/ |
-| bitcoind | bitcoind | baseline | 1.1.3 | 22 | https://chrisrun.github.io/bitcoind-chart/ |
-| bitnami-aks | airflow | baseline | 14.0.2 | 2.4.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | apache | baseline | 9.2.6 | 2.4.54 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | argo-cd | baseline | 4.2.0 | 2.4.12 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | argo-workflows | baseline | 4.0.1 | 3.4.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | aspnet-core | baseline | 3.5.5 | 6.0.10 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | cassandra | baseline | 9.7.3 | 4.0.7 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | cert-manager | baseline | 0.8.5 | 1.9.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | chart2dcf69539acb472b8e7d13dbeaa7fdf0 | baseline | 1.1.1 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | chart773b1d00127e49479a89561d6c380240 | baseline | 1.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | chart8b1ec64e5e1140b88374eb27b4bf71ef | baseline | 1.1.1 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | chartname-57aadaea-84b4-4fff-8131-bec3478201f5 | empty_no_object | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | clickhouse | baseline | 1.0.3 | 22.9.4 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | common | empty_no_object | 2.1.2 | 2.1.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | concourse | baseline | 2.0.0 | 7.8.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | consul | baseline | 10.9.3 | 1.13.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | containerapp_25547919-9148-4438-8f70-fa6d9936761e | baseline | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | containerapp_6737c010-0227-4a27-b92e-c027d0d68d78 | baseline | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | containerapp_6b0c08e8-425e-4deb-a723-248a40817f7b | baseline | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | containerapp_7139d4af-47af-4f5f-9e67-c6832efe8219 | baseline | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | containerapp_7d9aa551-fb5b-4d13-9915-7c1c9d58ba55 | baseline | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | containerapp_b663ffe8-eb7d-40d2-a9da-43e28fedae82 | baseline | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | containerapp_f36d16f6-a438-48be-9207-c1e2baa980f9 | baseline | 0.1.0 | 1.16.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | contour | privileged | 10.0.0 | 1.23.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | contour-operator | baseline | 3.0.0 | 1.23.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | dataplatform-bp1 | baseline | 12.0.0 | 1.0.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | dataplatform-bp2 | privileged | 12.0.2 | 1.0.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | discourse | baseline | 9.0.0 | 2.8.9 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | dokuwiki | baseline | 13.1.7 | 20220731.1.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | drupal | baseline | 12.5.9 | 9.4.8 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | ejbca | baseline | 6.3.6 | 7.9.0-2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | elasticsearch | privileged | 19.5.0 | 8.5.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | etcd | baseline | 8.5.8 | 3.5.5 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | external-dns | baseline | 6.11.3 | 0.13.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | fluentd | privileged | 5.5.7 | 1.15.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | geode | baseline | 1.1.6 | 1.15.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | ghost | baseline | 19.1.27 | 5.22.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | grafana | baseline | 8.2.15 | 9.2.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | grafana-loki | privileged | 2.4.8 | 2.6.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | grafana-operator | baseline | 2.7.9 | 4.7.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | grafana-tempo | baseline | 1.4.4 | 1.5.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | haproxy | baseline | 0.6.2 | 2.6.6 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | harbor | baseline | 16.0.0 | 2.6.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | influxdb | baseline | 5.4.9 | 2.4.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | jasperreports | baseline | 14.3.4 | 8.1.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | jenkins | baseline | 11.0.7 | 2.361.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | joomla | baseline | 13.3.8 | 4.2.4 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | jupyterhub | baseline | 3.0.1 | 3.0.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kafka | baseline | 19.0.2 | 3.3.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | keycloak | baseline | 12.1.1 | 19.0.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kibana | no_pod_object | 10.2.7 | 8.5.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kong | baseline | 7.1.3 | 3.0.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kube-prometheus | privileged | 8.1.11 | 0.60.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kube-state-metrics | baseline | 3.2.4 | 2.6.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kubeapps | baseline | 10.3.5 | 2.5.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kubernetes-event-exporter | baseline | 2.1.1 | 1.0.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | kubewatch | baseline | 3.3.1 | 0.1.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | logstash | baseline | 5.1.6 | 8.5.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | magento | privileged | 21.1.9 | 2.4.5-p1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | mariadb | baseline | 11.3.3 | 10.6.10 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | mariadb-galera | baseline | 7.4.8 | 10.6.11 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | matomo | baseline | 0.2.13 | 4.12.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | mediawiki | baseline | 14.3.7 | 1.38.4 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | memcached | baseline | 6.3.0 | 1.6.17 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | metallb | privileged | 2.0.3 | 0.9.5 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | metrics-server | baseline | 6.2.3 | 0.6.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | minio | baseline | 11.10.13 | 2022.10.29 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | mongodb | baseline | 13.4.1 | 6.0.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | mongodb-sharded | baseline | 6.1.11 | 6.0.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | moodle | baseline | 14.3.1 | 4.0.4 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | mxnet | no_pod_object_but_crd | 3.1.6 | 1.9.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | mysql | baseline | 9.4.2 | 8.0.31 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | nats | baseline | 7.4.10 | 2.9.4 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | nginx | baseline | 13.2.13 | 1.23.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | nginx-ingress-controller | baseline | 9.3.18 | 1.4.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | nginx-test | baseline | 5.2.4 | 1.17.10 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | node | baseline | 19.1.6 | 16.18.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | node-exporter | privileged | 3.2.3 | 1.4.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | oauth2-proxy | baseline | 3.4.0 | 7.4.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | odoo | baseline | 23.0.0 | 16.0.20221015 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | opencart | baseline | 13.0.3 | 4.0.1-1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | orangehrm | baseline | 11.0.1 | 4.9.0-0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | osclass | baseline | 14.2.6 | 8.0.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | owncloud | baseline | 12.2.6 | 10.11.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | parse | baseline | 19.1.9 | 5.3.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | phabricator | baseline | 11.0.26 | 2021.26.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | phpbb | baseline | 12.3.6 | 3.3.8 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | phpmyadmin | baseline | 10.3.5 | 5.2.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | pinniped | baseline | 0.4.1 | 0.20.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | postgresql | baseline | 12.0.0 | 15.0.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | postgresql-ha | baseline | 10.0.1 | 15.0.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | prestashop | baseline | 15.3.6 | 1.7.8-7 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | prometheus-operator | privileged | 0.29.3 | 0.41.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | pytorch | baseline | 2.5.8 | 1.13.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | rabbitmq | baseline | 11.1.1 | 3.11.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | rabbitmq-cluster-operator | baseline | 3.1.2 | 2.0.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | redis | baseline | 17.3.7 | 7.0.5 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | redis-cluster | baseline | 8.2.7 | 7.0.5 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | redmine | baseline | 20.3.8 | 5.0.3 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | schema-registry | baseline | 6.0.2 | 7.2.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | sealed-secrets | restricted | 1.1.9 | 0.19.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | solr | baseline | 6.3.0 | 9.0.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | sonarqube | privileged | 2.0.1 | 9.7.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | spark | baseline | 6.3.9 | 3.3.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | spring-cloud-dataflow | baseline | 14.0.1 | 2.9.6 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | suitecrm | baseline | 11.2.4 | 7.12.7 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | tensorflow-resnet | baseline | 3.6.6 | 2.10.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | testlink | baseline | 10.0.13 | 1.9.20 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | thanos | baseline | 11.5.8 | 0.28.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | tomcat | baseline | 10.4.9 | 10.1.1 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | wavefront | privileged | 4.2.5 | 1.12.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | wavefront-adapter-for-istio | empty_no_object | 2.0.5 | 0.1.5 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | wavefront-hpa-adapter | baseline | 1.3.5 | 0.9.9 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | wavefront-prometheus-storage-adapter | baseline | 2.1.5 | 1.0.5 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | wildfly | baseline | 13.5.6 | 26.1.2 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | wordpress | baseline | 15.2.13 | 6.1.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-aks | zookeeper | baseline | 10.2.4 | 3.8.0 | https://marketplace.azurecr.io/helm/v1/repo |
-| bitnami-labs | sealed-secrets | baseline | 2.7.0 | v0.19.1 | https://bitnami-labs.github.io/sealed-secrets/ |
-| bitnami | airflow | baseline | 14.0.3 | 2.4.2 | https://charts.bitnami.com/bitnami |
-| bitnami | apache | baseline | 9.2.7 | 2.4.54 | https://charts.bitnami.com/bitnami |
-| bitnami | argo-cd | baseline | 4.3.3 | 2.5.2 | https://charts.bitnami.com/bitnami |
-| bitnami | argo-workflows | baseline | 4.0.1 | 3.4.3 | https://charts.bitnami.com/bitnami |
-| bitnami | aspnet-core | baseline | 3.5.6 | 6.0.11 | https://charts.bitnami.com/bitnami |
-| bitnami | cassandra | baseline | 9.7.3 | 4.0.7 | https://charts.bitnami.com/bitnami |
-| bitnami | cert-manager | baseline | 0.8.7 | 1.10.0 | https://charts.bitnami.com/bitnami |
-| bitnami | clickhouse | baseline | 1.0.3 | 22.9.4 | https://charts.bitnami.com/bitnami |
-| bitnami | common | empty_no_object | 2.1.2 | 2.1.2 | https://charts.bitnami.com/bitnami |
-| bitnami | concourse | baseline | 2.0.1 | 7.8.3 | https://charts.bitnami.com/bitnami |
-| bitnami | consul | baseline | 10.9.3 | 1.13.3 | https://charts.bitnami.com/bitnami |
-| bitnami | contour | privileged | 10.0.0 | 1.23.0 | https://charts.bitnami.com/bitnami |
-| bitnami | contour-operator | baseline | 3.0.0 | 1.23.0 | https://charts.bitnami.com/bitnami |
-| bitnami | discourse | baseline | 9.0.0 | 2.8.9 | https://charts.bitnami.com/bitnami |
-| bitnami | dokuwiki | baseline | 13.1.8 | 20220731.1.0 | https://charts.bitnami.com/bitnami |
-| bitnami | drupal | baseline | 12.5.10 | 9.4.8 | https://charts.bitnami.com/bitnami |
-| bitnami | ejbca | baseline | 6.3.8 | 7.10.0-2 | https://charts.bitnami.com/bitnami |
-| bitnami | elasticsearch | privileged | 19.5.0 | 8.5.0 | https://charts.bitnami.com/bitnami |
-| bitnami | etcd | baseline | 8.5.8 | 3.5.5 | https://charts.bitnami.com/bitnami |
-| bitnami | external-dns | baseline | 6.11.3 | 0.13.1 | https://charts.bitnami.com/bitnami |
-| bitnami | fluentd | privileged | 5.5.7 | 1.15.3 | https://charts.bitnami.com/bitnami |
-| bitnami | geode | baseline | 1.1.6 | 1.15.1 | https://charts.bitnami.com/bitnami |
-| bitnami | ghost | baseline | 19.1.36 | 5.22.9 | https://charts.bitnami.com/bitnami |
-| bitnami | grafana | baseline | 8.2.17 | 9.2.4 | https://charts.bitnami.com/bitnami |
-| bitnami | grafana-loki | privileged | 2.4.9 | 2.6.1 | https://charts.bitnami.com/bitnami |
-| bitnami | grafana-operator | baseline | 2.7.9 | 4.7.1 | https://charts.bitnami.com/bitnami |
-| bitnami | grafana-tempo | baseline | 1.4.4 | 1.5.0 | https://charts.bitnami.com/bitnami |
-| bitnami | haproxy | baseline | 0.6.2 | 2.6.6 | https://charts.bitnami.com/bitnami |
-| bitnami | haproxy-intel | baseline | 0.2.7 | 2.6.6 | https://charts.bitnami.com/bitnami |
-| bitnami | harbor | baseline | 16.0.0 | 2.6.1 | https://charts.bitnami.com/bitnami |
-| bitnami | influxdb | baseline | 5.4.10 | 2.5.0 | https://charts.bitnami.com/bitnami |
-| bitnami | jasperreports | baseline | 14.3.5 | 8.1.0 | https://charts.bitnami.com/bitnami |
-| bitnami | jenkins | baseline | 11.0.8 | 2.361.3 | https://charts.bitnami.com/bitnami |
-| bitnami | joomla | baseline | 13.3.10 | 4.2.5 | https://charts.bitnami.com/bitnami |
-| bitnami | jupyterhub | baseline | 3.0.1 | 3.0.0 | https://charts.bitnami.com/bitnami |
-| bitnami | kafka | baseline | 19.1.3 | 3.3.1 | https://charts.bitnami.com/bitnami |
-| bitnami | keycloak | baseline | 12.1.1 | 19.0.3 | https://charts.bitnami.com/bitnami |
-| bitnami | kiam | privileged | 1.1.5 | 4.2.0 | https://charts.bitnami.com/bitnami |
-| bitnami | kibana | no_pod_object | 10.2.7 | 8.5.0 | https://charts.bitnami.com/bitnami |
-| bitnami | kong | baseline | 8.0.11 | 3.0.1 | https://charts.bitnami.com/bitnami |
-| bitnami | kube-prometheus | privileged | 8.1.12 | 0.60.1 | https://charts.bitnami.com/bitnami |
-| bitnami | kube-state-metrics | baseline | 3.2.5 | 2.6.0 | https://charts.bitnami.com/bitnami |
-| bitnami | kubeapps | baseline | 12.0.0 | 2.6.0 | https://charts.bitnami.com/bitnami |
-| bitnami | kubernetes-event-exporter | baseline | 2.1.1 | 1.0.0 | https://charts.bitnami.com/bitnami |
-| bitnami | logstash | baseline | 5.1.6 | 8.5.0 | https://charts.bitnami.com/bitnami |
-| bitnami | magento | privileged | 21.1.9 | 2.4.5-p1 | https://charts.bitnami.com/bitnami |
-| bitnami | mariadb | baseline | 11.3.5 | 10.6.11 | https://charts.bitnami.com/bitnami |
-| bitnami | mariadb-galera | baseline | 7.4.8 | 10.6.11 | https://charts.bitnami.com/bitnami |
-| bitnami | matomo | baseline | 0.2.13 | 4.12.3 | https://charts.bitnami.com/bitnami |
-| bitnami | mediawiki | baseline | 14.3.8 | 1.38.4 | https://charts.bitnami.com/bitnami |
-| bitnami | memcached | baseline | 6.3.1 | 1.6.17 | https://charts.bitnami.com/bitnami |
-| bitnami | metallb | privileged | 4.1.11 | 0.13.7 | https://charts.bitnami.com/bitnami |
-| bitnami | metrics-server | baseline | 6.2.3 | 0.6.1 | https://charts.bitnami.com/bitnami |
-| bitnami | minio | baseline | 11.10.16 | 2022.11.11 | https://charts.bitnami.com/bitnami |
-| bitnami | mongodb | baseline | 13.4.1 | 6.0.2 | https://charts.bitnami.com/bitnami |
-| bitnami | mongodb-sharded | baseline | 6.1.11 | 6.0.2 | https://charts.bitnami.com/bitnami |
-| bitnami | moodle | baseline | 14.3.1 | 4.0.4 | https://charts.bitnami.com/bitnami |
-| bitnami | mxnet | no_pod_object_but_crd | 3.1.6 | 1.9.1 | https://charts.bitnami.com/bitnami |
-| bitnami | mysql | baseline | 9.4.3 | 8.0.31 | https://charts.bitnami.com/bitnami |
-| bitnami | nats | baseline | 7.4.12 | 2.9.6 | https://charts.bitnami.com/bitnami |
-| bitnami | nginx | baseline | 13.2.13 | 1.23.2 | https://charts.bitnami.com/bitnami |
-| bitnami | nginx-ingress-controller | baseline | 9.3.21 | 1.5.1 | https://charts.bitnami.com/bitnami |
-| bitnami | nginx-intel | baseline | 2.1.11 | 0.4.8 | https://charts.bitnami.com/bitnami |
-| bitnami | node-exporter | privileged | 3.2.3 | 1.4.0 | https://charts.bitnami.com/bitnami |
-| bitnami | oauth2-proxy | baseline | 3.4.0 | 7.4.0 | https://charts.bitnami.com/bitnami |
-| bitnami | odoo | baseline | 23.0.1 | 16.0.20221015 | https://charts.bitnami.com/bitnami |
-| bitnami | opencart | baseline | 13.0.4 | 4.0.1-1 | https://charts.bitnami.com/bitnami |
-| bitnami | osclass | baseline | 14.2.7 | 8.0.2 | https://charts.bitnami.com/bitnami |
-| bitnami | owncloud | baseline | 12.2.6 | 10.11.0 | https://charts.bitnami.com/bitnami |
-| bitnami | parse | baseline | 19.1.10 | 5.3.3 | https://charts.bitnami.com/bitnami |
-| bitnami | phpbb | baseline | 12.3.7 | 3.3.8 | https://charts.bitnami.com/bitnami |
-| bitnami | phpmyadmin | baseline | 10.3.6 | 5.2.0 | https://charts.bitnami.com/bitnami |
-| bitnami | pinniped | baseline | 0.4.4 | 0.20.0 | https://charts.bitnami.com/bitnami |
-| bitnami | postgresql | baseline | 12.1.2 | 15.1.0 | https://charts.bitnami.com/bitnami |
-| bitnami | postgresql-ha | baseline | 10.0.3 | 15.1.0 | https://charts.bitnami.com/bitnami |
-| bitnami | prestashop | baseline | 16.0.0 | 8.0.0 | https://charts.bitnami.com/bitnami |
-| bitnami | pytorch | baseline | 2.5.9 | 1.13.0 | https://charts.bitnami.com/bitnami |
-| bitnami | rabbitmq | baseline | 11.1.2 | 3.11.3 | https://charts.bitnami.com/bitnami |
-| bitnami | rabbitmq-cluster-operator | baseline | 3.1.2 | 2.0.0 | https://charts.bitnami.com/bitnami |
-| bitnami | redis | baseline | 17.3.9 | 7.0.5 | https://charts.bitnami.com/bitnami |
-| bitnami | redis-cluster | baseline | 8.2.7 | 7.0.5 | https://charts.bitnami.com/bitnami |
-| bitnami | redmine | baseline | 21.0.1 | 5.0.3 | https://charts.bitnami.com/bitnami |
-| bitnami | schema-registry | baseline | 6.0.2 | 7.2.2 | https://charts.bitnami.com/bitnami |
-| bitnami | sealed-secrets | restricted | 1.1.9 | 0.19.1 | https://charts.bitnami.com/bitnami |
-| bitnami | solr | baseline | 6.3.0 | 9.0.0 | https://charts.bitnami.com/bitnami |
-| bitnami | sonarqube | privileged | 2.0.1 | 9.7.1 | https://charts.bitnami.com/bitnami |
-| bitnami | spark | baseline | 6.3.10 | 3.3.1 | https://charts.bitnami.com/bitnami |
-| bitnami | spring-cloud-dataflow | baseline | 14.0.1 | 2.9.6 | https://charts.bitnami.com/bitnami |
-| bitnami | suitecrm | baseline | 11.2.5 | 7.12.7 | https://charts.bitnami.com/bitnami |
-| bitnami | tensorflow-resnet | baseline | 3.6.7 | 2.10.0 | https://charts.bitnami.com/bitnami |
-| bitnami | thanos | baseline | 11.5.9 | 0.28.1 | https://charts.bitnami.com/bitnami |
-| bitnami | tomcat | baseline | 10.5.2 | 10.1.1 | https://charts.bitnami.com/bitnami |
-| bitnami | wavefront | privileged | 4.2.6 | 1.12.0 | https://charts.bitnami.com/bitnami |
-| bitnami | wavefront-adapter-for-istio | empty_no_object | 2.0.6 | 0.1.5 | https://charts.bitnami.com/bitnami |
-| bitnami | wavefront-hpa-adapter | baseline | 1.3.5 | 0.9.9 | https://charts.bitnami.com/bitnami |
-| bitnami | wavefront-prometheus-storage-adapter | baseline | 2.1.5 | 1.0.5 | https://charts.bitnami.com/bitnami |
-| bitnami | wildfly | baseline | 13.5.7 | 26.1.2 | https://charts.bitnami.com/bitnami |
-| bitnami | wordpress | baseline | 15.2.14 | 6.1.0 | https://charts.bitnami.com/bitnami |
-| bitnami | wordpress-intel | baseline | 2.1.20 | 6.1.0 | https://charts.bitnami.com/bitnami |
-| bitnami | zookeeper | baseline | 10.2.4 | 3.8.0 | https://charts.bitnami.com/bitnami |
-| bitpoke | bitpoke | baseline | 1.8.10 | 1.8.10 | https://helm-charts.bitpoke.io |
-| bitpoke | mysql-cluster | error_template | 0.6.2 | v0.6.2 | https://helm-charts.bitpoke.io |
-| bitpoke | mysql-operator | baseline | 0.6.2 | v0.6.2 | https://helm-charts.bitpoke.io |
-| bitpoke | stack | baseline | 0.12.3 | v0.12.3 | https://helm-charts.bitpoke.io |
-| bitpoke | wordpress-operator | baseline | 0.12.1 | v0.12.1 | https://helm-charts.bitpoke.io |
-| bitpoke | wordpress-site | baseline | 0.12.3 | v0.12.3 | https://helm-charts.bitpoke.io |
-| blackfire | blackfire | error_template | 0.7.1 | 2.10.0 | https://warxcell.github.io/helm-chart/ |
-| blackfire | selenium | error_template | 2.0.8 | 4.0.0 | https://warxcell.github.io/helm-chart/ |
-| blackhorseya | godutch | baseline | 0.1.0 | 1.0.0 | https://blackhorseya.github.io/helm-charts/ |
-| blackhorseya | irent-backend | baseline | 0.1.0 | 1.0.0 | https://blackhorseya.github.io/helm-charts/ |
-| blackhorseya | irent-frontend | baseline | 0.1.0 | 1.0.0 | https://blackhorseya.github.io/helm-charts/ |
-| blackhorseya | lobster | baseline | 0.1.0 | 1.0.0 | https://blackhorseya.github.io/helm-charts/ |
-| blackhorseya | pilemall | baseline | 0.1.0 | 1.0.0 | https://blackhorseya.github.io/helm-charts/ |
-| blackhorseya | todo-app | baseline | 0.1.0 | 1.0.0 | https://blackhorseya.github.io/helm-charts/ |
-| blackhorseya | user-app | baseline | 0.1.0 | 1.0.0 | https://blackhorseya.github.io/helm-charts/ |
-| blazor-demo | helm-tpl-test-blazor-demo | error_download | 1.0.2 | 1.0.2 | https://ma-hua.github.io/helm-chart-apps/ |
-| bnkr | bnkr | baseline | 1.0.5 | 2.1.0 | https://charts.bnkr.is |
-| bokoboshahni | eve-member-mailer | baseline | 1.0.0 | v1.0.0 | https://charts.bokobo.space |
-| bokoboshahni | eve-rails-application | baseline | 1.3.4 | v1.0.0 | https://charts.bokobo.space |
-| bookinfo | istio-bookinfo | baseline | 1.2.2 | 1.3 | https://kallarajesh.github.io/helmrepo/charts |
-| boord | baaza | baseline | 0.1.5 | 0.1.5 | https://charts.boord.io |
-| boord | watcher | baseline | 0.4.4 | 0.4.4 | https://charts.boord.io |
-| bootc | netbox | baseline | 4.1.1 | v3.2.8 | https://charts.boo.tc |
-| bootc | puppetboard | baseline | 0.1.4 | 1.1.0 | https://charts.boo.tc |
-| bottlerocket-brupop | bottlerocket-brupop | error_download | 1.0.3 | 0.2.2 | oci://public.ecr.aws/sphmedia/helm/bottlerocket-brupop |
-| bottlerocket-update-operator | bottlerocket-brupop | privileged | 0.4.5 | 1.16.1 | https://franklinpashok.github.io/bottlerocket-update-operator/ |
-| bottlerocket-update-operator | bottlerocket-update-operator | privileged | 0.3.0 | 1.16.1 | https://franklinpashok.github.io/bottlerocket-update-operator/ |
-| boundary-chart | boundary | baseline | 0.2.5 | 0.7.1 | https://janikgar.github.io/boundary-chart |
-| boundary-softsci | boundary-softsci | baseline | 0.2.4 | 0.7.1 | https://wbj3rd.github.io/boundary/ |
-| braedon | prometheus-es-exporter | error_template | 0.2.0 |  | https://braedon.github.io/helm |
-| braedon | prometheus-mysql-exporter | error_template | 0.2.0 |  | https://braedon.github.io/helm |
-| brannon | folding-at-home | baseline | 0.1.1 | 7.5.1 | https://helm.brannon.online |
-| brannon | mprime | baseline | 0.3.1 | p95v303b6 | https://helm.brannon.online |
-| brannon | xmrig | baseline | 0.1.1 | 5.8.2 | https://helm.brannon.online |
-| brian-pages | pages | privileged | 1.0.0 | 1.0 | https://brianc08dll.github.io |
-| brixton-mayuribhavsar23-pages | pages | privileged | 1.0.0 | 1.0 | https://mayuribhavsar23.github.io/ |
-| brixton-pages | pages | privileged | 1.0.0 | 1.0 | https://rolianailor.github.io/ |
-| brpservice | brpservice | baseline | 1.1.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/brpservice/master/api/helm/ |
-| bryanalves | couchpotato | baseline | 0.3.0 | Varies | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | emby | baseline | 0.1.0 | 3.6.0.81 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | fluentd | version_not_evaluable | 0.1.0 | 1.2 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | generic-web | baseline | 0.2.0 | 1.13.12 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | honeywell-exporter | baseline | 0.1.1 | 1.0 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | ipmi-exporter | privileged | 0.1.1 | 2.2.0 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | jackett | baseline | 0.1.0 | 1.0 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | medusa | version_not_evaluable | 0.1.0 | master | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | mosquitto | baseline | 0.0.1 | 1.6.4 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | ombi | baseline | 0.4.0 | 3.0.4958-ls72 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | plex | baseline | 0.5.0 | 1.25.4.5487 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | registry-ui | baseline | 0.2.0 | 0.0.2 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | rtl-exporter | baseline | 0.0.1 | 0.0.1 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | rtorrent | baseline | 0.4.0 | 0.9.6 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | rtorrent-flood | baseline | 0.5.0 | 1.0.0 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | sickchill | baseline | 0.3.0 | master | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | sickrage | version_not_evaluable | 0.1.0 | master | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | smart-exporter | privileged | 0.2.2 | 0.2 | https://bryanalves.github.io/helm-charts/ |
-| bryanalves | tautulli | baseline | 0.1.0 | 2.1.26 | https://bryanalves.github.io/helm-charts/ |
-| btungut | azure-devops-agent | error_template | 1.0.6 | 2.204.0 | https://btungut.github.io |
-| btungut | fluentd-kube-elastic | error_template | 1.15.4 | 1.15-1-rev1 | https://btungut.github.io |
-| btungut | kubernetes-azure-keyvault-secret-operator | baseline | 0.0.6 | 0.0.6 | https://btungut.github.io |
-| buildkite-plugin-kubernetes | agent | baseline | 1.0.9 | @sha256:00ce639d5219418de740b1e39529b43bc6d8929cfb9e97de55335a53d642081d | https://muhlba91.github.io/kubernetes-buildkite-plugin |
-| buildkite-plugin-kubernetes | buildscaler | baseline | 1.0.5 | v2.2.0 | https://muhlba91.github.io/kubernetes-buildkite-plugin |
-| buildkite | agent | privileged | 0.6.0 | 3.25.0 | https://buildkite.github.io/charts |
-| busi-ads | category-microservice | baseline | 1.0.0 | 1.0 | https://deepakj6.github.io/ |
-| busi-ads | pages-microservice | empty_no_object | 1.0.0 | 1.0 | https://deepakj6.github.io/ |
-| business-central-for-sso | business-central-for-sso | error_download | 0.1.0 | 1.16.0 | https://ozielsdorff.github.io/business-central-sso-helm-chart/ |
-| business-partner-agent | bpa | baseline | 0.12.0 | 0.12.0 | https://labs.hyperledger.org/business-partner-agent-chart/ |
-| butlerci | butlerci | baseline | 0.1.0 | 0.1.0 | https://enriquetejeda.github.io/butlerci/helm-repo/ |
-| buttahtoast | csgo | baseline | 0.2.3 | 1.0.0 | https://buttahtoast.github.io/helm-charts/ |
-| buttahtoast | library | empty_no_object | 3.0.0-rc.3 | 0.1.0 | https://buttahtoast.github.io/helm-charts/ |
-| buttahtoast | tavern | baseline | 0.3.3 | 1.1.0 | https://buttahtoast.github.io/helm-charts/ |
-| bytebase | bytebase | baseline | 1.0.0 |  | https://bytebase.github.io/bytebase/ |
-| bytebot-chat | babbler | baseline | 0.1.1 | edge | https://bytebot-chat.github.io/charts |
-| bytebot-chat | bytebot-discord | baseline | 0.0.4 | 0.0.0 | https://bytebot-chat.github.io/charts |
-| bytebot-chat | bytebot-irc | baseline | 0.0.10 | 0.0.0 | https://bytebot-chat.github.io/charts |
-| bytebot-chat | bytebot-party-pack | baseline | 0.2.1 | edge | https://bytebot-chat.github.io/charts |
-| bytebot-chat | bytebot-tip-jar | baseline | 0.1.1 | 0.1.1 | https://bytebot-chat.github.io/charts |
-| bytebuilders | csi-vault-community | no_pod_object_but_crd | 2022.9.22 | v2022.09.22 | https://bundles.byte.builders/stable/ |
-| bytebuilders | kubedb-community | no_pod_object_but_crd | 2022.10.18 | v2022.10.18 | https://bundles.byte.builders/stable/ |
-| bytebuilders | kubedb-enterprise | no_pod_object_but_crd | 2022.10.18 | v2022.10.18 | https://bundles.byte.builders/stable/ |
-| bytebuilders | kubeform-community | no_pod_object_but_crd | 2022.5.11 | v2022.05.11 | https://bundles.byte.builders/stable/ |
-| bytebuilders | stash-community | no_pod_object_but_crd | 2022.9.29 | v2022.09.29 | https://bundles.byte.builders/stable/ |
-| bytebuilders | stash-elasticsearch-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 | https://bundles.byte.builders/stable/ |
-| bytebuilders | stash-enterprise | no_pod_object_but_crd | 2022.9.29 | v2022.09.29 | https://bundles.byte.builders/stable/ |
-| bytebuilders | stash-mongodb-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 | https://bundles.byte.builders/stable/ |
-| bytebuilders | stash-mysql-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 | https://bundles.byte.builders/stable/ |
-| bytebuilders | stash-percona-xtradb-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 | https://bundles.byte.builders/stable/ |
-| bytebuilders | stash-postgres-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 | https://bundles.byte.builders/stable/ |
-| bytebuilders | vault-operator-community | no_pod_object_but_crd | 2022.9.22 | v2022.09.22 | https://bundles.byte.builders/stable/ |
-| bytectl | kratos | baseline | 0.1.0 | 1.16.0 | https://bytectl.github.io/helm-charts |
-| bytectl | nacos | baseline | 0.1.6 | 1.0 | https://bytectl.github.io/helm-charts |
+| repo | chart | level | chart version | app version |
+|------|------|------|------|------|
+| [b3o](https://helm.b3o.io) | generic-app | error_download | 0.1.6 |  |
+| [backube-helm-charts](https://backube.github.io/helm-charts/) | scribe | baseline | 0.2.0 | 0.2.0 |
+| [backube-helm-charts](https://backube.github.io/helm-charts/) | snapscheduler | baseline | 3.2.0 | 3.2.0 |
+| [backube-helm-charts](https://backube.github.io/helm-charts/) | volsync | baseline | 0.5.0 | 0.5.0 |
+| [bakito](https://charts.bakito.net) | batch-job-controller | error_template | 1.4.4 | v1.4.4 |
+| [bakito](https://charts.bakito.net) | java-truststore-injection-webhook | baseline | 0.0.7 | v0.0.7 |
+| [bakito](https://charts.bakito.net) | k8s-event-logger-operator | baseline | 1.10.2 | v1.10.2 |
+| [bakito](https://charts.bakito.net) | sealed-secrets-web | baseline | 2.8.3 | v2.8.3 |
+| [bakito](https://charts.bakito.net) | vault-unsealer | baseline | 0.1.1 | v0.1.1 |
+| [bala-test-publish-helm](https://bsalunke.github.io/bala-test-publish-helm/) | bala-test-publish | no_pod_object | 1.1.0 | 1.16.0 |
+| [bala-test-publish-helm](https://bsalunke.github.io/bala-test-publish-helm/) | qualys-container-security | error_template | 1.0.0 | 1.18.0 |
+| [balance-registration](https://raw.githubusercontent.com/ConductionNL/balance-registration/master/api/helm/) | balance-registration | baseline | 0.1.0 | V1.0 |
+| [balihb-pvc-exporter](https://balihb.github.io/pvc-exporter/) | pvc-exporter | privileged | 0.2.4 | 0.2.4 |
+| [balle-petersen](https://charts.balle-petersen.org/) | db-backup | version_not_evaluable | 0.1.4 | 0.0.3 |
+| [balle-petersen](https://charts.balle-petersen.org/) | digitalocean-exporter | error_template | 0.1.1 | 0.5 |
+| [balle-petersen](https://charts.balle-petersen.org/) | float-exporter | error_template | 0.1.3 | v0.0.4 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | anchore-policy-validator | baseline | 0.8.3 | 0.5.6 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | argo | version_not_evaluable | 0.2.2 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | ark | no_pod_object_but_crd | 1.2.3 | 0.9.4 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | aws-autoscaling-exporter | baseline | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | aws-spot-price-history-poller | baseline | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | backyards | error_template | 1.3.3 | 1.3.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | backyards-demo | error_template | 1.0.2 | 0.1.2 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | backyards-operator | baseline | 1.5.5 | v1.5.5 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | backyards-sre | baseline | 0.1.0 | 1.3.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | backyards-sre-alert-exporter | baseline | 0.1.0 | 1.3.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | banzaicloud-docs | baseline | 0.1.2 | 1.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | cadence | baseline | 0.23.1 | 0.23.2 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | canary-operator | baseline | 0.1.16 | 0.1.14 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | cicd | version_not_evaluable | 2.0.5 | 0.8.8 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | clair | baseline | 0.1.5 | v2.0.9 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | cloudinfo | error_template | 0.8.5 | 0.17.2 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | cluster-autoscaler | no_pod_object | 0.12.4 | 1.13.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | crd-updater | empty_no_object | 0.0.3 | 0.0.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | dast-operator | baseline | 0.3.2 | 0.4.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | dex | baseline | 0.4.2 | 0.7.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | echo-server | baseline | 0.0.1 | 0.0.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | efs-provisioner | empty_no_object | 0.0.2 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | etcd | version_not_evaluable | 0.1.3 | 3.2.9 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | etcd-operator | version_not_evaluable | 0.1.1 | 0.6.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | fn | version_not_evaluable | 0.1.0 | 0.0.161 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | grafana-operator | baseline | 0.3.16 | master |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | hollowtrees | version_not_evaluable | 0.0.6 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | hollowtrees-with-ps | error_template | 0.2.1 | 0.1.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | ht-aws-asg-action-plugin | version_not_evaluable | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | ht-k8s-action-plugin | version_not_evaluable | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | imagepullsecrets | baseline | 0.3.7 | 0.3.7 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | ingressauthgenerator | baseline | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | instance-termination-handler | baseline | 0.1.3 | 0.1.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | integrated-service-operator | baseline | 0.5.0 | v0.5.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | istio | empty_no_object | 1.0.5 | 1.0.5 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | istio-operator | baseline | 2.0.19 | v2.15.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | istio-release-operator | baseline | 0.1.1 | 0.1.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | jwt-to-rbac | baseline | 0.6.7 | 0.6.6 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | kafka | version_not_evaluable | 0.3.3 | 2.0.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | kafka-operator | baseline | 0.22.0-rc.1 | v0.22.0-rc.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | keel | version_not_evaluable | 0.7.2 | 0.12.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | kube-metrics-adapter | baseline | 0.1.3 | 0.1.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | kubefed | baseline | 0.3.1-banzai.1 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | kubeless | version_not_evaluable | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | kubernetes-dashboard | baseline | 0.9.2 | 1.10.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | log-generator | baseline | 0.1.20 | 0.3.21 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | log-socket | baseline | 0.1.2 | 0.0.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | logging-demo | baseline | 3.17.9 | 3.17.9 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | logging-operator | baseline | 3.17.9 | 3.17.9 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | logging-operator-fluent | no_pod_object_but_crd | 1.0.1 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | logging-operator-logging | no_pod_object_but_crd | 3.17.9 | 3.17.9 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | loki | baseline | 0.17.4 | v1.3.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | metrics-server | baseline | 0.0.8 | 0.3.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | mysql-operator | version_not_evaluable | 0.1.0 | 0.2.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | nginx-logging-cw-demo | baseline | 2.5.0 | 2.5.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | nginx-logging-demo | empty_no_object | 2.5.0 | 2.5.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | nginx-logging-es-demo | baseline | 2.5.0 | 2.5.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | nginx-logging-kafka-demo | baseline | 2.5.0 | 2.5.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | nginx-logging-loki-demo | baseline | 2.5.0 | 2.5.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | nodejs | baseline | 0.1.1 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | nodepool-labels-operator | baseline | 0.2.7 | v0.2.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | one-eye | baseline | 0.1.8 | 0.3.4 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pipeline | baseline | 1.4.5 | 0.81.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pipeline-cluster-ingress | baseline | 0.0.10 | 1.7.20 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pipeline-cp-monitor | version_not_evaluable | 0.0.3 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pipeline-enterprise | baseline | 0.22.1 | 0.22.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pipeline-logs | no_pod_object_but_crd | 0.1.0 | 1.16.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pipeline-ui | baseline | 1.2.0 | 0.28.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pomerium | baseline | 1.0.6 | 0.0.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | prometheus | version_not_evaluable | 7.3.4-thanos.4 | 2.4.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | prometheus-mysql-exporter | version_not_evaluable | 0.2.4 | v0.11.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | prometheus-operator-standalone | baseline | 13.3.1 | 0.60.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | pvc-operator | baseline | 0.0.11 | 0.0.6 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | satellite | baseline | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | slackin | version_not_evaluable | 0.1.0 | 0.13.2 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | sonarqube | baseline | 0.8.1 | 6.7.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spark | no_pod_object | 0.0.20 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spark-hs | version_not_evaluable | 0.2.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spark-rss | baseline | 0.0.6 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spark-shuffle | privileged | 0.0.5 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spot-config-webhook | baseline | 0.1.6 | 0.1.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spot-price-exporter | baseline | 0.1.1 | 0.0.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spot-recommender | baseline | 0.0.4 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spot-scheduler | baseline | 0.1.2 | 1.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spot-termination-exporter | privileged | 0.0.11 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spot-termination-handler | baseline | 0.0.5 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | spring-boot | baseline | 0.0.5 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | supertubes | baseline | 1.2.0-dev.6 | v1.2.0-dev.6 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | supertubes-control-plane | baseline | 1.1.0 | v1.1.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | telescopes | baseline | 0.2.1 | 0.5.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | thanos | baseline | 0.4.6 | 0.17.1 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | thanos-operator | baseline | 0.3.7 | 0.3.7 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | tidb | version_not_evaluable | 0.0.2 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | traefik | baseline | 1.75.1 | 1.7.12 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | turbonomic-importer | baseline | 0.1.8 | 0.1.7 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | uistio | baseline | 0.0.12 | 0.3.10 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | vault | privileged | 1.16.0 | 1.16.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | vault-operator | baseline | 1.16.1 | 1.16.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | vault-secrets-webhook | baseline | 1.16.0 | 1.16.0 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | velero | baseline | 2.23.6-bc.2 | 1.6.3 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | zeppelin | baseline | 0.0.20 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | zeppelin-spark | version_not_evaluable | 0.0.25 |  |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | zetcd | version_not_evaluable | 0.1.2 | 0.0.4 |
+| [banzaicloud-stable](https://kubernetes-charts.banzaicloud.com) | zookeeper-operator | baseline | 0.3.0 | 0.2.8-rc0 |
+| [barracuda-cga-helm-charts](https://barracuda-cloudgen-access.github.io/helm-charts/) | cga-directory-connector | baseline | 1.0.1 | 1.3.23 |
+| [barracuda-cga-helm-charts](https://barracuda-cloudgen-access.github.io/helm-charts/) | cga-proxy | baseline | 0.2.9 |  |
+| [base-charts](https://ofornes-basecat.github.io/charts/) | demo-spring | baseline | 0.1.0 | 1.1.0 |
+| [basictechno](https://basic-techno.github.io/helm-charts/) | kubeslice-controller | empty_no_object | 0.2.0 | 0.1.0 |
+| [batnoter](https://batnoter.github.io/batnoter-charts) | batnoter | empty_no_object | 0.1.2 | 1.0.0 |
+| [bbb-charts](https://bbb-charts.storage.googleapis.com) | bbb | error_download | 0.1.0 | 2.9.0 |
+| [bbriggs](https://bbriggs.github.io/charts) | bitbot | baseline | 0.1.2 | 1.3.0 |
+| [bbriggs](https://bbriggs.github.io/charts) | flexo | baseline | 0.1.0 | v0.1.6 |
+| [bbriggs](https://bbriggs.github.io/charts) | flexo-web | baseline | 0.1.0 | v0.1.0 |
+| [bbriggs](https://bbriggs.github.io/charts) | fusionauth | error_template | 0.4.2 | 1.16.1 |
+| [bbriggs](https://bbriggs.github.io/charts) | jupyterhub | error_template | 0.0.3 | 1.2.0b1 |
+| [bbriggs](https://bbriggs.github.io/charts) | oragono | baseline | 0.1.3 | v2.5.1 |
+| [bbriggs](https://bbriggs.github.io/charts) | postgres-operator | baseline | 1.7.1 | 1.7.1 |
+| [bbriggs](https://bbriggs.github.io/charts) | quotes | baseline | 0.1.1 | latest |
+| [bbriggs](https://bbriggs.github.io/charts) | splashpage | baseline | 0.1.0 | v0.1.3 |
+| [bbriggs](https://bbriggs.github.io/charts) | static-site | baseline | 0.3.1 | latest |
+| [beastob](https://beastob.github.io/helm-charts) | foldingathome | baseline | 0.1.0 | 7.6.21 |
+| [beastob](https://beastob.github.io/helm-charts) | url-shortener | baseline | 1.0.2 | 1.0.2 |
+| [beeinventor](https://beeinventor.github.io/charts) | chirpstack | baseline | 0.1.7 | 3 |
+| [beeinventor](https://beeinventor.github.io/charts) | livekit-server | privileged | 1.0.0 | v1.0.0 |
+| [beeinventor](https://beeinventor.github.io/charts) | nsq | baseline | 1.2.2 | 1.2.1 |
+| [beeinventor](https://beeinventor.github.io/charts) | opendistro-es | privileged | 1.15.1 | 1.13.3 |
+| [beezlabs](https://charts.beezlabs.app/) | cloudflare-tunnel-operator | baseline | 0.1.0 | 0.1.0 |
+| [begrafenisplanner](https://raw.githubusercontent.com/ConductionNL/begrafenisplanner/master/api/helm/) | begrafenisplanner | empty_no_object | 1.0.0 | V1.0 |
+| [begrafenisservice](https://raw.githubusercontent.com/ConductionNL/begrafenisservice/master/api/helm/) | begrafenisservice | baseline | 1.0.0 | V1.0 |
+| [benc-uk](https://benc-uk.github.io/helm-charts) | webapp | baseline | 1.4.3 | 1.0.0 |
+| [benjlevesque](https://blevesque-helm-charts.s3.fr-par.scw.cloud) | fider | error_template | 0.1.0 | 0.19.1 |
+| [bentoml](https://bentoml.github.io/helm-charts) | yatai | baseline | 1.0.0 | 1.0.0 |
+| [bentoml](https://bentoml.github.io/helm-charts) | yatai-deployment | baseline | 1.0.0 | 1.0.0 |
+| [berichtservice](https://raw.githubusercontent.com/ConductionNL/berichtservice/master/api/helm/) | berichtservice | baseline | 1.0.0 | V1.0 |
+| [berrutig-pages](https://berrutig.github.io) | pages | privileged | 1.0.0 | 1.0 |
+| [beryju-org](https://charts.beryju.org) | guacamole | baseline | 1.3.3 | 1.4.0 |
+| [beryju-org](https://charts.beryju.org) | trident-operator | baseline | 21.10.0 | 21.10.0 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | dolphinscheduler | baseline | 2.0.0 | 3.0.0 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | hadoop | baseline | 1.0.1 | 3.2.3 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | hdfs | empty_no_object | 1.0.1 | 3.2.2 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | hive | baseline | 0.1.8 | 3.1.3 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | hive-metastore | empty_no_object | 0.1.4 | 3.1.3 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | hue | baseline | 1.0.4 | 4.10.0 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | openldap | empty_no_object | 2.0.4 | 2.4.47 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | spark | empty_no_object | 6.1.10 | 3.2.1 |
+| [bigdata-charts](https://yutianaiqingtian.github.io/bigdata-platfrom-charts) | superset | empty_no_object | 0.6.3 | 1.0 |
+| [biodatageeks](https://biodatageeks.github.io/charts/) | pysequila | baseline | 0.1.3 | 0.1.6 |
+| [bitcoind](https://chrisrun.github.io/bitcoind-chart/) | bitcoind | baseline | 1.1.3 | 22 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | airflow | baseline | 14.0.2 | 2.4.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | apache | baseline | 9.2.6 | 2.4.54 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | argo-cd | baseline | 4.2.0 | 2.4.12 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | argo-workflows | baseline | 4.0.1 | 3.4.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | aspnet-core | baseline | 3.5.5 | 6.0.10 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | cassandra | baseline | 9.7.3 | 4.0.7 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | cert-manager | baseline | 0.8.5 | 1.9.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | chart2dcf69539acb472b8e7d13dbeaa7fdf0 | baseline | 1.1.1 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | chart773b1d00127e49479a89561d6c380240 | baseline | 1.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | chart8b1ec64e5e1140b88374eb27b4bf71ef | baseline | 1.1.1 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | chartname-57aadaea-84b4-4fff-8131-bec3478201f5 | empty_no_object | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | clickhouse | baseline | 1.0.3 | 22.9.4 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | common | empty_no_object | 2.1.2 | 2.1.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | concourse | baseline | 2.0.0 | 7.8.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | consul | baseline | 10.9.3 | 1.13.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_25547919-9148-4438-8f70-fa6d9936761e | baseline | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_6737c010-0227-4a27-b92e-c027d0d68d78 | baseline | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_6b0c08e8-425e-4deb-a723-248a40817f7b | baseline | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_7139d4af-47af-4f5f-9e67-c6832efe8219 | baseline | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_7d9aa551-fb5b-4d13-9915-7c1c9d58ba55 | baseline | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_b663ffe8-eb7d-40d2-a9da-43e28fedae82 | baseline | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_f36d16f6-a438-48be-9207-c1e2baa980f9 | baseline | 0.1.0 | 1.16.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | contour | privileged | 10.0.0 | 1.23.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | contour-operator | baseline | 3.0.0 | 1.23.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | dataplatform-bp1 | baseline | 12.0.0 | 1.0.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | dataplatform-bp2 | privileged | 12.0.2 | 1.0.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | discourse | baseline | 9.0.0 | 2.8.9 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | dokuwiki | baseline | 13.1.7 | 20220731.1.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | drupal | baseline | 12.5.9 | 9.4.8 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | ejbca | baseline | 6.3.6 | 7.9.0-2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | elasticsearch | privileged | 19.5.0 | 8.5.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | etcd | baseline | 8.5.8 | 3.5.5 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | external-dns | baseline | 6.11.3 | 0.13.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | fluentd | privileged | 5.5.7 | 1.15.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | geode | baseline | 1.1.6 | 1.15.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | ghost | baseline | 19.1.27 | 5.22.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | grafana | baseline | 8.2.15 | 9.2.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | grafana-loki | privileged | 2.4.8 | 2.6.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | grafana-operator | baseline | 2.7.9 | 4.7.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | grafana-tempo | baseline | 1.4.4 | 1.5.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | haproxy | baseline | 0.6.2 | 2.6.6 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | harbor | baseline | 16.0.0 | 2.6.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | influxdb | baseline | 5.4.9 | 2.4.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | jasperreports | baseline | 14.3.4 | 8.1.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | jenkins | baseline | 11.0.7 | 2.361.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | joomla | baseline | 13.3.8 | 4.2.4 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | jupyterhub | baseline | 3.0.1 | 3.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kafka | baseline | 19.0.2 | 3.3.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | keycloak | baseline | 12.1.1 | 19.0.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kibana | no_pod_object | 10.2.7 | 8.5.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kong | baseline | 7.1.3 | 3.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kube-prometheus | privileged | 8.1.11 | 0.60.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kube-state-metrics | baseline | 3.2.4 | 2.6.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kubeapps | baseline | 10.3.5 | 2.5.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kubernetes-event-exporter | baseline | 2.1.1 | 1.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kubewatch | baseline | 3.3.1 | 0.1.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | logstash | baseline | 5.1.6 | 8.5.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | magento | privileged | 21.1.9 | 2.4.5-p1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mariadb | baseline | 11.3.3 | 10.6.10 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mariadb-galera | baseline | 7.4.8 | 10.6.11 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | matomo | baseline | 0.2.13 | 4.12.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mediawiki | baseline | 14.3.7 | 1.38.4 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | memcached | baseline | 6.3.0 | 1.6.17 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | metallb | privileged | 2.0.3 | 0.9.5 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | metrics-server | baseline | 6.2.3 | 0.6.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | minio | baseline | 11.10.13 | 2022.10.29 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mongodb | baseline | 13.4.1 | 6.0.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mongodb-sharded | baseline | 6.1.11 | 6.0.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | moodle | baseline | 14.3.1 | 4.0.4 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mxnet | no_pod_object_but_crd | 3.1.6 | 1.9.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mysql | baseline | 9.4.2 | 8.0.31 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | nats | baseline | 7.4.10 | 2.9.4 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | nginx | baseline | 13.2.13 | 1.23.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | nginx-ingress-controller | baseline | 9.3.18 | 1.4.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | nginx-test | baseline | 5.2.4 | 1.17.10 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | node | baseline | 19.1.6 | 16.18.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | node-exporter | privileged | 3.2.3 | 1.4.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | oauth2-proxy | baseline | 3.4.0 | 7.4.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | odoo | baseline | 23.0.0 | 16.0.20221015 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | opencart | baseline | 13.0.3 | 4.0.1-1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | orangehrm | baseline | 11.0.1 | 4.9.0-0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | osclass | baseline | 14.2.6 | 8.0.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | owncloud | baseline | 12.2.6 | 10.11.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | parse | baseline | 19.1.9 | 5.3.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | phabricator | baseline | 11.0.26 | 2021.26.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | phpbb | baseline | 12.3.6 | 3.3.8 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | phpmyadmin | baseline | 10.3.5 | 5.2.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | pinniped | baseline | 0.4.1 | 0.20.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | postgresql | baseline | 12.0.0 | 15.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | postgresql-ha | baseline | 10.0.1 | 15.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | prestashop | baseline | 15.3.6 | 1.7.8-7 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | prometheus-operator | privileged | 0.29.3 | 0.41.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | pytorch | baseline | 2.5.8 | 1.13.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | rabbitmq | baseline | 11.1.1 | 3.11.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | rabbitmq-cluster-operator | baseline | 3.1.2 | 2.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | redis | baseline | 17.3.7 | 7.0.5 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | redis-cluster | baseline | 8.2.7 | 7.0.5 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | redmine | baseline | 20.3.8 | 5.0.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | schema-registry | baseline | 6.0.2 | 7.2.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | sealed-secrets | restricted | 1.1.9 | 0.19.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | solr | baseline | 6.3.0 | 9.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | sonarqube | privileged | 2.0.1 | 9.7.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | spark | baseline | 6.3.9 | 3.3.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | spring-cloud-dataflow | baseline | 14.0.1 | 2.9.6 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | suitecrm | baseline | 11.2.4 | 7.12.7 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | tensorflow-resnet | baseline | 3.6.6 | 2.10.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | testlink | baseline | 10.0.13 | 1.9.20 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | thanos | baseline | 11.5.8 | 0.28.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | tomcat | baseline | 10.4.9 | 10.1.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront | privileged | 4.2.5 | 1.12.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront-adapter-for-istio | empty_no_object | 2.0.5 | 0.1.5 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront-hpa-adapter | baseline | 1.3.5 | 0.9.9 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront-prometheus-storage-adapter | baseline | 2.1.5 | 1.0.5 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wildfly | baseline | 13.5.6 | 26.1.2 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wordpress | baseline | 15.2.13 | 6.1.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | zookeeper | baseline | 10.2.4 | 3.8.0 |
+| [bitnami-labs](https://bitnami-labs.github.io/sealed-secrets/) | sealed-secrets | baseline | 2.7.0 | v0.19.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | airflow | baseline | 14.0.3 | 2.4.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | apache | baseline | 9.2.7 | 2.4.54 |
+| [bitnami](https://charts.bitnami.com/bitnami) | argo-cd | baseline | 4.3.3 | 2.5.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | argo-workflows | baseline | 4.0.1 | 3.4.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | aspnet-core | baseline | 3.5.6 | 6.0.11 |
+| [bitnami](https://charts.bitnami.com/bitnami) | cassandra | baseline | 9.7.3 | 4.0.7 |
+| [bitnami](https://charts.bitnami.com/bitnami) | cert-manager | baseline | 0.8.7 | 1.10.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | clickhouse | baseline | 1.0.3 | 22.9.4 |
+| [bitnami](https://charts.bitnami.com/bitnami) | common | empty_no_object | 2.1.2 | 2.1.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | concourse | baseline | 2.0.1 | 7.8.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | consul | baseline | 10.9.3 | 1.13.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | contour | privileged | 10.0.0 | 1.23.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | contour-operator | baseline | 3.0.0 | 1.23.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | discourse | baseline | 9.0.0 | 2.8.9 |
+| [bitnami](https://charts.bitnami.com/bitnami) | dokuwiki | baseline | 13.1.8 | 20220731.1.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | drupal | baseline | 12.5.10 | 9.4.8 |
+| [bitnami](https://charts.bitnami.com/bitnami) | ejbca | baseline | 6.3.8 | 7.10.0-2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | elasticsearch | privileged | 19.5.0 | 8.5.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | etcd | baseline | 8.5.8 | 3.5.5 |
+| [bitnami](https://charts.bitnami.com/bitnami) | external-dns | baseline | 6.11.3 | 0.13.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | fluentd | privileged | 5.5.7 | 1.15.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | geode | baseline | 1.1.6 | 1.15.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | ghost | baseline | 19.1.36 | 5.22.9 |
+| [bitnami](https://charts.bitnami.com/bitnami) | grafana | baseline | 8.2.17 | 9.2.4 |
+| [bitnami](https://charts.bitnami.com/bitnami) | grafana-loki | privileged | 2.4.9 | 2.6.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | grafana-operator | baseline | 2.7.9 | 4.7.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | grafana-tempo | baseline | 1.4.4 | 1.5.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | haproxy | baseline | 0.6.2 | 2.6.6 |
+| [bitnami](https://charts.bitnami.com/bitnami) | haproxy-intel | baseline | 0.2.7 | 2.6.6 |
+| [bitnami](https://charts.bitnami.com/bitnami) | harbor | baseline | 16.0.0 | 2.6.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | influxdb | baseline | 5.4.10 | 2.5.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | jasperreports | baseline | 14.3.5 | 8.1.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | jenkins | baseline | 11.0.8 | 2.361.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | joomla | baseline | 13.3.10 | 4.2.5 |
+| [bitnami](https://charts.bitnami.com/bitnami) | jupyterhub | baseline | 3.0.1 | 3.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kafka | baseline | 19.1.3 | 3.3.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | keycloak | baseline | 12.1.1 | 19.0.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kiam | privileged | 1.1.5 | 4.2.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kibana | no_pod_object | 10.2.7 | 8.5.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kong | baseline | 8.0.11 | 3.0.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kube-prometheus | privileged | 8.1.12 | 0.60.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kube-state-metrics | baseline | 3.2.5 | 2.6.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kubeapps | baseline | 12.0.0 | 2.6.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kubernetes-event-exporter | baseline | 2.1.1 | 1.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | logstash | baseline | 5.1.6 | 8.5.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | magento | privileged | 21.1.9 | 2.4.5-p1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mariadb | baseline | 11.3.5 | 10.6.11 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mariadb-galera | baseline | 7.4.8 | 10.6.11 |
+| [bitnami](https://charts.bitnami.com/bitnami) | matomo | baseline | 0.2.13 | 4.12.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mediawiki | baseline | 14.3.8 | 1.38.4 |
+| [bitnami](https://charts.bitnami.com/bitnami) | memcached | baseline | 6.3.1 | 1.6.17 |
+| [bitnami](https://charts.bitnami.com/bitnami) | metallb | privileged | 4.1.11 | 0.13.7 |
+| [bitnami](https://charts.bitnami.com/bitnami) | metrics-server | baseline | 6.2.3 | 0.6.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | minio | baseline | 11.10.16 | 2022.11.11 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mongodb | baseline | 13.4.1 | 6.0.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mongodb-sharded | baseline | 6.1.11 | 6.0.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | moodle | baseline | 14.3.1 | 4.0.4 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mxnet | no_pod_object_but_crd | 3.1.6 | 1.9.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mysql | baseline | 9.4.3 | 8.0.31 |
+| [bitnami](https://charts.bitnami.com/bitnami) | nats | baseline | 7.4.12 | 2.9.6 |
+| [bitnami](https://charts.bitnami.com/bitnami) | nginx | baseline | 13.2.13 | 1.23.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | nginx-ingress-controller | baseline | 9.3.21 | 1.5.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | nginx-intel | baseline | 2.1.11 | 0.4.8 |
+| [bitnami](https://charts.bitnami.com/bitnami) | node-exporter | privileged | 3.2.3 | 1.4.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | oauth2-proxy | baseline | 3.4.0 | 7.4.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | odoo | baseline | 23.0.1 | 16.0.20221015 |
+| [bitnami](https://charts.bitnami.com/bitnami) | opencart | baseline | 13.0.4 | 4.0.1-1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | osclass | baseline | 14.2.7 | 8.0.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | owncloud | baseline | 12.2.6 | 10.11.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | parse | baseline | 19.1.10 | 5.3.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | phpbb | baseline | 12.3.7 | 3.3.8 |
+| [bitnami](https://charts.bitnami.com/bitnami) | phpmyadmin | baseline | 10.3.6 | 5.2.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | pinniped | baseline | 0.4.4 | 0.20.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | postgresql | baseline | 12.1.2 | 15.1.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | postgresql-ha | baseline | 10.0.3 | 15.1.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | prestashop | baseline | 16.0.0 | 8.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | pytorch | baseline | 2.5.9 | 1.13.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | rabbitmq | baseline | 11.1.2 | 3.11.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | rabbitmq-cluster-operator | baseline | 3.1.2 | 2.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | redis | baseline | 17.3.9 | 7.0.5 |
+| [bitnami](https://charts.bitnami.com/bitnami) | redis-cluster | baseline | 8.2.7 | 7.0.5 |
+| [bitnami](https://charts.bitnami.com/bitnami) | redmine | baseline | 21.0.1 | 5.0.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | schema-registry | baseline | 6.0.2 | 7.2.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | sealed-secrets | restricted | 1.1.9 | 0.19.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | solr | baseline | 6.3.0 | 9.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | sonarqube | privileged | 2.0.1 | 9.7.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | spark | baseline | 6.3.10 | 3.3.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | spring-cloud-dataflow | baseline | 14.0.1 | 2.9.6 |
+| [bitnami](https://charts.bitnami.com/bitnami) | suitecrm | baseline | 11.2.5 | 7.12.7 |
+| [bitnami](https://charts.bitnami.com/bitnami) | tensorflow-resnet | baseline | 3.6.7 | 2.10.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | thanos | baseline | 11.5.9 | 0.28.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | tomcat | baseline | 10.5.2 | 10.1.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wavefront | privileged | 4.2.6 | 1.12.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wavefront-adapter-for-istio | empty_no_object | 2.0.6 | 0.1.5 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wavefront-hpa-adapter | baseline | 1.3.5 | 0.9.9 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wavefront-prometheus-storage-adapter | baseline | 2.1.5 | 1.0.5 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wildfly | baseline | 13.5.7 | 26.1.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wordpress | baseline | 15.2.14 | 6.1.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wordpress-intel | baseline | 2.1.20 | 6.1.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | zookeeper | baseline | 10.2.4 | 3.8.0 |
+| [bitpoke](https://helm-charts.bitpoke.io) | bitpoke | baseline | 1.8.10 | 1.8.10 |
+| [bitpoke](https://helm-charts.bitpoke.io) | mysql-cluster | error_template | 0.6.2 | v0.6.2 |
+| [bitpoke](https://helm-charts.bitpoke.io) | mysql-operator | baseline | 0.6.2 | v0.6.2 |
+| [bitpoke](https://helm-charts.bitpoke.io) | stack | baseline | 0.12.3 | v0.12.3 |
+| [bitpoke](https://helm-charts.bitpoke.io) | wordpress-operator | baseline | 0.12.1 | v0.12.1 |
+| [bitpoke](https://helm-charts.bitpoke.io) | wordpress-site | baseline | 0.12.3 | v0.12.3 |
+| [blackfire](https://warxcell.github.io/helm-chart/) | blackfire | error_template | 0.7.1 | 2.10.0 |
+| [blackfire](https://warxcell.github.io/helm-chart/) | selenium | error_template | 2.0.8 | 4.0.0 |
+| [blackhorseya](https://blackhorseya.github.io/helm-charts/) | godutch | baseline | 0.1.0 | 1.0.0 |
+| [blackhorseya](https://blackhorseya.github.io/helm-charts/) | irent-backend | baseline | 0.1.0 | 1.0.0 |
+| [blackhorseya](https://blackhorseya.github.io/helm-charts/) | irent-frontend | baseline | 0.1.0 | 1.0.0 |
+| [blackhorseya](https://blackhorseya.github.io/helm-charts/) | lobster | baseline | 0.1.0 | 1.0.0 |
+| [blackhorseya](https://blackhorseya.github.io/helm-charts/) | pilemall | baseline | 0.1.0 | 1.0.0 |
+| [blackhorseya](https://blackhorseya.github.io/helm-charts/) | todo-app | baseline | 0.1.0 | 1.0.0 |
+| [blackhorseya](https://blackhorseya.github.io/helm-charts/) | user-app | baseline | 0.1.0 | 1.0.0 |
+| [blazor-demo](https://ma-hua.github.io/helm-chart-apps/) | helm-tpl-test-blazor-demo | error_download | 1.0.2 | 1.0.2 |
+| [bnkr](https://charts.bnkr.is) | bnkr | baseline | 1.0.5 | 2.1.0 |
+| [bokoboshahni](https://charts.bokobo.space) | eve-member-mailer | baseline | 1.0.0 | v1.0.0 |
+| [bokoboshahni](https://charts.bokobo.space) | eve-rails-application | baseline | 1.3.4 | v1.0.0 |
+| [bookinfo](https://kallarajesh.github.io/helmrepo/charts) | istio-bookinfo | baseline | 1.2.2 | 1.3 |
+| [boord](https://charts.boord.io) | baaza | baseline | 0.1.5 | 0.1.5 |
+| [boord](https://charts.boord.io) | watcher | baseline | 0.4.4 | 0.4.4 |
+| [bootc](https://charts.boo.tc) | netbox | baseline | 4.1.1 | v3.2.8 |
+| [bootc](https://charts.boo.tc) | puppetboard | baseline | 0.1.4 | 1.1.0 |
+| [bottlerocket-brupop](oci://public.ecr.aws/sphmedia/helm/bottlerocket-brupop) | bottlerocket-brupop | error_download | 1.0.3 | 0.2.2 |
+| [bottlerocket-update-operator](https://franklinpashok.github.io/bottlerocket-update-operator/) | bottlerocket-brupop | privileged | 0.4.5 | 1.16.1 |
+| [bottlerocket-update-operator](https://franklinpashok.github.io/bottlerocket-update-operator/) | bottlerocket-update-operator | privileged | 0.3.0 | 1.16.1 |
+| [boundary-chart](https://janikgar.github.io/boundary-chart) | boundary | baseline | 0.2.5 | 0.7.1 |
+| [boundary-softsci](https://wbj3rd.github.io/boundary/) | boundary-softsci | baseline | 0.2.4 | 0.7.1 |
+| [braedon](https://braedon.github.io/helm) | prometheus-es-exporter | error_template | 0.2.0 |  |
+| [braedon](https://braedon.github.io/helm) | prometheus-mysql-exporter | error_template | 0.2.0 |  |
+| [brannon](https://helm.brannon.online) | folding-at-home | baseline | 0.1.1 | 7.5.1 |
+| [brannon](https://helm.brannon.online) | mprime | baseline | 0.3.1 | p95v303b6 |
+| [brannon](https://helm.brannon.online) | xmrig | baseline | 0.1.1 | 5.8.2 |
+| [brian-pages](https://brianc08dll.github.io) | pages | privileged | 1.0.0 | 1.0 |
+| [brixton-mayuribhavsar23-pages](https://mayuribhavsar23.github.io/) | pages | privileged | 1.0.0 | 1.0 |
+| [brixton-pages](https://rolianailor.github.io/) | pages | privileged | 1.0.0 | 1.0 |
+| [brpservice](https://raw.githubusercontent.com/ConductionNL/brpservice/master/api/helm/) | brpservice | baseline | 1.1.0 | V1.0 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | couchpotato | baseline | 0.3.0 | Varies |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | emby | baseline | 0.1.0 | 3.6.0.81 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | fluentd | version_not_evaluable | 0.1.0 | 1.2 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | generic-web | baseline | 0.2.0 | 1.13.12 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | honeywell-exporter | baseline | 0.1.1 | 1.0 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | ipmi-exporter | privileged | 0.1.1 | 2.2.0 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | jackett | baseline | 0.1.0 | 1.0 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | medusa | version_not_evaluable | 0.1.0 | master |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | mosquitto | baseline | 0.0.1 | 1.6.4 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | ombi | baseline | 0.4.0 | 3.0.4958-ls72 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | plex | baseline | 0.5.0 | 1.25.4.5487 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | registry-ui | baseline | 0.2.0 | 0.0.2 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | rtl-exporter | baseline | 0.0.1 | 0.0.1 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | rtorrent | baseline | 0.4.0 | 0.9.6 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | rtorrent-flood | baseline | 0.5.0 | 1.0.0 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | sickchill | baseline | 0.3.0 | master |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | sickrage | version_not_evaluable | 0.1.0 | master |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | smart-exporter | privileged | 0.2.2 | 0.2 |
+| [bryanalves](https://bryanalves.github.io/helm-charts/) | tautulli | baseline | 0.1.0 | 2.1.26 |
+| [btungut](https://btungut.github.io) | azure-devops-agent | error_template | 1.0.6 | 2.204.0 |
+| [btungut](https://btungut.github.io) | fluentd-kube-elastic | error_template | 1.15.4 | 1.15-1-rev1 |
+| [btungut](https://btungut.github.io) | kubernetes-azure-keyvault-secret-operator | baseline | 0.0.6 | 0.0.6 |
+| [buildkite-plugin-kubernetes](https://muhlba91.github.io/kubernetes-buildkite-plugin) | agent | baseline | 1.0.9 | @sha256:00ce639d5219418de740b1e39529b43bc6d8929cfb9e97de55335a53d642081d |
+| [buildkite-plugin-kubernetes](https://muhlba91.github.io/kubernetes-buildkite-plugin) | buildscaler | baseline | 1.0.5 | v2.2.0 |
+| [buildkite](https://buildkite.github.io/charts) | agent | privileged | 0.6.0 | 3.25.0 |
+| [busi-ads](https://deepakj6.github.io/) | category-microservice | baseline | 1.0.0 | 1.0 |
+| [busi-ads](https://deepakj6.github.io/) | pages-microservice | empty_no_object | 1.0.0 | 1.0 |
+| [business-central-for-sso](https://ozielsdorff.github.io/business-central-sso-helm-chart/) | business-central-for-sso | error_download | 0.1.0 | 1.16.0 |
+| [business-partner-agent](https://labs.hyperledger.org/business-partner-agent-chart/) | bpa | baseline | 0.12.0 | 0.12.0 |
+| [butlerci](https://enriquetejeda.github.io/butlerci/helm-repo/) | butlerci | baseline | 0.1.0 | 0.1.0 |
+| [buttahtoast](https://buttahtoast.github.io/helm-charts/) | csgo | baseline | 0.2.3 | 1.0.0 |
+| [buttahtoast](https://buttahtoast.github.io/helm-charts/) | library | empty_no_object | 3.0.0-rc.3 | 0.1.0 |
+| [buttahtoast](https://buttahtoast.github.io/helm-charts/) | tavern | baseline | 0.3.3 | 1.1.0 |
+| [bytebase](https://bytebase.github.io/bytebase/) | bytebase | baseline | 1.0.0 |  |
+| [bytebot-chat](https://bytebot-chat.github.io/charts) | babbler | baseline | 0.1.1 | edge |
+| [bytebot-chat](https://bytebot-chat.github.io/charts) | bytebot-discord | baseline | 0.0.4 | 0.0.0 |
+| [bytebot-chat](https://bytebot-chat.github.io/charts) | bytebot-irc | baseline | 0.0.10 | 0.0.0 |
+| [bytebot-chat](https://bytebot-chat.github.io/charts) | bytebot-party-pack | baseline | 0.2.1 | edge |
+| [bytebot-chat](https://bytebot-chat.github.io/charts) | bytebot-tip-jar | baseline | 0.1.1 | 0.1.1 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | csi-vault-community | no_pod_object_but_crd | 2022.9.22 | v2022.09.22 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | kubedb-community | no_pod_object_but_crd | 2022.10.18 | v2022.10.18 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | kubedb-enterprise | no_pod_object_but_crd | 2022.10.18 | v2022.10.18 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | kubeform-community | no_pod_object_but_crd | 2022.5.11 | v2022.05.11 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | stash-community | no_pod_object_but_crd | 2022.9.29 | v2022.09.29 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | stash-elasticsearch-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | stash-enterprise | no_pod_object_but_crd | 2022.9.29 | v2022.09.29 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | stash-mongodb-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | stash-mysql-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | stash-percona-xtradb-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | stash-postgres-community | no_pod_object_but_crd | 2021.3.11 | v2021.03.11 |
+| [bytebuilders](https://bundles.byte.builders/stable/) | vault-operator-community | no_pod_object_but_crd | 2022.9.22 | v2022.09.22 |
+| [bytectl](https://bytectl.github.io/helm-charts) | kratos | baseline | 0.1.0 | 1.16.0 |
+| [bytectl](https://bytectl.github.io/helm-charts) | nacos | baseline | 0.1.6 | 1.0 |

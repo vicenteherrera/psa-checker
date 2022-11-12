@@ -6,206 +6,206 @@ Evaluation date 2022-11-12, 17:49:25
 
 [main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(355)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
 
-| repo | chart | level | chart version | app version | url | 
-|------|------|------|------|------|------|
-| n0rad | basic-app | baseline | 0.1.0 |  | https://n0rad.github.io/charts |
-| n0rad | ceph | privileged | 0.1.0 |  | https://n0rad.github.io/charts |
-| n0rad | dnsmasq | baseline | 1.0.1 |  | https://n0rad.github.io/charts |
-| n0rad | gitserver | baseline | 0.0.5 |  | https://n0rad.github.io/charts |
-| n0rad | kube-plex | privileged | 0.2.3 | 1.10.1.4602-f54242b6b | https://n0rad.github.io/charts |
-| n0rad | matchbox | privileged | 2.0.7 |  | https://n0rad.github.io/charts |
-| n0rad | seafile | error_template | 0.0.6 | 6.3.2 | https://n0rad.github.io/charts |
-| n0rad | secrets | no_pod_object | 0.1.0 |  | https://n0rad.github.io/charts |
-| n0rad | sftp | error_template | 0.0.8 |  | https://n0rad.github.io/charts |
-| n0rad | unbound | baseline | 1.0.4 | 1.6.7 | https://n0rad.github.io/charts |
-| nano-byte | generic-service | empty_no_object | 1.4.5 |  | https://helm.nano-byte.net/ |
-| naps | local-path-provisioner | baseline | 0.0.14 | v0.0.14 | https://naps.github.io/helm-charts/ |
-| naps | mosquitto | baseline | 1.0.4 | 1.6.12 | https://naps.github.io/helm-charts/ |
-| naps | victoria-metrics-single | baseline | 0.0.6 | 1.34.7 | https://naps.github.io/helm-charts/ |
-| narain | pages | privileged | 1.0.0 | 1.0 | https://naraindoraiswamy.github.io/ |
-| narasimha-pages | pages | privileged | 1.0.0 | 1.0 | https://narasimharaomjns.github.io |
-| nativechat | consul-merge-controller | error_download | 0.5.1 | 0.5.0 | https://nativechat.github.io/helm-charts/stable |
-| nats-js | nats | error_download | 0.9.0 | 2.6.1 | http://helm.laboroa.com |
-| nats | nack | baseline | 0.17.5 | 0.7.4 | https://nats-io.github.io/k8s/helm/charts/ |
-| nats | nats | baseline | 0.18.2 | 2.9.3 | https://nats-io.github.io/k8s/helm/charts/ |
-| nats | nats-account-server | baseline | 0.8.0 | 1.0.0 | https://nats-io.github.io/k8s/helm/charts/ |
-| nats | nats-kafka | baseline | 0.13.1 | 1.2.2 | https://nats-io.github.io/k8s/helm/charts/ |
-| nats | nats-operator | baseline | 0.7.4 | 0.7.4 | https://nats-io.github.io/k8s/helm/charts/ |
-| nats | stan | baseline | 0.13.0 | 0.24.1 | https://nats-io.github.io/k8s/helm/charts/ |
-| nats | surveyor | baseline | 0.14.1 | 0.4.0 | https://nats-io.github.io/k8s/helm/charts/ |
-| nautobot | nautobot | error_template | 2.0.0-alpha.9 | 1.4.7 | https://nautobot.github.io/helm-charts/ |
-| navidrome | navidrome | baseline | 0.2.5 | 0.41.1 | https://andrewmichaelsmith.github.io/navidrome |
-| navin-brixton | pages | privileged | 1.0.0 | 1.0 | https://moolcn.github.io/ |
-| ncsa | betydb | baseline | 0.5.4 | 5.4.1 | https://opensource.ncsa.illinois.edu/charts/ |
-| ncsa | clowder | error_template | 0.16.0 | 1.21.0 | https://opensource.ncsa.illinois.edu/charts/ |
-| ncsa | elasticsearch2 | baseline | 0.2.2 | 2.4.6 | https://opensource.ncsa.illinois.edu/charts/ |
-| ncsa | geoserver | baseline | 0.2.0 | 2.19.0 | https://opensource.ncsa.illinois.edu/charts/ |
-| ncsa | incore | error_template | 1.13.1 | 3.6.0 | https://opensource.ncsa.illinois.edu/charts/ |
-| ncsa | mlflow | baseline | 1.0.3 | 1.24.0 | https://opensource.ncsa.illinois.edu/charts/ |
-| ncsa | pecan | baseline | 0.6.2 | 1.7.2 | https://opensource.ncsa.illinois.edu/charts/ |
-| ncsa | polyglot | baseline | 0.1.1 | 2.4.0 | https://opensource.ncsa.illinois.edu/charts/ |
-| nebraska | nebraska | baseline | 0.5.0 | 2.8.0 | https://kinvolk.github.io/nebraska/ |
-| neo4j-helm-charts | neo4j | error_template | 5.1.1 | 5.1.0 | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-charts | neo4j-cluster-core | error_template | 4.4.13 | 4.4.13 | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-charts | neo4j-cluster-headless-service | no_pod_object | 4.4.13 | - | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-charts | neo4j-cluster-loadbalancer | no_pod_object | 4.4.13 | - | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-charts | neo4j-cluster-read-replica | error_template | 4.4.13 | 4.4.13 | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-charts | neo4j-headless-service | error_template | 5.1.1 | - | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-charts | neo4j-persistent-volume | error_template | 5.1.1 | - | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-charts | neo4j-standalone | error_template | 4.4.13 | 4.4.13 | https://neo4j.github.io/helm-charts/ |
-| neo4j-helm-old | neo4j | baseline | 4.3.2-1 | 4.3.2 | https://code-r.github.io/neo4j-helm/ |
-| neo4j-helm | neo4j | baseline | 4.4.9 | 4.4.9 | https://neo4j-contrib.github.io/neo4j-helm/ |
-| neoskop | cert-manager-webhook-dnsimple | baseline | 0.1.1 | 0.1.1 | https://charts.neoskop.dev |
-| neoskop | mgnl | error_template | 0.20.0 | 0.20.0 | https://charts.neoskop.dev |
-| neoskop | paperboy | error_template | 2.8.1 | 2.8.1 | https://charts.neoskop.dev |
-| neoskop | papergirl | baseline | 3.0.2 | 3.0.2 | https://charts.neoskop.dev |
-| nessie | nessie | baseline | 0.44.0 |  | https://charts.projectnessie.org/ |
-| nessus | nessus | baseline | 0.2.0 | latest | https://freddo256.github.io/nessus-kubernetes-argocd/helm/charts |
-| netapp-trident | trident-operator | baseline | 22.10.0 | 22.10.0 | https://netapp.github.io/trident-helm-chart |
-| netdata | netdata | privileged | 3.7.33 | v1.36.1 | https://netdata.github.io/helmchart |
-| netrisai | netris-controller | empty_no_object | 1.3.0-alpha.2 | 3.3.0-alpha.2 | https://netrisai.github.io/charts/ |
-| netrisai | netris-operator | baseline | 1.0.1 | v2.0.1 | https://netrisai.github.io/charts/ |
-| netsoc | accounts | error_template | 0.2.4 | 0.2.3 | https://netsoc.github.io/charts/ |
-| netsoc | docs | baseline | 0.2.0 | latest | https://netsoc.github.io/charts/ |
-| netsoc | iamd | baseline | 0.6.1 | 1.1.2 | https://netsoc.github.io/charts/ |
-| netsoc | lxd8s | error_template | 0.2.4 | 0.1.1 | https://netsoc.github.io/charts/ |
-| netsoc | ma1sd | baseline | 0.2.1 | 2.5.0 | https://netsoc.github.io/charts/ |
-| netsoc | matrix-synapse | error_template | 0.1.0 | 1.37.0 | https://netsoc.github.io/charts/ |
-| netsoc | shhd | privileged | 0.1.7 | 0.1.6 | https://netsoc.github.io/charts/ |
-| netsoc | website | baseline | 0.2.0 | latest | https://netsoc.github.io/charts/ |
-| netsoc | webspaced | privileged | 0.2.8 | 0.5.1 | https://netsoc.github.io/charts/ |
-| neuvectorcharts | core | privileged | 2.2.4 | 5.0.4 | https://neuvector.github.io/neuvector-helm/ |
-| neuvectorcharts | crd | no_pod_object_but_crd | 2.2.4 | 5.0.4 | https://neuvector.github.io/neuvector-helm/ |
-| neuvectorcharts | monitor | empty_no_object | 2.2.4 | 5.0.4 | https://neuvector.github.io/neuvector-helm/ |
-| newrelic | common-library | empty_no_object | 1.1.0 |  | https://helm-charts.newrelic.com |
-| newrelic | newrelic-logging | no_pod_object | 1.11.10 | 1.14.0 | https://helm-charts.newrelic.com |
-| newrelic | newrelic-pixie | empty_no_object | 2.0.1 | 2.0.1 | https://helm-charts.newrelic.com |
-| newrelic | nri-bundle | error_template | 4.9.3 |  | https://helm-charts.newrelic.com |
-| newrelic | nri-statsd | no_pod_object | 1.0.5 | 2.0.3 | https://helm-charts.newrelic.com |
-| newrelic | simple-nginx | baseline | 1.1.1 | 1.1 | https://helm-charts.newrelic.com |
-| newrelic | synthetics-job-manager | error_template | 1.0.13 | release-206 | https://helm-charts.newrelic.com |
-| newrelic | synthetics-minion | error_template | 1.0.54 | 3.0.68 | https://helm-charts.newrelic.com |
-| newsaktuell | common | empty_no_object | 0.0.4 |  | https://newsaktuell.github.io/helm-charts/ |
-| newsaktuell | keycloak-operator | baseline | 0.1.5 | 17.0.0 | https://newsaktuell.github.io/helm-charts/ |
-| nextcloud | nextcloud | baseline | 3.3.3 | 25.0.1 | https://nextcloud.github.io/helm/ |
-| nfs-subdir-external-provisioner | nfs-subdir-external-provisioner | baseline | 4.0.17 | 4.0.2 | https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner |
-| ng-speech | ng-speech | baseline | 0.10.8 | 0.10.4 | https://newtontechnologies.github.io/ng-speech-helm |
-| nginx-app | nginx-app | baseline | 0.1.2 | 1.16.0 | https://brackly.github.io/Helm-deployment-to-Kubernetes-using-ArgoCD/charts |
-| nginx-edge | nginx-ingress | baseline | 0.0.0-edge | 2.4.1 | https://helm.nginx.com/edge |
-| nginx-ingress-controller | ingress-nginx | error_download | 4.0.13 | 1.1.0 | https://ralvarezmar.github.io/nginx-ingress/ |
-| nginx-test | mychart | baseline | 0.1.0 | 0.1.0 | http://175.24.198.168:8080 |
-| nginx-test | nginx | baseline | 13.2.12 | 1.23.1 | http://175.24.198.168:8080 |
-| nginx-test | otel-flink-operator | no_pod_object_but_crd | 0.2.4 | 1.16.0 | http://175.24.198.168:8080 |
-| nginx-test | redis-operator | privileged | 1.0.3 |  | http://175.24.198.168:8080 |
-| nginx-test | tchart | baseline | 0.1.0 | 1.16.0 | http://175.24.198.168:8080 |
-| nginx | nginx-appprotect-dos-arbitrator | baseline | 0.1.0 | 1.1.0 | https://helm.nginx.com/stable |
-| nginx | nginx-ingress | baseline | 0.15.1 | 2.4.1 | https://helm.nginx.com/stable |
-| nginx | nginx-service-mesh | privileged | 0.6.0 | 1.6.0 | https://helm.nginx.com/stable |
-| ngrok-ingress-helm | nginx-example | baseline | 0.3.0 | 1.16.0 | https://xplorfin.github.io/ngrok-ingress-helm/ |
-| ngrok-ingress-helm | ngrok-ingress | empty_no_object | 0.3.0 | 1.16.0 | https://xplorfin.github.io/ngrok-ingress-helm/ |
-| ngrok-operator | ngrok-operator | baseline | 1.1.0 | 1.3.0 | https://zufardhiyaulhaq.com/ngrok-operator/charts/releases/ |
-| nicholaswilde | audacity | baseline | 0.1.4 | 3.0.2 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | babybuddy | baseline | 2.3.0 | v1.9.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | beets | baseline | 2.0.0 | 1.5.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | blog | baseline | 1.0.0 | v1.3 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | boinc-client | baseline | 0.1.3 | 7.12.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | booksonic | baseline | 1.0.1 | 1.2 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | chyrp-lite | baseline | 1.0.0 | v2021.03 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | clarkson | baseline | 0.2.3 | v1.1.2 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | cloud9 | baseline | 1.0.0 | 1.29.2 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | code-server | baseline | 1.1.1 | v3.11.1 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | common | empty_no_object | 0.1.14 |  | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | cryptpad | baseline | 2.3.0 | 4.10.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | davos | baseline | 1.0.0 | 2.2.1 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | digikam | baseline | 1.0.0 | 7.3.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | diun | baseline | 1.0.0 | 4.19.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | doublecommander | baseline | 1.0.2 | 0.8.2-1 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | etherpad | baseline | 1.0.2 | 1.8.14 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | filezilla | baseline | 1.0.1 | 3.51.0-r1 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | firefox-syncserver | baseline | 0.1.3 | 1.8.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | formalms | baseline | 0.1.2 | 2.3.0.2 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | fossil | baseline | 1.0.0 | 2.15.1 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | friendica | baseline | 1.0.0 | 2021.04 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | golinks | baseline | 1.0.0 | 154c581 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | gotify | baseline | 1.0.0 | 2.0.23 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | grav | baseline | 0.1.6 | 1.7.18 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | headphones | baseline | 1.0.1 | 58edc604 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | hedgedoc | baseline | 1.1.0 | 1.9.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | installer | baseline | 1.0.0 | 0.2.9 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | leantime | baseline | 0.1.2 | 2.1.7 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | mariadb | baseline | 1.0.6 | 110.4.21 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | medusa | baseline | 0.1.6 | v0.5.17 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | mstream | baseline | 2.1.2 | v5.2.5 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | muximux | baseline | 1.0.1 | 057352e8 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | notes | baseline | 1.0.0 | ee287b9 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | novnc | baseline | 1.0.0 | 1.2.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | odoo | baseline | 1.0.0 | 14.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | olivetin | baseline | 1.0.2 | 2021-07-19 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | papermerge | baseline | 1.0.2 | v2.0.1 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | photoshow | baseline | 1.0.1 | 48aabb98 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | piwigo | baseline | 1.0.0 | 11.5.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | pixapop | baseline | 1.0.0 | v1.2 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | podgrab | baseline | 0.1.0 | 1.0.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | postgres | baseline | 0.1.0 | 13.3 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | projectsend | baseline | 2.0.0 | r1295 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | remmina | baseline | 0.1.4 | 1.2.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | shiori | baseline | 1.0.1 | v1.5.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | shorturl | baseline | 1.0.0 | v0.1.0 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | sickchill | baseline | 0.1.0 | 2021.5.10 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | sickgear | baseline | 0.3.0 | release_0.25.4 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | smokeping | baseline | 0.1.24 | 2.7.3 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | snipe-it | baseline | 1.0.5 | v5.1.8 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | sqlitebrowser | baseline | 1.0.1 | 3.12.2 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | static | baseline | 1.0.0 | ee8a20c | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | todo | baseline | 0.1.0 | 941c0d3 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | twtxt | baseline | 1.0.0 | 0.1.1 | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | wiki | baseline | 1.0.0 | 900b76a | https://nicholaswilde.github.io/helm-charts/ |
-| nicholaswilde | writefreely | baseline | 1.0.0 | 0.13.1 | https://nicholaswilde.github.io/helm-charts/ |
-| nimbolus | node-upgrade-channel | baseline | 0.1.0 | 0.1.0 | https://nimbolus.github.io/helm-charts |
-| nimbolus | system-upgrade-controller | privileged | 0.1.0 | v0.8.1 | https://nimbolus.github.io/helm-charts |
-| nn-co | base | baseline | 0.1.0 | 1.0.0 | https://urbanindo.github.io/99-charts |
-| nn-co | base-job | version_not_evaluable | 0.1.0 | 1.16.0 | https://urbanindo.github.io/99-charts |
-| noah | noah | baseline | 0.2.0 | 1.16.0 | https://lucas-stellet.github.io/noah-api/ |
-| nocalhost | nocalhost | baseline | 0.6.18 | v0.6.18 | https://nocalhost-helm.pkg.coding.net/nocalhost/nocalhost |
-| nocalhost | vcluster | baseline | 0.5.2 |  | https://nocalhost-helm.pkg.coding.net/nocalhost/nocalhost |
-| node-feature-discovery | node-feature-discovery | privileged | 0.11.3 | v0.11.3 | https://kubernetes-sigs.github.io/node-feature-discovery/charts |
-| node-local-dns | node-local-dns | privileged | 1.3.2 | 1.17.4 | https://lablabs.github.io/k8s-nodelocaldns-helm/ |
-| node-red | node-red | restricted | 0.20.3 | 3.0.2 | https://schwarzit.github.io/node-red-chart/ |
-| node-web-app-helm | node-web-app | empty_no_object | 0.1.0 | 1.16.0 | https://prana12.github.io/node-web-app-helm/ |
-| node-web-app | node-web-app | empty_no_object | 0.1.0 | 1.1.0 | https://yoongti.github.io/node-web-app/ |
-| nodejs-opentelemetry | nodejs-opentelemetry | error_download | 0.2.0 | 1.16.0 | https://itamar-marom.github.io/nodejs-opentelemetry/ |
-| nodejsweekly | nodejsweekly | version_not_evaluable | 1.1.0 | 1.1.0 | https://zufardhiyaulhaq.com/nodejsweekly/charts/releases/ |
-| nominatim-chart | nominatim | baseline | 1.3.0 | 3.7 | https://david-mart.github.io/nominatim-helm-chart/charts |
-| nonkronk | tristian-id | error_download | 0.1.3 | 0.1.3 | https://storage.googleapis.com/nonkronk |
-| north14 | libretime | empty_no_object | 1.0.0 | 3.0.0-alpha9 | https://north14.github.io/helm-charts/ |
-| north14 | liquidsoap | baseline | 1.0.0 | 2.0.1 | https://north14.github.io/helm-charts/ |
-| notification-component | notification-component | baseline | 1.0.0 | V1.0 | https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/ |
-| notification-component | postgresql | baseline | 10.1.1 | 11.10.0 | https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/ |
-| notification-component | rabbitmq | baseline | 8.6.1 | 3.8.9 | https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/ |
-| notification-component | redis | baseline | 12.7.7 | 6.0.11 | https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/ |
-| nousefreak | assistant-relay | baseline | 0.1.2 | 3.2.0.1 | https://nousefreak.github.io/helm-charts |
-| nousefreak | clusterfan | privileged | 0.1.2 | v0.1.0 | https://nousefreak.github.io/helm-charts |
-| nousefreak | go-ddns | error_template | 0.1.0 | 1.0.0 | https://nousefreak.github.io/helm-charts |
-| nousefreak | helm-compose | baseline | 0.1.3 |  | https://nousefreak.github.io/helm-charts |
-| nousefreak | huaweifusionsolar-exporter | error_template | 0.1.7 | 1.0.0 | https://nousefreak.github.io/helm-charts |
-| novum-rgi-charts | awx | baseline | 0.1.6 | 15.0.0 | https://novumrgi.github.io/helm/ |
-| novum-rgi-charts | dependency-track | baseline | 0.1.8 | 3.8.0 | https://novumrgi.github.io/helm/ |
-| novum-rgi-charts | fluentd-kubernetes-daemonset | privileged | 0.1.0 | 0.1.0 | https://novumrgi.github.io/helm/ |
-| novum-rgi-charts | gitea | baseline | 2.1.3 | 1.13.0 | https://novumrgi.github.io/helm/ |
-| novum-rgi-charts | glowroot | baseline | 1.0.10 | 0.14.0-beta.3 | https://novumrgi.github.io/helm/ |
-| novum-rgi-charts | nexus2 | baseline | 0.1.1 | 2.14.18-01 | https://novumrgi.github.io/helm/ |
-| novum-rgi-charts | nfs-server-provisioner | privileged | 1.1.2 | 2.3.0 | https://novumrgi.github.io/helm/ |
-| noygal | base-chart | empty_no_object | 0.2.0 | 1.16.0 | https://noygal.github.io/helm |
-| noygal | example-dev-tools | baseline | 0.2.8 | 1.16.0 | https://noygal.github.io/helm |
-| nroales-tasks | p4-chart | error_download | 0.1.0 | 1.16.0 | https://raw.githubusercontent.com/atuncontomate/helm-training/master/charts |
-| ntppool | dnsdist | empty_no_object | 0.1.0 | 1.4.0-1 | https://charts.ntppool.org/ |
-| ntppool | geoip | empty_no_object | 0.3.0 | 2022.04.0 | https://charts.ntppool.org/ |
-| ntppool | locationcode | baseline | 1.0.5 | 1.0.0 | https://charts.ntppool.org/ |
-| ntppool | monitor-api | baseline | 0.1.0 | 3.0.0 | https://charts.ntppool.org/ |
-| ntppool | ntppool | empty_no_object | 0.4.17 | prod-2022-02.0 | https://charts.ntppool.org/ |
-| ntppool | smtp | baseline | 1.0.1 | latest | https://charts.ntppool.org/ |
-| ntppool | splash | baseline | 1.0.2 | 3.4.1 | https://charts.ntppool.org/ |
-| nuclio | nuclio | privileged | 0.16.1 | 1.11.1 | https://nuclio.github.io/nuclio/charts |
-| nutanix | ndb-operator | baseline | 0.0.2 | v0.0.2 | https://nutanix.github.io/helm/ |
-| nutanix | nutanix-csi-snapshot | baseline | 6.0.1 | 6.0.1 | https://nutanix.github.io/helm/ |
-| nutanix | nutanix-csi-storage | error_template | 2.6.0 | 2.6.0 | https://nutanix.github.io/helm/ |
+| repo | chart | level | chart version | app version |
+|------|------|------|------|------|
+| [n0rad](https://n0rad.github.io/charts) | basic-app | baseline | 0.1.0 |  |
+| [n0rad](https://n0rad.github.io/charts) | ceph | privileged | 0.1.0 |  |
+| [n0rad](https://n0rad.github.io/charts) | dnsmasq | baseline | 1.0.1 |  |
+| [n0rad](https://n0rad.github.io/charts) | gitserver | baseline | 0.0.5 |  |
+| [n0rad](https://n0rad.github.io/charts) | kube-plex | privileged | 0.2.3 | 1.10.1.4602-f54242b6b |
+| [n0rad](https://n0rad.github.io/charts) | matchbox | privileged | 2.0.7 |  |
+| [n0rad](https://n0rad.github.io/charts) | seafile | error_template | 0.0.6 | 6.3.2 |
+| [n0rad](https://n0rad.github.io/charts) | secrets | no_pod_object | 0.1.0 |  |
+| [n0rad](https://n0rad.github.io/charts) | sftp | error_template | 0.0.8 |  |
+| [n0rad](https://n0rad.github.io/charts) | unbound | baseline | 1.0.4 | 1.6.7 |
+| [nano-byte](https://helm.nano-byte.net/) | generic-service | empty_no_object | 1.4.5 |  |
+| [naps](https://naps.github.io/helm-charts/) | local-path-provisioner | baseline | 0.0.14 | v0.0.14 |
+| [naps](https://naps.github.io/helm-charts/) | mosquitto | baseline | 1.0.4 | 1.6.12 |
+| [naps](https://naps.github.io/helm-charts/) | victoria-metrics-single | baseline | 0.0.6 | 1.34.7 |
+| [narain](https://naraindoraiswamy.github.io/) | pages | privileged | 1.0.0 | 1.0 |
+| [narasimha-pages](https://narasimharaomjns.github.io) | pages | privileged | 1.0.0 | 1.0 |
+| [nativechat](https://nativechat.github.io/helm-charts/stable) | consul-merge-controller | error_download | 0.5.1 | 0.5.0 |
+| [nats-js](http://helm.laboroa.com) | nats | error_download | 0.9.0 | 2.6.1 |
+| [nats](https://nats-io.github.io/k8s/helm/charts/) | nack | baseline | 0.17.5 | 0.7.4 |
+| [nats](https://nats-io.github.io/k8s/helm/charts/) | nats | baseline | 0.18.2 | 2.9.3 |
+| [nats](https://nats-io.github.io/k8s/helm/charts/) | nats-account-server | baseline | 0.8.0 | 1.0.0 |
+| [nats](https://nats-io.github.io/k8s/helm/charts/) | nats-kafka | baseline | 0.13.1 | 1.2.2 |
+| [nats](https://nats-io.github.io/k8s/helm/charts/) | nats-operator | baseline | 0.7.4 | 0.7.4 |
+| [nats](https://nats-io.github.io/k8s/helm/charts/) | stan | baseline | 0.13.0 | 0.24.1 |
+| [nats](https://nats-io.github.io/k8s/helm/charts/) | surveyor | baseline | 0.14.1 | 0.4.0 |
+| [nautobot](https://nautobot.github.io/helm-charts/) | nautobot | error_template | 2.0.0-alpha.9 | 1.4.7 |
+| [navidrome](https://andrewmichaelsmith.github.io/navidrome) | navidrome | baseline | 0.2.5 | 0.41.1 |
+| [navin-brixton](https://moolcn.github.io/) | pages | privileged | 1.0.0 | 1.0 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | betydb | baseline | 0.5.4 | 5.4.1 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | clowder | error_template | 0.16.0 | 1.21.0 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | elasticsearch2 | baseline | 0.2.2 | 2.4.6 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | geoserver | baseline | 0.2.0 | 2.19.0 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | incore | error_template | 1.13.1 | 3.6.0 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | mlflow | baseline | 1.0.3 | 1.24.0 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | pecan | baseline | 0.6.2 | 1.7.2 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | polyglot | baseline | 0.1.1 | 2.4.0 |
+| [nebraska](https://kinvolk.github.io/nebraska/) | nebraska | baseline | 0.5.0 | 2.8.0 |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j | error_template | 5.1.1 | 5.1.0 |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-core | error_template | 4.4.13 | 4.4.13 |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-headless-service | no_pod_object | 4.4.13 | - |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-loadbalancer | no_pod_object | 4.4.13 | - |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-read-replica | error_template | 4.4.13 | 4.4.13 |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-headless-service | error_template | 5.1.1 | - |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-persistent-volume | error_template | 5.1.1 | - |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-standalone | error_template | 4.4.13 | 4.4.13 |
+| [neo4j-helm-old](https://code-r.github.io/neo4j-helm/) | neo4j | baseline | 4.3.2-1 | 4.3.2 |
+| [neo4j-helm](https://neo4j-contrib.github.io/neo4j-helm/) | neo4j | baseline | 4.4.9 | 4.4.9 |
+| [neoskop](https://charts.neoskop.dev) | cert-manager-webhook-dnsimple | baseline | 0.1.1 | 0.1.1 |
+| [neoskop](https://charts.neoskop.dev) | mgnl | error_template | 0.20.0 | 0.20.0 |
+| [neoskop](https://charts.neoskop.dev) | paperboy | error_template | 2.8.1 | 2.8.1 |
+| [neoskop](https://charts.neoskop.dev) | papergirl | baseline | 3.0.2 | 3.0.2 |
+| [nessie](https://charts.projectnessie.org/) | nessie | baseline | 0.44.0 |  |
+| [nessus](https://freddo256.github.io/nessus-kubernetes-argocd/helm/charts) | nessus | baseline | 0.2.0 | latest |
+| [netapp-trident](https://netapp.github.io/trident-helm-chart) | trident-operator | baseline | 22.10.0 | 22.10.0 |
+| [netdata](https://netdata.github.io/helmchart) | netdata | privileged | 3.7.33 | v1.36.1 |
+| [netrisai](https://netrisai.github.io/charts/) | netris-controller | empty_no_object | 1.3.0-alpha.2 | 3.3.0-alpha.2 |
+| [netrisai](https://netrisai.github.io/charts/) | netris-operator | baseline | 1.0.1 | v2.0.1 |
+| [netsoc](https://netsoc.github.io/charts/) | accounts | error_template | 0.2.4 | 0.2.3 |
+| [netsoc](https://netsoc.github.io/charts/) | docs | baseline | 0.2.0 | latest |
+| [netsoc](https://netsoc.github.io/charts/) | iamd | baseline | 0.6.1 | 1.1.2 |
+| [netsoc](https://netsoc.github.io/charts/) | lxd8s | error_template | 0.2.4 | 0.1.1 |
+| [netsoc](https://netsoc.github.io/charts/) | ma1sd | baseline | 0.2.1 | 2.5.0 |
+| [netsoc](https://netsoc.github.io/charts/) | matrix-synapse | error_template | 0.1.0 | 1.37.0 |
+| [netsoc](https://netsoc.github.io/charts/) | shhd | privileged | 0.1.7 | 0.1.6 |
+| [netsoc](https://netsoc.github.io/charts/) | website | baseline | 0.2.0 | latest |
+| [netsoc](https://netsoc.github.io/charts/) | webspaced | privileged | 0.2.8 | 0.5.1 |
+| [neuvectorcharts](https://neuvector.github.io/neuvector-helm/) | core | privileged | 2.2.4 | 5.0.4 |
+| [neuvectorcharts](https://neuvector.github.io/neuvector-helm/) | crd | no_pod_object_but_crd | 2.2.4 | 5.0.4 |
+| [neuvectorcharts](https://neuvector.github.io/neuvector-helm/) | monitor | empty_no_object | 2.2.4 | 5.0.4 |
+| [newrelic](https://helm-charts.newrelic.com) | common-library | empty_no_object | 1.1.0 |  |
+| [newrelic](https://helm-charts.newrelic.com) | newrelic-logging | no_pod_object | 1.11.10 | 1.14.0 |
+| [newrelic](https://helm-charts.newrelic.com) | newrelic-pixie | empty_no_object | 2.0.1 | 2.0.1 |
+| [newrelic](https://helm-charts.newrelic.com) | nri-bundle | error_template | 4.9.3 |  |
+| [newrelic](https://helm-charts.newrelic.com) | nri-statsd | no_pod_object | 1.0.5 | 2.0.3 |
+| [newrelic](https://helm-charts.newrelic.com) | simple-nginx | baseline | 1.1.1 | 1.1 |
+| [newrelic](https://helm-charts.newrelic.com) | synthetics-job-manager | error_template | 1.0.13 | release-206 |
+| [newrelic](https://helm-charts.newrelic.com) | synthetics-minion | error_template | 1.0.54 | 3.0.68 |
+| [newsaktuell](https://newsaktuell.github.io/helm-charts/) | common | empty_no_object | 0.0.4 |  |
+| [newsaktuell](https://newsaktuell.github.io/helm-charts/) | keycloak-operator | baseline | 0.1.5 | 17.0.0 |
+| [nextcloud](https://nextcloud.github.io/helm/) | nextcloud | baseline | 3.3.3 | 25.0.1 |
+| [nfs-subdir-external-provisioner](https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner) | nfs-subdir-external-provisioner | baseline | 4.0.17 | 4.0.2 |
+| [ng-speech](https://newtontechnologies.github.io/ng-speech-helm) | ng-speech | baseline | 0.10.8 | 0.10.4 |
+| [nginx-app](https://brackly.github.io/Helm-deployment-to-Kubernetes-using-ArgoCD/charts) | nginx-app | baseline | 0.1.2 | 1.16.0 |
+| [nginx-edge](https://helm.nginx.com/edge) | nginx-ingress | baseline | 0.0.0-edge | 2.4.1 |
+| [nginx-ingress-controller](https://ralvarezmar.github.io/nginx-ingress/) | ingress-nginx | error_download | 4.0.13 | 1.1.0 |
+| [nginx-test](http://175.24.198.168:8080) | mychart | baseline | 0.1.0 | 0.1.0 |
+| [nginx-test](http://175.24.198.168:8080) | nginx | baseline | 13.2.12 | 1.23.1 |
+| [nginx-test](http://175.24.198.168:8080) | otel-flink-operator | no_pod_object_but_crd | 0.2.4 | 1.16.0 |
+| [nginx-test](http://175.24.198.168:8080) | redis-operator | privileged | 1.0.3 |  |
+| [nginx-test](http://175.24.198.168:8080) | tchart | baseline | 0.1.0 | 1.16.0 |
+| [nginx](https://helm.nginx.com/stable) | nginx-appprotect-dos-arbitrator | baseline | 0.1.0 | 1.1.0 |
+| [nginx](https://helm.nginx.com/stable) | nginx-ingress | baseline | 0.15.1 | 2.4.1 |
+| [nginx](https://helm.nginx.com/stable) | nginx-service-mesh | privileged | 0.6.0 | 1.6.0 |
+| [ngrok-ingress-helm](https://xplorfin.github.io/ngrok-ingress-helm/) | nginx-example | baseline | 0.3.0 | 1.16.0 |
+| [ngrok-ingress-helm](https://xplorfin.github.io/ngrok-ingress-helm/) | ngrok-ingress | empty_no_object | 0.3.0 | 1.16.0 |
+| [ngrok-operator](https://zufardhiyaulhaq.com/ngrok-operator/charts/releases/) | ngrok-operator | baseline | 1.1.0 | 1.3.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | audacity | baseline | 0.1.4 | 3.0.2 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | babybuddy | baseline | 2.3.0 | v1.9.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | beets | baseline | 2.0.0 | 1.5.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | blog | baseline | 1.0.0 | v1.3 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | boinc-client | baseline | 0.1.3 | 7.12.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | booksonic | baseline | 1.0.1 | 1.2 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | chyrp-lite | baseline | 1.0.0 | v2021.03 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | clarkson | baseline | 0.2.3 | v1.1.2 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | cloud9 | baseline | 1.0.0 | 1.29.2 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | code-server | baseline | 1.1.1 | v3.11.1 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | common | empty_no_object | 0.1.14 |  |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | cryptpad | baseline | 2.3.0 | 4.10.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | davos | baseline | 1.0.0 | 2.2.1 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | digikam | baseline | 1.0.0 | 7.3.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | diun | baseline | 1.0.0 | 4.19.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | doublecommander | baseline | 1.0.2 | 0.8.2-1 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | etherpad | baseline | 1.0.2 | 1.8.14 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | filezilla | baseline | 1.0.1 | 3.51.0-r1 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | firefox-syncserver | baseline | 0.1.3 | 1.8.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | formalms | baseline | 0.1.2 | 2.3.0.2 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | fossil | baseline | 1.0.0 | 2.15.1 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | friendica | baseline | 1.0.0 | 2021.04 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | golinks | baseline | 1.0.0 | 154c581 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | gotify | baseline | 1.0.0 | 2.0.23 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | grav | baseline | 0.1.6 | 1.7.18 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | headphones | baseline | 1.0.1 | 58edc604 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | hedgedoc | baseline | 1.1.0 | 1.9.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | installer | baseline | 1.0.0 | 0.2.9 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | leantime | baseline | 0.1.2 | 2.1.7 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | mariadb | baseline | 1.0.6 | 110.4.21 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | medusa | baseline | 0.1.6 | v0.5.17 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | mstream | baseline | 2.1.2 | v5.2.5 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | muximux | baseline | 1.0.1 | 057352e8 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | notes | baseline | 1.0.0 | ee287b9 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | novnc | baseline | 1.0.0 | 1.2.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | odoo | baseline | 1.0.0 | 14.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | olivetin | baseline | 1.0.2 | 2021-07-19 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | papermerge | baseline | 1.0.2 | v2.0.1 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | photoshow | baseline | 1.0.1 | 48aabb98 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | piwigo | baseline | 1.0.0 | 11.5.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | pixapop | baseline | 1.0.0 | v1.2 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | podgrab | baseline | 0.1.0 | 1.0.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | postgres | baseline | 0.1.0 | 13.3 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | projectsend | baseline | 2.0.0 | r1295 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | remmina | baseline | 0.1.4 | 1.2.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | shiori | baseline | 1.0.1 | v1.5.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | shorturl | baseline | 1.0.0 | v0.1.0 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | sickchill | baseline | 0.1.0 | 2021.5.10 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | sickgear | baseline | 0.3.0 | release_0.25.4 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | smokeping | baseline | 0.1.24 | 2.7.3 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | snipe-it | baseline | 1.0.5 | v5.1.8 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | sqlitebrowser | baseline | 1.0.1 | 3.12.2 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | static | baseline | 1.0.0 | ee8a20c |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | todo | baseline | 0.1.0 | 941c0d3 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | twtxt | baseline | 1.0.0 | 0.1.1 |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | wiki | baseline | 1.0.0 | 900b76a |
+| [nicholaswilde](https://nicholaswilde.github.io/helm-charts/) | writefreely | baseline | 1.0.0 | 0.13.1 |
+| [nimbolus](https://nimbolus.github.io/helm-charts) | node-upgrade-channel | baseline | 0.1.0 | 0.1.0 |
+| [nimbolus](https://nimbolus.github.io/helm-charts) | system-upgrade-controller | privileged | 0.1.0 | v0.8.1 |
+| [nn-co](https://urbanindo.github.io/99-charts) | base | baseline | 0.1.0 | 1.0.0 |
+| [nn-co](https://urbanindo.github.io/99-charts) | base-job | version_not_evaluable | 0.1.0 | 1.16.0 |
+| [noah](https://lucas-stellet.github.io/noah-api/) | noah | baseline | 0.2.0 | 1.16.0 |
+| [nocalhost](https://nocalhost-helm.pkg.coding.net/nocalhost/nocalhost) | nocalhost | baseline | 0.6.18 | v0.6.18 |
+| [nocalhost](https://nocalhost-helm.pkg.coding.net/nocalhost/nocalhost) | vcluster | baseline | 0.5.2 |  |
+| [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/charts) | node-feature-discovery | privileged | 0.11.3 | v0.11.3 |
+| [node-local-dns](https://lablabs.github.io/k8s-nodelocaldns-helm/) | node-local-dns | privileged | 1.3.2 | 1.17.4 |
+| [node-red](https://schwarzit.github.io/node-red-chart/) | node-red | restricted | 0.20.3 | 3.0.2 |
+| [node-web-app-helm](https://prana12.github.io/node-web-app-helm/) | node-web-app | empty_no_object | 0.1.0 | 1.16.0 |
+| [node-web-app](https://yoongti.github.io/node-web-app/) | node-web-app | empty_no_object | 0.1.0 | 1.1.0 |
+| [nodejs-opentelemetry](https://itamar-marom.github.io/nodejs-opentelemetry/) | nodejs-opentelemetry | error_download | 0.2.0 | 1.16.0 |
+| [nodejsweekly](https://zufardhiyaulhaq.com/nodejsweekly/charts/releases/) | nodejsweekly | version_not_evaluable | 1.1.0 | 1.1.0 |
+| [nominatim-chart](https://david-mart.github.io/nominatim-helm-chart/charts) | nominatim | baseline | 1.3.0 | 3.7 |
+| [nonkronk](https://storage.googleapis.com/nonkronk) | tristian-id | error_download | 0.1.3 | 0.1.3 |
+| [north14](https://north14.github.io/helm-charts/) | libretime | empty_no_object | 1.0.0 | 3.0.0-alpha9 |
+| [north14](https://north14.github.io/helm-charts/) | liquidsoap | baseline | 1.0.0 | 2.0.1 |
+| [notification-component](https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/) | notification-component | baseline | 1.0.0 | V1.0 |
+| [notification-component](https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/) | postgresql | baseline | 10.1.1 | 11.10.0 |
+| [notification-component](https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/) | rabbitmq | baseline | 8.6.1 | 3.8.9 |
+| [notification-component](https://raw.githubusercontent.com/ConductionNL/notification-component/master/api/helm/) | redis | baseline | 12.7.7 | 6.0.11 |
+| [nousefreak](https://nousefreak.github.io/helm-charts) | assistant-relay | baseline | 0.1.2 | 3.2.0.1 |
+| [nousefreak](https://nousefreak.github.io/helm-charts) | clusterfan | privileged | 0.1.2 | v0.1.0 |
+| [nousefreak](https://nousefreak.github.io/helm-charts) | go-ddns | error_template | 0.1.0 | 1.0.0 |
+| [nousefreak](https://nousefreak.github.io/helm-charts) | helm-compose | baseline | 0.1.3 |  |
+| [nousefreak](https://nousefreak.github.io/helm-charts) | huaweifusionsolar-exporter | error_template | 0.1.7 | 1.0.0 |
+| [novum-rgi-charts](https://novumrgi.github.io/helm/) | awx | baseline | 0.1.6 | 15.0.0 |
+| [novum-rgi-charts](https://novumrgi.github.io/helm/) | dependency-track | baseline | 0.1.8 | 3.8.0 |
+| [novum-rgi-charts](https://novumrgi.github.io/helm/) | fluentd-kubernetes-daemonset | privileged | 0.1.0 | 0.1.0 |
+| [novum-rgi-charts](https://novumrgi.github.io/helm/) | gitea | baseline | 2.1.3 | 1.13.0 |
+| [novum-rgi-charts](https://novumrgi.github.io/helm/) | glowroot | baseline | 1.0.10 | 0.14.0-beta.3 |
+| [novum-rgi-charts](https://novumrgi.github.io/helm/) | nexus2 | baseline | 0.1.1 | 2.14.18-01 |
+| [novum-rgi-charts](https://novumrgi.github.io/helm/) | nfs-server-provisioner | privileged | 1.1.2 | 2.3.0 |
+| [noygal](https://noygal.github.io/helm) | base-chart | empty_no_object | 0.2.0 | 1.16.0 |
+| [noygal](https://noygal.github.io/helm) | example-dev-tools | baseline | 0.2.8 | 1.16.0 |
+| [nroales-tasks](https://raw.githubusercontent.com/atuncontomate/helm-training/master/charts) | p4-chart | error_download | 0.1.0 | 1.16.0 |
+| [ntppool](https://charts.ntppool.org/) | dnsdist | empty_no_object | 0.1.0 | 1.4.0-1 |
+| [ntppool](https://charts.ntppool.org/) | geoip | empty_no_object | 0.3.0 | 2022.04.0 |
+| [ntppool](https://charts.ntppool.org/) | locationcode | baseline | 1.0.5 | 1.0.0 |
+| [ntppool](https://charts.ntppool.org/) | monitor-api | baseline | 0.1.0 | 3.0.0 |
+| [ntppool](https://charts.ntppool.org/) | ntppool | empty_no_object | 0.4.17 | prod-2022-02.0 |
+| [ntppool](https://charts.ntppool.org/) | smtp | baseline | 1.0.1 | latest |
+| [ntppool](https://charts.ntppool.org/) | splash | baseline | 1.0.2 | 3.4.1 |
+| [nuclio](https://nuclio.github.io/nuclio/charts) | nuclio | privileged | 0.16.1 | 1.11.1 |
+| [nutanix](https://nutanix.github.io/helm/) | ndb-operator | baseline | 0.0.2 | v0.0.2 |
+| [nutanix](https://nutanix.github.io/helm/) | nutanix-csi-snapshot | baseline | 6.0.1 | 6.0.1 |
+| [nutanix](https://nutanix.github.io/helm/) | nutanix-csi-storage | error_template | 2.6.0 | 2.6.0 |
