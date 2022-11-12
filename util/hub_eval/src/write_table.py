@@ -26,6 +26,7 @@ list_md = open(doc_filename+".md", "w")
 print("# Iterating charts")
 i=0
 now = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
+header = "[Go to root documentation](https://vicenteherrera.com/psa-checker)\n\n## Artifact Hub's Helm charts PSS analysis\n\n"
 count = {
     "total":0,
     "privileged":0,
@@ -39,6 +40,7 @@ for l in ascii_lowercase:
     calpha[l]=0
 
 print("# Counting")
+date = ""
 keys_pss = charts_pss.keys()    
 for key in keys_pss:
     dic_chart = charts_pss[key]
@@ -46,25 +48,29 @@ for key in keys_pss:
     i += 1
     calpha[dic_chart["repository"]["name"][0]] += 1
     if "pss" in dic_chart:
+        # TODO: Extract latest date
+        date = dic_chart["pss"]["date"]
         level = dic_chart["pss"]["level"]
     count["total"] +=1
     if level not in count:
         count [level] = 1
     else:
         count[level] += 1
-
     print( "# ["+ str(i) + "/" + str(len(charts_pss))+ "] " + dic_chart["repository"]["name"] + level)
 
+date = "Evaluation date " + date + "\n"
+list_md.write(header + date + "\n")
+list_md.write("| Category | Quantity | Percentage |\n|------|------|------|\n")
 for key in count.keys():
-    list_md.write(key.capitalize() + ": " + str(count[key]) + " ")
-    list_md.write( "(" + str(round(100*count[key]/count["total"],2))+"%)\n" )
+    list_md.write("| " + key.capitalize() + " | " + str(count[key]) + " | ")
+    list_md.write( str(round(100*count[key]/count["total"],2))+"% |\n" )
+list_md.write("\n")
 
 # Create index links
-index = "[main](./charts_level.md) "
+index = "[main](./charts_levels)&nbsp; "
 for l in ascii_lowercase:
-    index += "["+l+"("+str(calpha[l])+")](./charts_level_"+l+".md) "
-
-list_md.write("\n\n")
+    index += "["+l.upper()+"("+str(calpha[l])+")](./charts_levels_"+l+")&nbsp; "
+list_md.write("Alphabetical list of all repostiories with the number of charts per letter:\n\n")
 list_md.write(index)
 
 print("# Iterating all charts")
@@ -87,18 +93,15 @@ for key in keys_pss:
         print("# Writing header: "+letter)
         list_md.close()
         list_md = open(doc_filename+"_"+letter+".md", "w")
-        list_md.write(index)
-        list_md.write("\n\n| repo | chart | level | version | app version | url | \n")
-        list_md.write("|------|------|------|------|------|------|\n")
+        list_md.write(header + date + "\n" + index)
+        list_md.write("\n\n| repo | chart | level | chart version | app version |\n")
+        list_md.write("|------|------|------|------|------|\n")
 
     level = ""
     if "pss" in dic_chart:
         level = dic_chart["pss"]["level"]
-
     print( "# ["+ str(i) + "/" + str(len(keys_pss))+ "] " + repo + " " + chart + " " + level)
-
-    list_md.write("| " + repo + " | " + chart + " | " + level  + " | " + version + " | " + app_version + " | " +  url + " |\n")
-
+    list_md.write("| [" + repo + "](" + url + ") | " + chart + " | " + level  + " | " + version + " | " + app_version  + " |\n")
     # sys.exit()
 
 
