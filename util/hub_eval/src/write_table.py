@@ -48,8 +48,8 @@ for key in keys_pss:
     i += 1
     calpha[dic_chart["repository"]["name"][0]] += 1
     if "pss" in dic_chart:
-        # TODO: Extract latest date
-        date = dic_chart["pss"]["date"]
+        if dic_chart["pss"]["date"] > date:
+            date = dic_chart["pss"]["date"]
         level = dic_chart["pss"]["level"]
     count["total"] +=1
     if level not in count:

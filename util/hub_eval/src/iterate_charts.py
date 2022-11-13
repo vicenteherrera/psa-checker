@@ -3,6 +3,7 @@ import os
 import sys
 from pathlib import Path
 from datetime import datetime
+import subprocess
 
 def get_chart_name(url):
     parts = url.split("/")
@@ -24,13 +25,17 @@ def count_in_file(str, filename):
                 n += 1
     return n
 
-psa_version = "0.0.1a"
+psa_version = "0.0.1"
 chart_levels_filename = r'./result/charts_levels.md'
 charts_source_filename = r'./result/helm_charts.yaml'
 charts_pss_filename = r'./result/helm_charts_pss.yaml'
 temp_filename = r'./result/temp.yaml'
 logs_dir = r'./result/logs'
 psa_checker_path = "../../release/psa-checker"
+
+psa_version = subprocess.getoutput(psa_checker_path + ' --version')
+psa_version = psa_version[len("psa-checker version "):]
+print("# psa-checker version "+ psa_version)
 
 print("# Reading charts list files")
 
@@ -54,6 +59,7 @@ else:
 print("# Iterating charts")
 i=0
 j=0
+evaluated=[]
 now = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
 keys_pss = charts_pss.keys()
 
@@ -64,23 +70,27 @@ for dic_chart in charts_source:
     app_version = dic_chart["app_version"]
     parts       = dic_chart["url"].split("/")
     chart       = get_chart_name( dic_chart["url"] )
+    logs_prefix  = logs_dir + "/" + repo + "_" + chart + "_" + version
     key         = repo + "__" + chart
 
     i+=1
     print( "# ["+ str(i) + "/" + str(len(charts_source))+ "] " + repo + "/" + chart + " "+ version)
 
     if key in keys_pss:
-        print("chart+repo exists on charts PSS file")
+        print("  chart+repo exists on charts PSS file")
         # print(charts_pss[key]["pss"]["chart_version"])
-        if charts_pss[key]["pss"]["chart_version"] == version and \
-            charts_pss[key]["pss"]["psa-checker_version"] == psa_version:
-            print("Skipping version already evaluated")
-            continue
+        if charts_pss[key]["pss"]["psa-checker_version"] == psa_version:
+            if charts_pss[key]["pss"]["chart_version"] == version:
+                print("    Skipping chart version " + version + " already evaluated with psa-checker " + psa_version)
+                continue
+            if charts_pss[key]["pss"]["chart_version"] > version:
+                print("    Skipping chart version " + version + " is lower than " + charts_pss[key]["pss"]["chart_version"] + " already evaluated with psa-checker " + psa_version)
+                continue
 
-    log_helm       = logs_dir + "/" + repo + "_" + chart + "_" + version + "_helm.log"
-    log_baseline   = logs_dir + "/" + repo + "_" + chart + "_" + version + "_baseline.log"
-    log_restricted = logs_dir + "/" + repo + "_" + chart + "_" + version + "_restricted.log"
-    template       = logs_dir + "/" + repo + "_" + chart + "_" + version + "_template.yaml"
+    log_helm       = logs_prefix + "_helm.log"
+    log_baseline   = logs_prefix + "_baseline.log"
+    log_restricted = logs_prefix + "_restricted.log"
+    template       = logs_prefix + "_template.yaml"
     log = ""
     repo_update = 0
     gen_template = 0
@@ -150,7 +160,7 @@ for dic_chart in charts_source:
         "log_baseline": log_baseline,
         "date": now,
         "psa-checker_version" : psa_version,
-        "n_evaluated": n_evaluated,
+        "n_evaluated": n_evaluated, 
         "n_non_evaluable":n_non_evaluable,
         "n_crd": n_crd,
         "n_wrong_version":n_wrong_version
@@ -160,12 +170,17 @@ for dic_chart in charts_source:
     charts_pss[key] = dic_chart
 
     j+=1
-    if j % 100 == 0 or i==len(dic_chart):
-        print ("# Saving whole yaml")
+    evaluated.append(key)
+    if j % 100 == 0:
+        print ("# Saving whole PSS yaml")
         with open(charts_pss_filename, 'w') as file:
             yaml.dump(charts_pss, file)
     # sys.exit()
 
-print ("# Saving whole yaml")
-with open(charts_pss_filename, 'w') as file:
-    yaml.dump(charts_pss, file)
+print(str(j) + " new charts/version evaluated")
+# print(evaluated)
+if j>0:
+    print ("# End, force saving whole PSS yaml")
+    with open(charts_pss_filename, 'w') as file:
+        yaml.dump(charts_pss, file)
+
