@@ -26,7 +26,7 @@ list_md = open(doc_filename+".md", "w")
 print("# Iterating charts")
 i=0
 now = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
-header = "[Go to root documentation](https://vicenteherrera.com/psa-checker)\n\n## Artifact Hub's Helm charts PSS analysis\n\n"
+header = "[Go to root documentation](https://vicenteherrera.com/psa-checker)\n\n## Artifact Hub's Helm charts evaluation\n\n"
 count = {
     "total":0,
     "privileged":0,
@@ -35,6 +35,7 @@ count = {
     "error_download":0,
     "error_template":0,
 }
+brbuckets = {}
 calpha = {}
 for l in ascii_lowercase:
     calpha[l]=0
@@ -51,6 +52,11 @@ for key in keys_pss:
         if dic_chart["pss"]["date"] > date:
             date = dic_chart["pss"]["date"]
         level = dic_chart["pss"]["level"]
+        if "score_badrobot" in dic_chart["pss"]:
+            if dic_chart["pss"]["score_badrobot"] in brbuckets:
+                brbuckets[dic_chart["pss"]["score_badrobot"]] += 1
+            else:
+                brbuckets[dic_chart["pss"]["score_badrobot"]] = 1
     count["total"] +=1
     if level not in count:
         count [level] = 1
@@ -59,7 +65,7 @@ for key in keys_pss:
     print( "# ["+ str(i) + "/" + str(len(charts_pss))+ "] " + dic_chart["repository"]["name"] + level)
 
 date = "Evaluation date: " + date + "\n"
-list_md.write(header + date + "\n")
+list_md.write(header + date + "\n### Pod Security Standards (PSS)\n\n")
 list_md.write("| Category | Quantity | Percentage |\n|------|------|------|\n")
 for key in count.keys():
     list_md.write("| " + key.capitalize() + " | " + str(count[key]) + " | ")
@@ -74,11 +80,21 @@ list_md.write(" * No_pod_object_no_crd: The chart didn’t render any object tha
 list_md.write(" * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can’t be evaluated by the library\n")
 list_md.write("\n")
 
+list_md.write("### BadRobot evaluation buckets\n\n")
+list_md.write("[BadRobot](https://github.com/controlplaneio/badrobot) scores how secure Kubernetes operators are.\n")
+list_md.write("| Score | Number of charts |\n|------|------|\n")
+keys = brbuckets.keys()
+for key in keys:
+    list_md.write("| " + str(key) + " | " + str(brbuckets[key]) + " |\n")
+
+
+list_md.write("\n### Charts list\n\n")
+
 # Create index links
 index = "[main](./charts_levels)&nbsp; "
 for l in ascii_lowercase:
     index += "["+l.upper()+"("+str(calpha[l])+")](./charts_levels_"+l+")&nbsp; "
-list_md.write("Alphabetical list of all repostiories with the number of charts per letter:\n\n")
+list_md.write("Alphabetical list of all repositories (number of charts in parenthesis):\n\n")
 list_md.write(index)
 
 print("# Iterating all charts")
@@ -102,14 +118,17 @@ for key in keys_pss:
         list_md.close()
         list_md = open(doc_filename+"_"+letter+".md", "w")
         list_md.write(header + date + "\n" + index)
-        list_md.write("\n\n| repo | chart | level | chart version | app version |\n")
-        list_md.write("|------|------|------|------|------|\n")
+        list_md.write("\n\n| repo | chart | PSS level | BR score | chart version | app version |\n")
+        list_md.write("|------|------|------|------|------|------|\n")
 
     level = ""
+    brscore = ""
     if "pss" in dic_chart:
         level = dic_chart["pss"]["level"]
+        if "score_badrobot" in dic_chart["pss"]:
+            brscore = dic_chart["pss"]["score_badrobot"]
     print( "# ["+ str(i) + "/" + str(len(keys_pss))+ "] " + repo + " " + chart + " " + level)
-    list_md.write("| [" + repo + "](" + url + ") | " + chart + " | " + level  + " | " + version + " | " + app_version  + " |\n")
+    list_md.write("| [" + repo + "](" + url + ") | " + chart + " | " + level  + " | " + brscore  + " | " + version + " | " + app_version  + " |\n")
     # sys.exit()
 
 

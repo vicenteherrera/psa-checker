@@ -4,6 +4,8 @@ import sys
 from pathlib import Path
 from datetime import datetime
 import subprocess
+import time
+from datetime import timedelta
 
 def get_chart_name(url):
     parts = url.split("/")
@@ -25,6 +27,13 @@ def count_in_file(str, filename):
                 n += 1
     return n
 
+def evaluate_badrobot(template, log_badrobot):
+    os.system("badrobot scan " + template + " | jq '[.[].score] | add' > " + log_badrobot)
+    with open(log_badrobot) as f:
+        score_badrobot = f.readline().strip('\n')
+    return score_badrobot
+
+start = datetime.now()
 psa_version = "0.0.1"
 chart_levels_filename = r'./result/charts_levels.md'
 charts_source_filename = r'./result/helm_charts.yaml'
@@ -70,15 +79,26 @@ for dic_chart in charts_source:
     app_version = dic_chart["app_version"]
     parts       = dic_chart["url"].split("/")
     chart       = get_chart_name( dic_chart["url"] )
-    logs_prefix  = logs_dir + "/" + repo + "_" + chart + "_" + version
+    logs_prefix = logs_dir + "/" + repo + "_" + chart + "_" + version
+    log_badrobot = logs_prefix + "_badrobot.log"
+    template     = logs_prefix + "_template.yaml"
     key         = repo + "__" + chart
-
+    
     i+=1
     print( "# ["+ str(i) + "/" + str(len(charts_source))+ "] " + repo + "/" + chart + " "+ version)
 
     if key in keys_pss:
-        print("  chart+repo exists on charts PSS file")
-        # print(charts_pss[key]["pss"]["chart_version"])
+        print("  Chart+repo exists on charts PSS file")
+        if not "score_badrobot" in charts_pss[key]["pss"]:
+            if charts_pss[key]["pss"]["level"][0:5]=="error":
+                print("    Skipping badrobot score for chart in state: " + charts_pss[key]["pss"]["level"])
+            else:
+                print("  Adding badrobot evaluation")
+                charts_pss[key]["pss"]["score_badrobot"] = evaluate_badrobot(template, log_badrobot)
+                print("    Badrobot score: " + charts_pss[key]["pss"]["score_badrobot"])
+                j += 1
+        else:
+            print("    Skipping badrobot score already evaluated: " + charts_pss[key]["pss"]["score_badrobot"])
         if charts_pss[key]["pss"]["psa-checker_version"] == psa_version:
             if charts_pss[key]["pss"]["chart_version"] == version:
                 print("    Skipping chart version " + version + " already evaluated with psa-checker " + psa_version)
@@ -90,7 +110,6 @@ for dic_chart in charts_source:
     log_helm       = logs_prefix + "_helm.log"
     log_baseline   = logs_prefix + "_baseline.log"
     log_restricted = logs_prefix + "_restricted.log"
-    template       = logs_prefix + "_template.yaml"
     log = ""
     repo_update = 0
     gen_template = 0
@@ -98,6 +117,7 @@ for dic_chart in charts_source:
     n_non_evaluable=0
     n_wrong_version=0
     n_crd=0
+    score_badrobot=""
 
     if not os.path.exists(log_helm):
         print("  Downloading chart")
@@ -153,6 +173,13 @@ for dic_chart in charts_source:
 
     print("  Level: " + level)
 
+    if level=="error":
+        print("    Skipping badrobot score for chart in state: " + level)
+    else:
+        print("  Adding badrobot evaluation")
+        score_badrobot = evaluate_badrobot(template, log_badrobot)
+        print("    Badrobot score: " + score_badrobot)
+
     psa_dict = {
         "level" : level,
         "chart_version" : version,
@@ -163,7 +190,8 @@ for dic_chart in charts_source:
         "n_evaluated": n_evaluated, 
         "n_non_evaluable":n_non_evaluable,
         "n_crd": n_crd,
-        "n_wrong_version":n_wrong_version
+        "n_wrong_version":n_wrong_version,
+        "score_badrobot":score_badrobot
     }
 
     dic_chart["pss"] = psa_dict
@@ -177,7 +205,8 @@ for dic_chart in charts_source:
             yaml.dump(charts_pss, file)
     # sys.exit()
 
-print(str(j) + " new charts/version evaluated")
+print(str(j) + " new charts/version evaluated in " + str(datetime.now() - start))
+
 # print(evaluated)
 if j>0:
     print ("# End, force saving whole PSS yaml")
