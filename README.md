@@ -27,11 +27,13 @@ The input manifest file can have any number of Kubernetes objects, all will be e
 This tool can't check into CRD that in turn creates pods, like when Tekton creates a pod to execute each step in a pipeline.
 
 
-### Example
+## Examples
+
+### Checking YAML manifest files
 
 ```console
 $ # Check if a kubernetes file is compliant with PSS level "restricted"
-$ psa-check deployment.yaml --test restricted
+$ psa-checker --file deployment.yaml --level restricted
 Deployment nginx-deployment
   PSS level restricted
     Check 8 failed: allowPrivilegeEscalation != false
@@ -44,31 +46,51 @@ Deployment nginx-deployment
       pod or container "nginx" must set securityContext.seccompProfile.type to "RuntimeDefault" or "Localhost"
 ```
 
-### Usage
+You can specify restricted or baseline level (specifying privileged, as it would allow everything, is not useful)
 
 ```bash
 # Check if a kubernetes file is compliant with PSS level "restricted"
-psa-check -f deployment.yaml --level restricted
+psa-checker -f deployment.yaml --level restricted
 
 # Check if a kubernetes file is compliant with PSS level "baseline"
-psa-check -f deployment.yaml --level baseline
+psa-checker -f deployment.yaml --level baseline
+```
 
+See additional help and parameter information with:
+```bash
+psa-checker --help
+```
+
+### Checking a Helm chart
+
+You can run `tempalte` for a Helm chart with your specific parameters, and feed the renderd YAML to this tool to have an evaluation for the whole chart.
+
+```bash
 # You can process a Helm chart from stdin
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo update
 helm template prometheus-community/kube-prometheus-stack | psa-checker --level restricted -f -
-
-# See all parameters
-psa-check --help
 ```
 
-### Installation
+This will work also for local charts that you are working with on your hard drive.
+
+### Checking all running pods in a cluster
+
+You can query for the YAML manifest for all pods running in a cluster, and evaluate all of them in a single line:
+
+```bash
+kubectl get pods -A -oyaml | yq '.items[] | split_doc' | psa-checker -l baseline -f -
+```
+
+This will work even if you don't have enabled the admission controller for Pod Security Standards on your cluster (even an old cluster where it's not present at all), as the evaluation is done locally.
+
+## Installation
 
 ```bash
 go install github.com/vicenteherrera/psa-checker@latest
 ```
 
-### Build the binary
+## Build the binary
 
 To build and test the binary on `release/psa-checker` use:
 
@@ -78,8 +100,7 @@ make
 
 ## Artifact Hub Helm Charts
 
-Using the script in util/hub_eval, you can evaluate all Helm charts published in Artifact Hub for compliance against PSS levels.
-A future update will try to do a continuous evaluation of all charts.
+We have evaluated all Helm charts published in Artifact Hub for compliance against PSS levels.
 
 Evaluation done on 2022-11-03 shows:
 
@@ -106,5 +127,5 @@ Legend:
 * No_pod_object_no_crd: The chart didn't render any object that can create pods nor CRDs
 * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can't be evaluated by the library
 
-Check the latest evaluation and the list of all charts and their PSS level here:
-* [PSS charts evaluation](https://vicenteherrera.com/psa-checker/charts_levels)
+Check the latest evaluation results, including psa-checker PSS levels and [BadRobot operator score](https://github.com/controlplaneio/badrobot), for all charts here:
+* [Artifact Hub Helm charts evaluation](https://vicenteherrera.com/psa-checker/charts_levels)
