@@ -58,12 +58,20 @@ for key in keys_pss:
         count[level] += 1
     print( "# ["+ str(i) + "/" + str(len(charts_pss))+ "] " + dic_chart["repository"]["name"] + level)
 
-date = "Evaluation date " + date + "\n"
+date = "Evaluation date: " + date + "\n"
 list_md.write(header + date + "\n")
 list_md.write("| Category | Quantity | Percentage |\n|------|------|------|\n")
 for key in count.keys():
     list_md.write("| " + key.capitalize() + " | " + str(count[key]) + " | ")
     list_md.write( str(round(100*count[key]/count["total"],2))+"% |\n" )
+list_md.write("\n")
+list_md.write("Legend:\n")
+list_md.write(" * Privileged, Baseline, Restricted: doesn’t account CRDs that could create pods\n")
+list_md.write(" * Error_download: Downloading the template from original source wasn’t possible\n")
+list_md.write(" * Error_template: Rendering the template without providing parameters resulted in error\n")
+list_md.write(" * No_pod_object_but_crd: The chart didn’t render any object that can create pods, but has CRD that could do so\n")
+list_md.write(" * No_pod_object_no_crd: The chart didn’t render any object that can create pods nor CRDs\n")
+list_md.write(" * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can’t be evaluated by the library\n")
 list_md.write("\n")
 
 # Create index links
