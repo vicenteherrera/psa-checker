@@ -127,5 +127,5 @@ Legend:
 * No_pod_object_no_crd: The chart didn't render any object that can create pods nor CRDs
 * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can't be evaluated by the library
 
-Check the latest evaluation results and the list of its charts and their PSS level here:
+Check the latest evaluation results, including [BadRobot operator score](https://github.com/controlplaneio/badrobot), and the list of its charts and their PSS level here:
 * [Artifact Hub Helm charts PSS evaluation](https://vicenteherrera.com/psa-checker/charts_levels)
