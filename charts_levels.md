@@ -2,9 +2,12 @@
 
 ## Artifact Hub's Helm charts evaluation
 
+Source: [Artifact Hub](https://artifacthub.io/)  
 Evaluation date: 2022-11-13, 10:27:38
 
 ### Pod Security Standards (PSS)
+
+[Pod Security Standards (PSS)](https://kubernetes.io/docs/concepts/security/pod-security-standards/) define three levels of security (restricted, baseline and privileged) that can be enforced for pods in a namespace. Evaluation done with [psa-checker](https://vicenteherrera.com/psa-checker/) command line tool, that checks into Kubernetes objects that can create pods.
 
 | Category | Quantity | Percentage |
 |------|------|------|
@@ -20,12 +23,38 @@ Evaluation date: 2022-11-13, 10:27:38
 | Version_not_evaluable | 522 | 5.28% |
 
 Legend:
- * Privileged, Baseline, Restricted: doesn’t account CRDs that could create pods
- * Error_download: Downloading the template from original source wasn’t possible
- * Error_template: Rendering the template without providing parameters resulted in error
- * No_pod_object_but_crd: The chart didn’t render any object that can create pods, but has CRD that could do so
- * No_pod_object_no_crd: The chart didn’t render any object that can create pods nor CRDs
- * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can’t be evaluated by the library
+ * PSS level:
+   * Privileged: Pod specs makes use of privileged settings, the most insecure. Containers are able to access host capabilities.
+   * Baseline: Pod specs without extra security or extra privileges. Doesn't account for CRD that may create pods.
+   * Restricted: Pod specs follow the best security practices, like requiring containers to not run as root, and drop extra capabilities. Doesn't account for CRDs that may create pods.
+ * Error_download: Downloading the template from original source wasn't possible.
+ * Error_template: Rendering the template without providing parameters resulted in error.
+ * No_pod_object_but_crd: The chart didn't render any object that can create pods, but has CRD that could do so.
+ * No_pod_object_no_crd: The chart didn't render any object that can create pods nor CRDs.
+ * Version_not_evaluable: The cart includes deployment, daemonset, etc. of v1beta1 that can't be evaluated by the library.
+
+### Operator evaluation with BadRobot score
+
+[BadRobot](https://github.com/controlplaneio/badrobot) evaluates how secure Kubernetes operators are. For each operator included in a chart, a score is calculated with a set of security practices. The closer to zero the score, the better.
+
+| Score | Number of charts |
+|------|------|
+| Non-evaluable | 544 |
+| No workload | 1520 |
+| [0, -50) | 5630 |
+| [-50, -100) | 993 |
+| [-100, -150) | 105 |
+| [-150, -200) | 26 |
+| [-200, -250) | 14 |
+| [-250, -300) | 7 |
+| [-300, -350) | 2 |
+| [-350, -400) | 1 |
+| [-400, -450) | 1 |
+| [-450, -500) | 0 |
+| [-500, -550) | 1 |
+| [-550, -600) | 0 |
+| [-600, -650) | 0 |
+| [-650, -700) | 1 |
 
 ### Charts list
 

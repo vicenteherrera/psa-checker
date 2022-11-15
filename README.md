@@ -74,6 +74,10 @@ helm template prometheus-community/kube-prometheus-stack | psa-checker --level r
 
 This will work also for local charts that you are working with on your hard drive.
 
+### Using it in a pipeline
+
+psa-checker returns errorlevel 1 if the specified level is not achieved for the supplied manifest(s). That allows us to use it in a pipeline to check the compliance of YAML manifests or helm charts before having to deploy them to a cluster and watch logs for failed pods. The pipeline will stop on error, and its log will show the psa-checker evaluation.
+
 ### Checking all running pods in a cluster
 
 You can query for the YAML manifest for all pods running in a cluster, and evaluate all of them in a single line:
