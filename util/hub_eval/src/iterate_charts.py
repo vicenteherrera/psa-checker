@@ -28,7 +28,8 @@ def count_in_file(str, filename):
     return n
 
 def evaluate_badrobot(template, log_badrobot):
-    os.system("badrobot scan " + template + " | jq '[.[].score] | add' > " + log_badrobot)
+    os.system("badrobot scan " + template + " > eval_" + log_badrobot)
+    os.system("cat eval_" + log_badrobot + " | jq '[.[].score] | add' > " + log_badrobot)
     with open(log_badrobot) as f:
         score_badrobot = f.readline().strip('\n')
     return score_badrobot
