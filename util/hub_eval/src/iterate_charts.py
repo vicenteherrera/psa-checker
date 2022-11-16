@@ -28,8 +28,8 @@ def count_in_file(str, filename):
     return n
 
 def evaluate_badrobot(template, log_badrobot):
-    os.system("badrobot scan " + template + " > eval_" + log_badrobot)
-    os.system("cat eval_" + log_badrobot + " | jq '[.[].score] | add' > " + log_badrobot)
+    os.system("badrobot scan " + template + " > " + log_badrobot + "_eval")
+    os.system("cat " + log_badrobot + "_eval | jq '[.[].score] | add' > " + log_badrobot)
     with open(log_badrobot) as f:
         score_badrobot = f.readline().strip('\n')
     return score_badrobot
@@ -90,7 +90,7 @@ for dic_chart in charts_source:
 
     if key in keys_pss:
         print("  Chart+repo exists on charts PSS file")
-        if not "score_badrobot" in charts_pss[key]["pss"]:
+        if not "score_badrobot" in charts_pss[key]["pss"] or charts_pss[key]["pss"]["score_badrobot"]=="": 
             if charts_pss[key]["pss"]["level"][0:5]=="error":
                 print("    Skipping badrobot score for chart in state: " + charts_pss[key]["pss"]["level"])
             else:
