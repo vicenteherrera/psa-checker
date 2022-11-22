@@ -27,12 +27,23 @@ def count_in_file(str, filename):
                 n += 1
     return n
 
-def evaluate_badrobot(template, log_badrobot):
-    os.system("badrobot scan " + template + " > " + log_badrobot + "_eval")
-    os.system("cat " + log_badrobot + "_eval | jq '[.[].score] | add' > " + log_badrobot)
-    with open(log_badrobot) as f:
+def evaluate_badrobot(template, log_badrobot):  
+    os.system("badrobot scan " + template + " > " + log_badrobot )
+    os.system("cat " + log_badrobot + " | jq '[.[].score] | add' > " + log_badrobot + "_sum")
+    with open(log_badrobot+"_sum") as f:
         score_badrobot = f.readline().strip('\n')
     return score_badrobot
+
+def has_evaluation(chart_dict, eval_key):
+    if eval_key in chart_dict and "score" in chart_dict[eval_key] and chart_dict[eval_key]["score"] != "":
+        return True
+    return False
+
+def is_chart_error(chart_dict):
+    if "pss" in chart_dict and "level" in chart_dict["pss"] and chart_dict["pss"]["level"][0:5]=="error":
+        return True
+    return False
+ 
 
 start = datetime.now()
 psa_version = "0.0.1"
@@ -80,37 +91,41 @@ for dic_chart in charts_source:
     app_version = dic_chart["app_version"]
     parts       = dic_chart["url"].split("/")
     chart       = get_chart_name( dic_chart["url"] )
-    logs_prefix = logs_dir + "/" + repo + "_" + chart + "_" + version
-    log_badrobot = logs_prefix + "_badrobot.log"
-    template     = logs_prefix + "_template.yaml"
-    key         = repo + "__" + chart
+    logs_prefix    = logs_dir + "/" + repo + "_" + chart + "_" + version
+    log_badrobot   = logs_prefix + "_badrobot.log"
+    log_helm       = logs_prefix + "_helm.log"
+    log_baseline   = logs_prefix + "_baseline.log"
+    log_restricted = logs_prefix + "_restricted.log"
+    template       = logs_prefix + "_template.yaml"
+    key            = repo + "__" + chart
     
     i+=1
     print( "# ["+ str(i) + "/" + str(len(charts_source))+ "] " + repo + "/" + chart + " "+ version)
 
+
     if key in keys_pss:
-        print("  Chart+repo exists on charts PSS file")
-        if not "score_badrobot" in charts_pss[key]["pss"] or charts_pss[key]["pss"]["score_badrobot"]=="": 
-            if charts_pss[key]["pss"]["level"][0:5]=="error":
-                print("    Skipping badrobot score for chart in state: " + charts_pss[key]["pss"]["level"])
-            else:
+        print("  Chart+repo version " + version + " exists on evaluated charts list")
+
+        # remove_key = charts_pss[key]["pss"].pop("score_badrobot", None)
+
+        if not has_evaluation(charts_pss[key],"badrobot"):
+            if not is_chart_error(charts_pss[key]):
                 print("  Adding badrobot evaluation")
-                charts_pss[key]["pss"]["score_badrobot"] = evaluate_badrobot(template, log_badrobot)
-                print("    Badrobot score: " + charts_pss[key]["pss"]["score_badrobot"])
+                charts_pss[key]["badrobot"] = {
+                   "score": evaluate_badrobot(template, log_badrobot),
+                   "date": now
+                }
+                print("    Badrobot score: " + charts_pss[key]["badrobot"]["score"])
                 j += 1
-        else:
-            print("    Skipping badrobot score already evaluated: " + charts_pss[key]["pss"]["score_badrobot"])
+        
         if charts_pss[key]["pss"]["psa-checker_version"] == psa_version:
             if charts_pss[key]["pss"]["chart_version"] == version:
-                print("    Skipping chart version " + version + " already evaluated with psa-checker " + psa_version)
+                print("    Skipping evaluation with psa-checker " + psa_version)
                 continue
             if charts_pss[key]["pss"]["chart_version"] > version:
                 print("    Skipping chart version " + version + " is lower than " + charts_pss[key]["pss"]["chart_version"] + " already evaluated with psa-checker " + psa_version)
                 continue
 
-    log_helm       = logs_prefix + "_helm.log"
-    log_baseline   = logs_prefix + "_baseline.log"
-    log_restricted = logs_prefix + "_restricted.log"
     log = ""
     repo_update = 0
     gen_template = 0
@@ -173,13 +188,6 @@ for dic_chart in charts_source:
                     level = "privileged"
 
     print("  Level: " + level)
-
-    if level=="error":
-        print("    Skipping badrobot score for chart in state: " + level)
-    else:
-        print("  Adding badrobot evaluation")
-        score_badrobot = evaluate_badrobot(template, log_badrobot)
-        print("    Badrobot score: " + score_badrobot)
 
     psa_dict = {
         "level" : level,
