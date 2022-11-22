@@ -61,8 +61,8 @@ for key in keys_pss:
             date = dic_chart["pss"]["date"]
         level = dic_chart["pss"]["level"]
 
-        if "score_badrobot" in dic_chart["pss"]:
-            score = dic_chart["pss"]["score_badrobot"]
+        if "badrobot" in dic_chart:
+            score = dic_chart["badrobot"]["score"]
             if score == "":
                 br_non_evaluable += 1
             elif dic_chart["pss"]["level"] in ["empty_no_object", "no_pod_object_but_crd", "no_pod_object"]:
@@ -151,8 +151,8 @@ for key in keys_pss:
     brscore = ""
     if "pss" in dic_chart:
         level = dic_chart["pss"]["level"]
-        if "score_badrobot" in dic_chart["pss"]:
-            brscore = dic_chart["pss"]["score_badrobot"]
+        if "badrobot" in dic_chart:
+            brscore = dic_chart["badrobot"]["score"]
     # print( "# ["+ str(i) + "/" + str(len(keys_pss))+ "] " + repo + " " + chart + " " + level)
     list_md.write("| [" + repo + "](" + url + ") | " + chart + " | " + level  + " | " + brscore  + " | " + version + " | " + app_version  + " |\n")
     # sys.exit()
