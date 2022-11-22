@@ -3,6 +3,8 @@
 This command line tool statically checks for _Pod Security Standards_ levels on local YAML manifests or helm templates.
 
 GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)
+Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)
+Installation: `go install github.com/vicenteherrera/psa-checker@latest`
 
 ## Motivation
 
@@ -74,6 +76,31 @@ helm template prometheus-community/kube-prometheus-stack | psa-checker --level r
 
 This will work also for local charts that you are working with on your hard drive.
 
+### Validating a helm chart in a pipeline
+
+psa-checker will exit with errorlevel 1 if your provided manifests do not comply with the specified PSS level. You can use it to check it inside a pipeline to prevent deploying a Helm chart that whith pods that will be blocked on the running cluster. For example, if your Helm chart is in a `helm_chart` directory, you can use a workflow for GitHub Actions like this:
+
+```yaml
+name: Check PSS level baseline for helm chart
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  Check-PSS-Level:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: '>=1.18.0'
+      - run: go install github.com/vicenteherrera/psa-checker@latest
+      - run: helm template ./helm_chart | psa-checker --level baseline -f -
+```
+
 ### Checking all running pods in a cluster
 
 You can query for the YAML manifest for all pods running in a cluster, and evaluate all of them in a single line:
@@ -83,6 +110,7 @@ kubectl get pods -A -oyaml | yq '.items[] | split_doc' | psa-checker -l baseline
 ```
 
 This will work even if you don't have enabled the admission controller for Pod Security Standards on your cluster (even an old cluster where it's not present at all), as the evaluation is done locally.
+
 
 ## Installation
 
