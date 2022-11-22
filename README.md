@@ -2,9 +2,9 @@
 
 This command line tool statically checks for _Pod Security Standards_ levels on local YAML manifests or helm templates.
 
-GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)
-Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)
-Installation: `go install github.com/vicenteherrera/psa-checker@latest`
+GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)  
+Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
+Installation: `go install github.com/vicenteherrera/psa-checker@latest`  
 
 ## Motivation
 
