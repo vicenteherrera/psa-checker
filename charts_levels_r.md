@@ -2,16 +2,16 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-13, 10:27:38
+Evaluation date: 2022-11-22, 11:59:48
 
-[main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(356)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
-| [rabbitmq-stomp](https://spy86.github.io/rabbitmq-stomp) | rabbitmq-stomp | baseline | -13 | 0.1.1 | 3.10.0 |
+| [rabbitmq-stomp](https://spy86.github.io/rabbitmq-stomp) | rabbitmq-stomp | error_download |  | 0.1.1 | 3.10.0 |
 | [rabbitmq](https://luizpolezel.github.io/) | rabbitmq-ha | error_download |  | 1.38.2 | 3.8.0 |
-| [radar-base](https://radar-base.github.io/radar-helm-charts) | app-config | baseline | -13 | 0.2.3 | 0.3.3 |
-| [radar-base](https://radar-base.github.io/radar-helm-charts) | app-config-frontend | baseline | -12 | 0.2.2 | 0.3.3 |
+| [radar-base](https://radar-base.github.io/radar-helm-charts) | app-config | baseline | -13 | 0.2.4 | 0.4.2 |
+| [radar-base](https://radar-base.github.io/radar-helm-charts) | app-config-frontend | baseline | -12 | 0.2.3 | 0.4.2 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | catalog-server | baseline | -12 | 0.4.2 | 0.8.0 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | cc-schema-registry-proxy | baseline | -12 | 0.2.3 | 1.0 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | cert-manager | restricted | -105 | 1.10.0 | v1.10.0 |
@@ -36,40 +36,42 @@ Evaluation date: 2022-11-13, 10:27:38
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-jdbc-connector | baseline | -12 | 0.4.0 | 10.5.2 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-output | baseline | 0 | 0.3.1 | 2.3.1 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-push-endpoint | baseline | -12 | 0.1.4 | 0.2.2 |
-| [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-rest-sources-authorizer | baseline | -12 | 0.4.3 | 4.1.0 |
-| [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-rest-sources-backend | baseline | -12 | 0.4.2 | 4.1.0 |
+| [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-rest-sources-authorizer | baseline | -12 | 0.4.4 | 4.1.3 |
+| [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-rest-sources-backend | baseline | -12 | 0.4.3 | 4.1.3 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-s3-connector | baseline | -12 | 0.2.3 | 7.1.1 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-upload-connect-backend | baseline | -12 | 0.2.3 | 0.5.10 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-upload-connect-frontend | baseline | -12 | 0.2.3 | 0.5.10 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | radar-upload-source-connector | baseline | -12 | 0.2.2 | 0.5.10 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | redis | baseline | 0 | 16.8.7 | 6.2.6 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | s3-proxy | baseline | -12 | 0.1.3 | 1.0 |
+| [radar-base](https://radar-base.github.io/radar-helm-charts) | trivy | baseline | 0 | 0.4.17 | 0.30.4 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | velero | baseline | -26 | 2.30.1 | 1.9.0 |
 | [radar-base](https://radar-base.github.io/radar-helm-charts) | velero-s3-deployment | privileged | -48 | 0.1.0 | 1.0 |
-| [rainloop](https://gitlab.com/api/v4/projects/31657296/packages/helm/stable) | rainloop | baseline | -13 | 0.3.0 | 1.17.0 |
-| [rancher-latest](https://releases.rancher.com/server-charts/latest) | rancher | baseline | -72 | 2.7.0-rc9 | v2.7.0-rc9 |
-| [rancher-stable](https://releases.rancher.com/server-charts/stable) | rancher | baseline | -72 | 2.6.9 | v2.6.9 |
-| [ranjinigogga](https://ranjinigogga.github.io) | pages | privileged | -60 | 1.0.0 | 1.0 |
+| [rainloop](https://gitlab.com/api/v4/projects/31657296/packages/helm/stable) | rainloop | error_download |  | 0.3.0 | 1.17.0 |
+| [rancher-latest](https://releases.rancher.com/server-charts/latest) | rancher | error_download |  | 2.7.0-rc9 | v2.7.0-rc9 |
+| [rancher-stable](https://releases.rancher.com/server-charts/stable) | rancher | error_download |  | 2.6.9 | v2.6.9 |
+| [ranjinigogga](https://ranjinigogga.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
 | [raphael](https://raphaelmonrouzeau.github.io/charts/repository/) | dolibarr | baseline | -12 | 0.0.1 | 13.0.0 |
 | [raphael](https://raphaelmonrouzeau.github.io/charts/repository/) | nfs-server-provisioner | privileged | -10 | 1.3.0 | 3.0.0 |
-| [rapidfort](https://rapidfort.github.io/helm) | k8s-scanner | privileged | -1 | 0.1.4 |  |
-| [rasa-x](https://rasahq.github.io/rasa-x-helm) | rasa-x | baseline | 0 | 4.5.11 | 1.2.2 |
-| [rasa](https://helm.rasa.com) | duckling | baseline | 0 | 1.1.4 | 0.2.0.2-r0 |
+| [rapidfort](https://rapidfort.github.io/helm) | k8s-scanner | error_download |  | 0.1.4 |  |
+| [rasa-x](https://rasahq.github.io/rasa-x-helm) | rasa-x | error_download |  | 4.5.11 | 1.2.2 |
+| [rasa](https://helm.rasa.com) | duckling | empty_no_object |  | 1.1.4 | 0.2.0.2-r0 |
 | [rasa](https://helm.rasa.com) | rasa | baseline | 0 | 1.17.3 | 3.2.6 |
 | [rasa](https://helm.rasa.com) | rasa-action-server | baseline | 0 | 1.0.3 | 2.7.0 |
-| [rasa](https://helm.rasa.com) | rasa-common | empty_no_object |  | 1.0.2 | 1.0.2 |
-| [rasooll](https://rasooll.github.io/helm-charts) | postfix | baseline | -24 | 0.0.1 | latest |
-| [rasooll](https://rasooll.github.io/helm-charts) | stunnel | baseline | -24 | 0.0.1 | 5.56-r1 |
-| [raspberrymatic](https://jens-maus.github.io/RaspberryMatic) | raspberrymatic | privileged | -28 | 3.65.11 | 3.65.11.20221005 |
-| [ravendb-cluster](https://ravendb.github.io/helm-charts/charts) | ravendb-cluster | empty_no_object |  | 2.0.2 | 5.3 |
-| [rbac](https://tomibarreche.github.io/rbac/) | rbac-chart | no_pod_object | 0 | 0.2.1 | 1.16.0 |
-| [rc-helm-charts](https://rodolfojcj.github.io/rc-helm-charts) | saleor | baseline | -25 | 0.1.1 | 3.1.0-alpha |
-| [rc-helm-charts](https://rodolfojcj.github.io/rc-helm-charts) | taiga | baseline | -12 | 0.1.0 | 6 |
-| [rchench](https://rchench.github.io/charts/) | mychart | baseline | -12 | 0.1.0 | 1.16.0 |
+| [rasa](https://helm.rasa.com) | rasa-common | error_template |  | 1.0.2 | 1.0.2 |
+| [rasooll](https://rasooll.github.io/helm-charts) | postfix | error_download |  | 0.0.1 | latest |
+| [rasooll](https://rasooll.github.io/helm-charts) | stunnel | error_download |  | 0.0.1 | 5.56-r1 |
+| [raspberrymatic](https://jens-maus.github.io/RaspberryMatic) | raspberrymatic | error_download |  | 3.65.11 | 3.65.11.20221005 |
+| [ravendb-cluster](https://ravendb.github.io/helm-charts/charts) | ravendb-cluster | error_download |  | 2.0.2 | 5.3 |
+| [rbac](https://tomibarreche.github.io/rbac/) | rbac-chart | error_download |  | 0.2.1 | 1.16.0 |
+| [rc-helm-charts](https://rodolfojcj.github.io/rc-helm-charts) | saleor | error_download |  | 0.1.1 | 3.1.0-alpha |
+| [rc-helm-charts](https://rodolfojcj.github.io/rc-helm-charts) | taiga | error_download |  | 0.1.0 | 6 |
+| [rchench](https://rchench.github.io/charts/) | mychart | error_download |  | 0.1.0 | 1.16.0 |
+| [rdfox-helm-chart](https://sintef.github.io/rdfox-helm-chart) | rdfox | error_download |  | 0.1.1 | 5.6 |
 | [rdszpechteoloplanner](https://raw.githubusercontent.com/rdszpecht/K8S-example/main/helm/eoloplanner/charts) | eoloplanner | error_download |  | 0.1.0 | 1.0 |
-| [react-java](https://qwakumuller.github.io/Helms/chart/) | java | baseline | -24 | 0.1.0 | 0.0.1 |
-| [rebecca-pages](https://osullr11.github.io) | pages | privileged | -60 | 1.0.0 | 1.0 |
-| [redash](https://getredash.github.io/contrib-helm-chart/) | redash | empty_no_object |  | 3.0.0 | 10.0.0.b50633 |
+| [react-java](https://qwakumuller.github.io/Helms/chart/) | java | error_download |  | 0.1.0 | 0.0.1 |
+| [rebecca-pages](https://osullr11.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
+| [redash](https://getredash.github.io/contrib-helm-chart/) | redash | error_download |  | 3.0.0 | 10.0.0.b50633 |
 | [redestroyder](https://redestroyder.github.io/helm-charts/) | authentication-service | baseline | -12 | 0.2.2 | 0.0.1 |
 | [redestroyder](https://redestroyder.github.io/helm-charts/) | business-service | baseline | -12 | 0.2.1 | 0.0.1 |
 | [redhat-cop](https://redhat-cop.github.io/helm-charts) | ansible-automation-platform | baseline | -12 | 0.0.5 | v2.0.1 |
@@ -79,7 +81,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [redhat-cop](https://redhat-cop.github.io/helm-charts) | dev-ex-dashboard | no_pod_object_but_crd | 0 | 0.0.5 | v1.0 |
 | [redhat-cop](https://redhat-cop.github.io/helm-charts) | etherpad | baseline | 0 | 0.0.7 | latest |
 | [redhat-cop](https://redhat-cop.github.io/helm-charts) | gitea | error_template |  | 0.1.2 | latest |
-| [redhat-cop](https://redhat-cop.github.io/helm-charts) | gitops-operator | baseline | -38 | 0.4.8 | v2.4.15 |
+| [redhat-cop](https://redhat-cop.github.io/helm-charts) | gitops-operator | baseline | -38 | 0.4.9 | v2.4.17 |
 | [redhat-cop](https://redhat-cop.github.io/helm-charts) | helper-console-links | no_pod_object_but_crd | 0 | 0.0.4 | v1.6.1 |
 | [redhat-cop](https://redhat-cop.github.io/helm-charts) | helper-sealed-secrets | no_pod_object_but_crd | 0 | 1.0.3 | v1 |
 | [redhat-cop](https://redhat-cop.github.io/helm-charts) | ipa | no_pod_object_but_crd | -1 | 1.3.0 | 1.16.0 |
@@ -102,56 +104,56 @@ Evaluation date: 2022-11-13, 10:27:38
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-cpq-prod | error_template |  | 4.0.4 | 10.0.0.22 |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-mongodb-enterprise-helm | baseline | -12 | 0.3.0 | 4.4.0 |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-object-storage-plugin | error_template |  | 2.0.7 | 2.0.7 |
-| [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-oms-ent-prod | empty_no_object |  | 6.0.0 | 10.0.0 |
-| [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-oms-pro-prod | empty_no_object |  | 6.0.0 | 10.0.0 |
+| [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-oms-ent-prod | error_template |  | 6.0.0 | 10.0.0 |
+| [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-oms-pro-prod | error_template |  | 6.0.0 | 10.0.0 |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-operator-catalog-enablement | error_template |  | 1.1.0 | 1.1.0 |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-seas | error_template |  | 1.2.2 | 6.0.3.0.01plus |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-sfg-prod | error_template |  | 2.0.0 | 6.1.0.0 |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-ssp-cm | error_template |  | 1.2.2 | 6.0.3.0.01plus |
-| [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-ssp-engine | empty_no_object |  | 1.2.2 | 6.0.3.0.01plus |
+| [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-ssp-engine | error_template |  | 1.2.2 | 6.0.3.0.01plus |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | ibm-ssp-ps | error_template |  | 1.2.2 | 6.0.3.0.01plus |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | nodejs | baseline | -12 | 0.0.1 |  |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | nodejs-ex-k | no_pod_object_but_crd | 0 | 0.2.1 | 1.16.0 |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | quarkus | baseline | -12 | 0.0.3 |  |
 | [redhat](https://redhat-developer.github.io/redhat-helm-charts) | wildfly | error_template |  | 1.4.0 | 24.0 |
-| [redis-chart](https://renatofenrir.github.io/redis-chart/charts) | redis-cart | baseline | -12 | 0.1.0 | v0.2.0 |
-| [redis](https://spy86.github.io/redis) | redis | baseline | -13 | 0.1.1 | 6.0.8.9 |
-| [redisinsight](https://spy86.github.io/redisinsight) | redisinsight | baseline | -12 | 0.1.0 | 0.1.0 |
-| [redisk8s](https://haolowkey.github.io/helm-redis) | redis | baseline | -13 | 2.1.1 | 5.0.14 |
-| [redpanda-data](https://charts.redpanda.com) | redpanda | baseline | -48 | 2.3.0 | v22.2.7 |
-| [redpanda](https://charts.vectorized.io/) | redpanda-operator | baseline | -14 | 22.3.1 | v22.3.1 |
+| [redis-chart](https://renatofenrir.github.io/redis-chart/charts) | redis-cart | error_download |  | 0.1.0 | v0.2.0 |
+| [redis](https://spy86.github.io/redis) | redis | error_download |  | 0.1.1 | 6.0.8.9 |
+| [redisinsight](https://spy86.github.io/redisinsight) | redisinsight | error_download |  | 0.1.0 | 0.1.0 |
+| [redisk8s](https://haolowkey.github.io/helm-redis) | redis | error_download |  | 2.1.1 | 5.0.14 |
+| [redpanda-data](https://charts.redpanda.com) | redpanda | error_download |  | 2.3.2 | v22.3.3 |
+| [redpanda](https://charts.vectorized.io/) | redpanda-operator | error_download |  | 22.3.3 | v22.3.3 |
 | [redsky](https://redskyops.dev/charts/) | redskyops | error_download |  | 0.2.2 | v1.6.0 |
-| [reecexlm](http://anchorplatformhelmchart.s3-website.us-east-2.amazonaws.com) | sep | empty_no_object |  | 0.3.91 | 1.0 |
-| [registry-creds](https://moonape1226.github.io/registry-creds) | registry-creds | baseline | -14 | 0.1.5 | 0.3.1 |
+| [reecexlm](http://anchorplatformhelmchart.s3-website.us-east-2.amazonaws.com) | sep | error_download |  | 0.3.91 | 1.0 |
+| [registry-creds](https://moonape1226.github.io/registry-creds) | registry-creds | error_download |  | 0.1.5 | 0.3.1 |
 | [regscale-aws-helm-chart](https://regscale.github.io/helm/aws-helm-chart) | aws-helm | baseline | -12 | 0.2.0 | 1.16.0 |
 | [regscale-azure-helm](https://regscale.github.io/helm/) | azure-helm | error_download |  | 0.4.0 | 1.16.0 |
-| [reliably-agent](https://reliablyhq.github.io/helm-charts/) | reliably-agent | baseline | 0 | 0.1.0 | latest |
-| [reload-counter](https://alaaaamin.github.io/helm-reload-counter-chart/) | reload-counter | baseline | -24 | 0.1.0 | 1.0.1 |
-| [relution](https://relution-io.github.io/relution-kubernetes/) | relution | error_template |  | 0.0.9 | 5.12.1 |
-| [remche](https://charts.remche.org) | shinyproxy | baseline | -12 | 0.6.5 | 2.6.1 |
-| [remche](https://charts.remche.org) | vapormap | baseline | -24 | 0.1.0 | 0.0.0.0.0.0.0.1-rc0 |
-| [remche](https://charts.remche.org) | z2jh4k8s | error_template |  | 0.0.2 |  |
-| [renoki-co](https://helm.renoki.org) | laravel | baseline | 0 | 1.0.0 | 8.0.0 |
-| [renoki-co](https://helm.renoki.org) | laravel-octane | baseline | 0 | 1.0.0 | 8.0.0 |
-| [renoki-co](https://helm.renoki.org) | laravel-worker | baseline | 0 | 1.0.0 | 8.0.0 |
-| [renovate-on-prem](https://mend.github.io/renovate-on-prem) | whitesource-renovate | baseline | -13 | 3.1.3 | 2.6.0 |
-| [renovate](https://docs.renovatebot.com/helm-charts) | renovate | error_template |  | 34.23.1 | 34.23.1 |
-| [repman-helmchart](https://pixelfederation.github.io/repman) | repman | baseline | -12 | 1.0.6 |  |
-| [reporting-application](https://tomibarreche.github.io/reporting-application/) | reporting-chart | baseline | 0 | 0.1.0 | 1.2.0 |
-| [reportportal](https://karthick-kk.github.io/helm-charts/) | minio | baseline | -1 | 7.1.9 | 2021.6.17 |
-| [reportportal](https://karthick-kk.github.io/helm-charts/) | postgresql | baseline | 0 | 10.9.4 | 11.13.0 |
-| [reportportal](https://karthick-kk.github.io/helm-charts/) | rabbitmq | baseline | 0 | 7.5.6 | 3.8.5 |
-| [reportportal](https://karthick-kk.github.io/helm-charts/) | reportportal | baseline | -96 | 5.7.2 | 5.7.2 |
-| [reposilite](https://helm.reposilite.com) | reposilite | baseline | -12 | 1.0.4 | 3.1.1 |
-| [repotest](https://vivekrscode.github.io/helmrepotest/) | repotest | baseline | -12 | 0.1.0 | 1.16.0 |
-| [request-dumper](http://kakakikikeke.github.io/request-dumper/) | request-dumper | baseline | -12 | 0.1.2 | 0.0.3 |
-| [request-registry](https://gitlab.com/open-forms/request-registry/-/raw/master/helm/) | postgresql | baseline | 0 | 10.1.1 | 11.10.0 |
-| [request-registry](https://gitlab.com/open-forms/request-registry/-/raw/master/helm/) | request-registry | baseline | -12 | 0.1.0 | V1.0 |
+| [reliably-agent](https://reliablyhq.github.io/helm-charts/) | reliably-agent | error_download |  | 0.1.0 | latest |
+| [reload-counter](https://alaaaamin.github.io/helm-reload-counter-chart/) | reload-counter | error_download |  | 0.1.0 | 1.0.1 |
+| [relution](https://relution-io.github.io/relution-kubernetes/) | relution | error_download |  | 0.0.9 | 5.12.1 |
+| [remche](https://charts.remche.org) | shinyproxy | error_download |  | 0.6.5 | 2.6.1 |
+| [remche](https://charts.remche.org) | vapormap | error_download |  | 0.1.0 | 0.0.0.0.0.0.0.1-rc0 |
+| [remche](https://charts.remche.org) | z2jh4k8s | error_download |  | 0.0.2 |  |
+| [renoki-co](https://helm.renoki.org) | laravel | error_download |  | 1.0.0 | 8.0.0 |
+| [renoki-co](https://helm.renoki.org) | laravel-octane | error_download |  | 1.0.0 | 8.0.0 |
+| [renoki-co](https://helm.renoki.org) | laravel-worker | error_download |  | 1.0.0 | 8.0.0 |
+| [renovate-on-prem](https://mend.github.io/renovate-on-prem) | whitesource-renovate | error_download |  | 3.1.3 | 2.6.0 |
+| [renovate](https://docs.renovatebot.com/helm-charts) | renovate | error_download |  | 34.30.0 | 34.30.0 |
+| [repman-helmchart](https://pixelfederation.github.io/repman) | repman | error_download |  | 1.0.6 |  |
+| [reporting-application](https://tomibarreche.github.io/reporting-application/) | reporting-chart | error_download |  | 0.1.0 | 1.2.0 |
+| [reportportal](https://karthick-kk.github.io/helm-charts/) | minio | error_download |  | 7.1.9 | 2021.6.17 |
+| [reportportal](https://karthick-kk.github.io/helm-charts/) | postgresql | error_download |  | 10.9.4 | 11.13.0 |
+| [reportportal](https://karthick-kk.github.io/helm-charts/) | rabbitmq | error_download |  | 7.5.6 | 3.8.5 |
+| [reportportal](https://karthick-kk.github.io/helm-charts/) | reportportal | error_download |  | 5.7.2 | 5.7.2 |
+| [reposilite](https://helm.reposilite.com) | reposilite | error_download |  | 1.0.4 | 3.1.1 |
+| [repotest](https://vivekrscode.github.io/helmrepotest/) | repotest | error_download |  | 0.1.0 | 1.16.0 |
+| [request-dumper](http://kakakikikeke.github.io/request-dumper/) | request-dumper | error_download |  | 0.1.2 | 0.0.3 |
+| [request-registry](https://gitlab.com/open-forms/request-registry/-/raw/master/helm/) | postgresql | error_download |  | 10.1.1 | 11.10.0 |
+| [request-registry](https://gitlab.com/open-forms/request-registry/-/raw/master/helm/) | request-registry | error_download |  | 0.1.0 | V1.0 |
 | [requestnetwork](https://request-charts.storage.googleapis.com/) | api-sync | error_template |  | 0.1.2 | 0.1.2 |
 | [requestnetwork](https://request-charts.storage.googleapis.com/) | eth-watch | error_template |  | 0.1.5 | 0.1.5 |
 | [requestnetwork](https://request-charts.storage.googleapis.com/) | request-ipfs | baseline | 0 | 0.6.10 | 0.3.0 |
 | [requestnetwork](https://request-charts.storage.googleapis.com/) | request-node | error_template |  | 0.6.17 | 0.6.6 |
-| [reservation-app](https://zbalogh.github.io/reservation-app) | reservation-app | baseline | -48 | 1.0.9 | 1.0.9 |
+| [reservation-app](https://zbalogh.github.io/reservation-app) | reservation-app | error_download |  | 1.0.9 | 1.0.9 |
 | [restorecommerce](https://restorecommerce.github.io/helm/) | access-control-srv | error_download |  | 0.1.8 | 0.2.3 |
 | [restorecommerce](https://restorecommerce.github.io/helm/) | catalog-srv | error_download |  | 0.1.3 | 0.0.4 |
 | [restorecommerce](https://restorecommerce.github.io/helm/) | console | error_download |  | 0.1.7 | 0.0.2 |
@@ -171,12 +173,12 @@ Evaluation date: 2022-11-13, 10:27:38
 | [restorecommerce](https://restorecommerce.github.io/helm/) | scheduling-srv | error_download |  | 0.1.10 | 0.2.2 |
 | [restorecommerce](https://restorecommerce.github.io/helm/) | store-front | error_download |  | 0.1.5 | 0.0.1 |
 | [restorecommerce](https://restorecommerce.github.io/helm/) | system | error_download |  | 0.1.7 |  |
-| [resume-parser](https://bhuwanupadhyay.github.io/resume-parser/) | resume-parser | baseline | -12 | 0.0.3 | 0.0.1 |
-| [resurfaceio](https://resurfaceio.github.io/containers/) | netsniffer | empty_no_object |  | 1.1.2 | 1.0.1 |
-| [resurfaceio](https://resurfaceio.github.io/containers/) | resurface | baseline | -38 | 3.3.0 | 3.3.13 |
-| [retool](https://charts.retool.com) | retool | error_template |  | 4.11.5 |  |
-| [review-component](https://raw.githubusercontent.com/ConductionNL/review-component/master/api/helm/) | review-component | baseline | -24 | 1.0.0 | V1.0 |
-| [rewards-api](https://tuliohfilho.github.io/rewards/charts) | rewards-api | no_pod_object | 0 | 0.1.0 | 0.0.1 |
+| [resume-parser](https://bhuwanupadhyay.github.io/resume-parser/) | resume-parser | error_download |  | 0.0.3 | 0.0.1 |
+| [resurfaceio](https://resurfaceio.github.io/containers/) | netsniffer | error_download |  | 1.1.2 | 1.0.1 |
+| [resurfaceio](https://resurfaceio.github.io/containers/) | resurface | error_download |  | 3.3.0 | 3.3.13 |
+| [retool](https://charts.retool.com) | retool | error_download |  | 4.11.5 |  |
+| [review-component](https://raw.githubusercontent.com/ConductionNL/review-component/master/api/helm/) | review-component | error_download |  | 1.0.0 | V1.0 |
+| [rewards-api](https://tuliohfilho.github.io/rewards/charts) | rewards-api | error_download |  | 0.1.0 | 0.0.1 |
 | [rgnu](https://gitlab.com/mulesoft-int/helm-repository/-/raw/master/) | bookinfo | baseline | -84 | 1.0.0 |  |
 | [rgnu](https://gitlab.com/mulesoft-int/helm-repository/-/raw/master/) | hello-world | baseline | -24 | 1.0.3 |  |
 | [rgnu](https://gitlab.com/mulesoft-int/helm-repository/-/raw/master/) | httpbin | baseline | -12 | 1.0.0 |  |
@@ -302,7 +304,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | opensearch | no_pod_object_but_crd | -13 | 0.1.1 | 0.1.1 |
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | operator-minio | baseline | 0 | 4.4.25 |  |
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | patch-operator | baseline | -38 | 0.1.0 | 0.1.0 |
-| [risserlabs](https://risserlabs.gitlab.io/community/charts) | phani | empty_no_object |  | 0.0.1 | 0.0.1 |
+| [risserlabs](https://risserlabs.gitlab.io/community/charts) | phani | error_template |  | 0.0.1 | 0.0.1 |
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | postgres | baseline | -66 | 1.3.0 | 1.3.0 |
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | postgres-crd | no_pod_object_but_crd | 0 | 0.0.1 |  |
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | postgres-crds | no_pod_object_but_crd | 0 | 1.3.0 |  |
@@ -315,8 +317,8 @@ Evaluation date: 2022-11-13, 10:27:38
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | wordpress | no_pod_object_but_crd | 0 | 0.0.1 | latest |
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | xtradb | no_pod_object_but_crd | 0 | 0.0.1 | 0.71.0 |
 | [rlex](https://rlex.github.io/helm-charts) | cloudflare-tunnel | baseline | 0 | 0.2.0 | 0.6.0 |
-| [rlex](https://rlex.github.io/helm-charts) | coroot | baseline | -12 | 0.5.0 | 0.6.0 |
-| [rlex](https://rlex.github.io/helm-charts) | coroot-node-agent | privileged | -16 | 0.1.2 | 1.0.21 |
+| [rlex](https://rlex.github.io/helm-charts) | coroot | baseline |  | 0.6.0 | 0.7.1 |
+| [rlex](https://rlex.github.io/helm-charts) | coroot-node-agent | privileged |  | 0.2.0 | 0.7.1 |
 | [rlex](https://rlex.github.io/helm-charts) | flame | baseline | -13 | 0.3.0 | 2.1.1 |
 | [rlex](https://rlex.github.io/helm-charts) | freetakserver | empty_no_object |  | 1.0.12 | 1.2.5 |
 | [rlex](https://rlex.github.io/helm-charts) | grist | baseline | -12 | 0.1.0 | 0.7.9 |
@@ -326,7 +328,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [rlex](https://rlex.github.io/helm-charts) | kube-web-view | baseline | -13 | 0.2.0 | 22.9.0 |
 | [rlex](https://rlex.github.io/helm-charts) | kubernetes-diff-logger | baseline | -1 | 0.1.2 | 0.0.5 |
 | [rlex](https://rlex.github.io/helm-charts) | prometheus-webhook-dingtalk | baseline | 0 | 0.0.3 | 1.4.0 |
-| [rlex](https://rlex.github.io/helm-charts) | pyrra | baseline | -13 | 0.2.4 | v0.4.4 |
+| [rlex](https://rlex.github.io/helm-charts) | pyrra | baseline |  | 0.3.0 | 0.6.0 |
 | [rlex](https://rlex.github.io/helm-charts) | runtimeclass-controller | baseline | -13 | 0.1.0 | latest |
 | [rlex](https://rlex.github.io/helm-charts) | yopass | baseline | -13 | 0.5.0 | 11.4.5 |
 | [rm3l](https://helm-charts.rm3l.org) | adguard-home | baseline | -12 | 0.8.0 | v0.107.13 |
@@ -334,33 +336,34 @@ Evaluation date: 2022-11-13, 10:27:38
 | [rm3l](https://helm-charts.rm3l.org) | ghost-export-to-s3 | baseline | 0 | 0.24.0 | 1.3.0 |
 | [rm3l](https://helm-charts.rm3l.org) | mac-oui | baseline | 0 | 1.22.0 | 1.4.0 |
 | [rm3l](https://helm-charts.rm3l.org) | service-names-port-numbers | baseline | 0 | 0.25.0 | 0.12.1 |
-| [rndflow](https://rndflow.github.io/rndflow-helms/) | rndflow-executor | error_template |  | 0.1.0 | 1.16.0 |
-| [rndflow](https://rndflow.github.io/rndflow-helms/) | rndflow-server | error_template |  | 0.1.0 | 1.16.0 |
-| [robinmordasiewicz](https://robinmordasiewicz.github.io/helm-charts) | jenkins | baseline | -12 | 3.11.8-302 | 2.332.1 |
+| [rndflow](https://rndflow.github.io/rndflow-helms/) | rndflow-executor | error_download |  | 0.1.0 | 1.16.0 |
+| [rndflow](https://rndflow.github.io/rndflow-helms/) | rndflow-server | error_download |  | 0.1.0 | 1.16.0 |
+| [robinmordasiewicz](https://robinmordasiewicz.github.io/helm-charts) | jenkins | error_download |  | 3.11.8-302 | 2.332.1 |
 | [robjuz](https://robjuz.github.io/helm-charts) | futtertrog | version_not_evaluable | -13 | 1.7.0 | 21.10.1 |
 | [robjuz](https://robjuz.github.io/helm-charts) | kimai2 | baseline | -1 | 1.4.8 | apache-1.27.0-prod |
 | [robjuz](https://robjuz.github.io/helm-charts) | kirby3 | baseline | 0 | 1.0.0 |  |
 | [robjuz](https://robjuz.github.io/helm-charts) | nominatim | baseline | -13 | 3.1.0 | 4.1 |
 | [robjuz](https://robjuz.github.io/helm-charts) | shopware | privileged | -58 | 2.0.0 | 6.4.7 |
-| [robusta](https://robusta-charts.storage.googleapis.com) | robusta | error_template |  | 0.10.7-alpha.4 | 0.10.7-alpha.4 |
-| [roccohiggins-pages](https://roccohiggins.github.io) | pages | privileged | -60 | 1.0.0 | 1.0 |
+| [robjuz](https://robjuz.github.io/helm-charts) | unpubd | baseline |  | 1.0.1 | 0.0.5 |
+| [robusta](https://robusta-charts.storage.googleapis.com) | robusta | error_download |  | 0.10.8 | 0.10.8 |
+| [roccohiggins-pages](https://roccohiggins.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
 | [rocket-gpu](https://rocketsoftware.github.io/gpu-operator) | gpu-operator | privileged | -40 | 1.9.1 | v1.9.1 |
-| [rocketchat-server](https://rocketchat.github.io/helm-charts) | rocketchat | error_template |  | 5.2.0 | 5.2.0 |
-| [ronan-pages](https://ronanb784625.github.io/) | pages | privileged | -24 | 1.0.0 | 1.0 |
-| [rook](https://charts.rook.io/release) | rook-ceph | baseline | -161 | 1.10.5 | v1.10.5 |
-| [rook](https://charts.rook.io/release) | rook-ceph-cluster | no_pod_object_but_crd | -2 | 1.10.5 | v1.10.5 |
-| [rookout](https://helm-charts.rookout.com) | controller | baseline | 0 | 0.2.55 | 1.1.16 |
-| [rookout](https://helm-charts.rookout.com) | datastore | baseline | 0 | 0.1.47 | 1.0.11 |
+| [rocketchat-server](https://rocketchat.github.io/helm-charts) | rocketchat | error_download |  | 5.3.2 | 5.3.2 |
+| [ronan-pages](https://ronanb784625.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
+| [rook](https://charts.rook.io/release) | rook-ceph | error_download |  | 1.10.6 | v1.10.6 |
+| [rook](https://charts.rook.io/release) | rook-ceph-cluster | error_download |  | 1.10.6 | v1.10.6 |
+| [rookout](https://helm-charts.rookout.com) | controller | baseline |  | 0.2.56 | 1.1.16 |
+| [rookout](https://helm-charts.rookout.com) | datastore | baseline |  | 0.1.48 | 1.0.11 |
 | [rookout](https://helm-charts.rookout.com) | operator | baseline | 0 | 0.0.20 | 0.1 |
-| [rookout](https://helm-charts.rookout.com) | rookout-hybrid | baseline | 0 | 0.1.1 |  |
-| [routr](https://routr.io/charts) | routr | baseline | -13 | 0.0.10 | 1.0.0-rc5 |
-| [rstudio](https://helm.rstudio.com) | prepull-daemonset | baseline | -12 | 0.0.2 |  |
-| [rstudio](https://helm.rstudio.com) | rstudio-connect | privileged | -17 | 0.3.6 | bionic-2022.10.0 |
-| [rstudio](https://helm.rstudio.com) | rstudio-library | empty_no_object |  | 0.1.23 | 0.1.23 |
-| [rstudio](https://helm.rstudio.com) | rstudio-pm | privileged | -1 | 0.4.0 | 2022.07.2-11 |
-| [rstudio](https://helm.rstudio.com) | rstudio-workbench | baseline | -1 | 0.5.22 | 2022.07.2-576.pro12 |
-| [rsyslog](https://lawesson.github.io/rsyslog-server/charts/) | rsyslog | baseline | -12 | 0.1.1 | 0.1.0 |
-| [rubbercable](https://rubbercable.github.io/helm-chart/) | pebble | empty_no_object |  | 0.0.2 | v2.3.0 |
-| [ruguodangshi](https://ruguodangshi.github.io) | zookeeper-3nodes | empty_no_object |  | 0.1.0 | 3.4.10 |
-| [runix](https://helm.runix.net/) | pgadmin4 | baseline | 0 | 1.13.6 | 6.15 |
-| [rwxd-charts](https://helm-charts.rwxd.eu/) | homer | baseline | -12 | 0.1.1 | 1.16.0 |
+| [rookout](https://helm-charts.rookout.com) | rookout-hybrid | baseline |  | 0.1.4 |  |
+| [routr](https://routr.io/charts) | routr | error_download |  | 0.0.10 | 1.0.0-rc5 |
+| [rstudio](https://helm.rstudio.com) | prepull-daemonset | error_download |  | 0.0.2 |  |
+| [rstudio](https://helm.rstudio.com) | rstudio-connect | error_download |  | 0.3.7 | bionic-2022.11.0 |
+| [rstudio](https://helm.rstudio.com) | rstudio-library | error_download |  | 0.1.23 | 0.1.23 |
+| [rstudio](https://helm.rstudio.com) | rstudio-pm | error_download |  | 0.4.0 | 2022.07.2-11 |
+| [rstudio](https://helm.rstudio.com) | rstudio-workbench | error_download |  | 0.5.22 | 2022.07.2-576.pro12 |
+| [rsyslog](https://lawesson.github.io/rsyslog-server/charts/) | rsyslog | error_download |  | 0.1.1 | 0.1.0 |
+| [rubbercable](https://rubbercable.github.io/helm-chart/) | pebble | error_download |  | 0.0.2 | v2.3.0 |
+| [ruguodangshi](https://ruguodangshi.github.io) | zookeeper-3nodes | error_download |  | 0.1.0 | 3.4.10 |
+| [runix](https://helm.runix.net/) | pgadmin4 | error_download |  | 1.13.6 | 6.15 |
+| [rwxd-charts](https://helm-charts.rwxd.eu/) | homer | error_download |  | 0.1.1 | 1.16.0 |

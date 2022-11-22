@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-13, 10:27:38
+Evaluation date: 2022-11-22, 11:59:48
 
-[main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(356)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -12,15 +12,15 @@ Evaluation date: 2022-11-13, 10:27:38
 | [calltelemetry](https://storage.googleapis.com/ct_charts) | ct-single | privileged | -118 | 0.7.4 | 0.6.9 |
 | [calltelemetry](https://storage.googleapis.com/ct_charts) | stable | privileged | -118 | 0.7.1 | 0.6.7 |
 | [calltelemetry](https://storage.googleapis.com/ct_charts) | stable-ha | privileged | -60 | 0.7.4 | 0.6.9 |
-| [camden-pages](https://reger05.github.io/) | pages | privileged | -60 | 1.0.0 | 1.0 |
-| [camel-k](https://apache.github.io/camel-k/charts/) | camel-k | error_template |  | 0.11.2 | 1.10.2 |
+| [camden-pages](https://reger05.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
+| [camel-k](https://apache.github.io/camel-k/charts/) | camel-k | error_template |  | 0.11.3 | 1.10.3 |
 | [camerahub](https://camerahub.github.io/charts) | camerahub | baseline | -12 | 0.10.7 | 0.36.10 |
-| [camptocamp-apache](https://camptocamp.github.io/helm-apache/) | apache | baseline | 0 | 0.2.2 | 1.0 |
-| [camptocamp-apache](https://camptocamp.github.io/helm-apache/) | mapserver | empty_no_object |  | 0.1.10 | 1.0 |
-| [camptocamp-cron](https://camptocamp.github.io/helm-custom-cron/) | custom-cron | restricted | 0 | 0.2.0 | 1.0 |
-| [camptocamp-ingress](https://camptocamp.github.io/helm-ingress/) | ingress | no_pod_object | 0 | 0.2.5 |  |
-| [camptocamp-pod](https://camptocamp.github.io/helm-custom-pod/) | custom-pod | restricted | -12 | 0.2.0 | 1.0 |
-| [camptocamp-secrets](https://camptocamp.github.io/helm-secrets/) | secrets | empty_no_object |  | 0.2.2 | 1.0 |
+| [camptocamp-apache](https://camptocamp.github.io/helm-apache/) | apache | baseline | 0 | 0.3.0 | 1.0 |
+| [camptocamp-apache](https://camptocamp.github.io/helm-apache/) | mapserver | error_template |  | 0.1.10 | 1.0 |
+| [camptocamp-cron](https://camptocamp.github.io/helm-custom-cron/) | custom-cron | restricted | 0 | 0.3.0 | 1.0 |
+| [camptocamp-ingress](https://camptocamp.github.io/helm-ingress/) | ingress | error_download |  | 0.3.0 |  |
+| [camptocamp-pod](https://camptocamp.github.io/helm-custom-pod/) | custom-pod | restricted | -12 | 0.3.0 | 1.0 |
+| [camptocamp-secrets](https://camptocamp.github.io/helm-secrets/) | secrets | error_download |  | 0.3.0 | 1.0 |
 | [camptocamp2](https://camptocamp.github.io/helm-geoserver-cloud) | geoserver | baseline | 0 | 0.0.3 | 1.0-RC2 |
 | [camptocamp2](https://camptocamp.github.io/helm-geoserver-cloud) | geoserver-cloud | baseline | 0 | 0.0.5 | 1.0-RC3 |
 | [camptocamp2](https://camptocamp.github.io/helm-geoserver-cloud) | geoservercloud | empty_no_object | 0 | 0.0.6 | 1.0-RC3 |
@@ -53,13 +53,13 @@ Evaluation date: 2022-11-13, 10:27:38
 | [camptocamp3](https://camptocamp.github.io/charts) | mariadb | version_not_evaluable | -24 | 1.0.0 |  |
 | [camptocamp3](https://camptocamp.github.io/charts) | metrics | version_not_evaluable | -123 | 0.1.0 | 1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | nginx-ldapauth-proxy | version_not_evaluable | -12 | 0.2.2 | 1.13.5 |
-| [camptocamp3](https://camptocamp.github.io/charts) | nodejs-ex | empty_no_object |  | 0.1.0 |  |
+| [camptocamp3](https://camptocamp.github.io/charts) | nodejs-ex | error_template |  | 0.1.0 |  |
 | [camptocamp3](https://camptocamp.github.io/charts) | oauth2-proxy | version_not_evaluable | -12 | 0.13.1 | 3.1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | openshift-acme | version_not_evaluable | -25 | 0.1.1 | 1.0 |
-| [camptocamp3](https://camptocamp.github.io/charts) | openshift-aws-exporter | empty_no_object |  | 0.1.2 | 1.0 |
+| [camptocamp3](https://camptocamp.github.io/charts) | openshift-aws-exporter | error_template |  | 0.1.2 | 1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | openshift-buildconfig | baseline | -12 | 0.1.0 | 1.0 |
-| [camptocamp3](https://camptocamp.github.io/charts) | openshift-jenkins | empty_no_object |  | 0.5.2 | 1.0 |
-| [camptocamp3](https://camptocamp.github.io/charts) | openshift-logstash | empty_no_object |  | 0.1.0 | 1.0 |
+| [camptocamp3](https://camptocamp.github.io/charts) | openshift-jenkins | error_template |  | 0.5.2 | 1.0 |
+| [camptocamp3](https://camptocamp.github.io/charts) | openshift-logstash | error_template |  | 0.1.0 | 1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | openshift-namespaces | empty_no_object |  | 0.2.0 | 1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | openshift-networkpolicy | empty_no_object |  | 0.1.2 | 1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | openshift-nexus3 | no_pod_object_but_crd | 0 | 0.1.1 | 1.0 |
@@ -74,18 +74,18 @@ Evaluation date: 2022-11-13, 10:27:38
 | [camptocamp3](https://camptocamp.github.io/charts) | prometheus-operator | version_not_evaluable | -62 | 5.15.1 | 0.31.1 |
 | [camptocamp3](https://camptocamp.github.io/charts) | prometheus-operator-csv | no_pod_object_but_crd | 0 | 1.0.0 |  |
 | [camptocamp3](https://camptocamp.github.io/charts) | prometheus-postgres-exporter | empty_no_object | -48 | 2.2.1 |  |
-| [camptocamp3](https://camptocamp.github.io/charts) | prometheus-puppetdb | empty_no_object |  | 3.0.0 | 0.10.0 |
+| [camptocamp3](https://camptocamp.github.io/charts) | prometheus-puppetdb | error_template |  | 3.0.0 | 0.10.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | prometheus-puppetdb-sd | baseline | -12 | 6.1.0 | 0.12.0 |
-| [camptocamp3](https://camptocamp.github.io/charts) | puppet | empty_no_object |  | 2.1.1 |  |
+| [camptocamp3](https://camptocamp.github.io/charts) | puppet | error_template |  | 2.1.1 |  |
 | [camptocamp3](https://camptocamp.github.io/charts) | puppet-catalog-diff-viewer | baseline | 0 | 0.4.1 | 0.6.0 |
-| [camptocamp3](https://camptocamp.github.io/charts) | puppet-openshift | empty_no_object |  | 1.0.0 |  |
+| [camptocamp3](https://camptocamp.github.io/charts) | puppet-openshift | error_template |  | 1.0.0 |  |
 | [camptocamp3](https://camptocamp.github.io/charts) | puppetboard | baseline | 0 | 0.5.1 | 2.2.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | puppetdb | baseline | -12 | 0.11.3 | 6.10.1 |
 | [camptocamp3](https://camptocamp.github.io/charts) | puppetserver | baseline | -12 | 0.10.2 | 6.10.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | puppetserver-build | no_pod_object_but_crd | 0 | 0.1.0 | 1.0 |
-| [camptocamp3](https://camptocamp.github.io/charts) | pushprox | empty_no_object |  | 0.4.2 | 20190708 |
+| [camptocamp3](https://camptocamp.github.io/charts) | pushprox | error_template |  | 0.4.2 | 20190708 |
 | [camptocamp3](https://camptocamp.github.io/charts) | r10k-dashboard | baseline | 0 | 0.1.4 | 0.2.6 |
-| [camptocamp3](https://camptocamp.github.io/charts) | r10k-webhook | empty_no_object |  | 0.1.2 | 1.0 |
+| [camptocamp3](https://camptocamp.github.io/charts) | r10k-webhook | error_template |  | 0.1.2 | 1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | redisfailover | no_pod_object_but_crd | 0 | 0.1.0 | 1.0 |
 | [camptocamp3](https://camptocamp.github.io/charts) | redisoperator | baseline | -12 | 3.0.1 |  |
 | [camptocamp3](https://camptocamp.github.io/charts) | ruby-ex | no_pod_object_but_crd | 0 | 0.0.16 |  |
@@ -119,18 +119,18 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cape](https://charts.cape.sh) | cape | error_download |  | 0.5.1 | 0.5.1 |
 | [capsule](https://clastix.github.io/charts) | capsule | baseline | -27 | 0.1.11 | 0.1.2 |
 | [capsule](https://clastix.github.io/charts) | capsule-proxy | baseline | -26 | 0.3.2 | 0.3.1 |
-| [capsule](https://clastix.github.io/charts) | kamaji | baseline | -27 | 0.10.1 | v0.1.1 |
-| [capsule](https://clastix.github.io/charts) | kamaji-etcd | baseline | 0 | 0.1.0 | 3.5.4 |
+| [capsule](https://clastix.github.io/charts) | kamaji | baseline |  | 0.10.2 | v0.1.1 |
+| [capsule](https://clastix.github.io/charts) | kamaji-etcd | baseline |  | 0.1.1 | 3.5.4 |
 | [captnbp](https://charts.doca.cloud/charts/) | codehub | baseline | -2 | 3.0.0 | 4.8.2 |
-| [captnbp](https://charts.doca.cloud/charts/) | opensearch | privileged | 0 | 2.1.5 | 2.3.0 |
-| [captnbp](https://charts.doca.cloud/charts/) | opensearch-dashboards | no_pod_object | 0 | 2.1.3 | 2.3.0 |
-| [captnbp](https://charts.doca.cloud/charts/) | vaultwarden | baseline | 0 | 0.1.3 | 1.26.0 |
+| [captnbp](https://charts.doca.cloud/charts/) | opensearch | privileged | 0 | 2.1.6 | 2.4.0 |
+| [captnbp](https://charts.doca.cloud/charts/) | opensearch-dashboards | no_pod_object | 0 | 2.1.6 | 2.4.0 |
+| [captnbp](https://charts.doca.cloud/charts/) | vaultwarden | baseline | 0 | 0.1.4 | 1.26.0 |
 | [carbonetes-analyzer](https://carbonetes.github.io/carbonetes-helm-chart/) | carbonetes-analyzer | baseline | -12 | 1.0.6 | 1.0.3 |
 | [cardano-kstack](https://cardano-tools.gitlab.io/cardano-kstack/) | cardano-kstack | baseline | -24 | 1.0.4 |  |
-| [carina-pages](https://mgaber7.github.io) | pages | privileged | -60 | 1.0.0 | 1.0 |
-| [carlosjgp](https://carlosjgp.github.io/open-charts/) | node-problem-detector | privileged | -17 | 0.1.0 | v0.8.1 |
-| [carlosjgp](https://carlosjgp.github.io/open-charts/) | zipkin | baseline | -24 | 0.2.0 | 2.21.0 |
-| [carmel-pages-dell](https://akrive.github.io) | pages | privileged | -60 | 1.0.0 | 1.0 |
+| [carina-pages](https://mgaber7.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
+| [carlosjgp](https://carlosjgp.github.io/open-charts/) | node-problem-detector | error_download |  | 0.1.0 | v0.8.1 |
+| [carlosjgp](https://carlosjgp.github.io/open-charts/) | zipkin | error_download |  | 0.2.0 | 2.21.0 |
+| [carmel-pages-dell](https://akrive.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
 | [cassandra-lightweight](https://abhijithganesh.github.io/helm-cassandra/) | abhijith-ganesh's-lightweight-cassandra-chart-for-stateful-workloads | error_download |  | 0.1.1 | 1.16.0 |
 | [cassandra-web](https://orzhaha.github.io/charts/orzhaha) | cassandra-web | baseline | -12 | 0.1.0 | 1.0 |
 | [cbtnuggets-test](https://cbttrevor.github.io/helm-repo/.cr-index/) | cbtnuggets-test | empty_no_object |  | 0.8.1 | 1.16.0 |
@@ -142,17 +142,18 @@ Evaluation date: 2022-11-13, 10:27:38
 | [centralmodel](https://raw.githubusercontent.com/millerjem/centralmodel/main/charts) | centralmodel | baseline | -12 | 0.0.1 | 7.9.1 |
 | [ceph-csi](https://ceph.github.io/csi-charts) | ceph-csi-cephfs | privileged | -79 | 3.7.2 | 3.7.2 |
 | [ceph-csi](https://ceph.github.io/csi-charts) | ceph-csi-rbd | privileged | -116 | 3.7.2 | 3.7.2 |
-| [cerbos](https://download.cerbos.dev/helm-charts) | cerbos | baseline | -12 | 0.22.0 | 0.22.0 |
+| [cerbos](https://download.cerbos.dev/helm-charts) | cerbos | baseline |  | 0.23.0 | 0.23.0 |
 | [cert-boot](https://tsuyo.github.io/cert-boot) | cert-boot | empty_no_object |  | 0.1.1 | 0.1.0 |
 | [cert-manager-webhook-anexia](https://anexia-it.github.io/cert-manager-webhook-anexia) | cert-manager-webhook-anexia | baseline | -13 | 0.1.1 | 0.1.0 |
+| [cert-manager-webhook-gandi](https://sintef.github.io/cert-manager-webhook-gandi) | cert-manager-webhook-gandi | error_download |  | 0.3.6 | 0.3.0 |
 | [cert-manager-webhook-hetzner](https://deyaeddin.github.io/cert-manager-webhook-hetzner/chart/) | cert-manager-webhook-hetzner | baseline | -3 | 0.2.1 | 1.1.0 |
 | [cert-manager-webhook-infoblox-wapi](https://luisico.github.io/cert-manager-webhook-infoblox-wapi) | cert-manager-webhook-infoblox-wapi | baseline | -15 | 1.5.2 | 1.5.0 |
 | [cert-manager-webhook-namecheap](http://zvonimirbedi.github.io/cert-manager-webhook-namecheap/) | cert-manager-webhook-namecheap | baseline | -26 | 0.1.2 | v0.1.0 |
 | [cert-manager-webhook-namecheap](http://zvonimirbedi.github.io/cert-manager-webhook-namecheap/) | letsencrypt-namecheap-issuer | no_pod_object_but_crd | 0 | 0.1.1 | 1.16.0 |
 | [cert-manager-webhook-netcup](https://aellwein.github.io/cert-manager-webhook-netcup/charts/) | cert-manager-webhook-netcup | baseline | -14 | 1.0.9 | 1.0.9 |
-| [cert-manager](https://charts.jetstack.io) | cert-manager | restricted | -105 | 1.10.0 | v1.10.0 |
+| [cert-manager](https://charts.jetstack.io) | cert-manager | restricted |  | 1.10.1 | v1.10.1 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-approver-policy | baseline | -13 | 0.4.2 | v0.4.0 |
-| [cert-manager](https://charts.jetstack.io) | cert-manager-csi-driver | privileged | -45 | 0.4.2 | v0.4.0 |
+| [cert-manager](https://charts.jetstack.io) | cert-manager-csi-driver | privileged |  | 0.5.0 | v0.5.0 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-csi-driver-spiffe | privileged | -58 | 0.2.2 | v0.2.0 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-google-cas-issuer | baseline | -25 | 0.6.0 | v0.6.0 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-istio-csr | baseline | -13 | 0.5.0 | v0.5.0 |
@@ -160,7 +161,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cert-manager](https://charts.jetstack.io) | trust-manager | restricted | -1 | 0.3.0 | v0.3.0 |
 | [cert-utils-operator](https://redhat-cop.github.io/cert-utils-operator) | cert-utils-operator | baseline | -46 | 1.3.10 | v1.3.10 |
 | [certs](https://math-nao.github.io/certs/charts) | certs | version_not_evaluable | 0 | 1.1.12 |  |
-| [cetic](https://cetic.github.io/helm-charts) | adminer | baseline | -12 | 0.1.8 | 4.8.1 |
+| [cetic](https://cetic.github.io/helm-charts) | adminer | baseline | -12 | 0.2.1 | 4.8.1 |
 | [cetic](https://cetic.github.io/helm-charts) | drupal | baseline | -12 | 0.1.0 | 1.16.0 |
 | [cetic](https://cetic.github.io/helm-charts) | fadi | version_not_evaluable | -85 | 0.3.1 | 0.3.1 |
 | [cetic](https://cetic.github.io/helm-charts) | job | baseline | 0 | 0.1.1 | 0.1.1 |
@@ -176,31 +177,31 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cetic](https://cetic.github.io/helm-charts) | tsaas | baseline | -12 | 0.1.5 | 0.1.8 |
 | [cetic](https://cetic.github.io/helm-charts) | tsorage | baseline | -72 | 0.4.11 | 1.0.0 |
 | [cetic](https://cetic.github.io/helm-charts) | zabbix | version_not_evaluable | 0 | 3.1.3 | 6.0.8 |
-| [cf-common](https://codefactoryhu.github.io/helm-common/) | helm-common | empty_no_object |  | 0.0.1 |  |
+| [cf-common](https://codefactoryhu.github.io/helm-common/) | helm-common | error_download |  | 0.0.1 |  |
 | [cgroschupp](https://cgroschupp.github.io/helm-charts/) | cert-manager-webhook-softlayer | version_not_evaluable | -13 | 0.2.0 | 1.0 |
-| [cgsimmons](https://cgsimmons.github.io/charts/) | pypi-server | baseline | -12 | 0.1.0 | 1.3.2 |
+| [cgsimmons](https://cgsimmons.github.io/charts/) | pypi-server | error_download |  | 0.1.0 | 1.3.2 |
 | [chaldea](https://mirror.chaldea.cn/repository/helm-hosted/) | demo | baseline | -12 | 1.0.14 | 1.0.14 |
 | [chaldea](https://mirror.chaldea.cn/repository/helm-hosted/) | identityserver | baseline | -12 | 0.1.0 | 1.16.0 |
 | [chaldea](https://mirror.chaldea.cn/repository/helm-hosted/) | joplin | baseline | 0 | 0.1.3 | 1.16.0 |
-| [chaos-mesh](https://charts.chaos-mesh.org) | chaos-mesh | privileged | -67 | 2.4.2 | 2.4.2 |
+| [chaos-mesh](https://charts.chaos-mesh.org) | chaos-mesh | privileged |  | 2.5.0-beta.1 | 2.5.0-beta.1 |
 | [chaosblade-operator](https://oeular.github.io/chaosblade-operator/) | chaosblade-operator | privileged | -39 | 1.7.0 | 1.7.0 |
 | [chaosnative](https://charts.chaosnative.com) | cle | baseline | -79 | 0.2.7 | 0.2.7 |
 | [chaostoolkit-walkthrough](https://ianboard.github.io/chaostoolkit-walkthrough/charts) | ctk-walkthrough | baseline | -48 | 0.1.0 | 1.16.0 |
 | [charon](https://obolnetwork.github.io/helm-charts) | charon | error_template |  | 0.1.0 | 0.11.0 |
 | [chart-oracle-host-app](https://stanislovesid.github.io/app_host/charts/) | chart-oracle-host-app | empty_no_object |  | 0.1.2 | 1.2.3 |
 | [chart-release-sample](https://no9.github.io/chart-release-sample/) | chart-release-sample | baseline | -12 | 2.1.17 | 1.16.0 |
-| [chart-service](https://punkerside.github.io/chart-service/charts) | service | baseline | -1 | 0.0.4 | 0.0.4 |
+| [chart-service](https://punkerside.github.io/chart-service/charts) | service | error_download |  | 0.0.4 | 0.0.4 |
 | [chartmuseum](https://chartmuseum.github.io/charts) | chartmuseum | baseline | 0 | 3.9.1 | 0.15.0 |
 | [chatapp](https://huynhtrieu203.github.io/chart/) | chatapp | baseline | -12 | 0.1.0 | 1.16.0 |
-| [chatwoot](https://chatwoot.github.io/charts/) | chatwoot | baseline | -36 | 1.0.9 | v2.10.0 |
+| [chatwoot](https://chatwoot.github.io/charts/) | chatwoot | baseline |  | 1.0.9 | v2.10.0 |
 | [checkin-component](https://raw.githubusercontent.com/ConductionNL/checkin-component/master/api/helm/) | checkin-component | baseline | -36 | 0.1.0 | V.0.1 |
 | [checking](https://raw.githubusercontent.com/ConductionNL/checking/master/api/helm/) | checking | empty_no_object |  | 0.1.0 | V1.0 |
 | [checkinservice](https://raw.githubusercontent.com/ConductionNL/checkinservice/master/api/helm/) | chis | empty_no_object |  | 0.1.0 | V1.0 |
-| [chetan-opensips](https://chetangautamm.github.io/helm/) | opensips | baseline | -12 | 0.1.0 | 1.16.0 |
-| [chetan-opensips](https://chetangautamm.github.io/helm/) | sipp | baseline | -12 | 0.1.0 | 1.16.0 |
+| [chetan-opensips](https://chetangautamm.github.io/helm/) | opensips | error_download |  | 0.1.0 | 1.16.0 |
+| [chetan-opensips](https://chetangautamm.github.io/helm/) | sipp | error_download |  | 0.1.0 | 1.16.0 |
 | [chgl](https://chgl.github.io/charts) | fhir-server-exporter | restricted | 0 | 1.0.10 |  |
 | [chgl](https://chgl.github.io/charts) | magnifhir | restricted | 0 | 1.0.5 | 1.x |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | agile-service | baseline | -1 | 2.2.2 | 2.2.2 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | agile-service | baseline |  | 2.2.4 | 2.2.4 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | api-gateway | baseline | -12 | 0.21.0 | 0.21.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | asgard-service | baseline | -12 | 0.23.3 | 0.23.3 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | base-service | baseline | -12 | 0.24.0-alpha.2 | 0.24.0-alpha.2 |
@@ -217,10 +218,10 @@ Evaluation date: 2022-11-13, 10:27:38
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-gateway | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-iam | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-logging | privileged | -50 | 0.8.3 | 0.8.3 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-message | baseline | -1 | 2.2.1 | 2.2.1 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-message | baseline |  | 2.2.2 | 2.2.2 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-monitor | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-monitoring | version_not_evaluable | -65 | 0.7.3 | 0.7.3 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-oauth | baseline | -1 | 2.2.0 | 2.2.0 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-oauth | baseline |  | 2.2.2 | 2.2.2 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-platform | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-register | baseline | 0 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-swagger | baseline | -1 | 2.2.0 | 2.2.0 |
@@ -248,7 +249,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | gitlab-runner | baseline | 0 | 0.39.0 | 14.9.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | gitlab-service | baseline | -1 | 2.2.1 | 2.2.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | go-register-server | baseline | -13 | 0.21.0 | 0.21.0 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | harbor | baseline | 0 | 1.5.5 | 1.5.5 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | harbor | baseline | 0 | 1.5.5 | v1.5.5 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | hrds-code-repo | baseline | -12 | 0.23.1 | 0.23.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | hrds-doc-repo | baseline | -12 | 0.23.0 | 0.23.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | hrds-prod-repo | baseline | -12 | 0.23.2 | 0.23.2 |
@@ -266,10 +267,10 @@ Evaluation date: 2022-11-13, 10:27:38
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | hzero-swagger | baseline | -12 | 0.24.0-alpha.2 | 0.24.0-alpha.2 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | iam-service | version_not_evaluable | -12 | 0.18.7 | 0.18.7 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | issue-service | version_not_evaluable | -12 | 0.18.0 | 0.18.0 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | istio | empty_no_object |  | 1.0.0 | 1.0.0 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | istio | error_template |  | 1.0.0 | 1.0.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | jenkins | version_not_evaluable | -12 | 0.1.0 | 2.60.3-alpine |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | kibana | baseline | -24 | 0.8.3 | 0.8.3 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | knowledgebase-service | baseline | -1 | 2.2.3 | 2.2.3 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | knowledgebase-service | baseline |  | 2.2.5 | 2.2.5 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | kube-prometheus | privileged | -89 | 9.3.1 | 0.38.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | loki | baseline | 0 | 0.29.0 | v1.5.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | manager-service | baseline | -12 | 0.22.2 | 0.22.2 |
@@ -295,29 +296,29 @@ Evaluation date: 2022-11-13, 10:27:38
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | skywalking | baseline | -24 | 8.1.0-alpha.1 | 8.1.0-alpha.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | skywalking-oap | version_not_evaluable | -12 | 0.1.3 | 0.1.3 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | skywalking-ui | version_not_evaluable | -12 | 0.1.4 | 0.1.4 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | sonarqube | empty_no_object |  | 9.3.1 | 9.3.1 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | sonarqube | error_template |  | 9.3.1 | 9.3.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | sonatype-nexus | baseline | -1 | 3.4.0 | 3.4.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | state-machine-service | version_not_evaluable | -12 | 0.18.0 | 0.18.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | test-manager-service | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | tidb | version_not_evaluable | -48 | 0.1.0 | v2.0.0-rc.6 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | timing | version_not_evaluable | -12 | 0.1.1 | 0.1.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | wiki-service | version_not_evaluable | -12 | 0.18.1 | 0.18.1 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | workflow-service | baseline | -1 | 2.2.0 | 2.2.0 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | workflow-service | baseline |  | 2.2.1 | 2.2.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | xwiki | version_not_evaluable | -12 | 0.18.1 | 0.18.1 |
 | [chrisingenhaag](https://chrisingenhaag.github.io/helm/) | collabora-code | baseline | -24 | 2.5.1 | 21.11.3.6.1 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | kube-ops-view | baseline | -1 | 1.1.7 | 20.4.0 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | kutt | baseline | -12 | 0.0.6 | v2.7.4 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | netcupscp-exporter | baseline | -12 | 1.0.3 | v0.2.1 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | passbolt-ha | baseline | -12 | 1.0.4 |  |
-| [christianknell](https://christianknell.github.io/helm-charts/) | polr | baseline | -12 | 1.0.1 | 2.3.0c |
-| [christianknell](https://christianknell.github.io/helm-charts/) | popeye | baseline | -22 | 1.0.0 | v0.10.1 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | prometheus-pve-exporter | baseline | 0 | 1.0.3 | 2.2.3 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | proxysql | baseline | 0 | 1.0.1 | 2.4.2 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | proxyweb | baseline | -12 | 0.0.1 | latest |
-| [christianknell](https://christianknell.github.io/helm-charts/) | shlink-backend | baseline | -12 | 0.0.8 | 3.1.2 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | shlink-web | baseline | -12 | 0.0.1 | 3.7.1 |
-| [christianknell](https://christianknell.github.io/helm-charts/) | skooner | baseline | -13 | 0.0.3 | stable |
-| [christianknell](https://christianknell.github.io/helm-charts/) | typo3 | baseline | -12 | 0.0.12 | 11.5 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | kube-ops-view | error_download |  | 1.1.9 | 20.4.0 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | kutt | error_download |  | 1.0.0 | v2.7.4 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | netcupscp-exporter | error_download |  | 1.0.4 | v0.2.5 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | passbolt-ha | error_download |  | 1.0.5 |  |
+| [christianknell](https://christianknell.github.io/helm-charts/) | polr | error_download |  | 1.0.4 | 2.3.0c |
+| [christianknell](https://christianknell.github.io/helm-charts/) | popeye | error_download |  | 1.0.1 | v0.10.1 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | prometheus-pve-exporter | error_download |  | 1.0.4 | 2.2.4 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | proxysql | error_download |  | 1.0.1 | 2.4.2 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | proxyweb | error_download |  | 0.0.1 | latest |
+| [christianknell](https://christianknell.github.io/helm-charts/) | shlink-backend | error_download |  | 1.1.0 | 3.3.2 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | shlink-web | error_download |  | 0.0.1 | 3.7.1 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | skooner | error_download |  | 0.0.3 | stable |
+| [christianknell](https://christianknell.github.io/helm-charts/) | typo3 | error_download |  | 1.0.0 | 11.5 |
 | [chubaofs](https://chubaofs.github.io/chubaofs-charts) | chubaofs | error_download |  | 1.5.1 | 1.5.1 |
 | [cilium2](https://cilium.github.io/charts) | cilium | privileged | -39 | 1.13.0-rc2 | 1.13.0-rc2 |
 | [cilium2](https://cilium.github.io/charts) | tetragon | privileged | -25 | 0.8.3 | 0.8.3 |
@@ -340,9 +341,9 @@ Evaluation date: 2022-11-13, 10:27:38
 | [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | cadvisor | privileged | -12 | 2.2.2 | 0.44.0 |
 | [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | chekr | baseline | -7 | 0.5.1 | 0.5.1 |
 | [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | postgres-operator | baseline | -40 | 1.8.0 | 1.8.0 |
-| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | sbom-operator | restricted | -13 | 0.21.0 | 0.21.0 |
-| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | vulnerability-operator | restricted | -1 | 0.12.0 | 0.12.0 |
-| [cleardata](https://helm.cleardata.com/) | locate | version_not_evaluable | -25 | 2.0.0 | v1 |
+| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | sbom-operator | restricted |  | 0.22.0 | 0.22.0 |
+| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | vulnerability-operator | restricted |  | 0.13.0 | 0.13.0 |
+| [cleardata](https://helm.cleardata.com/) | locate | error_download |  | 2.0.0 | v1 |
 | [cloud-native-postgresql](https://enterprisedb.github.io/cloud-native-postgresql-helm/) | cloud-native-postgresql | baseline | -54 | 0.13.0 | 1.15.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | argocd-config | empty_no_object |  | 0.24.0 | 1.16.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | argocd-hook-job | baseline | 0 | 0.1.4 | 1.16.0 |
@@ -360,7 +361,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | gitea-instance | no_pod_object_but_crd | 0 | 0.1.3 | 1.16.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | gitea-operator | no_pod_object_but_crd | 0 | 0.1.3 | 1.16.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | grafana-operator | no_pod_object_but_crd | 0 | 0.1.0 | 1.16.0 |
-| [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | hivecluster | empty_no_object |  | 0.3.2 | 1.16.0 |
+| [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | hivecluster | error_template |  | 0.3.2 | 1.16.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | ibm-ace-operator | no_pod_object_but_crd | 0 | 0.2.2 | 1.16.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | ibm-apic-a7s-instance | no_pod_object_but_crd | 0 | 1.0.0 | 10.0.3.0-ifix1 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | ibm-apic-gtw-instance | no_pod_object_but_crd | 0 | 1.0.0 | 10.0.3.0-ifix1 |
@@ -441,7 +442,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | setup-job | baseline | 0 | 0.3.0 | 0.1.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | slack-notifications | baseline | -12 | 0.1.7 | 1.16.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | spp-catalog | no_pod_object_but_crd | 0 | 0.1.0 | 1.0 |
-| [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | spp-instance | empty_no_object |  | 0.1.0 | 10.1.8.2 |
+| [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | spp-instance | error_template |  | 0.1.0 | 10.1.8.2 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | spp-operator | no_pod_object_but_crd | 0 | 0.1.0 | 1.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | starter-kit | baseline | 0 | 0.6.2 | 0.6.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | swaggereditor | baseline | 0 | 2.1.0 | v3.14.5 |
@@ -449,27 +450,27 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | tekton-operator | baseline | 0 | 0.3.2 | 1.18.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | tool-config | no_pod_object | 0 | 0.14.0 | 1.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | tool-test | baseline | -12 | 0.2.1 | 1.0 |
-| [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-cinder-csi | privileged | -80 | 2.2.0 | v1.24.0 |
-| [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-cloud-controller-manager | privileged | -25 | 1.3.0 | v1.24.0 |
-| [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-manila-csi | privileged | -111 | 1.6.0 | v1.25.0 |
-| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-core | baseline | -1 | 3.50.1+7c598dea1f53 | 2.361.3.2 |
+| [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-cinder-csi | error_download |  | 2.2.0 | v1.24.0 |
+| [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-cloud-controller-manager | error_download |  | 1.3.0 | v1.24.0 |
+| [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-manila-csi | error_download |  | 1.6.0 | v1.25.0 |
+| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-core | baseline |  | 3.51.0+562e0285de1f | 2.361.4.1 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-flow | error_template |  | 2.20.0 | 10.10.0.158216 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-flow-agent | error_template |  | 2.20.0 | 10.10.0.158216 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-jenkins-distribution | baseline | -9 | 2.263.102 | 2.263.1.2 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-previews | error_template |  | 1.1.0 | 1.1.0 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-remote-agents | error_template |  | 1.0.143 | v1.0.143 |
-| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-sda | privileged | -73 | 1.510.0+20450a53f92f | 10.10.0.158216+2.361.3.2 |
+| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-sda | privileged |  | 1.515.0+c7e549c60b7e | 10.10.0.158216+2.361.4.1 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-sidecar-injector | baseline | -25 | 2.3.2 | 2.3.2 |
 | [cloudcasa-helmchart](https://catalogicsoftware.github.io/cloudcasa-helmchart) | cloudcasa | no_pod_object | 0 | 3.0.0 | 3.0.0 |
 | [cloudcore](https://web-seven.github.io/kubeedge) | cloudcore | privileged | -58 | 0.1.1 | 1.9.1 |
-| [cloudecho](https://cloudecho.github.io/charts/) | hello | baseline | -12 | 0.1.2 | 0.1.0 |
-| [cloudentity](https://charts.cloudentity.io) | acp | baseline | -12 | 2.8.1 | 2.8.1 |
-| [cloudentity](https://charts.cloudentity.io) | acp-cd | baseline | 0 | 2.8.1 | 2.8.1 |
-| [cloudentity](https://charts.cloudentity.io) | istio-authorizer | baseline | -26 | 2.8.1 | 2.8.1 |
-| [cloudentity](https://charts.cloudentity.io) | kong-authorizer | baseline | -24 | 2.8.1 | 2.8.1 |
-| [cloudentity](https://charts.cloudentity.io) | kube-acp-stack | version_not_evaluable | -36 | 2.8.1 |  |
-| [cloudentity](https://charts.cloudentity.io) | openbanking | baseline | -5 | 0.1.9 | 1.11.1 |
-| [cloudentity](https://charts.cloudentity.io) | standalone-authorizer | baseline | 0 | 2.8.1 | 2.8.1 |
+| [cloudecho](https://cloudecho.github.io/charts/) | hello | error_download |  | 0.1.2 | 0.1.0 |
+| [cloudentity](https://charts.cloudentity.io) | acp | error_template |  | 2.8.1 | 2.8.1 |
+| [cloudentity](https://charts.cloudentity.io) | acp-cd | error_template |  | 2.8.1 | 2.8.1 |
+| [cloudentity](https://charts.cloudentity.io) | istio-authorizer | error_download |  | 2.8.1 | 2.8.1 |
+| [cloudentity](https://charts.cloudentity.io) | kong-authorizer | error_download |  | 2.8.1 | 2.8.1 |
+| [cloudentity](https://charts.cloudentity.io) | kube-acp-stack | error_download |  | 2.8.1 |  |
+| [cloudentity](https://charts.cloudentity.io) | openbanking | error_download |  | 0.1.9 | 1.11.1 |
+| [cloudentity](https://charts.cloudentity.io) | standalone-authorizer | error_download |  | 2.8.1 | 2.8.1 |
 | [cloudflare-exporter](https://lablabs.github.io/cloudflare-exporter/) | cloudflare-exporter | baseline | 0 | 0.1.8 | 0.0.9 |
 | [cloudflow-helm-charts](https://lightbend.github.io/cloudflow-helm-charts/) | cloudflow | baseline | -27 | 2.3.2 | 2.3.2 |
 | [cloudflow-helm-charts](https://lightbend.github.io/cloudflow-helm-charts/) | cloudflow-enterprise-components | baseline | -109 | 2.3.2 | 2.3.2 |
@@ -552,7 +553,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | hlf-ord | no_pod_object_but_crd | -12 | 1.2.5 | 1.3.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | hlf-peer | privileged | -12 | 1.2.6 | 1.3.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | hoard | baseline | -37 | 0.7.0 | 3.0.1 |
-| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | home-assistant | empty_no_object |  | 0.9.1 | 0.92.2 |
+| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | home-assistant | error_template |  | 0.9.1 | 0.92.2 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | horovod | version_not_evaluable | -12 | 1.0.0 | 0.12.1 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | hoverfly | baseline | -12 | 0.1.0 | 1.0.0-rc.2 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | hubot | version_not_evaluable | -12 | 0.0.1 | 0.1.9 |
@@ -562,7 +563,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | ingressmonitorcontroller | baseline | -13 | 1.0.48 | 1.0.47 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | instana-agent | no_pod_object | -1 | 1.0.7 | 1 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | ipfs | version_not_evaluable | 0 | 0.2.2 | v0.4.9 |
-| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | jaeger-operator | empty_no_object |  | 2.4.2 | 1.11.0 |
+| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | jaeger-operator | error_template |  | 2.4.2 | 1.11.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | jenkins | version_not_evaluable | -12 | 2.3.2 | 2.164.3 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | jenkins-operator | baseline | -44 | 0.1.12 | 0.1.12 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | k8s-spot-rescheduler | version_not_evaluable | -22 | 0.4.0 | v0.2.0 |
@@ -608,7 +609,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | msoms | no_pod_object | 0 | 0.2.0 | 1.0.0-30 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | mssql-linux | version_not_evaluable | -12 | 0.7.0 | 14.0.3023.8 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | mysql | version_not_evaluable | 0 | 5.0.1 | 8.0.16 |
-| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | mysqldump | empty_no_object |  | 2.4.0 | 2.4.0 |
+| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | mysqldump | error_template |  | 2.4.0 | 2.4.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | mysqlha | version_not_evaluable | -12 | 0.5.1 | 5.7.13 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | namerd | version_not_evaluable | -12 | 0.2.0 |  |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | nats | version_not_evaluable | 0 | 2.5.1 | 1.4.1 |
@@ -672,7 +673,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | sematext-agent | no_pod_object | -13 | 1.0.7 | 1.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | sentry-kubernetes | version_not_evaluable | -13 | 0.2.0 | latest |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | seq | baseline | -12 | 1.0.0 | 5.0.832-pre |
-| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | signalsciences | empty_no_object |  | 1.0.0 | 3.12.1 |
+| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | signalsciences | error_template |  | 1.0.0 | 3.12.1 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | socat-tunneller | baseline | -12 | 0.1.0 | 1.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | sonatype-nexus | baseline | -12 | 1.18.2 | 3.15.2-01 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | spark | version_not_evaluable | -48 | 1.0.0 | 1.5.1 |
@@ -682,15 +683,15 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | spotify-docker-gc | version_not_evaluable | -12 | 1.0.0 | latest |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | stackdriver-exporter | version_not_evaluable | -12 | 1.1.0 | 0.6.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | stolon | error_template |  | 1.1.1 | 0.13.0 |
-| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | sumokube | empty_no_object |  | 1.0.0 | latest |
+| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | sumokube | error_template |  | 1.0.0 | latest |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | sumologic-fluentd | no_pod_object | 0 | 1.0.0 | 2.3.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | superset | baseline | 0 | 1.1.6 | 0.28.1 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | sysdig | no_pod_object | -10 | 1.4.7 | 0.89.5 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | telegraf | baseline | -12 | 1.1.1 | 1.9 |
-| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | tensorflow-inception | empty_no_object |  | 0.4.1 | 1.4.0 |
+| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | tensorflow-inception | error_template |  | 0.4.1 | 1.4.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | tensorflow-notebook | version_not_evaluable | -12 | 0.1.2 | 1.6.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | tensorflow-resnet | version_not_evaluable | -12 | 0.1.2 | 1.13.0 |
-| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | tensorflow-serving | empty_no_object |  | 1.0.0 | 1.14.0 |
+| [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | tensorflow-serving | error_template |  | 1.0.0 | 1.14.0 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | terracotta | baseline | -12 | 1.0.0 | 5.5.1 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | tomcat | version_not_evaluable | 0 | 3.0.1 | 9.0.20 |
 | [cloudnativeapp](https://cloudnativeapp.github.io/charts/curated/) | traefik | baseline | -24 | 1.68.4 | 1.7.9 |
@@ -721,8 +722,8 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloudposse](https://charts.cloudposse.com/incubator/) | grafana | version_not_evaluable | -12 | 0.2.6 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | heapster | version_not_evaluable | -24 | 0.1.0 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | helm-serve | version_not_evaluable | -12 | 0.1.0 |  |
-| [cloudposse](https://charts.cloudposse.com/incubator/) | istio | empty_no_object |  | 1.1.0 | 1.1.0 |
-| [cloudposse](https://charts.cloudposse.com/incubator/) | jenkins | empty_no_object |  | 0.1.2 |  |
+| [cloudposse](https://charts.cloudposse.com/incubator/) | istio | error_template |  | 1.1.0 | 1.1.0 |
+| [cloudposse](https://charts.cloudposse.com/incubator/) | jenkins | error_template |  | 0.1.2 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | kube-lego | version_not_evaluable | -12 | 0.1.2 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | kube-prometheus | version_not_evaluable | -48 | 0.2.0 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | lamp | version_not_evaluable | -36 | 0.1.4 |  |
@@ -748,7 +749,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cloudposse](https://charts.cloudposse.com/incubator/) | thumbor | version_not_evaluable | -36 | 0.3.0 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | varnish | version_not_evaluable | -12 | 0.1.3 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | vps | version_not_evaluable | -12 | 0.1.1 |  |
-| [cloudquery](https://cloudquery.github.io/helm-charts/) | cloudquery | baseline | 0 | 2.0.7 | 2.0 |
+| [cloudquery](https://cloudquery.github.io/helm-charts/) | cloudquery | baseline |  | 5.1.5 | 2.0 |
 | [cloudteam-il](https://cloudteam-il.github.io/helm_charts/chi-metrics) | chi-metrics | error_template |  | 0.2.0 | 0.8 |
 | [cloudve](https://github.com/CloudVE/helm-charts/raw/master) | cloudlaunch | baseline | -24 | 0.6.0 | 2.0.2 |
 | [cloudve](https://github.com/CloudVE/helm-charts/raw/master) | cloudlaunch-server | version_not_evaluable | -12 | 0.2.0 | 2.0.2 |
@@ -780,8 +781,8 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cluster-secret-store-for-gcp](https://nandotheessen1.github.io/cluster-secret-store/) | cluster-secret-store | no_pod_object_but_crd | 0 | 0.1.0 | 1.16.0 |
 | [cluster-template-examples](https://raw.githubusercontent.com/rancher/cluster-template-examples/main/) | cluster-template | no_pod_object_but_crd | 0 | 0.0.1 |  |
 | [clusternet](https://clusternet.github.io/charts) | clusternet-agent | error_template |  | 0.9.2 | v0.12.0 |
-| [clusternet](https://clusternet.github.io/charts) | clusternet-hub | privileged | -41 | 0.9.1 | v0.12.0 |
-| [clusternet](https://clusternet.github.io/charts) | clusternet-scheduler | baseline | -17 | 0.9.0 | v0.12.0 |
+| [clusternet](https://clusternet.github.io/charts) | clusternet-hub | privileged |  | 0.9.1 | v0.12.0 |
+| [clusternet](https://clusternet.github.io/charts) | clusternet-scheduler | baseline |  | 0.9.0 | v0.12.0 |
 | [clusterpedia](https://clusterpedia-io.github.io/clusterpedia-helm/) | clusterpedia | error_template |  | 1.0.2 | v0.5.1 |
 | [cmacrae](https://charts.cmacr.ae/) | d2-prometheus-exporter | baseline | -12 | 0.1.0 | 0.1.0 |
 | [cmacrae](https://charts.cmacr.ae/) | kove | baseline | -14 | 0.2.0 | 0.2.0 |
@@ -790,9 +791,9 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cmak-operator](oci://ghcr.io/eshepelyuk/helm/cmak-operator) | cmak-operator | error_download |  | 2.1.1 | 2.1.1 |
 | [cms](https://maximemoreillon.github.io/cms_helm_chart/) | cms | baseline | -84 | 0.1.0 | 1.16.0 |
 | [cn2-analytics-test](https://jeffreymarshall.github.io/cn2-analytics-test/) | contrail-analytics | privileged | -420 | 22.2.0-rev0bb9dbbd1 | 22.2.0 |
-| [cncf](https://charts.gitlab.io) | gitlab | error_template |  | 6.5.4 | 15.5.3 |
+| [cncf](https://charts.gitlab.io) | gitlab | error_template |  | 6.5.5 | 15.5.4 |
 | [cncf](https://charts.gitlab.io) | gitlab-agent | baseline | -26 | 1.6.0 | v15.5.1 |
-| [cncf](https://charts.gitlab.io) | gitlab-runner | baseline | -7 | 0.46.1 | 15.5.1 |
+| [cncf](https://charts.gitlab.io) | gitlab-runner | baseline |  | 0.47.0 | 15.6.0 |
 | [cnieg](https://cnieg.github.io/helm-charts) | castlemock | baseline | -12 | 2.0.1 | latest |
 | [cnieg](https://cnieg.github.io/helm-charts) | clamapi | baseline | -24 | 2.0.3 | 2.1.6 |
 | [cnieg](https://cnieg.github.io/helm-charts) | default-chart | baseline | -13 | 3.0.5 | 1.16.0 |
@@ -824,7 +825,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | nordvpn | privileged | -12 | 0.1.0 | 1.16.0 |
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | ombi | baseline | -12 | 0.1.0 | 3.0.4949 |
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | pastor | baseline | -12 | 1.1.1 | 0.5.2 |
-| [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | powerdns | empty_no_object |  | 4.1.10 | 0.2.0 |
+| [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | powerdns | error_template |  | 4.1.10 | 0.2.0 |
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | powerdns-admin | baseline | -12 | 0.2.0 | 0.2.3 |
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | quassel | error_template |  | 1.1.3 | v0.13.1 |
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | quassel-rest-search | baseline | -12 | 0.4.1 | latest |
@@ -836,20 +837,23 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | teamspeak | baseline | 0 | 1.2.0 | 3.12.1 |
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | transmission | privileged | -12 | 0.1.0 | latest |
 | [cocainefarm](https://kube.cat/chartrepo/cocainefarm) | web | baseline | -12 | 0.7.0 | latest |
-| [cockroachdb](https://charts.cockroachdb.com/) | cockroachdb | version_not_evaluable | -25 | 9.1.0 | 22.1.10 |
-| [codecentric](https://codecentric.github.io/helm-charts) | keycloak | baseline | 0 | 18.3.0 | 17.0.1-legacy |
-| [codecentric](https://codecentric.github.io/helm-charts) | keycloakx | baseline | 0 | 1.6.2 | 19.0.3 |
-| [codecentric](https://codecentric.github.io/helm-charts) | mailhog | baseline | -1 | 5.2.1 | v1.0.1 |
+| [cockroachdb](https://charts.cockroachdb.com/) | cockroachdb | version_not_evaluable | -25 | 9.1.1 | 22.1.11 |
+| [codecentric](https://codecentric.github.io/helm-charts) | keycloak | error_download |  | 18.3.0 | 17.0.1-legacy |
+| [codecentric](https://codecentric.github.io/helm-charts) | keycloakx | error_download |  | 1.6.2 | 19.0.3 |
+| [codecentric](https://codecentric.github.io/helm-charts) | mailhog | error_download |  | 5.2.1 | v1.0.1 |
+| [codechem](https://charts.codechem.com) | cloudflared | error_download |  | 1.0.0 | 2022.10.3 |
+| [codechem](https://charts.codechem.com) | mastodon | error_download |  | 1.0.0 | 4.0.2 |
+| [codechem](https://charts.codechem.com) | penpot | error_download |  | 1.0.9 | 1.16.0-beta |
 | [codelet-application-helm](https://cst-group.github.io/codelet-application-helm/) | codelet-application-helm | error_template |  | 0.1.0 | 1.16.0 |
-| [codenotary](https://packages.codenotary.org/helm) | immudb | baseline | -12 | 1.4.0 | 1.4.0 |
-| [coder](https://helm.coder.com) | coder | baseline | -1 | 1.36.0 | 1.36.0 |
+| [codenotary](https://packages.codenotary.org/helm) | immudb | error_download |  | 1.4.1 | 1.4.1 |
+| [coder](https://helm.coder.com) | coder | baseline |  | 1.37.0-rc.2 | 1.28.0 |
 | [coder](https://helm.coder.com) | workspace-provider | error_template |  | 1.21.7 |  |
 | [codetogether](https://www.codetogether.com/updates/helm) | codetogether | baseline | -12 | 1.4.9 | 2022.2.1 |
 | [codimd](https://helm.codimd.dev/) | codimd | baseline | 0 | 0.1.10 | 2.3.2 |
 | [codit](https://coditeu.github.io/charts/) | azure-pipeline-environment | error_download |  | 1.0.0 |  |
 | [codit](https://coditeu.github.io/charts/) | schedule-pod-restart | error_download |  | 0.1.0 |  |
 | [cognito-local](https://fabio-andre-rodrigues.github.io/cognito-local-helm-chart) | cognito-local | error_download |  | 1.0.2 | 3.20.0 |
-| [coinapi](https://coinapi.github.io/helm-charts/) | oeml-api | baseline | 0 | 1.7.1 |  |
+| [coinapi](https://coinapi.github.io/helm-charts/) | oeml-api | error_download |  | 1.7.1 |  |
 | [cole](https://nicolastakashi.github.io/cole) | cole | baseline | -1 | 1.2.0 | 1.16.0 |
 | [colearendt](https://helm.colearendt.com) | example | baseline | -12 | 0.1.3-dev02 | 1.16.1 |
 | [colearendt](https://helm.colearendt.com) | generic | baseline | 0 | 0.2.3 | latest |
@@ -894,7 +898,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [conjure](https://cyberark.github.io/helm-charts) | conjur-config-namespace-prep | error_template |  | 0.1.3 |  |
 | [conjure](https://cyberark.github.io/helm-charts) | conjur-oss | empty_no_object |  | 2.0.5 |  |
 | [conjure](https://cyberark.github.io/helm-charts) | cyberark-sidecar-injector | error_template |  | 0.2.0-alpha | 1.0 |
-| [conjure](https://cyberark.github.io/helm-charts) | secrets-provider | empty_no_object |  | 1.4.3 |  |
+| [conjure](https://cyberark.github.io/helm-charts) | secrets-provider | error_template |  | 1.4.3 |  |
 | [connaisseur](https://sse-secure-systems.github.io/connaisseur/charts) | connaisseur | restricted | -2 | 1.4.4 | 2.6.4 |
 | [connector](https://twingate.github.io/helm-charts) | connector | error_template |  | 0.1.13 | latest |
 | [conote](oci://ghcr.io/kmu-dev/helm/conote) | conote | error_download |  | 0.2.1 | 0.2.1 |
@@ -905,7 +909,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [consensys](https://artifacts.consensys.net/public/helm/helm/charts/) | sumo-benchmark | baseline | 0 | 0.2.68 | 0.0.0 |
 | [consensys](https://artifacts.consensys.net/public/helm/helm/charts/) | sumo-besu-genesis | baseline | 0 | 0.1.75 | latest |
 | [consensys](https://artifacts.consensys.net/public/helm/helm/charts/) | sumo-besu-node | baseline | -12 | 0.1.75 | latest |
-| [consul-helm-apps](https://sellerfusion.github.io/acquco-helm-charts/) | pg-db | no_pod_object_but_crd | 0 | 1.1.0 | 1.1.0 |
+| [consul-helm-apps](https://sellerfusion.github.io/acquco-helm-charts/) | pg-db | error_download |  | 1.1.0 | 1.1.0 |
 | [consumer-app-helm-chart](https://j4ckhunter.github.io/consumer-helm-chart/chart) | consumer-helm | baseline | -12 | 0.1.0 | 1.16.0 |
 | [contact-catalogus](https://raw.githubusercontent.com/ConductionNL/contactcatalogus/master/api/helm/) | contactcatalogus | baseline | -24 | 1.0.0 | V1.0 |
 | [contacten-catalog](https://raw.githubusercontent.com/ConductionNL/betaalservice/master/api/helm/) | betaalservice | baseline | -24 | 1.0.0 | V1.0 |
@@ -929,10 +933,10 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cowboysysop](https://cowboysysop.github.io/charts/) | dolibarr | baseline | -12 | 1.2.2 | 15.0.3 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | katib | baseline | -27 | 2.2.2 | 0.12.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | kfserving | baseline | -49 | 1.3.0 | 0.6.1 |
-| [cowboysysop](https://cowboysysop.github.io/charts/) | kroki | baseline | -12 | 1.2.0 | 0.15.0 |
+| [cowboysysop](https://cowboysysop.github.io/charts/) | kroki | baseline |  | 1.3.0 | 0.18.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | kubebox | baseline | -13 | 2.7.0 | 0.9.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | kubeview | baseline | -34 | 2.6.0 | 0.1.11 |
-| [cowboysysop](https://cowboysysop.github.io/charts/) | lighthouse-ci | baseline | -12 | 4.0.2 | 0.8.1 |
+| [cowboysysop](https://cowboysysop.github.io/charts/) | lighthouse-ci | baseline |  | 4.1.0 | 0.8.1 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | metacontroller | baseline | -38 | 1.2.0 | 2.1.1 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | mongo-express | baseline | -12 | 2.7.3 | 0.54.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | mpi-operator | baseline | -30 | 1.2.0 | 0.3.0 |
@@ -941,7 +945,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cowboysysop](https://cowboysysop.github.io/charts/) | training-operator | baseline | -15 | 1.2.0 | 1.3.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | vertical-pod-autoscaler | baseline | -36 | 6.0.0 | 0.12.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | whoami | baseline | -12 | 2.7.0 | 1.8.6 |
-| [craftypath](https://craftypath.github.io/helm-charts) | sops-operator | baseline | -15 | 0.8.0 | v0.8.0 |
+| [craftypath](https://craftypath.github.io/helm-charts) | sops-operator | error_download |  | 0.8.0 | v0.8.0 |
 | [crate](https://crate.github.io/helm-charts) | crate | privileged | -12 | 0.2.0 | 5 |
 | [criblio](https://criblio.github.io/helm-charts/) | common | empty_no_object |  | 1.0.0 | 1.0.0 |
 | [criblio](https://criblio.github.io/helm-charts/) | edge | error_template |  | 4.0.0 | 4.0.0 |
@@ -965,14 +969,15 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cronce](https://charts.cronce.io/) | mautrix-signal | error_template |  | 0.1.0 | 0.4.0 |
 | [cronce](https://charts.cronce.io/) | mayan-edms | error_template |  | 0.1.0 | 3.4.4 |
 | [cronce](https://charts.cronce.io/) | mint-collector | error_template |  | 0.1.1 | 0.1.1 |
-| [cronce](https://charts.cronce.io/) | oci-registry | baseline | -12 | 0.3.5 | 0.3.5 |
+| [cronce](https://charts.cronce.io/) | oci-registry | baseline | -12 | 0.3.7 | 0.3.7 |
 | [cronce](https://charts.cronce.io/) | piwigo | baseline | -12 | 0.0.6 | 12.2.0 |
 | [cronce](https://charts.cronce.io/) | retroarch-web | baseline | -12 | 0.1.1 | 1.9.0 |
 | [cronce](https://charts.cronce.io/) | stock-hype-collector | version_not_evaluable | 0 | 0.2.10 | 0.2.10 |
 | [cronce](https://charts.cronce.io/) | stock-hype-tracker | version_not_evaluable | 0 | 0.2.0 | 0.2.0 |
 | [cronce](https://charts.cronce.io/) | torrentor | error_template |  | 0.9.26 | 0.9.26 |
 | [cronce](https://charts.cronce.io/) | yadms | baseline | -24 | 0.3.0 | 0.3.0 |
-| [crossplane](https://charts.crossplane.io/master/) | crossplane | baseline | -120 | 1.11.0-rc.0.51.g0e3ea4cb | 1.11.0-rc.0.51.g0e3ea4cb |
+| [crossplane-iam-pod-role](https://explorium-ai.github.io/crossplane-iam-pod-role/) | crossplane-iam-pod-role | error_download |  | 0.0.17 | 1.0.0 |
+| [crossplane](https://charts.crossplane.io/master/) | crossplane | baseline |  | 1.11.0-rc.0.86.g5f757bca | 1.11.0-rc.0.86.g5f757bca |
 | [crossplane](https://charts.crossplane.io/master/) | crossplane-controllers | baseline | 0 | 0.13.0-rc.98.g1eb0776 | 0.13.0-rc.98.g1eb0776 |
 | [crossplane](https://charts.crossplane.io/master/) | crossplane-types | no_pod_object | -73 | 0.13.0-rc.98.g1eb0776 | 0.13.0-rc.98.g1eb0776 |
 | [crossplane](https://charts.crossplane.io/master/) | gitlab-controller | empty_no_object |  | 0.0.0-5.c6502f5 | 0.0.0-5.c6502f5 |
@@ -988,12 +993,12 @@ Evaluation date: 2022-11-13, 10:27:38
 | [cryptexlabs](https://helm.cryptexlabs.com) | iam-zen | privileged | -24 | 0.3.12 | 0.3.4 |
 | [cryptexlabs](https://helm.cryptexlabs.com) | microservice | no_pod_object | 0 | 0.5.9 | 1.0.0 |
 | [cryptexlabs](https://helm.cryptexlabs.com) | purple-pie | privileged | -51 | 0.0.1 | 0.0.4 |
-| [crypticcode-helmchart](https://crypticcode.github.io/) | pages | privileged | -60 | 1.0.0 | 1.0 |
+| [crypticcode-helmchart](https://crypticcode.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
 | [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-cert-manager | no_pod_object_but_crd | 0 | 1.0.11 | 1.0.11 |
-| [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-enterprise | baseline | -84 | 3.15.121 | 3.15.121 |
+| [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-enterprise | baseline |  | 3.15.122 | 3.15.122 |
 | [cryptnono](https://yuvipanda.github.io/cryptnono/) | cryptnono | privileged | -16 | 0.0.1-n025.h28f473f |  |
-| [cs3org](https://cs3org.github.io/charts/) | revad | baseline | -12 | 1.4.2 | v1.18.0 |
-| [cs3org](https://cs3org.github.io/charts/) | wopiserver | baseline | 0 | 0.5.2 | v8.3.3 |
+| [cs3org](https://cs3org.github.io/charts/) | revad | error_download |  | 1.4.2 | v1.18.0 |
+| [cs3org](https://cs3org.github.io/charts/) | wopiserver | error_download |  | 0.5.2 | v8.3.3 |
 | [csi-secrets-store-provider-azure](https://azure.github.io/secrets-store-csi-driver-provider-azure/charts) | csi-secrets-store-provider-azure | privileged | -57 | 1.3.0 | 1.3.0 |
 | [csi-wekafs](https://weka.github.io/csi-wekafs) | csi-wekafsplugin | privileged | -75 | 0.8.4 | v0.8.4 |
 | [ctfd](oci://ghcr.io/bman46/ctfd/ctfd) | ctfd | error_download |  | 0.4.3 | 3.5.0 |
@@ -1005,7 +1010,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [curie-df-helm-charts](https://curie-data-factory.github.io/helm-charts/) | jupyterlab | baseline | -12 | 0.1.5 | jupyter/datascience-notebook:python-3.9.6 |
 | [curie-df-helm-charts](https://curie-data-factory.github.io/helm-charts/) | nexus | baseline | -12 | 1.2.4 | 3.38.0 |
 | [curie-df-helm-charts](https://curie-data-factory.github.io/helm-charts/) | redcap | version_not_evaluable | -28 | 1.10.9 | 10.6.12 |
-| [curityio](https://curityio.github.io/idsvr-helm/) | idsvr | error_template |  | 0.11.9 | 7.5.1 |
-| [custom-charts](https://pramodk05.github.io/node-web-app/) | node-web-app | baseline | -12 | 0.1.0 | 1.16.0 |
+| [curityio](https://curityio.github.io/idsvr-helm/) | idsvr | error_download |  | 0.11.9 | 7.5.1 |
+| [custom-charts](https://pramodk05.github.io/node-web-app/) | node-web-app | error_download |  | 0.1.0 | 1.16.0 |
 | [custom-helm-charts](https://oufinx.github.io/helm-charts) | github-runners | empty_no_object |  | 1.0.2 |  |
-| [cyverse](https://cyverse.github.io/irods-csi-driver-helm/) | irods-csi-driver | privileged | -83 | 0.8.7 | 0.8.7 |
+| [cyverse](https://cyverse.github.io/irods-csi-driver-helm/) | irods-csi-driver | error_download |  | 0.8.7 | 0.8.7 |

@@ -3,7 +3,7 @@
 ## Artifact Hub's Helm charts evaluation
 
 Source: [Artifact Hub](https://artifacthub.io/)  
-Evaluation date: 2022-11-13, 10:27:38
+Evaluation date: 2022-11-22, 11:59:48
 
 ### Pod Security Standards (PSS)
 
@@ -11,16 +11,16 @@ Evaluation date: 2022-11-13, 10:27:38
 
 | Category | Quantity | Percentage |
 |------|------|------|
-| Total | 9886 | 100.0% |
-| Privileged | 786 | 7.95% |
-| Baseline | 5458 | 55.21% |
-| Restricted | 39 | 0.39% |
-| Error_download | 408 | 4.13% |
-| Error_template | 609 | 6.16% |
-| Empty_no_object | 564 | 5.71% |
-| No_pod_object_but_crd | 1313 | 13.28% |
-| No_pod_object | 187 | 1.89% |
-| Version_not_evaluable | 522 | 5.28% |
+| Total | 10168 | 100.0% |
+| Privileged | 550 | 5.41% |
+| Baseline | 4316 | 42.45% |
+| Restricted | 32 | 0.31% |
+| Error_download | 2261 | 22.24% |
+| Error_template | 738 | 7.26% |
+| Empty_no_object | 377 | 3.71% |
+| No_pod_object_but_crd | 1246 | 12.25% |
+| Version_not_evaluable | 491 | 4.83% |
+| No_pod_object | 157 | 1.54% |
 
 Legend:
  * PSS level:
@@ -39,19 +39,19 @@ Legend:
 
 | Score | Number of charts |
 |------|------|
-| Non-evaluable | 544 |
-| No workload | 1520 |
-| [0, -50) | 5630 |
-| [-50, -100) | 993 |
-| [-100, -150) | 105 |
-| [-150, -200) | 26 |
-| [-200, -250) | 14 |
-| [-250, -300) | 7 |
-| [-300, -350) | 2 |
+| Non-evaluable | 360 |
+| No workload | 1361 |
+| [0, -50) | 3888 |
+| [-50, -100) | 186 |
+| [-100, -150) | 60 |
+| [-150, -200) | 14 |
+| [-200, -250) | 9 |
+| [-250, -300) | 3 |
+| [-300, -350) | 1 |
 | [-350, -400) | 1 |
 | [-400, -450) | 1 |
 | [-450, -500) | 0 |
-| [-500, -550) | 1 |
+| [-500, -550) | 0 |
 | [-550, -600) | 0 |
 | [-600, -650) | 0 |
 | [-650, -700) | 1 |
@@ -60,4 +60,4 @@ Legend:
 
 Alphabetical list of all repositories (number of charts in parenthesis):
 
-[main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(356)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 

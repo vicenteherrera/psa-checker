@@ -2,48 +2,48 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-13, 10:27:38
+Evaluation date: 2022-11-22, 11:59:48
 
-[main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(356)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
 | [o-ran-ric-helm-charts](https://pinknemo452.github.io/o-ran-ric-helm-charts/) | aux-common | empty_no_object |  | 3.0.0 |  |
 | [o-ran-ric-helm-charts](https://pinknemo452.github.io/o-ran-ric-helm-charts/) | nonrtric-common | empty_no_object |  | 2.0.0 |  |
 | [o-ran-ric-helm-charts](https://pinknemo452.github.io/o-ran-ric-helm-charts/) | ric-common | empty_no_object |  | 3.3.2 |  |
-| [oada](https://charts.openag.io/) | oada | baseline | -33 | 1.6.1 | 3.6.0 |
-| [oauth2-proxy](https://oauth2-proxy.github.io/manifests) | oauth2-proxy | baseline | -12 | 6.4.0 | 7.3.0 |
+| [oada](https://charts.openag.io/) | oada | error_download |  | 1.6.1 | 3.6.0 |
+| [oauth2-proxy](https://oauth2-proxy.github.io/manifests) | oauth2-proxy | error_download |  | 6.5.0 | 7.3.0 |
 | [obeone](https://charts.obeone.cloud) | cyberchef | baseline | -12 | 1.1.2 | v9.48.0 |
 | [obeone](https://charts.obeone.cloud) | ferdi-server | baseline | -12 | 1.0.3 | 1.3.2 |
 | [obeone](https://charts.obeone.cloud) | mktxp | baseline | -12 | 1.0.1 | latest |
 | [obeone](https://charts.obeone.cloud) | nfs-server | privileged | -32 | 1.0.1 | 2.2.1 |
-| [obeone](https://charts.obeone.cloud) | petio | baseline | -12 | 1.0.2 | new-ui |
+| [obeone](https://charts.obeone.cloud) | petio | error_template |  | 1.0.2 | new-ui |
 | [obeone](https://charts.obeone.cloud) | winbox | baseline | -12 | 1.1.1 | 3.37 |
-| [observabilitysec](https://jdvalencia422.github.io/helm-charts/charts/) | observabilitysec | baseline | -12 | 0.0.1 | 1.0.0 |
-| [observertc](https://observertc.github.io/helm/) | webrtc-observer | baseline | -13 | 3.1.5 | 1.0.0-hamok |
-| [oci-karpenter](oci://public.ecr.aws/karpenter/karpenter) | karpenter | error_download |  | 0.18.1 | 0.18.1 |
+| [observabilitysec](https://jdvalencia422.github.io/helm-charts/charts/) | observabilitysec | error_download |  | 0.0.1 | 1.0.0 |
+| [observertc](https://observertc.github.io/helm/) | webrtc-observer | error_download |  | 3.1.5 | 1.0.0-hamok |
+| [oci-karpenter](oci://public.ecr.aws/karpenter/karpenter) | karpenter | error_download |  | 0.19.2 | 0.19.2 |
 | [ocp4-etcd-snapshot](https://staranto.github.io/ocp4-etcd-snapshot/helm) | etcd-snapshot | version_not_evaluable | 0 | 1.0.2 | 1.0.2 |
-| [octopus](https://git.openi.org.cn/OpenI/octopus-charts/raw/branch/master) | octopus | privileged | -528 | 4.2.5 | v4.2.5 |
-| [odavid](https://odavid.github.io/k8s-helm-charts) | my-bloody-jenkins | privileged | -12 | 0.1.197 | 2.361.2-286 |
-| [odigos](https://keyval-dev.github.io/odigos-charts/) | odigos | baseline | -21 | 0.1.98 | 1.16.0 |
-| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | nuxt2-spa | baseline | -24 | 0.1.0 | 1.16.0 |
-| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | nuxt3 | baseline | -24 | 0.1.2 | 1.16.0 |
-| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | oip-api | baseline | -24 | 0.1.2 | 1.16.0 |
-| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | oip-directus | baseline | 0 | 0.1.7 | 1.16.0 |
-| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | temporal | baseline | -12 | 0.39.36 | 0.39.41-alpha |
-| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | temporal-stack | error_template |  | 0.17.11 | 1.17.2 |
+| [octopus](https://git.openi.org.cn/OpenI/octopus-charts/raw/branch/master) | octopus | error_download |  | 4.2.5 | v4.2.5 |
+| [odavid](https://odavid.github.io/k8s-helm-charts) | my-bloody-jenkins | error_download |  | 0.1.199 | 2.361.4-288 |
+| [odigos](https://keyval-dev.github.io/odigos-charts/) | odigos | error_download |  | 0.1.99 | 1.16.0 |
+| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | nuxt2-spa | error_download |  | 0.1.0 | 1.16.0 |
+| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | nuxt3 | error_download |  | 0.1.2 | 1.16.0 |
+| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | oip-api | error_download |  | 0.1.2 | 1.16.0 |
+| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | oip-directus | error_download |  | 0.1.7 | 1.16.0 |
+| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | temporal | error_download |  | 0.39.36 | 0.39.41-alpha |
+| [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | temporal-stack | error_download |  | 0.17.11 | 1.17.2 |
 | [okgolove](https://okgolove.github.io/helm-charts) | asprom | baseline | -12 | 2.0.0 | 1.10.1 |
 | [okgolove](https://okgolove.github.io/helm-charts) | aws-xray | privileged | 0 | 4.0.0 | 3.3.4 |
 | [okgolove](https://okgolove.github.io/helm-charts) | goldpinger | baseline | -13 | 5.5.0 | v3.7.0 |
 | [okgolove](https://okgolove.github.io/helm-charts) | kuttle | baseline | -12 | 2.0.0 | 1.0.0 |
-| [okonomi-docs-api](https://okonomi-cloud.gitlab.io/okonomi-docs/okonomi-docs-api/) | okonomi-docs-api | baseline | -12 | 0.0.8 | 0.0.8 |
+| [okonomi-docs-api](https://okonomi-cloud.gitlab.io/okonomi-docs/okonomi-docs-api/) | okonomi-docs-api | error_download |  | 0.0.8 | 0.0.8 |
 | [okteto](https://charts.okteto.com) | cert-manager-webhook-civo | baseline | -14 | 0.3.1 | 0.3.1 |
 | [okteto](https://charts.okteto.com) | nginx-ingress | baseline | -26 | 1.41.2 | v0.34.1 |
-| [okteto](https://charts.okteto.com) | okteto | privileged | -169 | 1.1.1-rc.2 | 4945cb4f |
+| [okteto](https://charts.okteto.com) | okteto | privileged |  | 1.2.0-rc.4 | 879396bd |
 | [okteto](https://charts.okteto.com) | okteto-beta | privileged | -274 | 0.14.1 | 1.12.156-53c0bf3 |
-| [okteto](https://charts.okteto.com) | okteto-enterprise | empty_no_object |  | 0.15.1 | 11a25155 |
-| [olehrgf](https://olehrgf.github.io/helm-charts/) | spring-boot-microservice | baseline | 0 | 0.0.4 | 0.0.1 |
-| [olivetin](https://olivetin.github.io/OliveTin-HelmChart/) | olivetin | baseline | -12 | 0.3.0 | latest |
+| [okteto](https://charts.okteto.com) | okteto-enterprise | error_template |  | 0.15.1 | 11a25155 |
+| [olehrgf](https://olehrgf.github.io/helm-charts/) | spring-boot-microservice | error_download |  | 0.0.4 | 0.0.1 |
+| [olivetin](https://olivetin.github.io/OliveTin-HelmChart/) | olivetin | error_download |  | 0.3.0 | latest |
 | [olli-ai](https://olli-ai.github.io/helm-charts/) | exposecontroller | baseline | 0 | 1.0.5 | v1.0.5 |
 | [olli-ai](https://olli-ai.github.io/helm-charts/) | glusterfs-client-provisioner | error_template |  | 1.0.2 | v1.0.2 |
 | [olli-ai](https://olli-ai.github.io/helm-charts/) | k8s-replicator | baseline | -25 | 1.3.0 | v1.3.0 |
@@ -51,48 +51,49 @@ Evaluation date: 2022-11-13, 10:27:38
 | [olympus-iot](https://charts.itstoni.com) | mosquitto | baseline | 0 | 1.0.3 | 1.6.12 |
 | [olympus-iot](https://charts.itstoni.com) | openhab | baseline | 0 | 1.1.0 | 2.5.9 |
 | [olympus-iot](https://charts.itstoni.com) | tasmo-admin | baseline | -12 | 1.0.3 | 1.7.0 |
-| [oncall](https://raw.githubusercontent.com/lukdz/oncall/master/ops/charts/) | oncall | baseline | -12 | 0.0.1 | 0.0.14 |
+| [oncall](https://raw.githubusercontent.com/lukdz/oncall/master/ops/charts/) | oncall | error_download |  | 0.0.1 | 0.0.14 |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | apicurio | baseline | -15 | 1.0.13 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | fineract | empty_no_object |  | 0.1.7 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | flagsmith | baseline | -26 | 0.1.5 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | geonode | baseline | -25 | 0.1.16 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | growthbook | baseline | -1 | 0.1.10 | 1.16.0 |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kobotoolbox | baseline | -51 | 0.6.16 |  |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kobotoolbox | baseline |  | 0.6.17 |  |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kutt | baseline |  | 0.1.8 | 1.16.0 |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | metabase | baseline | -25 | 0.1.11 |  |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | n8n | baseline | -12 | 0.1.38 | 0.173.1 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | n8n | baseline |  | 0.1.43 | 0.173.1 |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | nocodb | baseline | -12 | 0.2.7 | 1.16.0 |
-| [one-green-core](https://one-green.github.io/helm/charts) | one-green-core | baseline | -98 | 0.0.7 | 0.0.10 |
+| [one-green-core](https://one-green.github.io/helm/charts) | one-green-core | error_download |  | 0.0.7 | 0.0.10 |
 | [onechart](https://chart.onechart.dev) | cron-job | version_not_evaluable | 0 | 0.41.0 |  |
 | [onechart](https://chart.onechart.dev) | namespaces | empty_no_object |  | 0.3.0 |  |
 | [onechart](https://chart.onechart.dev) | onechart | baseline | -1 | 0.41.0 |  |
 | [oneconvergence](https://oneconvergence.github.io/dkube-helm) | dkube-deployer | empty_no_object |  | 1.0.8 |  |
-| [onedev](https://dl.cloudsmith.io/public/onedev/onedev/helm/charts/) | onedev | baseline | -50 | 7.7.9 | 7.7.9 |
+| [onedev](https://dl.cloudsmith.io/public/onedev/onedev/helm/charts/) | onedev | error_download |  | 7.7.9 | 7.7.9 |
 | [onepassword-connect](https://1password.github.io/connect-helm-charts) | connect | baseline | -13 | 1.9.0 | 1.5.7 |
-| [onesaitplatformhelmchart](https://helm.onesaitplatform.com/) | onesaitplatform-ce-base-chart | baseline | -117 | 1.0.0-ce | 1.0.0-ce |
-| [onlinejudge](https://thetkpark.github.io/onlinejudge-helm-chart) | onlinejudge | baseline | -40 | 0.1.0 | 20210326-c7b2b |
+| [onesaitplatformhelmchart](https://helm.onesaitplatform.com/) | onesaitplatform-ce-base-chart | error_download |  | 1.0.0-ce | 1.0.0-ce |
+| [onlinejudge](https://thetkpark.github.io/onlinejudge-helm-chart) | onlinejudge | error_download |  | 0.1.0 | 20210326-c7b2b |
 | [onos-helm-chart](https://dahee8kim.github.io/onos-helm-chart/stable) | onos-helm-chart | error_download |  | 0.1.0 | 1.0.0 |
-| [onurs-repo](https://rezoruno.github.io/helm-charts) | my-app | baseline | -12 | 0.1.0 | 1.16.0 |
-| [onurs-repo](https://rezoruno.github.io/helm-charts) | nginx | baseline | -12 | 0.2.0 | 1.20.2 |
-| [onurs-repo](https://rezoruno.github.io/helm-charts) | nginx-revproxy | baseline | -12 | 1.0.2 | 1.16.0 |
+| [onurs-repo](https://rezoruno.github.io/helm-charts) | my-app | error_download |  | 0.1.0 | 1.16.0 |
+| [onurs-repo](https://rezoruno.github.io/helm-charts) | nginx | error_download |  | 0.2.0 | 1.20.2 |
+| [onurs-repo](https://rezoruno.github.io/helm-charts) | nginx-revproxy | error_download |  | 1.0.2 | 1.16.0 |
 | [op-scim](https://raw.githubusercontent.com/1password/op-scim-helm/main) | op-scim | error_download |  | 2.4.1 | v2.4.1 |
-| [opa-kube-mgmt](https://open-policy-agent.github.io/kube-mgmt/charts) | opa-kube-mgmt | baseline | -13 | 7.1.1 | 7.1.1 |
+| [opa-kube-mgmt](https://open-policy-agent.github.io/kube-mgmt/charts) | opa-kube-mgmt | error_download |  | 7.1.1 | 7.1.1 |
 | [opa-notary-connector](https://sighupio.github.io/opa-notary-connector) | opa-notary-connector | error_download |  | 0.1.4 | 0.1.4 |
 | [opal](https://authorizon.github.io/opal-helm-chart) | opal | error_download |  | 0.0.5 | 0.1.8 |
 | [open-8gears](https://8gears.container-registry.com/chartrepo/library/) | clickhouse | privileged | -62 | 1.0.2 | 20.8 |
-| [open-8gears](https://8gears.container-registry.com/chartrepo/library/) | n8n | empty_no_object |  | 0.5.0 | 0.111.0 |
+| [open-8gears](https://8gears.container-registry.com/chartrepo/library/) | n8n | error_template |  | 0.5.0 | 0.111.0 |
 | [open-8gears](https://8gears.container-registry.com/chartrepo/library/) | plausible-analytics | baseline | -12 | 0.2.2 | v1.1.1 |
 | [open-charts](https://SimonMisencik.github.io/helm-charts) | basic-app | baseline | -24 | 1.0.0 | 1.0.1 |
 | [open-charts](https://SimonMisencik.github.io/helm-charts) | job | baseline | 0 | 1.1.0 | 1.0.0 |
 | [open-charts](https://SimonMisencik.github.io/helm-charts) | kali | baseline | -12 | 1.0.1 | amd64 |
 | [open-charts](https://SimonMisencik.github.io/helm-charts) | nginx | baseline | 0 | 1.0.0 | 1.16.0 |
 | [open-charts](https://SimonMisencik.github.io/helm-charts) | ubuntu | baseline | -12 | 1.2.1 | 22.04 |
-| [open-feature-operator](https://open-feature.github.io/open-feature-operator) | ofo | empty_no_object |  | 0.2.16 | v0.2.16 |
-| [open-metadata](https://helm.open-metadata.org) | openmetadata | baseline | -12 | 0.0.45 | 0.12.2 |
-| [open-pdc](https://raw.githubusercontent.com/ConductionNL/OpenPdc/master/wordpress-docker/helm/) | open-pdc | baseline | -25 | 0.1.0 | V.0.1 |
-| [open-pub](https://raw.githubusercontent.com/ConductionNL/OpenPub/master/wordpress-docker/helm/) | open-pub | baseline | -25 | 0.1.0 | V.0.1 |
-| [open-webconcept](https://raw.githubusercontent.com/ConductionNL/OpenWebConcept/master/wordpress-docker/helm/) | open-webconcept | baseline | -25 | 0.1.0 | V.0.1 |
-| [open-zaak](https://open-zaak.github.io/charts/) | open-notificaties | baseline | -30 | 0.7.0 | 1.3.0 |
-| [open-zaak](https://open-zaak.github.io/charts/) | open-zaak | baseline | -18 | 0.8.0 | 1.6.0 |
+| [open-feature-operator](https://open-feature.github.io/open-feature-operator) | ofo | error_download |  | 0.2.20 | v0.2.20 |
+| [open-metadata](https://helm.open-metadata.org) | openmetadata | error_download |  | 0.0.46 | 0.12.3 |
+| [open-pdc](https://raw.githubusercontent.com/ConductionNL/OpenPdc/master/wordpress-docker/helm/) | open-pdc | error_download |  | 0.1.0 | V.0.1 |
+| [open-pub](https://raw.githubusercontent.com/ConductionNL/OpenPub/master/wordpress-docker/helm/) | open-pub | error_download |  | 0.1.0 | V.0.1 |
+| [open-webconcept](https://raw.githubusercontent.com/ConductionNL/OpenWebConcept/master/wordpress-docker/helm/) | open-webconcept | error_download |  | 0.1.0 | V.0.1 |
+| [open-zaak](https://open-zaak.github.io/charts/) | open-notificaties | error_download |  | 0.7.0 | 1.3.0 |
+| [open-zaak](https://open-zaak.github.io/charts/) | open-zaak | error_download |  | 0.8.0 | 1.6.0 |
 | [opencatalogi](https://raw.githubusercontent.com/OpenCatalogi/web-app/main/helm) | commonground-gateway | version_not_evaluable | -12 | 0.1.11 | 1.16.0 |
 | [opencatalogi](https://raw.githubusercontent.com/OpenCatalogi/web-app/main/helm) | opencatalogi | baseline | -12 | 0.1.0 | 0.1.0 |
 | [opencloudcx](https://opencloudcx.github.io/anchore-helm/) | anchore-engine | baseline | -12 | 1.13.0 | 0.10.0 |
@@ -205,8 +206,8 @@ Evaluation date: 2022-11-13, 10:27:38
 | [opencord](https://charts.opencord.org/) | xos-gui | baseline | -24 | 1.2.9 | 1.0.6 |
 | [opencord](https://charts.opencord.org/) | xos-tester | baseline | 0 | 1.0.2 | latest |
 | [opencord](https://charts.opencord.org/) | xossh | baseline | -12 | 3.0.4 | 4.0.1 |
-| [openebs](https://openebs.github.io/charts) | openebs | privileged | -61 | 3.3.1 | 3.3.0 |
-| [openfaas-sqs-connector](https://altitude-sports.github.io/openfaas-sqs-connector) | openfaas-sqs-connector | error_template |  | 2.3.1 | 2.3.1 |
+| [openebs](https://openebs.github.io/charts) | openebs | error_download |  | 3.3.1 | 3.3.0 |
+| [openfaas-sqs-connector](https://altitude-sports.github.io/openfaas-sqs-connector) | openfaas-sqs-connector | error_download |  | 2.3.1 | 2.3.1 |
 | [openfaas](https://openfaas.github.io/faas-netes) | cron-connector | baseline | -13 | 0.6.0 |  |
 | [openfaas](https://openfaas.github.io/faas-netes) | kafka-connector | baseline | -13 | 0.7.1 |  |
 | [openfaas](https://openfaas.github.io/faas-netes) | mqtt-connector | baseline | -13 | 0.4.7 |  |
@@ -250,13 +251,13 @@ Evaluation date: 2022-11-13, 10:27:38
 | [openinfradev](https://openinfradev.github.io/helm-repo) | keycloak | baseline | 0 | 8.2.2-skt03 | 10.0.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | keycloak-operator | baseline | -12 | 0.1.0 | 17.0.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | keycloak-resources | no_pod_object_but_crd | 0 | 0.1.0 | 17.0.0 |
-| [openinfradev](https://openinfradev.github.io/helm-repo) | keycloak-resources-deployment-for-keycloak-operator | empty_no_object |  | 0.1.0 | 17.0.0 |
+| [openinfradev](https://openinfradev.github.io/helm-repo) | keycloak-resources-deployment-for-keycloak-operator | error_template |  | 0.1.0 | 17.0.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | keystone | version_not_evaluable | -12 | 0.1.0 |  |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | kube-state-metrics | baseline | -24 | 1.1.3 | 1.9.7 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | kubernetes-addons | privileged | -55 | 0.1.0 | 0.0.1 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | kubernetes-event-exporter | baseline | -13 | 2.0.0 | 1.16.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | libvirt | privileged | -31 | 0.1.0 |  |
-| [openinfradev](https://openinfradev.github.io/helm-repo) | lma-addons | no_pod_object_but_crd | 0 | 1.7.0 | 1.0 |
+| [openinfradev](https://openinfradev.github.io/helm-repo) | lma-addons | no_pod_object_but_crd |  | 1.8.0 | 1.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | local-path-provisioner | baseline | -22 | 0.0.22 | v0.0.22 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | mariadb | baseline | -15 | 0.1.1 |  |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | memcached | baseline | 0 | 0.1.0 |  |
@@ -287,16 +288,18 @@ Evaluation date: 2022-11-13, 10:27:38
 | [openinfradev](https://openinfradev.github.io/helm-repo) | taco-watcher | privileged | -12 | 0.1.0 | 1.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | thanos | baseline | 0 | 3.4.0 | 0.17.2 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | thanos-config | no_pod_object | 0 | 0.1.4 | 1.0 |
+| [openinfradev](https://openinfradev.github.io/helm-repo) | tks-apis | baseline | -12 | 0.1.0 | 0.1.0 |
+| [openinfradev](https://openinfradev.github.io/helm-repo) | tks-app-serve-lcm | baseline | 0 | 0.1.0 | 0.1.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | tks-batch | baseline | 0 | 0.1.0 | 0.1.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | tks-cluster-lcm | baseline | 0 | 0.1.0 | 0.1.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | tks-contract | baseline | 0 | 0.1.0 | 0.1.0 |
 | [openinfradev](https://openinfradev.github.io/helm-repo) | tks-info | baseline | 0 | 0.1.0 | 0.1.0 |
-| [openkruise](https://openkruise.github.io/charts/) | kruise | privileged | -70 | 1.3.0 | 1.3.0 |
-| [openkruise](https://openkruise.github.io/charts/) | kruise-rollout | baseline | -44 | 0.2.0 | 0.2.0 |
-| [opensearch-operator](https://opster.github.io/opensearch-k8s-operator/) | opensearch-operator | baseline | -14 | 2.1.1 | 2.1.1 |
-| [opensearch-project-helm-charts](https://opensearch-project.github.io/helm-charts) | opensearch | baseline | 0 | 2.7.0 | 2.3.0 |
-| [opensearch-project-helm-charts](https://opensearch-project.github.io/helm-charts) | opensearch-dashboards | baseline | 0 | 2.5.3 | 2.3.0 |
-| [openshift](https://charts.openshift.io/) | cryostat | empty_no_object |  | 0.1.3 | 2.1.1.redhat |
+| [openkruise](https://openkruise.github.io/charts/) | kruise | error_download |  | 1.3.0 | 1.3.0 |
+| [openkruise](https://openkruise.github.io/charts/) | kruise-rollout | error_download |  | 0.2.0 | 0.2.0 |
+| [opensearch-operator](https://opster.github.io/opensearch-k8s-operator/) | opensearch-operator | error_download |  | 2.1.1 | 2.1.1 |
+| [opensearch-project-helm-charts](https://opensearch-project.github.io/helm-charts) | opensearch | error_download |  | 2.8.0 | 2.4.0 |
+| [opensearch-project-helm-charts](https://opensearch-project.github.io/helm-charts) | opensearch-dashboards | error_download |  | 2.6.0 | 2.4.0 |
+| [openshift](https://charts.openshift.io/) | cryostat | error_template |  | 0.2.0 | 2.2.0.redhat |
 | [openshift](https://charts.openshift.io/) | data-grid | empty_no_object |  | 8.3.1 | 8.3 |
 | [openshift](https://charts.openshift.io/) | dotnet | empty_no_object |  | 0.0.1 |  |
 | [openshift](https://charts.openshift.io/) | dsm-secrets-injector-chart | empty_no_object |  | 2.2.0-4.6 | 1.0 |
@@ -304,36 +307,36 @@ Evaluation date: 2022-11-13, 10:27:38
 | [openshift](https://charts.openshift.io/) | eap-xp4 | empty_no_object |  | 1.0.0 | 4.0 |
 | [openshift](https://charts.openshift.io/) | eap74 | empty_no_object |  | 1.1.0 | 7.4 |
 | [openshift](https://charts.openshift.io/) | elasticsearch-sed | empty_no_object |  | 1.0.0 | 1.0.0 |
-| [openshift](https://charts.openshift.io/) | ibm-object-storage-plugin | empty_no_object |  | 2.1.21 | 2.1.21 |
-| [openshift](https://charts.openshift.io/) | ibm-oms-ent-prod | empty_no_object |  | 6.0.2 | 10.0.0 |
-| [openshift](https://charts.openshift.io/) | ibm-oms-pro-prod | empty_no_object |  | 6.0.2 | 10.0.0 |
-| [openshift](https://charts.openshift.io/) | ibm-operator-catalog-enablement | empty_no_object |  | 1.2.2 | 1.1.0 |
-| [openshift](https://charts.openshift.io/) | ibm-spectrum-protect-plus-prod | empty_no_object |  | 1.2.1 | 10.1.8.1 |
-| [openshift](https://charts.openshift.io/) | infinispan | empty_no_object |  | 0.2.2 | 13.0 |
-| [openshift](https://charts.openshift.io/) | jenkins | empty_no_object |  | 0.0.3 | 1.16.0 |
-| [openshift](https://charts.openshift.io/) | kovairdevops-helm | empty_no_object |  | 0.1.0 | 1.0 |
-| [openshift](https://charts.openshift.io/) | kyverno | empty_no_object |  | 2.1.2 | v1.5.1 |
-| [openshift](https://charts.openshift.io/) | lacework-agent | empty_no_object |  | 5.4.1 | 1.0 |
-| [openshift](https://charts.openshift.io/) | mongo-sed | empty_no_object |  | 1.0.0 | 1.0.0 |
-| [openshift](https://charts.openshift.io/) | mysql-sed | empty_no_object |  | 0.1.0 | 0.1.0 |
-| [openshift](https://charts.openshift.io/) | nodejs | empty_no_object |  | 0.0.2 |  |
-| [openshift](https://charts.openshift.io/) | nodejs-ex-k | empty_no_object |  | 0.2.1 | 1.16.0 |
-| [openshift](https://charts.openshift.io/) | nodered-chart | empty_no_object |  | 0.0.3 | 1.16.0 |
-| [openshift](https://charts.openshift.io/) | orion-ld | empty_no_object |  | 1.0.3 | 1.0.1 |
-| [openshift](https://charts.openshift.io/) | psql-sed | empty_no_object |  | 1.0.0 | 1.0.0 |
-| [openshift](https://charts.openshift.io/) | pubsubplus-openshift | empty_no_object |  | 3.1.0 |  |
-| [openshift](https://charts.openshift.io/) | pubsubplus-openshift-dev | empty_no_object |  | 3.1.0 |  |
-| [openshift](https://charts.openshift.io/) | pubsubplus-openshift-ha | empty_no_object |  | 3.1.0 |  |
-| [openshift](https://charts.openshift.io/) | quarkus | empty_no_object |  | 0.0.3 |  |
-| [openshift](https://charts.openshift.io/) | redis-sed | empty_no_object |  | 1.0.1 | 1.0.1 |
-| [openshift](https://charts.openshift.io/) | samplechart | empty_no_object |  | 0.1.3 | 1-42 |
-| [openshift](https://charts.openshift.io/) | spring-boot-rest-http | empty_no_object |  | 0.0.1 |  |
-| [openshift](https://charts.openshift.io/) | uv-helm | empty_no_object |  | 0.1.3 | 0.2.0 |
-| [openshift](https://charts.openshift.io/) | uverifier | empty_no_object |  | 0.1.2 | 0.2.0 |
-| [openshift](https://charts.openshift.io/) | vault | empty_no_object |  | 0.22.0 | 1.11.3 |
-| [openshift](https://charts.openshift.io/) | vertx | empty_no_object |  | 0.0.1 |  |
-| [openshift](https://charts.openshift.io/) | wavefront | empty_no_object |  | 1.12.0 | 1.12.0 |
-| [openshift](https://charts.openshift.io/) | wildfly | empty_no_object |  | 1.5.5 | 26.1 |
+| [openshift](https://charts.openshift.io/) | ibm-object-storage-plugin | error_template |  | 2.2.1 | 2.2.1 |
+| [openshift](https://charts.openshift.io/) | ibm-oms-ent-prod | error_template |  | 6.0.2 | 10.0.0 |
+| [openshift](https://charts.openshift.io/) | ibm-oms-pro-prod | error_template |  | 6.0.2 | 10.0.0 |
+| [openshift](https://charts.openshift.io/) | ibm-operator-catalog-enablement | error_template |  | 1.2.2 | 1.1.0 |
+| [openshift](https://charts.openshift.io/) | ibm-spectrum-protect-plus-prod | error_template |  | 1.2.1 | 10.1.8.1 |
+| [openshift](https://charts.openshift.io/) | infinispan | error_template |  | 0.2.2 | 13.0 |
+| [openshift](https://charts.openshift.io/) | jenkins | error_template |  | 0.0.3 | 1.16.0 |
+| [openshift](https://charts.openshift.io/) | kovairdevops-helm | error_template |  | 0.1.0 | 1.0 |
+| [openshift](https://charts.openshift.io/) | kyverno | error_template |  | 2.1.2 | v1.5.1 |
+| [openshift](https://charts.openshift.io/) | lacework-agent | error_template |  | 5.4.1 | 1.0 |
+| [openshift](https://charts.openshift.io/) | mongo-sed | error_template |  | 1.0.0 | 1.0.0 |
+| [openshift](https://charts.openshift.io/) | mysql-sed | error_template |  | 0.1.0 | 0.1.0 |
+| [openshift](https://charts.openshift.io/) | nodejs | error_template |  | 0.0.2 |  |
+| [openshift](https://charts.openshift.io/) | nodejs-ex-k | error_template |  | 0.2.1 | 1.16.0 |
+| [openshift](https://charts.openshift.io/) | nodered-chart | error_template |  | 0.0.3 | 1.16.0 |
+| [openshift](https://charts.openshift.io/) | orion-ld | error_template |  | 1.0.3 | 1.0.1 |
+| [openshift](https://charts.openshift.io/) | psql-sed | error_template |  | 1.0.0 | 1.0.0 |
+| [openshift](https://charts.openshift.io/) | pubsubplus-openshift | error_template |  | 3.1.0 |  |
+| [openshift](https://charts.openshift.io/) | pubsubplus-openshift-dev | error_template |  | 3.1.0 |  |
+| [openshift](https://charts.openshift.io/) | pubsubplus-openshift-ha | error_template |  | 3.1.0 |  |
+| [openshift](https://charts.openshift.io/) | quarkus | error_template |  | 0.0.3 |  |
+| [openshift](https://charts.openshift.io/) | redis-sed | error_template |  | 1.0.1 | 1.0.1 |
+| [openshift](https://charts.openshift.io/) | samplechart | error_template |  | 0.1.3 | 1-42 |
+| [openshift](https://charts.openshift.io/) | spring-boot-rest-http | error_template |  | 0.0.1 |  |
+| [openshift](https://charts.openshift.io/) | uv-helm | error_template |  | 0.1.3 | 0.2.0 |
+| [openshift](https://charts.openshift.io/) | uverifier | error_template |  | 0.1.2 | 0.2.0 |
+| [openshift](https://charts.openshift.io/) | vault | error_template |  | 0.22.0 | 1.11.3 |
+| [openshift](https://charts.openshift.io/) | vertx | error_template |  | 0.0.1 |  |
+| [openshift](https://charts.openshift.io/) | wavefront | error_template |  | 1.12.0 | 1.12.0 |
+| [openshift](https://charts.openshift.io/) | wildfly | error_template |  | 1.5.5 | 26.1 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | alerta | error_download |  | 0.1.5 | v8.0.2 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | aodh | error_download |  | 0.1.1 | v1.0.0 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | barbican | error_download |  | 0.1.2 | v1.0.0 |
@@ -409,28 +412,28 @@ Evaluation date: 2022-11-13, 10:27:38
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | tempest | error_download |  | 0.1.1 | v1.0.0 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | tiller | error_download |  | 0.1.1 | v2.16.9 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | zookeeper | error_download |  | 0.1.1 | v3.5.5 |
-| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-collector | error_template |  | 0.39.1 | 0.64.1 |
-| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-demo | baseline | -220 | 0.11.1 | 1.0.0 |
-| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-operator | baseline | -39 | 0.18.0 | 0.63.1 |
-| [openwhisk](https://openwhisk.apache.org/charts) | openwhisk | baseline | -156 | 1.0.0 |  |
-| [opsdroid](https://helm.opsdroid.dev/) | opsdroid | baseline | -12 | 0.1.6 | 0.25.0 |
-| [opsie](https://helm.opsie.app) | operator | baseline | 0 | 0.1.0 | 0.1.0 |
-| [opslevel](https://opslevel.github.io/helm-charts/) | kubernetes-sync | baseline | -13 | 0.5.8 | 2022.10.19 |
-| [opsmx](https://helmcharts.opsmx.com/) | hello-kubernetes | baseline | -12 | 1.0.3 | 1.10 |
-| [opsmx](https://helmcharts.opsmx.com/) | issuegen | baseline | -12 | 1.0.2 | 0.1.0 |
-| [opsmx](https://helmcharts.opsmx.com/) | oes | baseline | -187 | 4.0.6 | 4.0.1 |
-| [opsmx](https://helmcharts.opsmx.com/) | opsmx-autopilot | baseline | -12 | 2.0.0 | 2.9.10 |
-| [opsmx](https://helmcharts.opsmx.com/) | rest-app | baseline | -12 | 0.1.0 | 0.1.0 |
-| [opsmx](https://helmcharts.opsmx.com/) | spinnaker | baseline | -26 | 2.2.7 | 1.26.6 |
-| [opster-omc](https://opster.github.io/omc-helm/) | omc | baseline | -27 | 1.9.5 | 1.0.5 |
-| [opster](https://opster.github.io/opster-metricbeat/) | opster | error_template |  | 1.1.0 | 7.1 |
-| [opster](https://opster.github.io/opster-metricbeat/) | opster-metricbeat | baseline | 0 | 1.5.0 | 7.1 |
+| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-collector | error_download |  | 0.39.3 | 0.64.1 |
+| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-demo | error_download |  | 0.12.3 | 1.1.0 |
+| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-operator | error_download |  | 0.18.3 | 0.63.1 |
+| [openwhisk](https://openwhisk.apache.org/charts) | openwhisk | error_download |  | 1.0.0 |  |
+| [opsdroid](https://helm.opsdroid.dev/) | opsdroid | error_download |  | 0.1.6 | 0.25.0 |
+| [opsie](https://helm.opsie.app) | operator | error_download |  | 0.1.0 | 0.1.0 |
+| [opslevel](https://opslevel.github.io/helm-charts/) | kubernetes-sync | error_download |  | 0.5.8 | 2022.10.19 |
+| [opsmx](https://helmcharts.opsmx.com/) | hello-kubernetes | error_download |  | 1.0.3 | 1.10 |
+| [opsmx](https://helmcharts.opsmx.com/) | issuegen | error_download |  | 1.0.2 | 0.1.0 |
+| [opsmx](https://helmcharts.opsmx.com/) | oes | error_download |  | 4.0.7 | 4.0.2 |
+| [opsmx](https://helmcharts.opsmx.com/) | opsmx-autopilot | error_download |  | 2.0.0 | 2.9.10 |
+| [opsmx](https://helmcharts.opsmx.com/) | rest-app | error_download |  | 0.1.0 | 0.1.0 |
+| [opsmx](https://helmcharts.opsmx.com/) | spinnaker | error_download |  | 2.2.7 | 1.26.6 |
+| [opster-omc](https://opster.github.io/omc-helm/) | omc | error_download |  | 1.9.5 | 1.0.5 |
+| [opster](https://opster.github.io/opster-metricbeat/) | opster | error_download |  | 1.1.0 | 7.1 |
+| [opster](https://opster.github.io/opster-metricbeat/) | opster-metricbeat | error_download |  | 1.5.0 | 7.1 |
 | [opt-charts](https://openpracticetool.github.io/opt-charts/) | microcks | error_download |  | 0.1.0 | 1.16.0 |
 | [opt-charts](https://openpracticetool.github.io/opt-charts/) | rh-sso | error_download |  | 0.1.0 | 1.16.0 |
-| [opta-agent](https://helm-repo.opta.dev/) | opta-agent | baseline | -12 | 0.1.3 | 0.1.0 |
+| [opta-agent](https://helm-repo.opta.dev/) | opta-agent | error_download |  | 0.1.3 | 0.1.0 |
 | [optimizely-agent](https://optimizely.github.io/optimizely-agent-helm) | agent | baseline | -12 | 1.0.3-alpha | 2.7.0 |
-| [orderregistratiecomponent](https://raw.githubusercontent.com/ConductionNL/orderregistratiecomponent/master/api/helm/) | orderregistratiecomponent | baseline | -24 | 1.0.0 | V.0.1 |
-| [ortelius](https://ortelius.github.io/ortelius-charts/) | ortelius | baseline | -72 | 10.0.7 | 10.0.0 |
+| [orderregistratiecomponent](https://raw.githubusercontent.com/ConductionNL/orderregistratiecomponent/master/api/helm/) | orderregistratiecomponent | error_download |  | 1.0.0 | V.0.1 |
+| [ortelius](https://ortelius.github.io/ortelius-charts/) | ortelius | error_download |  | 10.0.7 | 10.0.0 |
 | [ory](https://k8s.ory.sh/helm/charts) | example-idp | baseline | -24 | 0.26.2 | 1.4.6 |
 | [ory](https://k8s.ory.sh/helm/charts) | hive | error_template |  | 0.1.0 | 1.0 |
 | [ory](https://k8s.ory.sh/helm/charts) | hive-selfservice-ui-node | baseline | -25 | 0.1.0 | v0.0.1 |
@@ -442,6 +445,8 @@ Evaluation date: 2022-11-13, 10:27:38
 | [ory](https://k8s.ory.sh/helm/charts) | maester | baseline | -14 | 0.0.17 | v0.0.1 |
 | [ory](https://k8s.ory.sh/helm/charts) | oathkeeper | baseline | -15 | 0.26.2 | v0.39.0 |
 | [ory](https://k8s.ory.sh/helm/charts) | oathkeeper-maester | baseline | -2 | 0.26.2 | v0.1.7 |
+| [osc-bsu-csi-driver](oci://docker.io/outscalehelm/osc-bsu-csi-driver) | osc-bsu-csi-driver | error_download |  | 1.0.0 | v1.0.0 |
+| [osc-cloud-controller-manager](oci://registry-1.docker.io/outscalehelm/osc-cloud-controller-manager) | osc-cloud-controller-manager | error_download |  | 0.1.1 | 0.1.1 |
 | [osc](https://osc.github.io/osc-helm-charts) | common | empty_no_object |  | 0.4.0 | 0.1.0 |
 | [osc](https://osc.github.io/osc-helm-charts) | database | no_pod_object | 0 | 0.7.0 | 0.1.0 |
 | [osc](https://osc.github.io/osc-helm-charts) | external-dns | baseline | -13 | 0.5.0 | v0.10.2 |
@@ -450,37 +455,37 @@ Evaluation date: 2022-11-13, 10:27:38
 | [osc](https://osc.github.io/osc-helm-charts) | osc-common | empty_no_object |  | 0.5.0 | 0.1.0 |
 | [osc](https://osc.github.io/osc-helm-charts) | prometheus | privileged | -97 | 0.15.2 | v2.35.0 |
 | [osc](https://osc.github.io/osc-helm-charts) | webservice | error_template |  | 0.24.0 | 0.1.0 |
-| [osm-edge](http://flomesh-io.github.io/osm-edge) | osm-edge | baseline | -60 | 1.2.1-alpha.1 | 1.2.1-alpha.1 |
+| [osm-edge](http://flomesh-io.github.io/osm-edge) | osm-edge | error_download |  | 1.2.1-alpha.1 | 1.2.1-alpha.1 |
 | [oteemo-charts](https://oteemo.github.io/charts) | che | version_not_evaluable | -50 | 0.1.5 | 7.3.1 |
-| [otel-contrib-test](https://gusdebbaja.github.io/splunk-otel-collector-chart/) | o11y-collector | error_template |  | 0.3.0 |  |
-| [otel-contrib-test](https://gusdebbaja.github.io/splunk-otel-collector-chart/) | splunk-otel-collector | empty_no_object |  | 0.39.0 | 0.39.0 |
-| [outline](https://gitlab.com/api/v4/projects/30221184/packages/helm/stable/) | outline | baseline | -13 | 0.0.6 | 0.63.0 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-e2e | baseline | -25 | 0.18.0 | 0.16.4 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-faucet | baseline | 0 | 0.5.0 | 1.16.0 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-hostname-operator | baseline | -3 | 0.33.0 | 0.16.8 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-ingress | privileged | -36 | 0.33.0 | 1.0.0 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-inventory-operator | baseline | -30 | 0.17.0 | 0.1.4 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-ip-operator | baseline | -12 | 0.15.0 | 0.16.4 |
+| [otel-contrib-test](https://gusdebbaja.github.io/splunk-otel-collector-chart/) | o11y-collector | error_download |  | 0.3.0 |  |
+| [otel-contrib-test](https://gusdebbaja.github.io/splunk-otel-collector-chart/) | splunk-otel-collector | error_download |  | 0.39.0 | 0.39.0 |
+| [outline](https://gitlab.com/api/v4/projects/30221184/packages/helm/stable/) | outline | error_download |  | 0.0.6 | 0.63.0 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-e2e | baseline |  | 0.19.0 | 1.0.0 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-faucet | baseline |  | 0.6.0 | 0.0.11 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-hostname-operator | baseline |  | 4.0.0 | 0.1.0 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-ingress | privileged |  | 1.0.0 | 1.0.0 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-inventory-operator | baseline |  | 4.0.0 | 0.1.4 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-ip-operator | baseline |  | 4.0.3 | 0.1.0 |
 | [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-metallb | privileged | 0 | 0.13.0 | 0.16.4 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-node | baseline | -1 | 0.164.0 | 0.16.8 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-node | baseline |  | 4.0.5 | 0.18.1 |
 | [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | akash-rook | privileged | -152 | 0.33.0 | 1.9.4 |
-| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | provider | baseline | -27 | 0.206.0 | 0.16.8 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-e2e | baseline | -25 | 0.18.0 | 0.16.4 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-faucet | baseline | 0 | 0.5.0 | 1.16.0 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-hostname-operator | baseline | -3 | 0.33.0 | 0.16.8 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-ingress | privileged | -36 | 0.33.0 | 1.0.0 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-inventory-operator | baseline | -30 | 0.17.0 | 0.1.4 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-ip-operator | baseline | -12 | 0.15.0 | 0.16.4 |
+| [ovrclk-2](https://github.com/ovrclk/helm-charts/raw/gh-pages) | provider | baseline |  | 4.0.5 | 0.1.0 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-e2e | baseline |  | 0.19.0 | 1.0.0 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-faucet | baseline |  | 0.6.0 | 0.0.11 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-hostname-operator | baseline |  | 4.0.0 | 0.1.0 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-ingress | privileged |  | 1.0.0 | 1.0.0 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-inventory-operator | baseline |  | 4.0.0 | 0.1.4 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-ip-operator | baseline |  | 4.0.3 | 0.1.0 |
 | [ovrclk](https://ovrclk.github.io/helm-charts) | akash-metallb | privileged | 0 | 0.13.0 | 0.16.4 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-node | baseline | -1 | 0.164.0 | 0.16.8 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | akash-node | baseline |  | 4.0.5 | 0.18.1 |
 | [ovrclk](https://ovrclk.github.io/helm-charts) | akash-rook | privileged | -152 | 0.33.0 | 1.9.4 |
-| [ovrclk](https://ovrclk.github.io/helm-charts) | provider | baseline | -27 | 0.206.0 | 0.16.8 |
-| [owkin](https://owkin.github.io/charts) | hlf-ca | baseline | -12 | 2.1.0 | 1.5.1 |
-| [owkin](https://owkin.github.io/charts) | hlf-couchdb | baseline | -12 | 2.1.0 | 3.1.1 |
-| [owkin](https://owkin.github.io/charts) | hlf-ord | no_pod_object_but_crd | -12 | 3.1.0 | 2.2.1 |
-| [owkin](https://owkin.github.io/charts) | hlf-peer | privileged | -12 | 5.1.0 | 2.2.1 |
-| [owkin](https://owkin.github.io/charts) | mlhub | baseline | -9 | 2.0.0 | 1.0.0 |
-| [owkin](https://owkin.github.io/charts) | pypiserver | baseline | -9 | 3.1.1 | 1.3.2 |
-| [oxyno-zeta](https://oxyno-zeta.github.io/helm-charts-v2/) | kubernetes-tagger | baseline | -10 | 1.1.1 | 1.3.0 |
-| [oxyno-zeta](https://oxyno-zeta.github.io/helm-charts-v2/) | prometheus-cachethq | baseline | 0 | 1.1.0 | 1.0.0 |
-| [oxyno-zeta](https://oxyno-zeta.github.io/helm-charts-v2/) | s3-proxy | baseline | 0 | 2.13.0 | 4.6.0 |
+| [ovrclk](https://ovrclk.github.io/helm-charts) | provider | baseline |  | 4.0.5 | 0.1.0 |
+| [owkin](https://owkin.github.io/charts) | hlf-ca | error_download |  | 2.1.0 | 1.5.1 |
+| [owkin](https://owkin.github.io/charts) | hlf-couchdb | error_download |  | 2.1.0 | 3.1.1 |
+| [owkin](https://owkin.github.io/charts) | hlf-ord | error_download |  | 3.1.0 | 2.2.1 |
+| [owkin](https://owkin.github.io/charts) | hlf-peer | error_download |  | 5.1.0 | 2.2.1 |
+| [owkin](https://owkin.github.io/charts) | mlhub | error_download |  | 2.0.0 | 1.0.0 |
+| [owkin](https://owkin.github.io/charts) | pypiserver | error_download |  | 3.1.1 | 1.3.2 |
+| [oxyno-zeta](https://oxyno-zeta.github.io/helm-charts-v2/) | kubernetes-tagger | error_download |  | 1.1.1 | 1.3.0 |
+| [oxyno-zeta](https://oxyno-zeta.github.io/helm-charts-v2/) | prometheus-cachethq | error_download |  | 1.1.0 | 1.0.0 |
+| [oxyno-zeta](https://oxyno-zeta.github.io/helm-charts-v2/) | s3-proxy | error_download |  | 2.13.0 | 4.6.0 |

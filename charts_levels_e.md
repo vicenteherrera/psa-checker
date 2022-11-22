@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-13, 10:27:38
+Evaluation date: 2022-11-22, 11:59:48
 
-[main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(356)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -28,7 +28,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [ectobit](https://charts.ectobit.com) | adminer | baseline | -12 | 0.1.6 | 4.8.1-r1 |
 | [ectobit](https://charts.ectobit.com) | budgie | baseline | -12 | 0.1.2 | 0.1.4 |
 | [ectobit](https://charts.ectobit.com) | pgweb | baseline | -12 | 0.1.7 | 0.11.12 |
-| [ectobit](https://charts.ectobit.com) | rspamd | baseline | -12 | 0.8.19 | 3.2-alpine3.16.1 |
+| [ectobit](https://charts.ectobit.com) | rspamd | baseline | -12 | 0.8.20 | 3.3-alpine3.16.3 |
 | [ectobit](https://charts.ectobit.com) | vanity | baseline | -12 | 0.3.17 | 0.5.4 |
 | [edc](https://bscholtes1a.github.io/EdcCharts/charts) | dataspace-connector | baseline | 0 | 0.0.3 | 0.0.1-SNAPSHOT |
 | [eddycharly](https://eddycharly.github.io/tekton-helm) | dashboard | baseline | -25 | 0.6.4 | v0.6.1.3 |
@@ -39,15 +39,15 @@ Evaluation date: 2022-11-13, 10:27:38
 | [edgelesssys](https://helm.edgeless.systems/stable) | marblerun | baseline | -13 | 0.6.2 | v0.6.2 |
 | [edgelesssys](https://helm.edgeless.systems/stable) | marblerun-coordinator | baseline | -13 | 0.5.0 | v0.5.0 |
 | [edgware-charts](https://yosahr.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
-| [edgwarepages](https://bhatiamahak.github.io/) | pages | privileged | -24 | 1.0.0 | 1.0 |
-| [edu-chart](https://carakazov.github.io/edu-chart/) | my-test-cluster | baseline | -36 | 0.1.0 | 1.16.0 |
+| [edgwarepages](https://bhatiamahak.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
+| [edu-chart](https://carakazov.github.io/edu-chart/) | my-test-cluster | error_download |  | 0.1.0 | 1.16.0 |
 | [edu](http://iac-source.github.io/helm-charts) | dashboard | baseline | -12 | 1.0.0 | 1.0.0 |
 | [edu](http://iac-source.github.io/helm-charts) | grafana | baseline | -14 | 5.3.0 | 7.0.3 |
 | [edu](http://iac-source.github.io/helm-charts) | jenkins | baseline | -13 | 2.7.1 | lts |
 | [edu](http://iac-source.github.io/helm-charts) | metallb | privileged | -19 | 0.1.1 | 0.8.2 |
 | [edu](http://iac-source.github.io/helm-charts) | prometheus | privileged | -41 | 11.6.0 | 2.19.0 |
 | [education-component](https://raw.githubusercontent.com/ConductionNL/education-component/master/api/helm/) | education-component | baseline | -24 | 1.0.0 | V1.0 |
-| [edudip](https://charts.edudip.dev) | vaultwarden | baseline | -24 | 0.2.2 | 1.25.2 |
+| [edudip](https://charts.edudip.dev) | vaultwarden | error_download |  | 0.2.2 | 1.25.2 |
 | [egeria-charts](https://odpi.github.io/egeria-charts) | egeria-base | baseline | -72 | 3.13.1 | 3.13 |
 | [egeria-charts](https://odpi.github.io/egeria-charts) | egeria-cts | baseline | -60 | 3.13.1 | 3.13 |
 | [egeria-charts](https://odpi.github.io/egeria-charts) | egeria-pts | empty_no_object |  | 3.13.1 | 3.13 |
@@ -56,7 +56,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [eherkenning-ui](https://raw.githubusercontent.com/ConductionNL/eherkenning-ui/master/api/helm/) | eherkenning-ui | baseline | -24 | 1.0.0 | V1.0 |
 | [elastabot](https://jertel.github.io/elastabot/) | elastabot | no_pod_object | 0 | 1.5.3 | 1.5.3 |
 | [elastalert2](https://jertel.github.io/elastalert2) | elastalert2 | baseline | 0 | 2.8.0 | 2.8.0 |
-| [elastic](https://helm.elastic.co) | apm-server | baseline | -1 | 7.17.3 | 7.17.3 |
+| [elastic](https://helm.elastic.co) | apm-server | baseline | -1 | 8.5.1 | 8.5.1 |
 | [elastic](https://helm.elastic.co) | eck-agent | no_pod_object_but_crd | -1 | 0.1.0 |  |
 | [elastic](https://helm.elastic.co) | eck-elasticsearch | no_pod_object_but_crd | 0 | 0.1.1 |  |
 | [elastic](https://helm.elastic.co) | eck-fleet-server | no_pod_object_but_crd | -1 | 0.1.0 |  |
@@ -64,11 +64,11 @@ Evaluation date: 2022-11-13, 10:27:38
 | [elastic](https://helm.elastic.co) | eck-operator | baseline | -27 | 2.5.0 | 2.5.0 |
 | [elastic](https://helm.elastic.co) | eck-operator-crds | no_pod_object_but_crd | 0 | 2.5.0 | 2.5.0 |
 | [elastic](https://helm.elastic.co) | eck-stack | no_pod_object_but_crd | 0 | 0.1.0 |  |
-| [elastic](https://helm.elastic.co) | elasticsearch | privileged | 0 | 7.17.3 | 7.17.3 |
-| [elastic](https://helm.elastic.co) | filebeat | privileged | -10 | 7.17.3 | 7.17.3 |
-| [elastic](https://helm.elastic.co) | kibana | baseline | 0 | 7.17.3 | 7.17.3 |
-| [elastic](https://helm.elastic.co) | logstash | baseline | 0 | 7.17.3 | 7.17.3 |
-| [elastic](https://helm.elastic.co) | metricbeat | privileged | -42 | 7.17.3 | 7.17.3 |
+| [elastic](https://helm.elastic.co) | elasticsearch | privileged | 0 | 8.5.1 | 8.5.1 |
+| [elastic](https://helm.elastic.co) | filebeat | privileged | -10 | 8.5.1 | 8.5.1 |
+| [elastic](https://helm.elastic.co) | kibana | baseline | 0 | 8.5.1 | 8.5.1 |
+| [elastic](https://helm.elastic.co) | logstash | baseline | 0 | 8.5.1 | 8.5.1 |
+| [elastic](https://helm.elastic.co) | metricbeat | privileged | -42 | 8.5.1 | 8.5.1 |
 | [elasticsearch](https://odysseycloud.github.io/oc-charts) | elasticsearch | privileged | 0 | 1.0.1 | 8.0.0 |
 | [elasticsearch](https://odysseycloud.github.io/oc-charts) | kibana | baseline | 0 | 1.0.1 | 8.0.0 |
 | [elibrary](https://nimramubashir.github.io/deploy-elibrary/) | deploy_elibrary | baseline | -12 | 0.1.0 | 1.16.0 |
@@ -93,7 +93,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [emqx-operator](https://repos.emqx.io/charts) | emqx-ee | baseline | 0 | 4.4.10 | 4.4.10 |
 | [emqx-operator](https://repos.emqx.io/charts) | emqx-operator | baseline | -32 | 2.0.1 | 2.0.1 |
 | [emqx-operator](https://repos.emqx.io/charts) | kuiper | baseline | -12 | 0.9.0 | 0.9.0 |
-| [enapter](https://enapter.github.io/charts/) | keydb | baseline | 0 | 0.43.1 | 6.3.1 |
+| [enapter](https://enapter.github.io/charts/) | keydb | error_download |  | 0.43.1 | 6.3.1 |
 | [enclave](https://install.enclave.io/helm/) | enclave | privileged | -28 | 0.1.1 | latest |
 | [enix](https://charts.enix.io) | cnpg-cluster | no_pod_object_but_crd | 0 | 1.1.2 | 14.5-6 |
 | [enix](https://charts.enix.io) | kube-router | privileged | -17 | 1.8.0 | v1.5.1 |
@@ -112,37 +112,46 @@ Evaluation date: 2022-11-13, 10:27:38
 | [eoloplanner](https://raw.githubusercontent.com/rafarex70/HelmPractica4Chart/master/charts/) | eoloplanner | baseline | -36 | 0.1.0 | 1.16.0 |
 | [eoloplants-urjc](https://raw.githubusercontent.com/lmorente/eoloplants-urjc-charts/main/charts/) | eoloplants | baseline | -48 | 0.1.0 | 1.0.0 |
 | [eoloplants](https://raw.githubusercontent.com/LuisBoto/contenedoresOrquestadores/main/Practica%204%20Helm/charts/) | eoloplants | error_download |  | 0.1.0 | 1.16.0 |
-| [eoloserver](https://raw.githubusercontent.com/Ruskab/cloudapps-pr17-helm/master/helmchart/) | server | baseline | -36 | 0.1.0 | 1.16.0 |
+| [eoloserver](https://raw.githubusercontent.com/Ruskab/cloudapps-pr17-helm/master/helmchart/) | server | error_download |  | 0.1.0 | 1.16.0 |
+| [eos](https://registry.cern.ch/chartrepo/eos) | fst | error_download |  | 0.1.1 | 4.8.78 |
+| [eos](https://registry.cern.ch/chartrepo/eos) | fusex | error_download |  | 0.1.3 | 4.8.86 |
+| [eos](https://registry.cern.ch/chartrepo/eos) | mgm | error_download |  | 0.1.4 | 4.8.80 |
+| [eos](https://registry.cern.ch/chartrepo/eos) | mq | error_download |  | 0.1.1 | 4.8.78 |
+| [eos](https://registry.cern.ch/chartrepo/eos) | qdb | error_download |  | 0.1.1 | 4.8.78 |
+| [eos](https://registry.cern.ch/chartrepo/eos) | server | error_download |  | 0.1.5 | 5.0.31 |
+| [eos](https://registry.cern.ch/chartrepo/eos) | utils | error_download |  | 0.1.4 |  |
 | [epinio](https://epinio.github.io/helm-charts) | container-registry | baseline | -1 | 0.1.0 |  |
 | [epinio](https://epinio.github.io/helm-charts) | epinio | baseline | -114 | 1.4.0 | v1.4.0 |
 | [epinio](https://epinio.github.io/helm-charts) | epinio-application | baseline | -13 | 0.1.24 |  |
 | [epinio](https://epinio.github.io/helm-charts) | epinio-application-stateful | baseline | -12 | 0.1.21 |  |
 | [epinio](https://epinio.github.io/helm-charts) | epinio-ui | baseline | -1 | 1.2.0 | v1.2.0-0.0.1 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | admin-console-operator | baseline | 0 | 2.13.0-SNAPSHOT.9 | 2.13.0-SNAPSHOT.9 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | cd-pipeline-operator | baseline | 0 | 2.13.0-SNAPSHOT.5 | 2.13.0-SNAPSHOT.5 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | codebase-operator | baseline | 0 | 2.14.0-SNAPSHOT.33 | 2.14.0-SNAPSHOT.33 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | cd-pipeline-operator | baseline |  | 2.13.0-SNAPSHOT.6 | 2.13.0-SNAPSHOT.6 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | codebase-operator | baseline |  | 2.14.0-SNAPSHOT.35 | 2.14.0-SNAPSHOT.35 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-argocd-operator | baseline | 0 | 0.3.0-SNAPSHOT.2 | 0.3.0-SNAPSHOT.2 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-component-operator | empty_no_object |  | 0.13.0-SNAPSHOT.2 | 0.13.0-SNAPSHOT.2 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-headlamp | baseline | 0 | 0.3.0-SNAPSHOT.70 | 0.3.0-SNAPSHOT.70 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-install | error_template |  | 2.13.0-SNAPSHOT.42 | 2.13.0-SNAPSHOT.42 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-tekton | baseline | -1 | 0.1.0-SNAPSHOT.228 | 0.1.0-SNAPSHOT.228 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-tekton-interceptor | baseline | -13 | 0.1.0-SNAPSHOT.228 | 0.1.0-SNAPSHOT.228 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | gerrit-operator | baseline | -12 | 2.13.0-SNAPSHOT.17 | 2.13.0-SNAPSHOT.17 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-custom-pipelines | baseline |  | 0.1.0-SNAPSHOT.246 | 0.1.0-SNAPSHOT.246 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-headlamp | baseline |  | 0.3.0-SNAPSHOT.81 | 0.3.0-SNAPSHOT.81 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-install | error_template |  | 2.13.0-SNAPSHOT.45 | 2.13.0-SNAPSHOT.45 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-tekton | baseline |  | 0.1.0-SNAPSHOT.246 | 0.1.0-SNAPSHOT.246 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | edp-tekton-interceptor | baseline |  | 0.1.0-SNAPSHOT.246 | 0.1.0-SNAPSHOT.246 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | gerrit-operator | baseline |  | 2.13.0-SNAPSHOT.21 | 2.13.0-SNAPSHOT.21 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | jenkins-operator | baseline | 0 | 2.13.0-SNAPSHOT.9 | 2.13.0-SNAPSHOT.9 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | keycloak-operator | baseline | 0 | 1.14.0-SNAPSHOT.7 | 1.14.0-SNAPSHOT.7 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | nexus-operator | baseline | 0 | 2.13.0-SNAPSHOT.8 | 2.13.0-SNAPSHOT.8 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | perf-operator | baseline | 0 | 2.13.0-SNAPSHOT.2 | 2.13.0-SNAPSHOT.2 |
 | [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | reconciler | baseline | 0 | 2.13.0-SNAPSHOT.2 | 2.13.0-SNAPSHOT.2 |
-| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | sonar-operator | baseline | -12 | 2.13.0-SNAPSHOT.6 | 2.13.0-SNAPSHOT.6 |
+| [epmdedp-dev](https://epam.github.io/edp-helm-charts/snapshot) | sonar-operator | baseline |  | 2.13.0-SNAPSHOT.8 | 2.13.0-SNAPSHOT.8 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | admin-console-operator | baseline | 0 | 2.12.0 | 2.12.0 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | cd-pipeline-operator | baseline | 0 | 2.12.1 | 2.12.1 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | codebase-operator | baseline | 0 | 2.13.1 | 2.13.1 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-argocd-operator | baseline | 0 | 0.2.0 | 0.2.0 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-component-operator | empty_no_object |  | 0.12.0 | 0.12.0 |
+| [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-custom-pipelines | baseline |  | 0.1.4 | 0.1.4 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-headlamp | baseline | 0 | 0.2.0 | 0.2.0 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-install | error_template |  | 2.12.1 | 2.12.1 |
-| [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-tekton | baseline | -1 | 0.1.2 | 0.1.2 |
-| [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-tekton-interceptor | baseline | -13 | 0.1.2 | 0.1.2 |
+| [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-tekton | baseline |  | 0.1.4 | 0.1.4 |
+| [epmdedp](https://epam.github.io/edp-helm-charts/stable) | edp-tekton-interceptor | baseline |  | 0.1.4 | 0.1.4 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | gerrit-operator | baseline | -12 | 2.12.0 | 2.12.0 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | jenkins-operator | baseline | 0 | 2.12.1 | 2.12.1 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | keycloak-operator | baseline | 0 | 1.13.0 | 1.13.0 |
@@ -150,12 +159,12 @@ Evaluation date: 2022-11-13, 10:27:38
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | perf-operator | baseline | 0 | 2.12.0 | 2.12.0 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | reconciler | baseline | 0 | 2.12.0 | 2.12.0 |
 | [epmdedp](https://epam.github.io/edp-helm-charts/stable) | sonar-operator | baseline | -12 | 2.12.0 | 2.12.0 |
-| [equinor-charts](https://equinor.github.io/helm-charts/charts/) | neo4j-community | baseline | -12 | 1.2.5 | 4.2.4 |
-| [erdeng](https://erdengk.github.io/shenyu-helm) | shenyu | baseline | -12 | 2.4.21 | 1.16.0 |
-| [erpnext](https://helm.erpnext.com) | erpnext | error_template |  | 5.0.38 | v14.6.0 |
+| [equinor-charts](https://equinor.github.io/helm-charts/charts/) | neo4j-community | error_download |  | 1.2.5 | 4.2.4 |
+| [erdeng](https://erdengk.github.io/shenyu-helm) | shenyu | error_download |  | 2.4.21 | 1.16.0 |
+| [erpnext](https://helm.erpnext.com) | erpnext | error_template |  | 5.0.40 | v14.7.0 |
 | [escvmscheduler](https://swisscom.github.io/esc-vm-scheduler-helm-chart) | escvmscheduler | baseline | -36 | 1.0.7 | 2.4.4 |
-| [estahn](https://estahn.github.io/charts) | httpbingo | baseline | -12 | 0.1.0 | v2.2.2 |
-| [estahn](https://estahn.github.io/charts) | k8s-image-swapper | baseline | -25 | 1.1.0 | 1.3.0 |
+| [estahn](https://estahn.github.io/charts) | httpbingo | error_download |  | 0.1.0 | v2.2.2 |
+| [estahn](https://estahn.github.io/charts) | k8s-image-swapper | error_download |  | 1.1.0 | 1.3.0 |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | beaconchain-explorer | baseline | -12 | 0.1.3 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | besu | baseline | -13 | 0.3.7 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | blockscout | baseline | -30 | 0.1.3 |  |
@@ -173,7 +182,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | genesis-generator | baseline | -24 | 0.2.1 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | geth | baseline | -13 | 0.3.3 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | lighthouse | baseline | -13 | 0.2.5 |  |
-| [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | lodestar | baseline | -13 | 0.2.5 |  |
+| [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | lodestar | baseline | -13 | 0.2.6 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | nethermind | baseline | -13 | 0.3.4 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | nimbus | baseline | -13 | 0.4.6 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | prysm | baseline | -13 | 0.2.5 |  |
@@ -183,6 +192,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | testnet-faucet | baseline | -12 | 0.1.1 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | testnet-homepage | baseline | -30 | 0.2.1 |  |
 | [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | web3signer | baseline | -12 | 0.1.0 |  |
+| [ethereum-helm-charts](https://ethpandaops.github.io/ethereum-helm-charts) | xatu | baseline | 0 | 0.0.1 |  |
 | [ethersphere](https://ethersphere.github.io/helm) | bee | baseline | -12 | 0.12.2 | 1.6.0 |
 | [ethersphere](https://ethersphere.github.io/helm) | beekeeper | version_not_evaluable | -12 | 0.4.3 | latest |
 | [ethersphere](https://ethersphere.github.io/helm) | bzz-token-service | baseline | 0 | 0.1.1 | latest |
@@ -193,18 +203,18 @@ Evaluation date: 2022-11-13, 10:27:38
 | [ethersphere](https://ethersphere.github.io/helm) | nethermind | baseline | -12 | 0.2.0 | latest |
 | [ethersphere](https://ethersphere.github.io/helm) | onboarding-faucet | baseline | 0 | 0.1.4 | latest |
 | [ethersphere](https://ethersphere.github.io/helm) | tokenexporter | baseline | -12 | 0.1.6 | latest |
-| [eugen](https://eugenmayer.github.io/helm-charts/) | iperf3 | baseline | -12 | 0.2.1 | 3.0.0 |
-| [eugen](https://eugenmayer.github.io/helm-charts/) | openldap-test | error_template |  | 0.0.5 | 0.0.1 |
-| [eugen](https://eugenmayer.github.io/helm-charts/) | postgres-pgdump-backup | error_template |  | 0.4.0 | v0.0.0 |
-| [eugen](https://eugenmayer.github.io/helm-charts/) | rundeck | error_template |  | 1.1.0 | 4.7.0 |
+| [eugen](https://eugenmayer.github.io/helm-charts/) | iperf3 | error_download |  | 0.2.1 | 3.0.0 |
+| [eugen](https://eugenmayer.github.io/helm-charts/) | openldap-test | error_download |  | 0.0.5 | 0.0.1 |
+| [eugen](https://eugenmayer.github.io/helm-charts/) | postgres-pgdump-backup | error_download |  | 0.4.0 | v0.0.0 |
+| [eugen](https://eugenmayer.github.io/helm-charts/) | rundeck | error_download |  | 1.2.0 | 4.8.0 |
 | [events-exporter](https://nabokihms.github.io/events_exporter/) | events-exporter | baseline | -1 | 0.0.3 |  |
 | [eventstore](https://eventstore.github.io/EventStore.Charts) | eventstore | baseline | -25 | 0.2.5 | 4.1.1-hotfix1 |
 | [evermos](https://evermos.github.io/helm-charts) | airflow | baseline | 0 | 8.0.4 | 2.0.1 |
-| [evertrust](https://repo.evertrust.io/repository/charts/) | horizon | error_template |  | 0.5.7 | 2.3.3 |
-| [evertrust](https://repo.evertrust.io/repository/charts/) | horizon-issuer | baseline | -14 | 0.0.4 | 0.0.7 |
-| [evertrust](https://repo.evertrust.io/repository/charts/) | horizon-satellite | baseline | 0 | 0.0.1 | 0.0.1 |
+| [evertrust](https://repo.evertrust.io/repository/charts/) | horizon | error_download |  | 0.5.8 | 2.3.4 |
+| [evertrust](https://repo.evertrust.io/repository/charts/) | horizon-issuer | error_download |  | 0.1.0 | 0.1.0 |
+| [evertrust](https://repo.evertrust.io/repository/charts/) | horizon-satellite | error_download |  | 0.0.1 | 0.0.1 |
 | [evilmartians](https://helm.evilmartians.net) | application-library | empty_no_object |  | 0.3.0 | 0.1.0 |
-| [evilmartians](https://helm.evilmartians.net) | argocd-version-exporter | empty_no_object |  | 0.0.1 | 1.0.0 |
+| [evilmartians](https://helm.evilmartians.net) | argocd-version-exporter | baseline | -13 | 0.0.1 | 1.0.0 |
 | [evilmartians](https://helm.evilmartians.net) | cert-manager-issuers | no_pod_object_but_crd | 0 | 0.1.2 | 1.0.0 |
 | [evilmartians](https://helm.evilmartians.net) | cloudsql-backup | baseline | -12 | 0.8.1 | 0.12.0 |
 | [evilmartians](https://helm.evilmartians.net) | cloudsql-backup-check | empty_no_object |  | 0.3.1 | 2.10.5 |
@@ -221,11 +231,11 @@ Evaluation date: 2022-11-13, 10:27:38
 | [evryfs-oss](https://evryfs.github.io/helm-charts/) | spring-boot-admin | baseline | -1 | 0.1.7 | 2.7.7 |
 | [example-chart](https://hamzam.github.io/react-article-display/) | example-chart | baseline | -12 | 0.9.5 | 0.9.4 |
 | [example-mycharts](https://akankshapanse.github.io/helm_charts/) | example-helm-chart | baseline | -12 | 0.1.0 | 1.16.0 |
-| [example-mycharts](https://akankshapanse.github.io/helm_charts/) | infoscale-vtas | empty_no_object |  | 0.0.1 | 8.0.0.0000 |
-| [expediagroup](http://expediagroup.github.io/helm-charts) | pitchfork | baseline | -12 | 0.1.4 | 1.31.0 |
+| [example-mycharts](https://akankshapanse.github.io/helm_charts/) | infoscale-vtas | error_template |  | 0.0.1 | 8.0.0.0000 |
+| [expediagroup](http://expediagroup.github.io/helm-charts) | pitchfork | error_download |  | 0.1.4 | 1.31.0 |
 | [export-component](https://raw.githubusercontent.com/ConductionNL/export-component/master/api/helm/) | export-component | empty_no_object |  | 0.1.0 | V1.0 |
 | [exposr](https://exposr.github.io/helm-charts/) | exposr | baseline | 0 | 0.7.0 | 0.7.0 |
 | [external-dns](https://kubernetes-sigs.github.io/external-dns/) | external-dns | baseline | -2 | 1.11.0 | 0.12.2 |
 | [external-secrets-operator](https://charts.external-secrets.io/) | external-secrets | baseline | -97 | 0.6.1 | v0.6.1 |
-| [exxk](https://iexxk.github.io/helm-charts) | nginx-file-browser | privileged | -24 | 1.0.0 | 1.16.0 |
-| [exxk](https://iexxk.github.io/helm-charts) | springboot-app | baseline | 0 | 0.2.12 | 1.16.0 |
+| [exxk](https://iexxk.github.io/helm-charts) | nginx-file-browser | error_download |  | 1.0.0 | 1.16.0 |
+| [exxk](https://iexxk.github.io/helm-charts) | springboot-app | error_download |  | 0.2.23 | 1.16.0 |

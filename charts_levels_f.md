@@ -2,13 +2,13 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-13, 10:27:38
+Evaluation date: 2022-11-22, 11:59:48
 
-[main](./charts_levels)&nbsp; [A(1400)](./charts_levels_a)&nbsp; [B(472)](./charts_levels_b)&nbsp; [C(1001)](./charts_levels_c)&nbsp; [D(417)](./charts_levels_d)&nbsp; [E(221)](./charts_levels_e)&nbsp; [F(269)](./charts_levels_f)&nbsp; [G(328)](./charts_levels_g)&nbsp; [H(236)](./charts_levels_h)&nbsp; [I(206)](./charts_levels_i)&nbsp; [J(178)](./charts_levels_j)&nbsp; [K(632)](./charts_levels_k)&nbsp; [L(221)](./charts_levels_l)&nbsp; [M(399)](./charts_levels_m)&nbsp; [N(201)](./charts_levels_n)&nbsp; [O(476)](./charts_levels_o)&nbsp; [P(467)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(356)](./charts_levels_r)&nbsp; [S(826)](./charts_levels_s)&nbsp; [T(961)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(98)](./charts_levels_v)&nbsp; [W(385)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(56)](./charts_levels_y)&nbsp; [Z(29)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
-| [faas-reverse-geocoding](https://saidsef.github.io/faas-reverse-geocoding) | reverse-geocoding | baseline | -12 | 0.2.6 | 0.2.6 |
+| [faas-reverse-geocoding](https://saidsef.github.io/faas-reverse-geocoding) | reverse-geocoding | error_download |  | 0.2.6 | 0.2.6 |
 | [faasnet](https://simpleidserver.github.io/FaasNet/charts/) | faasnet | baseline | -48 | 0.0.4 | 0.0.4 |
 | [face-recognition-fastapi](https://maximemoreillon.github.io/face-recognition-fastapi-helm-chart/) | face-recognition-fastapi | baseline | -36 | 0.1.0 | 1.16.0 |
 | [factly](https://factly.github.io/helm-charts) | companion | baseline | -1 | 0.1.7 | sha-e80a7f7 |
@@ -18,11 +18,11 @@ Evaluation date: 2022-11-13, 10:27:38
 | [factly](https://factly.github.io/helm-charts) | hunting | baseline | -12 | 0.3.7 | 0.1.3 |
 | [factly](https://factly.github.io/helm-charts) | imgproxy | baseline | -1 | 0.2.6 | v3.3.2 |
 | [factly](https://factly.github.io/helm-charts) | kavach | baseline | -2 | 0.9.1 | 0.22.3 |
-| [factly](https://factly.github.io/helm-charts) | mande | baseline | -3 | 0.4.2 | 0.18.0 |
+| [factly](https://factly.github.io/helm-charts) | mande | baseline | -3 | 0.4.6 | 0.18.0 |
 | [factly](https://factly.github.io/helm-charts) | meilisearch | baseline | -12 | 0.4.3 | v0.27.2 |
 | [factly](https://factly.github.io/helm-charts) | umami | error_template |  | 0.0.5 | postgresql-1e4c3eb |
 | [factly](https://factly.github.io/helm-charts) | vidcheck | baseline | -2 | 0.5.2 | 0.12.0 |
-| [factorio-server-charts](https://sqljames.github.io/factorio-server-charts/) | factorio-server-charts | privileged | -21 | 1.1.1 | 1.0.0 |
+| [factorio-server-charts](https://sqljames.github.io/factorio-server-charts/) | factorio-server-charts | privileged | -21 | 1.1.2 | 1.0.0 |
 | [fairbanks-io](https://fairbanks-io.github.io/helm-charts) | f5-client | error_download |  | 0.1.13 | 0.1.13 |
 | [fairbanks-io](https://fairbanks-io.github.io/helm-charts) | f5oclock | error_download |  | 1.0.13 | 1.0.0 |
 | [fairbanks-io](https://fairbanks-io.github.io/helm-charts) | f5oclock-api | error_download |  | 1.0.26 | 1.0.26 |
@@ -38,7 +38,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [fairwinds-incubator](https://charts.fairwinds.com/incubator) | capsize | version_not_evaluable | 0 | 0.2.0 | 1.0 |
 | [fairwinds-incubator](https://charts.fairwinds.com/incubator) | clamav | privileged | -12 | 0.0.3 | v0.0.3 |
 | [fairwinds-incubator](https://charts.fairwinds.com/incubator) | custom-iptables | privileged | -16 | 0.2.1 | 1.0 |
-| [fairwinds-incubator](https://charts.fairwinds.com/incubator) | datadog-apm | baseline | -12 | 0.0.7 | 7.32.4 |
+| [fairwinds-incubator](https://charts.fairwinds.com/incubator) | datadog-apm | baseline | -12 | 0.0.8 | 7.40.0 |
 | [fairwinds-incubator](https://charts.fairwinds.com/incubator) | ecr-cleanup | baseline | -13 | 0.1.1 | 0.1.5 |
 | [fairwinds-incubator](https://charts.fairwinds.com/incubator) | fairwinds-metrics | baseline | -13 | 0.6.0 | v0.6.0 |
 | [fairwinds-incubator](https://charts.fairwinds.com/incubator) | fluentd | error_template |  | 4.1.3 | 0.12.43 |
@@ -63,30 +63,30 @@ Evaluation date: 2022-11-13, 10:27:38
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | astro | baseline | -13 | 1.0.9 | 1.5.3 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | aws-iam-authenticator | privileged | 0 | 1.7.3 | v0.5.9 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | ecr-cleanup | baseline | -13 | 1.2.4 | 0.1.7 |
-| [fairwinds-stable](https://charts.fairwinds.com/stable) | fairwinds-insights | version_not_evaluable | -7 | 0.7.2 | 10.5 |
+| [fairwinds-stable](https://charts.fairwinds.com/stable) | fairwinds-insights | version_not_evaluable | -7 | 0.7.3 | 10.6 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | gemini | baseline | -9 | 1.0.0 | 1.0 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | gke-node-termination-handler | privileged | -1 | 1.2.4 | 1.0 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | goldilocks | baseline | -2 | 6.3.2 | v4.5.1 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | helm-release-pruner | version_not_evaluable | -26 | 3.2.5 | v3.2.0 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | insights-admission | error_template |  | 1.4.2 | 1.8 |
-| [fairwinds-stable](https://charts.fairwinds.com/stable) | insights-agent | error_template |  | 2.8.3 | 9.2.1 |
+| [fairwinds-stable](https://charts.fairwinds.com/stable) | insights-agent | error_template |  | 2.9.0 | 9.2.1 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | polaris | baseline | -2 | 5.6.1 | 7.1 |
-| [fairwinds-stable](https://charts.fairwinds.com/stable) | rbac-manager | baseline | -1 | 1.15.0 | 1.4.0 |
+| [fairwinds-stable](https://charts.fairwinds.com/stable) | rbac-manager | baseline |  | 1.15.1 | 1.4.2 |
 | [fairwinds-stable](https://charts.fairwinds.com/stable) | vpa | baseline | -55 | 1.5.0 | 0.11.0 |
 | [fajarhide](https://fajarhide.github.io/helm) | elasticsearch | baseline | 0 | 0.1.0 | 2.4.6 |
 | [falcon-helm](https://crowdstrike.github.io/falcon-helm) | falcon-integration-gateway | empty_no_object |  | 0.1.3 | 3.0.6 |
 | [falcon-helm](https://crowdstrike.github.io/falcon-helm) | falcon-sensor | empty_no_object |  | 1.17.17 | 1.17.17 |
 | [falcosecurity](https://falcosecurity.github.io/charts) | event-generator | baseline | 0 | 0.2.0 | 0.10.0 |
-| [falcosecurity](https://falcosecurity.github.io/charts) | falco | privileged | -17 | 2.2.0 | 0.33.0 |
+| [falcosecurity](https://falcosecurity.github.io/charts) | falco | privileged | -17 | 2.3.0 | 0.33.0 |
 | [falcosecurity](https://falcosecurity.github.io/charts) | falco-exporter | privileged | -12 | 0.9.1 | 0.8.0 |
 | [falcosecurity](https://falcosecurity.github.io/charts) | falcosidekick | baseline | -13 | 0.5.9 | 2.26.0 |
-| [fanzynoodle](https://fanzynoodle.github.io/charts/) | smeejas | baseline | -1 | 0.0.1 | 0.0.1 |
-| [fastlorenzo-mailu](https://fastlorenzo.github.io/helm-charts-1) | mailu | error_template |  | 1.0.0-beta.9 | 1.9 |
-| [fatihtepe-jenkins](https://fatihtepe.github.io/Jenkins-helmchart/) | jenkins | baseline | -12 | 1.0.0 |  |
-| [featureform](https://storage.googleapis.com/featureform-helm/) | featureform | privileged | -259 | 0.3.4-rc | 0.3.4-rc |
+| [fanzynoodle](https://fanzynoodle.github.io/charts/) | smeejas | error_download |  | 0.0.1 | 0.0.1 |
+| [fastlorenzo-mailu](https://fastlorenzo.github.io/helm-charts-1) | mailu | error_download |  | 1.0.0-beta.9 | 1.9 |
+| [fatihtepe-jenkins](https://fatihtepe.github.io/Jenkins-helmchart/) | jenkins | error_download |  | 1.0.0 |  |
+| [featureform](https://storage.googleapis.com/featureform-helm/) | featureform | baseline | -208 | 0.3.5-rc | 0.3.5-rc |
 | [featureform](https://storage.googleapis.com/featureform-helm/) | quickstart | baseline | -36 | 0.1.1 | 1.1.1 |
 | [featurehub](https://featurehub-io.github.io/featurehub-helm/) | featurehub | baseline | -49 | 3.0.6 | 1.5.8 |
-| [ferama](https://ferama.github.io/helm-charts) | vipien | privileged | -17 | 0.2.8 | v0.5.3 |
+| [ferama](https://ferama.github.io/helm-charts) | vipien | error_download |  | 0.2.8 | v0.5.3 |
 | [fermosit](https://harbor.fermosit.es/chartrepo/library) | azure-pipelines-agent | baseline | -12 | 0.0.1 | 0.0.1 |
 | [fermosit](https://harbor.fermosit.es/chartrepo/library) | backuppc | baseline | -19 | 0.0.2 | 4.0.0-latest |
 | [fermosit](https://harbor.fermosit.es/chartrepo/library) | minetest | privileged | -12 | 0.0.5 | 5.0.0 |
@@ -95,9 +95,9 @@ Evaluation date: 2022-11-13, 10:27:38
 | [fikaworks](https://fikaworks.github.io/helm-charts) | grgate | baseline | -24 | 0.3.0 | 0.3.0 |
 | [fikaworks](https://fikaworks.github.io/helm-charts) | kodiak | baseline | -24 | 1.1.3 | 0.50.0 |
 | [fintech](https://rakibulalam.github.io/fintech-helm/) | fintech | error_download |  | 0.2.7 | 1.16.0 |
-| [first-helm-package](https://dgempiuc.github.io/helm-demo-rest-api/charts) | helm-demo | baseline | -12 | 0.1.0 | 1.16.0 |
-| [first-repo](https://3brazik.github.io/helm_lab/charts) | helm-test | baseline | -24 | 0.1.0 | 1.16.0 |
-| [fission-charts](https://fission.github.io/fission-charts/) | fission-all | baseline | -127 | 1.17.0 | v1.17.0 |
+| [first-helm-package](https://dgempiuc.github.io/helm-demo-rest-api/charts) | helm-demo | error_download |  | 0.1.0 | 1.16.0 |
+| [first-repo](https://3brazik.github.io/helm_lab/charts) | helm-test | error_download |  | 0.1.0 | 1.16.0 |
+| [fission-charts](https://fission.github.io/fission-charts/) | fission-all | baseline |  | 1.18.0-rc1 | v1.18.0-rc1 |
 | [fiware](https://fiware.github.io/helm-charts/) | api-umbrella | empty_no_object |  | 0.0.14 | v0.18.0 |
 | [fiware](https://fiware.github.io/helm-charts/) | apollo | baseline | -12 | 0.0.6 | 0.0.10 |
 | [fiware](https://fiware.github.io/helm-charts/) | bae-activation-service | baseline | -12 | 0.0.7 | 0.0.3 |
@@ -112,14 +112,14 @@ Evaluation date: 2022-11-13, 10:27:38
 | [fiware](https://fiware.github.io/helm-charts/) | orion | baseline | -24 | 1.0.10 | 1.0.1 |
 | [fiware](https://fiware.github.io/helm-charts/) | scorpio-broker-aaio | baseline | 0 | 0.1.2 | 2.1.0 |
 | [fiware](https://fiware.github.io/helm-charts/) | scorpiobroker | baseline | -120 | 0.1.2 | 2.1.0 |
-| [flagger](https://flagger.app) | flagger | baseline | -15 | 1.24.1 | 1.24.1 |
+| [flagger](https://flagger.app) | flagger | baseline | -15 | 1.25.0 | 1.25.0 |
 | [flagger](https://flagger.app) | grafana | baseline | -12 | 1.7.0 | 7.2.0 |
 | [flagger](https://flagger.app) | loadtester | baseline | -12 | 0.26.0 | 0.26.0 |
 | [flagger](https://flagger.app) | podinfo | baseline | -24 | 6.1.3 | 6.1.3 |
 | [flagsmith](https://flagsmith.github.io/flagsmith-charts/) | flagsmith | baseline | -36 | 0.11.0 | 2.34.0 |
 | [flask-boto3-s3-mongodb-app](https://mohit-jangir.github.io/Helm-chart-to-deploy-Flask_Boto3_S3_MongoDB-App-on-K8S/charts) | flask-boto3-s3-mongodb-app | empty_no_object |  | 0.1.0 | 1.0.0 |
 | [flattrack](https://flattrack.gitlab.io/flattrack) | flattrack | baseline | -12 | 0.0.2 | 0.16.1 |
-| [fleet-web-app](https://courier-bot-coder.github.io/fleet-web-app/) | my-chart | baseline | -90 | 0.1.0 | 1.16.0 |
+| [fleet-web-app](https://courier-bot-coder.github.io/fleet-web-app/) | my-chart | error_download |  | 0.1.0 | 1.16.0 |
 | [flexiwan](https://helm.flexiwan.com/main/) | flexiedge | no_pod_object_but_crd | 0 | 0.0.1 | latest |
 | [flink-operator](https://googlecloudplatform.github.io/flink-on-k8s-operator/) | flink-operator | baseline | -14 | 0.1.1 | 1.0 |
 | [floating-server](https://helm-charts.licensespring.com/) | floating-server | baseline | -12 | 1.3.1 | v1.3.1 |
@@ -130,17 +130,18 @@ Evaluation date: 2022-11-13, 10:27:38
 | [fluent-operator](https://tanmay-bhat.github.io/helm-charts/) | fluent-operator | privileged | -25 | 0.1.0 | 1.0.2 |
 | [fluent-operator](https://tanmay-bhat.github.io/helm-charts/) | kube-ops-view | baseline | -1 | 0.1.2 | 20.4 |
 | [fluent-operator](https://tanmay-bhat.github.io/helm-charts/) | uptime-kuma | baseline | -12 | 0.1.0 | 1.8.0 |
-| [fluent](https://fluent.github.io/helm-charts) | fluent-bit | privileged | -25 | 0.21.0 | 2.0.4 |
+| [fluent](https://fluent.github.io/helm-charts) | fluent-bit | privileged |  | 0.21.2 | 2.0.5 |
 | [fluent](https://fluent.github.io/helm-charts) | fluentd | privileged | -13 | 0.3.9 | v1.14.6 |
 | [fluentd-loki](https://ativy-digital.github.io/helm-fluentd-loki/) | fluentd-loki | error_download |  | 0.3.1 | 1.14 |
 | [fluid](https://xuzhihao.s3.ap-southeast-1.amazonaws.com/) | fluid | privileged | -229 | 0.6.0 | 0.6.0-48de610 |
-| [fluktuid](https://fluktuid.github.io/helm-charts/) | openldap | baseline | -12 | 0.1.1 | 2.4.57 |
+| [fluktuid](https://fluktuid.github.io/helm-charts/) | openldap | error_download |  | 0.1.1 | 2.4.57 |
 | [fluxcd-community](https://fluxcd-community.github.io/helm-charts) | flux2 | baseline | -39 | 2.0.0 | 0.36.0 |
 | [fluxcd-community](https://fluxcd-community.github.io/helm-charts) | flux2-notification | empty_no_object |  | 1.5.0 | 0.36.0 |
 | [fluxcd-community](https://fluxcd-community.github.io/helm-charts) | flux2-sync | no_pod_object_but_crd | 0 | 1.1.0 | 0.36.0 |
-| [flyte](https://flyteorg.github.io/flyte) | flyte | privileged | -108 | 1.3.0-b1 |  |
-| [flyte](https://flyteorg.github.io/flyte) | flyte-core | baseline | -43 | 1.3.0-b1 |  |
-| [flyte](https://flyteorg.github.io/flyte) | flyte-deps | baseline | -37 | 1.3.0-b1 |  |
+| [flyte](https://flyteorg.github.io/flyte) | flyte | privileged | -108 | 1.3.0-b2 |  |
+| [flyte](https://flyteorg.github.io/flyte) | flyte-binary | privileged | -48 | 0.1.0 | 1.16.0 |
+| [flyte](https://flyteorg.github.io/flyte) | flyte-core | baseline | -43 | 1.3.0-b2 |  |
+| [flyte](https://flyteorg.github.io/flyte) | flyte-deps | baseline | -37 | 1.3.0-b2 |  |
 | [flyte](https://flyteorg.github.io/flyte) | flyte-sandbox | version_not_evaluable | -91 | 0.18.2-b1 |  |
 | [fold](https://charts.foldapp.com) | bitcoind | baseline | -12 | 0.3.2 | 0.23.0 |
 | [fold](https://charts.foldapp.com) | jupyter-notebook | baseline | 0 | 0.0.1 | 0.0.1 |
@@ -256,7 +257,7 @@ Evaluation date: 2022-11-13, 10:27:38
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | frinx-arango-config | no_pod_object | 0 | 1.0.1 | 3.9.1 |
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | frinx-frontend | baseline | -12 | 2.0.1 | 1.0.25 |
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | frinx-grafana-configs | no_pod_object | 0 | 1.1.0 | 1.0.0 |
-| [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | frinx-machine | privileged | -134 | 0.4.4 |  |
+| [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | frinx-machine | privileged | -134 | 0.4.5 |  |
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | inventory | baseline | -12 | 2.3.0 | 1.6.1 |
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | krakend | baseline | -12 | 2.5.0 | 1.0.4 |
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | resource-manager | baseline | -12 | 1.1.0 | 1.0.4 |
@@ -268,12 +269,12 @@ Evaluation date: 2022-11-13, 10:27:38
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | worker | baseline | 0 | 1.1.1 | 1.9.1 |
 | [frinx-helm-charts](https://FRINXio.github.io/helm-charts) | workflow-manager | baseline | -12 | 1.0.1 | 1.0.10 |
 | [frp-operator](https://zufardhiyaulhaq.com/frp-operator/charts/releases/) | frp-operator | baseline | -14 | 1.0.0 | 0.2.0 |
-| [fsdrw08](https://fsdrw08.github.io/helm-charts/) | powerdns | baseline | -25 | 0.1.3 | 4.5.3 |
-| [fsm](https://charts.flomesh.io) | fsm | baseline | -73 | 0.1.7 | 0.1.7 |
-| [fsm](https://charts.flomesh.io) | tpls | empty_no_object |  | 0.1.7 | 0.1.7 |
-| [function-mesh](http://charts.functionmesh.io/) | function-mesh-operator | baseline | -27 | 0.2.7 | 0.7.0 |
-| [fusionauth](https://fusionauth.github.io/charts) | fusionauth | error_template |  | 0.10.10 | 1.36.4 |
-| [fydrah-charts](https://raw.githubusercontent.com/fydrah/helm-charts/master) | plex | baseline | -12 | 2.2.0 | 1.19.5.3112-b23ab3896 |
-| [fydrah-charts](https://raw.githubusercontent.com/fydrah/helm-charts/master) | transmission | baseline | -12 | 2.1.0 | 3.00-r0-ls60 |
+| [fsdrw08](https://fsdrw08.github.io/helm-charts/) | powerdns | error_download |  | 0.1.3 | 4.5.3 |
+| [fsm](https://charts.flomesh.io) | fsm | baseline | -73 | 0.1.8 | 0.1.8 |
+| [fsm](https://charts.flomesh.io) | tpls | error_template |  | 0.1.8 | 0.1.8 |
+| [function-mesh](http://charts.functionmesh.io/) | function-mesh-operator | baseline |  | 0.2.8 | 0.8.0 |
+| [fusionauth](https://fusionauth.github.io/charts) | fusionauth | error_template |  | 0.11.0 | 1.40.2 |
+| [fydrah-charts](https://raw.githubusercontent.com/fydrah/helm-charts/master) | plex | error_download |  | 2.2.0 | 1.19.5.3112-b23ab3896 |
+| [fydrah-charts](https://raw.githubusercontent.com/fydrah/helm-charts/master) | transmission | error_download |  | 2.1.0 | 3.00-r0-ls60 |
 | [fyipe](https://fyipe.com/chart) | fyipe | empty_no_object |  | 3.0.0 |  |
-| [fyipe](https://fyipe.com/chart) | oneuptime | empty_no_object |  | 3.0.0 |  |
+| [fyipe](https://fyipe.com/chart) | oneuptime | error_template |  | 3.0.0 |  |
