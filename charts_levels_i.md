@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 10:20:35
+Evaluation date: 2022-11-23, 12:10:29
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -165,13 +165,13 @@ Evaluation date: 2022-11-23, 10:20:35
 | [instemmingservice](https://raw.githubusercontent.com/ConductionNL/instemmingservice/master/api/helm/) | instemmingservice | error_download |  | 1.0.0 | V1.0 |
 | [intel](https://intel.github.io/helm-charts) | ai-inference | privileged | -16 | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | ai-structuring | baseline | 0 | 0.8.0 | 1.16.0 |
-| [intel](https://intel.github.io/helm-charts) | consul | privileged |  | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | consul | privileged | -12 | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | evam | privileged | -24 | 0.7.2 | 0.7.2 |
 | [intel](https://intel.github.io/helm-charts) | evam-dek | privileged | -16 | 1.0.0 | 0.7.2 |
-| [intel](https://intel.github.io/helm-charts) | evi-minio | baseline |  | 0.8.0 | 1.16.0 |
-| [intel](https://intel.github.io/helm-charts) | evi-test-tool | baseline |  | 0.8.0 | 1.16.0 |
-| [intel](https://intel.github.io/helm-charts) | fm-master | baseline |  | 0.8.0 | 1.16.0 |
-| [intel](https://intel.github.io/helm-charts) | fm-worker | privileged |  | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | evi-minio | baseline | -1 | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | evi-test-tool | baseline | 0 | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | fm-master | baseline | -12 | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | fm-worker | privileged | -12 | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | intel-device-plugins-dlb | no_pod_object_but_crd | 0 | 0.25.1-helm.0 | 0.25.0 |
 | [intel](https://intel.github.io/helm-charts) | intel-device-plugins-dsa | no_pod_object_but_crd | 0 | 0.25.1-helm.0 | 0.25.0 |
 | [intel](https://intel.github.io/helm-charts) | intel-device-plugins-gpu | no_pod_object_but_crd | 0 | 0.25.1-helm.0 | 0.25.0 |
@@ -179,21 +179,21 @@ Evaluation date: 2022-11-23, 10:20:35
 | [intel](https://intel.github.io/helm-charts) | intel-device-plugins-operator | baseline | -3 | 0.25.1-helm.0 | 0.25.0 |
 | [intel](https://intel.github.io/helm-charts) | intel-device-plugins-qat | no_pod_object_but_crd | 0 | 0.25.1-helm.0 | 0.25.0 |
 | [intel](https://intel.github.io/helm-charts) | intel-device-plugins-sgx | no_pod_object_but_crd | 0 | 0.25.1-helm.0 | 0.25.0 |
-| [intel](https://intel.github.io/helm-charts) | kes | baseline |  | 0.8.1 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | kes | baseline | -18 | 0.8.1 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | load-generator | baseline | -12 | 0.1.2 | 1.0 |
 | [intel](https://intel.github.io/helm-charts) | multimodal-data-visualization | baseline | -12 | 3.0.0 | 3.0.0 |
 | [intel](https://intel.github.io/helm-charts) | my-keycloak | error_template |  | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | new-hbase | error_template |  | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | postgresql-ri | error_template |  | 0.8.0 | 14.4.0 |
-| [intel](https://intel.github.io/helm-charts) | query-rest | baseline |  | 0.8.0 | 1.16.0 |
-| [intel](https://intel.github.io/helm-charts) | query-web | baseline |  | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | query-rest | baseline | -12 | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | query-web | baseline | -12 | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | redis | error_template |  | 0.8.0 | 1.16.0 |
-| [intel](https://intel.github.io/helm-charts) | search-image-by-image | baseline |  | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | search-image-by-image | baseline | -12 | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | spark-cluster | error_template |  | 0.8.0 | 1.16.0 |
 | [intel](https://intel.github.io/helm-charts) | storage-rest | error_template |  | 0.8.0 | 1.16.0 |
-| [intel](https://intel.github.io/helm-charts) | tcs-issuer | privileged |  | 0.4.0 | 0.4.0 |
+| [intel](https://intel.github.io/helm-charts) | tcs-issuer | privileged | -14 | 0.4.0 | 0.4.0 |
 | [intel](https://intel.github.io/helm-charts) | trusted-attestation-controller | error_template |  | 0.4.0 | 0.4.0 |
-| [intel](https://intel.github.io/helm-charts) | vault | baseline |  | 0.8.0 | 1.16.0 |
+| [intel](https://intel.github.io/helm-charts) | vault | baseline | -27 | 0.8.0 | 1.16.0 |
 | [interlay](https://interlay.github.io/helm-charts) | bitcoind | baseline | -12 | 1.1.6 | 0.21.0 |
 | [interlay](https://interlay.github.io/helm-charts) | interbtc-hydra | baseline | -60 | 0.1.15 | 1.16.0 |
 | [interlay](https://interlay.github.io/helm-charts) | interbtc-parachain | baseline | 0 | 0.4.10 | 2.0.0 |

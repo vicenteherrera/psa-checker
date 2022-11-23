@@ -2,18 +2,18 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 10:20:35
+Evaluation date: 2022-11-23, 12:10:29
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
 | [d1-service-generic](oci://ghcr.io/cybercryptio/helm-charts/d1-service-generic) | d1-service-generic | error_download |  | 1.0.1 | v2.0.0 |
 | [d1-service-storage](oci://ghcr.io/cybercryptio/helm-charts/d1-service-storage) | d1-service-storage | error_download |  | 1.0.1 | v2.0.0 |
 | [dacruz21](https://dacruz21.github.io/helm-charts) | matrix | error_download |  | 2.7.0 | 1.19.3 |
-| [dagster-cloud](https://dagster-io.github.io/helm-user-cloud) | dagster-cloud-agent | baseline |  | 1.1.3 | 1.1.3 |
-| [dagster](https://dagster-io.github.io/helm) | dagster | baseline |  | 1.1.3 | 1.1.3 |
-| [dagster](https://dagster-io.github.io/helm) | dagster-user-deployments | baseline |  | 1.1.3 | 1.1.3 |
+| [dagster-cloud](https://dagster-io.github.io/helm-user-cloud) | dagster-cloud-agent | baseline | 0 | 1.1.3 | 1.1.3 |
+| [dagster](https://dagster-io.github.io/helm) | dagster | baseline | 0 | 1.1.3 | 1.1.3 |
+| [dagster](https://dagster-io.github.io/helm) | dagster-user-deployments | baseline | 0 | 1.1.3 | 1.1.3 |
 | [dalston-pages](https://krishnamraju-o.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
 | [daman-dell-kuber](https://chanduciber.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
 | [dandydev-charts](https://dandydeveloper.github.io/charts/) | grafana-agent | privileged | -38 | 0.19.1 | v0.20.0 |
@@ -47,7 +47,7 @@ Evaluation date: 2022-11-23, 10:20:35
 | [datacube-charts](https://opendatacube.github.io/datacube-charts/charts/) | restcube | privileged | -24 | 0.2.9 | 0.1 |
 | [datadog-test](https://raw.githubusercontent.com/Aevin1387/helm-charts/aevin/apiversion/) | datadog | privileged | -36 | 2.4.23 | 7 |
 | [datadog-test](https://raw.githubusercontent.com/Aevin1387/helm-charts/aevin/apiversion/) | datadog-operator | baseline | -37 | 0.1.2 | 0.3.1 |
-| [datadog](https://helm.datadoghq.com) | datadog | privileged |  | 3.3.3 | 7 |
+| [datadog](https://helm.datadoghq.com) | datadog | privileged | -67 | 3.3.3 | 7 |
 | [datadog](https://helm.datadoghq.com) | datadog-crds | empty_no_object |  | 0.5.7 | 1 |
 | [datadog](https://helm.datadoghq.com) | datadog-operator | baseline | -58 | 0.9.1 | 0.8.3 |
 | [datadog](https://helm.datadoghq.com) | extendeddaemonset | baseline | -1 | 0.2.2 | v0.7.0 |
@@ -65,7 +65,7 @@ Evaluation date: 2022-11-23, 10:20:35
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo | empty_no_object |  | 0.1.586 | 0.1.586 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-api | baseline | 0 | 0.0.430 | 1.426.0 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-monitoring | empty_no_object |  | 0.0.1 | 0.0.1 |
-| [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-ui | baseline |  | 0.0.205 | 0.184.0 |
+| [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-ui | baseline | 0 | 0.0.205 | 0.184.0 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepomonitoring | empty_no_object |  | 0.0.3 | 0.0.3 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | de-elasticsearch | privileged | 0 | 0.1.4 |  |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | frontend-config | no_pod_object_but_crd | 0 | 0.1.0 | 1.0.0 |
@@ -366,7 +366,7 @@ Evaluation date: 2022-11-23, 10:20:35
 | [dr300481](https://300481.github.io/charts/) | seafile | error_download |  | 0.5.0 | 8.0.5 |
 | [dr300481](https://300481.github.io/charts/) | shield | error_download |  | 0.3.1 | 0.3.1 |
 | [dragonchain](https://dragonchain-charts.s3.amazonaws.com) | dragonchain-k8s | baseline | 0 | 1.0.9 | 4.5.0 |
-| [dragonfly](https://dragonflyoss.github.io/helm-charts/) | dragonfly | privileged |  | 0.8.6 | 0.8.6 |
+| [dragonfly](https://dragonflyoss.github.io/helm-charts/) | dragonfly | privileged | -52 | 0.8.6 | 0.8.6 |
 | [dreyg-jescribanob-chart-eoloplanner](https://raw.githubusercontent.com/dreyg/mca_urjc/master/modulo_3_AN/3.2/p4/charts/) | eoloplanner | baseline | -36 | 0.1.0 | 1.16.0 |
 | [drogue-iot](https://drogue-iot.github.io/drogue-cloud-helm-charts/) | drogue-cloud-common | error_template |  | 0.7.0 |  |
 | [drogue-iot](https://drogue-iot.github.io/drogue-cloud-helm-charts/) | drogue-cloud-core | baseline | -276 | 0.7.0 | 0.11.0 |
@@ -375,7 +375,7 @@ Evaluation date: 2022-11-23, 10:20:35
 | [drogue-iot](https://drogue-iot.github.io/drogue-cloud-helm-charts/) | drogue-cloud-twin | baseline | -72 | 0.7.0 | 0.11.0 |
 | [drone](https://charts.drone.io) | drone | error_template |  | 0.6.4 | 2.12.1 |
 | [drone](https://charts.drone.io) | drone-kubernetes-secrets | baseline | 0 | 0.1.4 | 1.0.0 |
-| [drone](https://charts.drone.io) | drone-runner-docker | privileged |  | 0.6.0 | 1.8.1 |
+| [drone](https://charts.drone.io) | drone-runner-docker | privileged | -16 | 0.6.0 | 1.8.1 |
 | [drone](https://charts.drone.io) | drone-runner-kube | baseline | 0 | 0.1.10 | 1.0.0 |
 | [drpsychick](https://sickhub.github.io/charts) | cronjobs | no_pod_object | 0 | 0.1.5 | latest |
 | [drpsychick](https://sickhub.github.io/charts) | nginx-phpfpm | baseline | -12 | 0.0.9 | 8-fpm-alpine |

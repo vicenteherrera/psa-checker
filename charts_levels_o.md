@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 10:20:35
+Evaluation date: 2022-11-23, 12:10:29
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -13,7 +13,7 @@ Evaluation date: 2022-11-23, 10:20:35
 | [o-ran-ric-helm-charts](https://pinknemo452.github.io/o-ran-ric-helm-charts/) | ric-common | empty_no_object |  | 3.3.2 |  |
 | [oada](https://charts.openag.io/) | oada | error_download |  | 1.6.1 | 3.6.0 |
 | [oauth2-proxy](https://oauth2-proxy.github.io/manifests) | oauth2-proxy | error_download |  | 6.5.0 | 7.3.0 |
-| [obeone](https://charts.obeone.cloud) | cyberchef | baseline |  | 1.1.3 | v9.49.0 |
+| [obeone](https://charts.obeone.cloud) | cyberchef | baseline | -12 | 1.1.3 | v9.49.0 |
 | [obeone](https://charts.obeone.cloud) | ferdi-server | baseline | -12 | 1.0.3 | 1.3.2 |
 | [obeone](https://charts.obeone.cloud) | mktxp | baseline | -12 | 1.0.1 | latest |
 | [obeone](https://charts.obeone.cloud) | nfs-server | privileged | -32 | 1.0.1 | 2.2.1 |
@@ -40,7 +40,7 @@ Evaluation date: 2022-11-23, 10:20:35
 | [okonomi-docs-api](https://okonomi-cloud.gitlab.io/okonomi-docs/okonomi-docs-api/) | okonomi-docs-api | error_download |  | 0.0.8 | 0.0.8 |
 | [okteto](https://charts.okteto.com) | cert-manager-webhook-civo | baseline | -14 | 0.3.1 | 0.3.1 |
 | [okteto](https://charts.okteto.com) | nginx-ingress | baseline | -26 | 1.41.2 | v0.34.1 |
-| [okteto](https://charts.okteto.com) | okteto | privileged |  | 1.2.0-rc.6 | a8a79bae |
+| [okteto](https://charts.okteto.com) | okteto | privileged | -169 | 1.2.0-rc.6 | a8a79bae |
 | [okteto](https://charts.okteto.com) | okteto-beta | privileged | -274 | 0.14.1 | 1.12.156-53c0bf3 |
 | [okteto](https://charts.okteto.com) | okteto-enterprise | error_template |  | 0.15.1 | 11a25155 |
 | [olehrgf](https://olehrgf.github.io/helm-charts/) | spring-boot-microservice | error_download |  | 0.0.4 | 0.0.1 |
@@ -435,17 +435,17 @@ Evaluation date: 2022-11-23, 10:20:35
 | [optimizely-agent](https://optimizely.github.io/optimizely-agent-helm) | agent | baseline | -12 | 1.0.3-alpha | 2.7.0 |
 | [orderregistratiecomponent](https://raw.githubusercontent.com/ConductionNL/orderregistratiecomponent/master/api/helm/) | orderregistratiecomponent | error_download |  | 1.0.0 | V.0.1 |
 | [ortelius](https://ortelius.github.io/ortelius-charts/) | ortelius | error_download |  | 10.0.7 | 10.0.0 |
-| [ory](https://k8s.ory.sh/helm/charts) | example-idp | baseline | -24 | 0.26.2 | 1.4.6 |
+| [ory](https://k8s.ory.sh/helm/charts) | example-idp | baseline |  | 0.26.3 | 1.4.6 |
 | [ory](https://k8s.ory.sh/helm/charts) | hive | error_template |  | 0.1.0 | 1.0 |
 | [ory](https://k8s.ory.sh/helm/charts) | hive-selfservice-ui-node | baseline | -25 | 0.1.0 | v0.0.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | hydra | baseline | -26 | 0.26.2 | v2.0.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | hydra-maester | baseline | -13 | 0.26.2 | v0.0.23 |
-| [ory](https://k8s.ory.sh/helm/charts) | keto | baseline | -12 | 0.26.2 | v0.10.0 |
-| [ory](https://k8s.ory.sh/helm/charts) | kratos | baseline | -13 | 0.26.2 | v0.10.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | kratos-selfservice-ui-node | baseline | -13 | 0.26.2 | v0.10.1 |
+| [ory](https://k8s.ory.sh/helm/charts) | hydra | baseline |  | 0.26.3 | v2.0.1 |
+| [ory](https://k8s.ory.sh/helm/charts) | hydra-maester | baseline |  | 0.26.3 | v0.0.23 |
+| [ory](https://k8s.ory.sh/helm/charts) | keto | baseline |  | 0.26.3 | v0.10.0 |
+| [ory](https://k8s.ory.sh/helm/charts) | kratos | baseline |  | 0.26.3 | v0.10.1 |
+| [ory](https://k8s.ory.sh/helm/charts) | kratos-selfservice-ui-node | baseline |  | 0.26.3 | v0.10.1 |
 | [ory](https://k8s.ory.sh/helm/charts) | maester | baseline | -14 | 0.0.17 | v0.0.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper | baseline | -15 | 0.26.2 | v0.39.0 |
-| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper-maester | baseline | -2 | 0.26.2 | v0.1.7 |
+| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper | baseline |  | 0.26.3 | v0.39.0 |
+| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper-maester | baseline |  | 0.26.3 | v0.1.7 |
 | [osc-bsu-csi-driver](oci://docker.io/outscalehelm/osc-bsu-csi-driver) | osc-bsu-csi-driver | error_download |  | 1.0.0 | v1.0.0 |
 | [osc-cloud-controller-manager](oci://registry-1.docker.io/outscalehelm/osc-cloud-controller-manager) | osc-cloud-controller-manager | error_download |  | 0.1.1 | 0.1.1 |
 | [osc](https://osc.github.io/osc-helm-charts) | common | empty_no_object |  | 0.4.0 | 0.1.0 |
