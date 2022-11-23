@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -15,11 +15,11 @@ Evaluation date: 2022-11-22, 11:59:48
 | [lacework-helm-charts](https://lacework.github.io/helm-charts/) | lacework-agent | error_template |  | 6.1.2 | 1.0 |
 | [lacework-helm-charts](https://lacework.github.io/helm-charts/) | proxy-scanner | error_template |  | 0.11.2 | 1.0 |
 | [ladeit](https://ladeit.github.io/charts) | ladeit | error_download |  | 0.4.0 |  |
-| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-build-deploy | error_download |  | 0.17.0 | v0.7.0 |
+| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-build-deploy | error_download |  | 0.18.0 | v0.7.0 |
 | [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-core | error_download |  | 1.15.0 | v2.10.0 |
 | [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-logging | error_download |  | 0.71.0 |  |
 | [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-logs-concentrator | error_download |  | 0.42.0 |  |
-| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-remote | error_download |  | 0.68.0 |  |
+| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-remote | error_download |  | 0.69.1 |  |
 | [lakefs](https://charts.lakefs.io) | lakefs | error_download |  | 0.6.8 | 0.85.0 |
 | [lamp](https://lead4good.github.io/lamp-helm-repository) | lamp | error_download |  | 1.1.5 | 7 |
 | [landelijketabellencatalogus](https://raw.githubusercontent.com/ConductionNL/landelijketabellencatalogus/master/api/helm/) | landelijketabellencatalogus | error_download |  | 1.0.0 | V1.0 |
@@ -38,7 +38,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [leprechaun-charts](https://leprechaun.github.io/) | owntracks-frontend | error_download |  | 0.1.0 | 2.12.0 |
 | [leprechaun-charts](https://leprechaun.github.io/) | owntracks-reporter | error_download |  | 0.1.0 | 0.9.1 |
 | [leprechaun-charts](https://leprechaun.github.io/) | vaultwarden | error_download |  | 0.1.0 | 1.25.2 |
-| [lerentis](https://lerentis.github.io/bitwarden-crd-operator/) | bitwarden-crd-operator | baseline |  | 0.3.2 | 0.3.0 |
+| [lerentis](https://lerentis.github.io/bitwarden-crd-operator/) | bitwarden-crd-operator | baseline | -13 | 0.3.2 | 0.3.0 |
 | [lfedge-catalog](https://ericvh.github.io/lfedge-catalog) | hello | error_download |  | 0.1.0 | 1.16.0 |
 | [lfedge-catalog](https://ericvh.github.io/lfedge-catalog) | hello2 | error_download |  | 0.1.0 | 1.16.0 |
 | [lfedge-catalog](https://ericvh.github.io/lfedge-catalog) | hello3 | error_download |  | 0.1.0 | 13.2.11 |
@@ -48,7 +48,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [licenseware](https://licenseware.github.io/charts/) | jupyter | error_download |  | 0.2.2 | 6.4.12 |
 | [licenseware](https://licenseware.github.io/charts/) | kafka-connect | error_download |  | 0.2.0 | 7.2.2 |
 | [licenseware](https://licenseware.github.io/charts/) | ksqldb | error_download |  | 0.3.0 | 0.28.2 |
-| [licenseware](https://licenseware.github.io/charts/) | licenseware-sdk-v2 | error_download |  | 0.7.3 | latest |
+| [licenseware](https://licenseware.github.io/charts/) | licenseware-sdk-v2 | error_download |  | 0.8.0 | latest |
 | [licenseware](https://licenseware.github.io/charts/) | mssql | error_download |  | 0.1.1 | 2019-CU16-GDR1-ubuntu-20.04 |
 | [lifecycle-jira-integration](https://anair-it.github.io/lifecycle-jira-webhook/chart) | lifecycle-jira-integration | error_download |  | 1.0.0 | 1.0.0 |
 | [lifelike](https://helm.apps.lifelike.cloud/) | lifelike | error_download |  | 0.5.0 | 0.10.4 |

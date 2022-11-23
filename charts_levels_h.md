@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -74,7 +74,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [hapi-fhir](https://anujarosha.github.io/hapi-fhir/helm/charts) | hapi-fhir | baseline | -12 | 0.1.0 | 0.1.0 |
 | [haproxy-ingress](https://haproxy-ingress.github.io/charts) | haproxy-ingress | baseline | -26 | 0.14.0-beta.2 | v0.14.0-beta.2 |
 | [haproxytech](https://haproxytech.github.io/helm-charts) | haproxy | baseline | -13 | 1.17.3 | 2.6.6 |
-| [haproxytech](https://haproxytech.github.io/helm-charts) | kubernetes-ingress | restricted |  | 1.25.0 | 1.9.0 |
+| [haproxytech](https://haproxytech.github.io/helm-charts) | kubernetes-ingress | restricted | -15 | 1.25.0 | 1.9.0 |
 | [haraldkoch](https://haraldkoch.github.io/helm-charts) | http-echo | error_download |  | 0.3.4 | 0.2.3 |
 | [haraldkoch](https://haraldkoch.github.io/helm-charts) | openweathermap-exporter | error_download |  | 0.1.3 | 0.1.0 |
 | [haraldkoch](https://haraldkoch.github.io/helm-charts) | prometheus-dnssec-exporter | error_download |  | 0.6.3 | 0.3.1 |
@@ -83,7 +83,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [harbor](https://helm.goharbor.io) | harbor | baseline | 0 | 1.10.2 | 2.6.2 |
 | [hardcode](https://hardcodehelmrepo.blob.core.windows.net/hardcode) | alpine | empty_no_object |  | 0.2.0 |  |
 | [hariprasadreddytest](https://rhariprasadreddy.github.io/helmcharts/) | gittest | baseline | -12 | 0.1.0 | 1.16.0 |
-| [hashicorp](https://helm.releases.hashicorp.com) | consul | baseline |  | 1.0.1 | 1.14.1 |
+| [hashicorp](https://helm.releases.hashicorp.com) | consul | baseline | -64 | 1.0.1 | 1.14.1 |
 | [hashicorp](https://helm.releases.hashicorp.com) | terraform | baseline | -25 | 1.1.1 |  |
 | [hashicorp](https://helm.releases.hashicorp.com) | vault | baseline | -27 | 0.22.1 | 1.12.0 |
 | [hashicorp](https://helm.releases.hashicorp.com) | waypoint | baseline | -1 | 0.1.15 | 0.10.3 |
@@ -116,7 +116,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [hello-world](https://ayazuddin007.github.io/Helm3/) | hello-world | error_download |  | 0.2.0 | 1.16.0 |
 | [hello](https://www.kleinloog.ch/hello-helm/) | hello | error_download |  | 0.4.0-rc2 | v4 |
 | [hellok8s](https://guangzhengli.github.io/k8s-tutorials/) | hello-helm | error_download |  | 0.1.0 | 1.16.0 |
-| [helloworld](https://eletei7.github.io/chart-repository) | apache2 | baseline |  | 0.0.4 |  |
+| [helloworld](https://eletei7.github.io/chart-repository) | apache2 | baseline | -12 | 0.0.4 |  |
 | [helloworld](https://eletei7.github.io/chart-repository) | helloworld | baseline | -12 | 1.0.7 |  |
 | [helm-chart-by-piyush](https://piyushpanchariya.github.io/Heml_Chart-For-apche-web-server/Helm-Chart/charts/) | my_web1 | error_download |  | 0.1.0 | 0.0.1 |
 | [helm-chart-for-jenkins](https://manas1072.github.io/Helm-Chart-for-Jenkins/charts/) | jenkins | error_download |  | 1.0.0 | 1 |
@@ -176,7 +176,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [hkube](https://hkube.io/helm/) | etcd | baseline | -24 | 0.7.2018 | 3.3.1 |
 | [hkube](https://hkube.io/helm/) | etcd-operator | baseline | -47 | 0.9.7 | 0.7.0 |
 | [hkube](https://hkube.io/helm/) | gitea | baseline | -18 | 2.1.3006 | 1.13.0 |
-| [hkube](https://hkube.io/helm/) | hkube | baseline |  | 2.4.67 | v2.4.45 |
+| [hkube](https://hkube.io/helm/) | hkube | baseline | -264 | 2.4.67 | v2.4.45 |
 | [hkube](https://hkube.io/helm/) | jaeger | baseline | -12 | 0.27.2006 | 1.17.1 |
 | [hkube](https://hkube.io/helm/) | jupyterhub | baseline | -10 | 1.1.3000 | 1.4.2 |
 | [hkube](https://hkube.io/helm/) | mini-thirdparty | error_template |  | 0.3.4 | 1.0 |
@@ -204,7 +204,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | ipsec | privileged | -16 | 0.7.0 | latest |
 | [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | jackett | baseline | 0 | 0.2.0 | 0.20.399 |
 | [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | keycloak | baseline | 0 | 0.6.0 | 16.1.1 |
-| [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | mysql | baseline |  | 0.4.0 | 8.0.29 |
+| [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | mysql | baseline | -12 | 0.4.0 | 8.0.29 |
 | [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | nextcloud | baseline | 0 | 0.6.0 | 22.0.0-apache |
 | [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | opencart | baseline | 0 | 0.3.0 | 3.0.3-8 |
 | [homeenterpriseinc](https://homeenterpriseinc.github.io/helm-charts/) | openproject | baseline | -12 | 0.5.0 | 12.0.2 |

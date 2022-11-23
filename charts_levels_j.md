@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -141,7 +141,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [jfwenisch](http://charts.wenisch.tech) | pihole-jfwenisch | error_download |  | 0.1.0 | 5.1.2 |
 | [jhidalgo3-github](https://jhidalgo3.github.io/helm-charts/) | azure-pipelines-agent | baseline | -12 | 2.2.20 | 2.2.20 |
 | [jhidalgo3-github](https://jhidalgo3.github.io/helm-charts/) | hello-kubernetes-chart | baseline | -12 | 3.0.0 | 1.0.0.f635db8a |
-| [jhidalgo3-github](https://jhidalgo3.github.io/helm-charts/) | kafka-offset-lag-for-prometheus | baseline |  | 2.3.0 | 2.3.ca6fdf97 |
+| [jhidalgo3-github](https://jhidalgo3.github.io/helm-charts/) | kafka-offset-lag-for-prometheus | baseline | -12 | 2.3.0 | 2.3.ca6fdf97 |
 | [jhidalgo3-github](https://jhidalgo3.github.io/helm-charts/) | spring-boot-chart | baseline | -12 | 4.0.0 | 1.0.0-SNAPSHOT.431db05d |
 | [jinchi-chart](https://jinchihe.github.io/helm_chart/charts) | wordress | error_download |  | 0.2.0 | 1.1.0 |
 | [jitterbit](https://jitterbit.github.io/charts/) | agent-group | error_template |  | 1.0.8 | 10 |
@@ -156,10 +156,10 @@ Evaluation date: 2022-11-22, 11:59:48
 | [jmmaloney4](https://charts.jmmaloney4.xyz/) | beets | baseline | -12 | 0.9.6 |  |
 | [jmmaloney4](https://charts.jmmaloney4.xyz/) | cloudflare-tunnel | baseline | 0 | 0.1.3 | 2022.1.3 |
 | [jmmaloney4](https://charts.jmmaloney4.xyz/) | dashy | empty_no_object |  | 0.1.0 |  |
-| [jmmaloney4](https://charts.jmmaloney4.xyz/) | forecastle | baseline |  | 1.1.57 | v1.0.68 |
-| [jmmaloney4](https://charts.jmmaloney4.xyz/) | ipfs | baseline | -12 | 0.9.7 |  |
+| [jmmaloney4](https://charts.jmmaloney4.xyz/) | forecastle | baseline |  | 1.1.59 | v1.0.68 |
+| [jmmaloney4](https://charts.jmmaloney4.xyz/) | ipfs | baseline |  | 0.9.8 |  |
 | [jmmaloney4](https://charts.jmmaloney4.xyz/) | minio | error_template |  | 8.0.13 |  |
-| [jmmaloney4](https://charts.jmmaloney4.xyz/) | rclone | baseline |  | 2.3.8 |  |
+| [jmmaloney4](https://charts.jmmaloney4.xyz/) | rclone | baseline | 0 | 2.3.8 |  |
 | [jmmaloney4](https://charts.jmmaloney4.xyz/) | rclone-s3 | error_template |  | 0.1.6 | 1.53.3 |
 | [jmmaloney4](https://charts.jmmaloney4.xyz/) | registry-sync | version_not_evaluable | 0 | 0.1.0 | 1.16.0 |
 | [jmmaloney4](https://charts.jmmaloney4.xyz/) | roon | privileged | -12 | 4.5.6 |  |
@@ -169,7 +169,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [joelee2012](https://joelee2012.github.io/helm-charts/) | xxl-job-admin | error_download |  | 1.0.1 | 2.3.1 |
 | [jolle-dev](https://charts.jolle.dev/) | haven-complinacy-dashboard | baseline | -39 | 1.0.0 | 1.3.0 |
 | [josesolisrosales](https://josesolisrosales.github.io/helm-charts/) | rocketchat | error_download |  | 0.0.3 | 4.0.1 |
-| [joxit](https://helm.joxit.dev/) | docker-registry-ui | baseline |  | 0.4.3 | 2.3.2 |
+| [joxit](https://helm.joxit.dev/) | docker-registry-ui | baseline | -12 | 0.4.3 | 2.3.2 |
 | [juablazmahuerta-eoloplanner](https://raw.githubusercontent.com/JuanCBM/p4-k8s-helm/master/charts/) | eoloplanner | error_download |  | 0.1.0 | 1.0.0 |
 | [juanjmerono](https://juanjmerono.github.io/helmcharts) | firstchart | no_pod_object_but_crd | -12 | 0.2.0 | 1.0 |
 | [julb-me](https://charts.julb.me) | alertmanager-gchat-integration | baseline | -12 | 1.0.5 | 1.0.5 |

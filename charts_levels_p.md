@@ -2,14 +2,14 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
 | [p4-helm](https://raw.githubusercontent.com/zuldare/helm/main/helm/charts/) | myapp | error_download |  | 0.1.0 | 1.16.0 |
-| [pachyderm](https://helm.pachyderm.com) | pachyderm | error_download |  | 2.5.0-nightly.20221122-115d3c40b842e4a64de7d9818e1817b16b1e11a4 | 2.5.0-nightly.20221122 |
+| [pachyderm](https://helm.pachyderm.com) | pachyderm | error_download |  | 2.5.0-nightly.20221123-115d3c40b842e4a64de7d9818e1817b16b1e11a4 | 2.5.0-nightly.20221123 |
 | [packetai](https://packetai.github.io/helm-charts/) | packetai-agent | error_download |  | 1.18.0 | v1.15.2 |
 | [pacman](https://shuguet.github.io/pacman/) | pacman | error_download |  | 0.1.6 | 0.1.6 |
 | [pact-broker-chart](https://chrisjburns.github.io/pact-broker-chart) | pact-broker | error_download |  | 0.2.1 | 2.100.0.1 |
@@ -69,7 +69,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [paradeum-team](https://paradeum-team.github.io/helm-charts/) | blockscout | privileged | -12 | 0.1.4 | 13573befcc6b94c68b4a05554377e101f36bd7fe |
 | [paradeum-team](https://paradeum-team.github.io/helm-charts/) | geth | baseline | -12 | 0.2.10 | 1.10.17 |
 | [paradeum-team](https://paradeum-team.github.io/helm-charts/) | ipfs-cluster | baseline | -12 | 0.0.19 |  |
-| [paradeum-team](https://paradeum-team.github.io/helm-charts/) | walletconnect-relay | baseline |  | 0.1.2 | v2.1.3-rc.1 |
+| [paradeum-team](https://paradeum-team.github.io/helm-charts/) | walletconnect-relay | baseline | -12 | 0.1.2 | v2.1.3-rc.1 |
 | [parca](https://parca-dev.github.io/helm-charts/) | parca | error_download |  | 3.2.0 | 0.14.0 |
 | [parcellab](https://charts.parcellab.dev) | app | privileged | -24 | 0.0.27 |  |
 | [parcellab](https://charts.parcellab.dev) | common | empty_no_object |  | 1.0.9 |  |
@@ -115,7 +115,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [pauls-helm-charts](http://tech.paulcz.net/charts) | raw | no_pod_object | 0 | 1.0.1 | 1.0 |
 | [pawan-pages](https://prakharpah.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
 | [paxtecnologia](https://paxtecnologia.github.io/helm-charts/) | k8s-cfg-base | error_download |  | 0.1.4 | 1.16.0 |
-| [paxtecnologia](https://paxtecnologia.github.io/helm-charts/) | ms-generic | error_download |  | 0.1.29 | 1.16.0 |
+| [paxtecnologia](https://paxtecnologia.github.io/helm-charts/) | ms-generic | error_download |  | 0.2.0 | 1.16.0 |
 | [paxtecnologia](https://paxtecnologia.github.io/helm-charts/) | ms-java-spring-boot | error_download |  | 0.1.9 | 1.16.0 |
 | [paxtecnologia](https://paxtecnologia.github.io/helm-charts/) | ms-nginx | error_download |  | 0.1.5 | 1.16.0 |
 | [pcktdmp](https://pcktdmp.github.io/charts) | fahclient | baseline | -18 | 2.6.0 |  |
@@ -149,12 +149,12 @@ Evaluation date: 2022-11-22, 11:59:48
 | [philippwaller](https://charts.philippwaller.com) | k3s-traefik-config | baseline | 0 | 1.0.3 | v1.0.1 |
 | [philippwaller](https://charts.philippwaller.com) | whoami | baseline | 0 | 1.0.1 | v1.8.0 |
 | [philips-labs](https://philips-labs.github.io/helm-charts/) | dctna | empty_no_object |  | 0.2.3 | 0.1.6 |
-| [philips-labs](https://philips-labs.github.io/helm-charts/) | spire | privileged |  | 0.7.1 | 1.5.1 |
+| [philips-labs](https://philips-labs.github.io/helm-charts/) | spire | privileged | -30 | 0.7.1 | 1.5.1 |
 | [philips-software](https://philips-software.github.io/helm-charts/) | fluent-bit-out-hsdp | privileged | -25 | 0.9.0 | 2.0.12 |
 | [philmtd](https://philmtd.github.io/helm-charts) | full-house | baseline | -12 | 1.0.1 | 1.0.4 |
-| [phntom](https://phntom.kix.co.il/charts/) | a3m5k | version_not_evaluable |  | 0.1.29 | 0.0.0 |
-| [phntom](https://phntom.kix.co.il/charts/) | a3m5kapi | baseline |  | 0.1.30 | 0.1.30 |
-| [phntom](https://phntom.kix.co.il/charts/) | a3m5kweb | baseline |  | 0.1.34 | 0.1.34 |
+| [phntom](https://phntom.kix.co.il/charts/) | a3m5k | version_not_evaluable |  | 0.1.32 | 0.0.0 |
+| [phntom](https://phntom.kix.co.il/charts/) | a3m5kapi | baseline |  | 0.1.33 | 0.1.33 |
+| [phntom](https://phntom.kix.co.il/charts/) | a3m5kweb | baseline |  | 0.1.38 | 0.1.38 |
 | [phntom](https://phntom.kix.co.il/charts/) | binaryvision-static-wordpress | baseline | -12 | 0.0.4 | 0.0.3 |
 | [phntom](https://phntom.kix.co.il/charts/) | binaryvision-tlo | baseline | -12 | 0.0.4 | 0.0.4 |
 | [phntom](https://phntom.kix.co.il/charts/) | camo | baseline | -12 | 0.1.0 | 2.3.1 |
@@ -265,16 +265,16 @@ Evaluation date: 2022-11-22, 11:59:48
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-18 | baseline | -24 | 0.2.75 | k8s-node-image-1.18.20-nginx-32 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-19 | baseline | -24 | 0.2.60 | k8s-node-image-1.19.16-nginx-20 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-20 | baseline | -24 | 0.2.65 | k8s-node-image-1.20.15-nginx-18 |
-| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-21 | baseline |  | 0.2.64 | k8s-node-image-1.21.14-nginx-13 |
-| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-22 | baseline |  | 0.2.30 | k8s-node-image-1.22.16-nginx-2 |
-| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-23 | baseline |  | 0.2.34 | k8s-node-image-1.23.14-nginx-2 |
-| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-24 | baseline |  | 0.2.34 | k8s-node-image-1.24.8-nginx-2 |
+| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-21 | baseline | -24 | 0.2.64 | k8s-node-image-1.21.14-nginx-13 |
+| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-22 | baseline | -24 | 0.2.30 | k8s-node-image-1.22.16-nginx-2 |
+| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-23 | baseline | -24 | 0.2.34 | k8s-node-image-1.23.14-nginx-2 |
+| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | k8s-node-image-1-24 | baseline | -24 | 0.2.34 | k8s-node-image-1.24.8-nginx-2 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | kubeupdater | privileged | -25 | 0.4.4 | 1.0 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | magic-namespace | empty_no_object |  | 0.5.4 | 2.8.2 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | nginx-app | baseline | -12 | 0.1.2 | 0.1.2 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | pixiecore | privileged | 0 | 0.0.10 |  |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | pixiecore-simpleconfig | baseline | -12 | 0.1.5 | 0.1.5 |
-| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | smartctl-exporter | privileged | -16 | 0.1.12 | 0.1.12 |
+| [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | smartctl-exporter | privileged |  | 0.1.13 | 0.1.13 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | tenant-namespace | baseline | -13 | 0.6.12 | 0.6.12 |
 | [pnnl-miscscripts](https://pnnl-miscscripts.github.io/charts) | tenant-namespace-operator | baseline | -17 | 0.1.14 | 0.1.12-1 |
 | [pocketbase-docker](oci://rg.fr-par.scw.cloud/sepropriodev/pocketbase-helm) | pocketbase-helm | error_download |  | 0.5.0 | v0.8.0 |
@@ -297,8 +297,8 @@ Evaluation date: 2022-11-22, 11:59:48
 | [pomerium](https://helm.pomerium.io) | pomerium-verify | error_download |  | 0.1.0 | 0.0.1 |
 | [port-labs](https://port-labs.github.io/helm-charts/) | port-k8s-exporter | error_download |  | 0.1.3 | 0.1.2 |
 | [portainer](https://portainer.github.io/k8s/) | portainer | error_download |  | 1.0.38 | ce-latest-ee-2.16.2 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | alertmanager-mixin | no_pod_object_but_crd |  | 1.3.0 | 0.24.0 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | coredns-mixin | no_pod_object_but_crd |  | 1.1.0 | 1.0.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | alertmanager-mixin | no_pod_object_but_crd | 0 | 1.3.0 | 0.24.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | coredns-mixin | no_pod_object_but_crd | 0 | 1.1.0 | 1.0.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | crossplane-aws-factory | no_pod_object_but_crd | 0 | 0.5.0 | 1.0.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | crossplane-azure-factory | no_pod_object_but_crd | 0 | 0.1.0 | 1.0.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | crossplane-digitalocean-factory | no_pod_object_but_crd | 0 | 0.1.0 | 1.0.0 |
@@ -307,25 +307,25 @@ Evaluation date: 2022-11-22, 11:59:48
 | [portefaix-hub](https://charts.portefaix.xyz/) | fluxcd-mixin | error_template |  | 1.1.1 | 0.32.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | grafana-mixin | error_template |  | 1.1.1 | 9.0.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | kube-state-metrics-mixin | no_pod_object_but_crd | 0 | 1.0.1 | 2.2.4 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | kubernetes-mixin | no_pod_object_but_crd |  | 1.2.0 | 0.8.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | kubernetes-mixin | no_pod_object_but_crd | 0 | 1.2.0 | 0.8.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | linkerd-edge-mixin | error_template |  | 1.1.1 | edge-21.6.3 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | linkerd-stable-mixin | error_template |  | 1.1.1 | stable-2.10.2 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | loki-mixin | no_pod_object_but_crd |  | 1.2.0 | 2.7.0 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | mimir-mixin | no_pod_object_but_crd |  | 1.2.0 | 2.0.0 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | node-exporter-mixin | no_pod_object_but_crd |  | 1.2.0 | 1.4.0 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | osm-mixin | no_pod_object_but_crd |  | 1.1.0 | 1.1.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | loki-mixin | no_pod_object_but_crd | 0 | 1.2.0 | 2.7.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | mimir-mixin | no_pod_object_but_crd | 0 | 1.2.0 | 2.0.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | node-exporter-mixin | no_pod_object_but_crd | 0 | 1.2.0 | 1.4.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | osm-mixin | no_pod_object_but_crd | 0 | 1.1.0 | 1.1.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | portefaix-kubewarden | no_pod_object_but_crd | 0 | 0.1.2 | 1.0.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | portefaix-kyverno | no_pod_object_but_crd | 0 | 1.0.0 | 1.0.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | prometheus-bbox-exporter | baseline | -1 | 0.4.1 | 0.4.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | prometheus-freebox-exporter | baseline | -1 | 0.1.1 | 0.4.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | prometheus-mixin | error_template |  | 1.1.1 | 2.31.1 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | prometheus-operator-mixin | no_pod_object_but_crd | 0 | 1.0.1 | 0.52.1 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | promtail-mixin | no_pod_object_but_crd |  | 1.2.0 | 2.3.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | promtail-mixin | no_pod_object_but_crd | 0 | 1.2.0 | 2.3.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | secrets-store-csi-driver-provider-aws | privileged | -25 | 0.4.0 | 1.0.r2 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | secrets-store-csi-driver-provider-gcp | privileged | -25 | 0.5.0 | 1.0.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | speedtest-exporter | baseline | -1 | 0.5.0 | 0.0.4 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | tempo-mixin | no_pod_object_but_crd |  | 1.1.0 | 1.5.0 |
-| [portefaix-hub](https://charts.portefaix.xyz/) | thanos-mixin | no_pod_object_but_crd |  | 1.1.0 | 0.29.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | tempo-mixin | no_pod_object_but_crd | 0 | 1.1.0 | 1.5.0 |
+| [portefaix-hub](https://charts.portefaix.xyz/) | thanos-mixin | no_pod_object_but_crd | 0 | 1.1.0 | 0.29.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | unifi-poller | baseline | -1 | 0.1.0 | 2.1.8 |
 | [portfolio-component](https://raw.githubusercontent.com/ConductionNL/portfolio-component/master/api/helm/) | pfc | error_download |  | 0.1.0 | V1.0 |
 | [portworx](https://portworx.github.io/pds-charts) | pds-helm | error_download |  | 0.0.6 | 0.0.0 |
@@ -378,10 +378,10 @@ Evaluation date: 2022-11-22, 11:59:48
 | [prokopchyk-key-value-storage](https://mishaprokop4ik.github.io/storage/) | kv-bundle | error_download |  | 0.1.0 | 1.16.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | alertmanager | baseline | -12 | 0.22.0 | v0.24.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | jiralert | baseline | -1 | 0.1.0 | 1.2 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-prometheus-stack | privileged |  | 41.9.1 | 0.60.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-prometheus-stack | privileged |  | 42.0.0 | 0.60.1 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-state-metrics | baseline | -23 | 4.23.0 | 2.6.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prom-label-proxy | baseline | -1 | 0.1.0 | v0.5.0 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus | privileged |  | 16.0.0 | 2.39.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus | privileged |  | 17.0.0 | 2.39.1 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-adapter | baseline | -4 | 3.4.2 | v0.10.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-blackbox-exporter | baseline | -1 | 7.1.3 | 0.22.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-cloudwatch-exporter | baseline | -14 | 0.22.0 | 0.15.0 |
@@ -395,12 +395,12 @@ Evaluation date: 2022-11-22, 11:59:48
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-kafka-exporter | baseline | -12 | 1.7.0 | v1.6.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-mongodb-exporter | baseline | -12 | 3.1.2 | 0.31.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-mysql-exporter | baseline | 0 | 1.10.0 | v0.14.0 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-nats-exporter | baseline |  | 2.10.1 | 0.10.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-nats-exporter | baseline | -12 | 2.10.1 | 0.10.1 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-nginx-exporter | baseline | -13 | 0.1.0 | 0.11.0 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-node-exporter | privileged |  | 4.6.0 | 1.3.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-node-exporter | privileged |  | 4.7.0 | 1.4.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-pingdom-exporter | baseline | -12 | 2.4.1 | 20190610-1 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-postgres-exporter | baseline | -12 | 3.1.5 | 0.10.1 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-pushgateway | baseline |  | 1.21.0 | 1.4.2 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-postgres-exporter | baseline |  | 3.3.0 | 0.11.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-pushgateway | baseline | 0 | 1.21.0 | 1.4.2 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-rabbitmq-exporter | baseline | 0 | 1.3.0 | v0.29.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-redis-exporter | baseline | 0 | 5.3.0 | v1.44.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-smartctl-exporter | privileged | -25 | 0.3.1 | v0.8.0 |
@@ -475,7 +475,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [pvc-exporter](https://kais271.github.io/pvc-exporter/helm3/charts/) | pod-pvc-mapping | error_download |  | 0.1.3 | 0.1.3 |
 | [pvc-exporter](https://kais271.github.io/pvc-exporter/helm3/charts/) | pvc-exporter | error_download |  | 0.1.3 | 0.1.3 |
 | [pyalive-cdmswebapp](https://sarwank.github.io/HelmRepos/stable) | cdmswebapp | empty_no_object |  | 0.1.0 | 1.16.0 |
-| [pyrsia-nightly](https://helmrepo.pyrsia.io/repos/nightly) | pyrsia-node | error_download |  | 0.2.0+2530 | 0.2.0+2530 |
+| [pyrsia-nightly](https://helmrepo.pyrsia.io/repos/nightly) | pyrsia-node | error_download |  | 0.2.0+2538 | 0.2.0+2538 |
 | [pyspark-notebook-helm](https://a3data.github.io/pyspark-notebook-helm/) | pyspark-notebook | error_download |  | 0.2.2 | 1.16.0 |
 | [python-app-chart](https://mostafaalnaggar3.github.io/Helm-Task/) | python-app | error_download |  | 0.1.0 | 1.16.0 |
 | [python-app](https://mstiesto.github.io/python-hello) | python-app | error_download |  | 2.0.4 | 1.17.0 |

@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -120,7 +120,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [redis](https://spy86.github.io/redis) | redis | error_download |  | 0.1.1 | 6.0.8.9 |
 | [redisinsight](https://spy86.github.io/redisinsight) | redisinsight | error_download |  | 0.1.0 | 0.1.0 |
 | [redisk8s](https://haolowkey.github.io/helm-redis) | redis | error_download |  | 2.1.1 | 5.0.14 |
-| [redpanda-data](https://charts.redpanda.com) | redpanda | error_download |  | 2.3.2 | v22.3.3 |
+| [redpanda-data](https://charts.redpanda.com) | redpanda | error_download |  | 2.3.3 | v22.3.3 |
 | [redpanda](https://charts.vectorized.io/) | redpanda-operator | error_download |  | 22.3.3 | v22.3.3 |
 | [redsky](https://redskyops.dev/charts/) | redskyops | error_download |  | 0.2.2 | v1.6.0 |
 | [reecexlm](http://anchorplatformhelmchart.s3-website.us-east-2.amazonaws.com) | sep | error_download |  | 0.3.91 | 1.0 |
@@ -137,7 +137,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [renoki-co](https://helm.renoki.org) | laravel-octane | error_download |  | 1.0.0 | 8.0.0 |
 | [renoki-co](https://helm.renoki.org) | laravel-worker | error_download |  | 1.0.0 | 8.0.0 |
 | [renovate-on-prem](https://mend.github.io/renovate-on-prem) | whitesource-renovate | error_download |  | 3.1.3 | 2.6.0 |
-| [renovate](https://docs.renovatebot.com/helm-charts) | renovate | error_download |  | 34.30.0 | 34.30.0 |
+| [renovate](https://docs.renovatebot.com/helm-charts) | renovate | error_download |  | 34.30.2 | 34.30.2 |
 | [repman-helmchart](https://pixelfederation.github.io/repman) | repman | error_download |  | 1.0.6 |  |
 | [reporting-application](https://tomibarreche.github.io/reporting-application/) | reporting-chart | error_download |  | 0.1.0 | 1.2.0 |
 | [reportportal](https://karthick-kk.github.io/helm-charts/) | minio | error_download |  | 7.1.9 | 2021.6.17 |
@@ -317,8 +317,8 @@ Evaluation date: 2022-11-22, 11:59:48
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | wordpress | no_pod_object_but_crd | 0 | 0.0.1 | latest |
 | [risserlabs](https://risserlabs.gitlab.io/community/charts) | xtradb | no_pod_object_but_crd | 0 | 0.0.1 | 0.71.0 |
 | [rlex](https://rlex.github.io/helm-charts) | cloudflare-tunnel | baseline | 0 | 0.2.0 | 0.6.0 |
-| [rlex](https://rlex.github.io/helm-charts) | coroot | baseline |  | 0.6.0 | 0.7.1 |
-| [rlex](https://rlex.github.io/helm-charts) | coroot-node-agent | privileged |  | 0.2.0 | 0.7.1 |
+| [rlex](https://rlex.github.io/helm-charts) | coroot | baseline | -12 | 0.6.0 | 0.7.1 |
+| [rlex](https://rlex.github.io/helm-charts) | coroot-node-agent | privileged | -16 | 0.2.0 | 0.7.1 |
 | [rlex](https://rlex.github.io/helm-charts) | flame | baseline | -13 | 0.3.0 | 2.1.1 |
 | [rlex](https://rlex.github.io/helm-charts) | freetakserver | empty_no_object |  | 1.0.12 | 1.2.5 |
 | [rlex](https://rlex.github.io/helm-charts) | grist | baseline | -12 | 0.1.0 | 0.7.9 |
@@ -328,7 +328,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [rlex](https://rlex.github.io/helm-charts) | kube-web-view | baseline | -13 | 0.2.0 | 22.9.0 |
 | [rlex](https://rlex.github.io/helm-charts) | kubernetes-diff-logger | baseline | -1 | 0.1.2 | 0.0.5 |
 | [rlex](https://rlex.github.io/helm-charts) | prometheus-webhook-dingtalk | baseline | 0 | 0.0.3 | 1.4.0 |
-| [rlex](https://rlex.github.io/helm-charts) | pyrra | baseline |  | 0.3.0 | 0.6.0 |
+| [rlex](https://rlex.github.io/helm-charts) | pyrra | baseline | -13 | 0.3.0 | 0.6.0 |
 | [rlex](https://rlex.github.io/helm-charts) | runtimeclass-controller | baseline | -13 | 0.1.0 | latest |
 | [rlex](https://rlex.github.io/helm-charts) | yopass | baseline | -13 | 0.5.0 | 11.4.5 |
 | [rm3l](https://helm-charts.rm3l.org) | adguard-home | baseline | -12 | 0.8.0 | v0.107.13 |
@@ -344,7 +344,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [robjuz](https://robjuz.github.io/helm-charts) | kirby3 | baseline | 0 | 1.0.0 |  |
 | [robjuz](https://robjuz.github.io/helm-charts) | nominatim | baseline | -13 | 3.1.0 | 4.1 |
 | [robjuz](https://robjuz.github.io/helm-charts) | shopware | privileged | -58 | 2.0.0 | 6.4.7 |
-| [robjuz](https://robjuz.github.io/helm-charts) | unpubd | baseline |  | 1.0.1 | 0.0.5 |
+| [robjuz](https://robjuz.github.io/helm-charts) | unpubd | baseline | -2 | 1.0.1 | 0.0.5 |
 | [robusta](https://robusta-charts.storage.googleapis.com) | robusta | error_download |  | 0.10.8 | 0.10.8 |
 | [roccohiggins-pages](https://roccohiggins.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
 | [rocket-gpu](https://rocketsoftware.github.io/gpu-operator) | gpu-operator | privileged | -40 | 1.9.1 | v1.9.1 |
@@ -352,10 +352,10 @@ Evaluation date: 2022-11-22, 11:59:48
 | [ronan-pages](https://ronanb784625.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
 | [rook](https://charts.rook.io/release) | rook-ceph | error_download |  | 1.10.6 | v1.10.6 |
 | [rook](https://charts.rook.io/release) | rook-ceph-cluster | error_download |  | 1.10.6 | v1.10.6 |
-| [rookout](https://helm-charts.rookout.com) | controller | baseline |  | 0.2.56 | 1.1.16 |
-| [rookout](https://helm-charts.rookout.com) | datastore | baseline |  | 0.1.48 | 1.0.11 |
+| [rookout](https://helm-charts.rookout.com) | controller | baseline | 0 | 0.2.56 | 1.1.16 |
+| [rookout](https://helm-charts.rookout.com) | datastore | baseline | 0 | 0.1.48 | 1.0.11 |
 | [rookout](https://helm-charts.rookout.com) | operator | baseline | 0 | 0.0.20 | 0.1 |
-| [rookout](https://helm-charts.rookout.com) | rookout-hybrid | baseline |  | 0.1.4 |  |
+| [rookout](https://helm-charts.rookout.com) | rookout-hybrid | baseline | 0 | 0.1.4 |  |
 | [routr](https://routr.io/charts) | routr | error_download |  | 0.0.10 | 1.0.0-rc5 |
 | [rstudio](https://helm.rstudio.com) | prepull-daemonset | error_download |  | 0.0.2 |  |
 | [rstudio](https://helm.rstudio.com) | rstudio-connect | error_download |  | 0.3.7 | bionic-2022.11.0 |

@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -73,7 +73,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [teochenglim](https://teochenglim.github.io/helm-charts/) | dummy-nginx-html | baseline | -12 | 1.0.1 | 1.0.0 |
 | [teochenglim](https://teochenglim.github.io/helm-charts/) | echoserver | baseline | -12 | 0.1.0 | 1.16.0 |
 | [teochenglim](https://teochenglim.github.io/helm-charts/) | kroki | baseline | -17 | 1.0.1 | 0.17.0 |
-| [ternero](http://gusraggio.github.io/ternero) | ternero | error_download |  | 0.1.3 | v0.2.13 |
+| [ternero](http://gusraggio.github.io/ternero) | ternero | error_download |  | 0.1.6 | v0.2.13 |
 | [terraform-controller](https://absaoss.github.io/terraform-controller) | terraform-controller | error_download |  | 0.0.20 | v0.0.20 |
 | [teshub](https://testhub-io.github.io/testhub-helm) | testhub | error_download |  | 0.1.4 | 1.16.0 |
 | [test-helm](https://erdengk.github.io/chart-test) | shenyu | error_download |  | 2.4.21 | 1.16.0 |
@@ -85,7 +85,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [testappchart](https://syahmi001.github.io/helm_chart/) | testappchart | error_download |  | 0.1.0 | 1.16.0 |
 | [testrepo](https://300481.github.io/artifacthub2github) | testchart | error_download |  | 0.2.7 |  |
 | [testtt](oci://kahyt.azurecr.io/test-repo/services-kafka) | services-kafka | error_download |  | 0.1.0 | 1.16.0 |
-| [teuto-net](https://teutonet.github.io/teutonet-helm-charts) | base-cluster | privileged | -19 | 0.3.0 |  |
+| [teuto-net](https://teutonet.github.io/teutonet-helm-charts) | base-cluster | privileged |  | 0.4.1 |  |
 | [tezos-node](https://chainstack.github.io/tezos-chart/) | tezos-node | error_download |  | 1.0.0 | 14.0 |
 | [tfservingcache](https://mkaloer.github.io/TFServingCache/) | tfservingcache | error_download |  | 0.1.1 | 1.0 |
 | [thanos](https://prasadrajesh.github.io/thanos/charts) | thanos | error_download |  | 2.5.2 | 0.15.0 |
@@ -130,7 +130,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [traefik-jwt-decode](https://athics-team.github.io/traefik-jwt-decode/) | traefik-jwt-decode | error_download |  | 0.1.0 |  |
 | [traefik](https://traefik.github.io/charts) | hub-agent | error_download |  | 1.1.2 | v1.0.0 |
 | [traefik](https://traefik.github.io/charts) | maesh | error_download |  | 2.1.2 | v1.3.2 |
-| [traefik](https://traefik.github.io/charts) | traefik | error_download |  | 20.4.1 | v2.9.4 |
+| [traefik](https://traefik.github.io/charts) | traefik | error_download |  | 20.5.1 | v2.9.4 |
 | [traefik](https://traefik.github.io/charts) | traefik-mesh | error_download |  | 4.1.1 | v1.4.8 |
 | [traefik](https://traefik.github.io/charts) | traefikee | error_download |  | 1.4.2 | v2.8.4 |
 | [trafficserver-ingress-controller](https://apache.github.io/trafficserver-ingress-controller) | ats-ingress | baseline | -26 | 0.1.0 | 0.1.0 |
@@ -265,7 +265,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [truecharts](https://charts.truecharts.org/) | clamav | baseline |  | 4.0.2 | 0.105.1 |
 | [truecharts](https://charts.truecharts.org/) | clarkson | baseline |  | 4.0.2 | 1.1.2 |
 | [truecharts](https://charts.truecharts.org/) | cleanarr | baseline |  | 0.0.35 | 2.1.3 |
-| [truecharts](https://charts.truecharts.org/) | clickhouse | baseline |  | 3.0.3 | 22.11.1.13 |
+| [truecharts](https://charts.truecharts.org/) | clickhouse | baseline | -32 | 3.0.3 | 22.11.1.13 |
 | [truecharts](https://charts.truecharts.org/) | cloud9 | baseline |  | 5.0.2 | 1.29.2 |
 | [truecharts](https://charts.truecharts.org/) | cloudbeaver | baseline |  | 0.0.37 | latest |
 | [truecharts](https://charts.truecharts.org/) | cloudcommander | baseline |  | 0.0.37 | latest |
@@ -554,7 +554,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [truecharts](https://charts.truecharts.org/) | makemkv | baseline |  | 3.0.2 | 1.22.2 |
 | [truecharts](https://charts.truecharts.org/) | maloja | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | mango | baseline |  | 0.0.35 | latest |
-| [truecharts](https://charts.truecharts.org/) | mariadb | baseline |  | 5.0.4 | 10.9.4 |
+| [truecharts](https://charts.truecharts.org/) | mariadb | baseline | -32 | 5.0.4 | 10.9.4 |
 | [truecharts](https://charts.truecharts.org/) | matomo | baseline |  | 4.0.2 | 4.12.3 |
 | [truecharts](https://charts.truecharts.org/) | mattermost | baseline |  | 4.0.2 | 7.3 |
 | [truecharts](https://charts.truecharts.org/) | mealie | baseline |  | 12.0.2 | 1.0.0beta |
@@ -564,7 +564,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [truecharts](https://charts.truecharts.org/) | mediainfo | baseline |  | 2.0.2 | 22.10.2 |
 | [truecharts](https://charts.truecharts.org/) | medusa | baseline |  | 4.0.2 | 1.0.9 |
 | [truecharts](https://charts.truecharts.org/) | megasync | baseline |  | 0.0.35 | latest |
-| [truecharts](https://charts.truecharts.org/) | memcached | baseline |  | 5.0.5 | 1.6.17 |
+| [truecharts](https://charts.truecharts.org/) | memcached | baseline | -26 | 5.0.5 | 1.6.17 |
 | [truecharts](https://charts.truecharts.org/) | memories-of-mars | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | meshcentral | baseline |  | 7.0.2 | 1.0.97 |
 | [truecharts](https://charts.truecharts.org/) | meshroom | baseline |  | 3.0.2 | 2.4.0 |
@@ -592,7 +592,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [truecharts](https://charts.truecharts.org/) | mojopaste | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | monero-node | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | money-balancer | baseline |  | 0.0.9 | 1.2.0 |
-| [truecharts](https://charts.truecharts.org/) | mongodb | baseline |  | 4.0.5 | 6.0.3 |
+| [truecharts](https://charts.truecharts.org/) | mongodb | baseline | -32 | 4.0.5 | 6.0.3 |
 | [truecharts](https://charts.truecharts.org/) | monica | baseline |  | 4.0.2 | 3.7.0 |
 | [truecharts](https://charts.truecharts.org/) | mordhau | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | mosdns | baseline |  | 3.0.2 | 4.5.2 |
@@ -706,7 +706,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [truecharts](https://charts.truecharts.org/) | projectzomboidreporter-frontend | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | promcord | baseline |  | 5.0.3 | latest |
 | [truecharts](https://charts.truecharts.org/) | prometheus | privileged |  | 5.0.2 | 0.60.1 |
-| [truecharts](https://charts.truecharts.org/) | promtail | privileged |  | 6.0.0 | 2.7.0 |
+| [truecharts](https://charts.truecharts.org/) | promtail | privileged | -45 | 6.0.0 | 2.7.0 |
 | [truecharts](https://charts.truecharts.org/) | protonmail-bridge | baseline |  | 8.0.2 | 2.3.0 |
 | [truecharts](https://charts.truecharts.org/) | prowlarr | baseline |  | 7.0.2 | 0.4.8.2072 |
 | [truecharts](https://charts.truecharts.org/) | prpdf | baseline |  | 0.0.34 | latest |
@@ -746,7 +746,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [truecharts](https://charts.truecharts.org/) | recipes | baseline |  | 9.0.2 | 1.4.5 |
 | [truecharts](https://charts.truecharts.org/) | recyclarr | baseline |  | 2.0.2 | 2.6.1 |
 | [truecharts](https://charts.truecharts.org/) | red-discordbot | baseline |  | 0.0.33 | full |
-| [truecharts](https://charts.truecharts.org/) | redis | baseline |  | 5.0.4 | 7.0.5 |
+| [truecharts](https://charts.truecharts.org/) | redis | baseline | -32 | 5.0.4 | 7.0.5 |
 | [truecharts](https://charts.truecharts.org/) | redisinsight | baseline |  | 0.0.37 | latest |
 | [truecharts](https://charts.truecharts.org/) | redm | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | redmine | baseline |  | 4.0.2 | 5.0.3 |
@@ -814,7 +814,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [truecharts](https://charts.truecharts.org/) | snipe-it | baseline |  | 5.0.2 | 6.0.13 |
 | [truecharts](https://charts.truecharts.org/) | snippet-box | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | socials | baseline |  | 0.0.33 | main |
-| [truecharts](https://charts.truecharts.org/) | solr | baseline |  | 2.0.3 | 9.0.0 |
+| [truecharts](https://charts.truecharts.org/) | solr | baseline |  | 2.0.4 | 9.1.0 |
 | [truecharts](https://charts.truecharts.org/) | sonarqube | baseline |  | 0.0.39 | latest |
 | [truecharts](https://charts.truecharts.org/) | sonarr | baseline |  | 12.0.2 | 3.0.9.1549 |
 | [truecharts](https://charts.truecharts.org/) | songkong | baseline |  | 0.0.35 | latest |

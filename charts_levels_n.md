@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -45,14 +45,15 @@ Evaluation date: 2022-11-22, 11:59:48
 | [ncsa](https://opensource.ncsa.illinois.edu/charts/) | mlflow | baseline | -13 | 1.0.3 | 1.24.0 |
 | [ncsa](https://opensource.ncsa.illinois.edu/charts/) | pecan | baseline | -144 | 0.6.2 | 1.7.2 |
 | [ncsa](https://opensource.ncsa.illinois.edu/charts/) | polyglot | error_template |  | 0.1.1 | 2.4.0 |
+| [ncsa](https://opensource.ncsa.illinois.edu/charts/) | swagger | baseline |  | 1.0.1 | v4.15.5 |
 | [nebraska](https://kinvolk.github.io/nebraska/) | nebraska | error_download |  | 1.0.0 | 2.8.0 |
-| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j | error_download |  | 5.1.1 | 5.1.0 |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j | error_download |  | 5.2.0 | 5.2.0 |
 | [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-core | error_download |  | 4.4.13 | 4.4.13 |
 | [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-headless-service | error_download |  | 4.4.13 | - |
 | [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-loadbalancer | error_download |  | 4.4.13 | - |
 | [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-cluster-read-replica | error_download |  | 4.4.13 | 4.4.13 |
-| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-headless-service | error_download |  | 5.1.1 | - |
-| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-persistent-volume | error_download |  | 5.1.1 | - |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-headless-service | error_download |  | 5.2.0 | - |
+| [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-persistent-volume | error_download |  | 5.2.0 | - |
 | [neo4j-helm-charts](https://neo4j.github.io/helm-charts/) | neo4j-standalone | error_download |  | 4.4.13 | 4.4.13 |
 | [neo4j-helm-old](https://code-r.github.io/neo4j-helm/) | neo4j | error_download |  | 4.3.2-1 | 4.3.2 |
 | [neo4j-helm](https://neo4j-contrib.github.io/neo4j-helm/) | neo4j | error_download |  | 4.4.9 | 4.4.9 |

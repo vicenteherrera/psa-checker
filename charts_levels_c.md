@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -119,8 +119,8 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cape](https://charts.cape.sh) | cape | error_download |  | 0.5.1 | 0.5.1 |
 | [capsule](https://clastix.github.io/charts) | capsule | baseline | -27 | 0.1.11 | 0.1.2 |
 | [capsule](https://clastix.github.io/charts) | capsule-proxy | baseline | -26 | 0.3.2 | 0.3.1 |
-| [capsule](https://clastix.github.io/charts) | kamaji | baseline |  | 0.10.2 | v0.1.1 |
-| [capsule](https://clastix.github.io/charts) | kamaji-etcd | baseline |  | 0.1.1 | 3.5.4 |
+| [capsule](https://clastix.github.io/charts) | kamaji | baseline | -27 | 0.10.2 | v0.1.1 |
+| [capsule](https://clastix.github.io/charts) | kamaji-etcd | baseline | 0 | 0.1.1 | 3.5.4 |
 | [captnbp](https://charts.doca.cloud/charts/) | codehub | baseline | -2 | 3.0.0 | 4.8.2 |
 | [captnbp](https://charts.doca.cloud/charts/) | opensearch | privileged | 0 | 2.1.6 | 2.4.0 |
 | [captnbp](https://charts.doca.cloud/charts/) | opensearch-dashboards | no_pod_object | 0 | 2.1.6 | 2.4.0 |
@@ -142,7 +142,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [centralmodel](https://raw.githubusercontent.com/millerjem/centralmodel/main/charts) | centralmodel | baseline | -12 | 0.0.1 | 7.9.1 |
 | [ceph-csi](https://ceph.github.io/csi-charts) | ceph-csi-cephfs | privileged | -79 | 3.7.2 | 3.7.2 |
 | [ceph-csi](https://ceph.github.io/csi-charts) | ceph-csi-rbd | privileged | -116 | 3.7.2 | 3.7.2 |
-| [cerbos](https://download.cerbos.dev/helm-charts) | cerbos | baseline |  | 0.23.0 | 0.23.0 |
+| [cerbos](https://download.cerbos.dev/helm-charts) | cerbos | baseline | -12 | 0.23.0 | 0.23.0 |
 | [cert-boot](https://tsuyo.github.io/cert-boot) | cert-boot | empty_no_object |  | 0.1.1 | 0.1.0 |
 | [cert-manager-webhook-anexia](https://anexia-it.github.io/cert-manager-webhook-anexia) | cert-manager-webhook-anexia | baseline | -13 | 0.1.1 | 0.1.0 |
 | [cert-manager-webhook-gandi](https://sintef.github.io/cert-manager-webhook-gandi) | cert-manager-webhook-gandi | error_download |  | 0.3.6 | 0.3.0 |
@@ -151,9 +151,9 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cert-manager-webhook-namecheap](http://zvonimirbedi.github.io/cert-manager-webhook-namecheap/) | cert-manager-webhook-namecheap | baseline | -26 | 0.1.2 | v0.1.0 |
 | [cert-manager-webhook-namecheap](http://zvonimirbedi.github.io/cert-manager-webhook-namecheap/) | letsencrypt-namecheap-issuer | no_pod_object_but_crd | 0 | 0.1.1 | 1.16.0 |
 | [cert-manager-webhook-netcup](https://aellwein.github.io/cert-manager-webhook-netcup/charts/) | cert-manager-webhook-netcup | baseline | -14 | 1.0.9 | 1.0.9 |
-| [cert-manager](https://charts.jetstack.io) | cert-manager | restricted |  | 1.10.1 | v1.10.1 |
+| [cert-manager](https://charts.jetstack.io) | cert-manager | restricted | -105 | 1.10.1 | v1.10.1 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-approver-policy | baseline | -13 | 0.4.2 | v0.4.0 |
-| [cert-manager](https://charts.jetstack.io) | cert-manager-csi-driver | privileged |  | 0.5.0 | v0.5.0 |
+| [cert-manager](https://charts.jetstack.io) | cert-manager-csi-driver | privileged | -45 | 0.5.0 | v0.5.0 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-csi-driver-spiffe | privileged | -58 | 0.2.2 | v0.2.0 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-google-cas-issuer | baseline | -25 | 0.6.0 | v0.6.0 |
 | [cert-manager](https://charts.jetstack.io) | cert-manager-istio-csr | baseline | -13 | 0.5.0 | v0.5.0 |
@@ -199,9 +199,9 @@ Evaluation date: 2022-11-22, 11:59:48
 | [checkinservice](https://raw.githubusercontent.com/ConductionNL/checkinservice/master/api/helm/) | chis | empty_no_object |  | 0.1.0 | V1.0 |
 | [chetan-opensips](https://chetangautamm.github.io/helm/) | opensips | error_download |  | 0.1.0 | 1.16.0 |
 | [chetan-opensips](https://chetangautamm.github.io/helm/) | sipp | error_download |  | 0.1.0 | 1.16.0 |
-| [chgl](https://chgl.github.io/charts) | fhir-server-exporter | restricted | 0 | 1.0.10 |  |
-| [chgl](https://chgl.github.io/charts) | magnifhir | restricted | 0 | 1.0.5 | 1.x |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | agile-service | baseline |  | 2.2.4 | 2.2.4 |
+| [chgl](https://chgl.github.io/charts) | fhir-server-exporter | restricted |  | 1.0.11 | 1.x |
+| [chgl](https://chgl.github.io/charts) | magnifhir | restricted |  | 1.0.6 | 1.x |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | agile-service | baseline | -1 | 2.2.4 | 2.2.4 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | api-gateway | baseline | -12 | 0.21.0 | 0.21.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | asgard-service | baseline | -12 | 0.23.3 | 0.23.3 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | base-service | baseline | -12 | 0.24.0-alpha.2 | 0.24.0-alpha.2 |
@@ -218,10 +218,10 @@ Evaluation date: 2022-11-22, 11:59:48
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-gateway | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-iam | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-logging | privileged | -50 | 0.8.3 | 0.8.3 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-message | baseline |  | 2.2.2 | 2.2.2 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-message | baseline | -1 | 2.2.2 | 2.2.2 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-monitor | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-monitoring | version_not_evaluable | -65 | 0.7.3 | 0.7.3 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-oauth | baseline |  | 2.2.2 | 2.2.2 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-oauth | baseline | -1 | 2.2.2 | 2.2.2 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-platform | baseline | -1 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-register | baseline | 0 | 2.2.0 | 2.2.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | choerodon-swagger | baseline | -1 | 2.2.0 | 2.2.0 |
@@ -270,7 +270,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | istio | error_template |  | 1.0.0 | 1.0.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | jenkins | version_not_evaluable | -12 | 0.1.0 | 2.60.3-alpine |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | kibana | baseline | -24 | 0.8.3 | 0.8.3 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | knowledgebase-service | baseline |  | 2.2.5 | 2.2.5 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | knowledgebase-service | baseline | -1 | 2.2.5 | 2.2.5 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | kube-prometheus | privileged | -89 | 9.3.1 | 0.38.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | loki | baseline | 0 | 0.29.0 | v1.5.0 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | manager-service | baseline | -12 | 0.22.2 | 0.22.2 |
@@ -303,7 +303,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | tidb | version_not_evaluable | -48 | 0.1.0 | v2.0.0-rc.6 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | timing | version_not_evaluable | -12 | 0.1.1 | 0.1.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | wiki-service | version_not_evaluable | -12 | 0.18.1 | 0.18.1 |
-| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | workflow-service | baseline |  | 2.2.1 | 2.2.1 |
+| [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | workflow-service | baseline | -1 | 2.2.1 | 2.2.1 |
 | [choerodon](https://openchart.choerodon.com.cn/choerodon/c7n) | xwiki | version_not_evaluable | -12 | 0.18.1 | 0.18.1 |
 | [chrisingenhaag](https://chrisingenhaag.github.io/helm/) | collabora-code | baseline | -24 | 2.5.1 | 21.11.3.6.1 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | kube-ops-view | error_download |  | 1.1.9 | 20.4.0 |
@@ -341,8 +341,8 @@ Evaluation date: 2022-11-22, 11:59:48
 | [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | cadvisor | privileged | -12 | 2.2.2 | 0.44.0 |
 | [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | chekr | baseline | -7 | 0.5.1 | 0.5.1 |
 | [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | postgres-operator | baseline | -40 | 1.8.0 | 1.8.0 |
-| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | sbom-operator | restricted |  | 0.22.0 | 0.22.0 |
-| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | vulnerability-operator | restricted |  | 0.13.0 | 0.13.0 |
+| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | sbom-operator | restricted | -13 | 0.22.0 | 0.22.0 |
+| [ckotzbauer](https://ckotzbauer.github.io/helm-charts) | vulnerability-operator | restricted | -1 | 0.13.0 | 0.13.0 |
 | [cleardata](https://helm.cleardata.com/) | locate | error_download |  | 2.0.0 | v1 |
 | [cloud-native-postgresql](https://enterprisedb.github.io/cloud-native-postgresql-helm/) | cloud-native-postgresql | baseline | -54 | 0.13.0 | 1.15.0 |
 | [cloud-native-toolkit](https://charts.cloudnativetoolkit.dev) | argocd-config | empty_no_object |  | 0.24.0 | 1.16.0 |
@@ -453,13 +453,13 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-cinder-csi | error_download |  | 2.2.0 | v1.24.0 |
 | [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-cloud-controller-manager | error_download |  | 1.3.0 | v1.24.0 |
 | [cloud-provider-openstack](https://kubernetes.github.io/cloud-provider-openstack/) | openstack-manila-csi | error_download |  | 1.6.0 | v1.25.0 |
-| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-core | baseline |  | 3.51.0+562e0285de1f | 2.361.4.1 |
+| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-core | baseline | -1 | 3.51.0+562e0285de1f | 2.361.4.1 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-flow | error_template |  | 2.20.0 | 10.10.0.158216 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-flow-agent | error_template |  | 2.20.0 | 10.10.0.158216 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-jenkins-distribution | baseline | -9 | 2.263.102 | 2.263.1.2 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-previews | error_template |  | 1.1.0 | 1.1.0 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-remote-agents | error_template |  | 1.0.143 | v1.0.143 |
-| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-sda | privileged |  | 1.515.0+c7e549c60b7e | 10.10.0.158216+2.361.4.1 |
+| [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-sda | privileged | -73 | 1.515.0+c7e549c60b7e | 10.10.0.158216+2.361.4.1 |
 | [cloudbees](https://public-charts.artifacts.cloudbees.com/repository/public/) | cloudbees-sidecar-injector | baseline | -25 | 2.3.2 | 2.3.2 |
 | [cloudcasa-helmchart](https://catalogicsoftware.github.io/cloudcasa-helmchart) | cloudcasa | no_pod_object | 0 | 3.0.0 | 3.0.0 |
 | [cloudcore](https://web-seven.github.io/kubeedge) | cloudcore | privileged | -58 | 0.1.1 | 1.9.1 |
@@ -749,7 +749,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cloudposse](https://charts.cloudposse.com/incubator/) | thumbor | version_not_evaluable | -36 | 0.3.0 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | varnish | version_not_evaluable | -12 | 0.1.3 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | vps | version_not_evaluable | -12 | 0.1.1 |  |
-| [cloudquery](https://cloudquery.github.io/helm-charts/) | cloudquery | baseline |  | 5.1.5 | 2.0 |
+| [cloudquery](https://cloudquery.github.io/helm-charts/) | cloudquery | baseline |  | 5.1.6 | 2.0 |
 | [cloudteam-il](https://cloudteam-il.github.io/helm_charts/chi-metrics) | chi-metrics | error_template |  | 0.2.0 | 0.8 |
 | [cloudve](https://github.com/CloudVE/helm-charts/raw/master) | cloudlaunch | baseline | -24 | 0.6.0 | 2.0.2 |
 | [cloudve](https://github.com/CloudVE/helm-charts/raw/master) | cloudlaunch-server | version_not_evaluable | -12 | 0.2.0 | 2.0.2 |
@@ -791,9 +791,9 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cmak-operator](oci://ghcr.io/eshepelyuk/helm/cmak-operator) | cmak-operator | error_download |  | 2.1.1 | 2.1.1 |
 | [cms](https://maximemoreillon.github.io/cms_helm_chart/) | cms | baseline | -84 | 0.1.0 | 1.16.0 |
 | [cn2-analytics-test](https://jeffreymarshall.github.io/cn2-analytics-test/) | contrail-analytics | privileged | -420 | 22.2.0-rev0bb9dbbd1 | 22.2.0 |
-| [cncf](https://charts.gitlab.io) | gitlab | error_template |  | 6.5.5 | 15.5.4 |
+| [cncf](https://charts.gitlab.io) | gitlab | error_template |  | 6.6.0 | 15.6.0 |
 | [cncf](https://charts.gitlab.io) | gitlab-agent | baseline | -26 | 1.6.0 | v15.5.1 |
-| [cncf](https://charts.gitlab.io) | gitlab-runner | baseline |  | 0.47.0 | 15.6.0 |
+| [cncf](https://charts.gitlab.io) | gitlab-runner | baseline | -7 | 0.47.0 | 15.6.0 |
 | [cnieg](https://cnieg.github.io/helm-charts) | castlemock | baseline | -12 | 2.0.1 | latest |
 | [cnieg](https://cnieg.github.io/helm-charts) | clamapi | baseline | -24 | 2.0.3 | 2.1.6 |
 | [cnieg](https://cnieg.github.io/helm-charts) | default-chart | baseline | -13 | 3.0.5 | 1.16.0 |
@@ -842,11 +842,11 @@ Evaluation date: 2022-11-22, 11:59:48
 | [codecentric](https://codecentric.github.io/helm-charts) | keycloakx | error_download |  | 1.6.2 | 19.0.3 |
 | [codecentric](https://codecentric.github.io/helm-charts) | mailhog | error_download |  | 5.2.1 | v1.0.1 |
 | [codechem](https://charts.codechem.com) | cloudflared | error_download |  | 1.0.0 | 2022.10.3 |
-| [codechem](https://charts.codechem.com) | mastodon | error_download |  | 1.0.0 | 4.0.2 |
+| [codechem](https://charts.codechem.com) | mastodon | error_download |  | 1.0.3 | 4.0.2 |
 | [codechem](https://charts.codechem.com) | penpot | error_download |  | 1.0.9 | 1.16.0-beta |
 | [codelet-application-helm](https://cst-group.github.io/codelet-application-helm/) | codelet-application-helm | error_template |  | 0.1.0 | 1.16.0 |
 | [codenotary](https://packages.codenotary.org/helm) | immudb | error_download |  | 1.4.1 | 1.4.1 |
-| [coder](https://helm.coder.com) | coder | baseline |  | 1.37.0-rc.2 | 1.28.0 |
+| [coder](https://helm.coder.com) | coder | baseline |  | 1.37.0-rc.3 | 1.28.0 |
 | [coder](https://helm.coder.com) | workspace-provider | error_template |  | 1.21.7 |  |
 | [codetogether](https://www.codetogether.com/updates/helm) | codetogether | baseline | -12 | 1.4.9 | 2022.2.1 |
 | [codimd](https://helm.codimd.dev/) | codimd | baseline | 0 | 0.1.10 | 2.3.2 |
@@ -933,10 +933,10 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cowboysysop](https://cowboysysop.github.io/charts/) | dolibarr | baseline | -12 | 1.2.2 | 15.0.3 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | katib | baseline | -27 | 2.2.2 | 0.12.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | kfserving | baseline | -49 | 1.3.0 | 0.6.1 |
-| [cowboysysop](https://cowboysysop.github.io/charts/) | kroki | baseline |  | 1.3.0 | 0.18.0 |
+| [cowboysysop](https://cowboysysop.github.io/charts/) | kroki | baseline | -12 | 1.3.0 | 0.18.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | kubebox | baseline | -13 | 2.7.0 | 0.9.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | kubeview | baseline | -34 | 2.6.0 | 0.1.11 |
-| [cowboysysop](https://cowboysysop.github.io/charts/) | lighthouse-ci | baseline |  | 4.1.0 | 0.8.1 |
+| [cowboysysop](https://cowboysysop.github.io/charts/) | lighthouse-ci | baseline | -12 | 4.1.0 | 0.8.1 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | metacontroller | baseline | -38 | 1.2.0 | 2.1.1 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | mongo-express | baseline | -12 | 2.7.3 | 0.54.0 |
 | [cowboysysop](https://cowboysysop.github.io/charts/) | mpi-operator | baseline | -30 | 1.2.0 | 0.3.0 |
@@ -977,7 +977,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cronce](https://charts.cronce.io/) | torrentor | error_template |  | 0.9.26 | 0.9.26 |
 | [cronce](https://charts.cronce.io/) | yadms | baseline | -24 | 0.3.0 | 0.3.0 |
 | [crossplane-iam-pod-role](https://explorium-ai.github.io/crossplane-iam-pod-role/) | crossplane-iam-pod-role | error_download |  | 0.0.17 | 1.0.0 |
-| [crossplane](https://charts.crossplane.io/master/) | crossplane | baseline |  | 1.11.0-rc.0.86.g5f757bca | 1.11.0-rc.0.86.g5f757bca |
+| [crossplane](https://charts.crossplane.io/master/) | crossplane | baseline | -120 | 1.11.0-rc.0.86.g5f757bca | 1.11.0-rc.0.86.g5f757bca |
 | [crossplane](https://charts.crossplane.io/master/) | crossplane-controllers | baseline | 0 | 0.13.0-rc.98.g1eb0776 | 0.13.0-rc.98.g1eb0776 |
 | [crossplane](https://charts.crossplane.io/master/) | crossplane-types | no_pod_object | -73 | 0.13.0-rc.98.g1eb0776 | 0.13.0-rc.98.g1eb0776 |
 | [crossplane](https://charts.crossplane.io/master/) | gitlab-controller | empty_no_object |  | 0.0.0-5.c6502f5 | 0.0.0-5.c6502f5 |
@@ -995,7 +995,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [cryptexlabs](https://helm.cryptexlabs.com) | purple-pie | privileged | -51 | 0.0.1 | 0.0.4 |
 | [crypticcode-helmchart](https://crypticcode.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
 | [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-cert-manager | no_pod_object_but_crd | 0 | 1.0.11 | 1.0.11 |
-| [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-enterprise | baseline |  | 3.15.122 | 3.15.122 |
+| [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-enterprise | baseline | -84 | 3.15.122 | 3.15.122 |
 | [cryptnono](https://yuvipanda.github.io/cryptnono/) | cryptnono | privileged | -16 | 0.0.1-n025.h28f473f |  |
 | [cs3org](https://cs3org.github.io/charts/) | revad | error_download |  | 1.4.2 | v1.18.0 |
 | [cs3org](https://cs3org.github.io/charts/) | wopiserver | error_download |  | 0.5.2 | v8.3.3 |

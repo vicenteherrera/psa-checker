@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -19,8 +19,8 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wallarm](https://charts.wallarm.com/) | kong-preview | baseline | -51 | 4.2.3 | 2.7 |
 | [wallarm](https://charts.wallarm.com/) | pgbouncer | error_template |  | 1.2.1 | 1.2.1 |
 | [wallarm](https://charts.wallarm.com/) | sysbindings | privileged | -25 | 0.9.9 | 0.9.9 |
-| [wallarm](https://charts.wallarm.com/) | wallarm-ingress | baseline |  | 4.4.0 | 4.4.0 |
-| [wallarm](https://charts.wallarm.com/) | wallarm-sidecar | baseline | 0 | 1.1.4 | 4.2.5 |
+| [wallarm](https://charts.wallarm.com/) | wallarm-ingress | baseline | -39 | 4.4.0 | 4.4.0 |
+| [wallarm](https://charts.wallarm.com/) | wallarm-sidecar | baseline |  | 1.1.5 | 4.4.0 |
 | [wallet-component](https://raw.githubusercontent.com/ConductionNL/wallet-component/master/api/helm/) | postgresql | error_download |  | 10.1.1 | 11.10.0 |
 | [wallet-component](https://raw.githubusercontent.com/ConductionNL/wallet-component/master/api/helm/) | wallet-component | error_download |  | 0.1.0 | V1.0 |
 | [walter](https://waltbeach.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
@@ -68,41 +68,41 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wener](https://wenerme.github.io/charts) | alertmanager | baseline | -12 | 0.22.0 | v0.24.0 |
 | [wener](https://wenerme.github.io/charts) | alpine | baseline | 0 | 1.0.0 | 3.12.0 |
 | [wener](https://wenerme.github.io/charts) | ambassador | baseline | -61 | 6.9.5 | 1.14.4 |
-| [wener](https://wenerme.github.io/charts) | argo-cd | restricted |  | 5.14.1 | v2.5.2 |
+| [wener](https://wenerme.github.io/charts) | argo-cd | restricted | -27 | 5.14.1 | v2.5.2 |
 | [wener](https://wenerme.github.io/charts) | argo-workflows | baseline | -45 | 0.20.8 | v3.4.3 |
 | [wener](https://wenerme.github.io/charts) | athens-proxy | baseline | -24 | 0.5.2 | 0.11.1 |
 | [wener](https://wenerme.github.io/charts) | cadence | baseline | -12 | 0.23.0 | 0.23.2 |
 | [wener](https://wenerme.github.io/charts) | cert-manager | error_template |  | 1.10.1 | v1.10.1 |
-| [wener](https://wenerme.github.io/charts) | cockroachdb | version_not_evaluable |  | 9.1.1 | 22.1.11 |
-| [wener](https://wenerme.github.io/charts) | consul | error_template |  | 1.0.0 | 1.14.0 |
-| [wener](https://wenerme.github.io/charts) | dapr | baseline |  | 1.9.4 | 1.9.4 |
+| [wener](https://wenerme.github.io/charts) | cockroachdb | version_not_evaluable | -25 | 9.1.1 | 22.1.11 |
+| [wener](https://wenerme.github.io/charts) | consul | error_template |  | 1.0.1 | 1.14.1 |
+| [wener](https://wenerme.github.io/charts) | dapr | baseline | -32 | 1.9.4 | 1.9.4 |
 | [wener](https://wenerme.github.io/charts) | emissary-ingress | baseline | -36 | 8.3.0 | 3.3.0 |
 | [wener](https://wenerme.github.io/charts) | filebrowser | baseline | -12 | 1.0.0 | v2.13.0 |
 | [wener](https://wenerme.github.io/charts) | frpc | baseline | -12 | 1.0.1 | v0.37.0 |
 | [wener](https://wenerme.github.io/charts) | frps | baseline | -12 | 1.0.1 | v0.37.0 |
 | [wener](https://wenerme.github.io/charts) | gitea | baseline | -19 | 6.0.3 | 1.17.3 |
-| [wener](https://wenerme.github.io/charts) | gitlab | error_template |  | 6.5.5 | 15.5.4 |
-| [wener](https://wenerme.github.io/charts) | gitlab-runner | baseline | -7 | 0.46.1 | 15.5.1 |
-| [wener](https://wenerme.github.io/charts) | grafana | baseline |  | 6.44.6 | 9.2.5 |
+| [wener](https://wenerme.github.io/charts) | gitlab | error_template |  | 6.6.0 | 15.6.0 |
+| [wener](https://wenerme.github.io/charts) | gitlab-runner | error_template |  | 0.47.0 | 15.6.0 |
+| [wener](https://wenerme.github.io/charts) | grafana | error_template |  | 6.44.7 | 9.2.5 |
 | [wener](https://wenerme.github.io/charts) | haproxy-ingress | baseline | -26 | 0.13.9 | v0.13.9 |
 | [wener](https://wenerme.github.io/charts) | harbor | baseline | 0 | 1.10.2 | 2.6.2 |
 | [wener](https://wenerme.github.io/charts) | hazelcast | baseline | -31 | 5.5.0 | 5.2.0 |
 | [wener](https://wenerme.github.io/charts) | ingress-nginx | baseline | -39 | 4.4.0 | 1.5.1 |
 | [wener](https://wenerme.github.io/charts) | ingresses | no_pod_object | 0 | 1.0.0 |  |
 | [wener](https://wenerme.github.io/charts) | keycloak | baseline | -12 | 16.1.0 | 16.1.0 |
-| [wener](https://wenerme.github.io/charts) | kube-prometheus | privileged |  | 8.2.0 | 0.60.1 |
-| [wener](https://wenerme.github.io/charts) | kube-prometheus-stack | privileged |  | 41.9.1 | 0.60.1 |
+| [wener](https://wenerme.github.io/charts) | kube-prometheus | privileged |  | 8.2.1 | 0.61.0 |
+| [wener](https://wenerme.github.io/charts) | kube-prometheus-stack | privileged |  | 42.0.0 | 0.60.1 |
 | [wener](https://wenerme.github.io/charts) | kube-state-metrics | baseline | -23 | 4.23.0 | 2.6.0 |
 | [wener](https://wenerme.github.io/charts) | kubed | baseline | -15 | 0.13.2 | v0.13.2 |
 | [wener](https://wenerme.github.io/charts) | kubernetes-dashboard | baseline | -1 | 6.0.0 | 2.7.0 |
 | [wener](https://wenerme.github.io/charts) | linkerd2 | error_template |  | 2.10.2 | stable-2.10.2 |
 | [wener](https://wenerme.github.io/charts) | linkerd2-cni | privileged | -12 | 2.10.2 | stable-2.10.2 |
 | [wener](https://wenerme.github.io/charts) | logging-operator | baseline | -26 | 3.17.9 | 3.17.9 |
-| [wener](https://wenerme.github.io/charts) | loki | empty_no_object | -51 | 3.3.4 | 2.6.1 |
-| [wener](https://wenerme.github.io/charts) | loki-distributed | baseline |  | 0.65.2 | 2.6.1 |
+| [wener](https://wenerme.github.io/charts) | loki | empty_no_object |  | 3.4.2 | 2.6.1 |
+| [wener](https://wenerme.github.io/charts) | loki-distributed | baseline |  | 0.65.3 | 2.6.1 |
 | [wener](https://wenerme.github.io/charts) | longhorn | privileged | -70 | 1.2.3 | v1.2.3 |
-| [wener](https://wenerme.github.io/charts) | meshery | baseline |  | 0.6.28 | v0.6.28 |
-| [wener](https://wenerme.github.io/charts) | metallb | privileged |  | 4.1.12 | 0.13.7 |
+| [wener](https://wenerme.github.io/charts) | meshery | baseline | -37 | 0.6.28 | v0.6.28 |
+| [wener](https://wenerme.github.io/charts) | metallb | privileged | -48 | 4.1.12 | 0.13.7 |
 | [wener](https://wenerme.github.io/charts) | minio | baseline | 0 | 8.0.10 | master |
 | [wener](https://wenerme.github.io/charts) | minio-console | error_template |  | 1.0.3 | v0.13.2 |
 | [wener](https://wenerme.github.io/charts) | minio-operator | baseline | -55 | 4.3.7 | v4.3.7 |
@@ -112,17 +112,17 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wener](https://wenerme.github.io/charts) | nfs-subdir-external-provisioner | baseline | -10 | 4.0.17 | 4.0.2 |
 | [wener](https://wenerme.github.io/charts) | oauth2-proxy | baseline | -12 | 1.0.2 | v7.2.1 |
 | [wener](https://wenerme.github.io/charts) | openebs | privileged | -61 | 3.3.1 | 3.3.0 |
-| [wener](https://wenerme.github.io/charts) | opensearch | baseline |  | 2.8.0 | 2.4.0 |
-| [wener](https://wenerme.github.io/charts) | opensearch-dashboards | baseline |  | 2.6.0 | 2.4.0 |
+| [wener](https://wenerme.github.io/charts) | opensearch | baseline | 0 | 2.8.0 | 2.4.0 |
+| [wener](https://wenerme.github.io/charts) | opensearch-dashboards | baseline | 0 | 2.6.0 | 2.4.0 |
 | [wener](https://wenerme.github.io/charts) | postgres-operator | baseline | -40 | 1.7.1 | 1.7.1 |
 | [wener](https://wenerme.github.io/charts) | postgres-operator-ui | baseline | -14 | 1.7.1 | 1.7.1 |
-| [wener](https://wenerme.github.io/charts) | prometheus | privileged |  | 16.0.0 | 2.39.1 |
+| [wener](https://wenerme.github.io/charts) | prometheus | error_template |  | 17.0.0 | 2.39.1 |
 | [wener](https://wenerme.github.io/charts) | prometheus-blackbox-exporter | baseline | -1 | 7.1.3 | 0.22.0 |
 | [wener](https://wenerme.github.io/charts) | prometheus-mysql-exporter | baseline | 0 | 1.10.0 | v0.14.0 |
-| [wener](https://wenerme.github.io/charts) | prometheus-nats-exporter | baseline |  | 2.10.1 | 0.10.1 |
-| [wener](https://wenerme.github.io/charts) | prometheus-node-exporter | privileged |  | 4.6.0 | 1.3.1 |
-| [wener](https://wenerme.github.io/charts) | prometheus-postgres-exporter | baseline | -12 | 3.1.5 | 0.10.1 |
-| [wener](https://wenerme.github.io/charts) | prometheus-pushgateway | baseline |  | 1.21.0 | 1.4.2 |
+| [wener](https://wenerme.github.io/charts) | prometheus-nats-exporter | baseline | -12 | 2.10.1 | 0.10.1 |
+| [wener](https://wenerme.github.io/charts) | prometheus-node-exporter | privileged |  | 4.7.0 | 1.4.0 |
+| [wener](https://wenerme.github.io/charts) | prometheus-postgres-exporter | error_template |  | 3.3.0 | 0.11.1 |
+| [wener](https://wenerme.github.io/charts) | prometheus-pushgateway | baseline | 0 | 1.21.0 | 1.4.2 |
 | [wener](https://wenerme.github.io/charts) | prometheus-redis-exporter | baseline | 0 | 5.3.0 | v1.44.0 |
 | [wener](https://wenerme.github.io/charts) | prometheus-snmp-exporter | baseline | -1 | 1.2.1 | 0.19.0 |
 | [wener](https://wenerme.github.io/charts) | prometheus-statsd-exporter | baseline | -12 | 0.7.0 | v0.22.8 |
@@ -132,27 +132,27 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wener](https://wenerme.github.io/charts) | reflector | baseline | -19 | 6.1.47 | 6.1.47 |
 | [wener](https://wenerme.github.io/charts) | reloader | baseline | -14 | 0.0.124 | v0.0.124 |
 | [wener](https://wenerme.github.io/charts) | samba | privileged | -12 | 1.0.0 | 4.13.3 |
-| [wener](https://wenerme.github.io/charts) | sealed-secrets | baseline |  | 2.7.1 | v0.19.2 |
+| [wener](https://wenerme.github.io/charts) | sealed-secrets | baseline | -14 | 2.7.1 | v0.19.2 |
 | [wener](https://wenerme.github.io/charts) | seaweedfs | privileged | -37 | 2.92.0 | 2.92 |
 | [wener](https://wenerme.github.io/charts) | temporal | privileged | -75 | 0.15.1 | 1.15.1 |
 | [wener](https://wenerme.github.io/charts) | traefik | baseline | -13 | 9.1.1 | 2.2.8 |
 | [wener](https://wenerme.github.io/charts) | vault | baseline | -27 | 0.22.1 | 1.12.0 |
-| [wener](https://wenerme.github.io/charts) | verdaccio | baseline |  | 4.9.3 | 5.17.0 |
-| [wener](https://wenerme.github.io/charts) | victoria-metrics-k8s-stack | privileged |  | 0.12.12 | 1.83.1 |
-| [wener](https://wenerme.github.io/charts) | victoria-metrics-operator | baseline |  | 0.16.1 | 0.29.2 |
+| [wener](https://wenerme.github.io/charts) | verdaccio | baseline | 0 | 4.9.3 | 5.17.0 |
+| [wener](https://wenerme.github.io/charts) | victoria-metrics-k8s-stack | privileged | -80 | 0.12.12 | 1.83.1 |
+| [wener](https://wenerme.github.io/charts) | victoria-metrics-operator | baseline | -29 | 0.16.1 | 0.29.2 |
 | [wener](https://wenerme.github.io/charts) | wiki | error_template |  | 2.2.0 | latest |
 | [wener](https://wenerme.github.io/charts) | yugabyte | privileged | -24 | 2.15.3 | 2.15.3.0-b231 |
 | [wenerme](https://charts.wener.tech) | alertmanager | baseline | -12 | 0.22.0 | v0.24.0 |
 | [wenerme](https://charts.wener.tech) | alpine | baseline | 0 | 1.0.0 | 3.12.0 |
 | [wenerme](https://charts.wener.tech) | ambassador | baseline | -61 | 6.9.5 | 1.14.4 |
-| [wenerme](https://charts.wener.tech) | argo-cd | restricted |  | 5.14.1 | v2.5.2 |
+| [wenerme](https://charts.wener.tech) | argo-cd | restricted | -27 | 5.14.1 | v2.5.2 |
 | [wenerme](https://charts.wener.tech) | argo-workflows | baseline | -45 | 0.20.8 | v3.4.3 |
 | [wenerme](https://charts.wener.tech) | athens-proxy | baseline | -24 | 0.5.2 | 0.11.1 |
 | [wenerme](https://charts.wener.tech) | cadence | baseline | -12 | 0.23.0 | 0.23.2 |
-| [wenerme](https://charts.wener.tech) | cert-manager | restricted |  | 1.10.1 | v1.10.1 |
+| [wenerme](https://charts.wener.tech) | cert-manager | restricted | -105 | 1.10.1 | v1.10.1 |
 | [wenerme](https://charts.wener.tech) | cockroachdb | error_template |  | 9.1.1 | 22.1.11 |
-| [wenerme](https://charts.wener.tech) | consul | baseline |  | 1.0.0 | 1.14.0 |
-| [wenerme](https://charts.wener.tech) | dapr | baseline |  | 1.9.4 | 1.9.4 |
+| [wenerme](https://charts.wener.tech) | consul | baseline | -64 | 1.0.0 | 1.14.0 |
+| [wenerme](https://charts.wener.tech) | dapr | baseline | -32 | 1.9.4 | 1.9.4 |
 | [wenerme](https://charts.wener.tech) | emissary-ingress | baseline | -36 | 8.3.0 | 3.3.0 |
 | [wenerme](https://charts.wener.tech) | filebrowser | baseline | -12 | 1.0.0 | v2.13.0 |
 | [wenerme](https://charts.wener.tech) | frpc | baseline | -12 | 1.0.1 | v0.37.0 |
@@ -160,15 +160,15 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wenerme](https://charts.wener.tech) | gitea | baseline | -19 | 6.0.3 | 1.17.3 |
 | [wenerme](https://charts.wener.tech) | gitlab | error_template |  | 6.5.5 | 15.5.4 |
 | [wenerme](https://charts.wener.tech) | gitlab-runner | baseline | -7 | 0.46.1 | 15.5.1 |
-| [wenerme](https://charts.wener.tech) | grafana | baseline |  | 6.44.6 | 9.2.5 |
+| [wenerme](https://charts.wener.tech) | grafana | baseline | -14 | 6.44.6 | 9.2.5 |
 | [wenerme](https://charts.wener.tech) | haproxy-ingress | baseline | -26 | 0.13.9 | v0.13.9 |
 | [wenerme](https://charts.wener.tech) | harbor | baseline | 0 | 1.10.2 | 2.6.2 |
 | [wenerme](https://charts.wener.tech) | hazelcast | baseline | -31 | 5.5.0 | 5.2.0 |
 | [wenerme](https://charts.wener.tech) | ingress-nginx | baseline | -39 | 4.4.0 | 1.5.1 |
 | [wenerme](https://charts.wener.tech) | ingresses | no_pod_object | 0 | 1.0.0 |  |
 | [wenerme](https://charts.wener.tech) | keycloak | baseline | -12 | 16.1.0 | 16.1.0 |
-| [wenerme](https://charts.wener.tech) | kube-prometheus | privileged |  | 8.2.0 | 0.60.1 |
-| [wenerme](https://charts.wener.tech) | kube-prometheus-stack | privileged |  | 41.9.1 | 0.60.1 |
+| [wenerme](https://charts.wener.tech) | kube-prometheus | privileged | -58 | 8.2.0 | 0.60.1 |
+| [wenerme](https://charts.wener.tech) | kube-prometheus-stack | privileged | -77 | 41.9.1 | 0.60.1 |
 | [wenerme](https://charts.wener.tech) | kube-state-metrics | baseline | -23 | 4.23.0 | 2.6.0 |
 | [wenerme](https://charts.wener.tech) | kubed | baseline | -15 | 0.13.2 | v0.13.2 |
 | [wenerme](https://charts.wener.tech) | kubernetes-dashboard | error_template |  | 6.0.0 | 2.7.0 |
@@ -176,10 +176,10 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wenerme](https://charts.wener.tech) | linkerd2-cni | privileged | -12 | 2.10.2 | stable-2.10.2 |
 | [wenerme](https://charts.wener.tech) | logging-operator | baseline | -26 | 3.17.9 | 3.17.9 |
 | [wenerme](https://charts.wener.tech) | loki | empty_no_object | -51 | 3.3.4 | 2.6.1 |
-| [wenerme](https://charts.wener.tech) | loki-distributed | baseline |  | 0.65.2 | 2.6.1 |
+| [wenerme](https://charts.wener.tech) | loki-distributed | baseline | 0 | 0.65.2 | 2.6.1 |
 | [wenerme](https://charts.wener.tech) | longhorn | privileged | -70 | 1.2.3 | v1.2.3 |
-| [wenerme](https://charts.wener.tech) | meshery | baseline |  | 0.6.28 | v0.6.28 |
-| [wenerme](https://charts.wener.tech) | metallb | privileged |  | 4.1.12 | 0.13.7 |
+| [wenerme](https://charts.wener.tech) | meshery | baseline | -37 | 0.6.28 | v0.6.28 |
+| [wenerme](https://charts.wener.tech) | metallb | privileged | -48 | 4.1.12 | 0.13.7 |
 | [wenerme](https://charts.wener.tech) | minio | baseline | 0 | 8.0.10 | master |
 | [wenerme](https://charts.wener.tech) | minio-console | error_template |  | 1.0.3 | v0.13.2 |
 | [wenerme](https://charts.wener.tech) | minio-operator | baseline | -55 | 4.3.7 | v4.3.7 |
@@ -193,13 +193,13 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wenerme](https://charts.wener.tech) | opensearch-dashboards | error_template |  | 2.6.0 | 2.4.0 |
 | [wenerme](https://charts.wener.tech) | postgres-operator | baseline | -40 | 1.7.1 | 1.7.1 |
 | [wenerme](https://charts.wener.tech) | postgres-operator-ui | baseline | -14 | 1.7.1 | 1.7.1 |
-| [wenerme](https://charts.wener.tech) | prometheus | privileged |  | 16.0.0 | 2.39.1 |
+| [wenerme](https://charts.wener.tech) | prometheus | privileged | -29 | 16.0.0 | 2.39.1 |
 | [wenerme](https://charts.wener.tech) | prometheus-blackbox-exporter | baseline | -1 | 7.1.3 | 0.22.0 |
 | [wenerme](https://charts.wener.tech) | prometheus-mysql-exporter | baseline | 0 | 1.10.0 | v0.14.0 |
-| [wenerme](https://charts.wener.tech) | prometheus-nats-exporter | baseline |  | 2.10.1 | 0.10.1 |
-| [wenerme](https://charts.wener.tech) | prometheus-node-exporter | privileged |  | 4.6.0 | 1.3.1 |
+| [wenerme](https://charts.wener.tech) | prometheus-nats-exporter | baseline | -12 | 2.10.1 | 0.10.1 |
+| [wenerme](https://charts.wener.tech) | prometheus-node-exporter | privileged | 0 | 4.6.0 | 1.3.1 |
 | [wenerme](https://charts.wener.tech) | prometheus-postgres-exporter | baseline | -12 | 3.1.5 | 0.10.1 |
-| [wenerme](https://charts.wener.tech) | prometheus-pushgateway | baseline |  | 1.21.0 | 1.4.2 |
+| [wenerme](https://charts.wener.tech) | prometheus-pushgateway | baseline | 0 | 1.21.0 | 1.4.2 |
 | [wenerme](https://charts.wener.tech) | prometheus-redis-exporter | baseline | 0 | 5.3.0 | v1.44.0 |
 | [wenerme](https://charts.wener.tech) | prometheus-snmp-exporter | baseline | -1 | 1.2.1 | 0.19.0 |
 | [wenerme](https://charts.wener.tech) | prometheus-statsd-exporter | baseline | -12 | 0.7.0 | v0.22.8 |
@@ -209,24 +209,24 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wenerme](https://charts.wener.tech) | reflector | baseline | -19 | 6.1.47 | 6.1.47 |
 | [wenerme](https://charts.wener.tech) | reloader | baseline | -14 | 0.0.124 | v0.0.124 |
 | [wenerme](https://charts.wener.tech) | samba | privileged | -12 | 1.0.0 | 4.13.3 |
-| [wenerme](https://charts.wener.tech) | sealed-secrets | baseline |  | 2.7.1 | v0.19.2 |
+| [wenerme](https://charts.wener.tech) | sealed-secrets | baseline | -14 | 2.7.1 | v0.19.2 |
 | [wenerme](https://charts.wener.tech) | seaweedfs | privileged | -37 | 2.92.0 | 2.92 |
 | [wenerme](https://charts.wener.tech) | temporal | privileged | -75 | 0.15.1 | 1.15.1 |
 | [wenerme](https://charts.wener.tech) | traefik | baseline | -13 | 9.1.1 | 2.2.8 |
 | [wenerme](https://charts.wener.tech) | vault | baseline | -27 | 0.22.1 | 1.12.0 |
 | [wenerme](https://charts.wener.tech) | verdaccio | error_template |  | 4.9.3 | 5.17.0 |
-| [wenerme](https://charts.wener.tech) | victoria-metrics-k8s-stack | privileged |  | 0.12.12 | 1.83.1 |
-| [wenerme](https://charts.wener.tech) | victoria-metrics-operator | baseline |  | 0.16.1 | 0.29.2 |
+| [wenerme](https://charts.wener.tech) | victoria-metrics-k8s-stack | privileged | -80 | 0.12.12 | 1.83.1 |
+| [wenerme](https://charts.wener.tech) | victoria-metrics-operator | baseline | -29 | 0.16.1 | 0.29.2 |
 | [wenerme](https://charts.wener.tech) | wiki | error_template |  | 2.2.0 | latest |
 | [wenerme](https://charts.wener.tech) | yugabyte | privileged | -24 | 2.15.3 | 2.15.3.0-b231 |
 | [wharf-helm](https://iver-wharf.github.io/wharf-helm) | wharf-aino | error_download |  | 0.1.5 |  |
 | [wharf-helm](https://iver-wharf.github.io/wharf-helm) | wharf-cmd | error_download |  | 0.3.3 | 0.8.2 |
 | [wharf-helm](https://iver-wharf.github.io/wharf-helm) | wharf-helm | error_download |  | 3.2.6 |  |
 | [whoami](https://gitlab.com/api/v4/projects/37200623/packages/helm/stable) | whoami | error_download |  | 0.1.6 | 0.1.6 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | apertium | baseline |  | 0.1.2 |  |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | api-gateway | baseline | -12 | 0.4.10 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | apertium | baseline | -12 | 0.1.2 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | api-gateway | baseline |  | 0.4.11 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | apple-search | baseline | -12 | 0.1.2 |  |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | blubberoid | baseline |  | 0.1.2 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | blubberoid | baseline | -24 | 0.1.2 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | calculator-service | baseline | -12 | 0.1.1 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | calico | privileged | -73 | 0.2.3 | 3.23.3 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | calico-crds | no_pod_object_but_crd | 0 | 0.2.0 | 3.23.3 |
@@ -296,7 +296,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [wiremind](https://wiremind.github.io/wiremind-helm-charts) | dex-k8s-authenticator | baseline | -12 | 1.5.3 | v1.4.0 |
 | [wiremind](https://wiremind.github.io/wiremind-helm-charts) | docker-hub-rate-limit-exporter | baseline | 0 | 0.3.0 | version-1.5 |
 | [wiremind](https://wiremind.github.io/wiremind-helm-charts) | druid | baseline | -36 | 1.0.0 | 0.21.1 |
-| [wiremind](https://wiremind.github.io/wiremind-helm-charts) | elasticsearch-cluster | privileged |  | 3.7.8 | 7.17.3 |
+| [wiremind](https://wiremind.github.io/wiremind-helm-charts) | elasticsearch-cluster | privileged | 0 | 3.7.8 | 7.17.3 |
 | [wiremind](https://wiremind.github.io/wiremind-helm-charts) | external-monitoring | baseline | -1 | 0.2.4 |  |
 | [wiremind](https://wiremind.github.io/wiremind-helm-charts) | grafana-pdf-exporter | version_not_evaluable | -12 | 0.7.0 | v0.1.0 |
 | [wiremind](https://wiremind.github.io/wiremind-helm-charts) | istio-operator | baseline | -48 | 1.14.3 | 1.14.3 |

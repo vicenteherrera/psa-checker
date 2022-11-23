@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-22, 11:59:48
+Evaluation date: 2022-11-23, 10:20:35
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(231)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(534)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(209)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(400)](./charts_levels_m)&nbsp; [N(202)](./charts_levels_n)&nbsp; [O(481)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(823)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(824)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -269,7 +269,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [k8ssandra-lightweight](https://abhijithganesh.tech/dokc-helm-chart/) | dokc-k8ssandra-lightweight | error_download |  | 0.1.0 |  |
 | [k8ssandra](https://helm.k8ssandra.io/) | backup | no_pod_object_but_crd | 0 | 0.26.0 |  |
 | [k8ssandra](https://helm.k8ssandra.io/) | cass-operator | error_template |  | 0.38.0 | 1.13.0 |
-| [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra | baseline |  | 1.6.0-20221121154524-83401577 |  |
+| [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra | baseline | -64 | 1.6.0-20221121154524-83401577 |  |
 | [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra-common | error_template |  | 0.28.6 |  |
 | [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra-operator | error_template |  | 0.38.5 | 1.4.0 |
 | [k8ssandra](https://helm.k8ssandra.io/) | medusa-operator | baseline | 0 | 0.32.0 | 0.1.0 |
@@ -308,7 +308,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [keptn](https://charts.keptn.sh) | common | error_template |  | 0.20.0-next.0 |  |
 | [keptn](https://charts.keptn.sh) | helm-service | baseline | -26 | 0.18.2 | 0.18.2 |
 | [keptn](https://charts.keptn.sh) | jmeter-service | baseline | 0 | 0.18.2 | 0.18.2 |
-| [keptn](https://charts.keptn.sh) | keptn | baseline |  | 0.20.0-next.0 | 0.20.0-next.0 |
+| [keptn](https://charts.keptn.sh) | keptn | baseline | -19 | 0.20.0-next.0 | 0.20.0-next.0 |
 | [keras-ready-env](https://yanuragaj.github.io/Task_28/charts/) | keras-env | error_download |  | 0.0.1 | 1.1.0 |
 | [kestra](https://helm.kestra.io/) | kestra | error_download |  | 0.5.1 | 0.5.1 |
 | [keyporttech](https://keyporttech.github.io/helm-charts) | csi-driver-nfs | privileged | -44 | 0.1.4 | 2.0.0 |
@@ -377,7 +377,7 @@ Evaluation date: 2022-11-22, 11:59:48
 | [kokuwa](https://kokuwaio.github.io/helm-charts) | visual-regression-tracker | baseline | 0 | 0.4.2 | 4.20.5 |
 | [komodor](https://helm-charts.komodor.io) | k8s-watcher | error_download |  | 1.0.9 | 0.1.140 |
 | [kong-mesh](https://kong.github.io/kong-mesh-charts) | kong-mesh | error_download |  | 2.0.0 | 2.0.0 |
-| [kong-z](https://charts.kong-z.com/) | graylog | privileged |  | 2.2.0 | 4.3.8 |
+| [kong-z](https://charts.kong-z.com/) | graylog | privileged | 0 | 2.2.0 | 4.3.8 |
 | [kong](https://charts.konghq.com) | kong | error_download |  | 2.13.1 | 3.0 |
 | [koordinator](https://koordinator-sh.github.io/charts) | koordinator | error_download |  | 1.0.0 | 1.0.0 |
 | [kpow](https://charts.kpow.io) | kpow | error_download |  | 1.0.41 | 90.2 |
@@ -518,14 +518,14 @@ Evaluation date: 2022-11-22, 11:59:48
 | [kubes](https://kubes.io/kubes-ttl-chart) | kubes-ttl | error_download |  | 0.1.2 | 1.0.0 |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | api-server | baseline | -47 | 0.11.16 | 0.11.16 |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway | baseline | -27 | 0.0.59 | v1.3.19 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-api | baseline | -13 | 0.1.22 | v1.1.10 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-api | baseline |  | 0.1.23 | v1.1.10 |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-dashboard | baseline | -12 | 0.1.17 | v1.2.5 |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-envoyfleet | no_pod_object_but_crd | 0 | 0.0.7 | v0.0.0 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube | baseline |  | 1.7.20 |  |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube | baseline |  | 1.7.36 |  |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-api | baseline |  | 1.7.8 | 1.7.8 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-dashboard | baseline |  | 1.8.2 | 1.8.2 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-dashboard | baseline |  | 1.8.3 | 1.8.3 |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-operator | baseline | -49 | 1.6.8 |  |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | tracetest | baseline |  | 0.2.25 | v0.8.1 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | tracetest | baseline | -12 | 0.2.25 | v0.8.1 |
 | [kubesphere-test](https://charts.kubesphere.io/test) | apisix | baseline | -12 | 0.1.7 | 1.15.0 |
 | [kubesphere-test](https://charts.kubesphere.io/test) | aws-ebs-csi-driver | privileged | -64 | 0.3.0 | 0.5.0 |
 | [kubesphere-test](https://charts.kubesphere.io/test) | aws-efs-csi-driver | privileged | -16 | 0.1.0 | 0.3.0 |
