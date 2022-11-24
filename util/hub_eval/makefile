@@ -6,7 +6,7 @@ download_charts_info:
 	helm search hub -o yaml > result/helm_charts.yaml
 
 evaluate:
-	python3 src/iterate_charts.py
+	python3 hub_eval/iterate_charts.py
 
 reset:
 	rm result/helm_charts_pss.yaml ||:
@@ -16,7 +16,7 @@ full-reset: download_charts_info
 	rm result/logs/* ||:
 
 generate_table:
-	python3 src/write_table.py
+	python3 hub_eval/write_table.py
 
 prepare_docs:
 	cp ../../README.md ../../../psa-docs/
