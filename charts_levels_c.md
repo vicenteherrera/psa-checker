@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 12:10:29
+Evaluation date: 2022-11-24, 21:44:38
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -20,7 +20,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [camptocamp-cron](https://camptocamp.github.io/helm-custom-cron/) | custom-cron | restricted | 0 | 0.3.0 | 1.0 |
 | [camptocamp-ingress](https://camptocamp.github.io/helm-ingress/) | ingress | error_download |  | 0.3.0 |  |
 | [camptocamp-pod](https://camptocamp.github.io/helm-custom-pod/) | custom-pod | restricted | -12 | 0.3.0 | 1.0 |
-| [camptocamp-secrets](https://camptocamp.github.io/helm-secrets/) | secrets | error_download |  | 0.3.0 | 1.0 |
+| [camptocamp-secrets](https://camptocamp.github.io/helm-secrets/) | secrets | error_download |  | 0.3.1 | 1.0 |
 | [camptocamp2](https://camptocamp.github.io/helm-geoserver-cloud) | geoserver | baseline | 0 | 0.0.3 | 1.0-RC2 |
 | [camptocamp2](https://camptocamp.github.io/helm-geoserver-cloud) | geoserver-cloud | baseline | 0 | 0.0.5 | 1.0-RC3 |
 | [camptocamp2](https://camptocamp.github.io/helm-geoserver-cloud) | geoservercloud | empty_no_object | 0 | 0.0.6 | 1.0-RC3 |
@@ -310,12 +310,12 @@ Evaluation date: 2022-11-23, 12:10:29
 | [christianknell](https://christianknell.github.io/helm-charts/) | kutt | error_download |  | 1.0.0 | v2.7.4 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | netcupscp-exporter | error_download |  | 1.0.4 | v0.2.5 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | passbolt-ha | error_download |  | 1.0.5 |  |
-| [christianknell](https://christianknell.github.io/helm-charts/) | polr | error_download |  | 1.0.4 | 2.3.0c |
+| [christianknell](https://christianknell.github.io/helm-charts/) | polr | error_download |  | 1.0.5 | 2.3.0 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | popeye | error_download |  | 1.0.1 | v0.10.1 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | prometheus-pve-exporter | error_download |  | 1.0.4 | 2.2.4 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | proxysql | error_download |  | 1.0.1 | 2.4.2 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | proxyweb | error_download |  | 0.0.1 | latest |
-| [christianknell](https://christianknell.github.io/helm-charts/) | shlink-backend | error_download |  | 1.1.0 | 3.3.2 |
+| [christianknell](https://christianknell.github.io/helm-charts/) | shlink-backend | error_download |  | 1.1.1 | 3.3.2 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | shlink-web | error_download |  | 0.0.1 | 3.7.1 |
 | [christianknell](https://christianknell.github.io/helm-charts/) | skooner | error_download |  | 0.0.3 | stable |
 | [christianknell](https://christianknell.github.io/helm-charts/) | typo3 | error_download |  | 1.0.0 | 11.5 |
@@ -474,6 +474,8 @@ Evaluation date: 2022-11-23, 12:10:29
 | [cloudflare-exporter](https://lablabs.github.io/cloudflare-exporter/) | cloudflare-exporter | baseline | 0 | 0.1.8 | 0.0.9 |
 | [cloudflow-helm-charts](https://lightbend.github.io/cloudflow-helm-charts/) | cloudflow | baseline | -27 | 2.3.2 | 2.3.2 |
 | [cloudflow-helm-charts](https://lightbend.github.io/cloudflow-helm-charts/) | cloudflow-enterprise-components | baseline | -109 | 2.3.2 | 2.3.2 |
+| [cloudify](https://cloudify-cosmo.github.io/cloudify-helm) | cloudify-manager-aio | error_download |  | 0.1.1 |  |
+| [cloudify](https://cloudify-cosmo.github.io/cloudify-helm) | cloudify-manager-worker | error_download |  | 0.4.0 |  |
 | [cloudnative-pg](https://cloudnative-pg.io/charts/) | cloudnative-pg | baseline | -54 | 0.16.0 | 1.18.0 |
 | [cloudnative-pg](https://cloudnative-pg.io/charts/) | cnpg-sandbox | baseline | -131 | 0.6.1 | 1.17.1 |
 | [cloudnative-pg](https://cloudnative-pg.io/charts/) | pgbench | baseline | 0 | 0.1.0 |  |
@@ -749,7 +751,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [cloudposse](https://charts.cloudposse.com/incubator/) | thumbor | version_not_evaluable | -36 | 0.3.0 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | varnish | version_not_evaluable | -12 | 0.1.3 |  |
 | [cloudposse](https://charts.cloudposse.com/incubator/) | vps | version_not_evaluable | -12 | 0.1.1 |  |
-| [cloudquery](https://cloudquery.github.io/helm-charts/) | cloudquery | baseline | 0 | 5.1.6 | 2.0 |
+| [cloudquery](https://cloudquery.github.io/helm-charts/) | cloudquery | baseline |  | 5.1.8 | 2.0 |
 | [cloudteam-il](https://cloudteam-il.github.io/helm_charts/chi-metrics) | chi-metrics | error_template |  | 0.2.0 | 0.8 |
 | [cloudve](https://github.com/CloudVE/helm-charts/raw/master) | cloudlaunch | baseline | -24 | 0.6.0 | 2.0.2 |
 | [cloudve](https://github.com/CloudVE/helm-charts/raw/master) | cloudlaunch-server | version_not_evaluable | -12 | 0.2.0 | 2.0.2 |
@@ -793,7 +795,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [cn2-analytics-test](https://jeffreymarshall.github.io/cn2-analytics-test/) | contrail-analytics | privileged | -420 | 22.2.0-rev0bb9dbbd1 | 22.2.0 |
 | [cncf](https://charts.gitlab.io) | gitlab | error_template |  | 6.6.0 | 15.6.0 |
 | [cncf](https://charts.gitlab.io) | gitlab-agent | baseline | -26 | 1.6.0 | v15.5.1 |
-| [cncf](https://charts.gitlab.io) | gitlab-runner | baseline | -7 | 0.47.0 | 15.6.0 |
+| [cncf](https://charts.gitlab.io) | gitlab-runner | baseline |  | 0.47.1 | 15.6.1 |
 | [cnieg](https://cnieg.github.io/helm-charts) | castlemock | baseline | -12 | 2.0.1 | latest |
 | [cnieg](https://cnieg.github.io/helm-charts) | clamapi | baseline | -24 | 2.0.3 | 2.1.6 |
 | [cnieg](https://cnieg.github.io/helm-charts) | default-chart | baseline | -13 | 3.0.5 | 1.16.0 |
@@ -920,8 +922,8 @@ Evaluation date: 2022-11-23, 12:10:29
 | [core-dump-handler](https://ibm.github.io/core-dump-handler/) | core-dump-handler | privileged | -29 | 8.7.0 | v8.7.0 |
 | [coredns](https://coredns.github.io/helm) | coredns | baseline | -13 | 1.19.7 | 1.9.4 |
 | [coroot](https://coroot.github.io/helm-charts) | aws-agent | baseline | -12 | 0.1.0 | 1.1.0 |
-| [coroot](https://coroot.github.io/helm-charts) | coroot | privileged | -41 | 0.1.4 | 0.7.1 |
-| [coroot](https://coroot.github.io/helm-charts) | node-agent | privileged | -16 | 0.1.2 | 1.1.1 |
+| [coroot](https://coroot.github.io/helm-charts) | coroot | privileged |  | 0.1.5 | 0.7.1 |
+| [coroot](https://coroot.github.io/helm-charts) | node-agent | privileged |  | 0.1.3 | 1.2.1 |
 | [cortex-app](oci://public.ecr.aws/n8q4i9t5/cortex-app) | cortex-app | error_download |  | 0.1.1 | 1.16.0 |
 | [cortex](https://cortexproject.github.io/cortex-helm-chart/) | cortex | baseline | -13 | 1.7.0 | v1.13.0 |
 | [cosmo](https://cosmo-workspace.github.io/charts/) | cosmo-controller-manager | baseline | -3 | 0.7.0 | v0.7.0 |
@@ -977,7 +979,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [cronce](https://charts.cronce.io/) | torrentor | error_template |  | 0.9.26 | 0.9.26 |
 | [cronce](https://charts.cronce.io/) | yadms | baseline | -24 | 0.3.0 | 0.3.0 |
 | [crossplane-iam-pod-role](https://explorium-ai.github.io/crossplane-iam-pod-role/) | crossplane-iam-pod-role | error_download |  | 0.0.17 | 1.0.0 |
-| [crossplane](https://charts.crossplane.io/master/) | crossplane | baseline |  | 1.11.0-rc.0.88.gab1cd08a | 1.11.0-rc.0.88.gab1cd08a |
+| [crossplane](https://charts.crossplane.io/master/) | crossplane | baseline |  | 1.11.0-rc.0.93.gb9e4773d | 1.11.0-rc.0.93.gb9e4773d |
 | [crossplane](https://charts.crossplane.io/master/) | crossplane-controllers | baseline | 0 | 0.13.0-rc.98.g1eb0776 | 0.13.0-rc.98.g1eb0776 |
 | [crossplane](https://charts.crossplane.io/master/) | crossplane-types | no_pod_object | -73 | 0.13.0-rc.98.g1eb0776 | 0.13.0-rc.98.g1eb0776 |
 | [crossplane](https://charts.crossplane.io/master/) | gitlab-controller | empty_no_object |  | 0.0.0-5.c6502f5 | 0.0.0-5.c6502f5 |
@@ -995,7 +997,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [cryptexlabs](https://helm.cryptexlabs.com) | purple-pie | privileged | -51 | 0.0.1 | 0.0.4 |
 | [crypticcode-helmchart](https://crypticcode.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
 | [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-cert-manager | no_pod_object_but_crd | 0 | 1.0.11 | 1.0.11 |
-| [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-enterprise | baseline | -84 | 3.15.122 | 3.15.122 |
+| [cryptlex](https://cryptlex.github.io/helm-charts/) | cryptlex-enterprise | baseline |  | 3.15.125 | 3.15.125 |
 | [cryptnono](https://yuvipanda.github.io/cryptnono/) | cryptnono | privileged | -16 | 0.0.1-n025.h28f473f |  |
 | [cs3org](https://cs3org.github.io/charts/) | revad | error_download |  | 1.4.2 | v1.18.0 |
 | [cs3org](https://cs3org.github.io/charts/) | wopiserver | error_download |  | 0.5.2 | v8.3.3 |

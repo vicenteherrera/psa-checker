@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 12:10:29
+Evaluation date: 2022-11-24, 21:44:38
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -304,7 +304,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [getting-started](https://jirom-1.github.io/test-helm-chart/) | helm-getting-started | error_download |  | 0.1.0 | 1.16.0 |
 | [gh-shesselink81-public](https://shesselink81.github.io/helm-charts/public-charts/) | wordpress-apache | error_download |  | 2.1.5 | 6.0.2 |
 | [gh-shesselink81-public](https://shesselink81.github.io/helm-charts/public-charts/) | wordpress-nginx | error_download |  | 3.0.24 | 6.1.0 |
-| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | athena | baseline | -2 | 1.8.1 | 1.8.1 |
+| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | athena | baseline |  | 1.8.2 | 1.8.2 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | aws-cloud-controller-manager-app | privileged | -22 | 1.24.1-gs1 | 1.24.1 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | aws-load-balancer-controller | baseline | -2 | 1.2.0 | v2.4.1 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | aws-node-termination-handler-app | baseline | -2 | 1.17.2-gs1 | 1.17.2 |
@@ -312,12 +312,12 @@ Evaluation date: 2022-11-23, 12:10:29
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | cloudflared | error_template |  | 0.4.0 | 2022.8.4 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | cluster-openstack | no_pod_object | 0 | 0.7.0 |  |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | default-apps-openstack | no_pod_object_but_crd | 0 | 0.2.0 |  |
-| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | dex-app | baseline | -10 | 1.30.1 | v2.35.3 |
+| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | dex-app | baseline |  | 1.30.2 | v2.35.3 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | efk-stack-app | version_not_evaluable | -26 | 0.7.3 | 0.7.1 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | external-dns-app | error_template |  | 2.19.0 | v0.11.0 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | falco-app | privileged | -42 | 0.4.2 | 0.4.2 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | fluent-logshipping-app | privileged | -11 | 2.0.2 | 1.9.8 |
-| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | flux-app | baseline | -54 | 0.18.2 | 0.36.0 |
+| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | flux-app | baseline |  | 0.19.0 | 0.36.0 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | goldilocks-app | baseline | -2 | 6.2.0 | v4.4.0 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | grafana | baseline | -14 | 2.0.2 | 9.1.1 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | hello-world-app | baseline | 0 | 1.2.2 | 0.2.0 |
@@ -326,7 +326,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | kyverno | baseline | -53 | 0.12.1 | v1.8.2 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | kyverno-policies | no_pod_object_but_crd | 0 | 0.18.0 | v1.7.5 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | linkerd-control-plane | error_template |  | 0.8.0 | stable-2.12.2 |
-| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | linkerd-multicluster | baseline | -2 | 0.9.0 | stable-2.12.2 |
+| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | linkerd-multicluster | baseline |  | 0.9.1 | stable-2.12.2 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | linkerd-multicluster-link | baseline | -2 | 0.9.0 | stable-2.12.2 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | linkerd-viz | baseline | -13 | 0.8.0 | stable-2.12.1 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | linkerd2-app | error_template |  | 0.7.5 | stable-2.11.4 |
@@ -337,7 +337,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | loki | baseline | 0 | 0.4.3 | 2.5.0 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | nginx-ingress-controller-app | privileged | -40 | 2.20.0 | v1.4.0 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | oauth2-proxy | baseline | -2 | 2.7.1 | 7.2.1 |
-| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | prometheus-operator-app | baseline | -55 | 2.0.2 | v0.54.0 |
+| [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | prometheus-operator-app | baseline |  | 2.1.1 | v0.54.0 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | prometheus-operator-crd | no_pod_object_but_crd | 0 | 2.0.1 | 0.54.0 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | prometheus-pushgateway | baseline | 0 | 0.1.0 | 1.4.2 |
 | [giantswarm](https://giantswarm.github.io/giantswarm-catalog) | promtail | privileged | -10 | 0.4.1 | 2.5.0 |
@@ -372,7 +372,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [gitlab-jh](https://charts.gitlab.cn) | gitlab-runner | baseline | -7 | 0.46.1 | 15.5.1 |
 | [gitlab](http://charts.gitlab.io/) | gitlab | error_template |  | 6.6.0 | 15.6.0 |
 | [gitlab](http://charts.gitlab.io/) | gitlab-agent | baseline | -26 | 1.6.0 | v15.5.1 |
-| [gitlab](http://charts.gitlab.io/) | gitlab-runner | baseline | -7 | 0.47.0 | 15.6.0 |
+| [gitlab](http://charts.gitlab.io/) | gitlab-runner | baseline |  | 0.47.1 | 15.6.1 |
 | [gitpod](https://charts.gitpod.io) | gitpod | error_template |  | 0.10.0 | 0.1.5 |
 | [gitpod](https://charts.gitpod.io) | gitpod-selfhosted | empty_no_object |  | 0.4.0 | 0.1.5 |
 | [gkarthiks](https://gkarthiks.github.io/helm-charts) | apid-helper | baseline | -1 | 0.1.2 | v0.2.0 |
@@ -415,7 +415,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [gmelillo](https://helm.melillo.me/) | docker-registry-gc | version_not_evaluable | 0 | 0.1.9 | 0.1.8 |
 | [gmelillo](https://helm.melillo.me/) | mailu | error_template |  | 1.0.9 | 1.9.29 |
 | [gmelillo](https://helm.melillo.me/) | ovpn-web-connector | privileged | -28 | 0.2.0 | 2021-01-09 |
-| [goauthentik](https://charts.goauthentik.io/) | authentik | baseline |  | 2022.11.0 | 2022.11.1 |
+| [goauthentik](https://charts.goauthentik.io/) | authentik | baseline | -37 | 2022.11.0 | 2022.11.1 |
 | [goauthentik](https://charts.goauthentik.io/) | authentik-remote-cluster | no_pod_object | -1 | 1.0.3 | 2021.10.2 |
 | [gocd](https://gocd.github.io/helm-chart) | gocd | baseline | -3 | 2.0.0 | 22.3.0 |
 | [godbox](https://quantumsheep.github.io/godbox-helm/charts) | godbox | privileged | -28 | 0.2.0 | 2 |
@@ -479,7 +479,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [grafana](https://grafana.github.io/helm-charts) | loki-distributed | baseline | 0 | 0.65.3 | 2.6.1 |
 | [grafana](https://grafana.github.io/helm-charts) | loki-simple-scalable | empty_no_object | -39 | 1.8.11 | 2.6.1 |
 | [grafana](https://grafana.github.io/helm-charts) | loki-stack | privileged | -22 | 2.8.7 | v2.6.1 |
-| [grafana](https://grafana.github.io/helm-charts) | mimir-distributed | baseline | -8 | 4.0.0-weekly.212 | r212 |
+| [grafana](https://grafana.github.io/helm-charts) | mimir-distributed | baseline |  | 4.0.0-weekly.213 | r213 |
 | [grafana](https://grafana.github.io/helm-charts) | mimir-openshift-experimental | baseline | 0 | 2.1.0 | 2.0.0 |
 | [grafana](https://grafana.github.io/helm-charts) | oncall | baseline | -158 | 1.0.12 | v1.1.0 |
 | [grafana](https://grafana.github.io/helm-charts) | phlare | baseline | -1 | 0.1.1 | 0.1.0 |

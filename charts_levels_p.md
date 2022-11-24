@@ -2,14 +2,14 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 12:10:29
+Evaluation date: 2022-11-24, 21:44:38
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
 | [p4-helm](https://raw.githubusercontent.com/zuldare/helm/main/helm/charts/) | myapp | error_download |  | 0.1.0 | 1.16.0 |
-| [pachyderm](https://helm.pachyderm.com) | pachyderm | error_download |  | 2.5.0-nightly.20221123-115d3c40b842e4a64de7d9818e1817b16b1e11a4 | 2.5.0-nightly.20221123 |
+| [pachyderm](https://helm.pachyderm.com) | pachyderm | error_download |  | 2.5.0-nightly.20221124-2cdb2cf2b8e68a6290e6fef6a0d304537f534987 | 2.5.0-nightly.20221124 |
 | [packetai](https://packetai.github.io/helm-charts/) | packetai-agent | error_download |  | 1.18.0 | v1.15.2 |
 | [pacman](https://shuguet.github.io/pacman/) | pacman | error_download |  | 0.1.6 | 0.1.6 |
 | [pact-broker-chart](https://chrisjburns.github.io/pact-broker-chart) | pact-broker | error_download |  | 0.2.1 | 2.100.0.1 |
@@ -208,7 +208,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [piraeus-charts](https://piraeus.io/helm-charts/) | linstor-affinity-controller | error_download |  | 1.1.2 | v0.2.2 |
 | [piraeus-charts](https://piraeus.io/helm-charts/) | linstor-scheduler | error_download |  | 0.2.0 | v0.2.1 |
 | [piraeus-charts](https://piraeus.io/helm-charts/) | piraeus-ha-controller | error_download |  | 1.1.1 | v1.1.1 |
-| [piraeus-charts](https://piraeus.io/helm-charts/) | snapshot-controller | error_download |  | 1.6.1 | v6.1.0 |
+| [piraeus-charts](https://piraeus.io/helm-charts/) | snapshot-controller | error_download |  | 1.6.2 | v6.1.0 |
 | [piraeus-charts](https://piraeus.io/helm-charts/) | snapshot-validation-webhook | error_download |  | 1.6.1 | v6.1.0 |
 | [pl-helm-charts](https://pranay-lonkar.github.io/helm-charts) | sample-golang-app | error_download |  | 1.0.2 |  |
 | [pl-helm-charts](https://pranay-lonkar.github.io/helm-charts) | sample-node-app | error_download |  | 1.0.2 |  |
@@ -295,7 +295,8 @@ Evaluation date: 2022-11-23, 12:10:29
 | [pomerium](https://helm.pomerium.io) | pomerium | error_download |  | 33.0.1 | v0.20.0 |
 | [pomerium](https://helm.pomerium.io) | pomerium-console | error_download |  | 11.0.0 | 0.20.0 |
 | [pomerium](https://helm.pomerium.io) | pomerium-verify | error_download |  | 0.1.0 | 0.0.1 |
-| [port-labs](https://port-labs.github.io/helm-charts/) | port-k8s-exporter | error_download |  | 0.1.3 | 0.1.2 |
+| [port-labs](https://port-labs.github.io/helm-charts/) | port-agent | error_download |  | 0.1.0 | v0.1.0 |
+| [port-labs](https://port-labs.github.io/helm-charts/) | port-k8s-exporter | error_download |  | 0.1.4 | 0.1.3 |
 | [portainer](https://portainer.github.io/k8s/) | portainer | error_download |  | 1.0.38 | ce-latest-ee-2.16.2 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | alertmanager-mixin | no_pod_object_but_crd | 0 | 1.3.0 | 0.24.0 |
 | [portefaix-hub](https://charts.portefaix.xyz/) | coredns-mixin | no_pod_object_but_crd | 0 | 1.1.0 | 1.0.0 |
@@ -333,7 +334,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [postgres-backup](https://gitlab.com/api/v4/projects/31650290/packages/helm/stable) | postgres-backup | error_download |  | 0.3.0 | 13 |
 | [postgres-operator-ui](https://opensource.zalando.com/postgres-operator/charts/postgres-operator-ui) | postgres-operator-ui | error_download |  | 1.8.2 | 1.8.2 |
 | [postgres-operator](https://opensource.zalando.com/postgres-operator/charts/postgres-operator) | postgres-operator | error_download |  | 1.8.2 | 1.8.2 |
-| [posthog-clickhouse](https://posthog.github.io/charts-clickhouse/) | posthog | error_download |  | 29.0.8 | 1.41.4 |
+| [posthog-clickhouse](https://posthog.github.io/charts-clickhouse/) | posthog | error_download |  | 30.0.0-7c008c30539419c06150713624e59a5e8be10e5a | 1.42.0 |
 | [pozetron](https://www.pozetron.com/helm/) | keydb | error_download |  | 0.5.3 | v6.0.16 |
 | [pozetron](https://www.pozetron.com/helm/) | liftbridge | error_download |  | 0.1.1 | v1.1.0 |
 | [pozetron](https://www.pozetron.com/helm/) | rethinkdb | error_download |  | 1.1.9 | 2.4.1 |
@@ -378,10 +379,10 @@ Evaluation date: 2022-11-23, 12:10:29
 | [prokopchyk-key-value-storage](https://mishaprokop4ik.github.io/storage/) | kv-bundle | error_download |  | 0.1.0 | 1.16.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | alertmanager | baseline | -12 | 0.22.0 | v0.24.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | jiralert | baseline | -1 | 0.1.0 | 1.2 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-prometheus-stack | privileged | -77 | 42.0.0 | 0.60.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-prometheus-stack | privileged |  | 42.0.2 | 0.60.1 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-state-metrics | baseline | -23 | 4.23.0 | 2.6.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prom-label-proxy | baseline | -1 | 0.1.0 | v0.5.0 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus | privileged | -27 | 17.0.0 | 2.39.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus | privileged |  | 17.0.2 | 2.39.1 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-adapter | baseline | -4 | 3.4.2 | v0.10.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-blackbox-exporter | baseline | -1 | 7.1.3 | 0.22.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-cloudwatch-exporter | baseline | -14 | 0.22.0 | 0.15.0 |
@@ -475,7 +476,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [pvc-exporter](https://kais271.github.io/pvc-exporter/helm3/charts/) | pod-pvc-mapping | error_download |  | 0.1.3 | 0.1.3 |
 | [pvc-exporter](https://kais271.github.io/pvc-exporter/helm3/charts/) | pvc-exporter | error_download |  | 0.1.3 | 0.1.3 |
 | [pyalive-cdmswebapp](https://sarwank.github.io/HelmRepos/stable) | cdmswebapp | empty_no_object |  | 0.1.0 | 1.16.0 |
-| [pyrsia-nightly](https://helmrepo.pyrsia.io/repos/nightly) | pyrsia-node | error_download |  | 0.2.0+2538 | 0.2.0+2538 |
+| [pyrsia-nightly](https://helmrepo.pyrsia.io/repos/nightly) | pyrsia-node | error_download |  | 0.2.0+2543 | 0.2.0+2543 |
 | [pyspark-notebook-helm](https://a3data.github.io/pyspark-notebook-helm/) | pyspark-notebook | error_download |  | 0.2.2 | 1.16.0 |
 | [python-app-chart](https://mostafaalnaggar3.github.io/Helm-Task/) | python-app | error_download |  | 0.1.0 | 1.16.0 |
 | [python-app](https://mstiesto.github.io/python-hello) | python-app | error_download |  | 2.0.4 | 1.17.0 |

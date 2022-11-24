@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 12:10:29
+Evaluation date: 2022-11-24, 21:44:38
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -14,6 +14,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [oada](https://charts.openag.io/) | oada | error_download |  | 1.6.1 | 3.6.0 |
 | [oauth2-proxy](https://oauth2-proxy.github.io/manifests) | oauth2-proxy | error_download |  | 6.5.0 | 7.3.0 |
 | [obeone](https://charts.obeone.cloud) | cyberchef | baseline | -12 | 1.1.3 | v9.49.0 |
+| [obeone](https://charts.obeone.cloud) | dnscrypt-proxy | baseline |  | 1.0.2 | 2.1.2 |
 | [obeone](https://charts.obeone.cloud) | ferdi-server | baseline | -12 | 1.0.3 | 1.3.2 |
 | [obeone](https://charts.obeone.cloud) | mktxp | baseline | -12 | 1.0.1 | latest |
 | [obeone](https://charts.obeone.cloud) | nfs-server | privileged | -32 | 1.0.1 | 2.2.1 |
@@ -25,7 +26,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [ocp4-etcd-snapshot](https://staranto.github.io/ocp4-etcd-snapshot/helm) | etcd-snapshot | version_not_evaluable | 0 | 1.0.2 | 1.0.2 |
 | [octopus](https://git.openi.org.cn/OpenI/octopus-charts/raw/branch/master) | octopus | error_download |  | 4.2.5 | v4.2.5 |
 | [odavid](https://odavid.github.io/k8s-helm-charts) | my-bloody-jenkins | error_download |  | 0.1.199 | 2.361.4-288 |
-| [odigos](https://keyval-dev.github.io/odigos-charts/) | odigos | error_download |  | 0.1.99 | 1.16.0 |
+| [odigos](https://keyval-dev.github.io/odigos-charts/) | odigos | error_download |  | 0.2.1 | 1.16.0 |
 | [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | nuxt2-spa | error_download |  | 0.1.0 | 1.16.0 |
 | [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | nuxt3 | error_download |  | 0.1.2 | 1.16.0 |
 | [oip-charts](https://openinnovationprogram.github.io/helm-charts/) | oip-api | error_download |  | 0.1.2 | 1.16.0 |
@@ -57,12 +58,12 @@ Evaluation date: 2022-11-23, 12:10:29
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | fineract | empty_no_object |  | 0.1.7 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | flagsmith | baseline | -26 | 0.1.5 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | geonode | baseline | -25 | 0.1.16 |  |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | growthbook | baseline | -1 | 0.1.10 | 1.16.0 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | growthbook | baseline |  | 0.1.11 | 1.16.0 |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kobotoolbox | baseline | -51 | 0.6.17 |  |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kutt | baseline | -12 | 0.1.8 | 1.16.0 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kutt | baseline |  | 0.2.4 | 1.16.0 |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | metabase | baseline | -25 | 0.1.11 |  |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | n8n | baseline | -12 | 0.1.43 | 0.173.1 |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | nocodb | baseline | -12 | 0.2.7 | 1.16.0 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | n8n | baseline |  | 0.1.45 | 0.203.1 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | nocodb | baseline |  | 0.2.8 | 1.16.0 |
 | [one-green-core](https://one-green.github.io/helm/charts) | one-green-core | error_download |  | 0.0.7 | 0.0.10 |
 | [onechart](https://chart.onechart.dev) | cron-job | version_not_evaluable | 0 | 0.41.0 |  |
 | [onechart](https://chart.onechart.dev) | namespaces | empty_no_object |  | 0.3.0 |  |
@@ -89,7 +90,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [open-charts](https://SimonMisencik.github.io/helm-charts) | nginx | baseline | 0 | 1.0.0 | 1.16.0 |
 | [open-charts](https://SimonMisencik.github.io/helm-charts) | ubuntu | baseline | -12 | 1.2.1 | 22.04 |
 | [open-feature-operator](https://open-feature.github.io/open-feature-operator) | ofo | error_download |  | 0.2.20 | v0.2.20 |
-| [open-metadata](https://helm.open-metadata.org) | openmetadata | error_download |  | 0.0.46 | 0.12.3 |
+| [open-metadata](https://helm.open-metadata.org) | openmetadata | error_download |  | 0.0.47 | 0.13.0 |
 | [open-pdc](https://raw.githubusercontent.com/ConductionNL/OpenPdc/master/wordpress-docker/helm/) | open-pdc | error_download |  | 0.1.0 | V.0.1 |
 | [open-pub](https://raw.githubusercontent.com/ConductionNL/OpenPub/master/wordpress-docker/helm/) | open-pub | error_download |  | 0.1.0 | V.0.1 |
 | [open-webconcept](https://raw.githubusercontent.com/ConductionNL/OpenWebConcept/master/wordpress-docker/helm/) | open-webconcept | error_download |  | 0.1.0 | V.0.1 |
@@ -413,7 +414,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | tempest | error_download |  | 0.1.1 | v1.0.0 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | tiller | error_download |  | 0.1.1 | v2.16.9 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | zookeeper | error_download |  | 0.1.1 | v3.5.5 |
-| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-collector | error_download |  | 0.39.3 | 0.64.1 |
+| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-collector | error_download |  | 0.40.0 | 0.66.0 |
 | [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-demo | error_download |  | 0.12.3 | 1.1.0 |
 | [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-operator | error_download |  | 0.18.3 | 0.63.1 |
 | [openwhisk](https://openwhisk.apache.org/charts) | openwhisk | error_download |  | 1.0.0 |  |
@@ -435,18 +436,18 @@ Evaluation date: 2022-11-23, 12:10:29
 | [optimizely-agent](https://optimizely.github.io/optimizely-agent-helm) | agent | baseline | -12 | 1.0.3-alpha | 2.7.0 |
 | [orderregistratiecomponent](https://raw.githubusercontent.com/ConductionNL/orderregistratiecomponent/master/api/helm/) | orderregistratiecomponent | error_download |  | 1.0.0 | V.0.1 |
 | [ortelius](https://ortelius.github.io/ortelius-charts/) | ortelius | error_download |  | 10.0.7 | 10.0.0 |
-| [ory](https://k8s.ory.sh/helm/charts) | example-idp | baseline |  | 0.26.3 | 1.4.6 |
+| [ory](https://k8s.ory.sh/helm/charts) | example-idp | baseline | -24 | 0.26.3 | 1.4.6 |
 | [ory](https://k8s.ory.sh/helm/charts) | hive | error_template |  | 0.1.0 | 1.0 |
 | [ory](https://k8s.ory.sh/helm/charts) | hive-selfservice-ui-node | baseline | -25 | 0.1.0 | v0.0.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | hydra | baseline |  | 0.26.3 | v2.0.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | hydra-maester | baseline |  | 0.26.3 | v0.0.23 |
-| [ory](https://k8s.ory.sh/helm/charts) | keto | baseline |  | 0.26.3 | v0.10.0 |
-| [ory](https://k8s.ory.sh/helm/charts) | kratos | baseline |  | 0.26.3 | v0.10.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | kratos-selfservice-ui-node | baseline |  | 0.26.3 | v0.10.1 |
+| [ory](https://k8s.ory.sh/helm/charts) | hydra | baseline | -26 | 0.26.3 | v2.0.1 |
+| [ory](https://k8s.ory.sh/helm/charts) | hydra-maester | baseline | -13 | 0.26.3 | v0.0.23 |
+| [ory](https://k8s.ory.sh/helm/charts) | keto | baseline | -12 | 0.26.3 | v0.10.0 |
+| [ory](https://k8s.ory.sh/helm/charts) | kratos | baseline | -13 | 0.26.3 | v0.10.1 |
+| [ory](https://k8s.ory.sh/helm/charts) | kratos-selfservice-ui-node | baseline | -13 | 0.26.3 | v0.10.1 |
 | [ory](https://k8s.ory.sh/helm/charts) | maester | baseline | -14 | 0.0.17 | v0.0.1 |
-| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper | baseline |  | 0.26.3 | v0.39.0 |
-| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper-maester | baseline |  | 0.26.3 | v0.1.7 |
-| [osc-bsu-csi-driver](oci://docker.io/outscalehelm/osc-bsu-csi-driver) | osc-bsu-csi-driver | error_download |  | 1.0.0 | v1.0.0 |
+| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper | baseline | -15 | 0.26.3 | v0.39.0 |
+| [ory](https://k8s.ory.sh/helm/charts) | oathkeeper-maester | baseline | -2 | 0.26.3 | v0.1.7 |
+| [osc-bsu-csi-driver](oci://docker.io/outscalehelm/osc-bsu-csi-driver) | osc-bsu-csi-driver | error_download |  | 1.1.0 | v1.1.0 |
 | [osc-cloud-controller-manager](oci://registry-1.docker.io/outscalehelm/osc-cloud-controller-manager) | osc-cloud-controller-manager | error_download |  | 0.1.1 | 0.1.1 |
 | [osc](https://osc.github.io/osc-helm-charts) | common | empty_no_object |  | 0.4.0 | 0.1.0 |
 | [osc](https://osc.github.io/osc-helm-charts) | database | no_pod_object | 0 | 0.7.0 | 0.1.0 |

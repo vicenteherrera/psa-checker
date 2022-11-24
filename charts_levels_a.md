@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 12:10:29
+Evaluation date: 2022-11-24, 21:44:38
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -41,9 +41,9 @@ Evaluation date: 2022-11-23, 12:10:29
 | [adfinis](https://charts.adfinis.com) | osschallenge | error_template |  | 0.1.6 | edge |
 | [adfinis](https://charts.adfinis.com) | rbac-definitions | error_template |  | 0.1.3 | 1beta1 |
 | [adfinis](https://charts.adfinis.com) | security-apps | error_download |  | 0.61.0 |  |
-| [adfinis](https://charts.adfinis.com) | storage-apps | error_template |  | 0.11.0 |  |
+| [adfinis](https://charts.adfinis.com) | storage-apps | error_download |  | 0.12.0 |  |
 | [adfinis](https://charts.adfinis.com) | timed | error_download |  | 0.13.1 |  |
-| [adfinis](https://charts.adfinis.com) | tracing-apps | error_download |  | 0.17.0 |  |
+| [adfinis](https://charts.adfinis.com) | tracing-apps | error_download |  | 0.17.1 |  |
 | [adfinis](https://charts.adfinis.com) | vault-auth | error_template |  | 0.1.3 | 0.1.1 |
 | [adfinis](https://charts.adfinis.com) | vault-monitoring | error_template |  | 0.2.1 |  |
 | [aditisingh-jenkins](https://aditisingh01.github.io/jenkins-helm/) | jenkins | error_template |  | 1.0.0 |  |
@@ -86,10 +86,10 @@ Evaluation date: 2022-11-23, 12:10:29
 | [ajay-pages](https://cajay2020.github.io) | pages | error_template |  | 1.0.0 | 1.0 |
 | [ajaynegi123](https://Ajaynegi123.github.io/grafana/charts) | grafana | empty_no_object |  | 0.1.0 | 1.16.0 |
 | [ajgon](https://charts.rzegocki.pl/) | lldap | error_template |  | 0.4.4 | latest-alpine |
-| [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-api-gateway | baseline | -13 | 1.17.5 | 3.17.0 |
+| [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-api-gateway | baseline |  | 1.17.6 | 3.18.0 |
 | [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-csi-provider | empty_no_object |  | 1.0.2 | 1.0.0 |
 | [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-secrets-injection | empty_no_object |  | 1.2.24 | 0.20.20 |
-| [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-sra | error_template |  | 0.13.5 | v0.14.2_0.11.45 |
+| [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-sra | error_template |  | 0.13.6 | v0.14.2_0.11.46 |
 | [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-ssh-proxy | error_template |  | 1.2.35 | 0.11.42 |
 | [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-zero-trust-bastion | error_template |  | 1.4.4 | v0.13.5 |
 | [akeyless-services-helm](https://akeylesslabs.github.io/helm-charts) | akeyless-zero-trust-web-access | error_template |  | 1.4.6 | 0.13.4 |
@@ -226,9 +226,9 @@ Evaluation date: 2022-11-23, 12:10:29
 | [apache-solr](https://solr.apache.org/charts) | solr | error_template |  | 0.6.0 | 8.11.1 |
 | [apache-solr](https://solr.apache.org/charts) | solr-operator | error_template |  | 0.6.0 | v0.6.0 |
 | [apache](https://pulsar.apache.org/charts) | pulsar | error_download |  | 3.0.0 | 2.10.2 |
-| [aperture](https://fluxninja.github.io/aperture/) | aperture-agent | error_template |  | 0.11.0 | v0.11.0 |
-| [aperture](https://fluxninja.github.io/aperture/) | aperture-controller | baseline | -57 | 0.11.0 | v0.11.0 |
-| [aperture](https://fluxninja.github.io/aperture/) | istioconfig | no_pod_object_but_crd | 0 | 0.11.0 | v0.11.0 |
+| [aperture](https://fluxninja.github.io/aperture/) | aperture-agent | error_template |  | 0.11.1 | v0.11.1 |
+| [aperture](https://fluxninja.github.io/aperture/) | aperture-controller | baseline |  | 0.11.1 | v0.11.1 |
+| [aperture](https://fluxninja.github.io/aperture/) | istioconfig | no_pod_object_but_crd |  | 0.11.1 | v0.11.1 |
 | [api](http://54.159.81.144:8080) | ingress-nginx | error_template |  | 3.29.1 | 0.45.0 |
 | [apicheck](https://bbva.github.io/apicheck/charts/) | sensitive-data | error_template |  | 1.0.0 | 1.0.1 |
 | [apicurio-registry-helm](oci://ghcr.io/eshepelyuk/helm/apicurio-registry) | apicurio-registry | empty_no_object |  | 2.1.0 | 0.0.0 |
@@ -1205,7 +1205,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [appscode](https://charts.appscode.com/stable/) | vault-operator | baseline | -44 | 0.3.0 | v0.3.0 |
 | [appscode](https://charts.appscode.com/stable/) | voyager | baseline | -47 | 2022.8.17 | v16.0.0 |
 | [appscode](https://charts.appscode.com/stable/) | voyager-crds | no_pod_object | 0 | 2022.8.17 | v16.0.0 |
-| [appsemble](https://charts.appsemble.com) | appsemble | baseline | -36 | 0.20.20 | 0.20.20 |
+| [appsemble](https://charts.appsemble.com) | appsemble | baseline |  | 0.20.22 | 0.20.22 |
 | [appuio](https://charts.appuio.ch) | cloud-portal | baseline | 0 | 0.4.1 | v0.2.1 |
 | [appuio](https://charts.appuio.ch) | data-cube-curation | error_template |  | 0.3.1 | 0.6.1 |
 | [appuio](https://charts.appuio.ch) | exoip | error_template |  | 1.0.4 | v0.4.3 |
@@ -1230,10 +1230,10 @@ Evaluation date: 2022-11-23, 12:10:29
 | [appvia-community](https://appvia-community.storage.googleapis.com) | aws-rds-postgresql-database | error_template |  | 0.1.0 | 3.5.0 |
 | [appvia-community](https://appvia-community.storage.googleapis.com) | aws-s3-bucket | error_template |  | 0.1.0 | 2.14.1 |
 | [aqua-helm](https://helm.aquasec.com) | argon-broker | error_template |  | 1.0.9 | 2022.4 |
-| [aqua-helm](https://helm.aquasec.com) | cloud-connector | baseline | -1 | 2022.4.1 | 2022.4 |
+| [aqua-helm](https://helm.aquasec.com) | cloud-connector | baseline |  | 2022.4.2 | 2022.4 |
 | [aqua-helm](https://helm.aquasec.com) | codesec-agent | error_template |  | 1.2.2 |  |
 | [aqua-helm](https://helm.aquasec.com) | cyber-center | baseline | -13 | 2022.4.1 | 2022.4 |
-| [aqua-helm](https://helm.aquasec.com) | enforcer | privileged | -17 | 2022.4.6 | 2022.4 |
+| [aqua-helm](https://helm.aquasec.com) | enforcer | privileged |  | 2022.4.8 | 2022.4 |
 | [aqua-helm](https://helm.aquasec.com) | gateway | baseline | -1 | 2022.4.7 | 2022.4 |
 | [aqua-helm](https://helm.aquasec.com) | harbor-scanner-aqua | error_template |  | 0.14.0 | 0.14.0 |
 | [aqua-helm](https://helm.aquasec.com) | harbor-scanner-trivy | baseline | 0 | 0.17.0 | 0.20.0 |
@@ -1314,7 +1314,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [aservo](https://aservo.github.io/charts) | keycloak-umbrella | baseline | 0 | 15.1.1 | 15.1.0 |
 | [aservo](https://aservo.github.io/charts) | util | empty_no_object |  | 0.0.1 | 0.0.0 |
 | [askbot](https://evancarroll.github.io/askbot-helm) | askbot | error_download |  | 0.1.0 | 1.16.0 |
-| [aspecto-io](https://aspecto-io.github.io/helm-charts) | aspecto-io-opentelemetry-collector | error_template |  | 1.4.4 |  |
+| [aspecto-io](https://aspecto-io.github.io/helm-charts) | aspecto-io-opentelemetry-collector | error_template |  | 1.4.6 |  |
 | [astarte](https://helm.astarte-platform.org) | astarte-operator | baseline | -38 | 1.0.5 | 1.0.4 |
 | [aste88-helm-charts](https://aste88.github.io/helm-charts/) | bazarr | baseline | -12 | 11.0.0 | 1.1.2 |
 | [aste88-helm-charts](https://aste88.github.io/helm-charts/) | brave-sync | baseline | -12 | 0.0.4 | 0.1 |

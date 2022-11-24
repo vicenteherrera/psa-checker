@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 12:10:29
+Evaluation date: 2022-11-24, 21:44:38
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -120,8 +120,8 @@ Evaluation date: 2022-11-23, 12:10:29
 | [redis](https://spy86.github.io/redis) | redis | error_download |  | 0.1.1 | 6.0.8.9 |
 | [redisinsight](https://spy86.github.io/redisinsight) | redisinsight | error_download |  | 0.1.0 | 0.1.0 |
 | [redisk8s](https://haolowkey.github.io/helm-redis) | redis | error_download |  | 2.1.1 | 5.0.14 |
-| [redpanda-data](https://charts.redpanda.com) | redpanda | error_download |  | 2.3.3 | v22.3.3 |
-| [redpanda](https://charts.vectorized.io/) | redpanda-operator | error_download |  | 22.3.3 | v22.3.3 |
+| [redpanda-data](https://charts.redpanda.com) | redpanda | error_download |  | 2.3.4 | v22.3.3 |
+| [redpanda](https://charts.vectorized.io/) | redpanda-operator | error_download |  | 22.3.4 | v22.3.4 |
 | [redsky](https://redskyops.dev/charts/) | redskyops | error_download |  | 0.2.2 | v1.6.0 |
 | [reecexlm](http://anchorplatformhelmchart.s3-website.us-east-2.amazonaws.com) | sep | error_download |  | 0.3.91 | 1.0 |
 | [registry-creds](https://moonape1226.github.io/registry-creds) | registry-creds | error_download |  | 0.1.5 | 0.3.1 |
@@ -137,7 +137,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [renoki-co](https://helm.renoki.org) | laravel-octane | error_download |  | 1.0.0 | 8.0.0 |
 | [renoki-co](https://helm.renoki.org) | laravel-worker | error_download |  | 1.0.0 | 8.0.0 |
 | [renovate-on-prem](https://mend.github.io/renovate-on-prem) | whitesource-renovate | error_download |  | 3.1.3 | 2.6.0 |
-| [renovate](https://docs.renovatebot.com/helm-charts) | renovate | error_download |  | 34.30.2 | 34.30.2 |
+| [renovate](https://docs.renovatebot.com/helm-charts) | renovate | error_download |  | 34.32.2 | 34.32.2 |
 | [repman-helmchart](https://pixelfederation.github.io/repman) | repman | error_download |  | 1.0.6 |  |
 | [reporting-application](https://tomibarreche.github.io/reporting-application/) | reporting-chart | error_download |  | 0.1.0 | 1.2.0 |
 | [reportportal](https://karthick-kk.github.io/helm-charts/) | minio | error_download |  | 7.1.9 | 2021.6.17 |
@@ -360,7 +360,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [rstudio](https://helm.rstudio.com) | prepull-daemonset | error_download |  | 0.0.2 |  |
 | [rstudio](https://helm.rstudio.com) | rstudio-connect | error_download |  | 0.3.7 | bionic-2022.11.0 |
 | [rstudio](https://helm.rstudio.com) | rstudio-library | error_download |  | 0.1.23 | 0.1.23 |
-| [rstudio](https://helm.rstudio.com) | rstudio-pm | error_download |  | 0.4.0 | 2022.07.2-11 |
+| [rstudio](https://helm.rstudio.com) | rstudio-pm | error_download |  | 0.5.1 | 2022.11.2-18 |
 | [rstudio](https://helm.rstudio.com) | rstudio-workbench | error_download |  | 0.5.22 | 2022.07.2-576.pro12 |
 | [rsyslog](https://lawesson.github.io/rsyslog-server/charts/) | rsyslog | error_download |  | 0.1.1 | 0.1.0 |
 | [rubbercable](https://rubbercable.github.io/helm-chart/) | pebble | error_download |  | 0.0.2 | v2.3.0 |

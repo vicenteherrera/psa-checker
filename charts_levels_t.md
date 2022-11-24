@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-23, 12:10:29
+Evaluation date: 2022-11-24, 21:44:38
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1006)](./charts_levels_c)&nbsp; [D(421)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(240)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(639)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(482)](./charts_levels_o)&nbsp; [P(473)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(825)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -85,7 +85,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [testappchart](https://syahmi001.github.io/helm_chart/) | testappchart | error_download |  | 0.1.0 | 1.16.0 |
 | [testrepo](https://300481.github.io/artifacthub2github) | testchart | error_download |  | 0.2.7 |  |
 | [testtt](oci://kahyt.azurecr.io/test-repo/services-kafka) | services-kafka | error_download |  | 0.1.0 | 1.16.0 |
-| [teuto-net](https://teutonet.github.io/teutonet-helm-charts) | base-cluster | privileged | -19 | 0.4.1 |  |
+| [teuto-net](https://teutonet.github.io/teutonet-helm-charts) | base-cluster | privileged |  | 0.5.0 |  |
 | [tezos-node](https://chainstack.github.io/tezos-chart/) | tezos-node | error_download |  | 1.0.0 | 14.0 |
 | [tfservingcache](https://mkaloer.github.io/TFServingCache/) | tfservingcache | error_download |  | 0.1.1 | 1.0 |
 | [thanos](https://prasadrajesh.github.io/thanos/charts) | thanos | error_download |  | 2.5.2 | 0.15.0 |
@@ -128,9 +128,9 @@ Evaluation date: 2022-11-23, 12:10:29
 | [tpt](https://teacherspayteachers.github.io/helm-charts) | ebpf-exporter | privileged | -28 | 0.2.0 | 0.2.0 |
 | [tpt](https://teacherspayteachers.github.io/helm-charts) | linux-audit-exporter | privileged | -9 | 0.2.2 | 0.2.2 |
 | [traefik-jwt-decode](https://athics-team.github.io/traefik-jwt-decode/) | traefik-jwt-decode | error_download |  | 0.1.0 |  |
-| [traefik](https://traefik.github.io/charts) | hub-agent | error_download |  | 1.1.2 | v1.0.0 |
+| [traefik](https://traefik.github.io/charts) | hub-agent | error_download |  | 1.2.1 | v1.1.0 |
 | [traefik](https://traefik.github.io/charts) | maesh | error_download |  | 2.1.2 | v1.3.2 |
-| [traefik](https://traefik.github.io/charts) | traefik | error_download |  | 20.5.1 | v2.9.4 |
+| [traefik](https://traefik.github.io/charts) | traefik | error_download |  | 20.5.2 | v2.9.5 |
 | [traefik](https://traefik.github.io/charts) | traefik-mesh | error_download |  | 4.1.1 | v1.4.8 |
 | [traefik](https://traefik.github.io/charts) | traefikee | error_download |  | 1.4.2 | v2.8.4 |
 | [trafficserver-ingress-controller](https://apache.github.io/trafficserver-ingress-controller) | ats-ingress | baseline | -26 | 0.1.0 | 0.1.0 |
@@ -273,7 +273,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [truecharts](https://charts.truecharts.org/) | cloudflareddns | baseline |  | 2.0.2 | latest |
 | [truecharts](https://charts.truecharts.org/) | cloudreve | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | code-server | baseline |  | 5.0.2 | 4.8.3 |
-| [truecharts](https://charts.truecharts.org/) | collabora-online | baseline | -44 | 14.0.2 | 22.05.8.2 |
+| [truecharts](https://charts.truecharts.org/) | collabora-online | baseline |  | 14.0.3 | 22.05.8.2 |
 | [truecharts](https://charts.truecharts.org/) | colonysurvival | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | commento-plusplus | baseline |  | 4.0.2 | 1.8.7 |
 | [truecharts](https://charts.truecharts.org/) | common-test | privileged |  | 3.3.8 | 1.8.0 |
@@ -814,7 +814,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [truecharts](https://charts.truecharts.org/) | snipe-it | baseline |  | 5.0.2 | 6.0.13 |
 | [truecharts](https://charts.truecharts.org/) | snippet-box | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | socials | baseline |  | 0.0.33 | main |
-| [truecharts](https://charts.truecharts.org/) | solr | baseline | -41 | 2.0.4 | 9.1.0 |
+| [truecharts](https://charts.truecharts.org/) | solr | baseline |  | 2.0.5 | 9.1.0 |
 | [truecharts](https://charts.truecharts.org/) | sonarqube | baseline |  | 0.0.39 | latest |
 | [truecharts](https://charts.truecharts.org/) | sonarr | baseline |  | 12.0.2 | 3.0.9.1549 |
 | [truecharts](https://charts.truecharts.org/) | songkong | baseline |  | 0.0.35 | latest |
@@ -971,7 +971,7 @@ Evaluation date: 2022-11-23, 12:10:29
 | [twuni](https://helm.twun.io) | web-service | error_template |  | 0.0.5 | 0.0.5 |
 | [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-mongodb | error_download |  | 0.1.1 |  |
 | [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-redis | error_download |  | 0.1.1 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-headless | error_download |  | 0.12.0 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-hybrid | error_download |  | 0.12.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-headless | error_download |  | 0.13.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-hybrid | error_download |  | 0.13.0 |  |
 | [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-operator | error_download |  | 0.12.0 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-pro | error_download |  | 0.12.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-pro | error_download |  | 0.13.0 |  |
