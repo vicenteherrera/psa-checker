@@ -4,25 +4,45 @@ TARGET_BIN=psa-checker
 MAIN_DIR=./
 CONTAINER_IMAGE=vicenteherrera/psa-checker
 
-all: update build run test test-e2e
+all: upgrade build run test test-e2e
+
+upgrade:
+	go mod tidy
 
 update:
-	go mod tidy
+	go mod download
 
 build:
 	go build -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
 
-build-release:
-	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
-	strip ./release/${TARGET_BIN}
+vet:
+	go vet -v	
+
+build-release: update vet test-noginkgo
+	CGO_ENABLED=0 go build -ldflags="-s" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
+
+# strip ./release/${TARGET_BIN}
 
 run:
 	cd ./release && ./${TARGET_BIN} --level restricted --filename ../test/multi.yaml ||:
 
+# Lint
+
+lint: lint-go lint-yaml lint-containerfile
+
+lint-go:
+	golangci-lint run
+
+lint-yaml:
+	yamllint .
+
+lint-containerfile:
+	hadolint build/Containerfile
+
 # Tests
 
 test:
-	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -progress -cover -r -v
+	ginkgo -randomize-all -randomize-suites -fail-on-pending -trace -race -cover -r -vv
 
 test-noginkgo:
 	go test -v ./... -args -ginkgo.v
@@ -34,13 +54,27 @@ test-e2e:
 
 # dependencies
 
-dependecies:
+dependencies:
 	go version
 	ginkgo version
+	golangci-lint --version
+	yamllint --version
+	hadolint --version
+	yaml --version
 
 install_ginkgo:
 	go install -mod=mod github.com/onsi/ginkgo/v2/ginkgo
 	go get github.com/onsi/gomega/...
+
+install_golangci-lint:
+	brew install golangci-lint
+	brew upgrade golangci-lint
+
+install_yamllint:
+	pip install --user yamllint
+
+install_yaml:
+	pip install --user ruamel.yaml.cmd
 
 # Container targets
 
