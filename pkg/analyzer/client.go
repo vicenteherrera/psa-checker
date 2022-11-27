@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	ioutils "io/ioutil"
 	"os"
 )
 
@@ -36,7 +35,7 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 
 	// Read file
 	if s.filepath != "" && s.filepath != "-" {
-		stream, err = ioutils.ReadFile(s.filepath)
+		stream, err = os.ReadFile(s.filepath)
 		if err != nil {
 			response.AnalysisStatus = "error"
 			return response, err
