@@ -4,7 +4,7 @@ COPY . .
 RUN make build-release && \
     chmod -R a+rx /source/release
 
-FROM gcr.io/distroless/base
+FROM gcr.io/distroless/static-debian11
 WORKDIR /data
 WORKDIR /app
 COPY --from=builder /source/release/ .

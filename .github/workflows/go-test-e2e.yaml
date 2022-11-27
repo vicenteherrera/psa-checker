@@ -1,6 +1,6 @@
 ---
-name: Go build
-run-name: ${{ github.actor }} go build 🚀
+name: Go test e2e
+run-name: ${{ github.actor }} go test e2e 🚀
 on:
   push:
     branches: [master, main]
@@ -29,4 +29,6 @@ jobs:
         with:
           go-version: '>=1.18.0'
       - run: go version
+      - run: make install_ginkgo
       - run: make build
+      - run: make test-e2e
