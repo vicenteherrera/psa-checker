@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -13,8 +13,8 @@ Evaluation date: 2022-11-24, 21:44:38
 | [o-ran-ric-helm-charts](https://pinknemo452.github.io/o-ran-ric-helm-charts/) | ric-common | empty_no_object |  | 3.3.2 |  |
 | [oada](https://charts.openag.io/) | oada | error_download |  | 1.6.1 | 3.6.0 |
 | [oauth2-proxy](https://oauth2-proxy.github.io/manifests) | oauth2-proxy | error_download |  | 6.5.0 | 7.3.0 |
-| [obeone](https://charts.obeone.cloud) | cyberchef | baseline | -12 | 1.1.3 | v9.49.0 |
-| [obeone](https://charts.obeone.cloud) | dnscrypt-proxy | baseline |  | 1.0.2 | 2.1.2 |
+| [obeone](https://charts.obeone.cloud) | cyberchef | baseline |  | 1.1.6 | v9.54.0 |
+| [obeone](https://charts.obeone.cloud) | dnscrypt-proxy | baseline | -12 | 1.0.2 | 2.1.2 |
 | [obeone](https://charts.obeone.cloud) | ferdi-server | baseline | -12 | 1.0.3 | 1.3.2 |
 | [obeone](https://charts.obeone.cloud) | mktxp | baseline | -12 | 1.0.1 | latest |
 | [obeone](https://charts.obeone.cloud) | nfs-server | privileged | -32 | 1.0.1 | 2.2.1 |
@@ -58,12 +58,12 @@ Evaluation date: 2022-11-24, 21:44:38
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | fineract | empty_no_object |  | 0.1.7 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | flagsmith | baseline | -26 | 0.1.5 |  |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | geonode | baseline | -25 | 0.1.16 |  |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | growthbook | baseline |  | 0.1.11 | 1.16.0 |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kobotoolbox | baseline | -51 | 0.6.17 |  |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kutt | baseline |  | 0.2.4 | 1.16.0 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | growthbook | baseline | -1 | 0.1.11 | 1.16.0 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kobotoolbox | baseline |  | 0.6.18 |  |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | kutt | baseline | -12 | 0.2.4 | 1.16.0 |
 | [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | metabase | baseline | -25 | 0.1.11 |  |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | n8n | baseline |  | 0.1.45 | 0.203.1 |
-| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | nocodb | baseline |  | 0.2.8 | 1.16.0 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | n8n | baseline | -12 | 0.1.45 | 0.203.1 |
+| [one-acre-fund](https://one-acre-fund.github.io/oaf-public-charts/) | nocodb | baseline | -12 | 0.2.8 | 1.16.0 |
 | [one-green-core](https://one-green.github.io/helm/charts) | one-green-core | error_download |  | 0.0.7 | 0.0.10 |
 | [onechart](https://chart.onechart.dev) | cron-job | version_not_evaluable | 0 | 0.41.0 |  |
 | [onechart](https://chart.onechart.dev) | namespaces | empty_no_object |  | 0.3.0 |  |
@@ -414,7 +414,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | tempest | error_download |  | 0.1.1 | v1.0.0 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | tiller | error_download |  | 0.1.1 | v2.16.9 |
 | [openstack-helm](https://registry.thecore.net.au/chartrepo/openstack) | zookeeper | error_download |  | 0.1.1 | v3.5.5 |
-| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-collector | error_download |  | 0.40.0 | 0.66.0 |
+| [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-collector | error_download |  | 0.40.2 | 0.66.0 |
 | [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-demo | error_download |  | 0.12.3 | 1.1.0 |
 | [opentelemetry-helm](https://open-telemetry.github.io/opentelemetry-helm-charts) | opentelemetry-operator | error_download |  | 0.18.3 | 0.63.1 |
 | [openwhisk](https://openwhisk.apache.org/charts) | openwhisk | error_download |  | 1.0.0 |  |
@@ -457,7 +457,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [osc](https://osc.github.io/osc-helm-charts) | osc-common | empty_no_object |  | 0.5.0 | 0.1.0 |
 | [osc](https://osc.github.io/osc-helm-charts) | prometheus | privileged | -97 | 0.15.2 | v2.35.0 |
 | [osc](https://osc.github.io/osc-helm-charts) | webservice | error_template |  | 0.24.0 | 0.1.0 |
-| [osm-edge](http://flomesh-io.github.io/osm-edge) | osm-edge | error_download |  | 1.2.1-alpha.1 | 1.2.1-alpha.1 |
+| [osm-edge](http://flomesh-io.github.io/osm-edge) | osm-edge | error_download |  | 1.3.0-beta.1 | 1.3.0-beta.1 |
 | [oteemo-charts](https://oteemo.github.io/charts) | che | version_not_evaluable | -50 | 0.1.5 | 7.3.1 |
 | [otel-contrib-test](https://gusdebbaja.github.io/splunk-otel-collector-chart/) | o11y-collector | error_download |  | 0.3.0 |  |
 | [otel-contrib-test](https://gusdebbaja.github.io/splunk-otel-collector-chart/) | splunk-otel-collector | error_download |  | 0.39.0 | 0.39.0 |

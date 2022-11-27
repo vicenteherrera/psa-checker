@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -15,7 +15,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [waardepapieren](https://raw.githubusercontent.com/ConductionNL/waardepapieren/master/api/helm/) | waardepapieren | error_download |  | 1.0.0 | V1.0 |
 | [waldur](https://opennode.github.io/waldur-helm/) | waldur | error_download |  | 0.1.0 | 4.4.2 |
 | [wallarm](https://charts.wallarm.com/) | api-firewall | version_not_evaluable | -12 | 0.6.9 | 0.6.9 |
-| [wallarm](https://charts.wallarm.com/) | kong | baseline | -15 | 4.2.4 | 3.0 |
+| [wallarm](https://charts.wallarm.com/) | kong | baseline |  | 4.4.0 | 3.0.1 |
 | [wallarm](https://charts.wallarm.com/) | kong-preview | baseline | -51 | 4.2.3 | 2.7 |
 | [wallarm](https://charts.wallarm.com/) | pgbouncer | error_template |  | 1.2.1 | 1.2.1 |
 | [wallarm](https://charts.wallarm.com/) | sysbindings | privileged | -25 | 0.9.9 | 0.9.9 |
@@ -82,32 +82,32 @@ Evaluation date: 2022-11-24, 21:44:38
 | [wener](https://wenerme.github.io/charts) | frps | baseline | -12 | 1.0.1 | v0.37.0 |
 | [wener](https://wenerme.github.io/charts) | gitea | baseline | -19 | 6.0.3 | 1.17.3 |
 | [wener](https://wenerme.github.io/charts) | gitlab | error_template |  | 6.6.0 | 15.6.0 |
-| [wener](https://wenerme.github.io/charts) | gitlab-runner | error_template |  | 0.47.0 | 15.6.0 |
-| [wener](https://wenerme.github.io/charts) | grafana | baseline |  | 6.44.8 | 9.2.5 |
+| [wener](https://wenerme.github.io/charts) | gitlab-runner | baseline |  | 0.47.1 | 15.6.1 |
+| [wener](https://wenerme.github.io/charts) | grafana | baseline | -14 | 6.44.8 | 9.2.5 |
 | [wener](https://wenerme.github.io/charts) | haproxy-ingress | baseline | -26 | 0.13.9 | v0.13.9 |
 | [wener](https://wenerme.github.io/charts) | harbor | baseline | 0 | 1.10.2 | 2.6.2 |
 | [wener](https://wenerme.github.io/charts) | hazelcast | baseline | -31 | 5.5.0 | 5.2.0 |
 | [wener](https://wenerme.github.io/charts) | ingress-nginx | baseline | -39 | 4.4.0 | 1.5.1 |
 | [wener](https://wenerme.github.io/charts) | ingresses | no_pod_object | 0 | 1.0.0 |  |
 | [wener](https://wenerme.github.io/charts) | keycloak | baseline | -12 | 16.1.0 | 16.1.0 |
-| [wener](https://wenerme.github.io/charts) | kube-prometheus | privileged | -58 | 8.2.1 | 0.61.0 |
-| [wener](https://wenerme.github.io/charts) | kube-prometheus-stack | privileged | -77 | 42.0.0 | 0.60.1 |
-| [wener](https://wenerme.github.io/charts) | kube-state-metrics | baseline | -23 | 4.23.0 | 2.6.0 |
+| [wener](https://wenerme.github.io/charts) | kube-prometheus | privileged |  | 8.2.2 | 0.61.1 |
+| [wener](https://wenerme.github.io/charts) | kube-prometheus-stack | privileged |  | 42.0.2 | 0.60.1 |
+| [wener](https://wenerme.github.io/charts) | kube-state-metrics | baseline |  | 4.24.0 | 2.7.0 |
 | [wener](https://wenerme.github.io/charts) | kubed | baseline | -15 | 0.13.2 | v0.13.2 |
 | [wener](https://wenerme.github.io/charts) | kubernetes-dashboard | baseline | -1 | 6.0.0 | 2.7.0 |
 | [wener](https://wenerme.github.io/charts) | linkerd2 | error_template |  | 2.10.2 | stable-2.10.2 |
 | [wener](https://wenerme.github.io/charts) | linkerd2-cni | privileged | -12 | 2.10.2 | stable-2.10.2 |
 | [wener](https://wenerme.github.io/charts) | logging-operator | baseline | -26 | 3.17.9 | 3.17.9 |
 | [wener](https://wenerme.github.io/charts) | loki | empty_no_object | -51 | 3.4.2 | 2.6.1 |
-| [wener](https://wenerme.github.io/charts) | loki-distributed | baseline | 0 | 0.65.3 | 2.6.1 |
+| [wener](https://wenerme.github.io/charts) | loki-distributed | baseline |  | 0.66.0 | 2.6.1 |
 | [wener](https://wenerme.github.io/charts) | longhorn | privileged | -70 | 1.2.3 | v1.2.3 |
-| [wener](https://wenerme.github.io/charts) | meshery | baseline | -37 | 0.6.28 | v0.6.28 |
+| [wener](https://wenerme.github.io/charts) | meshery | baseline |  | 0.6.29 | v0.6.29 |
 | [wener](https://wenerme.github.io/charts) | metallb | privileged | -48 | 4.1.12 | 0.13.7 |
 | [wener](https://wenerme.github.io/charts) | minio | baseline | 0 | 8.0.10 | master |
 | [wener](https://wenerme.github.io/charts) | minio-console | error_template |  | 1.0.3 | v0.13.2 |
 | [wener](https://wenerme.github.io/charts) | minio-operator | baseline | -55 | 4.3.7 | v4.3.7 |
 | [wener](https://wenerme.github.io/charts) | minio-standalone | baseline | -12 | 1.0.2 | RELEASE.2022-01-04T07-41-07Z |
-| [wener](https://wenerme.github.io/charts) | nats | baseline | -37 | 0.18.2 | 2.9.3 |
+| [wener](https://wenerme.github.io/charts) | nats | baseline |  | 0.18.3 | 2.9.8 |
 | [wener](https://wenerme.github.io/charts) | nats-account-server | baseline | -12 | 0.8.0 | 1.0.0 |
 | [wener](https://wenerme.github.io/charts) | nfs-subdir-external-provisioner | baseline | -10 | 4.0.17 | 4.0.2 |
 | [wener](https://wenerme.github.io/charts) | oauth2-proxy | baseline | -12 | 1.0.2 | v7.2.1 |
@@ -116,7 +116,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [wener](https://wenerme.github.io/charts) | opensearch-dashboards | baseline | 0 | 2.6.0 | 2.4.0 |
 | [wener](https://wenerme.github.io/charts) | postgres-operator | baseline | -40 | 1.7.1 | 1.7.1 |
 | [wener](https://wenerme.github.io/charts) | postgres-operator-ui | baseline | -14 | 1.7.1 | 1.7.1 |
-| [wener](https://wenerme.github.io/charts) | prometheus | error_template |  | 17.0.0 | 2.39.1 |
+| [wener](https://wenerme.github.io/charts) | prometheus | privileged |  | 17.0.2 | 2.39.1 |
 | [wener](https://wenerme.github.io/charts) | prometheus-blackbox-exporter | baseline | -1 | 7.1.3 | 0.22.0 |
 | [wener](https://wenerme.github.io/charts) | prometheus-mysql-exporter | baseline | 0 | 1.10.0 | v0.14.0 |
 | [wener](https://wenerme.github.io/charts) | prometheus-nats-exporter | baseline | -12 | 2.10.1 | 0.10.1 |
@@ -159,32 +159,32 @@ Evaluation date: 2022-11-24, 21:44:38
 | [wenerme](https://charts.wener.tech) | frps | baseline | -12 | 1.0.1 | v0.37.0 |
 | [wenerme](https://charts.wener.tech) | gitea | baseline | -19 | 6.0.3 | 1.17.3 |
 | [wenerme](https://charts.wener.tech) | gitlab | error_template |  | 6.6.0 | 15.6.0 |
-| [wenerme](https://charts.wener.tech) | gitlab-runner | error_template |  | 0.47.0 | 15.6.0 |
-| [wenerme](https://charts.wener.tech) | grafana | baseline |  | 6.44.8 | 9.2.5 |
+| [wenerme](https://charts.wener.tech) | gitlab-runner | baseline |  | 0.47.1 | 15.6.1 |
+| [wenerme](https://charts.wener.tech) | grafana | baseline | -14 | 6.44.8 | 9.2.5 |
 | [wenerme](https://charts.wener.tech) | haproxy-ingress | baseline | -26 | 0.13.9 | v0.13.9 |
 | [wenerme](https://charts.wener.tech) | harbor | baseline | 0 | 1.10.2 | 2.6.2 |
 | [wenerme](https://charts.wener.tech) | hazelcast | baseline | -31 | 5.5.0 | 5.2.0 |
 | [wenerme](https://charts.wener.tech) | ingress-nginx | baseline | -39 | 4.4.0 | 1.5.1 |
 | [wenerme](https://charts.wener.tech) | ingresses | no_pod_object | 0 | 1.0.0 |  |
 | [wenerme](https://charts.wener.tech) | keycloak | baseline | -12 | 16.1.0 | 16.1.0 |
-| [wenerme](https://charts.wener.tech) | kube-prometheus | privileged | -58 | 8.2.1 | 0.61.0 |
-| [wenerme](https://charts.wener.tech) | kube-prometheus-stack | error_template |  | 42.0.0 | 0.60.1 |
-| [wenerme](https://charts.wener.tech) | kube-state-metrics | baseline | -23 | 4.23.0 | 2.6.0 |
+| [wenerme](https://charts.wener.tech) | kube-prometheus | privileged |  | 8.2.2 | 0.61.1 |
+| [wenerme](https://charts.wener.tech) | kube-prometheus-stack | privileged |  | 42.0.2 | 0.60.1 |
+| [wenerme](https://charts.wener.tech) | kube-state-metrics | baseline |  | 4.24.0 | 2.7.0 |
 | [wenerme](https://charts.wener.tech) | kubed | baseline | -15 | 0.13.2 | v0.13.2 |
 | [wenerme](https://charts.wener.tech) | kubernetes-dashboard | error_template |  | 6.0.0 | 2.7.0 |
 | [wenerme](https://charts.wener.tech) | linkerd2 | error_template |  | 2.10.2 | stable-2.10.2 |
 | [wenerme](https://charts.wener.tech) | linkerd2-cni | privileged | -12 | 2.10.2 | stable-2.10.2 |
 | [wenerme](https://charts.wener.tech) | logging-operator | baseline | -26 | 3.17.9 | 3.17.9 |
 | [wenerme](https://charts.wener.tech) | loki | error_template |  | 3.4.2 | 2.6.1 |
-| [wenerme](https://charts.wener.tech) | loki-distributed | error_template |  | 0.65.3 | 2.6.1 |
+| [wenerme](https://charts.wener.tech) | loki-distributed | baseline |  | 0.66.0 | 2.6.1 |
 | [wenerme](https://charts.wener.tech) | longhorn | privileged | -70 | 1.2.3 | v1.2.3 |
-| [wenerme](https://charts.wener.tech) | meshery | baseline | -37 | 0.6.28 | v0.6.28 |
+| [wenerme](https://charts.wener.tech) | meshery | baseline |  | 0.6.29 | v0.6.29 |
 | [wenerme](https://charts.wener.tech) | metallb | privileged | -48 | 4.1.12 | 0.13.7 |
 | [wenerme](https://charts.wener.tech) | minio | baseline | 0 | 8.0.10 | master |
 | [wenerme](https://charts.wener.tech) | minio-console | error_template |  | 1.0.3 | v0.13.2 |
 | [wenerme](https://charts.wener.tech) | minio-operator | baseline | -55 | 4.3.7 | v4.3.7 |
 | [wenerme](https://charts.wener.tech) | minio-standalone | baseline | -12 | 1.0.2 | RELEASE.2022-01-04T07-41-07Z |
-| [wenerme](https://charts.wener.tech) | nats | baseline |  | 0.18.3 | 2.9.8 |
+| [wenerme](https://charts.wener.tech) | nats | baseline | -37 | 0.18.3 | 2.9.8 |
 | [wenerme](https://charts.wener.tech) | nats-account-server | baseline | -12 | 0.8.0 | 1.0.0 |
 | [wenerme](https://charts.wener.tech) | nfs-subdir-external-provisioner | baseline | -10 | 4.0.17 | 4.0.2 |
 | [wenerme](https://charts.wener.tech) | oauth2-proxy | baseline | -12 | 1.0.2 | v7.2.1 |
@@ -193,7 +193,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [wenerme](https://charts.wener.tech) | opensearch-dashboards | error_template |  | 2.6.0 | 2.4.0 |
 | [wenerme](https://charts.wener.tech) | postgres-operator | baseline | -40 | 1.7.1 | 1.7.1 |
 | [wenerme](https://charts.wener.tech) | postgres-operator-ui | baseline | -14 | 1.7.1 | 1.7.1 |
-| [wenerme](https://charts.wener.tech) | prometheus | error_template |  | 17.0.0 | 2.39.1 |
+| [wenerme](https://charts.wener.tech) | prometheus | privileged |  | 17.0.2 | 2.39.1 |
 | [wenerme](https://charts.wener.tech) | prometheus-blackbox-exporter | baseline | -1 | 7.1.3 | 0.22.0 |
 | [wenerme](https://charts.wener.tech) | prometheus-mysql-exporter | baseline | 0 | 1.10.0 | v0.14.0 |
 | [wenerme](https://charts.wener.tech) | prometheus-nats-exporter | baseline | -12 | 2.10.1 | 0.10.1 |
@@ -230,21 +230,21 @@ Evaluation date: 2022-11-24, 21:44:38
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | calculator-service | baseline | -12 | 0.1.1 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | calico | privileged | -73 | 0.2.3 | 3.23.3 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | calico-crds | no_pod_object_but_crd | 0 | 0.2.0 | 3.23.3 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | cassandra-http-gateway | baseline |  | 0.0.3 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | cassandra-http-gateway | baseline | -24 | 0.0.3 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | cert-manager | baseline | -105 | 1.6.0 | v1.5.4 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | cfssl-issuer | baseline | -25 | 0.3.0 | 0.3.0-1 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | cfssl-issuer-crds | no_pod_object_but_crd | 0 | 0.3.0 | 0.3.0-1 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | changeprop | baseline |  | 0.10.11 |  |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | chromium-render | baseline |  | 0.1.3 |  |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | citoid | baseline |  | 0.2.1 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | changeprop | baseline | -24 | 0.10.11 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | chromium-render | baseline | -24 | 0.1.3 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | citoid | baseline | -24 | 0.2.1 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | coredns | baseline | -18 | 0.3.2 | 1.8.7 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | cxserver | baseline |  | 0.1.5 |  |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub | baseline |  | 0.0.21 | 0.9.0 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-frontend | baseline |  | 0.0.15 | 0.9.0 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-gms | baseline |  | 0.0.8 | 0.9.0 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-mae-consumer | baseline |  | 0.0.6 | 0.9.0 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-mce-consumer | baseline |  | 0.0.7 | 0.9.0 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | developer-portal | baseline |  | 0.0.2 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | cxserver | baseline | -24 | 0.1.5 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub | baseline | -24 | 0.0.21 | 0.9.0 |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-frontend | baseline | -12 | 0.0.15 | 0.9.0 |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-gms | baseline | -12 | 0.0.8 | 0.9.0 |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-mae-consumer | baseline | -12 | 0.0.6 | 0.9.0 |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | datahub-mce-consumer | baseline | -12 | 0.0.7 | 0.9.0 |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | developer-portal | baseline | -24 | 0.0.2 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | eventgate | baseline | -24 | 0.9.0 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | eventrouter | baseline | -14 | 0.4.0 | 0.3 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | eventstreams | baseline | -24 | 0.5.0 |  |
@@ -254,16 +254,16 @@ Evaluation date: 2022-11-24, 21:44:38
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | helm-state-metrics | baseline | -26 | 0.1.3 | v0.1.2 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | image-suggestion-api | baseline | -24 | 0.1.2 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | kafka-dev | baseline | -24 | 0.1.0 |  |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | kask | baseline |  | 0.1.3 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | kask | baseline | -24 | 0.1.3 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | knative-serving | baseline | -34 | 0.1.28 | v0.18.1 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | knative-serving-crds | no_pod_object_but_crd | 0 | 0.1.0 | v0.18.1 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | kserve | baseline | -26 | 0.1.10 | 0.8.0 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | kserve-inference | no_pod_object | 0 | 0.3.9 | 0.0.1 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | kubeflow-kfserving | baseline | -38 | 0.1.13 | 0.6.0 |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | kubeflow-kfserving-inference | no_pod_object | 0 | 0.1.4 | 0.0.1 |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | linkrecommendation | version_not_evaluable |  | 0.2.5 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | linkrecommendation | version_not_evaluable | -24 | 0.2.5 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | maps-vector-server | baseline | -12 | 0.0.1 |  |
-| [wikimedia](https://helm-charts.wikimedia.org/stable/) | mathoid | baseline |  | 0.1.2 |  |
+| [wikimedia](https://helm-charts.wikimedia.org/stable/) | mathoid | baseline | -24 | 0.1.2 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | mediawiki | baseline | -12 | 0.2.6 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | mediawiki-dev | baseline | -24 | 0.4.2 |  |
 | [wikimedia](https://helm-charts.wikimedia.org/stable/) | miscweb | baseline | -12 | 0.2.4 |  |

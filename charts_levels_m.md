@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -88,7 +88,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [mattermost](https://helm.mattermost.com) | mattermost-rtcd | privileged | 0 | 1.1.1 | latest |
 | [mattermost](https://helm.mattermost.com) | mattermost-team-edition | baseline | -37 | 6.6.15 | 7.5.1 |
 | [maxxblow](https://maxxblow.de/charts) | feditech | baseline | -12 | 0.1.0 | v0.0.1 |
-| [maxxblow](https://maxxblow.de/charts) | gotosocial | baseline | -12 | 0.2.4 | 0.5.2 |
+| [maxxblow](https://maxxblow.de/charts) | gotosocial | baseline |  | 0.2.5 | 0.5.2 |
 | [maxxblow](https://maxxblow.de/charts) | joplin-server | baseline | -18 | 0.1.4 | 2.9.7-beta |
 | [maxxblow](https://maxxblow.de/charts) | librespeed | baseline | -12 | 0.2.2 | 5.2.5 |
 | [maxxblow](https://maxxblow.de/charts) | matrix-synapse | error_template |  | 0.2.3 | v1.68.0 |
@@ -110,8 +110,8 @@ Evaluation date: 2022-11-24, 21:44:38
 | [memo-component](https://raw.githubusercontent.com/ConductionNL/memo-component/master/api/helm/) | memo-component | error_download |  | 1.0.0 | V1.0 |
 | [memphis](https://k8s.memphis.dev/charts/) | memphis | error_download |  | 0.4.1 | 0.4.1 |
 | [mercure](https://charts.mercure.rocks) | mercure | error_download |  | 0.14.2 | v0.14.2 |
-| [meshery](https://meshery.io/charts/) | meshery | error_download |  | 0.6.29 | v0.6.29 |
-| [meshery](https://meshery.io/charts/) | meshery-operator | error_download |  | 0.6.29 | v0.6.29 |
+| [meshery](https://meshery.io/charts/) | meshery | error_download |  | 0.6.30 | v0.6.30 |
+| [meshery](https://meshery.io/charts/) | meshery-operator | error_download |  | 0.6.30 | v0.6.30 |
 | [mesosphere-stable](https://mesosphere.github.io/charts/stable) | argo-cd | baseline | -96 | 0.5.4 | 1.2.0 |
 | [mesosphere-stable](https://mesosphere.github.io/charts/stable) | awsebscsiprovisioner | privileged | -39 | 0.5.0 | 0.8.0 |
 | [mesosphere-stable](https://mesosphere.github.io/charts/stable) | awsebsprovisioner | no_pod_object | 0 | 0.1.5 | 1.0 |
@@ -218,7 +218,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [milvus](https://raw.githubusercontent.com/milvus-io/milvus-helm/gh-pages) | milvus | error_download |  | 3.3.1 | 2.2.0 |
 | [milvus](https://raw.githubusercontent.com/milvus-io/milvus-helm/gh-pages) | minio | error_download |  | 8.0.14 | master |
 | [min-flask-chart](https://wang-kk714.github.io/min-flask-charts/) | min-flask | error_download |  | 0.1.0 | 1.16.0 |
-| [mina](https://coda-charts.storage.googleapis.com) | archive-node | version_not_evaluable |  | 1.1.6 | 1.16.0 |
+| [mina](https://coda-charts.storage.googleapis.com) | archive-node | version_not_evaluable | -12 | 1.1.6 | 1.16.0 |
 | [mina](https://coda-charts.storage.googleapis.com) | block-producer | baseline | -48 | 1.0.10 | 1.16.0 |
 | [mina](https://coda-charts.storage.googleapis.com) | buildkite-exporter | baseline | -12 | 0.1.4 | 0.2.1 |
 | [mina](https://coda-charts.storage.googleapis.com) | common-utilities | empty_no_object |  | 0.1.2 | 0.1.0 |
@@ -238,7 +238,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [minecraft-server-charts](https://itzg.github.io/minecraft-server-charts/) | rcon-web-admin | error_download |  | 1.0.0 | 0.14.1-1 |
 | [minio-official](https://charts.min.io) | minio | error_download |  | 5.0.1 | RELEASE.2022-11-11T03-44-20Z |
 | [minio](https://helm.min.io/) | minio | error_download |  | 8.0.10 | master |
-| [mint](https://mintproject.github.io/mint) | mint | error_download |  | 1.4.1 | 1.16.0 |
+| [mint](https://mintproject.github.io/mint) | mint | error_download |  | 1.4.2 | 1.16.1 |
 | [mintel](https://mintel.github.io/helm-charts) | aws-api-gateway-operator | baseline | -2 | 0.1.0 | v1.0.2 |
 | [mintel](https://mintel.github.io/helm-charts) | basic-config | empty_no_object |  | 0.2.0 |  |
 | [mintel](https://mintel.github.io/helm-charts) | hybrid-consul-config-crds | no_pod_object_but_crd | 0 | 0.0.2 |  |
@@ -320,9 +320,9 @@ Evaluation date: 2022-11-24, 21:44:38
 | [mongoose](https://esl.github.io/MongooseHelm/) | mongoosepush | error_download |  | 0.1.1 | 2.1.0 |
 | [monocular](https://helm.github.io/monocular) | monocular | error_download |  | 1.4.15 | v1.10.0 |
 | [morremeyer](https://morremeyer.github.io/charts/) | backup | baseline | 0 | 3.1.0 |  |
-| [morremeyer](https://morremeyer.github.io/charts/) | cronjob | baseline | 0 | 3.0.3 |  |
+| [morremeyer](https://morremeyer.github.io/charts/) | cronjob | baseline |  | 3.0.4 |  |
 | [morremeyer](https://morremeyer.github.io/charts/) | generic | baseline | -12 | 5.4.0 |  |
-| [morremeyer](https://morremeyer.github.io/charts/) | kube-prometheus-stack-crds | no_pod_object_but_crd |  | 42.0.2 |  |
+| [morremeyer](https://morremeyer.github.io/charts/) | kube-prometheus-stack-crds | no_pod_object_but_crd |  | 42.1.0 |  |
 | [morremeyer](https://morremeyer.github.io/charts/) | mailtrain | baseline | -12 | 2.0.0 |  |
 | [morremeyer](https://morremeyer.github.io/charts/) | namespaces | empty_no_object |  | 3.1.1 |  |
 | [morremeyer](https://morremeyer.github.io/charts/) | znc | error_template |  | 1.0.2 |  |
@@ -373,7 +373,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [muthu-pages](https://muthuannam.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
 | [mvisonneau](https://charts.visonneau.fr/) | approuvez | baseline | -12 | 0.0.4 | v0.1.0 |
 | [mvisonneau](https://charts.visonneau.fr/) | generic-app | baseline | -12 | 0.0.14 | 0.0.0 |
-| [mvisonneau](https://charts.visonneau.fr/) | gitlab-ci-pipelines-exporter | error_template |  | 0.2.17 | v0.5.3 |
+| [mvisonneau](https://charts.visonneau.fr/) | gitlab-ci-pipelines-exporter | error_template |  | 0.2.18 | v0.5.4 |
 | [mvisonneau](https://charts.visonneau.fr/) | slack-git-compare | error_template |  | 0.0.7 | v0.1.0 |
 | [mvisonneau](https://charts.visonneau.fr/) | tailscale-relay | privileged | 0 | 0.1.9 | v1.32.2 |
 | [mvitale1989-helm-taiga](https://mvitale1989.github.io/helm-taiga) | helm-taiga | error_download |  | 0.2.5 | 4.2.14 |

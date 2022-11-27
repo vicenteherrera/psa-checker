@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -12,7 +12,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [vald](https://vald.vdaas.org/charts) | vald | error_download |  | 1.6.3 |  |
 | [vald](https://vald.vdaas.org/charts) | vald-helm-operator | error_download |  | 1.6.3 |  |
 | [valeriano-manassero](https://valeriano-manassero.github.io/helm-charts) | presto | error_download |  | 1.2.9 | 348 |
-| [valeriano-manassero](https://valeriano-manassero.github.io/helm-charts) | trino | error_download |  | 2.5.1 | 380 |
+| [valeriano-manassero](https://valeriano-manassero.github.io/helm-charts) | trino | error_download |  | 2.5.2 | 380 |
 | [valint-admission-controller](https://scribe-security.github.io/helm-charts) | admission-controller | baseline | -26 | 0.0.27-13 | 0.0.27-13 |
 | [variant-inc](https://variant-inc.github.io/lazy-helm-charts/) | library | error_download |  | 0.1.0 | 1.16.0 |
 | [variant-inc](https://variant-inc.github.io/lazy-helm-charts/) | variant-api | error_download |  | 2.1.24 |  |
@@ -60,15 +60,15 @@ Evaluation date: 2022-11-24, 21:44:38
 | [verzoekregistratiecomponent](https://raw.githubusercontent.com/ConductionNL/verzoekregistratiecomponent/master/api/helm/) | verzoekregistratiecomponent | error_download |  | 1.1.0 | V1.0 |
 | [verzoektypecatalogus](https://raw.githubusercontent.com/ConductionNL/verzoektypecatalogus/master/api/helm/) | verzoektypecatalogus | error_download |  | 1.1.0 | V1.0 |
 | [victor-pages](https://el-pey.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
-| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-agent | error_download |  | 0.8.21 | v1.83.1 |
-| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-alert | error_download |  | 0.5.6 | v1.83.1 |
+| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-agent | error_download |  | 0.8.22 | v1.84.0 |
+| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-alert | error_download |  | 0.5.7 | v1.84.0 |
 | [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-anomaly | error_download |  | 0.1.0 | 0.21.0 |
-| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-auth | error_download |  | 0.2.62 | 1.83.1 |
-| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-cluster | error_download |  | 0.9.42 | 1.83.1 |
-| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-gateway | error_download |  | 0.1.20 | 1.83.1 |
-| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-k8s-stack | error_download |  | 0.12.12 | 1.83.1 |
+| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-auth | error_download |  | 0.2.63 | 1.84.0 |
+| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-cluster | error_download |  | 0.9.43 | 1.84.0 |
+| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-gateway | error_download |  | 0.1.21 | 1.84.0 |
+| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-k8s-stack | error_download |  | 0.12.13 | 1.84.0 |
 | [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-operator | error_download |  | 0.16.1 | 0.29.2 |
-| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-single | error_download |  | 0.8.43 | 1.83.1 |
+| [victoriametrics](https://victoriametrics.github.io/helm-charts/) | victoria-metrics-single | error_download |  | 0.8.44 | 1.84.0 |
 | [viento-repository](https://viento-group.github.io/helm-charts) | kube-monitoring-telegram-bot | error_download |  | 1.0.0 | 1.16.0 |
 | [vineyard](https://vineyard.oss-ap-southeast-1.aliyuncs.com/charts/) | vineyard | error_download |  | 0.6.1 | 0.6.1 |
 | [vineyard](https://vineyard.oss-ap-southeast-1.aliyuncs.com/charts/) | vineyard-operator | error_download |  | 0.10.1 | 0.10.1 |

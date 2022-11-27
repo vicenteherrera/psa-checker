@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -15,7 +15,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bakito](https://charts.bakito.net) | batch-job-controller | error_template |  | 1.4.4 | v1.4.4 |
 | [bakito](https://charts.bakito.net) | java-truststore-injection-webhook | baseline | -12 | 0.0.7 | v0.0.7 |
 | [bakito](https://charts.bakito.net) | k8s-event-logger-operator | baseline | -26 | 1.11.0 | v1.11.0 |
-| [bakito](https://charts.bakito.net) | sealed-secrets-web | baseline |  | 3.0.5 | v3.0.5 |
+| [bakito](https://charts.bakito.net) | sealed-secrets-web | baseline | -26 | 3.0.5 | v3.0.5 |
 | [bakito](https://charts.bakito.net) | vault-unsealer | baseline | -13 | 0.1.1 | v0.1.1 |
 | [bala-test-publish-helm](https://bsalunke.github.io/bala-test-publish-helm/) | bala-test-publish | no_pod_object | 0 | 1.1.0 | 1.16.0 |
 | [bala-test-publish-helm](https://bsalunke.github.io/bala-test-publish-helm/) | qcs-sensor | error_template |  | 1.0.0 | 1.19.0 |
@@ -156,7 +156,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [begrafenisservice](https://raw.githubusercontent.com/ConductionNL/begrafenisservice/master/api/helm/) | begrafenisservice | baseline | -24 | 1.0.0 | V1.0 |
 | [benc-uk](https://benc-uk.github.io/helm-charts) | webapp | error_download |  | 1.4.3 | 1.0.0 |
 | [benjlevesque](https://blevesque-helm-charts.s3.fr-par.scw.cloud) | fider | error_template |  | 0.1.0 | 0.19.1 |
-| [bentoml](https://bentoml.github.io/helm-charts) | yatai | error_download |  | 1.0.4 | 1.0.4 |
+| [bentoml](https://bentoml.github.io/helm-charts) | yatai | error_download |  | 1.0.5 | 1.0.5 |
 | [bentoml](https://bentoml.github.io/helm-charts) | yatai-deployment | error_download |  | 1.0.3 | 1.0.3 |
 | [berichtservice](https://raw.githubusercontent.com/ConductionNL/berichtservice/master/api/helm/) | berichtservice | baseline | -24 | 1.0.0 | V1.0 |
 | [berrutig-pages](https://berrutig.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
@@ -176,7 +176,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | airflow | baseline | -2 | 14.0.3 | 2.4.2 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | apache | baseline | -1 | 9.2.7 | 2.4.54 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | argo-cd | baseline | -48 | 4.2.0 | 2.4.12 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | argo-workflows | baseline | -41 | 4.1.0 | 3.4.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | argo-workflows | baseline |  | 5.0.1 | 3.4.3 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | aspnet-core | baseline | -13 | 3.5.6 | 6.0.11 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | cassandra | baseline | 0 | 9.7.4 | 4.0.7 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | cert-manager | baseline | -104 | 0.8.7 | 1.10.0 |
@@ -185,7 +185,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | chart8b1ec64e5e1140b88374eb27b4bf71ef | baseline | -12 | 1.1.1 | 1.16.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | chartname-57aadaea-84b4-4fff-8131-bec3478201f5 | empty_no_object |  | 0.1.0 | 1.16.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | clickhouse | baseline | 0 | 1.0.3 | 22.9.4 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | common | error_template |  | 2.2.0 | 2.2.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | common | error_template |  | 2.2.1 | 2.2.1 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | concourse | baseline | -24 | 2.0.0 | 7.8.3 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | consul | baseline | 0 | 10.9.3 | 1.13.3 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | containerapp_25547919-9148-4438-8f70-fa6d9936761e | baseline | -12 | 0.1.0 | 1.16.0 |
@@ -221,17 +221,17 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | joomla | baseline |  | 13.3.8 | 4.2.4 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | jupyterhub | baseline | -2 | 3.0.2 | 3.0.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kafka | baseline | 0 | 19.1.3 | 3.3.1 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | keycloak | baseline |  | 12.1.3 | 19.0.3 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | keycloak | baseline | 0 | 12.1.3 | 19.0.3 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kibana | no_pod_object | 0 | 10.2.7 | 8.5.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kong | baseline | -14 | 8.0.11 | 3.0.1 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kube-prometheus | privileged | -58 | 8.1.11 | 0.60.1 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kube-state-metrics | baseline | -24 | 3.2.5 | 2.6.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kubeapps | baseline | -18 | 12.0.0 | 2.6.0 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kubernetes-event-exporter | baseline |  | 2.1.2 | 1.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kubernetes-event-exporter | baseline | -2 | 2.1.2 | 1.0.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | kubewatch | baseline | -12 | 3.3.1 | 0.1.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | logstash | baseline | 0 | 5.1.6 | 8.5.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | magento | privileged | 0 | 21.1.9 | 2.4.5-p1 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mariadb | baseline |  | 11.4.0 | 10.6.11 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mariadb | baseline | 0 | 11.4.0 | 10.6.11 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mariadb-galera | baseline | 0 | 7.4.8 | 10.6.11 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | matomo | baseline | -1 | 0.2.13 | 4.12.3 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mediawiki | baseline | 0 | 14.3.8 | 1.38.4 |
@@ -243,7 +243,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mongodb-sharded | baseline | -25 | 6.1.11 | 6.0.2 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | moodle | baseline | -1 | 14.3.1 | 4.0.4 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mxnet | no_pod_object_but_crd | -1 | 3.1.6 | 1.9.1 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mysql | baseline |  | 9.4.4 | 8.0.31 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | mysql | baseline | 0 | 9.4.4 | 8.0.31 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | nats | baseline | -12 | 7.4.12 | 2.9.6 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | nginx | baseline | -13 | 13.2.13 | 1.23.2 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | nginx-ingress-controller | baseline | -27 | 9.3.19 | 1.4.0 |
@@ -259,15 +259,15 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | parse | baseline | -8 | 19.1.9 | 5.3.1 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | phabricator | baseline | 0 | 11.0.26 | 2021.26.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | phpbb | baseline | -1 | 12.3.6 | 3.3.8 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | phpmyadmin | baseline | -1 | 10.3.6 | 5.2.0 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | pinniped | baseline |  | 0.4.5 | 0.20.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | phpmyadmin | baseline |  | 10.3.7 | 5.2.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | pinniped | baseline | -40 | 0.4.5 | 0.20.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | postgresql | baseline | 0 | 12.1.2 | 15.1.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | postgresql-ha | baseline | -13 | 10.0.1 | 15.0.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | prestashop | baseline | 0 | 15.3.6 | 1.7.8-7 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | prometheus-operator | privileged | -55 | 0.29.3 | 0.41.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | pytorch | baseline | -7 | 2.5.9 | 1.13.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | rabbitmq | baseline | 0 | 11.1.1 | 3.11.2 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | rabbitmq-cluster-operator | baseline |  | 3.1.3 | 2.0.0 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | rabbitmq-cluster-operator | baseline | -37 | 3.1.3 | 2.0.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | redis | baseline | 0 | 17.3.8 | 7.0.5 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | redis-cluster | baseline | 0 | 8.3.0 | 7.0.5 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | redmine | baseline | -13 | 21.0.1 | 5.0.3 |
@@ -280,11 +280,11 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | suitecrm | baseline | 0 | 11.2.5 | 7.12.7 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | tensorflow-resnet | baseline | -1 | 3.6.7 | 2.10.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | testlink | baseline | 0 | 10.0.13 | 1.9.20 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | thanos | baseline |  | 11.6.2 | 0.28.1 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | thanos | baseline | -2 | 11.6.2 | 0.28.1 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | tomcat | baseline | -1 | 10.5.1 | 10.1.1 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront | privileged | -14 | 4.2.5 | 1.12.0 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront-adapter-for-istio | empty_no_object | -2 | 2.0.5 | 0.1.5 |
-| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront-hpa-adapter | baseline |  | 1.3.6 | 0.9.9 |
+| [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront-hpa-adapter | baseline | -23 | 1.3.6 | 0.9.9 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wavefront-prometheus-storage-adapter | baseline | -2 | 2.1.5 | 1.0.5 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wildfly | baseline | -1 | 13.5.6 | 26.1.2 |
 | [bitnami-aks](https://marketplace.azurecr.io/helm/v1/repo) | wordpress | baseline | -1 | 15.2.13 | 6.1.0 |
@@ -292,13 +292,14 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami-labs](https://bitnami-labs.github.io/sealed-secrets/) | sealed-secrets | error_download |  | 2.7.1 | v0.19.2 |
 | [bitnami](https://charts.bitnami.com/bitnami) | airflow | baseline | -2 | 14.0.3 | 2.4.2 |
 | [bitnami](https://charts.bitnami.com/bitnami) | apache | baseline | -1 | 9.2.7 | 2.4.54 |
-| [bitnami](https://charts.bitnami.com/bitnami) | argo-cd | baseline |  | 4.3.5 | 2.5.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | appsmith | baseline |  | 0.1.0 | 1.8.8 |
+| [bitnami](https://charts.bitnami.com/bitnami) | argo-cd | baseline | -48 | 4.3.5 | 2.5.2 |
 | [bitnami](https://charts.bitnami.com/bitnami) | argo-workflows | baseline | -41 | 5.0.1 | 3.4.3 |
-| [bitnami](https://charts.bitnami.com/bitnami) | aspnet-core | baseline |  | 4.0.0 | 7.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | aspnet-core | baseline | -13 | 4.0.0 | 7.0.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | cassandra | baseline | 0 | 9.7.5 | 4.0.7 |
 | [bitnami](https://charts.bitnami.com/bitnami) | cert-manager | baseline | -104 | 0.8.9 | 1.10.1 |
-| [bitnami](https://charts.bitnami.com/bitnami) | clickhouse | baseline |  | 1.0.4 | 22.9.5 |
-| [bitnami](https://charts.bitnami.com/bitnami) | common | error_template |  | 2.2.0 | 2.2.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | clickhouse | baseline | 0 | 1.0.4 | 22.9.5 |
+| [bitnami](https://charts.bitnami.com/bitnami) | common | error_template |  | 2.2.1 | 2.2.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | concourse | baseline | -24 | 2.0.1 | 7.8.3 |
 | [bitnami](https://charts.bitnami.com/bitnami) | consul | baseline | 0 | 10.9.5 | 1.14.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | contour | privileged | -14 | 10.0.0 | 1.23.0 |
@@ -312,45 +313,45 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami](https://charts.bitnami.com/bitnami) | external-dns | baseline | -2 | 6.12.1 | 0.13.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | fluentd | privileged |  | 5.5.9 | 1.15.3 |
 | [bitnami](https://charts.bitnami.com/bitnami) | geode | baseline | 0 | 1.1.6 | 1.15.1 |
-| [bitnami](https://charts.bitnami.com/bitnami) | ghost | baseline | 0 | 19.1.39 | 5.23.0 |
-| [bitnami](https://charts.bitnami.com/bitnami) | grafana | baseline |  | 8.2.20 | 9.2.6 |
-| [bitnami](https://charts.bitnami.com/bitnami) | grafana-loki | privileged |  | 2.5.1 | 2.7.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | ghost | baseline |  | 19.1.40 | 5.24.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | grafana | baseline | -1 | 8.2.20 | 9.2.6 |
+| [bitnami](https://charts.bitnami.com/bitnami) | grafana-loki | privileged | -23 | 2.5.1 | 2.7.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | grafana-operator | baseline | -7 | 2.7.9 | 4.7.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | grafana-tempo | baseline | -6 | 1.4.5 | 1.5.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | haproxy | baseline | -1 | 0.6.3 | 2.6.6 |
 | [bitnami](https://charts.bitnami.com/bitnami) | haproxy-intel | baseline | -1 | 0.2.8 | 2.6.6 |
-| [bitnami](https://charts.bitnami.com/bitnami) | harbor | baseline |  | 16.0.3 | 2.6.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | harbor | baseline |  | 16.0.4 | 2.6.2 |
 | [bitnami](https://charts.bitnami.com/bitnami) | influxdb | baseline | -1 | 5.4.11 | 2.5.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | jasperreports | baseline | -1 | 14.3.5 | 8.1.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | jenkins | baseline | -1 | 11.0.9 | 2.361.4 |
 | [bitnami](https://charts.bitnami.com/bitnami) | joomla | baseline | -1 | 13.3.10 | 4.2.5 |
 | [bitnami](https://charts.bitnami.com/bitnami) | jupyterhub | baseline | -2 | 3.0.2 | 3.0.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | kafka | baseline | 0 | 19.1.3 | 3.3.1 |
-| [bitnami](https://charts.bitnami.com/bitnami) | keycloak | baseline |  | 12.1.4 | 19.0.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | keycloak | baseline |  | 12.1.5 | 19.0.3 |
 | [bitnami](https://charts.bitnami.com/bitnami) | kiam | privileged | -22 | 1.1.5 | 4.2.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | kibana | no_pod_object | 0 | 10.2.9 | 8.5.2 |
-| [bitnami](https://charts.bitnami.com/bitnami) | kong | baseline |  | 8.0.18 | 3.0.1 |
-| [bitnami](https://charts.bitnami.com/bitnami) | kube-prometheus | privileged | -58 | 8.2.1 | 0.61.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kong | baseline | -14 | 8.0.18 | 3.0.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kube-prometheus | privileged |  | 8.2.2 | 0.61.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | kube-state-metrics | baseline | -24 | 3.2.5 | 2.6.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | kubeapps | baseline | -18 | 12.1.1 | 2.6.1 |
-| [bitnami](https://charts.bitnami.com/bitnami) | kubernetes-event-exporter | baseline |  | 2.1.2 | 1.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | kubernetes-event-exporter | baseline | -2 | 2.1.2 | 1.0.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | logstash | baseline | 0 | 5.1.8 | 8.5.2 |
 | [bitnami](https://charts.bitnami.com/bitnami) | magento | privileged | 0 | 21.1.9 | 2.4.5-p1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | mariadb | baseline | 0 | 11.4.0 | 10.6.11 |
-| [bitnami](https://charts.bitnami.com/bitnami) | mariadb-galera | baseline | 0 | 7.4.8 | 10.6.11 |
-| [bitnami](https://charts.bitnami.com/bitnami) | matomo | baseline | -1 | 0.2.13 | 4.12.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mariadb-galera | baseline |  | 7.4.9 | 10.6.11 |
+| [bitnami](https://charts.bitnami.com/bitnami) | matomo | baseline |  | 0.2.14 | 4.12.3 |
 | [bitnami](https://charts.bitnami.com/bitnami) | mediawiki | baseline | 0 | 14.3.8 | 1.38.4 |
 | [bitnami](https://charts.bitnami.com/bitnami) | memcached | baseline | -1 | 6.3.1 | 1.6.17 |
 | [bitnami](https://charts.bitnami.com/bitnami) | metallb | privileged | -48 | 4.1.12 | 0.13.7 |
-| [bitnami](https://charts.bitnami.com/bitnami) | metrics-server | baseline | -18 | 6.2.3 | 0.6.1 |
-| [bitnami](https://charts.bitnami.com/bitnami) | minio | baseline | -1 | 11.10.18 | 2022.11.17 |
+| [bitnami](https://charts.bitnami.com/bitnami) | metrics-server | baseline |  | 6.2.4 | 0.6.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | minio | baseline |  | 11.10.19 | 2022.11.26 |
 | [bitnami](https://charts.bitnami.com/bitnami) | mongodb | baseline | -1 | 13.5.0 | 6.0.3 |
-| [bitnami](https://charts.bitnami.com/bitnami) | mongodb-sharded | baseline | -25 | 6.1.13 | 6.0.3 |
+| [bitnami](https://charts.bitnami.com/bitnami) | mongodb-sharded | baseline |  | 6.1.14 | 6.0.3 |
 | [bitnami](https://charts.bitnami.com/bitnami) | moodle | baseline | -1 | 14.3.2 | 4.0.5 |
 | [bitnami](https://charts.bitnami.com/bitnami) | mxnet | no_pod_object_but_crd | -1 | 3.1.7 | 1.9.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | mysql | baseline | 0 | 9.4.4 | 8.0.31 |
 | [bitnami](https://charts.bitnami.com/bitnami) | nats | baseline | -12 | 7.5.3 | 2.9.8 |
-| [bitnami](https://charts.bitnami.com/bitnami) | nginx | baseline |  | 13.2.14 | 1.23.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | nginx | baseline | -13 | 13.2.14 | 1.23.2 |
 | [bitnami](https://charts.bitnami.com/bitnami) | nginx-ingress-controller | baseline | -27 | 9.3.22 | 1.5.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | nginx-intel | baseline | -13 | 2.1.12 | 0.4.9 |
 | [bitnami](https://charts.bitnami.com/bitnami) | node-exporter | privileged | -1 | 3.2.3 | 1.4.0 |
@@ -361,32 +362,32 @@ Evaluation date: 2022-11-24, 21:44:38
 | [bitnami](https://charts.bitnami.com/bitnami) | owncloud | baseline | 0 | 12.2.7 | 10.11.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | parse | baseline | -8 | 19.1.11 | 5.4.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | phpbb | baseline | -1 | 12.3.7 | 3.3.8 |
-| [bitnami](https://charts.bitnami.com/bitnami) | phpmyadmin | baseline |  | 10.3.7 | 5.2.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | phpmyadmin | baseline | -1 | 10.3.7 | 5.2.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | pinniped | baseline | -40 | 0.4.5 | 0.20.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | postgresql | baseline | 0 | 12.1.2 | 15.1.0 |
-| [bitnami](https://charts.bitnami.com/bitnami) | postgresql-ha | baseline |  | 10.0.5 | 15.1.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | postgresql-ha | baseline | -13 | 10.0.5 | 15.1.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | prestashop | baseline | 0 | 16.0.0 | 8.0.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | pytorch | baseline | -7 | 2.5.9 | 1.13.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | rabbitmq | baseline | 0 | 11.1.4 | 3.11.3 |
-| [bitnami](https://charts.bitnami.com/bitnami) | rabbitmq-cluster-operator | baseline |  | 3.1.3 | 2.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | rabbitmq-cluster-operator | baseline |  | 3.1.4 | 2.0.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | redis | baseline |  | 17.3.9 | 7.0.5 |
 | [bitnami](https://charts.bitnami.com/bitnami) | redis-cluster | baseline | 0 | 8.3.1 | 7.0.5 |
 | [bitnami](https://charts.bitnami.com/bitnami) | redmine | baseline | -13 | 21.0.1 | 5.0.3 |
-| [bitnami](https://charts.bitnami.com/bitnami) | schema-registry | baseline |  | 7.0.1 | 7.3.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | schema-registry | baseline | 0 | 7.0.1 | 7.3.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | sealed-secrets | restricted |  | 1.1.9 | 0.19.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | solr | baseline | 0 | 6.3.2 | 9.1.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | sonarqube | privileged | -1 | 2.0.1 | 9.7.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | spark | baseline | -12 | 6.3.11 | 3.3.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | spring-cloud-dataflow | baseline | -2 | 14.0.2 | 2.9.6 |
 | [bitnami](https://charts.bitnami.com/bitnami) | suitecrm | baseline | 0 | 11.2.6 | 7.12.8 |
-| [bitnami](https://charts.bitnami.com/bitnami) | tensorflow-resnet | baseline |  | 3.6.9 | 2.11.0 |
-| [bitnami](https://charts.bitnami.com/bitnami) | thanos | baseline |  | 11.6.3 | 0.28.1 |
-| [bitnami](https://charts.bitnami.com/bitnami) | tomcat | baseline | -1 | 10.5.3 | 10.1.2 |
+| [bitnami](https://charts.bitnami.com/bitnami) | tensorflow-resnet | baseline | -1 | 3.6.9 | 2.11.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | thanos | baseline | -2 | 11.6.3 | 0.28.1 |
+| [bitnami](https://charts.bitnami.com/bitnami) | tomcat | baseline |  | 10.5.4 | 10.1.2 |
 | [bitnami](https://charts.bitnami.com/bitnami) | wavefront | privileged | -14 | 4.2.6 | 1.12.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | wavefront-adapter-for-istio | empty_no_object | -2 | 2.0.6 | 0.1.5 |
-| [bitnami](https://charts.bitnami.com/bitnami) | wavefront-hpa-adapter | baseline |  | 1.3.6 | 0.9.9 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wavefront-hpa-adapter | baseline | -23 | 1.3.6 | 0.9.9 |
 | [bitnami](https://charts.bitnami.com/bitnami) | wavefront-prometheus-storage-adapter | baseline | -2 | 2.1.5 | 1.0.5 |
-| [bitnami](https://charts.bitnami.com/bitnami) | wildfly | baseline | -1 | 14.0.0 | 27.0.0 |
+| [bitnami](https://charts.bitnami.com/bitnami) | wildfly | baseline |  | 14.0.1 | 27.0.0 |
 | [bitnami](https://charts.bitnami.com/bitnami) | wordpress | baseline | -1 | 15.2.16 | 6.1.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | wordpress-intel | baseline | -1 | 2.1.22 | 6.1.1 |
 | [bitnami](https://charts.bitnami.com/bitnami) | zookeeper | baseline | 0 | 10.2.5 | 3.8.0 |

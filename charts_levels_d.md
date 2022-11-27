@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -22,7 +22,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [dash-ops](http://dash-ops.github.io/helm-charts) | dash-ops | baseline | -13 | 0.0.4 |  |
 | [dask](https://helm.dask.org/) | dask | baseline | -36 | 2022.11.0 | 2022.10.0 |
 | [dask](https://helm.dask.org/) | dask-gateway | baseline | -63 | 2022.11.0 | 2022.11.0 |
-| [dask](https://helm.dask.org/) | dask-kubernetes-operator | baseline |  | 2022.11.0 | 2022.4.1 |
+| [dask](https://helm.dask.org/) | dask-kubernetes-operator | baseline | -3 | 2022.11.0 | 2022.4.1 |
 | [dask](https://helm.dask.org/) | daskhub | baseline | -73 | 2022.11.0 | jh2.0.0-dg2022.10.0 |
 | [dasmeta](https://dasmeta.github.io/helm/) | base | baseline | -12 | 0.1.35 | 0.1.35 |
 | [dasmeta](https://dasmeta.github.io/helm/) | base-cronjob | no_pod_object | 0 | 0.1.32 | 0.1.32 |
@@ -65,7 +65,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo | empty_no_object |  | 0.1.587 | 0.1.587 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-api | baseline | 0 | 0.0.430 | 1.426.0 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-monitoring | empty_no_object |  | 0.0.1 | 0.0.1 |
-| [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-ui | baseline |  | 0.0.206 | 0.185.0 |
+| [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepo-ui | baseline | 0 | 0.0.206 | 0.185.0 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | datarepomonitoring | empty_no_object |  | 0.0.3 | 0.0.3 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | de-elasticsearch | privileged | 0 | 0.1.4 |  |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | frontend-config | no_pod_object_but_crd | 0 | 0.1.0 | 1.0.0 |
@@ -77,7 +77,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | sqlbackup | version_not_evaluable | 0 | 0.0.2 | 0.0.1 |
 | [datarepo](https://broadinstitute.github.io/datarepo-helm) | vault-secrets | no_pod_object_but_crd | 0 | 0.0.1 |  |
 | [datasaker](https://datasaker.github.io/agent-helm/) | agent-helm | privileged | -48 | 0.1.0 | 1.16.0 |
-| [datasunrise](https://www.datasunrise.com/helm-chart) | datasunrise | baseline |  | 0.1.1 | 8.3.4.10462 |
+| [datasunrise](https://www.datasunrise.com/helm-chart) | datasunrise | baseline | -12 | 0.1.1 | 8.3.4.10462 |
 | [datawire](https://getambassador.io/) | ambassador | baseline | -61 | 6.9.5 | 1.14.4 |
 | [datawire](https://getambassador.io/) | ambassador-agent | baseline | -38 | 1.0.0 | 1.0.0 |
 | [datawire](https://getambassador.io/) | ambassador-operator | baseline | -39 | 0.3.0 | v1.3.0 |
@@ -91,8 +91,8 @@ Evaluation date: 2022-11-24, 21:44:38
 | [decayofmind](https://decayofmind.github.io/charts/) | kube-better-node | error_download |  | 0.0.4 | master |
 | [decayofmind](https://decayofmind.github.io/charts/) | kube-web-view | error_download |  | 0.0.4 | 20.6.0 |
 | [decayofmind](https://decayofmind.github.io/charts/) | rollout-restart | error_download |  | 1.0.3 | 1.0.3 |
-| [deepflow](https://deepflowys.github.io/deepflow) | deepflow | privileged |  | 0.1.84 | 6.1.7 |
-| [deepflow](https://deepflowys.github.io/deepflow) | deepflow-agent | privileged |  | 0.1.84 | 6.1.7 |
+| [deepflow](https://deepflowys.github.io/deepflow) | deepflow | privileged | -30 | 0.1.84 | 6.1.7 |
+| [deepflow](https://deepflowys.github.io/deepflow) | deepflow-agent | privileged | -17 | 0.1.84 | 6.1.7 |
 | [deeploy-core](https://deeploy-charts.storage.googleapis.com/) | deeploy | error_template |  | 1.28.1 | 1.28.1 |
 | [deliveryhero](https://charts.deliveryhero.io/) | aws-s3-proxy | baseline | 0 | 0.1.3 | 2.0 |
 | [deliveryhero](https://charts.deliveryhero.io/) | aws-service-events-exporter | baseline | 0 | 1.0.5 | 1.0.0 |
@@ -214,7 +214,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | coralogix-fluentd | version_not_evaluable | -12 | 1.0.3 | 1.1.6 |
 | [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | devtron-backups | baseline | 0 | 0.1.2 | 1.0 |
 | [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | devtron-generic-helm | no_pod_object | 0 | 0.10.1 | 0.1.0 |
-| [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | devtron-operator | version_not_evaluable |  | 0.22.44 | 0.6.7 |
+| [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | devtron-operator | version_not_evaluable |  | 0.22.45 | 0.6.8 |
 | [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | dgraph | baseline | -24 | 0.0.20 | v21.12.0 |
 | [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | discord-alertmanager | baseline | -12 | 0.10.0 | 0.1.0 |
 | [devtron-labs](https://raw.githubusercontent.com/devtron-labs/charts/gh-pages) | dt-kubewatch | baseline | -14 | 0.13.5 | 0.1.0 |
@@ -245,7 +245,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [devtron](http://helm.devtron.ai/) | coralogix-fluentd | version_not_evaluable | -12 | 1.0.3 | 1.1.6 |
 | [devtron](http://helm.devtron.ai/) | devtron-backups | baseline | 0 | 0.1.2 | 1.0 |
 | [devtron](http://helm.devtron.ai/) | devtron-generic-helm | no_pod_object | 0 | 0.10.1 | 0.1.0 |
-| [devtron](http://helm.devtron.ai/) | devtron-operator | version_not_evaluable |  | 0.22.44 | 0.6.7 |
+| [devtron](http://helm.devtron.ai/) | devtron-operator | version_not_evaluable |  | 0.22.45 | 0.6.8 |
 | [devtron](http://helm.devtron.ai/) | dgraph | baseline | -24 | 0.0.20 | v21.12.0 |
 | [devtron](http://helm.devtron.ai/) | discord-alertmanager | baseline | -12 | 0.10.0 | 0.1.0 |
 | [devtron](http://helm.devtron.ai/) | dt-kubewatch | baseline | -14 | 0.13.5 | 0.1.0 |
@@ -285,6 +285,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [discord-gophers-forumcleaner](https://discord-gophers.github.io/forumcleaner) | gophers-forumcleaner | error_template |  | 0.1.1 | 1.0.0 |
 | [distributed-grpc-app](https://sindvero.github.io/distributed-grpc-app/) | grpc-app | baseline | -24 | 0.1.0 | 1.16.0 |
 | [divistant](https://charts.divistant.com) | jobs | error_download |  | 0.1.0 | 1.16.0 |
+| [djerfy](https://djerfy.github.io/helm-charts) | zabbix-kubernetes-discovery | error_download |  | 1.4.3 | 1.4.3 |
 | [djjudas21](https://djjudas21.github.io/charts/) | bookstack | baseline | -12 | 5.2.4 | 22.09.1 |
 | [djjudas21](https://djjudas21.github.io/charts/) | graphite-exporter | baseline | -12 | 0.1.5 | v0.12.3 |
 | [djjudas21](https://djjudas21.github.io/charts/) | hammond | baseline | -12 | 0.2.1 | 1.0.0 |
@@ -367,7 +368,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [dr300481](https://300481.github.io/charts/) | seafile | error_download |  | 0.5.0 | 8.0.5 |
 | [dr300481](https://300481.github.io/charts/) | shield | error_download |  | 0.3.1 | 0.3.1 |
 | [dragonchain](https://dragonchain-charts.s3.amazonaws.com) | dragonchain-k8s | baseline | 0 | 1.0.9 | 4.5.0 |
-| [dragonfly](https://dragonflyoss.github.io/helm-charts/) | dragonfly | privileged |  | 0.8.7 | 0.8.7 |
+| [dragonfly](https://dragonflyoss.github.io/helm-charts/) | dragonfly | privileged | -52 | 0.8.7 | 0.8.7 |
 | [dreyg-jescribanob-chart-eoloplanner](https://raw.githubusercontent.com/dreyg/mca_urjc/master/modulo_3_AN/3.2/p4/charts/) | eoloplanner | baseline | -36 | 0.1.0 | 1.16.0 |
 | [drogue-iot](https://drogue-iot.github.io/drogue-cloud-helm-charts/) | drogue-cloud-common | error_template |  | 0.7.0 |  |
 | [drogue-iot](https://drogue-iot.github.io/drogue-cloud-helm-charts/) | drogue-cloud-core | baseline | -276 | 0.7.0 | 0.11.0 |

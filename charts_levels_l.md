@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -16,10 +16,10 @@ Evaluation date: 2022-11-24, 21:44:38
 | [lacework-helm-charts](https://lacework.github.io/helm-charts/) | proxy-scanner | error_template |  | 0.11.2 | 1.0 |
 | [ladeit](https://ladeit.github.io/charts) | ladeit | error_download |  | 0.4.0 |  |
 | [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-build-deploy | error_download |  | 0.18.1 | v0.7.2 |
-| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-core | error_download |  | 1.15.0 | v2.10.0 |
+| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-core | error_download |  | 1.15.1 | v2.10.0 |
 | [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-logging | error_download |  | 0.71.0 |  |
 | [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-logs-concentrator | error_download |  | 0.42.0 |  |
-| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-remote | error_download |  | 0.69.1 |  |
+| [lagoon-charts](https://uselagoon.github.io/lagoon-charts/) | lagoon-remote | error_download |  | 0.69.2 |  |
 | [lakefs](https://charts.lakefs.io) | lakefs | error_download |  | 0.6.9 | 0.86.0 |
 | [lamp](https://lead4good.github.io/lamp-helm-repository) | lamp | error_download |  | 1.1.5 | 7 |
 | [landelijketabellencatalogus](https://raw.githubusercontent.com/ConductionNL/landelijketabellencatalogus/master/api/helm/) | landelijketabellencatalogus | error_download |  | 1.0.0 | V1.0 |
@@ -38,7 +38,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [leprechaun-charts](https://leprechaun.github.io/) | owntracks-frontend | error_download |  | 0.1.0 | 2.12.0 |
 | [leprechaun-charts](https://leprechaun.github.io/) | owntracks-reporter | error_download |  | 0.1.0 | 0.9.1 |
 | [leprechaun-charts](https://leprechaun.github.io/) | vaultwarden | error_download |  | 0.1.0 | 1.25.2 |
-| [lerentis](https://lerentis.github.io/bitwarden-crd-operator/) | bitwarden-crd-operator | baseline | -13 | 0.3.2 | 0.3.0 |
+| [lerentis](https://lerentis.github.io/bitwarden-crd-operator/) | bitwarden-crd-operator | baseline |  | 0.4.1 | 0.4.0 |
 | [lfedge-catalog](https://ericvh.github.io/lfedge-catalog) | hello | error_download |  | 0.1.0 | 1.16.0 |
 | [lfedge-catalog](https://ericvh.github.io/lfedge-catalog) | hello2 | error_download |  | 0.1.0 | 1.16.0 |
 | [lfedge-catalog](https://ericvh.github.io/lfedge-catalog) | hello3 | error_download |  | 0.1.0 | 13.2.11 |
@@ -101,7 +101,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [litmuschaos](https://litmuschaos.github.io/litmus-helm/) | kube-azure | error_download |  | 2.14.0 | 2.14.0 |
 | [litmuschaos](https://litmuschaos.github.io/litmus-helm/) | kube-gcp | error_download |  | 2.14.0 | 2.14.0 |
 | [litmuschaos](https://litmuschaos.github.io/litmus-helm/) | kubernetes-chaos | error_download |  | 2.28.0 | 2.14.0 |
-| [litmuschaos](https://litmuschaos.github.io/litmus-helm/) | litmus | error_download |  | 2.15.0 | 2.14.0 |
+| [litmuschaos](https://litmuschaos.github.io/litmus-helm/) | litmus | error_download |  | 2.15.1 | 2.14.0 |
 | [litmuschaos](https://litmuschaos.github.io/litmus-helm/) | litmus-core | error_download |  | 2.14.0 | 2.14.0 |
 | [liviu884422-pages](https://liviu884422.github.io) | pages | error_download |  | 1.0.0 | 1.0 |
 | [liwenhe](https://liwenhe1993.github.io/charts/) | clickhouse | privileged | -62 | 1.0.1 | 19.14 |
@@ -110,6 +110,9 @@ Evaluation date: 2022-11-24, 21:44:38
 | [locatiecatalogus](https://raw.githubusercontent.com/ConductionNL/locatiecatalogus/master/api/helm/) | ocatiecatalogus | error_download |  | 1.0.0 | V1.0 |
 | [locust-swarmadmin](https://mms-gianni.github.io/swarmadmin) | locustswarm | error_download |  | 0.1.1 | 2.4.0 |
 | [locust](https://raw.githubusercontent.com/hansehe/locust/master/helm/charts) | locust | error_download |  | 0.1.3 | 1.0.0 |
+| [loeken-at-home](https://loeken.github.io/helm-charts) | heimdall | error_download |  | 1.0.15 | 2.5.2 |
+| [loeken-at-home](https://loeken.github.io/helm-charts) | rtorrent-flood | error_download |  | 1.0.3 | 4.7.0 |
+| [loeken-at-home](https://loeken.github.io/helm-charts) | vaultwarden | error_download |  | 1.0.1 | 1.26.0-alpine |
 | [loeken](https://loeken.github.io/helm-charts) | heimdall | error_download |  | 1.0.5 | 2.4.15 |
 | [loft](https://charts.loft.sh) | cert-issuer | no_pod_object_but_crd | 0 | 0.0.4 |  |
 | [loft](https://charts.loft.sh) | component-chart | empty_no_object |  | 0.8.5 |  |

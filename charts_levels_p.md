@@ -2,14 +2,14 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
 | [p4-helm](https://raw.githubusercontent.com/zuldare/helm/main/helm/charts/) | myapp | error_download |  | 0.1.0 | 1.16.0 |
-| [pachyderm](https://helm.pachyderm.com) | pachyderm | error_download |  | 2.5.0-nightly.20221124-2cdb2cf2b8e68a6290e6fef6a0d304537f534987 | 2.5.0-nightly.20221124 |
+| [pachyderm](https://helm.pachyderm.com) | pachyderm | error_download |  | 2.5.0-nightly.20221125-2cdb2cf2b8e68a6290e6fef6a0d304537f534987 | 2.5.0-nightly.20221125 |
 | [packetai](https://packetai.github.io/helm-charts/) | packetai-agent | error_download |  | 1.18.0 | v1.15.2 |
 | [pacman](https://shuguet.github.io/pacman/) | pacman | error_download |  | 0.1.6 | 0.1.6 |
 | [pact-broker-chart](https://chrisjburns.github.io/pact-broker-chart) | pact-broker | error_download |  | 0.2.1 | 2.100.0.1 |
@@ -225,7 +225,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [platydev](https://charts.platy.plus) | traefik-cert-manager | error_template |  | 0.1.9 | 1.0 |
 | [platz-io](https://charts.platz.io/) | platzio | error_download |  | 0.4.7 | 0.4.7 |
 | [plausible-analytics](https://0xacab.org/api/v4/projects/3963/packages/helm/stable) | plausible-analytics | error_download |  | 0.3.19 | v1.4.4 |
-| [pleco](https://qovery.github.io/pleco/) | pleco | error_download |  | 0.13.18 | 0.13.18 |
+| [pleco](https://qovery.github.io/pleco/) | pleco | error_download |  | 0.13.19 | 0.13.19 |
 | [plum-helm](https://helm.plum-ops.com/) | chproxy | error_download |  | 1.0.4 | 1.14.0 |
 | [pmint93](https://pmint93.github.io/helm-charts) | metabase | error_download |  | 2.3.0 | v0.44.6 |
 | [pndaproject](https://pndaproject.github.io/pnda-helm-chart/) | cloud-pnda | version_not_evaluable | -386 | 0.1.0-beta1 | 6.0.0-beta1 |
@@ -378,11 +378,11 @@ Evaluation date: 2022-11-24, 21:44:38
 | [projectcalico](https://docs.projectcalico.org/charts/) | tigera-operator | error_download |  | 3.24.5 | v3.24.5 |
 | [prokopchyk-key-value-storage](https://mishaprokop4ik.github.io/storage/) | kv-bundle | error_download |  | 0.1.0 | 1.16.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | alertmanager | baseline | -12 | 0.22.0 | v0.24.0 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | jiralert | baseline | -1 | 0.1.0 | 1.2 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-prometheus-stack | privileged |  | 42.0.2 | 0.60.1 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-state-metrics | baseline | -23 | 4.23.0 | 2.6.0 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | jiralert | baseline |  | 1.0.0 | 1.2 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-prometheus-stack | privileged |  | 42.1.0 | 0.60.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | kube-state-metrics | baseline |  | 4.24.0 | 2.7.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prom-label-proxy | baseline | -1 | 0.1.0 | v0.5.0 |
-| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus | privileged |  | 17.0.2 | 2.39.1 |
+| [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus | privileged |  | 18.0.0 | 2.39.1 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-adapter | baseline | -4 | 3.4.2 | v0.10.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-blackbox-exporter | baseline | -1 | 7.1.3 | 0.22.0 |
 | [prometheus-community](https://prometheus-community.github.io/helm-charts) | prometheus-cloudwatch-exporter | baseline | -14 | 0.22.0 | 0.15.0 |
@@ -457,7 +457,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [pso](https://purestorage.github.io/pso-csi) | purestoragedriver | error_download |  | 6.0.0 | 6.0.0 |
 | [puckpuck](https://puckpuck.github.io/helm-charts) | kspan | error_download |  | 0.2.2 | 0.1.1 |
 | [puckpuck](https://puckpuck.github.io/helm-charts) | powerdns | error_download |  | 1.1.1 | 4 |
-| [puckpuck](https://puckpuck.github.io/helm-charts) | seashell | error_download |  | 0.3.0 | 0.1 |
+| [puckpuck](https://puckpuck.github.io/helm-charts) | seashell | error_download |  | 0.3.1 | 0.1 |
 | [punchplatform](https://punchplatform.github.io/punch-helm) | archive-housekeeping | version_not_evaluable | 0 | 7.0.2-SNAPSHOT |  |
 | [punchplatform](https://punchplatform.github.io/punch-helm) | artifacts | baseline | -13 | 8.0.0-latest |  |
 | [punchplatform](https://punchplatform.github.io/punch-helm) | artifacts-server | baseline | -13 | 8.0.2 | 8.0-dev |

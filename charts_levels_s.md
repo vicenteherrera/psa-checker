@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-24, 21:44:38
+Evaluation date: 2022-11-27, 21:51:50
 
-[main](./charts_levels)&nbsp; [A(1414)](./charts_levels_a)&nbsp; [B(473)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(422)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(270)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(641)](./charts_levels_k)&nbsp; [L(222)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(829)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(57)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -169,7 +169,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [seldon](https://storage.googleapis.com/seldon-charts) | seldon-single-model | error_download |  | 0.2.0 |  |
 | [selenium3](https://chart.testarchitect.com) | selenium3 | error_download |  | 1.2.4 | 3.141.59 |
 | [selerity](https://selerity.github.io/helm-charts/) | sas-analytics-pro | error_download |  | 0.1.1 | 0.18.30-20220920.1663692624971 |
-| [selerity](https://selerity.github.io/helm-charts/) | viya4-home-dir-builder | error_download |  | 0.2.3 | latest |
+| [selerity](https://selerity.github.io/helm-charts/) | viya4-home-dir-builder | error_download |  | 0.2.4 | latest |
 | [semaphore](https://photoneo.github.io/helm-chart-ansible-semaphore/) | semaphore | error_download |  | 1.0.2 | 2.8.53 |
 | [sematext](https://cdn.sematext.com/helm-charts/) | sematext-agent | error_download |  | 1.0.48 | 1.0 |
 | [sensrnet](https://kadaster-labs.github.io/sensrnet-helm-charts/) | central-viewer | baseline | -12 | 0.4.5 | 0.6.7 |
@@ -196,7 +196,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [shenyu-helm-chart-test](https://jooks-me.github.io/shenyu-helm-chart/) | shenyu | error_download |  | 2.4.27 | 1.16.0 |
 | [shenyu](https://apache.github.io/shenyu-helm-chart) | shenyu | error_download |  | 0.5.2 | 2.5.0 |
 | [shini4i](https://shini4i.github.io/charts/) | app | baseline | -12 | 0.0.8 |  |
-| [shini4i](https://shini4i.github.io/charts/) | argo-watcher | baseline |  | 0.2.7 | v0.3.1 |
+| [shini4i](https://shini4i.github.io/charts/) | argo-watcher | baseline |  | 0.2.8 | v0.3.1 |
 | [shini4i](https://shini4i.github.io/charts/) | common | empty_no_object |  | 0.0.1 |  |
 | [shini4i](https://shini4i.github.io/charts/) | mongodb-community-cluster | no_pod_object_but_crd | 0 | 0.2.0 | 6.0.2 |
 | [shoreline-agent](https://shorelinesoftware.github.io/shoreline-helm/) | shoreline-agent | error_download |  | 8.0.0 | 8.0.22 |
@@ -307,7 +307,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [slamdev](https://slamdev.github.io/helm-charts) | pgweb | baseline | -13 | 0.0.8 | 0.11.7 |
 | [slamdev](https://slamdev.github.io/helm-charts) | weblate | baseline | -12 | 0.0.11 | 3.11.3-1 |
 | [slamdev](https://slamdev.github.io/helm-charts) | zeppelin | baseline | -13 | 0.0.17 | 0.9.0 |
-| [sloth](https://slok.github.io/sloth) | sloth | error_download |  | 0.6.4 |  |
+| [sloth](https://slok.github.io/sloth) | sloth | error_download |  | 0.7.0 |  |
 | [smallstep](https://smallstep.github.io/helm-charts/) | autocert | baseline | -50 | 1.16.4 | 0.16.0 |
 | [smallstep](https://smallstep.github.io/helm-charts/) | step-certificates | baseline | -12 | 1.23.0 | 0.23.0 |
 | [smallstep](https://smallstep.github.io/helm-charts/) | step-issuer | baseline | -27 | 0.6.7 | 0.6.1 |
@@ -413,10 +413,10 @@ Evaluation date: 2022-11-24, 21:44:38
 | [softonic](https://charts.softonic.io) | policy-reporter | restricted | -2 | 2.13.0 | 2.10.0 |
 | [softonic](https://charts.softonic.io) | preemptible-killer | baseline | -2 | 1.2.6 | 1.2.6-2 |
 | [softonic](https://charts.softonic.io) | rate-limit-operator | baseline | -14 | 1.1.0 | 1.1.0 |
-| [softonic](https://charts.softonic.io) | redis-operator | baseline |  | 0.12.0 | 0.12.0 |
+| [softonic](https://charts.softonic.io) | redis-operator | baseline | -37 | 0.12.0 | 0.12.0 |
 | [softonic](https://charts.softonic.io) | redis-sharded | baseline | 0 | 0.3.0 | 6.0.6 |
 | [softonic](https://charts.softonic.io) | sealed-secrets | baseline | -14 | 2.6.9 | v0.18.5 |
-| [softonic](https://charts.softonic.io) | sealed-secrets-web | baseline |  | 3.0.5 | v3.0.5 |
+| [softonic](https://charts.softonic.io) | sealed-secrets-web | baseline | -26 | 3.0.5 | v3.0.5 |
 | [softonic](https://charts.softonic.io) | service-level-operator | baseline | -21 | 0.1.1 | v0.3.0 |
 | [softonic](https://charts.softonic.io) | varnish | baseline | 0 | 0.9.0 | 6.6 |
 | [softwaremill](https://charts.softwaremill.com/) | bootzooka | baseline | -24 | 0.2.1 | 1.0 |
@@ -427,7 +427,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [solace](https://solaceproducts.github.io/pubsubplus-kubernetes-quickstart/helm-charts/) | pubsubplus | error_download |  | 3.1.0 |  |
 | [solace](https://solaceproducts.github.io/pubsubplus-kubernetes-quickstart/helm-charts/) | pubsubplus-dev | error_download |  | 3.1.0 |  |
 | [solace](https://solaceproducts.github.io/pubsubplus-kubernetes-quickstart/helm-charts/) | pubsubplus-ha | error_download |  | 3.1.0 |  |
-| [solo-gloo-edge](https://storage.googleapis.com/solo-public-helm) | gloo | baseline |  | 1.13.0-rc1 |  |
+| [solo-gloo-edge](https://storage.googleapis.com/solo-public-helm) | gloo | baseline | -63 | 1.13.0-rc1 |  |
 | [solo-gloo-mesh](https://storage.googleapis.com/gloo-mesh/gloo-mesh) | gloo-mesh | baseline | -28 | 1.2.0-beta1 |  |
 | [soluto](https://charts.soluto.io) | kamus | error_download |  | 0.9.9 | 0.9.0.7 |
 | [soma-so1s-scale-out-test](https://so1s.github.io/scale-out-helm) | scale-out-test | error_download |  | 0.1.0 | 1.16.0 |
@@ -492,7 +492,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [stage](https://yacinegomycode.github.io/stageaddin/) | stage | error_download |  | 0.1.0 | 1.0 |
 | [stakater](https://stakater.github.io/stakater-charts) | alertmanager | no_pod_object_but_crd | 0 | 1.0.16 |  |
 | [stakater](https://stakater.github.io/stakater-charts) | allure | baseline | -12 | 1.0.1 | 1.0.0 |
-| [stakater](https://stakater.github.io/stakater-charts) | application | baseline |  | 1.2.11 |  |
+| [stakater](https://stakater.github.io/stakater-charts) | application | baseline |  | 1.3.0 |  |
 | [stakater](https://stakater.github.io/stakater-charts) | cerebro | baseline | -12 | 0.5.1 | 0.8.1 |
 | [stakater](https://stakater.github.io/stakater-charts) | chartmuseum | version_not_evaluable | -12 | 1.8.0 | 0.8.0 |
 | [stakater](https://stakater.github.io/stakater-charts) | chartmuseum-storage | no_pod_object | 0 | 1.0.12 |  |
@@ -565,11 +565,13 @@ Evaluation date: 2022-11-24, 21:44:38
 | [stakater](https://stakater.github.io/stakater-charts) | sonarqube | version_not_evaluable | -36 | 0.10.3 | 6.7.6 |
 | [stakater](https://stakater.github.io/stakater-charts) | splunk-operator | baseline | 0 | 0.0.6 | 0.0.1 |
 | [stakater](https://stakater.github.io/stakater-charts) | stakater-buildah | no_pod_object_but_crd | 0 | 1.0.1 | 1.16.0 |
+| [stakater](https://stakater.github.io/stakater-charts) | stakater-comment-on-pr | no_pod_object_but_crd |  | 1.0.2 | 1.0.0 |
 | [stakater](https://stakater.github.io/stakater-charts) | stakater-create-git-tag | no_pod_object_but_crd | 0 | 1.0.8 | 1.16.0 |
+| [stakater](https://stakater.github.io/stakater-charts) | stakater-github-update-cd-repo | no_pod_object_but_crd |  | 1.0.5 | 1.0.0 |
 | [stakater](https://stakater.github.io/stakater-charts) | stakater-gitlab-update-cd-repo | no_pod_object_but_crd | 0 | 1.0.2 | 1.16.0 |
 | [stakater](https://stakater.github.io/stakater-charts) | stakater-helm-push | no_pod_object_but_crd | 0 | 1.0.1 | 1.16.0 |
 | [stakater](https://stakater.github.io/stakater-charts) | stakater-push-main-tag | no_pod_object_but_crd | 0 | 1.0.1 | 1.16.0 |
-| [stakater](https://stakater.github.io/stakater-charts) | stakater-tekton-chart | no_pod_object_but_crd |  | 3.0.0 |  |
+| [stakater](https://stakater.github.io/stakater-charts) | stakater-tekton-chart | no_pod_object_but_crd |  | 3.5.3 |  |
 | [stakater](https://stakater.github.io/stakater-charts) | stakater-tenant-operator | baseline | -35 | 0.7.5 | 0.7.5 |
 | [stakater](https://stakater.github.io/stakater-charts) | storage | no_pod_object | 0 | 1.0.7 | 1.0.0 |
 | [stakater](https://stakater.github.io/stakater-charts) | tenant-insights | baseline | -1 | 0.0.37 | 0.0.37 |
@@ -596,7 +598,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [stakewise](https://charts.stakewise.io) | keeper | baseline | 0 | 2.8.4 | v2.8.3 |
 | [stakewise](https://charts.stakewise.io) | lighthouse | error_template |  | 2.2.7 | v3.3.0 |
 | [stakewise](https://charts.stakewise.io) | mev-boost | baseline | -12 | 1.4.0 | v1.4.0 |
-| [stakewise](https://charts.stakewise.io) | nethermind | baseline |  | 2.1.9 | v1.14.6 |
+| [stakewise](https://charts.stakewise.io) | nethermind | baseline | -1 | 2.1.9 | v1.14.6 |
 | [stakewise](https://charts.stakewise.io) | nimbus | error_template |  | 2.1.2 | multiarch-v22.7.0 |
 | [stakewise](https://charts.stakewise.io) | openethereum | error_template |  | 1.0.2 | v3.3.5 |
 | [stakewise](https://charts.stakewise.io) | operator | baseline | -36 | 2.1.1 | v2.0.6 |
@@ -742,7 +744,7 @@ Evaluation date: 2022-11-24, 21:44:38
 | [stevehipwell](https://stevehipwell.github.io/helm-charts/) | plantuml | baseline | -13 | 3.16.0 | 1.2022.13 |
 | [stevehipwell](https://stevehipwell.github.io/helm-charts/) | sonarqube | baseline | -1 | 4.7.1 | 9.7.1 |
 | [stevehipwell](https://stevehipwell.github.io/helm-charts/) | thanos | baseline | -1 | 1.7.0 | 0.29.0 |
-| [stevehipwell](https://stevehipwell.github.io/helm-charts/) | tigera-operator | privileged | -68 | 2.3.4 | 1.28.5 |
+| [stevehipwell](https://stevehipwell.github.io/helm-charts/) | tigera-operator | privileged |  | 2.3.5 | 1.28.6 |
 | [stksrshelm](https://settakit-sirisoft.github.io/stksrshelm/) | helm-nginx | error_download |  | 0.1.0 | 1.16.0 |
 | [stksrshelm](https://settakit-sirisoft.github.io/stksrshelm/) | mychart | error_download |  | 0.1.1 | 1.16.0 |
 | [stock-x](https://circle-1.github.io/helm-charts/) | stock-x | error_download |  | 0.1.5 | 0.0.12 |
@@ -790,30 +792,30 @@ Evaluation date: 2022-11-24, 21:44:38
 | [svenwiltink](https://svenwiltink.github.io/helm-charts) | gophers-forumcleaner | error_template |  | 0.1.1 | 1.0.0 |
 | [switchboard](oci://ghcr.io/borchero/charts/switchboard) | switchboard | error_download |  | 0.5.3 | 0.5.3 |
 | [sysdig](https://charts.sysdig.com/) | admission-controller | error_template |  | 0.7.9 | 3.9.14 |
-| [sysdig](https://charts.sysdig.com/) | agent | error_template |  | 1.5.42 | 12.9.1 |
+| [sysdig](https://charts.sysdig.com/) | agent | error_template |  | 1.5.43 | 12.9.1 |
 | [sysdig](https://charts.sysdig.com/) | cloud-bench | error_template |  | 0.2.1 | 0.1.0 |
 | [sysdig](https://charts.sysdig.com/) | cloud-connector | error_template |  | 0.7.19 | 0.16.23 |
 | [sysdig](https://charts.sysdig.com/) | cloud-scanning | error_template |  | 0.3.1 | 0.11.3 |
 | [sysdig](https://charts.sysdig.com/) | cspm-collector | error_template |  | 0.0.4 | 1.1.1 |
 | [sysdig](https://charts.sysdig.com/) | harbor-scanner-sysdig-secure | baseline | -12 | 0.3.3 | 0.5.0 |
 | [sysdig](https://charts.sysdig.com/) | kspm-collector | error_template |  | 0.1.24 | 1.11.0 |
-| [sysdig](https://charts.sysdig.com/) | node-analyzer | error_template |  | 1.7.45 | 12.6.0 |
-| [sysdig](https://charts.sysdig.com/) | rapid-response | error_template |  | 0.3.0 | 0.3.6 |
+| [sysdig](https://charts.sysdig.com/) | node-analyzer | error_template |  | 1.7.46 | 12.6.0 |
+| [sysdig](https://charts.sysdig.com/) | rapid-response | error_template |  | 0.3.1 | 0.3.6 |
 | [sysdig](https://charts.sysdig.com/) | registry-scanner | error_template |  | 0.0.34 | 0.1.9 |
 | [sysdig](https://charts.sysdig.com/) | sysdig | error_template |  | 1.15.55 | 12.9.1 |
 | [sysdig](https://charts.sysdig.com/) | sysdig-deploy | error_template |  | 1.4.9 |  |
 | [sysdig](https://charts.sysdig.com/) | sysdig-mcm-navmenu | error_template |  | 1.0.2 | 1.0.0 |
 | [sysdig](https://charts.sysdig.com/) | sysdig-stackdriver-bridge | baseline | -12 | 1.1.1 | 0.0.7 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | admission-controller | error_template |  | 0.7.9 | 3.9.14 |
-| [sysdiglabs](https://sysdiglabs.github.io/charts/) | agent | error_template |  | 1.5.42 | 12.9.1 |
+| [sysdiglabs](https://sysdiglabs.github.io/charts/) | agent | error_template |  | 1.5.43 | 12.9.1 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | cloud-bench | error_template |  | 0.2.1 | 0.1.0 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | cloud-connector | error_template |  | 0.7.19 | 0.16.23 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | cloud-scanning | error_template |  | 0.3.1 | 0.11.3 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | cspm-collector | error_template |  | 0.0.4 | 1.1.1 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | harbor-scanner-sysdig-secure | baseline | -12 | 0.3.3 | 0.5.0 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | kspm-collector | error_template |  | 0.1.24 | 1.11.0 |
-| [sysdiglabs](https://sysdiglabs.github.io/charts/) | node-analyzer | error_template |  | 1.7.45 | 12.6.0 |
-| [sysdiglabs](https://sysdiglabs.github.io/charts/) | rapid-response | error_template |  | 0.3.0 | 0.3.6 |
+| [sysdiglabs](https://sysdiglabs.github.io/charts/) | node-analyzer | error_template |  | 1.7.46 | 12.6.0 |
+| [sysdiglabs](https://sysdiglabs.github.io/charts/) | rapid-response | error_template |  | 0.3.1 | 0.3.6 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | registry-scanner | error_template |  | 0.0.34 | 0.1.9 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | sysdig | error_template |  | 1.15.55 | 12.9.1 |
 | [sysdiglabs](https://sysdiglabs.github.io/charts/) | sysdig-deploy | error_template |  | 1.4.9 |  |

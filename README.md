@@ -1,10 +1,19 @@
 # Pod Security Admission command line checker
 
-This command line tool statically checks for _Pod Security Standards_ levels on local YAML manifests or helm templates.
+Command line tool to statically checks for _Pod Security Standards_ levels on Kubernetes YAML manifests, including from local files or Helm charts, those processed in CI/CD pipelines, or running pods.
 
 GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)  
 Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
 Installation: `go install github.com/vicenteherrera/psa-checker@latest`  
+
+[![Go build](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
+[![Go test unit](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-unit.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
+[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-e2e.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)  
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/vicenteherrera/psa-checker)](https://goreportcard.com/report/github.com/vicenteherrera/psa-checker)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
+[![License](https://img.shields.io/badge/license-Apache-2--brightgreen)](/LICENSE.txt)
+
 
 ## Motivation
 
@@ -76,19 +85,17 @@ helm template prometheus-community/kube-prometheus-stack | psa-checker --level r
 
 This will work also for local charts that you are working with on your hard drive.
 
-### Validating a helm chart in a pipeline
+### Validating a Helm chart in a pipeline
 
 psa-checker will exit with errorlevel 1 if your provided manifests do not comply with the specified PSS level. You can use it to check it inside a pipeline to prevent deploying a Helm chart that whith pods that will be blocked on the running cluster. For example, if your Helm chart is in a `helm_chart` directory, you can use a workflow for GitHub Actions like this:
 
 ```yaml
-name: Check PSS level baseline for helm chart
+name: Check PSS level baseline for Helm chart
 on: 
   push:
-    branches:
-      - main
+    branches: [master, main]
   pull_request:
-    branches:
-      - main
+    branches: [master, main]
 jobs:
   Check-PSS-Level:
     runs-on: ubuntu-latest
