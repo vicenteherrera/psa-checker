@@ -1,6 +1,6 @@
 # Pod Security Admission command line checker
 
-This command line tool statically checks for _Pod Security Standards_ levels on local YAML manifests or Helm templates.
+Command line tool to statically checks for _Pod Security Standards_ levels on Kubernetes YAML manifests, including from local files or Helm charts, those processed in CI/CD pipelines, or running pods.
 
 GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)  
 Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
@@ -12,7 +12,7 @@ Installation: `go install github.com/vicenteherrera/psa-checker@latest`
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/vicenteherrera/psa-checker)](https://goreportcard.com/report/github.com/vicenteherrera/psa-checker)
 [![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
-[![License](https://img.shields.io/badge/license-Apache-2-brightgreen)](/LICENSE.txt)
+[![License](https://img.shields.io/badge/license-Apache-2--brightgreen)](/LICENSE.txt)
 
 
 ## Motivation
