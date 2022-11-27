@@ -1,6 +1,6 @@
 ---
-name: Go build
-run-name: ${{ github.actor }} go build 🚀
+name: Go test unit
+run-name: ${{ github.actor }} go test unit 🚀
 on:
   push:
     branches: [master, main]
@@ -29,4 +29,5 @@ jobs:
         with:
           go-version: '>=1.18.0'
       - run: go version
-      - run: make build
+      - run: make install_ginkgo
+      - run: make test

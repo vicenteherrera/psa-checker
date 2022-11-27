@@ -6,6 +6,15 @@ GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteh
 Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
 Installation: `go install github.com/vicenteherrera/psa-checker@latest`  
 
+[![Go build](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
+[![Go test unit](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-unit.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
+[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-e2e.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)  
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/vicenteherrera/psa-checker)](https://goreportcard.com/report/github.com/vicenteherrera/psa-checker)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
+[![License](https://img.shields.io/badge/license-Apache-2-brightgreen)](/LICENSE.txt)
+
+
 ## Motivation
 
 The Pod Security Admission included in Kubernetes 1.23 as beta enabled by default, checks pod's specs against [Pod Security Standards (PSS)](https://kubernetes.io/docs/concepts/security/pod-security-standards/) of _privileged_, _baseline_ or _restricted_. It works perfectly fine doing its job to prevent pods non compliant with a namespace's PSS to run.
@@ -84,11 +93,9 @@ psa-checker will exit with errorlevel 1 if your provided manifests do not comply
 name: Check PSS level baseline for Helm chart
 on: 
   push:
-    branches:
-      - main
+    branches: [master, main]
   pull_request:
-    branches:
-      - main
+    branches: [master, main]
 jobs:
   Check-PSS-Level:
     runs-on: ubuntu-latest
