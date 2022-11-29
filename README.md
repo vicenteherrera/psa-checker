@@ -1,19 +1,31 @@
+<div align="center">
+
+[![Sourcery Institute][sourcery-institute logo]][Sourcery Institute]
+
 # Pod Security Admission command line checker
+
+[![Go build](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
+[![Go test unit](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-unit.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
+[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-e2e.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
+[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml/badge.svg)](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/vicenteherrera/psa-checker)](https://goreportcard.com/report/github.com/vicenteherrera/psa-checker)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
+[![License](https://img.shields.io/badge/license-Apache--2-brightgreen)](/LICENSE.txt)
+
+[Overview](#overview) | [Motivation](#motivation) |
+[Warning](#warning) | [How it works](#how-it-works) |
+[Examples](#examples) | [Installation](#Installation) |
+[Build](#build-the-binary) | [Artifact Hub](#artifact-hub-helm-charts)
+
+</div>
+
+## Overview
 
 Command line tool to statically checks for _Pod Security Standards_ levels on Kubernetes YAML manifests, including from local files or Helm charts, those processed in CI/CD pipelines, or running pods.
 
 GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)  
 Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
-Installation: `go install github.com/vicenteherrera/psa-checker@latest`  
-
-[![Go build](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
-[![Go test unit](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-unit.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
-[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-e2e.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
-[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml/badge.svg)](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml)  
-
-[![Go Report Card](https://goreportcard.com/badge/github.com/vicenteherrera/psa-checker)](https://goreportcard.com/report/github.com/vicenteherrera/psa-checker)
-[![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
-[![License](https://img.shields.io/badge/license-Apache--2-brightgreen)](/LICENSE.txt)
+Installation: `curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash -s`  
 
 
 ## Motivation
@@ -126,10 +138,10 @@ To install the latest release, go to [releases](https://github.com/vicenteherrer
 
 ```bash
 # Linux / MacOs (Bash)
-curl -fsSL https://github.com/vicenteherrera/psa-checker/raw/install/install.sh | bash -s
+curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash -s
 
 # Windows (Powershell)
-iwr https://github.com/vicenteherrera/psa-checker/raw/install/install.ps1 -useb | iex
+iwr https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.ps1 -useb | iex
 ```
 
 You could install with `go install`, but you may get an unstable version not yet tagged.

@@ -4,17 +4,11 @@
 
 set -e
 
-if [ $# -eq 0 ]; then
-    echo "ERROR: Need to specify the install repository"
-    exit 1
-fi
-
-# eg. release-lab/whatchanged
-target=""
+target="vicenteherrera/psa-checker"
 owner="vicenteherrera"
 repo="psa-checker"
-exe_name="psa-checker"repo
-githubUrl=""
+exe_name="psa-checker"
+githubUrl="https://github.com"
 version=""
 
 get_arch() {
@@ -51,85 +45,33 @@ get_os(){
     echo $(uname -s | awk '{print tolower($0)}')
 }
 
-# parse flag
-for i in "$@"; do
-    case $i in
-        -r=*|--repo=*)
-            target="${i#*=}"
-            shift # past argument=value
-        ;;
-        -v=*|--version=*)
-            version="${i#*=}"
-            shift # past argument=value
-        ;;
-        -e=*|--exe=*)
-            exe_name="${i#*=}"
-            shift # past argument=value
-        ;;
-        -g=*|--github=*)
-            githubUrl="${i#*=}"
-            shift # past argument=value
-        ;;
-        *)
-            # unknown option
-        ;;
-    esac
-done
-
-args=(`echo $target | tr '/' ' '`)
-
-if [ ${#args[@]} -ne 2 ]; then
-    echo "ERROR: invalid params for repo '$1'"
-    echo "ERROR: the argument should be format like 'owner/repo'"
-    exit 1
-else
-    owner=${args[0]}
-    repo=${args[1]}
-fi
-
-if [ -z "$exe_name" ]; then
-    exe_name=$repo
-    echo "INFO: file name is not specified, use '$repo'"
-    echo "INFO: if you want to specify the name of the executable, set flag --exe=name"
-fi
-
-if [ -z "$githubUrl" ]; then
-    githubUrl="https://github.com"
-fi
-
-downloadFolder="${HOME}/Downloads"
-mkdir -p ${downloadFolder} # make sure download folder exists
 os=$(get_os)
 arch=$(get_arch)
 file_name="${exe_name}_${os}_${arch}.tar.gz" # the file name should be download
-downloaded_file="${downloadFolder}/${file_name}" # the file path should be download
 executable_folder="/usr/local/bin" # Eventually, the executable file will be placed here
 
 # if version is empty
 if [ -z "$version" ]; then
     asset_path=$(
-        command curl -sSf ${githubUrl}/${owner}/${repo}/releases |
+        command curl -sSf https://api.github.com/repos/${owner}/${repo}/releases/latest |
         command grep -o "/${owner}/${repo}/releases/download/.*/${file_name}" |
         command head -n 1
     )
-    if [[ ! "$asset_path" ]]; then exit 1; fi
+    if [ -z "$asset_path" ]; then echo "${file_name} not found in $asset_path"; exit 1; fi
     asset_uri="${githubUrl}${asset_path}"
 else
     asset_uri="${githubUrl}/${owner}/${repo}/releases/download/${version}/${file_name}"
 fi
 
-echo "[1/3] Download ${asset_uri} to ${downloadFolder}"
-rm -f ${downloaded_file}
-curl --fail --location --output "${downloaded_file}" "${asset_uri}"
+echo "[1/3] Download ${asset_uri} and extract to ${executable_folder}/${exe_name}"
+curl -fsSL "${asset_uri}" | tar -xz -C ${executable_folder} ${exe_name}
 
-echo "[2/3] Install ${exe_name} to the ${executable_folder}"
-tar -xz -f ${downloaded_file} -C ${executable_folder}
-exe=${executable_folder}/${exe_name}
-chmod +x ${exe}
+echo "[2/3] Make ${exe_name} executable"
+chmod +x ${executable_folder}/${exe_name}
 
-echo "[3/3] Set environment variables"
+echo "[3/3] Check executable is in path"
 echo "${exe_name} was installed successfully to ${exe}"
-if command -v $exe_name --version >/dev/null; then
+if command -v $exe_name version >/dev/null; then
     echo "Run '$exe_name --help' to get started"
 else
     echo "Manually add the directory to your \$HOME/.bash_profile (or similar)"
