@@ -1,13 +1,11 @@
 <div align="center">
 
-[![Sourcery Institute][sourcery-institute logo]][Sourcery Institute]
-
 # Pod Security Admission command line checker
 
 [![Go build](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
 [![Go test unit](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-unit.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
 [![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-e2e.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
-[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml/badge.svg)](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml)
+[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml/badge.svg)](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml)  
 [![Go Report Card](https://goreportcard.com/badge/github.com/vicenteherrera/psa-checker)](https://goreportcard.com/report/github.com/vicenteherrera/psa-checker)
 [![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
 [![License](https://img.shields.io/badge/license-Apache--2-brightgreen)](/LICENSE.txt)
