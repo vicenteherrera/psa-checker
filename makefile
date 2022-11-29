@@ -1,19 +1,34 @@
-.PHONY: build test
+
+# --------------------------------------------------------------------------------------
+
+GIT_SHA := $(shell git -c log.showSignature=false rev-parse HEAD 2>/dev/null)
+GIT_TAG := $(shell bash -c 'TAG=$$(git -c log.showSignature=false \
+	describe --tags --exact-match --abbrev=0 $(GIT_SHA) 2>/dev/null); echo "$${TAG:-dev}"')
+
+LDFLAGS=-s -w \
+        -X github.com/vicenteherrera/psa-checker/cmd/psa-checker.version=$(GIT_TAG)\
+        -X github.com/vicenteherrera/psa-checker/cmd/psa-checker.commit=$(GIT_SHA)
+
+# --------------------------------------------------------------------------------------
 
 TARGET_BIN=psa-checker
 MAIN_DIR=./
 CONTAINER_IMAGE=vicenteherrera/psa-checker
 
+.PHONY: all
 all: upgrade build run test test-e2e
 
+.PHONY: upgrade
 upgrade:
 	go mod tidy
 
+.PHONY: update
 update:
 	go mod download
 
+.PHONY: build
 build:
-	go build -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
+	go build -ldflags "$(LDFLAGS)" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
 
 vet:
 	go vet -v	
