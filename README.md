@@ -122,6 +122,17 @@ This will work even if you don't have enabled the admission controller for Pod S
 
 ## Installation
 
+To install the latest release, go to [releases](https://github.com/vicenteherrera/psa-checker/releases) and download the latest version for your platform, or use these script:
+
+```bash
+# Linux / MacOs (Bash)
+curl -fsSL https://github.com/vicenteherrera/psa-checker/raw/install/install.sh | bash -s
+
+# Windows (Powershell)
+iwr https://github.com/vicenteherrera/psa-checker/raw/install/install.ps1 -useb | iex
+```
+
+You could install with `go install`, but you may get an unstable version not yet tagged.
 ```bash
 go install github.com/vicenteherrera/psa-checker@latest
 ```
