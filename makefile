@@ -22,19 +22,15 @@ all: upgrade build run test test-e2e
 upgrade:
 	go mod tidy
 
-.PHONY: update
-update:
+.PHONY: mod_download
+mod_download:
 	go mod download
 
 .PHONY: build
 build:
 	go build -ldflags "$(LDFLAGS)" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
 
-vet:
-	go vet -v	
-
-build-release: update vet test-noginkgo
-	CGO_ENABLED=0 go build -ldflags="-s" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
+build-release: mod_download vet test-noginkgo
 
 # strip ./release/${TARGET_BIN}
 
