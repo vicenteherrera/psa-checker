@@ -20,5 +20,6 @@ generate_table:
 
 prepare_docs:
 	cp ../../README.md ../../../psa-docs/
+	sed -r s#\<\/?div.*\>##g -i ../../../psa-docs/README.md
 	cp ../../LICENSE.txt ../../../psa-docs/
 	cp ./result/*.md ../../../psa-docs/
