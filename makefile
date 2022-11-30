@@ -59,6 +59,9 @@ test:
 test-noginkgo:
 	go test -v ./... -args -ginkgo.v
 
+vet:
+	go vet -v
+
 test-e2e:
 	@echo "" ; echo "End to end tests"
 	@cd ./test && ./test-success.sh || ( echo "[  error  ] Compliant manifests test error" && exit 1 )
