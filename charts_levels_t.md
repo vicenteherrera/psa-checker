@@ -2,172 +2,179 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-27, 21:51:50
+Evaluation date: 2022-11-29, 22:57:08
 
-[main](./charts_levels)&nbsp; [A(1415)](./charts_levels_a)&nbsp; [B(474)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(642)](./charts_levels_k)&nbsp; [L(225)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(483)](./charts_levels_o)&nbsp; [P(474)](./charts_levels_p)&nbsp; [Q(13)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(831)](./charts_levels_s)&nbsp; [T(967)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(387)](./charts_levels_w)&nbsp; [X(1)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1416)](./charts_levels_a)&nbsp; [B(475)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(643)](./charts_levels_k)&nbsp; [L(227)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(485)](./charts_levels_o)&nbsp; [P(475)](./charts_levels_p)&nbsp; [Q(14)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(834)](./charts_levels_s)&nbsp; [T(974)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(388)](./charts_levels_w)&nbsp; [X(2)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | cloudsql-proxy | no_pod_object | 0 | 2.0.2 | 1.16 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | cronjob | version_not_evaluable | 0 | 0.1.0 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | dashkiosk | baseline | -12 | 2.0.0 | 2.7.8 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | elasticsearch | version_not_evaluable | 0 | 1.0.0 | 6.2.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | cloudsql-proxy | no_pod_object |  | 2.0.2 | 1.16 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | cronjob | version_not_evaluable |  | 0.1.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | dashkiosk | baseline |  | 2.0.0 | 2.7.8 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | elasticsearch | version_not_evaluable |  | 1.0.0 | 6.2.3 |
 | [t3n](https://storage.googleapis.com/t3n-helm-charts) | external-service | empty_no_object |  | 1.1.0 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | flow | version_not_evaluable | -24 | 0.1.0 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | fop | baseline | -12 | 1.0.0 | 2.1 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | graylog | version_not_evaluable | 0 | 1.0.0 | 2.4.3 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | gtmetrix-bq | version_not_evaluable | 0 | 1.0.0 | 0.2.0 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | loki | baseline | 0 | 1.0.0 | 1.5.0 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | matomo | baseline | -24 | 1.3.1 | 4.3.1 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mongodb | version_not_evaluable | 0 | 1.0.0 | 3.6.3 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mosquitto | baseline | -12 | 2.4.1 | 1.6.12 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mysql | baseline | -12 | 1.0.0 | 5.7.32 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mysql-backup | no_pod_object | 0 | 2.0.0 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | nginx | baseline | -12 | 0.1.1 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | pi-hole | baseline | -12 | 1.0.0 | 4.4 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | postgresql-backup | no_pod_object | 0 | 0.0.1 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | promtail | privileged | -10 | 1.0.0 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | sftp-gcs | baseline | -12 | 1.0.0 | 0.0.1 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | snipeit | baseline | -24 | 3.3.0 | 5.3.0 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | snowplow | baseline | -12 | 0.0.1 | 2.2.0 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | ssh-bastion | baseline | -12 | 1.0.0 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | stackdriver-prometheus | baseline | -13 | 0.1.0 | 0.4.3 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | tideways | baseline | -12 | 2.0.1 | 1.5.74 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | unifi-video | error_template |  | 1.0.0 | 3.10.10 |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | web | baseline | -12 | 2.0.0 |  |
-| [t3n](https://storage.googleapis.com/t3n-helm-charts) | zipkin-gcp | baseline | -12 | 1.0.0 | 0.15.2 |
-| [taalhuisen-frontend](https://raw.githubusercontent.com/ConductionNL/bisc-frontend/master/helm/) | bisc-taalhuizen | baseline | 0 | 0.1.2 | 1.16.0 |
-| [taalhuizen-logic](https://raw.githubusercontent.com/ConductionNL/taalhuizen-logic/master/api/helm/) | taalhuizen-logic | error_download |  | 1.0.0 | V1.0 |
-| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | postgresql | error_download |  | 10.1.1 | 11.10.0 |
-| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | redis | error_download |  | 12.7.7 | 6.0.11 |
-| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | taalhuizen-service | error_download |  | 1.0.0 | V1.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | flow | version_not_evaluable |  | 0.1.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | fop | baseline |  | 1.0.0 | 2.1 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | graylog | version_not_evaluable |  | 1.0.0 | 2.4.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | gtmetrix-bq | version_not_evaluable |  | 1.0.0 | 0.2.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | loki | baseline |  | 1.0.0 | 1.5.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | matomo | baseline |  | 1.3.1 | 4.3.1 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mongodb | version_not_evaluable |  | 1.0.0 | 3.6.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mosquitto | baseline |  | 2.4.1 | 1.6.12 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mysql | baseline |  | 1.0.0 | 5.7.32 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | mysql-backup | no_pod_object |  | 2.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | nginx | baseline |  | 0.1.1 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | pi-hole | baseline |  | 1.0.0 | 4.4 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | postgresql-backup | no_pod_object |  | 0.0.1 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | promtail | privileged |  | 1.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | sftp-gcs | baseline |  | 1.0.0 | 0.0.1 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | snipeit | baseline |  | 3.3.0 | 5.3.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | snowplow | baseline |  | 0.0.1 | 2.2.0 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | ssh-bastion | baseline |  | 1.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | stackdriver-prometheus | baseline |  | 0.1.0 | 0.4.3 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | tideways | baseline |  | 2.0.1 | 1.5.74 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | unifi-video | empty_no_object |  | 1.0.0 | 3.10.10 |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | web | baseline |  | 2.0.0 |  |
+| [t3n](https://storage.googleapis.com/t3n-helm-charts) | zipkin-gcp | baseline |  | 1.0.0 | 0.15.2 |
+| [taalhuisen-frontend](https://raw.githubusercontent.com/ConductionNL/bisc-frontend/master/helm/) | bisc-taalhuizen | baseline |  | 0.1.2 | 1.16.0 |
+| [taalhuizen-logic](https://raw.githubusercontent.com/ConductionNL/taalhuizen-logic/master/api/helm/) | taalhuizen-logic | error_template |  | 1.0.0 | V1.0 |
+| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | postgresql | error_template |  | 10.1.1 | 11.10.0 |
+| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | redis | error_template |  | 12.7.7 | 6.0.11 |
+| [taalhuizen-service](https://raw.githubusercontent.com/ConductionNL/taalhuizen-service/master/api/helm/) | taalhuizen-service | error_template |  | 1.0.0 | V1.0 |
 | [taduynghia](https://taduynghia.github.io/helm-chart-chat-app/) | chartapp | empty_no_object |  | 0.1.0 | 1.1.0 |
-| [tailing-sidecar-operator](https://sumologic.github.io/tailing-sidecar) | tailing-sidecar-operator | error_download |  | 0.5.5 | 0.5.5 |
-| [take-the-helm](https://dsaidgovsg.github.io/take-the-helm/) | take-the-helm | error_download |  | 0.1.0 | 0.1.0 |
-| [taken-component](https://raw.githubusercontent.com/ConductionNL/taken-component/master/api/helm/) | taken-component | error_download |  | 0.1.0 | V1.0 |
-| [talend](https://talend.github.io/helm-charts-public/stable) | vault-sidecar-injector | error_download |  | 4.3.2 | 7.2.1 |
-| [task-manager](oci://registry.gitlab.com/radiology/infrastructure/task-manager/helm-charts/task-manager) | task-manager | error_download |  | 0.1.0 | 6.5.0 |
-| [taskmedia](https://helm.task.media) | ipsec-vpn-server | error_download |  | 1.1.4 | latest |
-| [taskmedia](https://helm.task.media) | vpn-ios-profile | error_download |  | 0.2.3 | latest |
-| [teamcity-server](https://nefelim4ag.github.io/teamcity-charts/) | teamcity-server | error_download |  | 1.2.1 | 2022.04 |
-| [tejaswita-hadoop-helmchart](https://tejaswita1203.github.io/hadoop-helmchart/) | hadoop-deployment | baseline | -12 | 1.0.0 |  |
-| [tekton](https://cdfoundation.github.io/tekton-helm-chart/) | tekton-pipeline | error_download |  | 0.29.0 | 0.29.0 |
-| [telegraf-ds-k3s](https://xe-nvdk.github.io/awesome-helm-charts/) | telegraf-ds-k3s | error_download |  | 1.0.0 | 1.19 |
-| [telegraf](https://muhlba91.github.io/telegraf-chart) | telegraf | error_download |  | 1.0.1 | 1.23.3 |
-| [telegram-sender](https://danuk.github.io/k8s-telegram-sender/) | k8s-telegram-sender | error_download |  | 0.0.1 | 1.16.0 |
-| [teleivo-dhis2-core-helm](https://teleivo.github.io/dhis2-core-helm) | core | baseline | -12 | 0.10.1-beta | 1.16.0 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-cluster | error_download |  | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-kube-agent | error_download |  | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-discord | error_download |  | 11.0.3-hugodiscord.3 |  |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-email | error_download |  | 11.0.3 | 11.0.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-event-handler | error_download |  | 11.0.3 | 11.0.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-jira | error_download |  | 11.0.3 | 11.0.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-mattermost | error_download |  | 11.0.3 | 11.0.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-ms-teams | error_download |  | 11.0.0-hugoteams | 11.0.0-hugoteams |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-msteams | error_download |  | 11.0.3 | 11.0.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-pagerduty | error_download |  | 11.0.3 | 11.0.3 |
-| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-slack | error_download |  | 11.0.3 | 11.0.3 |
-| [tellery](https://tellery.github.io/charts/) | tellery | error_download |  | 0.0.17 | 0.8.4 |
-| [tensor-app](https://xeladock.github.io/helm/) | tensor_app | error_download |  | 0.2.2 | 0.16.0 |
-| [teochenglim](https://teochenglim.github.io/helm-charts/) | dummy-nginx | baseline | -12 | 1.0.2 | 1.0.0 |
-| [teochenglim](https://teochenglim.github.io/helm-charts/) | dummy-nginx-html | baseline | -12 | 1.0.1 | 1.0.0 |
-| [teochenglim](https://teochenglim.github.io/helm-charts/) | echoserver | baseline | -12 | 0.1.0 | 1.16.0 |
-| [teochenglim](https://teochenglim.github.io/helm-charts/) | kroki | baseline | -17 | 1.0.1 | 0.17.0 |
-| [ternero](http://gusraggio.github.io/ternero) | ternero | error_download |  | 0.1.6 | v0.2.13 |
-| [terraform-controller](https://absaoss.github.io/terraform-controller) | terraform-controller | error_download |  | 0.0.20 | v0.0.20 |
-| [teshub](https://testhub-io.github.io/testhub-helm) | testhub | error_download |  | 0.1.4 | 1.16.0 |
-| [test-helm](https://erdengk.github.io/chart-test) | shenyu | error_download |  | 2.4.21 | 1.16.0 |
-| [test-nginx-charts](https://yedukondalurd.github.io/nginx-charts/) | nginx-charts | error_download |  | 0.1.0 | 1.16.0 |
-| [test-nginx](https://vizarg.github.io/helm-chart-nginx/nginx) | nginx | error_download |  | 0.1.0 | 1.16.0 |
-| [test-upload](https://harness-apps.github.io/delegate-helm-chart/) | harness-delegate-ng | error_download |  | 1.0.3 | 1.16.0 |
+| [tailing-sidecar-operator](https://sumologic.github.io/tailing-sidecar) | tailing-sidecar-operator | error_template |  | 0.5.5 | 0.5.5 |
+| [take-the-helm](https://dsaidgovsg.github.io/take-the-helm/) | take-the-helm | error_template |  | 0.1.0 | 0.1.0 |
+| [taken-component](https://raw.githubusercontent.com/ConductionNL/taken-component/master/api/helm/) | taken-component | error_template |  | 0.1.0 | V1.0 |
+| [talend](https://talend.github.io/helm-charts-public/stable) | vault-sidecar-injector | error_template |  | 4.3.2 | 7.2.1 |
+| [task-manager](oci://registry.gitlab.com/radiology/infrastructure/task-manager/helm-charts/task-manager) | task-manager | error_template |  | 0.1.0 | 6.5.0 |
+| [taskmedia](https://helm.task.media) | ipsec-vpn-server | error_template |  | 1.1.4 | latest |
+| [taskmedia](https://helm.task.media) | vpn-ios-profile | error_template |  | 0.2.3 | latest |
+| [teamcity-server](https://nefelim4ag.github.io/teamcity-charts/) | teamcity-server | error_template |  | 1.2.1 | 2022.04 |
+| [tejaswita-hadoop-helmchart](https://tejaswita1203.github.io/hadoop-helmchart/) | hadoop-deployment | baseline |  | 1.0.0 |  |
+| [tekton](https://cdfoundation.github.io/tekton-helm-chart/) | tekton-pipeline | error_template |  | 0.29.0 | 0.29.0 |
+| [telegraf-ds-k3s](https://xe-nvdk.github.io/awesome-helm-charts/) | telegraf-ds-k3s | error_template |  | 1.0.0 | 1.19 |
+| [telegraf](https://muhlba91.github.io/telegraf-chart) | telegraf | error_template |  | 1.0.1 | 1.23.3 |
+| [telegram-sender](https://danuk.github.io/k8s-telegram-sender/) | k8s-telegram-sender | error_template |  | 0.0.1 | 1.16.0 |
+| [teleivo-dhis2-core-helm](https://teleivo.github.io/dhis2-core-helm) | core | baseline |  | 0.10.1-beta | 1.16.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-cluster | error_template |  | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-kube-agent | error_template |  | 12.0.0-dev.walt.3 | 12.0.0-dev.walt.3 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-discord | error_download |  | 11.1.0 |  |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-email | error_download |  | 11.1.0 | 11.1.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-event-handler | error_download |  | 11.1.0 | 11.1.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-jira | error_download |  | 11.1.0 | 11.1.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-mattermost | error_download |  | 11.1.0 | 11.1.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-ms-teams | error_template |  | 11.0.0-hugoteams | 11.0.0-hugoteams |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-msteams | error_download |  | 11.1.0 | 11.1.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-pagerduty | error_download |  | 11.1.0 | 11.1.0 |
+| [teleport-agent-kube](https://charts.releases.teleport.dev) | teleport-plugin-slack | error_download |  | 11.1.0 | 11.1.0 |
+| [tellery](https://tellery.github.io/charts/) | tellery | error_template |  | 0.0.17 | 0.8.4 |
+| [tensor-app](https://xeladock.github.io/helm/) | tensor_app | error_template |  | 0.2.2 | 0.16.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | dummy-nginx | baseline |  | 1.0.2 | 1.0.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | dummy-nginx-html | baseline |  | 1.0.1 | 1.0.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | echoserver | baseline |  | 0.1.0 | 1.16.0 |
+| [teochenglim](https://teochenglim.github.io/helm-charts/) | kroki | baseline |  | 1.0.1 | 0.17.0 |
+| [ternero](http://gusraggio.github.io/ternero) | ternero | error_template |  | 0.1.6 | v0.2.13 |
+| [terraform-controller](https://absaoss.github.io/terraform-controller) | terraform-controller | error_template |  | 0.0.20 | v0.0.20 |
+| [teshub](https://testhub-io.github.io/testhub-helm) | testhub | error_template |  | 0.1.4 | 1.16.0 |
+| [test-helm](https://erdengk.github.io/chart-test) | shenyu | error_template |  | 2.4.21 | 1.16.0 |
+| [test-nginx-charts](https://yedukondalurd.github.io/nginx-charts/) | nginx-charts | error_template |  | 0.1.0 | 1.16.0 |
+| [test-nginx](https://vizarg.github.io/helm-chart-nginx/nginx) | nginx | error_template |  | 0.1.0 | 1.16.0 |
+| [test-upload](https://harness-apps.github.io/delegate-helm-chart/) | harness-delegate-ng | error_template |  | 1.0.3 | 1.16.0 |
 | [test1](oci://registry.gitlab.com/kubelink/examples) | examples | error_download |  | 0.1.2 | 1.16.0 |
-| [test4322](https://anaghapirangute.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
-| [testappchart](https://syahmi001.github.io/helm_chart/) | testappchart | error_download |  | 0.1.0 | 1.16.0 |
-| [testrepo](https://300481.github.io/artifacthub2github) | testchart | error_download |  | 0.2.7 |  |
-| [testtt](oci://kahyt.azurecr.io/test-repo/services-kafka) | services-kafka | error_download |  | 0.1.0 | 1.16.0 |
-| [teuto-net](https://teutonet.github.io/teutonet-helm-charts) | base-cluster | privileged | -19 | 0.5.0 |  |
-| [tezos-node](https://chainstack.github.io/tezos-chart/) | tezos-node | error_download |  | 1.0.0 | 14.0 |
-| [tfservingcache](https://mkaloer.github.io/TFServingCache/) | tfservingcache | error_download |  | 0.1.1 | 1.0 |
-| [thanos](https://prasadrajesh.github.io/thanos/charts) | thanos | error_download |  | 2.5.2 | 0.15.0 |
+| [test4322](https://anaghapirangute.github.io/) | pages | error_template |  | 1.0.0 | 1.0 |
+| [testappchart](https://syahmi001.github.io/helm_chart/) | testappchart | error_template |  | 0.1.0 | 1.16.0 |
+| [testrepo](https://300481.github.io/artifacthub2github) | testchart | error_template |  | 0.2.7 |  |
+| [testtt](oci://kahyt.azurecr.io/test-repo/services-kafka) | services-kafka | error_template |  | 0.1.0 | 1.16.0 |
+| [teuto-net](https://teutonet.github.io/teutonet-helm-charts) | base-cluster | privileged |  | 0.5.0 |  |
+| [tezos-node](https://chainstack.github.io/tezos-chart/) | tezos-node | error_template |  | 1.0.0 | 14.0 |
+| [tfservingcache](https://mkaloer.github.io/TFServingCache/) | tfservingcache | error_template |  | 0.1.1 | 1.0 |
+| [thanos](https://prasadrajesh.github.io/thanos/charts) | thanos | error_template |  | 2.5.2 | 0.15.0 |
 | [the-ambassador](https://roche.github.io/the-ambassador/) | ambassador | error_template |  | 0.2.3 | 0.0.1 |
-| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | application-secrets | no_pod_object_but_crd | 0 | 0.1.2 | 1.16.0 |
-| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | external-secrets | no_pod_object_but_crd | 0 | 0.1.0 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | application-secrets | no_pod_object_but_crd |  | 0.1.2 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | external-secrets | no_pod_object_but_crd |  | 0.1.0 | 1.16.0 |
 | [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | idsvr | error_template |  | 0.0.5 | 6.7.3 |
-| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | idsvr-config-params | no_pod_object | 0 | 0.1.0 | 1.16.0 |
-| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | introspection-proxy | no_pod_object | 0 | 0.1.1 | 1.16.0 |
-| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | node-local-dns | privileged | -16 | 0.1.0 | 1.16.0 |
-| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | standard-application | baseline | 0 | 1.0.12 | 1.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | idsvr-config-params | no_pod_object |  | 0.1.0 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | introspection-proxy | no_pod_object |  | 0.1.1 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | node-local-dns | privileged |  | 0.1.0 | 1.16.0 |
+| [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | standard-application | baseline |  | 1.0.12 | 1.0 |
 | [thebitgram](https://raw.githubusercontent.com/TheBitgram/helm-charts/gh-pages) | unauthenticated-ingress | empty_no_object |  | 0.0.5 | 1.0 |
-| [thecampagnards](https://thecampagnards.github.io/helm-charts/) | postgrest | error_download |  | 0.1.6 | v9.0.0.20220211 |
-| [thecampagnards](https://thecampagnards.github.io/helm-charts/) | trafficlight-api | error_download |  | 0.1.1 | 0.1.0 |
-| [thingsboard](https://midokura.github.io/thingsboard-ce-k8s) | thingsboard | error_download |  | 0.1.3-rc.1 | 3.4.1 |
-| [thiru-pages](https://tbirgi.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
+| [thecampagnards](https://thecampagnards.github.io/helm-charts/) | postgrest | error_template |  | 0.1.6 | v9.0.0.20220211 |
+| [thecampagnards](https://thecampagnards.github.io/helm-charts/) | trafficlight-api | error_template |  | 0.1.1 | 0.1.0 |
+| [thingsboard](https://midokura.github.io/thingsboard-ce-k8s) | thingsboard | error_template |  | 0.1.3-rc.1 | 3.4.1 |
+| [thiru-pages](https://tbirgi.github.io/) | pages | error_template |  | 1.0.0 | 1.0 |
 | [thl-charts](http://charts.thunderal.net/) | game-server | error_template |  | 1.0.0 | 1.0.0 |
-| [thl-charts](http://charts.thunderal.net/) | mc-router | baseline | -13 | 0.1.0 | 1.16.1 |
-| [thl-charts](http://charts.thunderal.net/) | monitoring | privileged | -65 | 0.1.1 | 1.16.0 |
+| [thl-charts](http://charts.thunderal.net/) | mc-router | baseline |  | 0.1.0 | 1.16.1 |
+| [thl-charts](http://charts.thunderal.net/) | monitoring | privileged |  | 0.1.1 | 1.16.0 |
 | [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-agent | error_template |  | 1.4.8 | 1.4.1 |
-| [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-console | privileged | -203 | 1.4.8 | 1.4.1 |
-| [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-router | no_pod_object | 0 | 1.4.8 | 1.4.1 |
-| [thuy-pages](https://bthuy42.github.io/) | pages | error_download |  | 1.0.0 | 1.0 |
-| [tibber-exporter](https://terjesannum.github.io/tibber-exporter/) | tibber-exporter | error_download |  | 1.5.1 | 21 |
+| [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-console | privileged |  | 1.4.8 | 1.4.1 |
+| [threatmapper](https://deepfence-helm-charts.s3.amazonaws.com/threatmapper) | deepfence-router | no_pod_object |  | 1.4.8 | 1.4.1 |
+| [thuy-pages](https://bthuy42.github.io/) | pages | error_template |  | 1.0.0 | 1.0 |
+| [tibber-exporter](https://terjesannum.github.io/tibber-exporter/) | tibber-exporter | error_template |  | 1.5.1 | 21 |
 | [tikimim](https://tikimim.github.io/helm) | common | error_download |  | 0.0.1 | 0.0.1 |
-| [tinote-chart](https://denisshav.github.io/helm-chart/) | pock-helm-chart | error_download |  | 0.1.0 | 1.16.0 |
-| [tiny-api](https://2beens.github.io/tiny-api-k8s/) | tiny-api-chart | error_download |  | 1.0.0 | 1.16.0 |
-| [tnh](https://tnh7575.github.io/helm-charts) | grafana | baseline | -14 | 5.3.0 | 7.0.3 |
-| [tnh](https://tnh7575.github.io/helm-charts) | jenkins | baseline | -13 | 2.7.1 | lts |
-| [tnh](https://tnh7575.github.io/helm-charts) | metallb | privileged | -19 | 0.1.1 | 0.8.2 |
-| [tnh](https://tnh7575.github.io/helm-charts) | prometheus | privileged | -41 | 11.6.0 | 2.19.0 |
-| [todoapi-app](https://sonusathyadas.github.io/todoapi-helm-repo/helm/charts) | todoapi | error_download |  | 0.1.0 | 1.5.0 |
-| [token-registration-component](https://raw.githubusercontent.com/ConductionNL/token-registration-component/master/api/helm/) | token-registration-component | error_download |  | 0.1.0 | V1.0 |
-| [tor-snowflake-proxy](https://lukm.codeberg.page/helm-tor-snowflake-proxy/) | tor-snowflake-proxy | error_download |  | 0.2.1 | v2.3.0 |
-| [toshi](https://toshi-qcri.github.io/toshi-helm-charts) | toshi-bitcoin-parser | error_download |  | 0.1.32 |  |
-| [toucan](https://toucansoft.io/charts) | spa-reloader | error_download |  | 0.1.0 | 0.0.16 |
+| [tinote-chart](https://denisshav.github.io/helm-chart/) | pock-helm-chart | error_template |  | 0.1.0 | 1.16.0 |
+| [tiny-api](https://2beens.github.io/tiny-api-k8s/) | tiny-api-chart | error_template |  | 1.0.0 | 1.16.0 |
+| [tnh](https://tnh7575.github.io/helm-charts) | grafana | baseline |  | 5.3.0 | 7.0.3 |
+| [tnh](https://tnh7575.github.io/helm-charts) | jenkins | baseline |  | 2.7.1 | lts |
+| [tnh](https://tnh7575.github.io/helm-charts) | metallb | privileged |  | 0.1.1 | 0.8.2 |
+| [tnh](https://tnh7575.github.io/helm-charts) | prometheus | privileged |  | 11.6.0 | 2.19.0 |
+| [todoapi-app](https://sonusathyadas.github.io/todoapi-helm-repo/helm/charts) | todoapi | error_template |  | 0.1.0 | 1.5.0 |
+| [token-registration-component](https://raw.githubusercontent.com/ConductionNL/token-registration-component/master/api/helm/) | token-registration-component | error_template |  | 0.1.0 | V1.0 |
+| [tor-snowflake-proxy](https://lukm.codeberg.page/helm-tor-snowflake-proxy/) | tor-snowflake-proxy | error_template |  | 0.2.1 | v2.3.0 |
+| [toshi](https://toshi-qcri.github.io/toshi-helm-charts) | toshi-bitcoin-parser | error_template |  | 0.1.32 |  |
+| [toucan](https://toucansoft.io/charts) | spa-reloader | error_template |  | 0.1.0 | 0.0.16 |
 | [touk](https://helm-charts.touk.pl/public/) | apicurio-registry | error_template |  | 0.1.5 | 2.2.5.Final |
-| [touk](https://helm-charts.touk.pl/public/) | hermes | baseline | -12 | 0.5.14-SNAPSHOT.3172372307 | 1.12.3 |
+| [touk](https://helm-charts.touk.pl/public/) | hermes | baseline |  | 0.5.14-SNAPSHOT.3172372307 | 1.12.3 |
 | [touk](https://helm-charts.touk.pl/public/) | nussknacker | error_template |  | 1.6.0 | 1.6.0 |
-| [tpt](https://teacherspayteachers.github.io/helm-charts) | ebpf-exporter | privileged | -28 | 0.2.0 | 0.2.0 |
-| [tpt](https://teacherspayteachers.github.io/helm-charts) | linux-audit-exporter | privileged | -9 | 0.2.2 | 0.2.2 |
-| [traefik-jwt-decode](https://athics-team.github.io/traefik-jwt-decode/) | traefik-jwt-decode | error_download |  | 0.1.0 |  |
-| [traefik](https://traefik.github.io/charts) | hub-agent | error_download |  | 1.2.1 | v1.1.0 |
-| [traefik](https://traefik.github.io/charts) | maesh | error_download |  | 2.1.2 | v1.3.2 |
-| [traefik](https://traefik.github.io/charts) | traefik | error_download |  | 20.5.2 | v2.9.5 |
-| [traefik](https://traefik.github.io/charts) | traefik-mesh | error_download |  | 4.1.1 | v1.4.8 |
-| [traefik](https://traefik.github.io/charts) | traefikee | error_download |  | 1.4.2 | v2.8.4 |
-| [trafficserver-ingress-controller](https://apache.github.io/trafficserver-ingress-controller) | ats-ingress | baseline | -26 | 0.1.0 | 0.1.0 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-activedirectory | error_download |  | 1.0.5 | 1.0.20 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-add-cluster | error_download |  | 1.0.5 | 1.0.20 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-cluster-management | error_download |  | 3.0.10 | 1.0.30 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-cluster-management-by-group | error_download |  | 0.1.0 | 1.16.0 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-activedirectory | error_download |  | 1.0.24 | 1.0.24 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-github | error_download |  | 1.0.24 | 1.0.24 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-oidc | error_download |  | 1.0.24 | 1.0.24 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-saml2 | error_download |  | 1.0.24 | 1.0.24 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-managementproxy | error_download |  | 1.0.3 | 1.0.21 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-oidc | error_download |  | 1.0.5 | 1.0.20 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-saml2 | error_download |  | 1.0.2 | 1.0.20 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-kiali | error_download |  | 0.2.0 | 1.0.30 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-operator | error_download |  | 2.2.6 | 1.0.23 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-vcluster-admins | error_download |  | 0.1.0 | 1.16.0 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra | error_download |  | 2.10.14 | 1.0.29 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-azuread | error_download |  | 1.0.3 | 1.0.30 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-portal | error_download |  | 2.3.10 | 1.0.29 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-portal-argocd | error_download |  | 0.0.14 | 1.0.31 |
-| [tremolo](https://nexus.tremolo.io/repository/helm/) | vcluster-onboard | error_download |  | 0.4.0 | 1.31.0 |
-| [trickster](https://helm.tricksterproxy.io/) | trickster | error_download |  | 1.5.4 | 1.1 |
-| [trieb-work](https://trieb-work.github.io/helm-charts/) | gtm-server-container-cluster | baseline | -12 | 0.1.2 | 1.16.0 |
-| [trieb-work](https://trieb-work.github.io/helm-charts/) | saleor | privileged | -12 | 0.2.23 |  |
-| [trieb-work](https://trieb-work.github.io/helm-charts/) | saleor-helm | baseline | -12 | 0.1.25 |  |
-| [trieb-work](https://trieb-work.github.io/helm-charts/) | strapi | baseline | -12 | 0.1.47 | 1.16.0 |
-| [trino](https://trinodb.github.io/charts/) | trino | error_download |  | 0.8.0 | 375 |
-| [trouw-service](https://raw.githubusercontent.com/ConductionNL/trouw-service/master/api/helm/) | trouw-service | error_download |  | 1.0.0 | V1.0 |
-| [trozz](https://charts.trozzy.net/) | atlantis | baseline | -12 | 3.12.11 | v0.16.1 |
-| [trozz](https://charts.trozzy.net/) | homer | baseline | -12 | 0.0.1 | 20.07.2 |
-| [trozz](https://charts.trozzy.net/) | karma | baseline | -24 | 0.0.7 | 1.0 |
-| [trozz](https://charts.trozzy.net/) | kubernetes-external-secrets | baseline | -23 | 6.3.0 | 6.3.0 |
-| [trozz](https://charts.trozzy.net/) | monitoror | baseline | -1 | 0.0.1 | 4 |
-| [trozz](https://charts.trozzy.net/) | nessus | baseline | -12 | 0.1.0 | 1.16.0 |
-| [trozz](https://charts.trozzy.net/) | securenote | error_template |  | 0.0.1 | 1.0.0 |
-| [truecharts-library-charts](https://library-charts.truecharts.org) | common | error_template |  | 11.0.3 | latest |
+| [tpt](https://teacherspayteachers.github.io/helm-charts) | ebpf-exporter | privileged |  | 0.2.0 | 0.2.0 |
+| [tpt](https://teacherspayteachers.github.io/helm-charts) | linux-audit-exporter | privileged |  | 0.2.2 | 0.2.2 |
+| [traefik-jwt-decode](https://athics-team.github.io/traefik-jwt-decode/) | traefik-jwt-decode | error_template |  | 0.1.0 |  |
+| [traefik](https://traefik.github.io/charts) | hub-agent | error_template |  | 1.2.1 | v1.1.0 |
+| [traefik](https://traefik.github.io/charts) | maesh | error_template |  | 2.1.2 | v1.3.2 |
+| [traefik](https://traefik.github.io/charts) | traefik | error_download |  | 20.5.3 | v2.9.5 |
+| [traefik](https://traefik.github.io/charts) | traefik-mesh | error_template |  | 4.1.1 | v1.4.8 |
+| [traefik](https://traefik.github.io/charts) | traefikee | error_download |  | 1.6.0 | v2.9.0 |
+| [trafficserver-ingress-controller](https://apache.github.io/trafficserver-ingress-controller) | ats-ingress | baseline |  | 0.1.0 | 0.1.0 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-activedirectory | error_template |  | 1.0.5 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-add-cluster | error_template |  | 1.0.5 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-cluster-management | error_download |  | 3.0.12 | 1.0.30 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-cluster-management-by-group | error_template |  | 0.1.0 | 1.16.0 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-activedirectory | error_template |  | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-github | error_template |  | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-oidc | error_template |  | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-login-saml2 | error_template |  | 1.0.24 | 1.0.24 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-managementproxy | error_template |  | 1.0.3 | 1.0.21 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-oidc | error_template |  | 1.0.5 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-k8s-saml2 | error_template |  | 1.0.2 | 1.0.20 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-kiali | error_template |  | 0.2.0 | 1.0.30 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-operator | error_template |  | 2.2.6 | 1.0.23 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | openunison-vcluster-admins | error_template |  | 0.1.0 | 1.16.0 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra | error_download |  | 2.10.16 | 1.0.29 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-azuread | error_template |  | 1.0.3 | 1.0.30 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-portal | error_template |  | 2.3.10 | 1.0.29 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | orchestra-login-portal-argocd | error_template |  | 0.0.14 | 1.0.31 |
+| [tremolo](https://nexus.tremolo.io/repository/helm/) | vcluster-onboard | error_template |  | 0.4.0 | 1.31.0 |
+| [trickster](https://helm.tricksterproxy.io/) | trickster | error_template |  | 1.5.4 | 1.1 |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | gtm-server-container-cluster | baseline |  | 0.1.2 | 1.16.0 |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | saleor | privileged |  | 0.2.23 |  |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | saleor-helm | baseline |  | 0.1.25 |  |
+| [trieb-work](https://trieb-work.github.io/helm-charts/) | strapi | baseline |  | 0.1.47 | 1.16.0 |
+| [trino](https://trinodb.github.io/charts/) | trino | error_template |  | 0.8.0 | 375 |
+| [trivy-operator](https://aquasecurity.github.io/helm-charts/) | harbor-scanner-aqua | error_download |  | 0.14.0 | 0.14.0 |
+| [trivy-operator](https://aquasecurity.github.io/helm-charts/) | harbor-scanner-trivy | error_download |  | 0.30.2 | 0.30.2 |
+| [trivy-operator](https://aquasecurity.github.io/helm-charts/) | postee | error_download |  | 2.9.0 | v2.9.0 |
+| [trivy-operator](https://aquasecurity.github.io/helm-charts/) | starboard-operator | error_download |  | 0.10.10 | 0.15.10 |
+| [trivy-operator](https://aquasecurity.github.io/helm-charts/) | tracee | error_download |  | 0.9.3 | 0.9.3 |
+| [trivy-operator](https://aquasecurity.github.io/helm-charts/) | trivy | error_download |  | 0.4.17 | 0.30.4 |
+| [trivy-operator](https://aquasecurity.github.io/helm-charts/) | trivy-operator | error_download |  | 0.8.0-rc2 | 0.8.0-rc2 |
+| [trouw-service](https://raw.githubusercontent.com/ConductionNL/trouw-service/master/api/helm/) | trouw-service | error_template |  | 1.0.0 | V1.0 |
+| [trozz](https://charts.trozzy.net/) | atlantis | baseline |  | 3.12.11 | v0.16.1 |
+| [trozz](https://charts.trozzy.net/) | homer | baseline |  | 0.0.1 | 20.07.2 |
+| [trozz](https://charts.trozzy.net/) | karma | baseline |  | 0.0.7 | 1.0 |
+| [trozz](https://charts.trozzy.net/) | kubernetes-external-secrets | baseline |  | 6.3.0 | 6.3.0 |
+| [trozz](https://charts.trozzy.net/) | monitoror | baseline |  | 0.0.1 | 4 |
+| [trozz](https://charts.trozzy.net/) | nessus | baseline |  | 0.1.0 | 1.16.0 |
+| [trozz](https://charts.trozzy.net/) | securenote | empty_no_object |  | 0.0.1 | 1.0.0 |
+| [truecharts-library-charts](https://library-charts.truecharts.org) | common | error_template |  | 11.0.4 | latest |
 | [truecharts-library-charts](https://library-charts.truecharts.org) | dep-common | empty_no_object |  | 9.3.20 | latest |
 | [truecharts](https://charts.truecharts.org/) | acestream | empty_no_object |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | actualserver | baseline |  | 2.0.2 | 22.10.25 |
@@ -265,7 +272,7 @@ Evaluation date: 2022-11-27, 21:51:50
 | [truecharts](https://charts.truecharts.org/) | clamav | baseline |  | 4.0.2 | 0.105.1 |
 | [truecharts](https://charts.truecharts.org/) | clarkson | baseline |  | 4.0.2 | 1.1.2 |
 | [truecharts](https://charts.truecharts.org/) | cleanarr | baseline |  | 0.0.35 | 2.1.3 |
-| [truecharts](https://charts.truecharts.org/) | clickhouse | baseline | -32 | 3.0.3 | 22.11.1.13 |
+| [truecharts](https://charts.truecharts.org/) | clickhouse | baseline |  | 3.0.3 | 22.11.1.13 |
 | [truecharts](https://charts.truecharts.org/) | cloud9 | baseline |  | 5.0.2 | 1.29.2 |
 | [truecharts](https://charts.truecharts.org/) | cloudbeaver | baseline |  | 0.0.37 | latest |
 | [truecharts](https://charts.truecharts.org/) | cloudcommander | baseline |  | 0.0.37 | latest |
@@ -696,7 +703,7 @@ Evaluation date: 2022-11-27, 21:51:50
 | [truecharts](https://charts.truecharts.org/) | post-recording | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | poste | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | posterr | baseline |  | 2.0.2 | latest |
-| [truecharts](https://charts.truecharts.org/) | postgresql | baseline |  | 9.0.5 | 14.5.0 |
+| [truecharts](https://charts.truecharts.org/) | postgresql | baseline |  | 11.0.5 | 14.6.0 |
 | [truecharts](https://charts.truecharts.org/) | postscriptum | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | preclear | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | pretend-youre-xyzzy | baseline |  | 7.0.2 | 4 |
@@ -706,7 +713,7 @@ Evaluation date: 2022-11-27, 21:51:50
 | [truecharts](https://charts.truecharts.org/) | projectzomboidreporter-frontend | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | promcord | baseline |  | 5.0.3 | latest |
 | [truecharts](https://charts.truecharts.org/) | prometheus | privileged |  | 5.0.2 | 0.60.1 |
-| [truecharts](https://charts.truecharts.org/) | promtail | privileged | -45 | 6.0.0 | 2.7.0 |
+| [truecharts](https://charts.truecharts.org/) | promtail | privileged |  | 6.0.0 | 2.7.0 |
 | [truecharts](https://charts.truecharts.org/) | protonmail-bridge | baseline |  | 8.0.2 | 2.3.0 |
 | [truecharts](https://charts.truecharts.org/) | prowlarr | baseline |  | 7.0.2 | 0.4.8.2072 |
 | [truecharts](https://charts.truecharts.org/) | prpdf | baseline |  | 0.0.34 | latest |
@@ -814,7 +821,7 @@ Evaluation date: 2022-11-27, 21:51:50
 | [truecharts](https://charts.truecharts.org/) | snipe-it | baseline |  | 5.0.2 | 6.0.13 |
 | [truecharts](https://charts.truecharts.org/) | snippet-box | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | socials | baseline |  | 0.0.33 | main |
-| [truecharts](https://charts.truecharts.org/) | solr | baseline | -41 | 2.0.5 | 9.1.0 |
+| [truecharts](https://charts.truecharts.org/) | solr | baseline |  | 2.0.6 | 9.1.0 |
 | [truecharts](https://charts.truecharts.org/) | sonarqube | baseline |  | 0.0.39 | latest |
 | [truecharts](https://charts.truecharts.org/) | sonarr | baseline |  | 12.0.2 | 3.0.9.1549 |
 | [truecharts](https://charts.truecharts.org/) | songkong | baseline |  | 0.0.35 | latest |
@@ -840,7 +847,7 @@ Evaluation date: 2022-11-27, 21:51:50
 | [truecharts](https://charts.truecharts.org/) | storm | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | strapi | baseline |  | 6.0.2 | 4.4.7 |
 | [truecharts](https://charts.truecharts.org/) | stun-turn-server | baseline |  | 0.0.35 | latest |
-| [truecharts](https://charts.truecharts.org/) | subchart | baseline | 0 | 3.0.2 | jammy |
+| [truecharts](https://charts.truecharts.org/) | subchart | baseline |  | 3.0.2 | jammy |
 | [truecharts](https://charts.truecharts.org/) | suistartpage | baseline |  | 0.0.34 | latest |
 | [truecharts](https://charts.truecharts.org/) | survivethenights | baseline |  | 0.0.35 | latest |
 | [truecharts](https://charts.truecharts.org/) | synapse | error_template |  | 5.0.2 | 1.70.1 |
@@ -960,18 +967,18 @@ Evaluation date: 2022-11-27, 21:51:50
 | [truecharts](https://charts.truecharts.org/) | ztcuui-aio | error_template |  | 2.0.2 | 1.2.11 |
 | [truecharts](https://charts.truecharts.org/) | zusam | error_template |  | 2.0.2 | 0.5.3 |
 | [truecharts](https://charts.truecharts.org/) | zwavejs2mqtt | error_template |  | 13.0.2 | 8.3.0 |
-| [truenas-csp](https://hpe-storage.github.io/truenas-csp) | truenas-csp | error_download |  | 1.1.2 | 2.2.0 |
-| [tsg](https://nexus.dataspac.es/repository/tsg-helm) | tsg-connector | error_download |  | 3.1.1-master | 1.0 |
-| [tungntt](https://tungntt.github.io/devopt-helm-charts) | learning-fluentd | error_download |  | 0.1.0 | 1.16.0 |
-| [twin](https://twin.github.io/helm-charts) | aws-eks-asg-rolling-update-handler | baseline | -14 | 1.2.6 |  |
-| [twin](https://twin.github.io/helm-charts) | gatus | baseline | -12 | 0.1.1 |  |
-| [twin](https://twin.github.io/helm-charts) | k8s-ttl-controller | baseline | -14 | 0.2.0 |  |
-| [twitter-helm](https://github.com/stakkato95/twitter-helm/raw/gh-pages) | twitter-app | error_download |  | 0.1.12 |  |
-| [twuni](https://helm.twun.io) | docker-registry | baseline | -1 | 2.2.2 | 2.8.1 |
-| [twuni](https://helm.twun.io) | web-service | error_template |  | 0.0.5 | 0.0.5 |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-mongodb | error_download |  | 0.1.1 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-redis | error_download |  | 0.1.1 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-headless | error_download |  | 0.13.0 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-hybrid | error_download |  | 0.13.0 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-operator | error_download |  | 0.12.0 |  |
-| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-pro | error_download |  | 0.13.0 |  |
+| [truenas-csp](https://hpe-storage.github.io/truenas-csp) | truenas-csp | error_template |  | 1.1.2 | 2.2.0 |
+| [tsg](https://nexus.dataspac.es/repository/tsg-helm) | tsg-connector | error_template |  | 3.1.1-master | 1.0 |
+| [tungntt](https://tungntt.github.io/devopt-helm-charts) | learning-fluentd | error_template |  | 0.1.0 | 1.16.0 |
+| [twin](https://twin.github.io/helm-charts) | aws-eks-asg-rolling-update-handler | baseline |  | 1.2.6 |  |
+| [twin](https://twin.github.io/helm-charts) | gatus | baseline |  | 0.1.1 |  |
+| [twin](https://twin.github.io/helm-charts) | k8s-ttl-controller | baseline |  | 0.2.0 |  |
+| [twitter-helm](https://github.com/stakkato95/twitter-helm/raw/gh-pages) | twitter-app | error_template |  | 0.1.12 |  |
+| [twuni](https://helm.twun.io) | docker-registry | baseline |  | 2.2.2 | 2.8.1 |
+| [twuni](https://helm.twun.io) | web-service | empty_no_object |  | 0.0.5 | 0.0.5 |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-mongodb | error_template |  | 0.1.1 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | simple-redis | error_template |  | 0.1.1 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-headless | error_template |  | 0.13.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-hybrid | error_template |  | 0.13.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-operator | error_template |  | 0.12.0 |  |
+| [tyk-helm](https://helm.tyk.io/public/helm/charts/) | tyk-pro | error_template |  | 0.13.0 |  |
