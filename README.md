@@ -8,10 +8,7 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
 [![License](https://img.shields.io/badge/license-Apache--2-brightgreen)](/LICENSE.txt)
 
-[Overview](#overview) | [Motivation](#motivation) |
-[Warning](#warning) | [How it works](#how-it-works) |
-[Examples](#examples) | [Installation](#Installation) |
-[Build](#build-the-binary) | [Artifact Hub](#artifact-hub-helm-charts)
+[Overview](#overview) | [Motivation](#motivation) | [Warning](#warning) | [How it works](#how-it-works) | [Examples](#examples) | [Installation](#Installation) | [Build](#build-the-binary) | [Artifact Hub](#artifact-hub-helm-charts)
 
 ## Overview
 
