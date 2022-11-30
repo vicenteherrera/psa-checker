@@ -13,7 +13,7 @@ LDFLAGS=-s -w \
 
 TARGET_BIN=psa-checker
 MAIN_DIR=./
-CONTAINER_IMAGE=vicenteherrera/psa-checker
+CONTAINER_IMAGE=quay.io/vicenteherrera/psa-checker
 
 .PHONY: all
 all: upgrade build run test test-e2e
@@ -106,4 +106,10 @@ container-run:
 		-u $$(id -u $${USER}):$$(id -g $${USER}) \
 		${CONTAINER_IMAGE}
 
-container-build-run: container-build container-run
+# push the container image
+push:
+	${RUNSUDO} docker push ${CONTAINER_IMAGE}
+
+# pull the container image
+pull:
+	${RUNSUDO} docker pull ${CONTAINER_IMAGE}
