@@ -1,5 +1,3 @@
-<div align="center">
-
 # Pod Security Admission command line checker
 
 [![Go build](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
@@ -14,8 +12,6 @@
 [Warning](#warning) | [How it works](#how-it-works) |
 [Examples](#examples) | [Installation](#Installation) |
 [Build](#build-the-binary) | [Artifact Hub](#artifact-hub-helm-charts)
-
-</div>
 
 ## Overview
 
