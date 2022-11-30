@@ -13,7 +13,7 @@ LDFLAGS=-s -w \
 
 TARGET_BIN=psa-checker
 MAIN_DIR=./
-CONTAINER_IMAGE=vicenteherrera/psa-checker
+CONTAINER_IMAGE=quay.io/vicenteherrera/psa-checker
 
 .PHONY: all
 all: upgrade build run test test-e2e
@@ -22,19 +22,16 @@ all: upgrade build run test test-e2e
 upgrade:
 	go mod tidy
 
-.PHONY: update
-update:
+.PHONY: mod_download
+mod_download:
 	go mod download
 
 .PHONY: build
 build:
 	go build -ldflags "$(LDFLAGS)" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
 
-vet:
-	go vet -v	
-
-build-release: update vet test-noginkgo
-	CGO_ENABLED=0 go build -ldflags="-s" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
+build-release: mod_download vet test-noginkgo
+	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
 
 # strip ./release/${TARGET_BIN}
 
@@ -61,6 +58,9 @@ test:
 
 test-noginkgo:
 	go test -v ./... -args -ginkgo.v
+
+vet:
+	go vet -v
 
 test-e2e:
 	@echo "" ; echo "End to end tests"
@@ -106,4 +106,10 @@ container-run:
 		-u $$(id -u $${USER}):$$(id -g $${USER}) \
 		${CONTAINER_IMAGE}
 
-container-build-run: container-build container-run
+# push the container image
+push:
+	${RUNSUDO} docker push ${CONTAINER_IMAGE}
+
+# pull the container image
+pull:
+	${RUNSUDO} docker pull ${CONTAINER_IMAGE}

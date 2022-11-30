@@ -5,7 +5,6 @@
 [![Go build](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
 [![Go test unit](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-unit.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
 [![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-test-e2e.yaml/badge.svg?branch=main&event=push)](https://github.com/vicenteherrera/psa-checker/actions/workflows/go-build.yaml)
-[![Go test e2e](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml/badge.svg)](https://github.com/vicenteherrera/psa-checker/actions/workflows/release.yaml)  
 [![Go Report Card](https://goreportcard.com/badge/github.com/vicenteherrera/psa-checker)](https://goreportcard.com/report/github.com/vicenteherrera/psa-checker)
 [![Go Reference](https://pkg.go.dev/badge/github.com/vicenteherrera/psa-checker.svg)](https://pkg.go.dev/github.com/vicenteherrera/psa-checker)
 [![License](https://img.shields.io/badge/license-Apache--2-brightgreen)](/LICENSE.txt)
@@ -23,7 +22,10 @@ Command line tool to statically checks for _Pod Security Standards_ levels on Ku
 
 GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)  
 Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
-Installation: `curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash -s`  
+Installation: 
+```bash
+curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash -s
+```  
 
 
 ## Motivation
@@ -135,7 +137,7 @@ This will work even if you don't have enabled the admission controller for Pod S
 To install the latest release, go to [releases](https://github.com/vicenteherrera/psa-checker/releases) and download the latest version for your platform, or use these script:
 
 ```bash
-# Linux / MacOs (Bash)
+# Linux / MacOs (Bash): install binary to /usr/local/bin
 curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash -s
 
 # Windows (Powershell)
