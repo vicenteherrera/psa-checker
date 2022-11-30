@@ -31,6 +31,7 @@ build:
 	go build -ldflags "$(LDFLAGS)" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
 
 build-release: mod_download vet test-noginkgo
+	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" -o ./release/${TARGET_BIN} ${MAIN_DIR}/main.go
 
 # strip ./release/${TARGET_BIN}
 
