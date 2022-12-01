@@ -2,19 +2,19 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-29, 22:57:08
+Evaluation date: 2022-12-01, 09:47:41
 
-[main](./charts_levels)&nbsp; [A(1416)](./charts_levels_a)&nbsp; [B(475)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(643)](./charts_levels_k)&nbsp; [L(227)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(485)](./charts_levels_o)&nbsp; [P(475)](./charts_levels_p)&nbsp; [Q(14)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(834)](./charts_levels_s)&nbsp; [T(974)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(388)](./charts_levels_w)&nbsp; [X(2)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1416)](./charts_levels_a)&nbsp; [B(475)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(551)](./charts_levels_g)&nbsp; [H(242)](./charts_levels_h)&nbsp; [I(227)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(643)](./charts_levels_k)&nbsp; [L(228)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(485)](./charts_levels_o)&nbsp; [P(475)](./charts_levels_p)&nbsp; [Q(14)](./charts_levels_q)&nbsp; [R(360)](./charts_levels_r)&nbsp; [S(835)](./charts_levels_s)&nbsp; [T(976)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(388)](./charts_levels_w)&nbsp; [X(2)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
 | [qamatic](https://qamatic.github.io/charts) | pact-broker | error_template |  | 0.1.0 | 1.0 |
 | [qualys-helm-chart](https://qualys.github.io/Qualys-Helm-Charts/) | qcs-sensor | error_download |  | 1.0.0 | 1.19.2-0 |
-| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | cf-operator | baseline |  | 6.1.17+0.gec409fd7 | 6.1.17+0.gec409fd7 |
-| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks | baseline |  | 7.2.7+0.g3606ded | 7.2.7+0.g3606ded |
-| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks-job | baseline |  | 1.0.219 | 1.0.219 |
-| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks-secret | baseline |  | 1.0.761 | 1.0.761 |
-| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks-statefulset | baseline |  | 1.0.1320 | 1.0.1320 |
+| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | cf-operator | baseline | -134 | 6.1.17+0.gec409fd7 | 6.1.17+0.gec409fd7 |
+| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks | baseline | -203 | 7.2.7+0.g3606ded | 7.2.7+0.g3606ded |
+| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks-job | baseline | -46 | 1.0.219 | 1.0.219 |
+| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks-secret | baseline | -34 | 1.0.761 | 1.0.761 |
+| [quarks](https://cloudfoundry-incubator.github.io/quarks-helm/) | quarks-statefulset | baseline | -54 | 1.0.1320 | 1.0.1320 |
 | [quarkus-rest](https://laminba2003.github.io/quarkus-rest-services) | quarkus-rest | error_template |  | 0.1.0 | 1.16.0 |
 | [questdb](https://helm.questdb.io/) | questdb | error_template |  | 0.24.1 | 6.6.1 |
 | [queue-component](https://raw.githubusercontent.com/ConductionNL/queue-component/master/api/helm/) | queue-component | error_template |  | 0.1.0 | V1.0 |

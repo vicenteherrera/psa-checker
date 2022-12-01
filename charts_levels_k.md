@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-29, 22:57:08
+Evaluation date: 2022-12-01, 09:47:41
 
-[main](./charts_levels)&nbsp; [A(1416)](./charts_levels_a)&nbsp; [B(475)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(643)](./charts_levels_k)&nbsp; [L(227)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(485)](./charts_levels_o)&nbsp; [P(475)](./charts_levels_p)&nbsp; [Q(14)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(834)](./charts_levels_s)&nbsp; [T(974)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(388)](./charts_levels_w)&nbsp; [X(2)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1416)](./charts_levels_a)&nbsp; [B(475)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(551)](./charts_levels_g)&nbsp; [H(242)](./charts_levels_h)&nbsp; [I(227)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(643)](./charts_levels_k)&nbsp; [L(228)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(485)](./charts_levels_o)&nbsp; [P(475)](./charts_levels_p)&nbsp; [Q(14)](./charts_levels_q)&nbsp; [R(360)](./charts_levels_r)&nbsp; [S(835)](./charts_levels_s)&nbsp; [T(976)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(388)](./charts_levels_w)&nbsp; [X(2)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -14,24 +14,24 @@ Evaluation date: 2022-11-29, 22:57:08
 | [k2hdkc](https://helm.k2hdkc.antpick.ax/) | k2hdkc | error_template |  | 1.0.1 | 1.0.1 |
 | [k2hr3](https://helm.k2hr3.antpick.ax/) | k2hr3 | error_template |  | 1.0.2 | 1.0.2 |
 | [k8gb](https://www.k8gb.io) | k8gb | error_template |  | 0.10.0 | v0.10.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | clusterrole | no_pod_object |  | 1.0.0 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | clusterrolebinding | no_pod_object |  | 1.0.0 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | configmap | no_pod_object |  | 1.0.3 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | cronjob | version_not_evaluable |  | 1.0.0 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | ingress | no_pod_object |  | 1.0.3 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | job | restricted |  | 1.1.1 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | clusterrole | no_pod_object | 0 | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | clusterrolebinding | no_pod_object | 0 | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | configmap | no_pod_object | 0 | 1.0.3 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | cronjob | version_not_evaluable | 0 | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | ingress | no_pod_object | 0 | 1.0.3 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | job | restricted | 0 | 1.1.1 | v1.0.0 |
 | [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | lib-k8s-as-helm | empty_no_object |  | 1.3.0 | 1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | namespace | no_pod_object |  | 1.1.0 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | networkpolicy | no_pod_object |  | 1.0.1 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pdb | no_pod_object |  | 1.0.5 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pod | restricted |  | 1.0.1 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pvc | no_pod_object_but_crd |  | 1.0.5 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | role | no_pod_object |  | 1.0.0 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | rolebinding | no_pod_object |  | 1.0.0 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | secret | no_pod_object |  | 1.0.4 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | serviceaccount | no_pod_object |  | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | namespace | no_pod_object | 0 | 1.1.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | networkpolicy | no_pod_object | 0 | 1.0.1 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pdb | no_pod_object | 0 | 1.0.5 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pod | restricted | -12 | 1.0.1 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | pvc | no_pod_object_but_crd | 0 | 1.0.5 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | role | no_pod_object | 0 | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | rolebinding | no_pod_object | 0 | 1.0.0 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | secret | no_pod_object | 0 | 1.0.4 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | serviceaccount | no_pod_object | 0 | 1.0.0 | v1.0.0 |
 | [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | storageclass | error_template |  | 1.0.0 | v1.0.0 |
-| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | svc | no_pod_object |  | 1.0.4 | v1.0.0 |
+| [k8s-as-helm](https://ameijer.github.io/k8s-as-helm) | svc | no_pod_object | 0 | 1.0.4 | v1.0.0 |
 | [k8s-at-home](https://k8s-at-home.com/charts/) | adguard-home | baseline |  | 5.5.2 | v0.107.7 |
 | [k8s-at-home](https://k8s-at-home.com/charts/) | airsonic | baseline |  | 6.4.2 | 10.6.2 |
 | [k8s-at-home](https://k8s-at-home.com/charts/) | alertmanager-bot | baseline |  | 6.4.2 | 0.4.3 |
@@ -264,17 +264,17 @@ Evaluation date: 2022-11-29, 22:57:08
 | [k8sdb-controller](https://doodlescheduling.github.io/k8sdb-controller) | k8sdb-controller | error_template |  | 0.1.2 | v0.0.1 |
 | [k8skeycloak-controller](https://doodlescheduling.github.io/k8skeycloak-controller) | k8skeycloak-controller | error_template |  | 0.1.2 | v0.0.1 |
 | [k8soauth2-proxy-controller](https://doodlescheduling.github.io/k8soauth2-proxy-controller) | k8soauth2-proxy-controller | error_template |  | 0.1.5 | v0.1.2 |
-| [k8sonlab](https://charts.billias.cc) | librephotos | error_download |  | 0.202245.0 | 2022w45 |
+| [k8sonlab](https://charts.billias.cc) | librephotos | error_download |  | 0.202245.1 | 2022w45 |
 | [k8sprom-patch-controller](https://doodlescheduling.github.io/k8sprom-patch-controller) | k8sprom-patch-controller | error_template |  | 0.1.4 | v0.1.2 |
 | [k8ssandra-lightweight](https://abhijithganesh.tech/dokc-helm-chart/) | dokc-k8ssandra-lightweight | error_download |  | 0.1.0 |  |
-| [k8ssandra](https://helm.k8ssandra.io/) | backup | no_pod_object_but_crd |  | 0.26.0 |  |
+| [k8ssandra](https://helm.k8ssandra.io/) | backup | no_pod_object_but_crd | 0 | 0.26.0 |  |
 | [k8ssandra](https://helm.k8ssandra.io/) | cass-operator | error_template |  | 0.39.0 | 1.13.1 |
 | [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra | baseline | -64 | 1.6.0-20221121154524-83401577 |  |
 | [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra-common | empty_no_object |  | 0.28.6 |  |
 | [k8ssandra](https://helm.k8ssandra.io/) | k8ssandra-operator | error_template |  | 0.39.0 | 1.4.0 |
 | [k8ssandra](https://helm.k8ssandra.io/) | medusa-operator | baseline | 0 | 0.32.0 | 0.1.0 |
 | [k8ssandra](https://helm.k8ssandra.io/) | reaper-operator | baseline | 0 | 0.32.3 | 0.1.0 |
-| [k8ssandra](https://helm.k8ssandra.io/) | restore | no_pod_object_but_crd |  | 0.27.1 |  |
+| [k8ssandra](https://helm.k8ssandra.io/) | restore | no_pod_object_but_crd | 0 | 0.27.1 |  |
 | [k8status](https://stenic.github.io/k8status/) | k8status | error_download |  | 0.13.0 | 0.13.0 |
 | [k8stcpmap-controller](https://doodlescheduling.github.io/k8stcpmap-controller) | k8stcpmap-controller | error_template |  | 0.1.2 | v0.0.1 |
 | [k8svault-controller](https://doodlescheduling.github.io/k8svault-controller) | k8svault-controller | error_template |  | 0.1.2 | v0.2.0 |
@@ -298,90 +298,90 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kazarma](https://kazarma.gitlab.io/kazarma_helm) | kazarma | error_template |  | 1.4.0 | 0.1.0 |
 | [kcd-website](https://kcd-australia.github.io/kcd-website) | kcd-ui | error_template |  | 0.1.0 | 0.0.1 |
 | [kea](https://muhlba91.github.io/kea-container) | kea | error_template |  | 1.1.4 | @sha256:f770605566c507c1cc92eb93edc42e0a9b14cef0fe6d37618db5d6e7122395fc |
-| [kedacore](https://kedacore.github.io/charts) | external-scaler-azure-cosmos-db | baseline |  | 0.1.0 | 0.1.0 |
-| [kedacore](https://kedacore.github.io/charts) | keda | restricted |  | 2.8.2 | 2.8.1 |
-| [kedacore](https://kedacore.github.io/charts) | keda-add-ons-http | baseline |  | 0.3.0 | 0.3.0 |
+| [kedacore](https://kedacore.github.io/charts) | external-scaler-azure-cosmos-db | baseline | -13 | 0.1.0 | 0.1.0 |
+| [kedacore](https://kedacore.github.io/charts) | keda | restricted | -27 | 2.8.2 | 2.8.1 |
+| [kedacore](https://kedacore.github.io/charts) | keda-add-ons-http | baseline | -41 | 0.3.0 | 0.3.0 |
 | [keel](https://charts.keel.sh) | keel | error_template |  | 0.9.11 | 0.16.1 |
 | [kellnr](https://bitfalter.github.io/helm/) | kellnr | error_template |  | 0.8.1 | 2.2.1 |
 | [kelvins](https://kelvins.github.io/helm-charts/) | mlflow | error_template |  | 0.4.0 | 1.26.1 |
 | [keptn-ortelius-service](https://ortelius.github.io/keptn-ortelius-service) | keptn-ortelius-service | error_template |  | 0.0.1 | 0.0.1 |
 | [keptn](https://charts.keptn.sh) | common | empty_no_object |  | 0.20.0-next.0 |  |
-| [keptn](https://charts.keptn.sh) | helm-service | baseline |  | 0.18.2 | 0.18.2 |
-| [keptn](https://charts.keptn.sh) | jmeter-service | baseline |  | 0.18.2 | 0.18.2 |
-| [keptn](https://charts.keptn.sh) | keptn | baseline |  | 0.20.0-next.0 | 0.20.0-next.0 |
+| [keptn](https://charts.keptn.sh) | helm-service | baseline | -26 | 0.18.2 | 0.18.2 |
+| [keptn](https://charts.keptn.sh) | jmeter-service | baseline | 0 | 0.18.2 | 0.18.2 |
+| [keptn](https://charts.keptn.sh) | keptn | baseline | -19 | 0.20.0-next.0 | 0.20.0-next.0 |
 | [keras-ready-env](https://yanuragaj.github.io/Task_28/charts/) | keras-env | error_template |  | 0.0.1 | 1.1.0 |
 | [kestra](https://helm.kestra.io/) | kestra | error_template |  | 0.5.1 | 0.5.1 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | csi-driver-nfs | privileged |  | 0.1.4 | 2.0.0 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | dynamodb | baseline |  | 0.1.27 | 1.12.0 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | gitea | baseline |  | 0.2.10 | 1.12.4 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | gogs | baseline |  | 0.1.3 | 0.12.3 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | helm-csi-driver-nfs | privileged |  | 0.1.0 | 2.0.0 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | helm-mongodb-operator | baseline |  | 0.1.0 | 1.8.2 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | k8sci | version_not_evaluable |  | 0.1.13 | 0.15.0 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | statsd | baseline |  | 0.1.19 | v0.8.6 |
-| [keyporttech](https://keyporttech.github.io/helm-charts) | xwiki | baseline |  | 0.2.0 | 12.9.0 |
-| [kfirfer](https://kfirfer.github.io/helm/) | elastalert2 | baseline |  | 2.2.4 | 2.2.3 |
-| [kfirfer](https://kfirfer.github.io/helm/) | elasticsearch | privileged |  | 7.17.3 | 7.17.3 |
-| [kfirfer](https://kfirfer.github.io/helm/) | elasticsearch-curator | baseline |  | 2.2.2 | 5.8.4 |
-| [kfirfer](https://kfirfer.github.io/helm/) | event-exporter | baseline |  | 0.0.4 | 0.9 |
-| [kfirfer](https://kfirfer.github.io/helm/) | haproxy | baseline |  | 0.1.2 | 2.2.14 |
-| [kfirfer](https://kfirfer.github.io/helm/) | heartbeat | privileged |  | 7.17.3 | 7.17.3 |
-| [kfirfer](https://kfirfer.github.io/helm/) | jellyfin | baseline |  | 2.0.2 | 10.7.5 |
-| [kfirfer](https://kfirfer.github.io/helm/) | kibana-index-pattern-updater | baseline |  | 0.0.1 | 1.0.12 |
-| [kfirfer](https://kfirfer.github.io/helm/) | kube-hunter | baseline |  | 1.0.4 | 0.6.8 |
-| [kfirfer](https://kfirfer.github.io/helm/) | mysql-check | baseline |  | 0.1.4 | 10.5.8 |
-| [kfirfer](https://kfirfer.github.io/helm/) | mysql-cluster | baseline |  | 0.0.3 | 8.0.20 |
-| [kfirfer](https://kfirfer.github.io/helm/) | mysqldump | baseline |  | 2.7.2 | 2.4.1 |
-| [kfirfer](https://kfirfer.github.io/helm/) | oauth2-proxy | baseline |  | 3.3.1 | v6.1.1 |
-| [kfirfer](https://kfirfer.github.io/helm/) | onlyoffice | baseline |  | 1.2.3 | 7.0.1.37 |
-| [kfirfer](https://kfirfer.github.io/helm/) | percona-toolkit | baseline |  | 0.0.5 | 3.2.1 |
-| [kfirfer](https://kfirfer.github.io/helm/) | percona-xtradb-cluster | version_not_evaluable |  | 1.5.4 | 8.0.27-18.1 |
-| [kfirfer](https://kfirfer.github.io/helm/) | permission-manager | baseline |  | 1.0.6 | v1.7.1-rc1 |
-| [kfirfer](https://kfirfer.github.io/helm/) | phpmemcachedadmin | baseline |  | 0.1.3 | latest |
-| [kfirfer](https://kfirfer.github.io/helm/) | phpmyadmin | baseline |  | 0.0.3 | 5.0.2 |
-| [kfirfer](https://kfirfer.github.io/helm/) | pmm-server | baseline |  | 0.2.4 | 2.27.0 |
-| [kfirfer](https://kfirfer.github.io/helm/) | proxysql | baseline |  | 0.0.2 | 2.0.15 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | csi-driver-nfs | privileged | -44 | 0.1.4 | 2.0.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | dynamodb | baseline | 0 | 0.1.27 | 1.12.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | gitea | baseline | -24 | 0.2.10 | 1.12.4 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | gogs | baseline | -24 | 0.1.3 | 0.12.3 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | helm-csi-driver-nfs | privileged | -45 | 0.1.0 | 2.0.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | helm-mongodb-operator | baseline | -24 | 0.1.0 | 1.8.2 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | k8sci | version_not_evaluable | -26 | 0.1.13 | 0.15.0 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | statsd | baseline | 0 | 0.1.19 | v0.8.6 |
+| [keyporttech](https://keyporttech.github.io/helm-charts) | xwiki | baseline | -12 | 0.2.0 | 12.9.0 |
+| [kfirfer](https://kfirfer.github.io/helm/) | elastalert2 | baseline | 0 | 2.2.4 | 2.2.3 |
+| [kfirfer](https://kfirfer.github.io/helm/) | elasticsearch | privileged | 0 | 7.17.3 | 7.17.3 |
+| [kfirfer](https://kfirfer.github.io/helm/) | elasticsearch-curator | baseline | 0 | 2.2.2 | 5.8.4 |
+| [kfirfer](https://kfirfer.github.io/helm/) | event-exporter | baseline | -13 | 0.0.4 | 0.9 |
+| [kfirfer](https://kfirfer.github.io/helm/) | haproxy | baseline | 0 | 0.1.2 | 2.2.14 |
+| [kfirfer](https://kfirfer.github.io/helm/) | heartbeat | privileged | -10 | 7.17.3 | 7.17.3 |
+| [kfirfer](https://kfirfer.github.io/helm/) | jellyfin | baseline | 0 | 2.0.2 | 10.7.5 |
+| [kfirfer](https://kfirfer.github.io/helm/) | kibana-index-pattern-updater | baseline | -1 | 0.0.1 | 1.0.12 |
+| [kfirfer](https://kfirfer.github.io/helm/) | kube-hunter | baseline | 0 | 1.0.4 | 0.6.8 |
+| [kfirfer](https://kfirfer.github.io/helm/) | mysql-check | baseline | 0 | 0.1.4 | 10.5.8 |
+| [kfirfer](https://kfirfer.github.io/helm/) | mysql-cluster | baseline | -36 | 0.0.3 | 8.0.20 |
+| [kfirfer](https://kfirfer.github.io/helm/) | mysqldump | baseline | 0 | 2.7.2 | 2.4.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | oauth2-proxy | baseline | -12 | 3.3.1 | v6.1.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | onlyoffice | baseline | -12 | 1.2.3 | 7.0.1.37 |
+| [kfirfer](https://kfirfer.github.io/helm/) | percona-toolkit | baseline | 0 | 0.0.5 | 3.2.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | percona-xtradb-cluster | version_not_evaluable | -12 | 1.5.4 | 8.0.27-18.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | permission-manager | baseline | -106 | 1.0.6 | v1.7.1-rc1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | phpmemcachedadmin | baseline | -12 | 0.1.3 | latest |
+| [kfirfer](https://kfirfer.github.io/helm/) | phpmyadmin | baseline | -12 | 0.0.3 | 5.0.2 |
+| [kfirfer](https://kfirfer.github.io/helm/) | pmm-server | baseline | -12 | 0.2.4 | 2.27.0 |
+| [kfirfer](https://kfirfer.github.io/helm/) | proxysql | baseline | -12 | 0.0.2 | 2.0.15 |
 | [kfirfer](https://kfirfer.github.io/helm/) | redis-commander | empty_no_object |  | 0.1.4 | latest |
-| [kfirfer](https://kfirfer.github.io/helm/) | redis-ha | baseline |  | 4.12.9 | 6.0.11 |
-| [kfirfer](https://kfirfer.github.io/helm/) | skooner | baseline |  | 0.0.3 | 0.0.1 |
+| [kfirfer](https://kfirfer.github.io/helm/) | redis-ha | baseline | -12 | 4.12.9 | 6.0.11 |
+| [kfirfer](https://kfirfer.github.io/helm/) | skooner | baseline | -26 | 0.0.3 | 0.0.1 |
 | [kiae](https://kiaedev.github.io/helm-charts) | kiae | error_template |  | 0.1.2 |  |
 | [kiali](https://kiali.org/helm-charts) | kiali-operator | error_download |  | 1.60.0 | v1.60.0 |
 | [kiali](https://kiali.org/helm-charts) | kiali-server | error_download |  | 1.60.0 | v1.60.0 |
 | [kimai2tet](https://gresci.github.io/kimai2-helmchart/) | kimai-helmchart | error_template |  | 0.1.0 | 1.16.0 |
 | [kir4h](https://kir4h.github.io/charts) | registry-creds | error_template |  | 1.3.0 | 1.10 |
 | [kit-infra](https://kitadmin01.github.io/kit-infra/pack) | analytickit | error_template |  | 0.0.1 | 0.0.1 |
-| [kiwigrid](https://kiwigrid.github.io) | any-resource | no_pod_object |  | 0.1.0 | 0.1.0 |
-| [kiwigrid](https://kiwigrid.github.io) | enmasse | baseline |  | 0.1.0 | 0.30.1 |
-| [kiwigrid](https://kiwigrid.github.io) | enmasse-crd | no_pod_object_but_crd |  | 0.1.0 | 0.30.1 |
-| [kiwigrid](https://kiwigrid.github.io) | error-pages | baseline |  | 1.0.0 | 1.0 |
-| [kiwigrid](https://kiwigrid.github.io) | gcp-serviceaccount-controller | baseline |  | 0.3.2 | 0.3.0 |
-| [kiwigrid](https://kiwigrid.github.io) | grafana-dashboards | no_pod_object |  | 0.2.0 |  |
-| [kiwigrid](https://kiwigrid.github.io) | graphite | baseline |  | 1.0.0 | 1.1.10-3 |
-| [kiwigrid](https://kiwigrid.github.io) | influxdb-backup | version_not_evaluable |  | 0.2.0 | 1.7.10 |
-| [kiwigrid](https://kiwigrid.github.io) | ingress-annotator | baseline |  | 0.2.0 | 0.1.0 |
-| [kiwigrid](https://kiwigrid.github.io) | keycloak-client-controller | baseline |  | 0.1.0 | 0.1.0 |
-| [kiwigrid](https://kiwigrid.github.io) | keycloak-controller | baseline |  | 0.6.1 | 2.0.0 |
-| [kiwigrid](https://kiwigrid.github.io) | kubernetes-policy-controller | baseline |  | 0.1.2 | 1.2 |
-| [kiwigrid](https://kiwigrid.github.io) | prometheus-thanos | baseline |  | 4.9.4 | 0.27.0 |
-| [kiwigrid](https://kiwigrid.github.io) | secret-replicator | baseline |  | 0.6.0 | 0.2.0 |
-| [kiwigrid](https://kiwigrid.github.io) | spring-cloud-config-server | baseline |  | 0.1.3 | 2.1.3.RELEASE |
-| [kiwigrid](https://kiwigrid.github.io) | stackdriver-exporter | baseline |  | 0.2.0 | 0.6.0 |
-| [kiwigrid](https://kiwigrid.github.io) | zipkin-stackdriver-proxy | baseline |  | 0.1.0 | v0.6.0 |
+| [kiwigrid](https://kiwigrid.github.io) | any-resource | no_pod_object | 0 | 0.1.0 | 0.1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | enmasse | baseline | -39 | 0.1.0 | 0.30.1 |
+| [kiwigrid](https://kiwigrid.github.io) | enmasse-crd | no_pod_object_but_crd | 0 | 0.1.0 | 0.30.1 |
+| [kiwigrid](https://kiwigrid.github.io) | error-pages | baseline | -12 | 1.0.0 | 1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | gcp-serviceaccount-controller | baseline | -37 | 0.3.2 | 0.3.0 |
+| [kiwigrid](https://kiwigrid.github.io) | grafana-dashboards | no_pod_object | 0 | 0.2.0 |  |
+| [kiwigrid](https://kiwigrid.github.io) | graphite | baseline | -12 | 1.0.0 | 1.1.10-3 |
+| [kiwigrid](https://kiwigrid.github.io) | influxdb-backup | version_not_evaluable | 0 | 0.2.0 | 1.7.10 |
+| [kiwigrid](https://kiwigrid.github.io) | ingress-annotator | baseline | -13 | 0.2.0 | 0.1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | keycloak-client-controller | baseline | -25 | 0.1.0 | 0.1.0 |
+| [kiwigrid](https://kiwigrid.github.io) | keycloak-controller | baseline | -25 | 0.6.1 | 2.0.0 |
+| [kiwigrid](https://kiwigrid.github.io) | kubernetes-policy-controller | baseline | -13 | 0.1.2 | 1.2 |
+| [kiwigrid](https://kiwigrid.github.io) | prometheus-thanos | baseline | -72 | 4.9.4 | 0.27.0 |
+| [kiwigrid](https://kiwigrid.github.io) | secret-replicator | baseline | -13 | 0.6.0 | 0.2.0 |
+| [kiwigrid](https://kiwigrid.github.io) | spring-cloud-config-server | baseline | -12 | 0.1.3 | 2.1.3.RELEASE |
+| [kiwigrid](https://kiwigrid.github.io) | stackdriver-exporter | baseline | -12 | 0.2.0 | 0.6.0 |
+| [kiwigrid](https://kiwigrid.github.io) | zipkin-stackdriver-proxy | baseline | -12 | 0.1.0 | v0.6.0 |
 | [kjournal](oci://ghcr.io/raffis/charts/kjournal) | kjournal | error_template |  | 1.0.2 | 1.0.2 |
 | [klustair](https://klustair.github.io/klustair-helm) | klustair | error_template |  | 0.8.1 | 0.8.1 |
 | [koala](https://watri.github.io/helm-repo/) | koala | error_template |  | 1.1.1 | 1.1.1 |
 | [koala](https://watri.github.io/helm-repo/) | sample-nodejs-app | error_template |  | 5.5.7 | 3.0.6 |
-| [kodelib](https://helm.kodelib.com) | code-server | baseline |  | 0.3.11 | 3.9.3-r1-ubuntu |
-| [kokuwa](https://kokuwaio.github.io/helm-charts) | fluentd-elasticsearch | privileged |  | 13.7.1 | v4.2.3 |
-| [kokuwa](https://kokuwaio.github.io/helm-charts) | mysqldump | baseline |  | 6.0.0 | v3.0.16 |
-| [kokuwa](https://kokuwaio.github.io/helm-charts) | visual-regression-tracker | baseline |  | 0.4.2 | 4.20.5 |
-| [komodor](https://helm-charts.komodor.io) | k8s-watcher | error_download |  | 1.0.14 | 0.1.144 |
+| [kodelib](https://helm.kodelib.com) | code-server | baseline | -12 | 0.3.11 | 3.9.3-r1-ubuntu |
+| [kokuwa](https://kokuwaio.github.io/helm-charts) | fluentd-elasticsearch | privileged |  | 13.8.0 | v4.2.3 |
+| [kokuwa](https://kokuwaio.github.io/helm-charts) | mysqldump | baseline | 0 | 6.0.0 | v3.0.16 |
+| [kokuwa](https://kokuwaio.github.io/helm-charts) | visual-regression-tracker | baseline |  | 1.1.0 | 4.20.5 |
+| [komodor](https://helm-charts.komodor.io) | k8s-watcher | error_download |  | 1.0.16 | 0.1.146 |
 | [kong-mesh](https://kong.github.io/kong-mesh-charts) | kong-mesh | error_template |  | 2.0.0 | 2.0.0 |
-| [kong-z](https://charts.kong-z.com/) | graylog | privileged |  | 2.2.0 | 4.3.8 |
+| [kong-z](https://charts.kong-z.com/) | graylog | privileged | 0 | 2.2.0 | 4.3.8 |
 | [kong](https://charts.konghq.com) | kong | error_template |  | 2.13.1 | 3.0 |
 | [koordinator](https://koordinator-sh.github.io/charts) | koordinator | error_template |  | 1.0.0 | 1.0.0 |
 | [kpow](https://charts.kpow.io) | kpow | error_template |  | 1.0.41 | 90.2 |
-| [krakazyabra](https://krakazyabra.github.io/microservices) | cadvisor | baseline |  | 1.0.1 | v0.40.0 |
+| [krakazyabra](https://krakazyabra.github.io/microservices) | cadvisor | baseline | -13 | 1.0.1 | v0.40.0 |
 | [krakazyabra](https://krakazyabra.github.io/microservices) | common | empty_no_object |  | 0.1.13 |  |
 | [krakazyabra](https://krakazyabra.github.io/microservices) | mariadb | error_template |  | 1.0.5 | 110.4.20 |
 | [krakazyabra](https://krakazyabra.github.io/microservices) | nginx | empty_no_object |  | 1.0.0 | 1.19.0 |
@@ -392,16 +392,16 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kremers](https://kremers.github.io) | vmware-exporter | error_template |  | 2.3.0 | v0.18.4 |
 | [kronco-aapm-agent](https://bugraaktug.github.io/kronco-aapm-agent) | kron-aapm-agent | error_template |  | 1.1.0 | 1.1.0 |
 | [kronco-aapm-sidecar](https://bugraaktug.github.io/kronco-aapm-sidecar/) | kron-aapm-sidecar | error_template |  | 1.1.0 | 1.1.0 |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | argo-app-manager | no_pod_object_but_crd |  | 0.0.11 |  |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | argus | privileged |  | 0.0.2 | 0.4.1 |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | dashy | baseline |  | 1.0.0 | 2.1.1 |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | kube-ns-suspender | baseline |  | 0.0.3 | v2.1.0 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | argo-app-manager | no_pod_object_but_crd | 0 | 0.0.11 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | argus | privileged | -6 | 0.0.2 | 0.4.1 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | dashy | baseline | -12 | 1.0.0 | 2.1.1 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | kube-ns-suspender | baseline | -13 | 0.0.3 | v2.1.0 |
 | [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | namespace-management | empty_no_object |  | 0.0.2 |  |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | ohmyform | baseline |  | 0.0.1 | 1.0.3 |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | pav | privileged |  | 0.0.1 | 0.0.2 |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | postgresql-backup-to-minio | baseline |  | 0.0.1 |  |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | tooljet | baseline |  | 1.0.0 | v1.18.0 |
-| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | user-management | no_pod_object |  | 0.0.1 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | ohmyform | baseline | -12 | 0.0.1 | 1.0.3 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | pav | privileged | 0 | 0.0.1 | 0.0.2 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | postgresql-backup-to-minio | baseline | 0 | 0.0.1 |  |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | tooljet | baseline | -12 | 1.0.0 | v1.18.0 |
+| [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | user-management | no_pod_object | -25 | 0.0.1 |  |
 | [krzwiatrzyk](https://krzwiatrzyk.github.io/charts/) | zitadel | error_template |  | 3.0.1 | v2.1.1-amd64 |
 | [ktech-org](https://ktech-org.github.io/bandstand-charts/) | bandstand-cron-job | empty_no_object |  | 1.8.4 |  |
 | [ktech-org](https://ktech-org.github.io/bandstand-charts/) | bandstand-test-runner | empty_no_object |  | 1.2.2 |  |
@@ -421,12 +421,12 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kube-wordpress-mysql](https://anselming.github.io/kube-wordpress-mysql) | kube-wordpress-mysql | error_template |  | 0.1.0 | 0.0.1-alpha |
 | [kube-wordpress](https://harsh-del.github.io/wordpress-charts/charts/) | wordpress | error_template |  | 0.1.0 | 1.1 |
 | [kube2iam](https://jtblin.github.io/kube2iam) | kube2iam | error_template |  | 2.6.0 | 0.10.9 |
-| [kubecost](https://kubecost.github.io/cost-analyzer) | cost-analyzer | privileged |  | 1.98.0 | 1.98.0 |
+| [kubecost](https://kubecost.github.io/cost-analyzer) | cost-analyzer | privileged | -35 | 1.98.0 | 1.98.0 |
 | [kubedex](https://kubedex.github.io/charts) | helm-controller | error_template |  | 0.4.0 | 1.0 |
 | [kubefed](https://raw.githubusercontent.com/kubernetes-sigs/kubefed/master/charts) | kubefed | error_template |  | 0.10.0 |  |
-| [kubeflow](https://alauda.github.io/kubeflow-chart) | certmanager | baseline |  | 1.0.0 | 1.3.1 |
-| [kubeflow](https://alauda.github.io/kubeflow-chart) | istio | baseline |  | 1.0.0 | 1.9 |
-| [kubeflow](https://alauda.github.io/kubeflow-chart) | kubeflow | baseline |  | 1.5.1 | 1.5.0 |
+| [kubeflow](https://alauda.github.io/kubeflow-chart) | certmanager | baseline | -128 | 1.0.0 | 1.3.1 |
+| [kubeflow](https://alauda.github.io/kubeflow-chart) | istio | baseline | -36 | 1.0.0 | 1.9 |
+| [kubeflow](https://alauda.github.io/kubeflow-chart) | kubeflow | baseline | -657 | 1.5.1 | 1.5.0 |
 | [kubegems](https://charts.kubegems.io/kubegems) | argo-cd | error_download |  | 3.3.5 | 2.3.4 |
 | [kubegems](https://charts.kubegems.io/kubegems) | argo-rollouts | error_download |  | 1.0.0 | 2.14.0 |
 | [kubegems](https://charts.kubegems.io/kubegems) | bundle-controller | error_download |  | 1.0.0-alpha1 | 1.0.0-alpha1 |
@@ -517,70 +517,70 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kubernetes-logging](https://nickytd.github.io/kubernetes-logging-helm) | kubernetes-logging | error_template |  | 4.5.2 |  |
 | [kubernetesweekly](https://zufardhiyaulhaq.com/kubernetesweekly/charts/releases/) | kubernetesweekly | error_template |  | 2.1.0 | 2.1.0 |
 | [kubes](https://kubes.io/kubes-ttl-chart) | kubes-ttl | error_template |  | 0.1.2 | 1.0.0 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | api-server | baseline |  | 0.11.16 | 0.11.16 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | api-server | baseline | -47 | 0.11.16 | 0.11.16 |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | common | empty_no_object |  | 0.1.0 | 0.1.0 |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | global | error_template |  | 0.1.0 | 0.1.0 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway | baseline |  | 0.0.59 | v1.3.19 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-api | baseline |  | 0.1.25 | v1.2.1 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-dashboard | baseline |  | 0.1.17 | v1.2.5 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-envoyfleet | no_pod_object_but_crd |  | 0.0.7 | v0.0.0 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube | baseline |  | 1.7.48 |  |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway | baseline | -27 | 0.0.59 | v1.3.19 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-api | baseline | -13 | 0.1.25 | v1.2.1 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-dashboard | baseline | -12 | 0.1.17 | v1.2.5 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | kusk-gateway-envoyfleet | no_pod_object_but_crd | 0 | 0.0.7 | v0.0.0 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube | baseline |  | 1.7.49 |  |
 | [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-api | error_template |  | 1.7.17 | 1.7.17 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-dashboard | baseline |  | 1.8.4 | 1.8.4 |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-operator | baseline |  | 1.7.0 |  |
-| [kubeshop](https://kubeshop.github.io/helm-charts) | tracetest | baseline |  | 0.2.25 | v0.8.1 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | apisix | baseline |  | 0.1.7 | 1.15.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | aws-ebs-csi-driver | privileged |  | 0.3.0 | 0.5.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | aws-efs-csi-driver | privileged |  | 0.1.0 | 0.3.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | aws-fsx-csi-driver | privileged |  | 0.1.0 | 0.1.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | biz-engine | version_not_evaluable |  | 0.1.0 | 1.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | ccm-qingcloud | baseline |  | 0.1.0 | 1.4.12 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | clickhouse | baseline |  | 0.1.1 | 21.1 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | cni-hostnic | privileged |  | 0.1.0 | v1.0.3 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | csi-neonsan | privileged |  | 1.2.7 | 1.2.2 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | csi-qingcloud | privileged |  | 1.3.6 | 1.3.6 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | curvefs-csi | privileged |  | 0.1.0 | 1.0.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | etcd | baseline |  | 0.1.3 | 3.3.12 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | ks-core | privileged |  | 0.2.0 | v4.0.0-alpha.1 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | ks-installer | privileged |  | 0.3.1 | 3.2.1 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | metersphere | baseline |  | 1.0.0 | 1.6.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | metersphere-chart | baseline |  | 1.0.0 | 1.6.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | minio-gateway | baseline |  | 0.1.0 | 0.1.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | mongodb | baseline |  | 0.3.2 | 4.2.1 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | mysql | baseline |  | 1.0.2 | 5.7.33 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | nacos | baseline |  | 0.1.1 | 1.4.1 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | online-boutique | baseline |  | 0.1.0 | 1.16.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | openelb | privileged |  | 0.2.4 | 0.4.4 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | porter | privileged |  | 0.2.2 | 0.4.3 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | postgresql | baseline |  | 1.0.3 | 11.11.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | rabbitmq | baseline |  | 0.3.2 | 3.8.1 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | radondb-mysql | baseline |  | 1.0.1 | 5.7.33 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | radondb-postgresql | baseline |  | 1.0.2 | 11.11.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | rbd-provisioner | baseline |  | 0.1.1 | 0.1.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | redis | baseline |  | 0.3.5 | 6.0.9 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | sample-bookinfo | baseline |  | 1.0.0 | 1.16.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | skywalking | privileged |  | 3.1.0 | 8.1.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | snapshot-controller | baseline |  | 0.2.0 | 4.0.0 |
-| [kubesphere-test](https://charts.kubesphere.io/test) | xenondb | baseline |  | 1.0.0 | 5.7.33 |
-| [kubesphere](https://charts.kubesphere.io/main) | apisix | baseline |  | 0.7.2 | 2.10.0 |
-| [kubesphere](https://charts.kubesphere.io/main) | apisix-dashboard | baseline |  | 0.3.0 | 2.9.0 |
-| [kubesphere](https://charts.kubesphere.io/main) | apisix-ingress-controller | baseline |  | 0.8.0 | 1.3.0 |
-| [kubesphere](https://charts.kubesphere.io/main) | elasticsearch-exporter | baseline |  | 3.4.0 | 1.1.0 |
-| [kubesphere](https://charts.kubesphere.io/main) | fluentbit-operator | privileged |  | 0.1.0 | 0.9.0 |
-| [kubesphere](https://charts.kubesphere.io/main) | gitlab | baseline |  | 4.2.3 | 13.2.2 |
-| [kubesphere](https://charts.kubesphere.io/main) | harbor | baseline |  | 1.9.3 | 2.5.3 |
-| [kubesphere](https://charts.kubesphere.io/main) | ks-installer | privileged |  | 0.3.1 | 3.2.1 |
-| [kubesphere](https://charts.kubesphere.io/main) | memcached | baseline |  | 3.2.5 | 1.5.20 |
-| [kubesphere](https://charts.kubesphere.io/main) | minio | baseline |  | 6.0.5 | RELEASE.2020-08-08T04-50-06Z |
-| [kubesphere](https://charts.kubesphere.io/main) | mysql | baseline |  | 1.6.8 | 5.7.31 |
-| [kubesphere](https://charts.kubesphere.io/main) | mysql-exporter | baseline |  | 0.5.6 | v0.11.0 |
-| [kubesphere](https://charts.kubesphere.io/main) | nfs-client-provisioner | baseline |  | 4.0.11 | 4.0.2 |
-| [kubesphere](https://charts.kubesphere.io/main) | nginx | baseline |  | 1.3.5 | 1.18.0 |
-| [kubesphere](https://charts.kubesphere.io/main) | pvc-autoresizer | baseline |  | 0.1.0 | v0.1 |
-| [kubesphere](https://charts.kubesphere.io/main) | redis-exporter | baseline |  | 3.4.6 | 1.3.4 |
-| [kubesphere](https://charts.kubesphere.io/main) | sonarqube | privileged |  | 6.7.0 | 8.9-community |
-| [kubesphere](https://charts.kubesphere.io/main) | storageclass-accessor | baseline |  | 0.1.0 | v0.1.1 |
-| [kubesphere](https://charts.kubesphere.io/main) | tomcat | baseline |  | 0.4.3 | 8.5.41 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-dashboard | baseline | -12 | 1.8.4 | 1.8.4 |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | testkube-operator | baseline | -49 | 1.7.0 |  |
+| [kubeshop](https://kubeshop.github.io/helm-charts) | tracetest | baseline | -12 | 0.2.25 | v0.8.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | apisix | baseline | -12 | 0.1.7 | 1.15.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | aws-ebs-csi-driver | privileged | -64 | 0.3.0 | 0.5.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | aws-efs-csi-driver | privileged | -16 | 0.1.0 | 0.3.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | aws-fsx-csi-driver | privileged | -26 | 0.1.0 | 0.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | biz-engine | version_not_evaluable | -12 | 0.1.0 | 1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | ccm-qingcloud | baseline | -14 | 0.1.0 | 1.4.12 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | clickhouse | baseline | -12 | 0.1.1 | 21.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | cni-hostnic | privileged | -48 | 0.1.0 | v1.0.3 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | csi-neonsan | privileged | -49 | 1.2.7 | 1.2.2 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | csi-qingcloud | privileged | -77 | 1.3.6 | 1.3.6 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | curvefs-csi | privileged | -55 | 0.1.0 | 1.0.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | etcd | baseline | -12 | 0.1.3 | 3.3.12 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | ks-core | privileged | -87 | 0.2.0 | v4.0.0-alpha.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | ks-installer | privileged | -38 | 0.3.1 | 3.2.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | metersphere | baseline | -36 | 1.0.0 | 1.6.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | metersphere-chart | baseline | -36 | 1.0.0 | 1.6.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | minio-gateway | baseline | -1 | 0.1.0 | 0.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | mongodb | baseline | -12 | 0.3.2 | 4.2.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | mysql | baseline | -12 | 1.0.2 | 5.7.33 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | nacos | baseline | -12 | 0.1.1 | 1.4.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | online-boutique | baseline | -144 | 0.1.0 | 1.16.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | openelb | privileged | -15 | 0.2.4 | 0.4.4 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | porter | privileged | -15 | 0.2.2 | 0.4.3 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | postgresql | baseline | 0 | 1.0.3 | 11.11.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | rabbitmq | baseline | -12 | 0.3.2 | 3.8.1 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | radondb-mysql | baseline | -12 | 1.0.1 | 5.7.33 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | radondb-postgresql | baseline | 0 | 1.0.2 | 11.11.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | rbd-provisioner | baseline | -22 | 0.1.1 | 0.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | redis | baseline | -12 | 0.3.5 | 6.0.9 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | sample-bookinfo | baseline | -48 | 1.0.0 | 1.16.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | skywalking | privileged | -36 | 3.1.0 | 8.1.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | snapshot-controller | baseline | -22 | 0.2.0 | 4.0.0 |
+| [kubesphere-test](https://charts.kubesphere.io/test) | xenondb | baseline | -12 | 1.0.0 | 5.7.33 |
+| [kubesphere](https://charts.kubesphere.io/main) | apisix | baseline | -1 | 0.7.2 | 2.10.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | apisix-dashboard | baseline | -13 | 0.3.0 | 2.9.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | apisix-ingress-controller | baseline | -36 | 0.8.0 | 1.3.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | elasticsearch-exporter | baseline | 0 | 3.4.0 | 1.1.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | fluentbit-operator | privileged | -25 | 0.1.0 | 0.9.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | gitlab | baseline | -32 | 4.2.3 | 13.2.2 |
+| [kubesphere](https://charts.kubesphere.io/main) | harbor | baseline | 0 | 1.9.3 | 2.5.3 |
+| [kubesphere](https://charts.kubesphere.io/main) | ks-installer | privileged | -38 | 0.3.1 | 3.2.1 |
+| [kubesphere](https://charts.kubesphere.io/main) | memcached | baseline | 0 | 3.2.5 | 1.5.20 |
+| [kubesphere](https://charts.kubesphere.io/main) | minio | baseline | 0 | 6.0.5 | RELEASE.2020-08-08T04-50-06Z |
+| [kubesphere](https://charts.kubesphere.io/main) | mysql | baseline | -25 | 1.6.8 | 5.7.31 |
+| [kubesphere](https://charts.kubesphere.io/main) | mysql-exporter | baseline | -12 | 0.5.6 | v0.11.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | nfs-client-provisioner | baseline | -22 | 4.0.11 | 4.0.2 |
+| [kubesphere](https://charts.kubesphere.io/main) | nginx | baseline | -12 | 1.3.5 | 1.18.0 |
+| [kubesphere](https://charts.kubesphere.io/main) | pvc-autoresizer | baseline | -14 | 0.1.0 | v0.1 |
+| [kubesphere](https://charts.kubesphere.io/main) | redis-exporter | baseline | -12 | 3.4.6 | 1.3.4 |
+| [kubesphere](https://charts.kubesphere.io/main) | sonarqube | privileged | -12 | 6.7.0 | 8.9-community |
+| [kubesphere](https://charts.kubesphere.io/main) | storageclass-accessor | baseline | -14 | 0.1.0 | v0.1.1 |
+| [kubesphere](https://charts.kubesphere.io/main) | tomcat | baseline | -12 | 0.4.3 | 8.5.41 |
 | [kubevela](https://charts.kubevela.net/core) | oam-runtime | error_template |  | 1.5.0-beta.4 | 1.5.0-beta.4 |
 | [kubevela](https://charts.kubevela.net/core) | vector-controller | error_template |  | 0.2.2 | 1.16.0 |
 | [kubevela](https://charts.kubevela.net/core) | vela-core | error_template |  | 1.6.3 | 1.6.3 |
@@ -597,7 +597,7 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kubitodev](https://charts.kubito.dev) | cloudflared | error_template |  | 1.0.2 | 2022.10.3 |
 | [kubitodev](https://charts.kubito.dev) | kubernetes-cloudflare-ddns | error_template |  | 1.0.6 | 1.0.1 |
 | [kubitodev](https://charts.kubito.dev) | traefik-cloudflared-source-ip | error_template |  | 1.0.6 | 2.9.4 |
-| [kubitodev](https://charts.kubito.dev) | traefik-whitelist-ddns | baseline |  | 1.0.4 | 2.8.0 |
+| [kubitodev](https://charts.kubito.dev) | traefik-whitelist-ddns | baseline | 0 | 1.0.4 | 2.8.0 |
 | [kubmeta](https://charts.kubmeta.com/) | blackfire | error_template |  | 1.7.1 | 2 |
 | [kubmeta](https://charts.kubmeta.com/) | kubmeta-lib | error_template |  | 3.1.12 | 3.1.12 |
 | [kubmeta](https://charts.kubmeta.com/) | laravel | error_template |  | 4.2.7 | 8.0.0 |
@@ -608,20 +608,20 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kumusoft](https://identity-for-africa.github.io/kumusoft-helm/) | payment-gateway | error_template |  | 12.0.1 |  |
 | [kumusoft](https://identity-for-africa.github.io/kumusoft-helm/) | payment-portal | error_template |  | 12.0.1 |  |
 | [kured](https://kubereboot.github.io/charts) | kured | error_template |  | 4.1.0 | 1.11.0 |
-| [kurt108](https://kurt108.github.io/helm-charts/) | gotenberg | baseline |  | 5.0.0 | 7.0.3 |
-| [kurt108](https://kurt108.github.io/helm-charts/) | statping | baseline |  | 0.0.3 | v.0.90.74 |
-| [kurt108](https://kurt108.github.io/helm-charts/) | thumbor | baseline |  | 1.1.31 | 6.7.5 |
+| [kurt108](https://kurt108.github.io/helm-charts/) | gotenberg | baseline | 0 | 5.0.0 | 7.0.3 |
+| [kurt108](https://kurt108.github.io/helm-charts/) | statping | baseline | -12 | 0.0.3 | v.0.90.74 |
+| [kurt108](https://kurt108.github.io/helm-charts/) | thumbor | baseline | -12 | 1.1.31 | 6.7.5 |
 | [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | argoapps | empty_no_object |  | 1.2.3 | 1.2.3 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | k8s-rke-backup | privileged |  | 0.0.1 | 0.0.1 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | kitcaddy | baseline |  | 1.3.18 | 1.3.18 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | krakend | baseline |  | 0.0.3 | 0.0.3 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | longhorn | privileged |  | 1.1.1-2 | 1.1.1-2 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | metadoc | baseline |  | 0.0.6 | 0.0.6 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | multitenant | version_not_evaluable |  | 1.6.6 | 1.6.6 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | nsp-prometheus-exporter | baseline |  | 1.0.19 | 1.0.19 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | openid | baseline |  | 1.3.1 | 1.3.1 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | service | baseline |  | 1.29.2 | 1.29.2 |
-| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | statefulset | baseline |  | 1.0.2 | 1.0.2 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | k8s-rke-backup | privileged | 0 | 0.0.1 | 0.0.1 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | kitcaddy | baseline | -1 | 1.3.18 | 1.3.18 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | krakend | baseline | -12 | 0.0.3 | 0.0.3 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | longhorn | privileged | -70 | 1.1.1-2 | 1.1.1-2 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | metadoc | baseline | -24 | 0.0.6 | 0.0.6 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | multitenant | version_not_evaluable | 0 | 1.6.6 | 1.6.6 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | nsp-prometheus-exporter | baseline | -1 | 1.0.19 | 1.0.19 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | openid | baseline | -1 | 1.3.1 | 1.3.1 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | service | baseline | -1 | 1.29.2 | 1.29.2 |
+| [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | statefulset | baseline | 0 | 1.0.2 | 1.0.2 |
 | [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | strongswan | empty_no_object |  | 0.2.1 | 0.2.1 |
 | [kvalitetsit](https://raw.githubusercontent.com/KvalitetsIT/helm-repo/master/) | sts | error_template |  | 1.0.27 | 1.0.27 |
 | [kvaps](https://kvaps.github.io/charts) | kube-fencing | error_template |  | 2.3.0 | 2.3.0 |
@@ -638,8 +638,8 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kvkservice](https://raw.githubusercontent.com/ConductionNL/kvkservice/master/api/helm/) | kvkservice | error_template |  | 1.0.0 | V1.0 |
 | [kwatch](https://kwatch.dev/charts) | kwatch | error_template |  | 0.5.0 | v0.5.0 |
 | [kylesferrazza](https://charts.kylesferrazza.com) | cloudflared | error_template |  | 2022.9.2 | 2022.9.1-amd64 |
-| [kylesferrazza](https://charts.kylesferrazza.com) | node-red | baseline |  | 2022.9.25 | 2.2.3-12 |
-| [kylesferrazza](https://charts.kylesferrazza.com) | ohif | baseline |  | 0.1.0 |  |
+| [kylesferrazza](https://charts.kylesferrazza.com) | node-red | baseline | -12 | 2022.9.25 | 2.2.3-12 |
+| [kylesferrazza](https://charts.kylesferrazza.com) | ohif | baseline | -12 | 0.1.0 |  |
 | [kyuubi](https://hddong.github.io/kyuubi/kyuubi-helm/) | kyuubi | error_template |  | 0.1.0 | 1.5.2 |
 | [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | kube-bench-adapter | error_template |  | 1.1.6 | 1.0.0 |
 | [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | kyverno | error_template |  | 1.5.2 | v1.8.1-n4kbuild.1 |
@@ -648,6 +648,6 @@ Evaluation date: 2022-11-29, 22:57:08
 | [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | nirmata-aws-adapter | error_template |  | 0.1.0 | 0.1.0 |
 | [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | nirmata-venafi-adapter | error_template |  | 0.1.1 | v0.1.0 |
 | [kyverno-nirmata](https://nirmata.github.io/kyverno-charts/) | venafi-adapter | error_template |  | 0.1.10 | v0.1.0 |
-| [kyverno](https://kyverno.github.io/kyverno/) | kyverno | error_template |  | 2.6.2 | v1.8.2 |
+| [kyverno](https://kyverno.github.io/kyverno/) | kyverno | error_download |  | 2.6.3-rc.1 | v1.8.3-rc.1 |
 | [kyverno](https://kyverno.github.io/kyverno/) | kyverno-crds | error_template |  | 2.0.3 | v1.4.3 |
 | [kyverno](https://kyverno.github.io/kyverno/) | kyverno-policies | error_template |  | 2.6.2 | v1.8.2 |

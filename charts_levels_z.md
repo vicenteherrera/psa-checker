@@ -2,9 +2,9 @@
 
 ## Artifact Hub's Helm charts evaluation
 
-Evaluation date: 2022-11-29, 22:57:08
+Evaluation date: 2022-12-01, 09:47:41
 
-[main](./charts_levels)&nbsp; [A(1416)](./charts_levels_a)&nbsp; [B(475)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(536)](./charts_levels_g)&nbsp; [H(241)](./charts_levels_h)&nbsp; [I(226)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(643)](./charts_levels_k)&nbsp; [L(227)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(485)](./charts_levels_o)&nbsp; [P(475)](./charts_levels_p)&nbsp; [Q(14)](./charts_levels_q)&nbsp; [R(359)](./charts_levels_r)&nbsp; [S(834)](./charts_levels_s)&nbsp; [T(974)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(388)](./charts_levels_w)&nbsp; [X(2)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
+[main](./charts_levels)&nbsp; [A(1416)](./charts_levels_a)&nbsp; [B(475)](./charts_levels_b)&nbsp; [C(1008)](./charts_levels_c)&nbsp; [D(423)](./charts_levels_d)&nbsp; [E(233)](./charts_levels_e)&nbsp; [F(271)](./charts_levels_f)&nbsp; [G(551)](./charts_levels_g)&nbsp; [H(242)](./charts_levels_h)&nbsp; [I(227)](./charts_levels_i)&nbsp; [J(180)](./charts_levels_j)&nbsp; [K(643)](./charts_levels_k)&nbsp; [L(228)](./charts_levels_l)&nbsp; [M(401)](./charts_levels_m)&nbsp; [N(203)](./charts_levels_n)&nbsp; [O(485)](./charts_levels_o)&nbsp; [P(475)](./charts_levels_p)&nbsp; [Q(14)](./charts_levels_q)&nbsp; [R(360)](./charts_levels_r)&nbsp; [S(835)](./charts_levels_s)&nbsp; [T(976)](./charts_levels_t)&nbsp; [U(37)](./charts_levels_u)&nbsp; [V(99)](./charts_levels_v)&nbsp; [W(388)](./charts_levels_w)&nbsp; [X(2)](./charts_levels_x)&nbsp; [Y(58)](./charts_levels_y)&nbsp; [Z(30)](./charts_levels_z)&nbsp; 
 
 | repo | chart | PSS level | BadRobot score | chart version | app version |
 |------|------|------|------|------|------|
@@ -12,7 +12,7 @@ Evaluation date: 2022-11-29, 22:57:08
 | [zammad](https://zammad.github.io/zammad-helm) | zammad | error_template |  | 7.1.1 | 5.3.0-2 |
 | [zanise-jenkins-helm-chart](https://zanise.github.io/Kubernetes-LW-task/chart1) | jenkins | error_template |  | 0.1.0 | 1.1 |
 | [zbl-app](https://zeblok.github.io/zbl-app-helm/) | zbl-app | error_template |  | 1.2.3 | 1.16.1 |
-| [zbl-harbor](https://zeblok.github.io/zbl-harbor-helm/) | harbor | baseline |  | 1.10.1 | 2.6.1 |
+| [zbl-harbor](https://zeblok.github.io/zbl-harbor-helm/) | harbor | baseline | 0 | 1.10.1 | 2.6.1 |
 | [zbytes](https://zbytes.github.io/helm-charts/) | ecr-creds | error_download |  | 1.0.3 | 1.0.0 |
 | [zeero-minio](https://cts-zeero.github.io/minio) | minio | error_template |  | 8.0.3 | master |
 | [zeet](https://helm.zeet.dev) | posthog | error_template |  | 0.23.2 | 1.36.1 |
@@ -22,18 +22,18 @@ Evaluation date: 2022-11-29, 22:57:08
 | [zekker6](https://zekker6.github.io/helm-charts) | language-tool | error_template |  | 1.0.0 | 5.8 |
 | [zekker6](https://zekker6.github.io/helm-charts) | matrix | error_template |  | 2.13.0 | 1.71.0 |
 | [zekker6](https://zekker6.github.io/helm-charts) | paperless | error_template |  | 9.5.2 | 1.9.2 |
-| [zelic-io](https://zelic-io.github.io/charts) | cloudflare-zero-trust-operator | error_download |  | 0.0.6 | 0.0.6 |
+| [zelic-io](https://zelic-io.github.io/charts) | cloudflare-zero-trust-operator | error_download |  | 0.1.1 | 0.1.1 |
 | [zeroconnect](https://saas-repo.zerosystems.com/helm) | zeroconnectapi | error_template |  | 1.9.0 | 1.9.0.41 |
-| [zerotest](https://raw.githubusercontent.com/zzhzero/hub/master/docs/chart) | artifact-hub | version_not_evaluable |  | 1.1.0 | 1.1.0 |
+| [zerotest](https://raw.githubusercontent.com/zzhzero/hub/master/docs/chart) | artifact-hub | version_not_evaluable | -24 | 1.1.0 | 1.1.0 |
 | [zimagi](https://zimagi.github.io/charts) | argocd-apps | empty_no_object |  | 0.1.3 |  |
-| [zimagi](https://zimagi.github.io/charts) | zimagi | baseline |  | 1.0.62 | 0.11.7 |
+| [zimagi](https://zimagi.github.io/charts) | zimagi | baseline | -64 | 1.0.62 | 0.11.7 |
 | [zitadel](https://charts.zitadel.com) | zitadel | error_template |  | 3.4.0 | v2.13.1 |
-| [zloi-space](https://chartmuseum.zloi.space/) | alertmanager-matrix-forwarder | baseline |  | 1.0.0 | 1.0.0 |
-| [zloi-space](https://chartmuseum.zloi.space/) | clickhouse | baseline |  | 1.2.0 | 21.3.20 |
-| [zloi-space](https://chartmuseum.zloi.space/) | grafana-matrix-forwarder | baseline |  | 1.0.0 | 0.6.0 |
+| [zloi-space](https://chartmuseum.zloi.space/) | alertmanager-matrix-forwarder | baseline | -12 | 1.0.0 | 1.0.0 |
+| [zloi-space](https://chartmuseum.zloi.space/) | clickhouse | baseline | -24 | 1.2.0 | 21.3.20 |
+| [zloi-space](https://chartmuseum.zloi.space/) | grafana-matrix-forwarder | baseline | -12 | 1.0.0 | 0.6.0 |
 | [zookeeper](https://patanjalic.github.io/zookeeper-clone/) | zookeeper | error_template |  | 7.6.0 | 3.7.0 |
 | [zooz](https://zooz.github.io/helm/) | predator | error_template |  | 1.6.3 | 1.6 |
-| [zot](https://zotregistry.io/helm-charts/) | zot | error_template |  | 0.1.14 | v1.4.3-rc8 |
+| [zot](https://zotregistry.io/helm-charts/) | zot | error_download |  | 0.1.16 | v1.4.3 |
 | [zrepo-test](http://pqbbvd.natappfree.cc/charts/index.yaml) | acs-engine-autoscaler | empty_no_object |  | 2.1.3 | 2.1.1 |
 | [zrepo-test](http://pqbbvd.natappfree.cc/charts/index.yaml) | mychart1 | error_template |  | 0.3.0 | 1.16.0 |
 | [zrepo-test](http://pqbbvd.natappfree.cc/charts/index.yaml) | nginx | error_template |  | 5.1.5 | 1.16.1 |
