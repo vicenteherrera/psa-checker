@@ -6,6 +6,7 @@ download_charts_info:
 	helm search hub -o yaml > result/helm_charts.yaml
 
 evaluate:
+	mkdir -p ./result/cache
 	python3 hub_eval/iterate_charts.py
 
 reset:
