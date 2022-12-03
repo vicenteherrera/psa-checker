@@ -1,4 +1,4 @@
-.vscode/**
+.vscode
 release/psa-checker
 util/hub_eval/result/*
 venv/
