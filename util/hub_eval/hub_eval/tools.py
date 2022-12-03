@@ -100,11 +100,10 @@ def evaluate_badrobot(repo, chart, version):
 # --------------------------------------------------------------------
 
 def evaluate_tool(repo, chart, version, tool):
-    match tool:
-        case "pss":
-            return evaluate_pss(repo, chart, version)
-        case "badrobot":
-            return evaluate_badrobot(repo, chart, version)
+    if tool=="pss":
+        return evaluate_pss(repo, chart, version)
+    elif tool=="badrobot":
+        return evaluate_badrobot(repo, chart, version)
 
 # --------------------------------------------------------------------
 
