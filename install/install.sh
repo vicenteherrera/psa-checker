@@ -4,6 +4,7 @@
 
 set -e
 
+executable_folder=${INSTALL_DIR:-"/usr/local/bin"} # Eventually, the executable file will be placed here
 target="vicenteherrera/psa-checker"
 owner="vicenteherrera"
 repo="psa-checker"
@@ -45,10 +46,14 @@ get_os(){
     echo $(uname -s | awk '{print tolower($0)}')
 }
 
+if [ ! -d "$executable_folder" ]; then
+    echo "**Error: install directory $executable_folder doesn't exist"
+fi
+
 os=$(get_os)
 arch=$(get_arch)
 file_name="${exe_name}_${os}_${arch}.tar.gz" # the file name should be download
-executable_folder="/usr/local/bin" # Eventually, the executable file will be placed here
+
 
 # if version is empty
 if [ -z "$version" ]; then
