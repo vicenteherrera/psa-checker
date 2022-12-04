@@ -1,4 +1,3 @@
-<div align="center">
 
 # Pod Security Admission command line checker
 
@@ -14,7 +13,6 @@
 [Examples](#examples) | [Installation](#Installation) |
 [Build](#build-the-binary) | [Artifact Hub](#artifact-hub-helm-charts)
 
-</div>
 
 ## Overview
 
@@ -22,9 +20,9 @@ Command line tool to statically checks for _Pod Security Standards_ levels on Ku
 
 GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteherrera/psa-checker)  
 Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
-Installation: 
+Installation to `$GOPATH/bin`:  
 ```bash
-curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash -s
+curl -fsSL https://vicenteherrera/psa-checker/main/install/install.sh | INSTALL_DIR=$GOPATH/bin bash
 ```  
 
 
@@ -132,13 +130,20 @@ kubectl get pods -A -oyaml | yq '.items[] | split_doc' | psa-checker -l baseline
 This will work even if you don't have enabled the admission controller for Pod Security Standards on your cluster (even an old cluster where it's not present at all), as the evaluation is done locally.
 
 
-## Installation
+## Installation and Update
 
-To install the latest release, go to [releases](https://github.com/vicenteherrera/psa-checker/releases) and download the latest version for your platform, or use these script:
+To install or update to the latest release, go to [releases](https://github.com/vicenteherrera/psa-checker/releases), download the latest version for your platform, and extract the binary in a directory on your path.
+
+Or use these script:
 
 ```bash
-# Linux / MacOs (Bash): install binary to /usr/local/bin
-curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash -s
+# Linux / MacOs (Bash)
+
+## install/update to `.go/bin`: 
+curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | INSTALL_DIR=$GOPATH/bin bash
+
+## install/update to /usr/local/bin (requires sudo)
+curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash
 
 # Windows (Powershell)
 iwr https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.ps1 -useb | iex
