@@ -21,7 +21,7 @@ GitHub Repo: [github.com/vicenteherrera/psa-checker](https://github.com/vicenteh
 Web: [vicenteherrera.com/psa-checker](https://vicenteherrera.com/psa-checker)  
 Installation to `$GOPATH/bin`:  
 ```bash
-curl -fsSL https://vicenteherrera/psa-checker/main/install/install.sh | INSTALL_DIR=$GOPATH/bin bash
+curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | INSTALL_DIR="$(go env GOPATH)/bin" bash
 ```  
 
 
@@ -138,8 +138,8 @@ Or use these script:
 ```bash
 # Linux / MacOs (Bash)
 
-## install/update to `.go/bin`: 
-curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | INSTALL_DIR=$GOPATH/bin bash
+## install/update to `.go/bin`:
+curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | INSTALL_DIR="$(go env GOPATH)/bin" bash
 
 ## install/update to /usr/local/bin (requires sudo)
 curl -fsSL https://raw.githubusercontent.com/vicenteherrera/psa-checker/main/install/install.sh | sudo bash
