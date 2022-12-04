@@ -1,4 +1,3 @@
-<div align="center">
 
 # Pod Security Admission command line checker
 
@@ -13,8 +12,6 @@
 [Warning](#warning) | [How it works](#how-it-works) |
 [Examples](#examples) | [Installation](#Installation) |
 [Build](#build-the-binary) | [Artifact Hub](#artifact-hub-helm-charts)
-
-</div>
 
 ## Overview
 
