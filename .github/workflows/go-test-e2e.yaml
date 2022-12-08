@@ -9,6 +9,7 @@ on:
       - "*.go"
       - ./pkg
       - ./cmd
+      - ./.github
   pull_request:
     branches: [master, main]
     paths:
@@ -16,6 +17,7 @@ on:
       - "*.go"
       - ./pkg
       - ./cmd
+      - ./.github
   workflow_dispatch:
   release:
     types:

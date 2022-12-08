@@ -19,6 +19,7 @@ jobs:
 
       - name: Check out code
         uses: actions/checkout@v3
+        fetch-depth: 0
 
       - name: Launch goreleaser
         uses: goreleaser/goreleaser-action@v3
