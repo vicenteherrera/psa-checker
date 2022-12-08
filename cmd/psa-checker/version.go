@@ -12,6 +12,8 @@ var (
 	// vars injected with ldflags at build time (this can be done automatically by goreleaser)
 	version = "unknown"
 	commit  = "unknown"
+	date    = "unknown"
+	builtBy = "Unknown"
 )
 
 func init() {
@@ -22,6 +24,6 @@ var versionCmd = &cobra.Command{
 	Use:   `version`,
 	Short: "Prints badrobot version",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Printf("version %s\ngit commit %s\n", version, commit)
+		fmt.Printf("version %s, git commit %s, date %s, built by %s \n", version, commit, date, builtBy)
 	},
 }
