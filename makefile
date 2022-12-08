@@ -6,8 +6,10 @@ GIT_TAG := $(shell bash -c 'TAG=$$(git -c log.showSignature=false \
 	describe --tags --exact-match --abbrev=0 $(GIT_SHA) 2>/dev/null); echo "$${TAG:-dev}"')
 
 LDFLAGS=-s -w \
-        -X github.com/vicenteherrera/psa-checker/cmd/psa-checker.version=$(GIT_TAG)\
-        -X github.com/vicenteherrera/psa-checker/cmd/psa-checker.commit=$(GIT_SHA)
+        -X github.com/vicenteherrera/psa-checker/cmd/psa-checker.version=$(GIT_TAG) \
+        -X github.com/vicenteherrera/psa-checker/cmd/psa-checker.commit=$(GIT_SHA) \
+		-X github.com/vicenteherrera/psa-checker/cmd/psa-checker.date=$(date +"%Y-%m-%dT%H:%M:%S%z") \
+		-X github.com/vicenteherrera/psa-checker/cmd/psa-checker.builtBy="makefile"
 
 # --------------------------------------------------------------------------------------
 
