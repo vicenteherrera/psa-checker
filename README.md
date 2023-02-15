@@ -84,7 +84,7 @@ psa-checker --help
 
 ### Checking a Helm chart
 
-You can run `tempalte` for a Helm chart with your specific parameters, and feed the renderd YAML to this tool to have an evaluation for the whole chart.
+You can run `template` for a Helm chart with your specific parameters, and feed the renderd YAML to this tool to have an evaluation for the whole chart. This is useful to run locally from your computer without any cluster, or on a pipeline before deploying anything, and let it fail if the desired PSS level is breached.
 
 ```bash
 # You can process a Helm chart from stdin
@@ -93,7 +93,18 @@ helm repo update
 helm template prometheus-community/kube-prometheus-stack | psa-checker --level restricted -f -
 ```
 
-This will work also for local charts that you are working with on your hard drive.
+Sometimes charts have parts that are only rendered when a specific API is detected on the connected Kubernetes cluster. If you have a connection to a cluster, you can render the exact version of manifests that would be deployed, and test them, with something like this:
+
+```bash
+# Render as dry-run, and pipe output to psa-checker
+# The first part is parameters used, we need to remove everything until "HOOKS:" appear
+# We need to remove the word "MANIFESTS:", and we need to cut everything after "NOTES:"
+helm install my-prometheus prometheus-community/kube-prometheus-stack --dry-run --debug 2>/dev/null \
+  | sed '1,/^HOOKS:$/D' \
+  | sed 's/^MANIFESTS:$//g' \
+  | sed '/^NOTES:$/,$d' \
+  | psa-checker --level restricted -f -
+```
 
 ### Validating a Helm chart in a pipeline
 
