@@ -10,7 +10,8 @@
 
 [Overview](#overview) | [Motivation](#motivation) |
 [Warning](#warning) | [How it works](#how-it-works) |
-[Examples](#examples) | [Installation](#Installation) |
+[Examples](#examples) | [Container](#run-without-installing-using-a-container) |
+[Installation](#installation-and-update) |
 [Build](#build-the-binary) | [Artifact Hub](#artifact-hub-helm-charts)
 
 ## Overview
@@ -138,6 +139,25 @@ kubectl get pods -A -oyaml | yq '.items[] | split_doc' | psa-checker -l baseline
 ```
 
 This will work even if you don't have enabled the admission controller for Pod Security Standards on your cluster (even an old cluster where it's not present at all), as the evaluation is done locally.
+
+
+## Run without installing (using a container)
+
+If you prefer not to install a local binary, you can run `psa-checker` directly from its container image:
+
+```bash
+docker run --rm \
+  -v "$(pwd)":/workspace \
+  -w /workspace \
+  quay.io/vicenteherrera/psa-checker:latest --file test/deployment.yaml --level restricted
+```
+
+Or pipe rendered Helm manifests directly to the container:
+
+```bash
+helm template prometheus-community/kube-prometheus-stack \
+  | docker run --rm -i quay.io/vicenteherrera/psa-checker:latest --file - --level baseline
+```
 
 
 ## Installation and Update

@@ -1,10 +1,10 @@
-FROM golang:1.18 as builder
+FROM golang:1.26.1 AS builder
 WORKDIR /source
 COPY . .
 RUN make build-release && \
     chmod -R a+rx /source/release
 
-FROM gcr.io/distroless/static-debian11
+FROM gcr.io/distroless/static-debian12
 WORKDIR /data
 WORKDIR /app
 COPY --from=builder /source/release/ .
