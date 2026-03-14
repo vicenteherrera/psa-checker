@@ -106,7 +106,8 @@ func (e *psaEvaluator) evaluate(obj runtime.Object, gKV *schema.GroupVersionKind
 	var podMetadata v1.ObjectMeta
 	var podSpec corev1.PodSpec
 	var name string
-	evaluator, _ := policy.NewEvaluator(policy.DefaultChecks())
+	// TODO: accept parameter for the version to evaluate against, for now we will use latest
+	evaluator, _ := policy.NewEvaluator(policy.DefaultChecks(), nil)
 
 	// TODO: Defer return true or false after whole document evaluation depending on configuration
 	// f.e.: You may want to consider that including non evaluable versions should render the level as privileged
