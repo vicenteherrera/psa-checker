@@ -1,53 +1,58 @@
 module github.com/vicenteherrera/psa-checker
 
-go 1.18
+go 1.25.0
 
 require (
-	github.com/onsi/ginkgo/v2 v2.5.0
-	github.com/onsi/gomega v1.24.1
-	github.com/spf13/cobra v1.4.0
-	github.com/spf13/viper v1.13.0
+	github.com/onsi/ginkgo/v2 v2.27.2
+	github.com/onsi/gomega v1.38.2
+	github.com/spf13/cobra v1.10.2
+	github.com/spf13/viper v1.21.0
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/kubectl v0.25.2
-	k8s.io/pod-security-admission v0.25.2
+	k8s.io/kubectl v0.35.2
+	k8s.io/pod-security-admission v0.35.2
 )
 
 require (
-	github.com/google/go-cmp v0.5.9 // indirect
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
-	sigs.k8s.io/yaml v1.3.0 // indirect
+	github.com/Masterminds/semver/v3 v3.4.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
+	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
+	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
+	github.com/google/pprof v0.0.0-20250403155104-27863c87afa6 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
+	github.com/sagikazarmark/locafero v0.12.0 // indirect
+	github.com/spf13/pflag v1.0.10 // indirect
+	github.com/x448/float16 v0.8.4 // indirect
+	go.yaml.in/yaml/v2 v2.4.4 // indirect
+	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	golang.org/x/mod v0.33.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/tools v0.42.0 // indirect
+	k8s.io/kube-openapi v0.0.0-20260304202019-5b3e3fdb0acf // indirect
+	sigs.k8s.io/randfill v1.0.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // indirect
+	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
 require (
-	github.com/fsnotify/fsnotify v1.5.4 // indirect
-	github.com/go-logr/logr v1.2.3 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/fsnotify/fsnotify v1.9.0 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/magiconair/properties v1.8.6 // indirect
-	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/spf13/afero v1.9.2 // indirect
-	github.com/spf13/cast v1.5.0 // indirect
-	github.com/spf13/jwalterweatherman v1.1.0 // indirect
-	github.com/subosito/gotenv v1.4.1 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
+	github.com/spf13/afero v1.15.0 // indirect
+	github.com/spf13/cast v1.10.0 // indirect
+	github.com/subosito/gotenv v1.6.0 // indirect
+	golang.org/x/net v0.52.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/ini.v1 v1.67.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/api v0.25.2
-	k8s.io/apimachinery v0.25.2
-	k8s.io/client-go v0.25.2 // indirect
-	k8s.io/component-base v0.25.2 // indirect
-	k8s.io/klog/v2 v2.80.1 // indirect
-	k8s.io/utils v0.0.0-20220922133306-665eaaec4324 // indirect
-	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
+	k8s.io/api v0.35.2
+	k8s.io/apimachinery v0.35.2
+	k8s.io/client-go v0.35.2 // indirect
+	k8s.io/component-base v0.35.2 // indirect
+	k8s.io/klog/v2 v2.140.0 // indirect
+	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2 // indirect
+	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 )

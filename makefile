@@ -11,7 +11,7 @@ LDFLAGS=-s -w \
 		-X github.com/vicenteherrera/psa-checker/cmd/psa-checker.date=$(date +"%Y-%m-%dT%H:%M:%S%z") \
 		-X github.com/vicenteherrera/psa-checker/cmd/psa-checker.builtBy="makefile"
 
-GO_VERSION := 1.18
+GO_VERSION := 1.26.1
 
 
 TARGET_BIN=psa-checker
