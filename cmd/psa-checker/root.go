@@ -38,7 +38,11 @@ psa-checker help`,
 
 		// Main processing
 		client := analyzer.NewClient(filename, level)
-		response, _ := client.AnalyzeFile()
+		response, err := client.AnalyzeFile()
+		if err != nil {
+			fmt.Fprintln(os.Stderr, err.Error())
+			os.Exit(1)
+		}
 		if response.Allowed {
 			fmt.Fprintln(os.Stderr, "Manifest(s) comply with PSS level "+level)
 			exitCode = 0
