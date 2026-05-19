@@ -41,7 +41,7 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 			return response, err
 		}
 	} else {
-		fmt.Printf("Reading from stdinv\n")
+		fmt.Printf("Reading from stdin\n")
 		scanner := bufio.NewScanner(os.Stdin)
 		for scanner.Scan() {
 			input += scanner.Text() + "\n"
@@ -52,7 +52,7 @@ func (s *client) AnalyzeFile() (AnalyzerResponse, error) { //uppercase first let
 		stream = []byte(input)
 
 		if len(stream) == 0 {
-			return response, errors.New("Empty imput stream")
+			return response, errors.New("empty input stream")
 		}
 	}
 

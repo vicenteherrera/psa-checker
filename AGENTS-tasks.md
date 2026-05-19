@@ -72,32 +72,6 @@ var _ = Describe("PsaEvaluator Error Handling", func() {
 
 ---
 
-### 1.2 Fix Typos in client.go
-
-**Location:** `pkg/analyzer/client.go` lines 44 and 55
-
-**Why:** Typos in user-facing messages and error messages reduce professionalism and can confuse users.
-
-**How to Implement:**
-1. Line 44: Change `"Reading from stdinv\n"` to `"Reading from stdin\n"`
-2. Line 55: Change `errors.New("Empty imput stream")` to `errors.New("empty input stream")`
-
-**Testing:**
-- **E2E Test:** Add test case that pipes empty input and verifies correct error message
-- **Test File:** Add to `test/test-fail.sh`
-
-```bash
-# Test empty stdin input
-echo "" | ./release/psa-checker -f - -l baseline 2>&1 | grep -q "empty input stream"
-if [ $? -ne 0 ]; then
-    echo "FAIL: Empty stdin should return 'empty input stream' error"
-    exit 1
-fi
-echo "PASS: Empty stdin error message correct"
-```
-
----
-
 ### 1.3 Implement Structured Logging
 
 **Location:** Throughout `pkg/analyzer/psaEvaluator.go`
@@ -2232,7 +2206,7 @@ rootCmd.Flags().String("metrics-addr", "", "Address to expose Prometheus metrics
 
 This document outlines 30+ potential improvements organized into 7 categories:
 
-1. **Critical Bug Fixes** (4 tasks) - Foundation improvements for stability
+1. **Critical Bug Fixes** (3 tasks) - Foundation improvements for stability
 2. **Existing TODOs** (4 tasks) - Complete planned features
 3. **User Experience** (7 tasks) - Make tool more user-friendly and capable
 4. **Testing** (5 tasks) - Improve test coverage and quality assurance
@@ -2244,11 +2218,10 @@ This document outlines 30+ potential improvements organized into 7 categories:
 
 ### High Priority (Do First):
 1. Replace panic() with proper error handling (1.1)
-2. Fix typos (1.2)
-3. Configurable PSS version (2.1)
-4. JSON output format (3.1)
-5. Summary statistics (3.3)
-6. Error path testing (4.5)
+2. Configurable PSS version (2.1)
+3. JSON output format (3.1)
+4. Summary statistics (3.3)
+5. Error path testing (4.5)
 
 ### Medium Priority (Do Next):
 1. Structured logging (1.3)

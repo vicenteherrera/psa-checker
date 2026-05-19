@@ -76,6 +76,7 @@ Run `make lint test` before declaring work done on a Go change.
 
 ## Conventions
 
+- You are already executed from inside the project directory. Don't `cd` into the repo root before running commands — use paths relative to it and only if needed.
 - Keep changes minimal and focused; this is a small CLI, not a framework.
 - Don't introduce new dependencies without a clear reason — the upstream `pod-security-admission` package is the core dependency and should stay that way.
 - Preserve the existing CLI surface unless the user explicitly asks to change it (alpha, but users exist and CI pipelines depend on flags + exit codes).
