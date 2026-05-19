@@ -33,4 +33,9 @@ output=$(run_checker --filename nonexistent.yaml 2>&1)
 [ $? -ne 1 ] && exit 1
 if [[ "$output" != *"no such file or directory"* ]]; then exit 1; fi
 
+# Test for empty stdin input
+output=$(printf '' | run_checker --filename - --level baseline 2>&1)
+[ $? -ne 1 ] && exit 1
+if [[ "$output" != *"empty input stream"* ]]; then exit 1; fi
+
 echo "[ success ] Non compliant manifests succesfully flagged"
